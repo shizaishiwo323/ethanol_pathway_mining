@@ -27,10 +27,10 @@ The detailed rules are stored in `02_metadata/pathway_annotation_rules.md`, and 
 
 `scripts/02_extract_mechanism_sentences.py` searches extracted text for mechanism-related trigger terms, keeps the page number, previous sentence, candidate sentence, next sentence, trigger categories, and keyword score. It writes raw and deduplicated outputs to `04_extract_results/`.
 
-## 5. AI-Assisted Semantic Filtering
+## 5. AI-Oriented Semantic Pre-Filtering
 
-`scripts/02b_ai_filter_mechanism_sentences.py` applies the AI sentence-filtering rubric in `02_metadata/ai_sentence_filter_prompt.md` to separate likely mechanism-relevant sentences from product-performance, background, or parsing-noise sentences.
+`scripts/02b_ai_filter_mechanism_sentences.py` applies an AI-oriented rule-based pre-filtering rubric aligned with `02_metadata/ai_sentence_filter_prompt.md`. It writes all labeled sentences to `04_extract_results/ai_mechanism_sentence_labeled_all.xlsx` and the high/medium mechanism candidates to `04_extract_results/ai_mechanism_sentence_candidates.xlsx`.
 
 ## 6. Pathway Matching And Statistics
 
-Downstream P1-P6 matching and statistics can be run after the semantic filtering stage. Automatic labels remain candidate labels unless they are verified by a stronger review process.
+Downstream P1-P6 matching and statistics can be run after the semantic pre-filtering stage. Automatic labels remain candidate labels unless they are verified by a stronger review process.

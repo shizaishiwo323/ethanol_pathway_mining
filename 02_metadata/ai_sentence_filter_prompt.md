@@ -14,6 +14,7 @@ Return structured labels:
 | relevance_level | high / medium / low / noise |
 | sentence_type | mechanism / pathway / intermediate / product_performance / background / parsing_noise |
 | ethanol_specific | yes / no / uncertain |
+| oxygenate_related | yes / no |
 | needs_context | yes / no |
 | rationale | short reason |
 
@@ -24,3 +25,5 @@ Medium relevance means the sentence is probably useful but needs nearby context.
 Low relevance means the sentence mentions related keywords but mainly discusses catalyst performance, broad C2+ products, or non-ethanol chemistry.
 
 Noise means the sentence is PDF parsing noise, references, figure text fragments, or does not contain interpretable mechanism content.
+
+Use `ethanol_specific = yes` only when ethanol or C2H5OH is explicitly present. Use `oxygenate_related = yes` for C2+ oxygenates or oxygenates when ethanol is not explicit.
