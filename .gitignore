@@ -13,6 +13,7 @@ env/
 
 # Keep copyrighted or large PDFs local by default.
 01_pdfs/*.pdf
+paper_pdf_folder/*.pdf
 
 # Temporary files
 *.tmp
