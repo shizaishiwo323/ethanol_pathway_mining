@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# Keep copyrighted or large PDFs local by default.
+01_pdfs/*.pdf
+
+# Temporary files
+*.tmp
+*.bak
+~$*
