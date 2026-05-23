@@ -1,0 +1,886 @@
+
+
+===== PAGE 1 =====
+
+ARTICLE
+OPEN
+https://doi.org/10.1038/s41467-022-31427-9
+– –
+Boosting electrocatalytic CO to ethanol
+2
+–
+production via asymmetric C C coupling
+Pengtang Wang1,2,4, Hao Yang 3,4, Cheng Tang1, Yu Wu3, Yao Zheng 1, Tao Cheng 3, Kenneth Davey 1,
+✉ ✉
+Xiaoqing Huang 2 & Shi-Zhang Qiao 1
+Electroreduction of carbon dioxide (CO ) into multicarbon products provides possibility of
+2
+large-scale chemicals production and is therefore of significant research and commercial
+interest. However, the production efficiency for ethanol (EtOH), a significant chemical
+feedstock, is impractically low because of limited selectivity, especially under high current
+operation.Herewereportanewsilver–modifiedcopper–oxidecatalyst(dCu O/Ag )that
+2 2.3%
+exhibitsasignificantFaradaicefficiencyof40.8%andenergyefficiencyof22.3%forboosted
+EtOH production. Importantly, it achieves CO –to–ethanol conversion under high current
+2
+operation with partial current density of 326.4mAcm−2 at −0.87V vs reversible hydrogen
+electrodeto rankhighlysignificantlyamongstreported Cu–basedcatalysts. Basedon in situ
+spectra studies we show that significantly boosted production results from tailored intro-
+duction of Ag to optimize the coordinated number and oxide state of surface Cu sites, in
+which the *CO adsorption is steered as both atop and bridge configuration to trigger
+asymmetric C–C coupling for stablization of EtOH intermediates.
+1SchoolofChemicalEngineeringandAdvancedMaterials,TheUniversityofAdelaide,Adelaide,SA5005,Australia.2StateKeyLaboratoryofPhysical
+ChemistryofSolidSurfaces,CollegeofChemistryandChemicalEngineering,XiamenUniversity,Xiamen361005,China.3InstituteofFunctionalNano&Soft
+Materials(FUNSOM),JiangsuKeyLaboratoryforCarbon-BasedFunctionalMaterials&Devices,JointInternationalResearchLaboratoryofCarbon-Based
+FunctionalMaterialsandDevices,SoochowUniversity,Suzhou215123,China.4Theseauthorscontributedequally:PengtangWang,HaoYang.
+✉
+email:hxq006@xmu.edu.cn;s.qiao@adelaide.edu.au
+NATURECOMMUNICATIONS| (2022) 13:3754 |https://doi.org/10.1038/s41467-022-31427-9|www.nature.com/naturecommunications 1
+;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-31427-9
+E
+lectroreduction of carbon dioxide (CO ) to high-value exhibited an asymmetric C–C coupling to stabilize reaction
+2
+chemicals and fuels is seen to be practically promising for intermediates for boosted EtOH production under high current
+the utilization of renewable electricity and mitigation of density.Theas-obtaineddCu O/Ag exhibitsFEandEE for
+2 2.3% HC
+CO emissions, which has emerged as a frontier in energy con- EtOH of, 40.8% and 22.4%, respectively. We show in a direct
+2
+version and carbon
+neutrality1–3.
+During the CO reduction comparison with reported catalysts that it has the greatest
+2
+reaction (CO RR), the applied electrical energy is converted to reported partial EtOH current density with 326.4mAcm
+−2.
+In
+2
+stored chemical energy via reorganizing the molecular bonds in situ studies confirm that the redispersion of Ag into Cu sig-
+CO and water to generate products with one (C ), or two or nificantly optimizes the coordinated number and oxide state of
+2 1
+more (C 2+) carbon atoms, under the effect of
+catalysts4–6.
+Most Cu. In this way, the
+*
+CO binding strength is altered to form a
+metal catalysts such as gold (Au), silver (Ag), tin (Sn), and lead blended adsorption configuration, that triggers asymmetric C–C
+(Pb) generate a mix of C products7,8, whilst only Cu-based coupling for stabilization of EtOH intermediates, and results in
+1
+catalysts transform CO 2 toward C 2+ products via coupling the boosted EtOH production. This work constructs an efficient
+adsorbed
+*
+CO
+intermediates9–11.
+Amongst the various C 2+ pro- catalyst for CO 2 RR with high EtOH selectivity at commercially
+ducts formed on Cu catalysts, EtOH is important as the liquid relevant current densities, and provides guidance for designing
+fuel because of its wide application and high-energy-density and catalysts with tailored selectivity in multi-electron reactions.
+because it provides the possibility of long-term, large-scale and
+seasonal energy storage, and convenient transport3,12. The pro-
+Results
+d
+ci
+u
+e
+c
+n
+t
+c
+io
+y
+n
+(F
+o
+E
+f
+)
+E
+v
+tO
+ia
+H
+C
+w
+u-
+i
+b
+th
+ase
+h
+d
+igh
+ca
+c
+ta
+u
+l
+r
+y
+r
+s
+e
+t
+n
+s
+t
+is
+de
+s
+n
+ig
+s
+n
+it
+i
+y
+fic
+a
+a
+n
+n
+d
+t
+F
+to
+ara
+a
+d
+d
+a
+v
+i
+a
+c
+nc
+e
+i
+f
+n
+fi
+g
+- Catalystpreparationandcharacterization.PristineAg-modified
+Cu O nanocubes (Cu O/Ag NCs) were prepared by a one-pot
+CO RR as a renewable chemical feedstock2,3,13. During CO RR, 2 2
+2 2 seed-medium method in which Cu O NCs were achieved via
+EtOH and ethylene (C H ) are both 12-electron reduced pro- 2
+ducts, and share the in 2 itia 4 l intermediates * HCCOH. Given the reduction of Cu(OH) 2 at room temperature (RT, 25°C) with
+ascorbic acid (AA) as a reducing agent, followed by the addition
+more saturated structure of EtOH compared with that for C H ,
+thenext-intermediatesforEtOHaremoredifficulttostabilize 2 o 4 n of AgNO 3 . Because of the appropriate lattice spacing match, the
+addedAgNO rapidlynucleatesandgrowsduetotheeffectofAA
+a vi p a u C r – e O Cu bo s n u d rf - a r c e e se c r o v m in p g a o r f ed * H w C it C h O C H 2 H w 4 i . l T lt h h e er p e r f o o d re uc h t a io v n ec o h f e E m tO ic H al to deposit ‘s 3 mall’ Ag nanoparticles (Ag NPs) on Cu 2 O NCs
+difficulty in competing with C H generation. This typically surface (Fig. 1a). Transmission electron microscopy (TEM)
+resultsintheEtOHproductionin 2 th 4 erangeof2–3timeslessthan imagesrevealthattheCu 2 O/AgNCsexhibitheterostructurethat
+that for C H on Cu-based catalyst3,11–14. Ag NPs sporadically adorn the Cu 2 O surface (Fig. 1b and Sup-
+2 4 plementary Fig. 1a), in comparison to Cu O NCs with cubic
+ToboostEtOHproduction,researchinteresthasconcentrated 2
+on optimal re-design of Cu-based
+catalysts5,6,15–22.
+Strategies
+morphologyandasidelengthof~45nm(SupplementaryFig.2).
+X-ray photoelectron spectroscopy (XPS) and scanning electron
+including, control of morphology and facet16,17, vacancy
+steering18, dopant and modification engineering19,20, and m co i n c fi ro r s m co t p h y at e t n h e e r A gy g -d N is P p s er in siv C e u X O - / r A ay g N sp C e s ct a r r o e sc m op e y tall ( i S c E , M wi - t E h D th S e )
+defects control21,22 have been reported. Among these, the 2
+modification of Cu with other CO –active metals to form Cu- content controlled to 2.3% (Fig. 1c and Supplementary Fig. 1b).
+based bimetallic is reported as prac
+2-
+tically
+attractive15,23–28.
+For
+High-resolutionTEM(HRTEM)imagehighlightstheinterplanar
+example, Jaramillo et al. reported Cu–Au bimetallic catalysts b sp e a 0 ci .2 n 1 g 4 o n f m the an la d tti 0 c . e 23 fr 6 in n g m es i f n or C C u u 2 O O /A N g Csan N d C A s g . T N h P is sr fi e n g d io in n g st i o s
+with boosted selectivity for CO RR to EtOH, and a synergistic 2 2.3%
+catalytic pathway with CO–tan 2 dem mechanism was proposed consistent with the Cu 2 O (200) plane and Ag (111) plane,
+n th e a a t r C C O u w a a c s ti fi v r e st s g it e e n s era w t h ed ere on C A – u C , d c e o so u r p b li e n d g an to d m Et ig O r H ated wa to s r r i e e s d pe o c u ti t v t e o ly co (F n i fi g r . m 1d t ) h . e P p o h w a d se er of X C -r u a 2 y O d /A iff g ra N ct C io s n .It (X w R a D sf ) o w un a d s c th a a r- t
+Cu O/Ag NCs exhibit the same peak as for Cu O NCs which is
+conducted24.Zhengetal.reportedaboostedEtOHselectivityin 2 2
+a Cu Ag bimetallic catalyst with electron-deficient Cu sites via attributed to the low Ag NPs content (Fig. 1e). In addition, the
+3 1 EDX mapping images for Cu O/Ag NCs also display an
+promoting adsorption of key intermediates25. Clark et al. 2 2.3%
+apparent element separation between Ag NPs and Cu O NCs,
+hypothesizedthattheboostedEtOHselectivityresultsfromAg- 2
+(Fig. 1f). XPS assesses the surface properties of catalysts. The
+induced strain effects of Cu surfaces that modulate EtOH pro-
+peaks at 951.8 and 931.8eV for Cu O NCs are ascribed to, Cu
+d (H uc E t R io ) n 26. a D n e d spi s te up s p ig r n es ifi se c s ant th p e rog h r y e d ss r , o t g h e e n ad e v v a o n lu c t e i s on of r r e e p a o ct r i t o e n d C 2p u 1/ O 2 a N nd Cs 2p ( 3 F / i 2 g , . re 1 s g p )3 e 9 c . ti F v o el l y lo , w co in n g fir A m g 2 in m g o t d h i e fic p a r t e i s o e n n , c t e w o o f s C h u o ( u I l ) d i e n r
+bimetallic catalysts for FE of EtOH (FE ) remain limited, 2
+f e r s o p m eci t a h l e ly cu th r e re p n r t o t d a u rg c e ti t o f n or a p n r d ac o t u ic t a p l u a t p e p f l fi ic c E a i t e t O i n o H c n y 29 f – o 3 r 8 E ( t i. O e. H ,p i a s rt f i a a r l p th e a a t k e s l f e o c r tr C on u s (I t I r ) a w ns e f r e e r a f p ro p m are C n u t 2 i O nt t h o e A X g P . S T s h p is ec fi tr n a d , i d n e g m is o v n a s l t i r d a a ti t n ed g
+current density>300mAcm
+−2
+and half-cell cathodic energy
+viatheAugerelectronspectroscopy(AES)forCuLMMinwhich
+efficiencies (EE )>20%). In addition, the key impact of the peaks for Cu 2 O/Ag 2.3% NCs downshifts to a lower kinetic
+modifiedcompo H n C entsonintrinsickineticsofreportedCu-based F en ig e . rg 3 y ). T co h m es p e a fi re n d din w g i s th ind th ic o a s t e e t f h or at C an u 2 A O g/ N Cu Cs O ( h S e u t p e p ro le s m tru en ct t u ar r y e
+bimetallic catalysts for CO RR at high conversion rates is 2
+unclear, which significantly 2 hinders understanding of the withalteredelectronstructureforCu 2 OwasreachedwithCu 2 O/
+Ag NCs.
+mechanism and catalyst design3,14. Taken together, there is a 2.3%
+need therefore for more efficient catalysts and an improved
+understandingofthemechanismforCO 2 RRtopracticallyboost Catalyst evolution under CO 2 RR. Given the reported evolution
+EtOH under commercial current densities. of Cu-based catalysts under high current CO RR36, activation
+2
+Here, through modifying Ag onto cubic Cu O and activating and in situ characterization was therefore conducted for Cu O/
+2 2
+underCO RR,weinvestigatedderivedCuAgbimetallics(dCu O/ Ag NCs to determine the actual state of the catalyst during
+2 2 2.3%
+Ag) with controlled morphology, phase, and composition for CO RR. A flow cell with gas diffusion electrode (GDE) was
+2
+CO RR at high current operation. In contrast to the Cu O and especially designed as a reactor for a high current test (Supple-
+2 2
+Au-modifiedCu OderivativeswhichfavortheconversionofCO mentaryFig.4).Asabasisforadetailedcomparison,Cu ONCs
+2 2 2
+to C H and CO, respectively, the optimal dCu O/Ag and Au-modified Cu O NCs (Cu O/Au NCs) with similar
+2 4 2 2.3% 2 2 2.3%
+2 NATURECOMMUNICATIONS| (2022) 13:3754 |https://doi.org/10.1038/s41467-022-31427-9|www.nature.com/naturecommunications
+
+
+===== PAGE 3 =====
+
+CuO/Ag 2 2.3%
+CuO
+2
+CuO, JCPDS
+2 Ag, JCPDS
+no. 05-0667 no. 04-0783
+20 30 40 50 60 70 80 90
+morphology, composition, and structure to Cu O/Ag NCs the diffraction peaks for Cu O for all catalysts are decreased
+2 2.3% 2
+were synthesized and assessed (Supplementary Fig. 5). The cat- significantly whilst thediffraction peaks for Cu became dominant.
+alysts were deposited onto the GDE via spray-coating of the This finding demonstrates that all catalysts are transformed to
+configured ink (details in Supplementary Methods). Activation mainly metallic Cu following activation (Supplementary Fig. 8).
+was controlled by electroreduction of the parent material under Compared with dCu O, the XRD peaks of Cu (111) for dCu O/
+2 2
+CO RR at a current density of 200mAcm
+−2
+in 1M KOH for Ag and dCu O/Au exhibit a meaningful, slight shift to a
+2 2.3% 2 2.3%
+30min. The derived Cu-based catalysts obtained following acti- higher degree to underscore that the original Cu O/metal
+2
+vationsupportedontheGDE,denotedasdCu O,dCu O/Ag,and heterostructures are evolved into the bimetallic alloy following
+2 2
+dCu O/Au, were subjected to additional characterization. activation (Fig. 2c).
+2
+High-angle annular dark-field scanning TEM (HAADF Togaininsightintothechangedvalencestatesandcoordination
+STEM) and SEM images confirm that following activation the environment of Cu following activation, operando X-ray absorp-
+original cubic morphology and surface deposited NPs are tion spectra (XAS) of Cu K-edge was recorded under activation
+visually less pronounced, and that instead, ragged surface and conditions. The X-ray absorption near-edge structure (XANES)
+hollow structures formed in dCu O/Ag and dCu O/Au spectrashowthattheedgefeaturesfordCu O,dCu O/Ag ,and
+2 2.3% 2 2.3% 2 2 2.3%
+(Fig. 2a and Supplementary Figs. 6 and 7a). Concomitantly, the dCu O/Au areclosedtothoseforthereferencecommercialCu-
+2 2.3%
+original surface phase separation between deposited metal and foil. This finding confirms that the valence state for Cu for these
+Cu is lost following activation as is confirmed in EDS mapping catalystsdecreasefollowingactivationtoliebetween0and+1,in
+images (Fig. 2a, Supplementary Fig. 7b). The lattice space for following ordered sequence, dCu O<dCu O/Ag <dCu O/
+2 2 2.3% 2
+dCu O/Ag wasalteredto0.210nmfollowingactivation,avalue Au (Fig. 2d). The wavelet transform analysis confirms that
+2 2.3% 2.3%
+neartotheCu(111)facet(Fig.2b).ExsituXRDpatternsrevealthat theCu–Curegioninallactivatedcatalystsarelocatedat~6.7Å −1,
+ytisnetnI
+Cu0,1+
+Cu2+
+Cu0,1+ 2p
+3/2
+2p
+2p 1/2 1/2 Cu2+
+Cu 2 O/Ag 2.3% 2p 3/2
+CuO
+2
+Cu 2p
+960 950 940 930
+2 (Degree)
+ytisnetnI
+CuO/Ag
+2 2.3%
+Ag 3d
+378 375 372 369 366 363
+Binding Energy (eV)
+ytisnetnI
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-31427-9
+Binding En ergy (eV)
+Fig.1StructuralcharacterizationofCu O/AgNCs.aSchematicforpreparationofCu O/AgNCs.bTEMimage,cAg3dXPScurve,dHRTEMimagesand
+2 2
+fEDSelementalmappingimagesofCu O/Ag NCs.eXRDpatternsandgCu2pXPScurvesforCu OandCu O/Ag NCs.Scalebars,10nmin(b),
+2 2.3% 2 2 2.3%
+1nmin(d),and100nmin(f).White-color,orangeandazurespheresinthemodelrepresentO,Cu,andAgatoms,respectively.
+NATURECOMMUNICATIONS| (2022) 13:3754 |https://doi.org/10.1038/s41467-022-31427-9|www.nature.com/naturecommunications 3
+
+
+===== PAGE 4 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-31427-9
+Fig.2PhaseandcoordinationenvironmentfordCu O/Agcatalysts.aHAADF–STEMimagewithEDSelementalmappingsandbhighresolutionSTEM
+2
+imageofdCu O/Ag cEnlargedXRDpatternsfordCu O,dCu O/Ag anddCu O/Au .dInsituXANESspectraandeWavelettransformimages
+2 2.3%. 2 2 2.3% 2 2.3%
+ofEXAFSdatawithoptimizedMorletparameter(i.e.,κ=5,σ=1)atCuK-edgeforcommercialCu-foil,dCu O,dCu O/Ag anddCu O/Au .Fourier
+2 2 2.3% 2 2.3%
+transformcurvesofinsituEXAFSdataandcorrespondingfittedresults(firstcoordinationshell)forfdCu O,gdCu O/Ag andhdCu O/Au .Scale
+2 2 2.3% 2 2.3%
+bars,10nmin(a)and1nmin(b).
+suggesting that the alloyed CuAg and CuAu do not result in Ag with Cu induces electron transfer (Supplementary Fig. 10).
+significant change in Cu–Cu bond length compared with the Basedontheforegoing,itisconcludedthatunderelectroreduction
+oxide-derived Cu (Fig. 2e). The corresponding Fourier transform withhighlysignificantstructuralrearrangement,thepristinemetal-
+curves (from extended X-ray absorption fine structure (EXAFS) modifiedCu ONCsevolvestoCu-basedbimetallicsinaregulated
+2
+spectra) and fitted results of the first coordination shell for these valence andcoordination environment.
+activated catalysts show that the Cu–Cu coordination located at
+~2.23Å is the dominant structure in each sample, whilst there
+remains another Cu–O coordination peak at 1.35Å for dCu 2 O/ CO 2 RR performance. CO 2 RR performance for the activated
+Ag and dCu O/Au This finding confirms that a signifi- catalysts was directly evaluated via electrolyzing at specified
+2.3% 2 2.3%.
+cantly small fraction of Cu(I) remained for dCu O/Ag and currents (Supplementary Fig. 11). Figure 3a shows the linear
+2 2.3%
+dCu O/Au following activation (Fig. 2f–g and Supplementary sweepvoltammetrycurvesfordCu O,dCu O/Ag anddCu O/
+2 2.3% 2 2 2.3% 2
+Table 1). The coordination number for Cu−Cu in these catalysts Au .ItisseeninthefigurethatthecurrentdensityforCO RR
+2.3% 2
+was determined to equal, respectively, 11.4, 10.5, and 10.2 for of dCu O/Ag and dCu O/Au are significantly increased,
+2 2.3% 2 2.3%
+dCu O,dCu O/Ag ,anddCu O/Au (SupplementaryFig.9). directlyevidencingthatmodificationboostedactivityforCO RR.
+2 2 2.3% 2 2.3% 2
+Except for variation in Cu, the XPS for Ag 3d for dCu O/Ag The FEs were computed for liquid and gaseous product in the
+2 2.3%
+shows that the binding energy for Ag 3d shifts to a high level applied current range 200–800mA in 1M KOH by nuclear
+5/2
+following activation. Thisevidences that the activation of alloying magnetic resonance (NMR, Supplementary Fig. 12) and gas
+4 NATURECOMMUNICATIONS| (2022) 13:3754 |https://doi.org/10.1038/s41467-022-31427-9|www.nature.com/naturecommunications
+
+
+===== PAGE 5 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-31427-9
+Fig.3CO RRperformancefordCu O,dCu O/Au anddCu O/Ag .aLinearsweepvoltammetrycurvestowardCO RRfordCu O,dCu O/Au
+2 2 2 2.3% 2 2.3% 2 2 2 2.3%
+anddCu
+2
+O/Ag
+2.3%
+.bFEvalueofC 2+productsfordCu
+2
+O,dCu
+2
+O/Au
+2.3%
+anddCu
+2
+O/Ag
+2.3%
+underselectedcurrentdensity.cPartialC 2+currentdensity
+andeC 2+formationvspotentialreferredtoreversiblehydrogenelectrode(RHE)ondCu
+2
+O,dCu
+2
+O/Au
+2.3%
+,anddCu
+2
+O/Ag
+2.3%
+.dRatioofFE
+EtOH
+toFE
+C2H4
+ondCu O,dCu O/Au ,anddCu O/Ag underselectedcurrentdensity.fEtOHpartialcurrentdensityvsFE forreportedCu-basedcatalysts.
+2 2 2.3% 2 2.3% EtOH
+Errorbarscorrespondtothestandarddeviationofthreeindependentmeasurements.
+chromatography (GC) (Supplementary Fig. 13) respectively. current 800mA, which is significantly greater than that for
+Figure 3b presents the FEs of C 2+ products (FEs C2+) for these dCu 2 O (0.51) and dCu 2 O/Au 2.3% of 0.71. This finding confirms
+catalysts under different current. C H and EtOH are the major that the Ag modification significantly inhibits C–O bond-
+2 4
+C 2+ products, plus minor acetate and n–propanol. With the breakingandstabilizesintermediatesforEtOHvsC 2 H 4 (Fig.3d).
+appliedcurrentincreased,allcatalystsexhibitedincreasedFEs C2+ RelyingontheboostedFE EtOH of40.8%atahighcurrentdensity
+andadecreased FEsofCO(FEs ).Comparedwiththeone–up (800mAcm −2), the dCu O/Ag exhibits the greatest partial
+CO 2 2.3%
+FE C2+ for dCu 2 O from 200 to 400mA, dCu 2 O/Ag 2.3% exhibits EtOH current density of 326.4mAcm −2 at −2.11 V RHE (no iR
+greater FE C2+ at significant current> 600mA. Importantly, the correction, −0.89 V RHE with 85% iR correction, Supplementary
+totalFE C2+fordCu
+2
+O/Ag
+2.3%
+isupto82.1%atacurrentdensity Figs. 15 and 16). Importantly, this is 1.78 and 1.89 times greater
+800mAcm
+−2,
+to exhibit the greatest partial C 2+ current density than that for dCu 2 O and dCu 2 O/Au 2.3% , respectively (Fig. 3e).
+of 656.8mAcm −2 and formation rate of 2042.2μmolh −1cm −2 TheEtOHformationfordCu O/Ag couldreach1014.9μmol
+2 2.3%
+at −2.11V with reference to the reversible hydrogen electrode h −1cm −2withcurrentdensitiesof800mAcm −2at−2.11V
+RHE
+(V ,noiRcorrection,Fig. 3cand SupplementaryFig. 14a).In (without iR correction) (Supplementary Fig. 14b). Such highly
+RHE
+contrast, the FE C2+ for dCu 2 O/Au 2.3% is significantly less than significant performances for EtOH production on dCu 2 O/Ag 2.3%
+that for dCu O/Ag at all currents, confirming that the Au were compared directly with reported catalysts (Fig. 3f, Supple-
+2 2.3%
+modification resulted in directly boosting only targeted CO mentary Table 2). It is apparent that the dCu O/Ag exhibits
+2 2.3%
+generation, but not C–C coupling. thegreatestreportedpartialEtOHcurrentdensityamongstthese,
+We analyzed the ratio of FE EtOH /FE C2H4 in C 2+ products at and represents the ‘best’ production for electroreduction of CO 2
+high current density on these catalysts. It is interesting that to EtOH. In addition, the EE for EtOH on dCu O/Ag
+HC 2 2.3%
+dCu O/Ag reachestheFE /FE ratio1.17atanapplied reaches22.4%followingiRcorrectionundersimilarconditions,a
+2 2.3% EtOH C2H4
+NATURECOMMUNICATIONS| (2022) 13:3754 |https://doi.org/10.1038/s41467-022-31427-9|www.nature.com/naturecommunications 5
+
+
+===== PAGE 6 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-31427-9
+value greater than that for most catalysts (Supplementary mechanism (Supplementary Fig. 27). To permit a direct com-
+Fig. 16d). In addition, the electrochemically active surface area parison, the CORR behavior of dCu O and dCu O/Au were
+2 2 2.3%
+(ECSA) for dCu O/Ag was computed via different methods evaluated and the catalysts were activated by a similar process
+2 2.3%
+andcompared,togetherwithmassnormalizedcurrentdensityfor withCO RR.ItwasexpectedthatiftheCO–tandemmechanism
+2
+EtOH (J (EtOH) and J (EtOH)) with independently dominated, the CORR performance for the catalysts would be
+ECSA mass
+reported studies (Supplementary Figs. 17 and 18 and Supple- similar28. However, as is shown in Supplementary Fig. 28, the
+mentaryTable3).ThedCu O/Ag exhibitedsuperiorJ (E- dCu O/Ag exhibits significant suppression of H and pro-
+2 2.3% ECSA 2 2.3% 2
+tOH) and J mass (EtOH) compared with reported catalysts, moted C–C coupling for C 2+ products under CORR. This is in
+confirming that the improved EtOH current density for dCu O/ significant contrast to dCu O/Au and dCu O results. The
+2 2 2.3% 2
+Ag
+2.3%
+is because of the intrinsic Ag-modified oxide-derived Cu partialcurrentdensityofC 2+productsfordCu
+2
+O/Ag
+2.3%
+reaches
+sitesandnotthechangedECSAandmassloadingofthecatalyst 696.0mAcm −2 at –1.56 V for CORR, and is significantly
+RHE
+itself. greater than those for dCu O/Au (~154.0mAcm
+−2)
+and
+2 2.3%
+Based on these findings therefore of highly significant FE dCu O(~188.0mAcm −2).Similarly,theratioFE /FE for
+EtOH 2 EtOH C2H4
+withhighcurrentdensityfromdCu O/Ag onCO RR,aseries dCu O/Ag is also greater than that for dCu O/Au and
+2 2.3% 2 2 2.3% 2 2.3%
+of Cu O/Ag NCs with different amounts of modified Ag were dCu O under CORR. Significantly, these findings from dCu O/
+2 2 2
+assessedforCO RRperformance(SupplementaryFigs.19and20). Ag contrast with those for reported Cu–Ag catalyst with
+2 2.3%
+Characterizations underscore that all pristine Cu O/Ag NCs with CO–tandemmechanism.ThisisinterpretedthatAgmodification
+2
+different compositions exhibit similar structures, whereas the results in intrinsic property changes in Cu active sites to: (1)
+density of deposited NPs and oxidation state on the surface of suppressHER,(2)improveC–Ccouplingactivity,and;(3)boost
+Cu ONCsincreasedwiththedegreeofmodification(Supplemen- EtOH selectivity. In addition, the modification induced com-
+2
+taryFig.21).FromthecomparisonofthepotentialforCO RRof pressivestrain,andmorphologyeffects(crystalfacets)forboosted
+2
+different catalysts at a high current density of 800mAcm
+−2
+EtOH production can be also excluded in our circumstances,
+(Fig. 4a), it can be seen that the demand potential decreases with because the exposed facets, surface structure and Cu–Cu bond
+increased Ag. This finding confirms the positive impact of Ag length of both dCu O/Au and dCu O/Ag catalysts are
+2 2.3% 2 2.3%
+modification on CO RR. The degree of introduced Ag-dependent similar.Therefore,otherpotentialmechanismsondCu O/Ag
+2 2 2.3%
+FEs ofproducts from these catalysts wasassessedunder the same need to be assessed for boosted CO RR performance.
+2
+currentdensity.AsisshowninFig.4b,c,increasingAgindCu O/ ReactionpathwaysforC H andEtOHproductionaresimilar
+2 2 4
+Ag leads to a volcano-shape for FE that corresponds with a on Cu surfaces, as they initiate with two adsorbed–CO
+EtOH
+reverse-volcano on FE , and contrasts with the monotonously dimerization followed by several steps of protonation and
+CO
+decreased FE for C H . This correlation between the amount of dehydration to generate a shared intermediate, * HCCOH3,14.
+2 4
+modified Ag and FEs for CO and EtOH was observed also with The selectivity between C H and EtOH, is significantly
+2 4
+other applied currents (Supplementary Fig. 22). Common to Cu- dependent on the relative stabilities of the next-intermediates
+*
+based catalysts, the coverage of CO on Cu surface is conducive for EtOH and C H pathways branched from HCCOH on Cu
+2 4
+to C–C coupling to impact EtOH and C H generation sites3,14,40. Cu with a relatively low coordinated surface and
+2 4
+concurrently24. However, here for the dCu O/Ag, only the FE optimal oxide state is favorable for EtOH generation over C H
+2 2 4
+for EtOH exhibits the dependent correlation with CO. These becausethe reaction intermediates forEtOH aremore saturated
+results indicate that the boosted EtOH is not only dependent on compared with those for C H 41, and the existing oxidation is
+2 4
+variable CO coverage on dCu O/Ag, but also related to other feasibletobindingofkeyoxygen-boundintermediatesforEtOH
+2
+unknownfactors. generation33,42. Combined with this and previous experiment
+The stability of dCu O/Ag was evaluated via long-term results, it is hypothesized that Ag-induced the moderate
+2 2.3%
+chronopotentiometry testing. It was found that there is no coordinated surface and optimal oxidation of Cu in dCu O/
+2
+apparent decay of activity with 6h continuous operation, in Ag are responsible for boosted EtOH selectivity. Therefore,
+2.3%
+which the selectivity of EtOH decreased ~6% following CO RR the CO RR intermediates chemisorbed on dCu O, dCu O/
+2 2 2 2
+(Supplementary Fig. 23). TEM image and XRD pattern of spent Ag , and dCu O/Au at different potentials were assessed
+2.3% 2 2.3%
+dCu O/Ag showed that morphology and structure are via in situ attenuated total reflectance infrared absorption
+2 2.3%
+maintained following the stability test (Supplementary Fig. 24). spectroscopy (ATR–IRAS) to determine the mechanism for
+Given the superior EtOH production on dCu O/Ag , it was boosted EtOH.
+2 2.3%
+consequently assessed in a commercially relevant membrane As is shown in Fig. 5a, b and Supplementary Fig. 29, with the
+electrodeassembly(MEA)(SupplementaryFig.25).Itwasfound cathode potentialat −0.3V , the ATR–IRAS spectra for these
+RHE
+that there is a good, linear relationship between applied current catalysts exhibit several new peaks. These are assigned to
+andvoltageintheMEA(Fig.4e).TheFEsforallproductstested corresponding intermediates based on independently reported
+in flow cell electrolyzer were well-reproduced in MEA (Supple- studies (Supplementary Table 4). In particular, there appear two
+mentary Fig. 26 and Fig. 4d), identifying that high current and peaks at 2044 and 1923cm −1 for dCu O/Ag , which are
+2 2.3%
+high EtOH selectivity can be maintained under commercially associated with the atop–adsorbed * CO ( * CO ) and
+atop
+relevant conditions (Fig. 4e). Importantly, the durability of bridge–adsorbed * CO( * CO )onCusurface,respectively43–45.
+CO RRinthecatholyte–freeMEAsignificantlyoutperformedthe bridge
+2 In comparison, dCu O and dCu O/Au mainly show the
+flowcellelectrolyzer,whichexhibitedadecreaseofFE EtOH (~3%) * CO peakwithlittl 2 eevidenceof 2 * CO 2.3% bindinginthesame
+i c n ur 1 r 2 en h t o d p e e n ra si t t i y on 8 u 00 nd m er A a cm fu − ll– 2, ce e l v l i v d o e l n ta c g in e g of th − e 4. g 7 o 2 o V d w st i a th bil a it t y ot o a f l poten at t o i p al region. The different * CO bi b n r d id i g n e g configurations on
+these catalysts can also be observed from CO temperature-
+dCu O/Ag for CO RR (Fig. 4f).
+2 2.3% 2 programmed desorption (CO–TPD) (Supplementary Fig. 30b).
+Mathematicalintegrationandstatisticalanalysesconfirmtheratio
+Mechanistic studies. The CO reduction reaction (CORR) on * CO bridge / * CO atop for dCu 2 O/Ag 2.3% is significantly greater than
+dCu O/Ag was assessed to identify whether boosted C–C cou- that for dCu O or dCu O/Au over the potential range
+2 2 2 2.3%
+pling and EtOH generation followed a classic CO–tandem (SupplementaryFig.31andFig.5c).Thesefindingsevidencethat
+6 NATURECOMMUNICATIONS| (2022) 13:3754 |https://doi.org/10.1038/s41467-022-31427-9|www.nature.com/naturecommunications
+
+
+===== PAGE 7 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-31427-9
+Fig.4CO RRperformancefordCu O/AgwithmodifiedAg.Comparisonofaappliedpotentials,bFEsforC andH product,cFEsforC H andEtOHand
+2 2 1 2 2 4
+totalC 2+productondCu
+2
+O/AgwithmodifiedAgatcurrentdensity800mAcm−2.dTotalcurrentdensityandeFEsforC 2+productforCO
+2
+RRon
+dCu O/Ag atselectedcellvoltageunderMEAmeasurement.fStabilitytestfordCu O/Ag atthecurrentdensity800mAcm−2inMEA.Errorbars
+2 2.3% 2 2.3%
+correspondtothestandarddeviationofthreeindependentmeasurements.
+compared with dCu O and dCu O/Au , the moderate coordi- increasedwiththeappliedpotential(Fig.5b),stronglyevidencing
+2 2 2.3%
+nationnumbersandoptimaloxidationfor Cusurface indCu O/ this process. This asymmetric C−C coupling has a lower energy
+2
+Ag result in tailored * CO configuration. Given the different barrier than that for *CO dimerization as evidenced by the
+2.3%
+electron
+*
+back-donating and proton-combining ability of reported theory studies19, which contributes to increased C 2+
+adsorbed CO on atop and bridge Cu sites, the energy barrier production.
+for following * CO protonation is altered. Previous studies Additional peaks from ATR–IRAS spectra at ~1567 and
+demonstrate that * CO bridge protonation is more energetically ~1182cm −1 and ~1336 and ~1117cm −1 were analyzed. These
+favorable than that of * CO on Cu surface46. Therefore, the peaks, indexed to the absorbed * OCCOH and * OC H on these
+atop 2 5
+C–C coupling on dCu O/Ag could be triggered under catalysts, exhibit a ratio value for * OC H / * OCCOH on dCu O/
+asymmetry between * CO 2 and 2 * . C 3% HO (or * COH) following the Ag thatissignificantlygreatercomp 2 ar 5 edwiththatfordCu 2 O
+2.3% 2
+* CO protonationstep.Notably,adsorbed * CHOintermediate and dCu O/Au . This finding evidences that the key
+bridge 2 2.3%
+*
+was observed on dCu O/Ag from ATR-FTIR spectra, and OC H intermediates for EtOH production are more stable on
+2 2.3% 2 5
+NATURECOMMUNICATIONS| (2022) 13:3754 |https://doi.org/10.1038/s41467-022-31427-9|www.nature.com/naturecommunications 7
+
+
+===== PAGE 8 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-31427-9
+Fig.5InsituATR–IRASmeasurementandmechanismfordCu O/Ag .InsituATR–IRASobtainedduringchronopotentiometryinapotentialwindow
+2 2.3%
+0.2to−1.2V foradCu O,andbdCu O/Ag underCO RR.(Areferencespectrumobtainedat0.3V in1MKOHissubtracted).Potential
+RHE 2 2 2.3% 2 RHE
+dependenceofratioofc*CO /*CO andd*OC H /*OCCOHobtainedfordCu O,dCu O/Ag anddCu O/Au .eSchematicforboostedEtOH
+bridge atop 2 5 2 2 2.3% 2 2.3%
+generationoverdCu O/Ag .Yellow-color,gray,white,orange,red,andazurespheresinthemodelrepresentH,C,O,Cu1+,Cu0,andAgatoms,
+2 2.3%
+respectively.
+dCu O/Ag (Fig.5d)42,43.Thisisattributedtotheasymmetric proposed (Fig. 5e). At first, the coordinated pure-Cu surface is
+2 2.3%
+C−C coupling induced unbalanced coordination environment, replaced with neighboring Ag atoms with modification by Ag in
+whichdisruptsthecoordinationsitesforC H intermediates,and Cu O and reduces these to CuAg alloy under CO RR. Then, the
+2 4 2 2
+thereby, stabilizes the EtOH intermediates. This is in agreement Ag-inducedmoderatecoordinationnumbersandoptimaloxidation
+withreportthatdiversityof * CObindingsiteenhancesC 2+liquid ofCusurfaceregulatebindingstrengthof * CO,toconfiguremixed
+product formation27. Therefore we hypothesize that triggered * CO and * CO adsorption that triggers asymmetric C–C
+asymmetric C−C coupling on dCu 2 O/Ag 2.3% boosts C 2+ coup b l r i i n d g ge after * CO b a r t i o d p ge protonation. Because of the relatively low
+production and favors EtOH pathway via stabilizing pivotal oxygen affinity and unsaturated nature of the C H intermediates
+2 4
+intermediates. compared with EtOH, the asymmetric C–C coupling provides an
+Inaddition,thepeakfortheabsorbedbicarbonateat1547cm −1 unbalanced coordination environment that is beneficial for EtOH
+on dCu 2 O/Ag 2.3% is missing compared with dCu 2 O and dCu 2 O/ intermediateformationandstabilizationinlowerenergythanthat
+Au 2.3% ,confirmingthatthevalueofthelocalpHontheelectrode for C 2 H 4 ,and thereby promotes the pathway for EtOH.
+ofdCu O/Ag isgreaterthanthatfordCu OanddCu O/Au
+2 2.3% 2 2 2.3%
+during CO RR47. The high pH at the surface of electrode is
+2
+thought to favor C–C coupling by lowering the energy barrier of Discussion
+CO 2 activation and suppressing H 2 evolution, and contributes to In summary, an assessment of a newly synthesized, silver-
+t C h O e 2 – b T oo P s D ted for ac d t C iv u it 2 y O/ f A or g 2. C 3% O a 2 R ls R o . ex M hi o b r i e t o a ve h r i , gh t e h r e te C m O p – e T ra P t D ure a f n o d r E m t o O d H ifie p d at c h o w p a p y er i - s o a x c id ce e le c r a a t t a e l d yst vi h a a t s ri c g o g n e fi ri r n m g e t d he th a a s t y t m he m C et O ri 2 c R C R – t C o
+CO 2 andCOdesorptionthanthosefordCu 2 OanddCu 2 O/Au 2.3 , coupling.AnoptimizeddCu 2 O/Ag 2.3% exhibitsaFEof40.8%and
+i a n n d d ica C ti O ng fo d r Cu e 2 ffi O c / i A en g t 2.3 C % O h 2 a R s R st a ro t n l g a e r r ge bo c n u d rr in en g t st ( r S e u n p g p th lem o e f n C ta O ry 2 b E o E o H s F te o d f E 2 t 2 O .3 H % p f a o r r tia E l tO cu H rre p n r t o d d e u n c s ti i o ty n o i f n 32 fl 6 o . w 4m ce A ll, cm to − ge 2 th at er − w 0. i 8 th 9
+Fig. 30). V (with an 85 % iR correction). In situ ATR–IRAS spectro-
+Accordingly, based on the ATR–IRAS spectra analysis, the sc R o H p E y confirmed that boosted EtOH selectivity results from
+mechanism for boosted EtOH on dCu 2 O/Ag 2.3% can be soundly moderate coordinated surface and optimal oxidation state of the
+8 NATURECOMMUNICATIONS| (2022) 13:3754 |https://doi.org/10.1038/s41467-022-31427-9|www.nature.com/naturecommunications
+
+
+===== PAGE 9 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-31427-9
+Cu sites that gives mixed * CO bridge and * CO atop configurations respectively,anodeandcathode.Forthecomputationofthehalf-cellEE,the
+forasymmetricC–CcouplingtostabilizetheEtOHintermediates. anodicreactionwasassumedtooccurwithanoverpotentialof0V,thatis,
+This demonstrated understanding of the mechanism for electro- E oe =1.23V.
+reduction of CO –to– EtOH contrasts with reported, classic
+2
+CO–tandem catalysis. It can be practically used to significantly CO 2 RRtestinMEA.ElectroreductionofCO 2 inMEAconsistedoftwotitanium
+backplates(TA2grade)witha4.0cm2serpentineflowfield,andMEA.Catalyst-
+boost EtOH production. depositedGDE(~0.44mgcm−2forCuO/Ag NCs)andNi-foam(0.5mm
+2 2.3%
+thickness)wereused,respectively,ascathodeandanode.Thecathodeandanode
+Methods werepressedontosidesoftheanionexchangemembrane(Sustainion37–50,
+PreparationofCu 2 O,Cu 2 O/Ag,andCu 2 O/AuNCs.Inatypicalpreparationfor D oh io m x i i c de lo M ss. at G e a ri s a e l o s u ). s T C h O eg ( a 3 p 0 b m et L w m ee i n n− th 1) e w e a le s c p tr a o s d se e d sw be a h s i m nd in t i h m e i G ze D d L to to re c d o u n c ta e ct
+CuO/Ag NCs,0.5mLNaOHsolution(1M)and0.5mLCu(NO) solution 2
+2 2.3% 32 thecatalyst,and0.1Msolutionwasusedastheanolytewhichwascirculatedvia
+(0.1M)wereaddedtoa30mLvialwith9mLwaterundervigorousstirringfor pumpat20mLmin−1.CORRperformanceforMEAwasevaluatedbyapplying
+5minatRTtogiveablue-colorCu(OH) suspension.27mgAAwasaddedtothe 2
+2 differentcurrentswithacurrentamplifierinthetwo-electrodesystemat
+vialundervigorousstirring.Thesuspensionchangedfrombluecolortoyellow,
+confirmingtheformationofCuONCs.Followingstirringfor30min,0.1mL theCHI660(Chenhua,Shanghai)electrochemicalworkstation.Cathodic
+2 gasproductswereventedthroughasimplifiedcold–traptocollectpermeable
+AgNO solution(0.01M)wasaddedtothevial,andstirringcontinuedfor30min.
+3 liquidpriortogaschromatographtesting.FEvaluesfortheliquidproducts
+CuO/Ag NCswereobtainedandresultingproductswerecollectedbycen-
+2 2.3% werecomputedbasedonthetotalmassofproductcollectedonanodeand
+trifugationandwashedwithEtOH.PreparationofCuOandCuO/AuNCswas
+2 2 cathode.
+similarlyconducted,butwithouttheadditionofAgNO andwiththereplacement
+3
+ofAgNO withHAuCl•4HO.CuO/AgandCuO/AuNCswithdifferentcom-
+3 4 2 2 2
+positionswerepreparedbyaddingselectedvolumesofAgNO
+3
+andHAuCl
+4
+•4H
+2
+O ECSAmeasurement.ECSAwasmeasuredbydouble-layercapacitance(DLC)and
+solution(SupplementaryTable5). Pbunderpotentialdeposition(PbUPD)methods.Allexperimentsareconductedin
+theflowcellandtheusedcatalystsareobtainedfollowingactivationunderCORR.
+2
+Characterizations.TEMandHAADF–STEMwereconductedonaFEITecnaiF20 ForDLCmethod,CyclicVoltammetry(CV)scanswereconductedatthepotential
+rangefrom0.15to0.20VvsRHEwithincreasingscanratesof10,20,40,60,80,
+transmissionelectronmicroscopewithanaccelerationvoltage200kV.Samples and100mVs−1.Thecapacitancecurrentsat0.17VvsRHEwereplottedagainst
+werepreparedbydroppingEtOHdispersionsofthesamplesontocarbon-coated, thescanrates,andthedouble-layercapacitance(C ,mFcm−2)wasderivedfrom
+CuTEMgridsusingapipette,anddriedunderambientRTconditions.SEM dl
+imagesweretakenwithaHITACHIS–3700cold–fieldemissionscanningelectron theslopeaccordingtothefollowing:
+microscopeoperatedat15kV.XRDpatternswerecollectedonX’Pert–Pro C ¼I=v ð4Þ
+MPDdiffractometer(NetherlandsPANalytical)withaCuKαX-raysource dl
+(λ=1.540598Å).XPSwasdeterminedwithanSSIS–ProbeXPSSpectrometer. whereIisthecapacitancecurrent(halfofthedifferencebetweentheanodiccurrent
+Thecarbonpeakat284.6eVwasusedasareferencetocorrectforchargingeffects. densityandcathodiccurrentdensity,(J a −J c )/2),andvisthescanrate.
+XASdatawerecollectedattheTPS–44AbeamlineoftheNationalSynchrotron ForPbUPDmethod,theCVscanswereconductedinAr-saturated0.01M
+R sc a a d n i n at in io g n m R o e n se o a c r h c r h om Ce a n to te r r ,a ( n N d SR p R ro C c , es H se s d inc a h cc u o , r T d a in iw g a t n o ) s u ta s n in d g ar a d S p i r ( o 1 c 1 e 1 d ) u q re u s ic u k s - ing s H c C an lO r 4 at a e n s d of 1 1 m 0 M mV Pb s− C 1 l 2 .T at he th E e C p S o A ten o t f ia c l at r a a l n y g st e s f w ro a m sd 0 e . t 1 e 5 rm to in 0 e . d 20 a V cco v r s d R in H g E to w t it h h e
+theDemeterprogrampackage(Version0.9.24). following:
+ECSA ¼A =ð320μCcm(cid:3)2vÞ ð5Þ
+PbUPD PbUPD
+CO
+2
+RRtestinflowcell.ElectroreductionofCO
+2
+wastestedinamicrofluidicsflow
+whereA isthepeakareaofmonolayerPbstripping,vthescanrateandthe
+cellthatconsistedoftwoelectrolytechambers(20×5×3,mm)andonegaschamber constant P 3 b 2 U 0 P μ D Ccm−2isthechargedensityfactorfortheUPDofPboncopper33.
+(20×5×5,mm)48.Ananionexchangemembrane(FumasepFAB–PK–130)was
+placedbetweentwoelectrolytechambersforproductsseparationandioniccon-
+duction.Catalyst-depositedGDE,microAg/AgClelectrode(4.0MKCl),andNi-
+InsituATR–IRASmeasurement.InsituATR–IRASwasperformedonaNicolet
+foam(0.5mmthickness),respectively,servedasworkingelectrode,referenceelec- iS20spectrometerequippedwithanHgCdTe(MCT)detectorandaVeeMaxIII
+trode,andanode.Tofabricatetheworkingelectrode,acertainamountofcatalysts (PIKETechnologies)accessory.Themeasurementwasconductedinahomemade
+(3mg)weredispersedin1mLEtOHwith20µL5wt%Nafionsolutionandthen electrochemicalsingle-cellfurnishedwithPt–wireandAg/AgClascounterand
+sprayedontoagasdiffusionlayer(CeTech,NIS1007)viaairbrush.Theloading
+referenceelectrodes.Afixed-angleGeprism(60°)coatedwithcatalystsembedinto
+amountofcatalystsonGDEwascontrolledto~0.44mgcm−2.Theworkingelec- thebottomofthecellservedastheworkingelectrode.Beforetesting,thedetector
+trodewasplacedbetweengasandcatholytechamberstoensuregaseousCO dif- wascooledwithliquidnitrogenforatleast30mintomaintainastablesignal.
+2
+f in u s s e io r n ted an i d n r c e a a t c h t o io ly n te at ch th a e m c b a e t r ho a l n y d te/ m ca a t i a n l t y a s i t n s e i d nt a e t rf a ac s e p . e T c h ifi e e r d ef d e i r s e t n an ce ce el w ec i t t r h od th e e swere s C p h e r c o tr n u o m am c p o e ll r e o c m tio e n try (3 w 2 a s s ca u n s s e , d 4 f c o m r − C 1 O r 2 e R so R lu t t e i s o t n a ) n . d Al w ls a p s e a c c tr c a om we p r a e n s ie u d bt b ra y c t t h ed e with
+workingelectrode.Anelectrochemicalworkstation(CHI660,Chenhua,Shanghai) thebackground.
+withacurrentamplifierwasusedtoperformtheCORRtest.1MKOH(20mL)was
+circulatedthroughtheelectrolytechambersunderc 2 onstantflow(15mLmin−1)via
+peristalticpump.CO wassuppliedintogaschambersbyamass-flowcontrollerata
+constantflowrateof3 2 0mLmin−1.Reactionsweretestedviachronopotentiometryat Data availability
+differingcurrentsfor1hwithoutiRcorrection.Gasandliquidproductswereana-
+Datathatsupportfindingsfromthisstudyareavailablefromthecorrespondingauthor
+lyzed,respectively,viaGC(Agilent8890)and1HNMR(Agilent600MHz onreasonablerequest.
+DirectDrive2spectrometers).
+PotentialswerereferencedtoRHEandiRcorrectionperformedbasedonthe Received: 20 December2021; Accepted: 16June 2022;
+following,namely:
+E RHE ¼E vsAg=AgCl þ0:059´pHþ0:210þ0:85´iR ð1Þ
+whereiisthecurrentateachappliedpotentialandRtheequivalentseries
+resistancemeasuredviaelectrochemicalimpedancespectroscopyinthefrequency.
+FEfortheformationofCO 2 RRproductwascomputedfrom: References
+FE¼eF´n=Q¼eF´n=ðI´tÞ ð2Þ 1. Arakawa,H.etal.Catalysisresearchofrelevancetocarbonmanagement:
+progress,challenges,andopportunities.Chem.Rev.101,953–996(2001).
+inwhicheisthenumberoftransferredelectronsforeachproduct,FtheFaraday 2. Jouny,M.,Luc,W.&Jiao,F.Generaltechno–economicanalysisofCO
+2
+constant,Qcharge,Iappliedcurrent,treactiontime,andntotalproduct(inmole). electrolysissystems.Ind.Eng.Chem.Res.57,2165–2177(2018).
+ano E d E ic H o C x w yg a e s n co e m vo p lu u t t i e o d n o r n ea t c h ti e o b n a ( s O is 2 o + ft 4 h H e + ca + th 4 o e d − ic ↔ CO 2 2 H R 2 R O; co 1 u .2 p 3 le V d v w s it R h H t E h ) e 3. e B l i e r c d t j r a o , c Y at . a Y ly . ti e c t c a o l. n A ve d r v s a io n n ce o s f a c n a d rb c o h n al d le io n x g i e d s e in to u f n u d el e s r . s N ta a n t d . i E n n g e t r h gy e 4,732–745
+from: (2019).
+E(cid:2) (cid:3)E(cid:2) 4. Qiao,J.,Liu,Y.,Hong,F.&Zhang,J.Areviewofcatalystsforthe
+EE HC ¼ E o o e e (cid:3)E r r e e d d ´FE EtOH ð3Þ e R l e e v c . tr 4 o 3 r , ed 6 u 3 c 1 t – io 67 n 5 o ( f 2 c 0 a 1 r 4 b ) o . ndioxidetoproducelow–carbonfuels.Chem.Soc.
+whereE oandE oare,respectively,thethermodynamicpotentialforoxygen 5. Ross,M.B.etal.Designingmaterialsforelectrochemicalcarbondioxide
+oe red
+evolutionandCORRtoEtOH(0.08VvsRHE),E andE appliedpotentialsat, recycling.Nat.Catal.2,648–658(2019).
+2 oe red
+NATURECOMMUNICATIONS| (2022) 13:3754 |https://doi.org/10.1038/s41467-022-31427-9|www.nature.com/naturecommunications 9
+
+
+===== PAGE 10 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-31427-9
+6. Gao,D.,Arán–Ais,R.M.,Jeon,H.S.&RoldanCuenya,B.Rationalcatalyst 35. Hoang,T.T.H.etal.Nanoporouscopper–silveralloysbyadditive–controlled
+andelectrolytedesignforCO electroreductiontowardsmulticarbonproducts. electrodepositionfortheselectiveelectroreductionofCO toethyleneand
+2 2
+Nat.Catal.2,198–210(2019). ethanol.J.Am.Chem.Soc.140,5791–5797(2018).
+7. Kuhl,K.P.etal.Electrocatalyticconversionofcarbondioxidetomethaneand 36. Su,X.etal.HierarchicallyporousCu/Znbimetalliccatalystsforhighly
+methanolontransitionmetalsurfaces.J.Am.Chem.Soc.136,14107–14113 selectiveCO electroreductiontoliquidC products.Appl.Catal.B269,
+2 2
+(2014). 118800(2020).
+8. Verma,S.etal.InsightsintothelowoverpotentialelectroreductionofCO to 37. Kim,C.etal.Cu/CuOinterconnectedporousaerogelcatalystforhighly
+2 2
+COonasupportedgoldcatalystinanalkalineflowelectrolyzer.ACSEnergy productiveelectrosynthesisofethanolfromCO.Adv.Funct.Mater.31,
+2
+Lett.3,193–198(2018). 2102142(2021).
+9. Nitopi,S.etal.ProgressandperspectivesofelectrochemicalCO reductionon 38. Kim,J.Y.etal.SynergisticeffectofCuOmeshpatternonhigh‐facetCu
+2 2
+copperinaqueouselectrolyte.Chem.Rev.119,7610–7672(2019). surfaceforselectiveCO electroreductiontoethanol.Adv.Mater.34,2106028
+2
+10. Kuhl,K.P.,Cave,E.R.,Abram,D.N.&Jaramillo,T.F.Newinsightsintothe (2021).
+electrochemicalreductionofcarbondioxideonmetalliccoppersurfaces. 39. Jung,H.etal.ElectrochemicalfragmentationofCuOnanoparticles
+2
+EnergyEnviron.Sci.5,7050–7059(2012). enhancingselectiveC–CcouplingfromCO reductionreaction.J.Am.Chem.
+2
+11. Dinh,C.–T.etal.CO electroreductiontoethyleneviahydroxide–mediated Soc.141,4624–4633(2019).
+2
+coppercatalysisatanabruptinterface.Science360,783–787(2018). 40. Lum,Y.,Cheng,T.,Goddard,W.A.&Ager,J.W.ElectrochemicalCO
+12. Nguyen,T.N.etal.ElectrochemicalCO reductiontoethanol:from reductionbuildssolventwaterintooxygenateproducts.J.Am.Chem.Soc.140,
+2
+mechanisticunderstandingtocatalystdesign.J.Mater.Chem.A9, 9337–9340(2018).
+12474–12494(2021). 41. Wang,L.etal.Electrochemicalcarbonmonoxidereductiononpolycrystalline
+13. Bushuyev,O.S.etal.WhatshouldwemakewithCO andHowcanwemake copper:effectsofpotential,pressure,andpHonselectivitytoward
+2
+it?Joule2,825–832(2018). multicarbonandoxygenatedproducts.ACSCatal.8,7445–7454(2018).
+14. Zheng,Y.etal.Understandingtheroadmapforelectrochemicalreductionof 42. Zhang,W.etal.Atypicaloxygen–bearingcopperboostsethyleneselectivity
+CO tomulti–carbonoxygenatesandhydrocarbonsoncopper–based towardelectrocatalyticCO reduction.J.Am.Chem.Soc.142,11417–11427
+2 2
+catalysts.J.Am.Chem.Soc.141,7646–7659(2019). (2020).
+15. Vasileff,A.,Xu,C.,Jiao,Y.,Zheng,Y.&Qiao,S.–Z.Surfaceandinterface 43. Zhu,S.,Li,T.,Cai,W.–B.&Shao,M.CO Electrochemicalreductionas
+2
+engineeringincopper–basedbimetallicmaterialsforselectiveCO probedthroughinfraredspectroscopy.ACSEnergyLett.4,682–689(2019).
+2
+electroreduction.Chem4,1809–1831(2018). 44. Katayama,Y.etal.Aninsitusurface–enhancedinfraredabsorption
+16. Wang,P.etal.Phaseandstructureengineeringofcoppertinheterostructures spectroscopystudyofelectrochemicalCO reduction:selectivitydependence
+2
+forefficientelectrochemicalcarbondioxidereduction.Nat.Commun.9,4933 onsurfaceC–boundandO/boundreactionintermediates.J.Phys.Chem.C
+(2018). 123,5951–5963(2019).
+17. Huang,J.,Mensi,M.,Oveisi,E.,Mantella,V.&Buonsanti,R.Structural 45. Chou,T.–C.etal.ControllingtheoxidationstateoftheCuelectrodeand
+sensitivitiesinbimetalliccatalystsforelectrochemicalCO reductionrevealed reactionintermediatesforelectrochemicalCO reductiontoethylene.J.Am.
+2 2
+byAg–Cunanodimers.J.Am.Chem.Soc.141,2490–2499(2019). Chem.Soc.142,2857–2867(2020).
+18. Zhuang,T.–T.etal.Steeringpost–C–Ccouplingselectivityenableshigh 46. Shen,H.etal.AsymmetricalC–CcouplingforelectroreductionofCOon
+efficiencyelectroreductionofcarbondioxidetomulti–carbonalcohols.Nat. bimetallicCu–Pdcatalysts.ACSCatal.12,5275–5283(2022).
+Catal.1,421–428(2018). 47. Chen,X.etal.ElectrochemicalCO–to–ethyleneconversionon
+2
+19. Ma,W.etal.ElectrocatalyticreductionofCO toethyleneandethanol polyamine–incorporatedCuelectrodes.Nat.Catal.4,20–27(2021).
+2
+throughhydrogen–assistedC–Ccouplingoverfluorine–modifiedcopper.Nat. 48. Wang,P.etal.SynergizedCu/Pbcore/shellelectrocatalystforhigh-efficiency
+Catal.3,478–487(2020). CO
+2
+reductiontoC 2+liquids.ACSNano15,1039–1047(2021).
+20. Zhou,Y.etal.Dopant–inducedelectronlocalizationdrivesCO reductionto
+2
+C hydrocarbons.Nat.Chem.10,974–980(2018).
+2 Acknowledgements
+21. Hoang,T.T.H.,Ma,S.,Gold,J.I.,Kenis,P.J.A.&Gewirth,A.A.
+Nanoporouscopperfilmsbyadditive–controlledelectrodeposition:CO ThisworkwasfinanciallysupportedbytheAustralianResearchCouncil(ARC)through
+2
+reductioncatalysis.ACSCatal.7,3313–3321(2017). DiscoveryProject[FL170100154,DP220102596(S.Z.Q.)],theNationalKeyR&DPro-
+22. Lee,S.,Park,G.&Lee,J.ImportanceofAg–Cubiphasicboundariesfor gramofChina[2020YFB1505802(X.H.)],MinistryofScienceandTechnology
+selectiveelectrochemicalreductionofCO toethanol.ACSCatal.7, [2017YFA0208200,2016YFA0204100(X.H.)],NationalNaturalScienceFoundationof
+2
+8594–8604(2017). China[21903058,22173066,22103054(T.C.)and22025108,2212100020(X.H)],Natural
+23. She,X.etal.TandemelectrodesforcarbondioxidereductionintoC 2+ ScienceFoundationofJiangsuHigherEducationInstitutions[BK20190810(T.C.)]and
+productsatsimultaneouslyhighproductionefficiencyandrate.CellRep.Phys. Start-upsupportfromXiamenUniversity(X.H.).T.C.gratefullyacknowledgessupport
+Sci.1,100051(2020). fromtheCollaborativeInnovationCenterofSuzhouNanoScience&Technology,the
+24. Morales–Guio,C.G.etal.ImprovedCO 2 reductionactivitytowardsC 2+ 111Project,JointInternationalResearchLaboratoryofCarbon-BasedFunctional
+alcoholsonatandemgoldoncopperelectrocatalyst.Nat.Catal.1,764–771 MaterialsandDevices.
+(2018).
+25. Lv,X.etal.Electron–deficientCusitesonCu 3 Ag 1 catalystpromotingCO 2 Author contributions
+electroreductiontoalcohols.Adv.EnergyMater.10,2001987(2020).
+S.Z.Q.andX.H.conceivedandsupervisedtheresearch.X.H.andP.W.designedand
+26. Clark,E.L.,Hahn,C.,Jaramillo,T.F.&Bell,A.T.ElectrochemicalCO
+2 conductedtheexperiments.P.W.,H.Y.,X.H.,andS.Z.Q.performeddataanalyses.C.T.,
+reductionovercompressivelystrainedCuAgsurfacealloyswithenhanced
+multi–carbonoxygenateselectivity.J.Am.Chem.Soc.139,15848–15857 Y.W.,T.C.,andY.Z.participatedinexperimentsandcharacterizations.P.W.,K.D.,X.H.,
+andS.Z.Q.wroteandcorrectedthepaper.Allauthorsdiscussedresultsandcommented
+(2017).
+onthemanuscript.
+27. Li,Y.C.etal.BindingsitediversitypromotesCO electroreductiontoethanol.
+2
+J.Am.Chem.Soc.141,8584–8591(2019).
+28. Chen,C.etal.Cu–Agtandemcatalystsforhigh–rateCO electrolysistoward Competing interests
+2
+multicarbons.Joule4,1688–1699(2020). Theauthorsdeclarenocompetinginterests.
+29. Li,F.etal.CooperativeCO–to–ethanolconversionviaenriched
+2
+intermediatesatmolecule–metalcatalystinterfaces.Nat.Catal.3,75–82
+Additional information
+(2020).
+SupplementaryinformationTheonlineversioncontainssupplementarymaterial
+30. Ren,D.,Ang,B.S.H.&Yeo,B.S.Tuningtheselectivityofcarbondioxide
+electroreductiontowardethanolonoxide–derivedCuZncatalysts.ACSCatal. availableathttps://doi.org/10.1038/s41467-022-31427-9.
+x
+6,8239–8247(2016).
+31. Lv,J.–J.etal.Ahighlyporouscopperelectrocatalystforcarbondioxide
+CorrespondenceandrequestsformaterialsshouldbeaddressedtoXiaoqingHuangor
+reduction.Adv.Mater.30,1803111(2018). Shi-ZhangQiao.
+32. Ma,S.etal.One–stepelectrosynthesisofethyleneandethanolfromCO inan
+alkalineelectrolyzer.J.PowerSources301,219–228(2016).
+2 PeerreviewinformationNatureCommunicationsthanksHee-TaeJungandtheother,
+33. Wang,X.etal.EfficientelectricallypoweredCO–to–ethanolviasuppression anonymous,reviewer(s)fortheircontributiontothepeerreviewofthiswork.
+2
+ofdeoxygenation.Nat.Energy5,478–486(2020).
+Reprintsandpermissioninformationisavailableathttp://www.nature.com/reprints
+34. Luo,M.etal.Hydroxidepromotescarbondioxideelectroreductionto
+ethanoloncopperviatuningofadsorbedhydrogen.Nat.Commun.10,5814
+Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+(2019). publishedmapsandinstitutionalaffiliations.
+10 NATURECOMMUNICATIONS| (2022) 13:3754 |https://doi.org/10.1038/s41467-022-31427-9|www.nature.com/naturecommunications
+
+
+===== PAGE 11 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-31427-9
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfrom
+thecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+licenses/by/4.0/.
+©TheAuthor(s)2022
+NATURECOMMUNICATIONS| (2022) 13:3754 |https://doi.org/10.1038/s41467-022-31427-9|www.nature.com/naturecommunications 11

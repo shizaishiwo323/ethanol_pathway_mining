@@ -1,0 +1,1464 @@
+
+
+===== PAGE 1 =====
+
+ARTICLE
+OPEN
+https://doi.org/10.1038/s41467-021-20961-7
+Morphology and mechanism of highly selective
+Cu(II) oxide nanosheet catalysts for carbon dioxide
+electroreduction
+Xingli Wang 1, Katharina Klingan 2, Malte Klingenhof1, Tim Möller 1, Jorge Ferreira de Araújo1,
+✉
+Isaac Martens3, Alexander Bagger 4, Shan Jiang2, Jan Rossmeisl 4, Holger Dau 2 & Peter Strasser 1
+Cu oxides catalyze the electrochemical carbon dioxide reduction reaction (CO2RR) to
+hydrocarbons and oxygenates with favorable selectivity. Among them, the shape-controlled
+Cuoxidecubeshavebeenmostwidelystudied.Incontrast,wereportonnovel2-dimensional
+(2D) Cu(II) oxide nanosheet (CuO NS) catalysts with high C products, selectivities
+2+
+(> 400mAcm−2) in gas diffusion electrodes (GDE) at industrially relevant currents and
+neutral pH. Under applied bias, the (001)-orientated CuO NS slowly evolve into highly
+branched, metallic Cu0 dendrites that appear as a general dominant morphology under
+electrolyte flow conditions, as attested by operando X-ray absorption spectroscopy and
+in situ electrochemical transmission electron microscopy (TEM). Millisecond-resolved dif-
+ferential electrochemical mass spectrometry (DEMS) track a previously unavailable set of
+product onset potentials. While the close mechanistic relation between CO and C H was
+2 4
+thereby confirmed, the DEMS data help uncover an unexpected mechanistic link between
+CH and ethanol. We demonstrate evidence that adsorbed methyl species, *CH , serve as
+4 3
+commonintermediatesofbothCH HandCH CH OHandpossiblyofotherCH -Rproducts
+3 3 2 3
+via a previously overlooked pathway at (110) steps adjacent to (100) terraces at larger
+overpotentials. Our mechanistic conclusions challenge and refine our current mechanistic
+understanding of the CO electrolysis on Cu catalysts.
+2
+1DepartmentofChemistry,ChemicalEngineeringDivision,TechnicalUniversityBerlin,Straßedes17.June124,10623Berlin,Germany.2Departmentof
+Physics,FreeUniversityofBerlin,Arnimallee14,14195Berlin,Germany.3EuropeanSynchrotronRadiationFacility(ESRF),38000Grenoble,France.
+4DepartmentofChemistry,UniversityofCopenhagen,Copenhagen2100,Denmark. ✉ email:pstrasser@tu-berlin.de
+NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications 1
+;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-20961-7
+V
+alorizing atmospheric CO 2 into C 2+ products by electro- Inthiscontribution,wereportonanewfamilyoffree-standing
+chemical method holds the promise to store renewable 2-dimensionalCu(II)oxideelectrocatalystsfortheCO2RRunder
+surpluselectricitywhileclosingtheglobalcarboncycle1–3.
+neutral pH conditions. Owing to their 2D nature, Cu(II)O
+Efficient CO electrolysis requires advanced electrocatalyst nanosheets (referred to as “2D CuO NS”) feature a highly pre-
+2
+designs4–10,
+an understanding of competing reaction ferred (001) facet orientation. We report a facile one-step
+pathways11,12, and a reliable device performance at industrial synthesis of 2D CuO NS and then track their unique catalytic
+conditions13–16.
+Among a wide variety of catalysts tested for reactivity and concomitant morphological evolution under
+electrochemical CO reduction reaction (CO2RR), copper-based applied electrode potentials using in situ electrochemical liquid
+2
+materials, in particular Cu oxides, CuO , have been enjoying TEM and operando X-ray absorption spectroscopy (XAS). Next,
+x
+attentionthankstotheirwidechemicalselectivityforavarietyof using a new differential electrochemical mass spectrometry
+multi-carbon products, such as C 2+ hydrocarbons and oxyge- (DEMS) technique with millisecond resolution, we discuss pre-
+nates.Ithasbeenreportedthatover16kinds17ofproductscanbe viouslyunreportedtimeevolutionsofkineticonsetpotentialsofa
+formed on copper catalysts through multiple proton-coupled rangeofdifferentproductsoverthecourseofhours.Conclusions
+electron transfer processes. from our DEMS data challenge and refine our current mechan-
+The cathodic electrode potentials during the catalytic CO2RR istic understanding of the mechanistic link between CH and
+4
+invariably drive the chemical transformation of operating CuO ethanol (EtOH). Finally, we document the favorable CO2RR
+x
+catalystsintometallicCuphases.Thispromptedtheirdesignation performance of 2D CuO NS inside GDEs of commercial elec-
+as oxide-derived copper (OD-Cu) catalysts. As a consequence of trolyzers under industrially relevant neutral pH conditions.
+thechemicalreductionmetallicCu0,complextimetrajectoriesof Owing to their emerging stable dendritic structure, their high
+catalyst morphology, chemical state, and catalytic selectivity catalytic reactivity, and the resulting performance stability,
+ensues. A full molecular correlation and understanding of these oriented2DCuONSprecursorcatalystsconstituteaninteresting
+concomitant trajectories has remained elusive. It has been sug- alternative to conventional cubic Cu O catalysts for the electro-
+2
+gestedthattheincreasedlocalpHvalue18–20ofOD-Cu,indirect
+chemical conversion of CO into C H .
+2 2 4
+proportion to the surface roughness, plays an important role for
+favorable ethylene selectivity compared to methane21. Other
+Results
+works highlighted the distinct chemisorption of CO inter-
+mediates22–24.Yetotherreportsrelatedthecatalyticperformance Synthesis and characterization of 2-dimensional CuO
+nanosheets. Free-standing CuO nanosheet catalysts (CuO NS)
+to grain boundaries25, to undercoordinated sites26, to the pre-
+senceofsubsurfaceoxygen27,28ortoresidualnear-surfaceCu +29. were prepared by solvothermal formation and processing of Cu
+(OH) intermediates in alkaline condition (Supplementary
+Also, in most studies, the end point of the morphological evo- 2
+Fig. S2). The wrinkled thin Cu(OH) layers showed high aspect
+lution of designer OD-Cu catalysts has remained in the dark. 2
+Shape-selected cubic Cu O catalysts—largely obtained ratios prior to decomposing into CuO and H 2 O. Figure 1a,b
+2 presents scanning electron microscopy (SEM) image and trans-
+throughpotentialcyclinginpresenceofsurface-activeelectrolyte
+additives—havebeenreceivingparticularattentionasactiveand mission electron microscopy (TEM) image of as-prepared CuO
+NS. The 2D character of the material was retained during the
+selective CO2RR electrocatalysts30,31. Thanks to the structure
+thermaldecompositionofCu(OH) ,whilelargersheetssplitinto
+sensitivity of the C-C bond formation on square atomic Cu0 small ones. The final rectangular 2 CuO NS exhibited serrated
+surfacelattices andthecubicnatureof the Cu Ocrystalsystem,
+2 edges on the short edges. Supplementary Fig. S3a indicates a
+t e h ffi e ci r e e n su cy lti a n n g d p o r n e s fe e r t e p n o ti t a e l nt C ia u l (1 b 0 en 0) efi f t a s ce fo ts r t o h ff e er fo k rm in a e t t i i o c n fa o r f ad C a 2 i + c t s h ta ic c k k n ed es s s t . ru H ct i u g r h e -r o e f so in lu d t i i v o i n dua t l ra fr n e s e m -s i t s a s n io d n ing el C ec u t O ron NS m of ic 3 r − os 4 co n p m y
+products, in particular C 2 H 4 32. (HR-TEM) (Fig. 1c) of CuO NS revealed well-defined lattice
+To follow the evolution in chemical state and morphology of
+fringes with an interplanar spacing of 2.8Å, corresponding to
+electrocatalysts under stationary electrode potential conditions,
+{110}planesofmonoclinicCuO.Selectedareaelectrondiffraction
+operando X-ray-based33 as well as in situ vibrational
+spectroscopies31,34–36,
+and in situ electrochemical transmission
+(SAED)images(Fig.1d)showedrhombicdiffractionspotsalong
+electron microscopy
+(TEM)37–39
+were used to record changes in
+the [001] zone axis. This can be seen by indexed (020), (-110),
+(-200),(-1-10),(0-20)and(1-1;0)planes,indicatingthattheCuO
+catalyst chemical state40,41, local structure13, or intermediates42.
+NS had {001} exposed surfaces. The relative intensity of the dif-
+However, to date, real-time tracking individual CO2RR product
+fractionspotsispresentedinSupplementaryFig.S3b.Thecrystal
+yields and product onset potentials on OD-Cu catalysts at fast
+structure is provided in Supplementary Fig. S4 with indexed
+time scales under non-stationary, transient conditions has
+(001), (110) and (11-1) planes.
+remained very challenging. This operational mode, however, is
+A2Dgrazing-incidencewide-angleX-rayscattering(GI-WAXS)
+very relevant for practical CO2RR electrolyzers powered by
+patternofCuONSonglassycarbonelectrodeisshowninFig.1e.
+intermittent input electricity from renewable sources.
+ThepatterniscommensuratewithacrystallineCuOphase.Minor
+Even though Cu-based CO2RR electrocatalysts have shown
+excellent C 2 H 4 efficiencies in highly alkaline pH 13–15 c y o et nt a r l i l b h u i t g io h n e s r o o r f d a er r r e e s fl id e u c a ti l on C s u 2 w O ere ph a a b s s e en a t re ev s id ee e n nci a n t g lo th w ei a r n t g ra le c s e ,
+conditions13,43, practical CO2RR electrocatalysis must operate at character. Importantly, the (002) and (11-1) reflections of CuO
+neutral pH ~ 7 conditions and perform at industrially relevant
+current densities > 200mAcm
+−213,14.
+To achieve this, the cata-
+exhibited a stronger intensity in the meridional direction,
+evidencingthattheCuONSarestackedalongthe<00l>direction,
+lysts must be cast in gas diffusion electrodes (GDEs) that are
+deployedinsinglezero-andnon-zerogapflowelectrolyzercells. s
+in
+u
+t
+p
+e
+p
+g
+o
+ra
+r
+t
+t
+e
+in
+d
+g
+C
+t
+u
+h
+O
+e H
+N
+R
+S
+-T
+li
+E
+n
+M
+e p
+r
+r
+e
+o
+s
+fi
+u
+l
+l
+e
+t
+s
+s.
+a
+A
+re
+p
+sh
+ar
+o
+t
+w
+ia
+n
+l c
+in
+on
+S
+to
+u
+u
+p
+r
+ple
+p
+m
+lo
+e
+t
+nt
+a
+a
+n
+r
+d
+y
+Whileafewrecentstudieshavereportedtheuseoffree-standing
+cubic Cu O nanocubes44–46 inside GDE designs, the majority of Fig. S5, indicating the coexistence of Cu 2 O traces and major
+2 CuO phase.
+OD-Cu based GDE studies relied on top-down approaches
+involving modified bulk Cu43. Compared to bulk Cu-based cat-
+alysts, nanostructured free-standing catalysts are more desirable CO2RRreactivity,stability,andexsitumorphologyinH-cells.
+as they exhibit higher surface-to-volume ratio and are more The catalytic CO2RR activity of the CuO NS in pH neutral
+amenable to assembly in large-scale GDEs. conditions and without any further pretreatment was recorded
+2 NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications
+
+
+===== PAGE 3 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-20961-7
+Fig.1Morphological,structuralcharacterizationsofsheet-likeCuOcatalystssynthesizedinthisstudybyexsitutechniques.aLarge-scalescanning
+electronmicroscopy(SEM)imageand3DstructureofCuONS(insert,orange).bTransmissionelectronmicroscopy(TEM)imageandchighresolution
+TEM(HR-TEM)imageswithmeasuredlatticedistanceandthecorrespondingfastFouriertransformation.dSelectedareaelectrondiffraction(SAED)
+patternalongzoneaxis[001].e2DSynchrotrongrazingincidencewide-angleX-rayscattering(GI-WAXS)imagedemonstratingpreferredorientationof
+as-preparedCuONSonglassycarbon.AdditionalazimuthallyintegratedlineprofilesareshowninSupplementaryFig.S5b.
+forupto60h.ProductyieldsasfunctionofiR-correctedelectrode (Supplementary Fig. S7) exhibited similar patterns over the first
+potential(E )after1helectrolysisareplottedinFig.2a.C H 2−3hofCuONScatalystactivation.Thehydrocarbonproduction
+RHE 2 4
+startedtoevolveatsignificantlymoreanodicelectrodepotentials ratepeakedearlierwithincreasingappliedoverpotential.Consistent
+compared to CH , which offered a roughly 300mV-wide poten- with data from Fig. 2a, exclusive and sustained catalytic C H
+4 2 4
+tial window of exclusive C H production (their detailed time- production was detected at −0.84 V at 1.6 nmol cm −2 s −1,
+2 4 RHE
+resolved onset potentials see DEMS section below). CH forma- exceeding previous reports47. Near −1.0 V , hydrocarbon
+4 RHE
+tion showed a rapid growth beyond −0.9 V and exceeded production peaked already after 2h, followed by a steady drop in
+RHE
+C H production at −0.97 V . The observed partial current CH generation (cf. Fig. 2d).
+2 4 RHE 4
+densities under the chosen conditions (Fig. 2b) are testament to Morphological changes of CuO NS (Supplementary Fig. S8)
+previously unachieved hydrocarbons selectivities under pH neu- afterthefirsthourelectrolysisnear−1.0V involvedrounding
+RHE
+tral conditions. The partial current density of C H reached of the nanosheet with agglomerations. After prolonged electro-
+2 4
+6.2mAcm −2 at −0.97 V , while CO remained at very low lysis at −0.76 V and −0.84 V (Supplementary Figs. S9,
+RHE RHE RHE
+levels during the entire given overpotential range. The Faradaic S10),theroundingledtoasheetfragmentationoftheinitialCuO
+efficiencies (FEs) within the potential window of exclusive C H NSappearedtobemoreobvious.Finally,aftera60-helectrolysis
+2 4
+production and beyond are compared in Supplementary Fig. S6. at −1.0 V , the sheet fragments re-assembled into larger
+RHE
+The suppression of the HER and concomitant increase in C H agglomerates with roughsurfaces (Supplementary Fig. S11). In a
+2 4
+are noteworthy for H-cell studies. comparativestudyoftheevolutionofthecatalystmorphologyas
+Longer-term 20h and 60h electrolysis was carried out to a function of electrode potential under identical conditions, the
+track the CuO NS selectivity and stability at selected potentials CuO NS catalyst was drop cast on a rough carbon fiber paper
+(Fig.2c−e).CuONScatalystsmaintainedastableabsoluteC H ratherthanonsmoothglassycarbon.Thankstobetterdispersed
+2 4
+production rate during the 60 h electrolysis, even past NS, the catalytic current density increased (Supplementary
+replacements of the electrolyte (Fig. 2d, e). By contrast, the Fig. S12). Now, ex situ SEM studies after 1h reaction
+CH productiondecreasedanddroppedtoverylowvaluesafter (Supplementary Fig. S13) evidenced that rough supports slowed
+4
+25h, making CuO NS voltage efficient (low overpotentials), downthemorphologicaltransformationsoftheCuONS.Unlike
+C H -selective and very performance-stable electrocatalysts. shown in Supplementary Fig. S8, part of the sheet morphology
+2 4
+The initial catalyst activation period over the first few hundred appears still intact (Supplementary Fig. S13c, Area 3), with
+minutesmeritsaclosertimeresolutionofthereactivitycoupledtoa individual sheets on the fiber cracked (Supplementary Fig. S13b,
+correlationtothesheetmorphology(SupplementaryFigs.S7−S10). Area 1) and fractured into small clusters (Supplementary
+The time trajectories of CO, CH , and C H production Fig. S13b, Area 2).
+4 2 4
+NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications 3
+
+
+===== PAGE 4 =====
+
+100
+10
+1
+0.1
+0.01
+-1.00 -0.95 -0.90 -0.85 -0.80 -0.75
+E RHE
+Real-time morphology using in situ electrochemical TEM— otherwise identical conditions (Supplementary Fig. S14c), yet
+from sheets to dendrites. The ex situ microscopic studies imaged in the dry state. The in situ studies cover the first few
+revealed rapid (< 1h) fragmentation of CuO NS during CO2RR minutesofthecatalystactivationwherethemostdramaticrisein
+associatedwithrapid kinetic activationand monotonicallyrising catalytic activity occurred (Supplementary Fig. S7).
+product selectivity (Supplementary Figs. S7, S8 and S13). Of First, Supplementary Movie 1 tracks the initial morphological
+particular interest was the applied bias of −0.84 V , where evolutionoftheCuONSunderopencircuitpotential(OCP)and
+RHE
+hydrocarbongenerationwaslimitedexclusivelytoC H .Tolearn pH-neutral aqueous conditions. Three selected times (Supple-
+2 4
+more about the NS catalyst morphology that enabled exclusive mentary Fig. S15) and their TEM snapshots are shown in
+C H -selectivity,wefollowedthetransformationsoftheCuONS Fig. 3a–c. CuO NS of several 100s of nm in size fracture into
+2 4
+at that same bias using in situ electrochemical liquid TEM smaller sheet fragments, however without immediate disintegra-
+experiments. These studies were carried out in a Protochips tion.Overthe110simagingtime,someofthefragmentedsheets
+Poseidonholderthathostedaflow-throughelectrochemicalchip slowly drifted out of view into the liquid layer.
+cell (“in situ TEM E-chip cell”, Supplementary Fig. S14b) To check the influence of beam and liquid layer effects, we
+equippedwithparallelbeam-transparentsiliconnitridewindows. conductedaprolonged40minOCPexperimentintheILTEME-
+The top view of the in situ TEM E-chip cell is illustrated in chip cell. In agreement with the in situ results, the CuO NS with
+Supplementary Fig. S14a. To exclude beam damage and liquid 100sofnanometersizefracturedintofragmentsoffewnanometer
+layer effects, all in situ TEM E-chip cell experiments were cross- size(Supplementary Fig. S16b, c)without disintegration.
+checked using identical location(IL) TEM E-chip cells,in which Next, we used the in situ TEM E-chip cell to conducted real-
+the E-chip cell was operated outside the microscope under timeimagingoftheCuONSinthepH=6.9buffersolution,still
+etaR
+noitcudorP
+) -2 -1 m s 1h 10
+c ol 8 m
+n
+( 6
+4
+H2
+CO
+CH4 2
+C2H4
+0
+-1.00 -0.95 -0.90 -0.85 -0.80 -0.75
+)
+-1
+s
+-2
+m
+c
+ol
+m
+n (
+ytisneD
+tnerruC
+laitraP
+1h H2
+CO CH4 C2H4
+E (V) 18 RHE
+15
+12
+9
+CH
+2 4
+6
+CO
+3 CH
+4
+0
+0 2 4 6 8 10 12 14 16 18 20
+etaR
+noitcudorP
+50
+@-0.84 V
+RHE
+H 40
+Solid 2
+30
+20
+10
+0
+Time
+EF Hollow
+50
+H2 CO 40 CH4
+C2H4
+30
+20
+10
+0
+0 10 20 50 60
+Time
+etaR
+noitcudorP
+50
+@ -1.0 V RHE H2 New Electrolyte CO 40 CH4
+C2H4
+30
+20
+10
+0
+0 10 20 50 60
+Time
+EF
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-20961-7
+a
+b) -2 m c
+A m (
+c (V)
+%)
+(
+(h)
+d e )
+-2 -1 m s New Electrolyte @ -1.0 V RHE c
+ol
+n m %)
+( (
+(h) (h)
+Fig.2ElectrocatalyticCO2RRtestsusingCuONSinH-cells.aAbsoluteproductformationratesofmajorgaseousproductsasafunctionofapplied
+electrodepotentialsduringCO2RRinCO -saturated0.1MKHCO at60min.bPartialcurrentdensitiesasafunctionofappliedelectrodepotentialsduring
+2 3
+CO2RRinCO -saturated0.1MKHCO at60min.cChronoamperometricperformancestabilityoftheCO reductionreactiononCuONSinCO -saturated
+2 3 2 2
+0.1MKHCO at−0.84V .dandeLong-termstabilitytestover60hfordabsoluteproductformationratesofmajorgaseousproductsandeFaradaic
+3 RHE
+efficienciesonCuONSinCO -saturated0.1MKHCO at−1.0V .Theerrorbarsaregivenasstandarderrorofmean.Catalystloading:100μgcm−2.
+2 3 RHE
+4 NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications
+
+
+===== PAGE 5 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-20961-7
+maintaining OCP. Supplementary Movies 2 and 3 captured the fragments served as building blocks for later re-agglomeration.
+structural transformations over the next ~ 400s: Supplementary Next,weinvestigatedtheeffectofappliedelectrodebiasof−0.84
+Movie2documentsthecontinuedfragmentationoftheCuONS V on the subsequent morphological evolution of the
+RHE
+in real time at OCP over 200s. Clouds of dark spherical Cu fragmented Cu catalyst. After 10s OCP (Supplementary
+fragmentsaredistributed non-uniformlyacrossthefieldof view, Fig. S17a), a linear sweep voltammetry (LSV) step lowered the
+while floating and drifting in and out of focus. Over the next electrode potential from +0.42 V to −0.84 V , where
+RHE RHE
+198s, Supplementary Movie 3 captures the dynamics of the chronoamperometric (CA) control kept it for another 170s.
+fragmented CuO NS catalyst. We believe that these sheet Figure3d shows the experimental current/potential profiles
+NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications 5
+
+
+===== PAGE 6 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-20961-7
+Fig.3Real-timeimagingofCuONScatalystsunderelectrochemicalreaction.InsituTEMimagingofcatalyststructureduringOCPin30µL/hH Oflow
+2
+ata2s,b50sandc110s.ThecorrespondingOCPprofileispresentedinSupplementaryFig.S15.ThewholemovieisshownasSupplementaryMovie1.
+dCurrent/potentialprofilesovertimewithmarkedtimepoints,t -t (verticallines),correspondingtotheimagesine–h.Linearsweepvoltammetry(LSV)
+1 4
+isperformedafter10-secondOCPmeasurementinapH=6.9buffersolutionflow(theOCPprofileisgiveninSupplementaryFig.S17a)withscanrateof
+50mV/s.ThefollowingChronoamperometry(CA)areacquiredat−0.84V (thefirstpotential).ThewholemovieisshownasSupplementaryMovie4.
+RHE
+Thecorrespondingimagesatit0 =2.5sandjt0 =460swiththesecondLSV+CA(the10-secondOCPprofilebeforeLSVisgiveninSupplementary
+1 4
+Fig.S17b)at−1.23V .Current/potentialprofilesovertimewithmarkedtimepoints,t0 -t0 (verticallines)andtheimagessnapshotsareshownin
+RHE 1 4
+SupplementaryFig.S18.ThewholemovieisshownasSupplementaryMovie5.Thecorrespondingimagesatkt00=2.5sandlt00=1000swiththethird
+1 4
+LSV+CA(the10-secondOCPprofilebeforeLSVisgiveninSupplementaryFig.S17c)at−1.73V .Current/potentialprofilesovertimewithmarkedtime
+RHE
+points,t00-t00(verticallines)andtheimagessnapshotsareshowninSupplementaryFig.S19.ThewholemovieisshownasSupplementaryMovie6.
+1 4
+mSchematicoverview(timeline)oftheexperimentallyobservedevolutionoftheCuONSmorphologyprobedbytheinsituTEME-chipflowcell,H-cell,
+andflowcellelectrolyzer.
+recorded inside the in situ TEM E-chip cell. Supplementary After voltammetric scanning to −0.84 V , the complete
+RHE
+Movie4,fromwhich4TEMsnapshotsattimest -t (Fig.3e–h) chemical reduction to metallic Cu0 was observed after 130min
+1 4
+were taken, evidenced that Cu fragments now start to during CO2RR. Interestingly, the reduction from cupric oxide,
+agglomerate (red circles in Fig. 3e–h), while others vanish (cyan CuO, to Cu0 occurred directly, i.e. without detectable formation
+circles). Finally, after another 8min (Supplementary Movie 5) of Cu O intermediates (Fig. 4a). Linear combination fittings
+2
+andyetanother16min(SupplementaryMovie6)undernegative revealedthatafterthevoltammetry,35%ofthebulkvolumewas
+bias, the gradual agglomeration of Cu sheet fragments into already Cu0 (Fig. 4b, c). At the end of the chronoamperometry,
+initially spherical, then into branched dendritic structures set in, metallicCuaccountedfor99%,withtheremaining1%withinthe
+evidencedattimepoint65sand127sofSupplementaryMovie5 uncertainty of the data quality. Possible effects of residual traces
+and 6, respectively. The corresponding in situ TEM snapshot of subsurface oxygen or higher valent Cu species can neither be
+sequence is shown in Fig. 3i–l. Supplementary Movie 5 excluded nor confirmed33, yet appear unlikely in absence of
+demonstrates a spherical deposition and growth of sheet stabilizing agents such as halogenides. The gradual change from
+fragments from the liquid layer onto Cu nuclei attached to the CuOtoCu0isalsoindicatedbytheintensitydecreaseoftheCu-
+electrode in the lower portion of the field of view. Supplemental Obond(1.94Å)andtheintensityincreaseoftheCu-Cu(2.53Å)
+Movie 6 tracked the deposition of Cu sheet fragments onto pre- bond(Fig.4d,e).Coordinationnumbers(CN)ofCu-Odecreased
+formedhighlybranchedCudendriteswithpreviouslyunachieved with the reduction process, while CN of Cu-Cu increased, and
+clarity and details. Again, verification of the in situ TEM results stabilized at 10 after 120min (Supplementary Fig. S25). There is
+ensued using our IL TEM E-chip cell. Supplementary Fig. S20 neither variation in the Cu-O bond length (first coordination
+contrasts oriented 2D CuO NS morphologies with the final Cu sphere),norinthatofCu-Cu.TheobtainedCNofCu0issmaller
+dendritemorphologyafter1600sat−0.8V validatingthereal than bulk fcc Cu0, indicating bulk and/or surface lattice defects
+RHE
+time studies. We conclude that facet-orientated CuO NS rapidly associatedwithundercoordinatedCuatoms.Thisisinagreement
+transformintonanoscalereactivesheetfragmentsthatslowlyre- with the in situ TEM results that suggested the formation of
+assemble into stable large agglomerations and tree-like Cu nano-sized Cu sheet fragments. Undercoordinated Cu sites
+dendrites at rates depending on applied potential/reaction time. formed during the CuO NS fragmentation and visualized in
+Dendritic structures are known to emerge in diffusion-limited Fig. 3, typically exhibit strong chemisorption that has been
+growth regimes48,49, typically present under convective flow associated with outstanding C-C coupling23,25.
+conditionsofelectrochemicalflowcells.Wethereforehypothesize
+dendritic structures—characterized by their unique tree-like MechanisticimplicationsfromDEMS-basedcatalyticratesand
+arborization with self-similar branch structure across several product onset potentials. A differential electrochemical mass
+length scales—constitute the kinetically preferred morphological spectrometry (DEMS) set-up equipped with an electrochemical
+end point of our Cu catalysts in flow conditions;50 a hypothesis capillarycell12withmilli-secondtimeresolutionenabledtracking
+that will be corroborated further below in our electrolyzer flow kinetic product formation rates and yields under transient cata-
+cell studies below. lyticCO2RR.Thankstoitstimeresolution,theDEMStechnique
+accurately captured the electrode potentials where product gen-
+eration sets in (so-called onset potentials). Onset potentials are
+TrackingthechemicalstateandlocalcoordinationofCuONS important mechanistic information that can be associated to
+using operando XAS. To examine the changes in the chemical DFT-computational mechanistic predictions. Reliable onset
+state and local coordination environment of the CuO NS con- potential evolutions of a variety of CO2RR products have not
+comitant to the morphological evolution, operando XAS experi- been reported before.
+ments were conducted (Fig. 4). We performed a continuous 9-h DEMS measurement while
+Visual inspection of X-ray absorption near edge spectra cycling the potential between −0.2 V and −1.0 V . The
+RHE RHE
+(XANES) of reference materials and CuO NS catalyst under anodic turning potential was set deliberately as to prevent Cu
+OCP conditions (Supplementary Fig. S22) corroborated earlier fromre-oxidationduringthecycling.Eachcycletookabout320s.
+findings as to the Cu(II) state of the CuO NS catalyst. Extended Figure5acomparesthetransientmassioncurrentsofCH ,C H
+4 2 4
+X-rayabsorptionfinestructure(EXAFS)simulationsprovedthat and ethanol (EtOH) at m/z=15, 26, and 31, respectively, as
+the CuO reference and the CuO NS catalyst shared the same function of cycle number and time. C H and EtOH production
+2 4
+atomic structure (Supplementary Fig. S23 and Supplementary rates doubled during the first hour, peaked at the 10th cycle (45
+TableS1).TherewerenosignificantcontributionsfromCu(OH)
+min), while CH production showed continues increase.
+2 4
+and Cu O in the CuO NS film detected, which is owed to the TheintegratedmassionchargesofCO,CH ,C H andEtOH
+2 4 2 4
+volume sensitivity of XAS. Hence, the catalyst structure at rest represent the product yields over cycle and time (Fig. 5b) and
+conditions was indeed a highly oriented CuO sheet. werecorrelatedwiththechemicalstateoftheCucatalyst.Parallel
+6 NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications
+
+
+===== PAGE 7 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-20961-7
+Fig.4CatalystevolutionduringCO2RRcharacterizedbyoperandoXAS.aXANESattheCuK-edgeoftheCuONScatalystsatOCPin0.1MKHCO at
+3
+pH6.8during130minCO2RRat−0.84V .bLinearcombinations(withtheweightingfactorsasfitparameters)ofCufoilandtheCuONScatalystsat
+RHE
+OCPwerefittedtoexperimentaldataoftheCuONScatalystsduring130minCO2RRat−0.84V .Coloredlinesrepresenttheexperimentaldataand
+RHE
+blacklinesthelinearcombinations.cAmountofCumetalintheCuONScatalystsduring130minCO2RRat−0.84V .Valuesareobtainedbylinear
+RHE
+combinations(withtheweightingfactorsasfitparameters)ofCufoilandtheCuONScatalystsatOCP,whichwerefittedtoexperimentaldata.dFTofk3-
+weightedEXAFSattheCuK-edgeoftheCuONSfilmatOCPandduring130minCO2RRat−0.84V in0.1MKHCO atpH6.8.Coloredlinesrepresent
+RHE 3
+theexperimentaldataandblacklinesthesimulations.Thedistanceonthex-axisisreducedby0.35Årelativetotherealinternucleardistance.eEXAFS
+(k3weighted)attheCuK-edgeoftheCuONScatalystsatOCPandduring130minCO RRat−0.84V in0.1MKHCO atpH6.8.Coloredlines
+2 RHE 3
+representtheexperimentaldataandblacklinesthesimulations.CoordinationnumbersofthefirstCu-Ofcoordinationsphereandthefirstintermetallic
+Cu-Cugshell(DetailsofthefiterrorandFourier-filterederrorcanbefoundintheSupplementaryInformation).Catalystloading:100μgcm−2.
+to the emerging defective metallic Cu0 catalyst, CH , C H and onset potentials of C H and CO shifted concertedly, yet stayed
+4 2 4 2 4
+EtOH showed increasing rates and yields over the first 10 cylces apart by 150−250mV. We attribute the shift to a decline in the
+(~45min). Thereafter, C H remained partly stable, while CH number of active Cu surface sites. The varying offset represents
+2 4 4
+and EtOH showed opposite trends. This was in contrast to CO, the electrical energy (limiting overpotential) needed to kick-start
+the yield of which showed a complex response to the C and C the dimerization of *CO toward C H 53 and corroborates their
+1 2 2 4
+pathways. The electrode onset potentials of these four key well-known mechanistic link.
+reaction products over 100 potential cycles are displayed in the Moreimportantarethemechanisticimplicationsofthesimilar
+spider/radar plot of Fig. 5c. This diagram represents—to our constant onsetpotentials of CH and EtOH(−0.8V to −0.9
+4 RHE
+knowledge—the first such time-resolved evaluation of the V over9h).Thereappearstoexistacommonelementarystep
+RHE
+evolution of product onset potentials. This experiment offers thatcontrolstheonsetpotentialsofbothCH andEtOH.Against
+4
+novel and noteworthy mechanistic implications and hypotheses. conventional mechanistic wisdom53,54, this suggests a much
+The vanishing oxidic character of CuO NS (Fig. 4c) coupled to closer mechanistic link between CH and EtOH than previously
+4
+sheet fragmentation and re-aggregation during the first hour thought52,53. We have previously observed an opposite correla-
+(~10th cycle) shifted the onset potentials of both C H (green) tion in CH and EtOH faradaic production55, by carrying out
+2 4 4
+andCO(red)from−0.57±0.07V and−0.38±0.08V to statistical analysis on the product formations on a series of Cu
+RHE RHE
+−0.63±0.09 V and −0.48±0.05V , and after 9h (100th facets56. A careful observation was that, while the stepped
+RHE RHE
+cycle) further to −0.77±0.02 V and −0.48±0.03 V , Cu(210),i.e.(2(100)x(110))surfaceishighlyselectiveforCH ,Cu
+RHE RHE 4
+respectively. Experimental onset potentials of Fig. 5c can be (n10), i.e., (n(100)x(110), n>2) facets are highly EtOH
+associated with the theoretical concept of limiting electrode selective57. Combining this analysis with the experimental
+potentials51,52oftheCOandC H pathways,thatis,therequired observation here of onset potentials of CH and EtOH tracking
+2 4 4
+minimal overpotentials before the last elementary kinetic step each other—we put forward the new hypothesis that products
+turns energetically downhill and the reaction proceeds51. The withacommon-CH group(CH -H,CH -COOH,CH -CHO&
+3 3 3 3
+NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications 7
+
+
+===== PAGE 8 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-20961-7
+Fig.5ProductsformationandonsetpotentialshiftalongtheelectroreductionofCuONScatalyst.aOperandodifferentialelectrochemicalmass
+spectrometry(DEMS)sweepdataobtainedduringCO2RRonCuONScatalysts(supportedonaflat0.785cm2glassycarbonelectrode,catalystloading:
+100μgcm−2.)usingCO -saturated0.1MKHCO bycontinuouscyclicvoltammetricscanat5mVs−1.bDEMS-derivedmasschargesforvariousproducts
+2 3
+formedduringthecathodicandanodicvoltammetricsweep.Theerrorbarsaregivenasstandarderrorofmean.cSpiderplotshowsthevariationsinthe
+onsetelectrodepotentialofkeyproductsduringCO2RRbycontinuouscyclicvoltammetricscanat5mVs−1(seeSupplementaryTableS2).Product
+moleculesconsideredare:m/z=28CO,m/z=15correspondingtomethane,m/z=26correspondingtoethylene,m/z=31correspondingtoethanol.
+dFaradaicefficienciesofCH ,EtOHandC H onCu(100)terracesof(fromlefttoright)shrinkingwidthandincreasingdensityofCu(110)steps.WhileCu
+4 2 4
+(100)showslittleEtOH,EtOHincreaseswithlarger(110)stepdensityandnarrower(100)terracewidth,peakingatCu(310).Thenarrow(100)terraces
+onCu(210)preventEtOHformationinfavorofCH (datafromRef.56).e–gIllustrationof*CH ascommonintermediateofCH andEtOH:Sideviewsof
+4 3 4
+theCu(210),Cu(310)andCu(510)singlecrystalfacets.Cu(210)featuresexclusive*CH and*HadsorptiontowardCH ,whileCu(310)allowsforC-C
+3 4
+couplingbetween*CH andcarbonaceousadsorbatesonthe(100)terracestowardEtOH.Thewider(100)terracesofCu(510)alsoenablesC-Ccoupling
+3
+amongcarbonaceousadsorbatestoC H .Grey:C,white:H,red:O.
+2 4
+CH -CH OH) could share a methyl intermediate. We speculate wehavediscussedandshownthatacetaldehydecanbereducedto
+3 2
+that3ormoreatom-wide(100)terracesata(110)stepenablethe EtOH55.
+stabilizationofanintermediate,thatcouplewith*CH toEtOH.
+3
+Figure 5e–g illustrate this new mechanistic concept. Reactive
+methyl*CH
+3
+intermediatesadsorbedatthe(110)stepwhile*CO
+CO2RRelectrolysisusinggasdiffusionelectrodes.Toassessthe
+preferably adsorbed on the (100) terraces. *CO dimerization on potential of CO2RR on CuO NS under industrial pH neutral
+terraces forms C 2 H 4 at lower overpotentials, while *CH 3 require conditions (1M KHCO 3 ), we deposited the catalyst onto gas
+largeroverpotentialtobecomecatalyticallyreactiveat−0.8V RHE . diffusion electrodes (GDE) separating CO 2 and liquid catholyte
+Given the terrace is wide enough, *CH
+3
+combines with a flowsinsinglecellelectrolyzersetups(Fig.6a).Constantcurrent
+carbonaceousadsorbateonCu(100)toformEtOH.Iftheterrace densities between 50 and 700mAcm −2 were applied for 2h.
+becomes too small as on the (210) facet, it can no longer Figure6bshowstheproductFEsversuscurrentsatneutralpH.
+accommodate carbonaceous adsorbates. Now, *CH 3 forms The initial large H 2 FE at 50mA cm –2 is owed to relatively low
+preferentially methane. This mechanism is directly confirmed electrodeoverpotentialsatthemetallicCu0sheetfragments.With
+by Cu single crystal FE data in Fig. 5d, however the concept of increasing currents, the Cu catalyst developed its excellent
+*CH 3 asacommonprecursorforCH 4 andEtOHhascompletely CO 2 RR FE of 65% at 700mAcm −2, with mere 13% H 2 . As the
+overlookedbefore,andhenceisnotincorporateinanyoftoday’s
+C H FE reached 33% at neutral pH, the partial C H current
+2 4 2 4
+mechanisticschemes.Wenotethatthisdirectlarge-overpotential maxed at 229mAcm −2 (Fig. 6c). Previously unachieved is the
+E ac t e O ta H ld p eh at y h d w e a h y as is be s e e n pa s r h a o te wn fro a m sa t p h r e ec i u n r - s d o ir r e f c o t r ly et p h a a t n h o w l5 a 8 y – , 6 w 0, h a e n r d e C m 2 e + nta p r r y od F u i c g t . p S a 2 r 6 t ) i . al T c h u e rr f e a n c t t d th e a n t sit C y H of f 4 o 1 rm 0m at A ion cm is −2 es ( s S e u n p ti p a l l e ly -
+4
+8 NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications
+
+
+===== PAGE 9 =====
+
+1200
+600 400
+200
+0
+suppressed at all currents (e.g., 0.58% at 700mAcm
+−2)
+making concerted shift in onset potentials of CO and C H evidenced
+2 4
+C H the sole gaseous hydrocarbon product, merits further theirclosemechanisticlink.ThoseofCH andEtOH,bycontrast,
+2 4 4
+attention. Stability tests at 300mAcm
+−2
+for 24h (Fig. 6d) remained unaffected and were nearly identical. Counter to our
+revealed only negligible FE drops over 20h. Consistent with currentmechanisticunderstanding,thispointstotheexistenceof
+C2H4
+in situ TEM data, agglomeration resulted in long-term dendritic a common mechanistic intermediate, likely *CH , feeding into
+3
+morphologies (Supplementary Figs. S27 and S28). To put the competing pathways toward EtOH and CH , confirming pre-
+4
+excellent performance of CuO NS precursors and its morpholo- viouslyoverlookeddatatrendsonmetallicsteppedCu(n10)single
+gicalderivativesinperspective,Fig.6ecomparestheC H partial crystal facets. Based on this, Tetrahexahedrally shaped61,62 par-
+2 4
+currents under comparable conditions. Our CuO NS meet and ticles exposing stepped (310) facets are predicted be optimal
+exceed today’s top performing Cu catalysts under neutral nanocatalysts to support the EtOH-selective pathway.
+condition in electrolyzers.
+Methods
+Discussion
+Synthesis.NanosizedCuOcatalystwithsheet-likemorphologywassynthesizedby
+We have studied the synthesis and CO electrocatalysis of a asurfactant-freewet-chemistryroute.Nopurificationwasperformedforchemicals
+2
+(001)-orientedCuOnanosheetcatalyst.Evaluatedinelectrolyzers beforeuse.CuOnanosheetswereobtainedbythermaldecompositionofpre-
+synthesizedCu(OH) intermediate.ToprepareCu(OH) intermediate,100mgCu
+under industrially relevant pH neutral conditions, the CuO NS 2 2
+(SO) wasdissolvedin4mLDI-water,2.5mL1MKOHsolutionwasthenadded
+catalysts featured unprecedented performance metrics for C H 42
+2 4 dropwiseintothesolution.After15-minstirring,1mLammoniumhydroxidewas
+and C 2+. In situ and ex situ TEM studies revealed that over added.Theresultinghomogeneouslightbluesolutionwasthentransferredtoa
+10–20min under potential control the CuO NS fractured and— glasspressurevessel.Thesealedvesselwasthenheatedfromroomtemperatureto
+presumably limited by diffusion of Cu species—aggregated into 80°Cin30minandstayedat80°Cfor12hbeforeitwascooledtoroomtem-
+branched,dendriticCustructuresthatrepresentedthefinalstable p
+12
+er
+,6
+a
+4
+tu
+9
+r
+.6
+e
+3
+.T
+g
+h
+a
+e
+n
+p
+d
+ro
+fu
+d
+r
+u
+th
+ct
+e
+s
+r
+w
+p
+e
+u
+r
+r
+e
+ifi
+p
+e
+r
+d
+ec
+t
+i
+w
+pi
+i
+t
+c
+a
+e
+te
+b
+d
+y
+b
+e
+y
+th
+e
+a
+th
+n
+a
+o
+n
+l
+o
+a
+l
+n
+,
+d
+se
+w
+pa
+a
+r
+t
+a
+er
+te
+.
+d
+A
+v
+ft
+i
+e
+a
+r
+c
+w
+e
+a
+n
+r
+t
+d
+ri
+s
+fu
+th
+g
+e
+a
+y
+tio
+w
+n
+er
+a
+e
+t
+catalyst morphology under flow conditions. Operando XAS stu- freezedriedandstoredaspowdersunderinertatmosphereuntiluse.
+dies confirmed the chemical reduction of CuO and concomitant
+formation of disordered and coordinatively under-saturated Cu0
+over about 2h under reductive CO2RR conditions. These Electronmicroscopy(TEM,HRTEMandSAED).TEMandSAEDwereper-
+undercoordinatedsitesareheldresponsibleforthehighcatalytic
+formedusingaFEITecnaiG2Microscope20S-TwinwithaLaB6-cathodeat
+200kVacceleratingvoltage(ZELMICentrum,TechnicalUniversityBerlin).The
+CO 2 -to-C 2+ product reaction rates. Time-resolved DEMS pro- samplesweredispersedinethanol,ultrasonicatedanddrop-driedontoCu-grids
+vided access to the evolution of product onset potentials. The withaholeycarbonfilm.AnalysiswasdoneusingsoftwarefromImageJ.The
+j
++2C
+Green Condition Harsh Condition
+CH PrOH EtOH CH CO H
+4 2 4 2
+Formate Acetate
+CIBHarchitecture
+100
+Science 367, 661 (2020)
+90
+80 5.1 6.3 6.6 6.4 6.1 Evaporated Cu/GDL 70 5.1 6 5 . . 2 8 5 5 . . 3 5 6.1 5 5 . . 7 1 Adv. Mater. 2018, 30, Science 360, 783 (2018) 60 O 18 D 04 - 8 C 67 u foil Adv P . M o a r t o er u . 2 s 01 C 8, 3 u 0,1803111 EvaporatedCu/GDL 50 31 31 30 29 29 28 This work Science 360, 783 (2018) 40 CuAg wire film
+30 8.2 8.3 7.6 7.9 7.6 6.2 ACS. Catal. 2020, 10, J J . . A P m ow . e C r h . C e S m o u u . r S c o e c s . , 2 2 0 0 1 1 6 8 , , 3 1 0 4 1 0 , 2 (1 1 7 9 ) OD- A 1 C 8 d 0 v u 4 . 8 M 6 f a 7 o te i r l . 2018, 30,
+1 2 0 0 26 22 24 25 27 31 48 C 54 u cubes De Na p t. o C s at i a t l e ., d 20 1 C 8, u 1,1 C 03 u cube A s CS C C u at D al. A , 2 T 01 7 - , w 7 ( i 5 r ) e , 33 E 13 vap S o c r ie a n t c e e3 d 6 0 C , 7 u 83 / G (20 D 18 L )
+Porous Cu
+0 Adv. Mater. 2018, 30,1803111
+4 8 12 16 20 24 ~ 1M KHCO 1M KOH 3-10M KOH (+) KI
+3
+EF
+100
+90
+15
+80 14
+6 7 0 0 4.7 3 1 3 . 3 9 4 5 1 . . 1 7 7 5 6 1 . . 1 3 9 6 7 7 . . . 3 2 6 5 8 7 . . . 9 3 8 6 9 1 . . 1 2 3 7 4 1 . . 1 7 6 7 5 1 . . 2 7 9 50 39
+3 4 0 0 38 24 26 29 31 32 33 33
+20 24 21 18
+34 12 9.2 7.7 6
+10
+15 12 12 12 12 12 12 13
+0
+50 100 200 250 300 400 500 600 700
+Time(h)
+)%(
+EF
+CH4 PrOH EtOH C2H4 CO H2 Formate Acetate
+CO 2 CO
+2
+CO 2
+Feed Carbon j
+Paper Electrolyte
+HC+OC y
+x
+2
+Ionomer
+O 2
+Ir-MMO
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-20961-7
+a b c
+(mA cm-2)
+d e
+) -2 m %) A c ( m (
+Fig.6Electrochemicalcharacterizationinflowcellconfiguration.aSchematicrepresentationoftheflowcellelectrolyzer.bFaradaicefficienciesasa
+functionofappliedgeometriccurrentdensityforCuONSwithcatalystloadingof1mgcm−2in1MKHCO .cThepartialcurrentdensityofC H .
+3 2 4
+dStabilitytestatageometriccurrentdensityof300mAcm−2,displayingtheFaradaicefficienciesasafunctionoftime.ePlotsofC 2+partialcurrent
+densitiesinaflow-cellsystem(comparedwithreferences)4,43,46,63–68.
+NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications 9
+
+
+===== PAGE 10 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-20961-7
+HR-TEMwasconductedwithFEITITAN80–300nwithhighbrightnessFEG CO
+2
+reductioninflowcellelectrolyzer.Theflowcellelectrolyzerisusedfor
+(ZELMICentrum,TechnicalUniversityBerlin). measuringthesamplesathighcurrentdensities,whichwereperformedina
+commercialcellsuppliedbyElectroCell.Inallflow-cellexperimentsacommercial
+Ir-MMOplate(ElectroCell)wasusedasanode.Thecatalyst-inkswerespray-coated
+ElectrochemicalMeasurementsinH-cell.Theelectrochemicaltestswerefirstly
+onthemicroporouslayer(MPL)ofaFreudenbergC2gasdiffusionlayer(GDL)on
+carriedoutinacustom-madetwo-compartmentcell(H-cell),separatedbyan anareaof3cm2toachieveacatalystloadingof1mgcm−2.Nafion(Sigma-
+anionexchangemembrane(SelemionAMV,AGCEngineeringCo.,LTD).Allthe
+Aldrich,5wt%resinsolution)wasusedasbinderandforionicconductivityofthe
+glasswareaccessoriesusedinthisstudywerefirstcleanedbysoakingina
+catalyst-layer.1MKHCO (500mL,Sigma-Aldrich,BioUltra,≥99.5%)wasusedas
+“nochromix”bathandafterwardinconcentratedHNO foratleast12h,rinsed 3
+3 anolyteandcatholyte,whichwereseparatedbyananionexchangemembrane
+andsonicatedwithultrapurewaterseveraltimes.Wehaveworkedwithaconstant
+(SelemionAMV,AGCEngineeringCo.,LTD.).Bothelectrolyteswerecycledthrough
+concentrationof0.1MCO 2 -saturatedKHCO 3 solution(Honeywell).Theworking/ eachrespectivecompartmentat100mLmin−1byusingaperistalticpump(PMP
+countercompartmentwasfilledwith40mLofelectrolyterespectively.Beforeand Ecoline,Cole-Parmer).TheCO (4.5N)wassuppliedatarateof50mLmin−1tothe
+duringtheelectrochemicalreactiontheworkingcompartmentwaspurgedcon- cathodeandwasflownfromt 2 hebackoftheGDLthroughthecatalystlayer.
+tinuouslywithCO (30sccmintotal)fromthebottomofthecellandthegas
+2 Measurementswereperformedgalvanostaticallyfor2hateachrespectivecurrent
+atmospherewascontrolledwithaninsitumassflowcontroller.Polishedglassy
+duringthecatalytictests,changingthecurrentfromlowtohighvalues.Each
+carbonorcarbonpaperareusedasworkingelectrodesandmeasuredwitha
+galvanostaticstepwasfollowedbyaPotentiostaticElectrochemicalImpedance
+BiologicSP300potentiostat.Aplatinummesh100(Sigma-Aldrich99.9%)was
+Spectroscopy(PEIS)measurementtoaccountfortheohmicdropinthecalculation
+usedascounterelectrode(CE)andaleak-freeAg/AgClelectrodeasreference
+ofRHEpotentials.
+electrode(MultiChannelSystemsMCSGmbH).Everymeasurementwasstarted
+withlinearsweepvoltammetry(LSV),performedwithascanrateof−5mV/s
+startingatE=+0.05V andendingattheworkingpotential(between−0.78 Data availability
+RHE
+V
+RHE
+and−1.0V
+RHE
+)followedbyachronoamperometricstepforacertaintime. Alldatathatsupportthefindingsofthisstudyarepresentinthepaperandthe
+AllreportedpotentialsarecorrectedforOhmicdropdeterminedbyelectro- supplementarymaterials,andadditionaldataareavailablefromthecorresponding
+chemicalimpedancespectroscopy(EIS).EC-Labsoftwarewasusedtoauto- authoruponreasonablerequest.TheSupplementaryInformationcontainsdescriptions
+maticallycorrect50%oftheOhmicdrop,theremaining50%wascorrected ofmethods,discussionsonphysicochemicalcharacterizationofCuONS,insituTEM,
+m
+ad
+a
+s
+n
+o
+u
+rb
+a
+a
+ll
+t
+y
+e
+.
+s
+F
+f
+o
+ro
+r
+m
+eac
+p
+h
+re
+m
+vio
+ea
+u
+s
+s
+u
+e
+r
+x
+em
+pe
+e
+r
+n
+im
+t,
+e
+f
+n
+re
+ts
+sh
+di
+e
+d
+le
+n
+ct
+o
+r
+t
+ol
+i
+y
+n
+t
+fl
+e
+u
+w
+en
+as
+ce
+u
+t
+s
+h
+ed
+er
+t
+e
+o
+su
+en
+lt
+s
+.
+urethat o
+m
+p
+a
+e
+t
+r
+e
+a
+r
+n
+ia
+d
+ls
+o
+w
+X
+e
+A
+re
+S,
+t
+D
+ak
+E
+e
+M
+n
+S
+fro
+a
+m
+nd
+r
+fl
+ef
+o
+.
+w
+20
+c
+.
+elltest.TheXASdataforCu,andCu2Oreference
+Insitutransmissionelectronmicroscopy.PoseidonSelectelectrochemicalcell Received: 13 August 2020;Accepted: 3 January 2021;
+holder(Protochips,insituTEME-chipcell)wasusedtoloadthesamplesintothe
+microscopeandmaintaintheliquidenvironmentfortheexperiment.Theelectro-
+chemicalcellwasmadefromcommerciallyavailableelectrochemistrychips(Pro-
+tochips)consistingofanO-ring,abottomchip,andatopE-chipwith
+3-electrodesimprintedonit,asshowninSupplementaryFigureS13.The3elec-
+trodesonthetopE-chiparemadefromPt(boththereferenceandcounterelec-
+References
+trode),andglassycarbon(theworkingelectrode).Bothtopandbottomchipsare
+deliveredwithaprotectivephotoresistcoatingtopreventdamagetotheSiN 1. Chen,C.,Khosrowabadi,J.&Sheehan,S.Progresstowardcommercial
+membrane.Acetoneandmethanolwereusedtoremovetheprotectivephotoresist applicationofelectrochemicalcarbondioxidereduction.Chemistry4,
+coating.TheCuONScatalystweredispersedinethanolanddrop-castedontothe 2571–2586(2018).
+centerofthetopchip,plasmacleaningfor20simprovesthehydrophilicityofthe 2. DeLuna,P.etal.Whatwouldittakeforrenewablypoweredelectrosynthesis
+chipsbeforeuse.Afterassembling,liquidsolutionwasdeliveredbyanexternal todisplacepetrochemicalprocesses?Science364,eaav3506(2019).
+S H e a le m ct ilt T o E n M syr h i o n l g d e e p r u w m it p h t a hr fl o o u w gh ra th te e o m f i 3 cr 0 o μ fl L u / i h d − ic 1 t . u T b h in e g e i l n ec to tro th c e he ti m p i o st f r t y he m P e o a s s e u i r d e o - n 3. H an a t n h , ro B p .- o H ce . n & e. H C e u d r i r n . , O N p . i E n d . i G to r r e i e a n l . o S v u e s r t v a ie in w . : C C h O em 2 c . a 1 p 6 t , u A re 1 a – n A d 2 c ( h 2 e 0 m 19 is ) t . ryinthe
+mentswereperformedwithafloatingpotentiostat(GamryReference600+).More 4. Lv,J.etal.Ahighlyporouscopperelectrocatalystforcarbondioxide
+experimentaldetailsarepresentedinthesupplementaryinformation. reduction.Adv.Mater.30,1803111(2018).
+5. Möller,T.etal.EfficientCO toCOelectrolysisonsolidNi–N–Ccatalystsat
+2
+industrialcurrentdensities.EnergyEnviron.Sci.12,640–647(2019).
+OperandoX-rayabsorptionspectroscopy(XAS).OperandoX-rayabsorption
+6. Huang,J.etal.Potential-inducednanoclusteringofmetalliccatalystsduring
+spectroscopywasmeasuredattheCuK-edgesattheBESSY-IIsynchrotronfacility
+electrochemicalCO reduction.Nat.Commun.9,3117(2018).
+atKMC-3beamline(Helmholtz-ZentrumBerlin,Germany).CuONScatalysts 2
+7. Loiudice,A.etal.TailoringcoppernanocrystalstowardsC productsin
+werepreparedon2×2.5cmglassycarbonsheets(250μmthickness,SigradurK) 2
+andmountedinanin-housemadeelectrochemicalTefloncell.Operandospectraof electrochemicalCO 2 reduction.Angew.Chem.Int.Ed.55,5789–5792(2016).
+CuONSsampleswerecollectedinfluorescencegeometryfromthebacksideofthe 8. Wu,Y.etal.DominoelectroreductionofCO 2 tomethanolonamolecular
+glassycarbonelectrode.Weuseda13elementSi-driftenergyresolvingdetector
+catalyst.Nature575,639–642(2019).
+(RaySpec)whichweequippedwithanAl-shieldinghavinga25×25mmNifoil 9. Fu,J.etal.Bipyridine-assistedassemblyofAunanoparticlesonCunanowires
+(0.00125mm,99.999%,Goodfellow)infronttosuppressscatteredlight.The toenhancetheelectrochemicalreductionofCO 2 .Angew.Chem.Int.Ed.58,
+electrochemicalcellwascontrolledbyaSP-300potentiostat(Biologic).Weuseda
+14100–14103(2019).
+Ag/AgClreferenceelectrodeandaPtcoilascounterelectrode.TheCuOarea 10. Ning,H.etal.CubicCu 2 Oonnitrogen-dopedcarbonshellsfor
+exposedtotheelectrodewas1.96cm².The0.1MKHCO 3 electrolytewaspurged electrocatalyticCO 2 reductiontoC 2 H 4 .Carbon146,218–223(2019).
+throughouttheexperimentwith≈20ml/min.Allpotentialswerecompensatedfor 11. Todorova,T.,Schreiber,M.&Fontecave,M.Mechanisticunderstandingof
+85%Ohmicdrop(R≈40Ω). CO
+2
+reductionreaction(CO2RR)towardmulticarbonproductsby
+heterogeneouscopper-basedcatalysts.ACSCatal.10,1754–1768(2020).
+12. Wang,X.etal.Mechanisticreactionpathwaysofenhancedethyleneyields
+Operandodifferentialelectrochemicalmassspectrometry(DEMS).Operando duringelectroreductionofCO–COco-feedsonCuandCu-tandem
+Differentialelectrochemicalmassspectrometry(DEMS)wasdoneusingacustom- electrocatalysts.Nat.Nanotech 2 nol.14,1063–1070(2019).
+madeTUBerlinelectrochemicalcapillaryDEMSflowcell.DEMScapillaryflowcellis
+characterizedbyhavingawell-definedelectrolyteprofileflowovertheworking 13.
+f
+W
+ac
+a
+e
+n
+ti
+g
+n
+,
+g
+Y
+a
+.
+n
+e
+d
+ta
+p
+l
+r
+.
+o
+C
+m
+a
+o
+ta
+te
+ly
+s
+s
+r
+t
+e
+s
+n
+y
+e
+n
+w
+th
+a
+e
+b
+s
+le
+is
+f
+u
+u
+n
+el
+d
+s
+e
+e
+r
+le
+C
+c
+O
+tro
+2
+s
+e
+y
+l
+n
+ec
+th
+tr
+e
+o
+s
+r
+is
+e
+.
+d
+N
+uc
+a
+t
+t
+i
+.
+o
+C
+n
+a
+f
+t
+a
+a
+v
+l
+o
+.
+u
+3
+r
+,
+s
+98–106
+electrode.Thereactionproductsaretransportedintotheinterfaceliquidvacuum
+(2020).
+throughouta0.15mmglasscapillary.Thecollectionofhighconcentratedaliquotnear
+14. Burdyny,T.&Smith,W.CO reductionongas-diffusionelectrodesandwhy
+catalystsurfaceandenhancedliquid-vacuuminterfaceallowsafastandathigh- 2
+catalyticperformancemustbeassessedatcommercially-relevantconditions.
+i
+fl
+n
+o
+t
+w
+en
+c
+s
+e
+it
+l
+y
+lr
+d
+e
+e
+su
+te
+l
+c
+ts
+ti
+i
+o
+n
+n
+th
+o
+e
+fg
+d
+a
+is
+s
+t
+e
+r
+o
+ib
+u
+u
+s
+te
+p
+d
+ro
+fl
+d
+o
+u
+w
+ct
+o
+s.
+v
+T
+er
+h
+t
+e
+he
+hi
+h
+g
+y
+h
+d
+p
+ro
+e
+p
+rf
+h
+o
+o
+rm
+bic
+an
+m
+ce
+em
+w
+b
+it
+r
+h
+an
+D
+e
+E
+c
+M
+om
+S
+p
+c
+a
+a
+r
+p
+tm
+ill
+e
+a
+n
+ry
+t
+EnergyEnviron.Sci.12,1442–1453(2019).
+alsoknownasthecyclonicflow.Theinterfaceliquid/vacuumpromotedbyPTFE 15. Vennekoetter,J.,Sengpiel,R.&Wessling,M.Beyondthecatalyst:how
+hydrophobicmembranewithaporesizeof20andthicknessof50μm(Cobetter®, electrodeandreactordesigndeterminetheproductspectrumduring
+Cat.No.PF-002HS)arecommerciallyavailableatHangzhouCobetterFiltration electrochemicalCO 2 reduction.Chem.Eng.J.364,89–101(2019).
+EquipmentCo.,Ltd.Thereactionproductsafterbeenvaporizedintothevacuum 16. Ma,M.etal.InsightsintothecarbonbalanceforCO 2 electroreductiononCu
+chamberfromtheflowcellweredetectedusingaPrismaTMquadrupolemass usinggasdiffusionelectrodereactordesigns.EnergyEnviron.Sci.13,977–985
+spectrometer(QMS200,Pfeiffer-Vacuum).Thevacuumchamberwascomposedof (2020).
+twoturbomolecularpumps(HiPace80)thatperformanultimatepressure10−6mbar 17. Kuhl,K.,Cave,E.,Abram,D.&Jaramillo,T.Newinsightsintothe
+atMSdetectors.Eachturbomolecularpumphasanindependentbakingsystem electrochemicalreductionofcarbondioxideonmetalliccoppersurfaces.
+helpedabymembraneandoilpump(coupledwithamolecularsievesoiltrap).
+EnergyEnviron.Sci.5,7050–7059(2012).
+10 NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications
+
+
+===== PAGE 11 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-20961-7
+18. Varela,A.,Kroschel,M.,Reier,T.&Strasser,P.Controllingtheselectivityof 46. DeGregorio,G.etal.Facet-dependentselectivityofCucatalystsin
+CO electroreductiononcopper:theeffectoftheelectrolyteconcentrationand electrochemicalCO reductionatcommerciallyviablecurrentdensities.ACS
+2 2
+theimportanceofthelocalpH.Catal.Today260,8–13(2016). Catal.10,4854–4862(2020).
+19. Pang,Y.etal.JointtuningofnanostructuredCu-oxidemorphologyandlocal 47. Jovanov,Z.,FerreiradeAraujo,J.,Li,S.&Strasser,P.Catalystpreoxidation
+electrolyteprogramshigh-rateCO reductiontoCH.Green.Chem.19, andEDTAelectrolyteadditiveremedyactivityandselectivitydeclinesduring
+2 2 4
+4023–4030(2017). electrochemicalCO reduction.J.Phys.Chem.C.123,2165–2174(2019).
+2
+20. Klingan,K.etal.ReactivitydeterminantsinelectrodepositedCufoamsfor 48. Popov,K.,Maksimović,M.,Trnjančev,J.&Pavlović,M.Dendritic
+electrochemicalCO reduction.ChemSusChem11,3449–3459(2018). electrocrystallizationandthemechanismofpowderformationinthe
+2
+21. Kwon,Y.etal.CO electroreductionwithenhancedethyleneandethanol potentiostaticelectrodepositionofmetals.J.Appl.Electrochem.11,239–246
+2
+selectivitybynanostructuringpolycrystallinecopper.ChemElectroChem3, (1981).
+1012–1019(2016). 49. Yan,C.&Xue,D.AmodifiedelectrolessdepositionroutetodendriticCu
+22. Lee,S.,Kim,D.&Lee,J.ElectrocatalyticproductionofC-C compoundsby metalnanostructures.Cryst.GrowthDes.8,1849–1854(2008).
+3 4
+conversionofCO onachloride-inducedBi-phasicCuO-Cucatalyst.Angew. 50. Reller,C.etal.SelectiveelectroreductionofCO towardethyleneonnano
+2 2 2
+Chem.Int.Ed.54,14701–14705(2015). dendriticcoppercatalystsathighcurrentdensity.Adv.EnergyMater.7,
+23. Verdaguer-Casadevall,A.etal.ProbingtheactivesurfacesitesforCO 1602114(2017).
+reductiononoxide-derivedcopperelectrocatalysts.J.Am.Chem.Soc.137, 51. Bagger,A.,Castelli,I.,Hansen,M.,Rossmeisl,J.FundamentalAtomicInsight
+9808–9811(2015). inElectrocatalysis.In:W.AndreoniSYe(ed).HandbookofMaterials
+24. Bagger,A.etal.ElectrochemicalCO reduction:aclassificationproblem. Modeling.(SpringerInternationalPublishing,2018).
+2
+ChemPhysChem18,3266–3273(2017). 52. Calle-Vallejo,F.&Koper,M.Theoreticalconsiderationsonthe
+25. Feng,X.,Jiang,K.,Fan,S.&Kanan,M.Adirectgrain-boundary-activity electroreductionofCOtoC speciesonCu(100)electrodes.Angew.Chem.Int.
+2
+correlationforCOelectroreductiononCunanoparticles.ACSCent.Sci.2, Ed.52,7282–7285(2013).
+169–174(2016). 53. Nitopi,S.etal.ProgressandperspectivesofelectrochemicalCO reductionon
+2
+26. Tang,W.etal.Theimportanceofsurfacemorphologyincontrollingthe copperinaqueouselectrolyte.Chem.Rev.119,7610–7672(2019).
+selectivityofpolycrystallinecopperforCO electroreduction.Phys.Chem. 54. Birdja,Y.etal.Advancesandchallengesinunderstandingtheelectrocatalytic
+2
+Chem.Phys.14,76–81(2012). conversionofcarbondioxidetofuels.Nat.Energy4,732–745(2019).
+27. Eilert,A.etal.Subsurfaceoxygeninoxide-derivedcopperelectrocatalystsfor 55. Bagger,A.etal.ElectrochemicalCO reduction:classifyingCufacets.ACS
+2
+carbondioxidereduction.J.Phys.Chem.Lett.8,285–290(2017). Catal.9,7894–7899(2019).
+28. Cavalca,F.etal.Natureanddistributionofstablesubsurfaceoxygenincopper 56. Hori,Y.,Takahashi,I.,Koga,O.&Hoshi,N.Electrochemicalreductionof
+electrodesduringelectrochemicalCO reduction.J.Phys.Chem.C.121, carbondioxideatvariousseriesofcoppersinglecrystalelectrodes.J.Mol.
+2
+25003–25009(2017). Catal.AChem.199,39–47(2003).
+29. Lum,Y.&Ager,J.Stabilityofresidualoxidesinoxide-derivedcoppercatalysts 57. Arán-Ais,R.etal.TheroleofinsitugeneratedmorphologicalmotifsandCu
+forelectrochemicalCO
+2
+reductioninvestigatedwith18Olabeling.Angew. (I)speciesinC 2+productselectivityduringCO
+2
+pulsedelectroreduction.Nat.
+Chem.Int.Ed.57,551–554(2018). Energy5,317–325(2020).
+30. Lum,Y.etal.OptimizingC–Ccouplingonoxide-derivedcoppercatalysts 58. Ledezma-Yanez,I.,Gallent,E.,Koper,M.&Calle-Vallejo,F.Structure-sensitive
+forelectrochemicalCO reduction.J.Phys.Chem.C.121,14191–14203 electroreductionofacetaldehydetoethanoloncopperanditsmechanistic
+2
+(2017). implicationsforCOandCO reduction.Catal.Today262,90–94(2016).
+2
+31. Mandal,L.etal.Investigatingtheroleofcopperoxideinelectrochemical 59. Bertheussen,E.etal.Acetaldehydeasanintermediateintheelectroreduction
+CO reductioninrealtime.ACSAppl.Mater.Interfaces10,8574–8584 ofcarbonmonoxidetoethanolonoxide-derivedcopper.Angew.Chem.Int.
+2
+(2018). Ed.55,1450–1454(2016).
+32. LeDuff,C.,Lawrence,M.&Rodriguez,P.Roleoftheadsorbedoxygenspecies 60. Lum,Y.&Ager,J.Evidenceforproduct-specificactivesitesonoxide-derived
+intheselectiveelectrochemicalreductionofCO toalcoholsandcarbonylson CucatalystsforelectrochemicalCO reduction.Nat.Catal.2,86–93(2019).
+2 2
+copperelectrodes.Angew.Chem.Int.Ed.56,12919–12924(2017). 61. Ke,F.etal.Enhancedelectrocatalyticactivityongoldnanocrystalsenclosedby
+33. Bergmann,A.&RoldanCuenya,B.Operandoinsightsintonanoparticle high-indexfacetsforoxygenreduction.NanoEnergy7,179–188(2014).
+transformationsduringcatalysis.ACSCatal.9,10020–10043(2019). 62. Tian,N.etal.Synthesisoftetrahexahedralplatinumnanocrystalswithhigh-
+34. Kas,R.etal.In-situinfraredspectroscopyappliedtothestudyofthe indexfacetsandhighelectro-oxidationactivity.Science316,732–735(2007).
+electrocatalyticreductionofCO:theory,practiceandchallenges. 63. Kibria,M.etal.Asurfacereconstructionroutetohighproductivityand
+2
+ChemPhysChem20,2904–2925(2019). selectivityinCO
+2
+electroreductiontowardC 2+hydrocarbons.Adv.Mater.30,
+35. Gao,J.etal.SelectiveC–Ccouplingincarbondioxideelectroreductionvia 1804867(2018).
+efficientspilloverofintermediatesassupportedbyoperandoRaman 64. Hoang,T.etal.Nanoporouscopper–silveralloysbyadditive-controlled
+spectroscopy.J.Am.Chem.Soc.141,18704–18714(2019). electrodepositionfortheselectiveelectroreductionofCO toethyleneand
+2
+36. Jiang,S.,Klingan,K.,Pasquini,C.&Dau,H.NewaspectsofoperandoRaman ethanol.J.Am.Chem.Soc.140,5791–5797(2018).
+spectroscopyappliedtoelectrochemicalCO reductiononCufoams.J.Chem. 65. Dinh,C.etal.CO electroreductiontoethyleneviahydroxide-mediated
+2 2
+Phys.150,041718(2019). coppercatalysisatanabruptinterface.Science360,783–787(2018).
+37. Beermann,V.etal.Real-timeimagingofactivationanddegradationofcarbon 66. Hoang,T.etal.Nanoporouscopperfilmsbyadditive-controlled
+supportedoctahedralPt-Nialloyfuelcellcatalystsatthenanoscaleusinginsitu electrodeposition:CO reductioncatalysis.ACSCatal.7,3313–3321(2017).
+2
+electrochemicalliquidcellSTEM.EnergyEnviron.Sci.12,2476–2485(2019). 67. Ma,S.etal.One-stepelectrosynthesisofethyleneandethanolfromCO inan
+2
+38. Arán-Ais,R.M.etal.ImagingelectrochemicallysynthesizedCuOcubesand alkalineelectrolyzer.J.PowerSources301,219–228(2016).
+2
+theirmorphologicalevolutionunderconditionsrelevanttoCO 68. GarcíadeArquer,F.etal.CO electrolysistomulticarbonproductsat
+2 2
+electroreduction.Nat.Commun.11,3489(2020). activitiesgreaterthan1Acm-2.Science367,661–666(2020).
+39. Li,Y.etal.Electrochemicallyscramblednanocrystalsarecatalyticallyactive
+forCO-to-multicarbons.PNAS117,9194–9201(2020).
+2
+40. Eilert,A.,Roberts,F.,Friebel,D.&Nilsson,A.Formationofcoppercatalysts Acknowledgements
+forCO reductionwithhighethylene/methaneproductratioinvestigatedwith TheresearchleadingtotheseresultshasrecievedfundingfromtheEuropeanUnion’s
+2
+insituX-rayabsorptionspectroscopy.J.Phys.Chem.Lett.7,1466–1470(2016). Horizon2020researchandinnovationprogrammeundergrantNo.101006701,Eco-
+41. Velasco-Vélez,J.etal.Theroleofthecopperoxidationstateinthe Fuel.TheauthorsaregratefulforpartialsupportbytheGermanFederalMinistryof
+electrocatalyticreductionofCO intovaluablehydrocarbons.ACSSustain. EducationandResearch(BundesministeriumfürBildungundForschung,BMBF)under
+2
+Chem.Eng.7,1485–1492(2019). grant#03SF0523A/B/C–CO2EKAT.WeacknowledgefundingfromtheGermans
+42. Zheng,Y.etal.Understandingtheroadmapforelectrochemicalreductionof NationalScienceFoundation(DeutscheForschungsgemeinschaft)throughgrantSTR
+CO tomulti-carbonoxygenatesandhydrocarbonsoncopper-basedcatalysts. 596/5-2.H.D.acknowledgessupportbytheBMBFintheIN-SITU-XASand
+2
+J.Am.Chem.Soc.141,7646–7659(2019). OPERANDO-XASprojects.WeacknowledgetheHelmholtzZentrumBerlin(HZB)for
+43. DeLuna,P.etal.Catalystelectro-redepositioncontrolsmorphologyand providingexperimentalinfrastructureandallocatingbeamtimeatbeamlineKMC-3of
+oxidationstateforselectivecarbondioxidereduction.Nat.Catal.1,103–110 theBESSYsynchrotron;wethankIvoZizakandfurtherBESSYstafffortheirsupport.
+(2018). WethankDr.ToreNiermannandDipl.Ing.SörenSelvefromZentraleinrichtungfür
+44. Wang,Y.etal.CoppernanocubesforCO reductioningasdiffusion Elektronenmikroskopie(ZELMI)oftheTechnicalUniversityBerlinfortheirsupport
+2
+electrodes.NanoLett.19,8461–8468(2019). withHR-TEMmeasurements.WeacknowledgeDr.FabioDionigifromTechnical
+45. Chae,S.,Lee,S.&Joo,O.Directlysynthesizedsilvernanoparticlesongas UniversityBerlinandJakubDrnecatID31fromEuropeanSynchrotronRadiation
+diffusionlayersbyelectrospraypyrolysisforelectrochemicalCO reduction. Facility(ESRF)fortheirhelponwiththepreparationofWAXSmeasurements,and
+2
+Electrochim.Acta303,118–124(2019). Dr.VadimSikolenkoforhishelpwiththeoperandoXASexperiments.ABandJR
+NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications 11
+
+
+===== PAGE 12 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-20961-7
+acknowledgestheDanishNationalResearchFoundationcentersofexcellence,The CorrespondenceandrequestsformaterialsshouldbeaddressedtoP.S.
+CenterforHighEntropyAlloysCatalysis(ProjectDNRF149).
+PeerreviewinformationNatureCommunicationsthankstheanonymousreviewersfor
+Author contributions theircontributiontothepeerreviewofthiswork.
+X.W.andP.S.conceivedanddesignedthisproject.X.W.carriedoutthematerialssynthesis,
+Reprintsandpermissioninformationisavailableathttp://www.nature.com/reprints
+physicalcharacterizationandelectrochemicalevaluation;H.D.conceivedanddesignedthe
+operandoXASexperiment,K.K.performedtheexperimentofoperandoXASanddata Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+analysis,wrotepartofthemanuscript.;X.W.andM.K.performedtheinsituliquidTEM publishedmapsandinstitutionalaffiliations.
+experiments;T.M.helpedwithflowcellmeasurement;F.J.conductedtheDEMSmeasure-
+mentsandanalyzeddatawithX.W.;I.M.contributedtoWAXSdataanalysis;A.B.andJ.R.
+participatedinthediscussionofelectrochemicalmechanismsections;A.B.,S.J.andJ.R.
+participatedinthediscussionofreactionmechanism;X.W.andP.S.wrotethefirstmanu- Open Access This article is licensed under a Creative Commons
+script;allauthorscontributedtothediscussionsandassistedduringmanuscriptpreparation. Attribution 4.0 International License, which permits use, sharing,
+adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+Funding
+Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+OpenAccessfundingenabledandorganizedbyProjektDEAL. materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+Competing interests article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+Theauthorsdeclarenocompetinginterests. regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfrom
+thecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+Additional information licenses/by/4.0/.
+SupplementaryinformationTheonlineversioncontainssupplementarymaterial
+availableathttps://doi.org/10.1038/s41467-021-20961-7. ©TheAuthor(s)2021
+12 NATURECOMMUNICATIONS| (2021) 12:794 |https://doi.org/10.1038/s41467-021-20961-7|www.nature.com/naturecommunications

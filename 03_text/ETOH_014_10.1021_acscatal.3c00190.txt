@@ -1,0 +1,547 @@
+
+
+===== PAGE 1 =====
+
+Competition of CO and acetaldehyde adsorption and reduction on
+copper electrodes and its impact on n-propanol formation
+Marquesda da Silva, A.H.; Lenne, Q.; Vos, R.E.; Koper, M.T.M.
+Citation
+Marquesda da Silva, A. H., Lenne, Q., Vos, R. E., & Koper, M. T. M. (2023). Competition of
+CO and acetaldehyde adsorption and reduction on copper electrodes and its impact on n-
+propanol formation. Acs Catalysis, 13, 4339-4347. doi:10.1021/acscatal.3c00190
+Version: Publisher's Version
+License: Creative Commons CC BY 4.0 license
+Downloaded from: https://hdl.handle.net/1887/3590037
+Note: To cite this publication please use the final published version (if applicable).
+
+
+===== PAGE 2 =====
+
+pubs.acs.org/acscatalysis ResearchArticle
+Competition of CO and Acetaldehyde Adsorption and Reduction on
+Copper Electrodes and Its Impact on n‑Propanol Formation
+Alisson H. M. da Silva, Quentin Lenne, Rafaël E. Vos, and Marc T. M. Koper*
+CiteThis:ACSCatal.2023,13,4339−4347 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+ABSTRACT: Selective synthesis of n-propanol from electro-
+catalytic CO /CO reduction on copper remains challenging and
+2
+the impact of the local interfacial effects on the production of n-
+propanol is not yet fully understood. Here, we investigate the
+competition between CO and acetaldehyde adsorption and
+reduction on copper electrodes and how it affects the n-propanol
+formation. We show that n-propanol formation can be effectively
+enhanced by modulating the CO partial pressure or acetaldehyde
+concentration in solution. Upon successive additions of acetalde-
+hyde in CO-saturated phosphate buffer electrolytes, n-propanol
+formation was increased. Oppositely, n-propanol formation was the
+most active at lower CO flow rates in a 50 mM acetaldehyde
+phosphate buffer electrolyte. In a conventional carbon monoxide
+reductionreaction(CORR)testinKOH,weshowthat,intheabsenceofacetaldehydeinsolution,anoptimumratioofn-propanol/
+ethylene formation is found at intermediate CO partial pressure. From these observations, we can assume that the highest n-
+propanol formation rate from CO RR is reached when a suitable ratio of CO and acetaldehyde intermediates is adsorbed. An
+2
+optimum ratio was also found for n-propanol/ethanol formation but with a clear decrease in the formation rate for ethanol at this
+optimum, while the n-propanol formation rate was the highest. As this trend was not observed for ethylene formation, this finding
+suggeststhatadsorbedmethylcarbonyl(adsorbeddehydrogenatedacetaldehyde)isanintermediatefortheformationofethanoland
+n-propanolbutnotforethylene.Finally,thisworkmayexplainwhyitischallengingtoreachhighfaradaicefficienciesforn-propanol,
+asCOandtheintermediatesforn-propanolsynthesis(likeadsorbedmethylcarbonyl)competeforactivesitesonthesurface,where
+CO adsorption is favored.
+KEYWORDS: propanol, copper, acetaldehyde, CO reduction, competition, ethylene
+1. INTRODUCTION most common strategy is changing the electrode morphology.
+Following Hori’s works, different Cu surface morphologies
+The electrocatalytic CO reduction reaction (CO RR) is
+2 2 have been investigated for CO RR. High surface area Cu
+considered as a promising approach to close the carbon cycle 2
+electrodes have shown an enhancement in the productivity of
+byconvertingCO intovalue-addedchemicalsandfuelsdriven
+2 n-propanol.12−16 For example, at −0.95 V vs RHE, a Cu
+by renewable electricity. Electrocatalysts have been identified
+electrode covered with Cu nanoparticles with a roughness
+with high efficiencies for the synthesis of the two-electron
+products CO1−4 and formate.5−8 However, lower conversion factor of 24 shows a current density for n-propanol of −24.7
+mA cm−2 and about 11% of FE. On the other hand, on a
+rates and selectivity are observed for more reduced products.
+BecausethefirststudiesfromHori,9,10Cuisthemostcommon conventional electropolished Cu disk, with a roughness factor
+defined as 1, n-propanol formation corresponds to a current
+metal used as the catalyst and it is still the only metal able to
+density of only −2.1mA cm−2and about1.5% of FE.13 Using
+reduce CO into C compounds with high efficiencies. While
+high curren 2 t densi 2 ti + es (1.6 A cm−2) for CO reduction to highly fragmented copper structures as the electrode, Pang et
+ethylene on copper have been recently repo 2 rted,11 for C al.17 showed that n-propanol could be formed from CO
+3
+compounds (n-propanol, allyl alcohol, acetone, propionalde-
+hyde, and hydroxyacetone), the selectivity and production Received: January13,2023
+rates remain rather low. Among them, n-propanol is the most Revised: February26, 2023
+favoredC product,withFaradaicefficiencies(FEs)commonly
+3
+between 3 and 15%.12,13
+Different strategies have been applied to enhance the
+formation of the C compounds, especially n-propanol. The
+3
+©XXXXTheAuthors.Publishedby
+AmericanChemicalSociety https://doi.org/10.1021/acscatal.3c00190
+4339 ACSCatal.2023,13,4339−4347
+.)CTU(
+15:83:21
+ta
+3202
+,51
+hcraM
+no
+542.221.951.88
+aiv
+dedaolnwoD
+.selcitra
+dehsilbup
+erahs
+yletamitigel
+ot
+woh
+no
+snoitpo
+rof
+senilediuggnirahs/gro.sca.sbup//:sptth
+eeS
+
+
+===== PAGE 3 =====
+
+ACS Catalysis pubs.acs.org/acscatalysis ResearchArticle
+reduction with 20% of FE at −8.5 mA cm−2. Enhancement of conditions, a maximum n-propanol formation rate is reached
+the activity toward n-propanol is also commonly achieved when ethanol formation is minimal, suggesting that ethanol
+using alloying strategies. A Pd−Cu foam (Pd Cu ) electrode and n-propanol share methylcarbonyl as an intermediate.
+9 91
+was shown to form n-propanol with 13.7% of FE,
+corresponding to a current density of −1.15 mA cm−2 at 2. METHODS
+−0.65 V vs RHE.12 More recently, Wang et al. showed that 2.1. Cleaning Procedure. Ultrapure water (resistivity
+performingCOreductioninsteadofCO 2 reductiononanAg− >18.2 MΩ cm, TOC <5 ppb) was used for all experiments in
+Ru−Cuelectroderesultsin36%ofFEton-propanoland−300
+thiswork.Beforeeachdayofmeasurements,theglasswareand
+mA cm−2 of total current density.18 thehomemadePEEKH-cellusedinthisworkweresoakedina
+ThestrategytouseCOinsteadCO 2 ,asappliedbyWanget beaker completely submerged in an acid solution of
+al.,18hasledtotheideatoapplyatwo-stepcascadeprocessin permanganate (0.5 M H SO + 1 g L−1 KMnO ) for at least
+2 4 4
+which the first step consists of converting CO 2 into CO 12 h. Then, the H-cell and the glassware were drained and
+followed by its conversion into n-propanol in a second step. rinsedwithadilutepiranhasolution[1:3v/vofH O (Merck,
+Wu et al.19 showed that a tandem system consisting of two Emproveexp)/H SO ]toremoveresidualKMnO 2 an 2 dMnO .
+2 4 4 x
+electrolyzersforconvertingCO 2 toCOandCOton-propanol, Afterward, the H-cell and the glassware were again drained,
+resulted in a FE of 15.9% for n-propanol. Similarly, Romero rinsed with ultrapure water, and finally boiled (in ultrapure
+Cuellar et al.20 showed that the total FE toward multi-carbon water) for at least three times.
+products of a one-step system using the Cu gas diffusion 2.2. Electrode Preparation. A Cu disk electrode (1 cm2,
+electrode as a working electrode was limited to 20% at a total 99.99%, Matek) was first mechanically polished on a
+current density of −470 mA cm−2 while the two-step microcloth (Buehler) with diamond suspensions (Buehler) of
+configuration [using a Ag-gas diffusion electrode (GDE) as 3.0, 1.0, and 0.25 μm successively. Next, the electrode was
+an electrode for the first step followed by Cu-GDE in the rinsed and sonicated in ultrapure water for at least 10 min to
+second step] led to a total FE toward C 2 and C 3 products of removeremnantdiamondsuspensiononthesurface.Then,the
+62%(withabout18%ofn-propanol)atatotalcurrentdensity electrode was electropolished in H PO (85%) holding the
+of −300 mA cm−2. potential at 3 V vs graphite (as a co 3 unte 4 r electrode) for 30 s.
+Althoughthisstrategyisaninterestingapproachtoenhance The electrode was rinsed with ultrapure water to remove
+the n-propanol formation, understanding the local effects remnantsoftheH PO solutiononthesurface.Finally,Cuwas
+3 4
+impacting the productivity of n-propanol is also important for electrodepositedontheelectropolishedCudisk,applying−10
+optimizing future experimental design. For example, it is not V vs Cu (as a counter electrode) for 60 s in 0.1 M H SO
+2 4
+well understood how the intermediates interact with each solution containing 0.1 M CuSO resulting in a 100 mA cm−2
+4
+other and how their local concentrations influence the n- current density. Scanning electron microscopy images of the
+propanol formation. It has been reported that n-propanol is resulting electrode surface are shown in Figure S1.
+formed from the coupling between adsorbed CO and an 2.3. Electrochemistry. All electrochemical experiments
+adsorbed methylcarbonyl (dehydrogenated acetaldehyde) werecarriedoutinthehomemadePEEKH-cell(total15mL)
+intermediate (H 3 C−CO*).22,23 It has also been suggested in a three-electrode configuration. A dimensionally stable
+that n-propanol is formed via CO* trimerization (CO−CO− anode (DSA,Magneto SpecialAnodes)was usedas acounter
+CO),24 which is then further reduced to the alcohol. Even if electrode.TheDSAwasseparatedfromtheworkingelectrode
+both pathways would occur simultaneously, they would (Cu, as prepared before) using a Nafion 117 membrane
+depend differently on local concentrations. In this context, (Aldrich), for neutral pH, and an AHMV membrane (AGC)
+theacetaldehydepathwaywouldbethemorelikelypathwayif for alkaline pH. Mini HydroFlex (Gaskatel) was used as a
+anincreaseinthelocalconcentrationofacetaldehydeenhances reference electrode. All reported potentials were recorded vs.
+n-propanol formation. On the other hand, the CO trimeriza- the reversible hydrogen electrode (RHE) scale. All potentials
+tionpathwayton-propanolwouldbethefavoredpathwayton- were controlled with an Ivium potentiostat (Ivium Tech-
+propanol if its formation increases with increasing CO* nologies). Resistances were determined via impedance spec-
+coverage but would be hindered by the presence of troscopy (EIS) and 85% ohmic drop compensation was
+acetaldehyde. applied during the experiment.
+In this work, we evaluate how the local concentrations of Voltammograms were recorded from −0.1 to −1.2 V vs
+CO and acetaldehyde impact the n-propanol formation by RHE, with a 50 mV s−1 scan rate, in a 0.1 M potassium
+changingeithertheconcentrationofacetaldehydeaddedtothe phosphatebuffersolution(pH=7),preparedusingpotassium
+electrolyte or the CO flow rate (and CO partial pressure) dihydrogen phosphate (KH PO 99.99%, Merck) and dibasic
+2 4
+duringtheelectrolysis.Wefindthatthelocalconcentrationsof potassium phosphate (K HPO 99.99%, Merck). Phosphate
+2 4
+both acetaldehyde and CO impact the n-propanol formation. buffer was chosen as an electrolyte rather than bicarbonate
+Insummary,n-propanolformationisaffectedpositivelywhena buffer to prevent aldol condensation as bicarbonate is an
+higher concentration of acetaldehyde is present in the alkalinesolutionintheabsenceofCO (pH=8.2)anditdoes
+2
+electrolyte with a constant CO flow rate, or with a constant notactasabufferwhenCO isnotcontinuouslypurgedinthe
+2
+acetaldehyde concentration when a lower CO flow rate is solution. Regarding experiments with acetaldehyde, different
+applied. In the absence of acetaldehyde in solution, an concentrations of acetaldehyde (>99.5%, Sigma-Aldrich) were
+optimumratioofn-propanol/ethyleneisfoundatintermediate added to the buffer electrolyte. For the tests with CO, CO
+CO partial pressure. From these observations, we can assume (>99.99%, Lindegas) was bubbled into the buffer electrolyte
+that the optimal n-propanol formation rate is reached at a foratleast10mintoguaranteethecompletesaturationofthe
+suitableratioofCOandadsorbedacetaldehydeintermediates. solution before the start of the measurement.
+The CO* trimerization pathway seems rather unlikely on the CO reduction was carried out in the H-cell filling up each
+basis of the results presented here. Moreover, under the same compartment with 7.5 mL of electrolyte. Before each
+4340 https://doi.org/10.1021/acscatal.3c00190
+ACSCatal.2023,13,4339−4347
+
+
+===== PAGE 4 =====
+
+ACS Catalysis pubs.acs.org/acscatalysis ResearchArticle
+Figure1.FEstoH (bluebars),totalcarbonproducts(greenbars),CH (redbars),ethanol(bluebars),n-propanol(greenbars),acetate(pink
+2 2 4
+bars),andCH (orangebars)in(a,b)0.1Mpotassiumphosphatebuffer(pH=7)and(c,d)0.1MKOH(pH=13),bothsaturatedwithCO.
+4
+Figure2.LSVbetween−0.1and−1.2VvsRHEof(a)potassiumphosphatebuffer(blackdashedline)andafter 50mMofacetaldehydewas
+added (blue line); (b) potassium phosphate buffer (black dashed line) and after CO was saturated in the electrolyte (red line); (c) 50 mM of
+acetaldehydeinthebufferelectrolyte(blueline)andafterCOwassaturatedintheacetaldehydesolution(redline);and(d)CO-saturatedbuffer
+electrolyte(redline)andafteracetaldehydewereaddedtotheelectrolyteindifferentconcentrations(bluelines).Scanrate:50mV/s.Eachcurve
+representsthe thirdLSV ofthat measurementand,therefore,6LSVs wererecordedforgraphs (a−c)and 21wererecordedforgraph (d).
+4341 https://doi.org/10.1021/acscatal.3c00190
+ACSCatal.2023,13,4339−4347
+
+
+===== PAGE 5 =====
+
+ACS Catalysis pubs.acs.org/acscatalysis ResearchArticle
+measurement, CO was bubbled through the electrolyte for at shown in Figure 2d. Figure 2a,b shows similar trends: in
+least15mintoreachCOsaturation.CORR,withandwithout absolute numbers, the current density decreases when CO or
+initial acetaldehyde in a potassium phosphate buffer electro- acetaldehyde is added to the buffer electrolyte. As in the
+lyte, was carried out at fixed potentials until the conversion absence of CO or acetaldehyde only the HER takes place,
+charge reached 30 coulombs. Tests of drag vaporization of n- Figure 2a,b indicates that HER is partially suppressed when
+propanol were performed by purging argon in a 10 mM n- CO or acetaldehyde is present. CO or acetaldehyde compete
+propanol solution for an hour and no strong evaporation was with the water and biphosphate reduction for the same active
+observedwhendifferentflowrateswereapplied.CORRin0.1 sites,reducingtheactivityforHER.ThesuppressionofHERis
+MKOHwascarriedoutatfixedpotentialsfor1h.Duringthe observedtobestrongerinthepresenceofCOasthedecrease
+electrolysis, a constant CO flow was provided using a mass in the current density is more pronounced than the decrease
+flowcontroller(Brooks).Forthepartialpressureexperiments, observed upon acetaldehyde addition. For example, when 50
+argon(5.0,Lindegas)wasusedasthesecondgasandtwomass mM acetaldehyde was added to the electrolyte, we observe a
+flow controllers were used to provide different flow current density loss of 1 mA cm−2 at −0.9 V (from −6.95 to
+compositions. The gas products from the electrolysis were −5.9 mA cm−2), while a decrease of ∼4 mA cm−2 is observed
+analyzed using gas chromatography (Micro-GC, Agilent), whenCOissaturatedintheelectrolyte(from−6.95to−2.85
+equipped with two thermal conductivity detectors (TCD), mA cm−2). By comparison, CO-saturated water has a CO
+bothusingHeasacarriergas.ACP-SIL5Bcolumnwasused concentrationof∼1mMatstandardtemperatureandpressure
+to separate CO , CH , and C H on one TCD, while the (COsolubility=27.6mgL−1or0.986mM).31Inotherwords,
+2 4 2 4
+combinationofMS5AandCP-PORABONDQcolumnswere although CO has a 50 times lower concentration, the current
+usedtoseparateH ,O ,N ,CH ,andCOontheotherTCD. density decreases over 2 times more than in the presence of
+2 2 2 4
+Liquid products were analyzed via using high-performance acetaldehyde. Figure2c,d shows the competitionbetweenCO
+liquid chromatography (HPLC, Shimadzu) with an Aminex and acetaldehyde. Figure 2c shows that the current density
+HPX-87H column (BioRad) equipped with an RID detector. drops significantly when CO is added to the electrolyte
+containing 50 mM of acetaldehyde (from −5.9 to −4.4 mA
+3. RESULTS AND DISCUSSION cm−2). The opposite test was also done by adding different
+Figure 1 shows the FE for hydrogen, methane, ethylene, amounts of acetaldehyde in the CO-saturated electrolyte
+acetate,ethanol,andn-propanolfromCOreductionina0.1M (Figure 2d). At −0.9 V, a current increase of 0.2 mA cm−2 is
+potassiumphosphatebufferelectrolyte(pH=7)andin0.1M observedwhen1mMofacetaldehydeisadded.When100mM
+KOH(pH=13).WhileFEtowardC compoundscanreach of acetaldehyde is added to the CO-saturated solution, an
+2+
+over30%in0.1MKOH,themaximumFEtoC compounds increase of 1 mA cm−2 is observed�from −2.85 to −3.9 mA
+2+
+waslimitedto10% at−0.9VvsRHEinthephosphatebuffer cm−2. As both CO and acetaldehyde are competing for the
+electrolyte, with C H as the main carbon product. For n- sameactivesitesontheCusurface,theresultsshowninFigure
+2 4
+propanol, the maximum FE was found to be around 1% at 2c,d strongly indicate that CO is preferably adsorbed and
+−0.9 V in the buffer electrolyte, while 6% was found at −0.65 reduced on the surface compared to acetaldehyde.
+VinKOH.ItisknownthattheformationofC compoundsis We expect that the competition between CO and
+2+
+enhanced in alkaline pH due to the favored formation of the acetaldehyde adsorption can affect the n-propanol formation
+CO dimer.25−27 Thus, it is reasonable that higher FE for C 2+ from CO 2 RR. As mentioned before, various literature reports
+compoundsareobservedinKOHthaninpotassiumphosphate haveconfirmedthatacetaldehydeanditsadsorbedcounterpart
+buffer. Moreover, phosphate anions have been reported to act (methylcarbonyl)isakeyintermediatefortheformationofn-
+as proton donors thereby enhancing the hydrogen evolution propanol.21−23 If methylcarbonyl formed during CO RR is
+2
+reaction (HER).28 Indeed, higher FEs for H are observed in desorbedduetothecompetitionwithotheradsorbates,suchas
+2
+Figure1ainthepotentialrangeevaluatedinthiswork.Onthe formedCO,itwillbeunavailabletoreactwithCOtoproduce
+otherhand, thebufferelectrolyteappearsasagoodchoice for n-propanol. Figure S2 shows the acetaldehyde conversion and
+tests with aldehydes. The reaction pathway for n-propanol ethanolproductionrateafter1hofelectrolysisat−0.9Vwhen
+formation has been reported to involve the coupling between 50 mM acetaldehyde is reduced in the absence and in the
+CO and methylcarbonyl.21−23 Because aldehydes undergo presence of CO. Acetaldehyde conversion is 23% in the
+aldolcondensationatalkalinepHs,29,30controlledtestingwith absence of CO and 14% in the presence of CO. The ethanol
+aldehydes is only reliable using a neutral buffer solution. productionrateinthepresenceofCOismeasuredconsidering
+Furthermore, the production of n-propanol is low when only bothCORRandacetaldehydereduction,asbothformethanol
+CO reduction occurs in the buffer electrolyte. Then, an as a product. Even considering the contribution of ethanol
+improvement in n-propanol formation due to the addition of formationfromCORR,thetotalethanolproductionissmaller:
+acetaldehydeanditscoupling withCOcanbeeasilydetected. it decreased from 94 μmol cm−2 h−1 in the absence of CO to
+Thus,fortheexperimentsinvolvingacetaldehydeinsolution,a 62 μmol cm−2 h−1 in the presence of CO. Thus, as discussed
+potassium phosphate buffer (pH = 7) was used as an before, acetaldehyde reduction is directly affected by the
+electrolyte, unless otherwise indicated. presence of (adsorbed) CO.
+The competition between CO and acetaldehyde adsorption To enhance the n-propanol formation, an equal mixture of
+andreductionwasfirstevaluatedbylinearsweepvoltammetry acetaldehyde and CO should adsorb to reach the ideal molar
+(LSV). Figure 2 shows the voltammograms (Figure 2a−d) composition (CO* + CH CO* + 6H+ + 6e− →
+3
+whenCO(Figure2a)oracetaldehyde(Figure2b)isaddedto CH CH CH OH + H O). To evaluate how n-propanol
+3 2 2 2
+the buffer electrolyte. Figure 2c depicts the differences formation is affected by the local concentration of CO and
+observed upon CO saturation of a buffer solution containing acetaldehyde, two approaches were used as follows: (i)
+acetaldehyde, while the opposite procedure, the progressive increasing the local concentration of acetaldehyde or (ii)
+addition of acetaldehyde to a CO-saturated buffer solution, is decreasing the local concentration of CO. These approaches
+4342 https://doi.org/10.1021/acscatal.3c00190
+ACSCatal.2023,13,4339−4347
+
+
+===== PAGE 6 =====
+
+ACS Catalysis pubs.acs.org/acscatalysis ResearchArticle
+Figure3.(a)n-Propanolformationrateand(b)ethyleneformationratewhendifferentconcentrationsofacetaldehydewereaddedtotheCO-
+saturatedbuffer electrolyte beforetheelectrolysis started.
+are illustrated in Figures 3 and 4. Figure 3a shows how the n- observed for ethylene. As the opposite was observed (Figure
+propanolformationratechangeswhendifferentconcentrations 3),theonlyexplanationwefoundreasonabletoourresultswas
+of acetaldehyde are added to the CO-saturated buffer consideringthatn-propanolisformedviamethylcarbonyl−CO
+electrolyte. For this experiment, CO was purged continuously coupling and this step was enhanced because a better balance
+(15mLmin−1)throughthecellduringtheelectrolysistokeep of methylcarbonyl and CO was reached on the electrode
+the electrolyte saturated. The n-propanol formation rate surface (supported by LSVs in Figure 2)
+(Figure 3a) increases with the concentration of acetaldehyde Figure 4 shows how the n-propanol and ethylene formation
+until a plateau is observed for acetaldehyde concentrations change with changing CO flow rates at a constant initial
+above 100 mM. This saturation is also observed in Figure 2d, acetaldehyde concentration of 50 mM. Figure 4a shows that
+where the current density is not strongly affected anymore withahigherCOflowrate,alowern-propanolproductionrate
+when acetaldehyde concentration is increased from 50 to 100 is observed. A plateau is observed for flow rates over 20 mL
+mM.AsbothacetaldehydeandCOcompeteforactivesiteson min−1, indicating that the local concentration of CO reached
+thesurface,ifmoreacetaldehydeadsorbsand/orreact,lessCO its maximum. It is important to mention that the flow rate
+can react to form ethylene and a decreasing in ethylene where the plateau is observed may vary when electrodes of
+production should be observed, as is confirmed in Figure 3b. differentsurfaceareasareusedasthiswillaffecttheinterfacial
+Thedeclineinethyleneproductioncouldbeinterpretedbythe CO consumption. At lower flow rates, the local concentration
+amountofacetaldehydeconcentrationaddedtotheelectrolyte ofCOmightbelowerastheCOtransportfromthebulktothe
+that dominates the reaction to form, mainly, ethanol and surface can be limiting. In agreement with Figures 3b, Figure
+therefore less CO would be able to adsorb to form ethylene. 4b also shows that the production rate for ethylene is higher
+However,adeclineintheCO/acetaldehydecouplingdoesnot when the local CO concentration is higher. However, mass
+happen; in fact, the opposite is observed. Therefore, the transport of other species such as phosphate might also
+interpretation that ethylene formation only decreases because influence these results. To verify the trends from Figure 4a,b,
+the surface sites are increasingly engaged in acetaldehyde partialpressuretestswereperformed,asshowninFigure4c,d.
+reduction to (mainly)ethanol would not fit for n-propanol Here,COwasmixedwithArtokeepthetotalflowconstantat
+formation. If we consider that n-propanol is formed via 10 mL min−1. Similar trends are observed for n-propanol and
+different pathways than via methylcarbonyl−CO coupling, the ethyleneformation,confirmingthatCOdepletionclosetothe
+n-propanolformation rate should also declinesimilarly to that surfaceisanimportantphenomenonforn-propanolformation.
+4343 https://doi.org/10.1021/acscatal.3c00190
+ACSCatal.2023,13,4339−4347
+
+
+===== PAGE 7 =====
+
+ACS Catalysis pubs.acs.org/acscatalysis ResearchArticle
+Figure 4. Formation rate of (a,c) n-propanol and (b,d) ethylene for different CO flow rates with (a,b) different total flow or with (c,d) partial
+pressureexperiments(withsametotalflow�10mLmin−1,Arbalanced).Electrolyte:50mMacetaldehydein0.1Mpotassiumphosphatebuffer.
+Figures3and4showthatbyeitherincreasingtheacetaldehyde CO partial pressure leads to an enhancement of n-propanol,
+concentration or by decreasing the CO flow rate, a better ethylene, and ethanol formation rates, where the highest CO
+balance of acetaldehyde and CO molecules near the surface partial pressure results in the most efficient formation of all
+can be achieved, thereby promoting the formation of n- compounds. However, although the increase in CO partial
+propanol. pressure leadsto anincreaseintheformationof theproducts,
+Theresultsshownabovemayexplainwhyitischallengingto theratiosofn-propanol/ethylene(Figure5adashedblueline)
+reach high FE for n-propanol. With low CO partial pressure, andn-propanol/ethanol(Figure5bdashedredline)formation
+HERisfavoredandtheFEtocarbonproductsiscompromised rates show an optimum (under the current experimental
+(Figure S3). At high CO partial pressure, the competition conditions at 17.5 mL min−1 of CO, Ar balanced to 30 mL
+betweenCOandacetaldehydefavorsCOadsorptionandthus min−1oftotalflow).Again,itisimportanttomentionthatthe
+acetaldehydeconversion is compromised (Figure 4). To show optimum flow rate may change depending on the electrode
+this phenomenon under more realistic conditions, Figure 5 morphology, as it will affect the local consumption rate. This
+shows how the CO partial pressure affects the n-propanol, trend would be difficult to explain by a CO* trimerization
+ethylene,andethanolformationinCORRin0.1MKOHasan pathway but would be expected if methylcarbonyl is formed
+electrolyte (in the absence of acetaldehyde). The increase in during CORR and serves as an intermediate for n-propanol
+4344 https://doi.org/10.1021/acscatal.3c00190
+ACSCatal.2023,13,4339−4347
+
+
+===== PAGE 8 =====
+
+ACS Catalysis pubs.acs.org/acscatalysis ResearchArticle
+Figure5.FormationratevsCOflowratein0.1MKOHfor(a)ethylene(blacklinewithstarsmarkers);(b)ethanol(blacklinewithtriangles
+markers);and (a,b) n-propanol(black lineswithsquaresmarkers).
+Figure6.Reactionpathwaytoethanol,acetaldehyde,ethylene,andn-propanolfromCORR.EthyleneisfavoredathighCOlocalconcentrations
+(redarrows)andn-propanolisfavoredatlowerCOlocalconcentrations(bluearrows).Thewaytheadsorbatesarerepresentedhereisbasedon
+previousworks.23,27,33,34
+4345 https://doi.org/10.1021/acscatal.3c00190
+ACSCatal.2023,13,4339−4347
+
+
+===== PAGE 9 =====
+
+ACS Catalysis pubs.acs.org/acscatalysis ResearchArticle
+synthesis. The ethanol formation rate shows a minimum CO adsorption and thus the coupling between acetaldehyde
+between 12.5 and 17.5 mL min−1 of CO flow while the and CO is compromised.
+propanol formation rate increases significantly, reaching its ■
+maximum at 17.5 mL min−1. The fact that the production of ASSOCIATED CONTENT
+ethanolisminimalwhentheproductionofn-propanolreaches * sı Supporting Information
+its maximum suggests that methylcarbonyl is an intermediate The Supporting Information is available free of charge at
+fortheformationofbothmolecules.Thistrendisnotobserved https://pubs.acs.org/doi/10.1021/acscatal.3c00190.
+for ethylene formation (Figure 5a), indicating that methyl-
+SEM images of the Cu electrode surface, acetaldehyde
+carbonyl is not an intermediate in the ethylene pathway.
+conversion in the absence and in the presence of CO,
+Finally, our results show that low flow rates are not beneficial
+and Faradaic efficiency for H and carbon products at
+as a high local CO concentration is needed to form the key 2
+different CO partial pressures (PDF)
+CO−dimer and the corresponding C intermediates, such as
+2
+methylcarbonyl.21−23 Recently, Hou et al.32 have showed that ■
+the increase in CO coverage, by increasing the CO pressure, AUTHOR INFORMATION
+favorstheselectivitytowardoxygenates,especiallyacetate,over Corresponding Author
+ethylene. In addition to the work of Hou et al., our results in Marc T. M. Koper − Leiden Institute of Chemistry, Leiden
+Figure 5 also show that a too high CO flow rate is not University,Leiden2300RA,TheNetherlands; orcid.org/
+advantageous as CO will induce the desorption of methyl- 0000-0001-6777-4594; Email: m.koper@lic.leidenuniv.nl
+carbonyl,leadingtoalowerlikelihoodofCO−methylcarbonyl
+coupling to form n-propanol, at the expense of a (relatively) Authors
+higher ethylene production. AlissonH.M.daSilva−LeidenInstituteofChemistry,Leiden
+Aschemesummarizingthepathwaytoformn-propanoland University, Leiden 2300 RA, The Netherlands
+ethyleneisshowninFigure6.Theschemedoesnotrepresent Quentin Lenne − Leiden Institute of Chemistry, Leiden
+all the steps because that is not the aim of this work. A more University, Leiden 2300 RA, The Netherlands
+detailed reaction mechanism can be found elsewhere.23,27,33,34 Rafaël E. Vos − Leiden Institute of Chemistry, Leiden
+The way how the adsorbates are represented here is based on University,Leiden2300RA,TheNetherlands; orcid.org/
+previous works.23,27,33,34 However, it is worth mentioning that 0000-0003-1810-1179
+different ways on how the species adsorb on the Cu surface Complete contact information is available at:
+might also happen. https://pubs.acs.org/10.1021/acscatal.3c00190
+4. CONCLUSIONS Notes
+The authors declare no competing financial interest.
+Competition between acetaldehyde and CO adsorption/
+■
+reduction impacts the n-propanol formation during CO and
+2 ACKNOWLEDGMENTS
+CO reduction on copper electrodes. By increasing the
+acetaldehyde concentration in a CO-saturated phosphate This research was also carried out under project number
+buffer electrolyte, greater n-propanol formation is observed. ENPPS.IPP.019.002 in the framework of the Research
+On theotherhand, the highest n-propanolformation rate was Program of the Materials innovation institute (M2i) (www.
+observed at the lowest CO flow rate applied in a 50 mM m2i.nl) and received funding from Tata Steel Nederland
+acetaldehyde phosphate buffer electrolyte. Through voltam- Technology BV and the Dutch Research Council (NWO) in
+metry and electrolysis experiments, we showed that CO theframeworkoftheENWPPPFundfortheTopSectorsand
+inhibits acetaldehyde adsorption and conversion. When the fromtheMinistryofEconomicAffairsintheframeworkofthe
+“PPS-Toeslagregeling”.
+localconcentrationofCOisdecreasedorthatofacetaldehyde
+■
+is increased, a better balance of acetaldehyde and CO
+REFERENCES
+molecules near the surface can be achieved and, thus, the
+formationof n-propanolisbetterpromoted. In aconventional (1)Verma,S.;Hamasaki,Y.;Kim,C.;Huang,W.;Lu,S.;Jhong,H.-
+0.1MKOHelectrolyte(withoutacetaldehydeinsolution),the R. M.; Gewirth, A. A.; Fujigaya, T.; Nakashima, N.; Kenis, P. J. A.
+productionofethanolwasminimalatintermediateCOpartial InsightsintotheLowOverpotentialElectroreductionofCO2toCO
+pressure(17.5mLmin−1ofCO+12.5mLmin−1ofAr)while onaSupportedGoldCatalystinanAlkalineFlowElectrolyzer.ACS
+Energy Lett. 2018, 3, 193−198.
+n-propanol production reached its maximum, indicating that
+(2) Liu, M.; Pang, Y.; Zhang, B.; De Luna, P.; Voznyy, O.; Xu, J.;
+methylcarbonyl (dehydrogenated acetaldehyde) is an inter-
+Zheng,X.;Dinh,C.T.;Fan,F.;Cao,C.;deArquer,F.P.G.;Safaei,T.
+mediate for the formation of both molecules. This tendency S.;Mepham,A.;Klinkova,A.;Kumacheva,E.;Filleter,T.;Sinton,D.;
+was not observed for ethylene formation, suggesting that Kelley, S. O.; Sargent, E. H. Enhanced Electrocatalytic CO2
+ethylene and n-propanol do not share methylcarbonyl as an Reduction via Field-Induced Reagent Concentration. Nature 2016,
+intermediate. Moreover, as an optimum for n-propanol/ 537,382−386.
+ethylene formation was found at intermediate CO partial (3)Zhang,Y.;Wang,X.;Zheng,S.;Yang,B.;Li,Z.;Lu,J.;Zhang,
+pressure, the CO* trimerization pathway to n-propanol Q.; Adli, N. M.; Lei, L.; Wu, G.; Hou, Y. Hierarchical Cross-Linked
+Carbon Aerogels with Transition Metal-Nitrogen Sites for Highly
+synthesis seems rather unlikely at the conditions used in this
+Efficient Industrial-Level CO Electroreduction. Adv. Funct. Mater.
+work. Finally, the results shown here may explain why it is 2
+2021, 31, 2104377.
+challenging to reach high FEs for n-propanol from CO RR/
+2 (4) Ye, L.; Ying, Y.; Sun, D.; Zhang, Z.; Fei, L.; Wen, Z.; Qiao, J.;
+CORR:atlowCOflowrates,HERisfavoredtothedetriment Huang, H. Highly Efficient Porous Carbon Electrocatalyst with
+of carbon products; while at high CO flow rates, the ControllableN-SpeciesContentforSelectiveCO Reduction.Angew.
+2
+competitionbetweenCOandacetaldehyde’sadsorptionfavors Chem., Int.Ed. 2020, 59, 3244−3251.
+4346 https://doi.org/10.1021/acscatal.3c00190
+ACSCatal.2023,13,4339−4347
+
+
+===== PAGE 10 =====
+
+ACS Catalysis pubs.acs.org/acscatalysis ResearchArticle
+(5) Sen, S.; Brown, S. M.; Leonard, M.; Brushett, F. R. (21)Raaijman,S.J.;Schellekens,M.P.;Corbett,P.J.;Koper,M.T.
+Electroreduction of Carbon Dioxide to Formate at High Current M. High-Pressure CO Electroreduction at Silver Produces Ethanol
+DensitiesUsingTinandTinOxideGasDiffusionElectrodes.J.Appl. and Propanol. Angew.Chem., Int.Ed. 2021, 60, 21732−21736.
+Electrochem. 2019,49, 917−928. (22) Bertheussen, E.; Verdaguer-Casadevall, A.; Ravasio, D.;
+(6)Wen,G.;Lee,D.U.;Ren,B.;Hassan,F.M.;Jiang,G.;Cano,Z. Montoya, J. H.; Trimarco, D. B.; Roy, C.; Meier, S.; Wendland, J.;
+P.; Gostick, J.; Croiset, E.; Bai, Z.; Yang, L.; Chen, Z. Orbital Nørskov,J.K.;Stephens,I.E.L.;Chorkendorff,I.Acetaldehydeasan
+Interactions in Bi-Sn Bimetallic Electrocatalysts for Highly Selective IntermediateintheElectroreductionofCarbonMonoxidetoEthanol
+on Oxide-Derived Copper. Angew. Chem., Int. Ed. 2016, 55, 1450−
+Electrochemical CO Reduction toward Formate Production. Adv.
+2
+1454.
+Energy Mater.2018, 8, 1802427.
+(23) Chang, X.; Malkani, A.; Yang, X.; Xu, B. Mechanistic Insights
+(7) Su, X.; Yang, X.-F.; Huang, Y.; Liu, B.; Zhang, T. Single-Atom
+intoElectroreductiveC−CCouplingbetweenCOandAcetaldehyde
+Catalysis toward Efficient CO Conversion to CO and Formate
+2 intoMulticarbonProducts.J.Am.Chem.Soc.2020,142,2975−2983.
+Products.Acc. Chem. Res.2019, 52,656−664.
+(24) Chen, L.; Tang, C.; Zheng, Y.; Skuĺason, E.; Jiao, Y. C
+(8)Philips,M.F.;Gruter,G.-J.M.;Koper,M.T.M.;Schouten,K.J. 3
+Production from CO Reduction by Concerted *CO Trimerization
+P.OptimizingtheElectrochemicalReductionofCO toFormate:A 2
+2 onaSingle-AtomAlloyCatalyst.J.Mater.Chem.A2022,10,5998−
+State-of-the-Art Analysis. ACS Sustainable Chem. Eng. 2020, 8,
+6006.
+15430−15444.
+(25) Pérez-Gallent, E.; Figueiredo, M. C.; Calle-Vallejo, F.; Koper,
+(9)Hori,Y.;Murata,A.;Takahashi,R.FormationofHydrocarbons
+M. T. M. Spectroscopic Observation of a Hydrogenated CO Dimer
+in the Electrochemical Reduction of Carbon Dioxide at a Copper
+Intermediate During CO Reduction on Cu(100) Electrodes. Angew.
+ElectrodeinAqueousSolution.J.Chem.Soc.,FaradayTrans.11989, Chem., Int.Ed. 2017, 56, 3621−3624.
+85,2309. (26) Calle-Vallejo, F.; Koper, M. T. M. Theoretical Considerations
+(10) Hori, Y.; Murata, A.; Takahashi, R.; Suzuki, S. Enhanced ontheElectroreductionofCOtoC SpeciesonCu(100)Electrodes.
+2
+Formation of Ethylene and Alcohols at Ambient Temperature and Angew. Chem.,Int. Ed. 2013, 52,7282−7285.
+Pressure in Electrochemical Reduction of Carbon Dioxide at a (27)Garza,A.J.;Bell,A.T.;Head-Gordon,M.MechanismofCO
+2
+CopperElectrode. J.Chem. Soc., Chem. Commun.1988, 1, 17. ReductionatCopperSurfaces:PathwaystoC Products.ACSCatal.
+2
+(11) Ma, W.; Xie, S.; Liu, T.; Fan, Q.; Ye, J.; Sun, F.; Jiang, Z.; 2018, 8, 1490−1499.
+Zhang,Q.;Cheng,J.;Wang,Y.ElectrocatalyticReductionofCO2to (28) Jackson, M. N.; Jung, O.; Lamotte, H. C.; Surendranath, Y.
+Ethylene and Ethanol through Hydrogen-Assisted C−C Coupling Donor-DependentPromotionofInterfacialProton-CoupledElectron
+over Fluorine-ModifiedCopper. Nat. Catal.2020, 3, 478−487. TransferinAqueousElectrocatalysis.ACSCatal.2019,9,3737−3743.
+(12) Rahaman, M.; Kiran, K.; Montiel, I. Z.; Grozovski, V.; Dutta, (29)Birdja,Y.Y.;Koper,M.T.M.TheImportanceofCannizzaro-
+A.; Broekmann, P. Selective n-Propanol Formation from CO over TypeReactionsduringElectrocatalyticReductionofCarbonDioxide.
+2
+Degradation-Resistant Activated PdCu Alloy Foam Electrocatalysts. J. Am. Chem. Soc. 2017,139,2030−2034.
+GreenChem. 2020,22, 6497−6509. (30)Ting,L.R.L.;García-Muelas,R.;Martín,A.J.;Veenstra,F.L.
+(13)Ren,D.;Wong,N.T.;Handoko,A.D.;Huang,Y.;Yeo,B.S. P.; Chen, S. T.; Peng, Y.; Per, E. Y. X.; Pablo-García, S.; López, N.;
+Mechanistic Insights into the Enhanced Activity and Stability of Pérez-Ramírez, J.; Yeo, B. S. Electrochemical Reduction of Carbon
+Dioxide to 1-Butanol on Oxide-Derived Copper. Angew. Chem., Int.
+AgglomeratedCuNanocrystalsfortheElectrochemicalReductionof
+Ed. 2020, 59, 21072−21079.
+CarbonDioxideton-Propanol.J.Phys.Chem.Lett.2016,7,20−24.
+(31) Gevantman, L. H. Solubility of Selected Gases in Water.
+(14)Rudd,J.A.;Hernandez-Aldave,S.;Kazimierska,E.;Hamdy,L.
+Handbook of Chemistry and Physics, 95th ed.; Haynes, W. M., Ed.;
+B.;Bain,O.J.E.;Barron,A.R.;Andreoli,E.InvestigationintotheRe-
+CRC Press: New York,2014; pp1039.
+Arrangement of Copper Foams Pre- and Post-CO2 Electrocatalysis.
+(32) Hou, J.; Chang, X.; Li, J.; Xu, B.; Lu, Q. Correlating CO
+Chemistry(Easton) 2021, 3,687−703.
+Coverage and CO Electroreduction on Cu via High-Pressure in situ
+(15) Ma, M.; Djanashvili, K.; Smith, W. A. Controllable Hydro-
+Spectroscopic and Reactivity Investigations. J. Am. Chem. Soc. 2022,
+carbon Formation from the Electrochemical Reduction of CO over
+2 144,22202−22211.
+CuNanowireArrays. Angew.Chem.,Int. Ed. 2016, 55,6680−6684.
+(33) Xiang, S.-Q.; Shi, J.-L.; Gao, S.-T.; Zhang, W.; Zhao, L.-B.
+(16)Chen,C.;Yan,X.;Liu,S.;Wu,Y.;Wan,Q.;Sun,X.;Zhu,Q.;
+Thermodynamic and Kinetic Competition between C−H and O−H
+Liu, H.; Ma, J.; Zheng, L.; Wu, H.; Han, B. Highly Efficient
+Bond FormationPathways duringElectrochemical ReductionofCO
+Electroreduction of CO 2 to C 2+ Alcohols on Heterogeneous Dual on CopperElectrodes.ACS Catal.2021, 11, 2422−2434.
+ActiveSites. Angew.Chem. 2020, 59, 16459. (34) Kortlever, R.; Shen, J.; Schouten, K. J. P.; Calle-Vallejo, F.;
+(17)Pang,Y.;Li,J.;Wang,Z.;Tan,C.-S.;Hsieh,P.-L.;Zhuang,T.- Koper, M. T. M. Catalysts and Reaction Pathways for the
+T.;Liang,Z.-Q.;Zou,C.;Wang,X.;DeLuna,P.;Edwards,J.P.;Xu, Electrochemical Reduction of Carbon Dioxide. J. Phys. Chem. Lett.
+Y.; Li, F.; Dinh, C.-T.; Zhong, M.; Lou, Y.; Wu, D.; Chen, L.-J.; 2015, 6, 4073−4082.
+Sargent, E. H.; Sinton, D. Efficient Electrocatalytic Conversion of
+CarbonMonoxidetoPropanolUsingFragmentedCopper.Nat.Catal.
+2019, 2,251−258.
+(18)Wang,X.;Ou,P.;Ozden,A.;Hung,S.-F.;Tam,J.;Gabardo,C.
+M.;Howe,J.Y.;Sisler,J.;Bertens,K.;GarcíadeArquer,F.P.;Miao,
+R.K.;O’Brien,C.P.;Wang,Z.;Abed,J.;Rasouli,A.S.;Sun,M.;Ip,A.
+H.;Sinton,D.;Sargent,E.H.EfficientElectrosynthesisofN-Propanol
+from Carbon Monoxide Using a Ag−Ru−Cu Catalyst. Nat. Energy
+2022, 7,170−176.
+(19) Wu, G.; Song, Y.; Zheng, Q.; Long, C.; Fan, T.; Yang, Z.;
+Huang, X.; Li, Q.; Sun, Y.; Zuo, L.; Lei, S.; Tang, Z. Selective
+Electroreduction of CO to n-Propanol in Two-Step Tandem
+2
+CatalyticSystem.Adv.Energy Mater. 2022,12, 2202054.
+(20)RomeroCuellar,N.S.;Scherer,C.;Kaçkar,B.;Eisenreich,W.;
+Huber,C.;Wiesner-Fleischer,K.;Fleischer,M.;Hinrichsen,O.Two-
+Step Electrochemical Reduction of CO2 towards Multi-Carbon
+ProductsatHighCurrentDensities.J.CO Util.2020,36,263−275.
+2
+4347 https://doi.org/10.1021/acscatal.3c00190
+ACSCatal.2023,13,4339−4347

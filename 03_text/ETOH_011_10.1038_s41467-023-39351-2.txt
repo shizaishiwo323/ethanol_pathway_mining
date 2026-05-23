@@ -1,0 +1,1207 @@
+
+
+===== PAGE 1 =====
+
+Article https://doi.org/10.1038/s41467-023-39351-2
+Tunable CO electroreduction to ethanol and
+2
+ethylene with controllable interfacial
+wettability
+Received:21November2022 YanLin1,2,3,5,TuoWang 1,2,3,4,5,LiliZhang1,2,3,GongZhang 1,2,3,LuluLi1,2,3,
+QingfengChang1,2,3,ZifanPang1,2,3,HuiGao1,2,3,KaiHuang1,2,4,
+Accepted:8June2023
+PengZhang 1,2,3,4,Zhi-JianZhao 1,2,3,ChunleiPei1,2,3&JinlongGong 1,2,3
+Checkforupdates ThemechanismofhowinterfacialwettabilityimpactstheCO electroreduc-
+2
+tionpathwaystoethyleneandethanolremainsunclear.Thispaperdescribes
+thedesignandrealizationofcontrollableequilibriumofkinetic-controlled*CO
+and*Hviamodifyingalkanethiolswithdifferentalkylchainlengthstorevealits
+contributiontoethyleneandethanolpathways.Characterizationandsimula-
+tionrevealthatthemasstransportofCO andH Oisrelatedwithinterfacial
+2 2
+wettability,whichmayresultinthevariationofkinetic-controlled*COand*H
+ratio,whichaffectsethyleneandethanolpathways.Throughmodulatingthe
+hydrophilicinterfacetosuperhydrophobicinterface,thereactionlimitation
+shiftsfrominsufficientsupplyofkinetic-controlled*COtothatof*H.The
+ethanoltoethyleneratiocanbecontinuouslytailoredinawiderangefrom0.9
+to1.92,withremarkableFaradaicefficienciestowardethanolandmulti-carbon
+(C )productsupto53.7%and86.1%,respectively.AC Faradaicefficiencyof
+2+ 2+
+80.3%canbeachievedwithahighC partialcurrentdensityof321mAcm−2,
+2+
+whichisamongthehighestselectivityatsuchcurrentdensities.
+The electrochemical conversion of carbon dioxide (CO ) into Astheonlymetalwithanegativeadsorptionenergyfor*CObuta
+2
+value-addedmulti-carbon(C )productsisanattractiverouteto positive adsorption energy for *H, copper (Cu) presents a unique
+2+
+closethecarbonloop1,2.However,theformationofC products abilitytoproduceC products4,9.However,multipleproductshave
+2+ 2+
+with high selectivity is still meeting great challenges3. *CO beendetectedonCusurfacesresultinginpoorproductselectivityfor
+(* denotes the adsorbed species on the surface) and *H are con- Cu9,10.Previousinvestigationshavefoundthatthecoverageof*COand
+sidered to be the key intermediates during producing C *HontheCusurfaceplaysacriticalroleindeterminingtheselectivity
+2+
+products4.Previously,*COcoveragehasbeenwidelyacceptedas of C products4,11. Enormous effort has been devoted to catalyst
+2+
+one crucial factor in the selective produce ethylene5,6. While, as design for selective ethylene or ethanol production,including facet
+another important C products, tuning the *H coverage is an control12–14, surface morphology tuning15–17, bimetallic and multi-
+2+
+effective approach to realize high-efficiency CO -to-ethanol metallic alloying8,18,19, metal/metal compound hybrids construction7,
+2
+conversion7,8, which is less relevance with *CO coverage5. There- which can be employed to alter the adsorption or coverage of key
+fore, the role of competitive *CO and *H intermediates on the intermediates. Generally, the facet control and surface morphology
+catalystsurfaceonpathwaysofethyleneandethanolneedsfurther areonlycapabletomodulatethe*COadsorption13,15,16.Moreover,the
+understanding. introductionofCO-orH -producingmetalsincatalystscanincrease
+2
+1SchoolofChemicalEngineering&Technology,KeyLaboratoryforGreenChemicalTechnologyofMinistryofEducation,TianjinUniversity,300072
+Tianjin,China.2CollaborativeInnovationCenterforChemicalScience&Engineering(Tianjin),300072Tianjin,China.3HaiheLaboratoryofSustainable
+ChemicalTransformations,300192Tianjin,China.4JointSchoolofNationalUniversityofSingaporeandTianjinUniversity,InternationalCampusofTianjin
+University,350207BinhaiNewCity,Fuzhou,China.5Theseauthorscontributedequally:YanLin,TuoWang. e-mail:jlgong@tju.edu.cn
+NatureCommunications|( 2023)1 4:3575 1
+;,:)(0987654321 ;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+Article https://doi.org/10.1038/s41467-023-39351-2
+thecoverageof*COor*H,leadingtoincreasedby-productsofH and average size of around 1μm (Supplementary Fig. 2). The cross-
+2
+CO8,19.Furthermore,thesestrategiesmayincreasethehydrophilicityof sectionalSEMimagealsoshowsthatthethicknessoftheCulayeris
+theelectrode,resultinginexcessivelyhigh*Hcoverage7.Therefore,it around 1μm (Supplementary Fig. 3). X-ray diffraction (XRD) indi-
+remainsagreatchallengetosimultaneouslymodulatethecoverageof cates that both Cu catalysts tend to expose Cu(111) facet (Fig. 1a).
+*COand*Hwiththesestrategies. TEM images and elemental energy-dispersive x-ray spectroscopy
+Moreover,local CO /H O concentration derived from the mass mapping (EDX)also reveal a 2–3nm continuous and uniform alka-
+2 2
+transportofCO andH Ocaninfluencethesurfacecoverageof*CO (a nethiollayerwithwettabilitymodification(Fig.1b).Themodification
+2 2 2
+precursorof*CO),*CO,and*H,whichaffectsthereactionpathways ofalkanethiolonCuisfurtherconfirmedthroughattenuatedtotal
+towardC products5,20.ThesuperiorCO masstransportingasdif- reflectionsurface-enhancedinfraredabsorptionspectroscopy(ATR-
+2+ 2
+fusion electrode (GDE)-based systems can be achieved due to the SEIRAS) (Supplementary Fig. 4). The Cu–S coordinate bonds were
+shorter diffusional lengths than that in conventional H-type cells5. formed via alkanethiolation as illustrated by X-ray photoelectron
+However,thecatalystsinGDEarecoveredbyathinlayerofelectrolyte spectroscopy(XPS)ofCu2pandAugerelectronspectroscopy(AES)
+duetotheirmetallicnaturethatleadstoanintrinsichydrophilicsur- ofCuLMM.Beforemodification,theCucatalystconsistsofCu+/Cu0
+face,causingthereactionprimarilyoccurswithdissolvedCO inthe (932.5/952.4eV)andCu2+(934.8/954.6and943.6/962.7eV)(Fig.1d,
+2
+aqueousphase21–24.Thus,gasdiffusioninthecatalystlayerbecomes SupplementaryFig.5)35.Forabettercomparison,thesurfaceofthe
+thelimitingstepofthecathodemasstransport20,25.Thepoorsolubility bareCusamplewasanalyzedinXPSwithAretching.AfterAretching,
+ofCO inwaterleadstotherapidexhaustingofCO inthethinelec- the bare Cu sample presents Cu 2p peaks at 932.5 and 952.4eV,
+2 2
+trolytelayer,whichchangesthelocalCO /HOsupplyandlimitedC correspondingtoCu+/Cu0species(SupplementaryFig.6a).TheAES
+2 2 2+
+products. To break the mass transport limitation and improve the ofCuLMMfurtherindicatesthatthebareCusamplemainlyconsists
+selectivity of C products, GDE can be modified to improve the ofCu0(918.6eV)afterAretching(SupplementaryFig.6b)36,37.After
+2+
+transport of reactants and control the coverage of key modification, the Cu2+ species are replaced by Cu+ species (932.5/
+intermediates20,26–32. Organic molecules (fluorosilane33, quaternary 952.4eV), and a new S 2p peak is observed at 163.0eV, which can
+ammoniumsalt29,30),polymers(polytetrafluoroethylene20,28),andionic ascribetothegenerationofCu–Sbonds(Fig.1e)35,38.Furthermore,
+polymers(Nafion26,31)canmodulatethelocalconcentrationofCO and therelevancebetweenthealkylchainlengthofalkanethiolandthe
+2
+H Obecausetheirbackbonechainscontaining–CH –or–CF –induce contact angle was established. The contact angle of alkanethiol-
+2 2 2
+hydrophobicity. Although these long-side chains can induce strong treatedCucanbecontrollablyincreasedbyvaryingthelengthofthe
+hydrophobicityoncatalystsurfacestoimprovemasstransporteffec- alkylchain,andthecontactanglesarearrangedat43°,95°,112°,131°,
+tively, continuous control of wettability is still meeting great and 156°, respectively (Fig. 1f, Supplementary Table 1). Thus, a
+challenges20,28,33. Moreover, although the C selectivity can be modified layer with continuously tunable wettability, as well as a
+2+
+enhanced by using hydrophobic polytetrafluoroethylene (PTFE) lay- homogeneousstructure,wasobtained.
+ers, it is difficult to identify and optimize the specific effect of
+hydrophobicity27. Thus, the impact of interfacial wettability on the EffectofcontrollablewettabilityonCO electroreduction
+2
+pathways of products, especially ethylene, and ethanol, is rarely performance
+understood. Therefore, it is urgently desirable to develop a new Toassesstheimpactofthewettabilityonproductdistribution,the
+approachtocontinuouslytunethekinetic-controlled*CO/*Hratioby electrochemicalperformanceofCucatalystswithdifferentwettability
+alteringtheinterfacialwettability. wasevaluatedinathree-compartmentflowcell(SupplementaryFig.8).
+Thisworkdescribesthedesignandrealizationoftunableinter- FE of H evolution on hydrophobic-treated Cu catalyst decrea-
+2
+facialwettabilitythroughusingalkanethiolswithdifferentalkylchain sesrapidlytobelow10%(Fig.2a).Simultaneously,theFEforCOdrops
+lengths.Then,thelocalconcentrationofCO andH Ocanbemodu- from26.1%to2.7%andthenincreasesto8.9%.Withtheincreasingof
+2 2
+latedbychangingCO andH Otransportthroughdifferentinterface hydrophobicity(contactangle:from43°to131°),theFEofC (ethy-
+2 2 2+
+wettability, which may achieve an optimized equilibrium of kinetic- lene, ethanol, propanol) increases from 55.4% to 86.1%, with corre-
+controlled*COand*Hinacontrollablemanner.Thiolcanbeanchored sponding current density from 91.4 to 103.3mAcm−2 (Fig. 2b).
+ontheCusurfacethroughcoordinationbinding34.Wettabilitycanbe Interestingly, as the hydrophobicity further increases to a contact
+controlledbythelengthofanalkylchain,whichcaneffectivelyblock angleof156°,theFEandpartialcurrentdensityofC decreasesig-
+2+
+theabsorptionofwaterandfacileCO transport.Asaresult,theratio nificantly. With the increasing current density, the C Faraday effi-
+2 2+
+ofproducedethanoltoethylenecanbetunedinthewiderangeafter ciencyremainsatahighlevel,leadingtoanincreasedpartialcurrent
+hydrophobictreatment(from0.90to1.92)withremarkableFaradaic densityofC products.Thus,aC Faradaicefficiencyofupto80.3%
+2+ 2+
+efficiencies (FE) of ethanoland C (up to 53.7% and 86.1%, respec- can be maintained even at a high current density of 400mAcm−2,
+2+
+tively). Based on the establishment of this structure, the effect of correspondingtoaC partialcurrentdensityof321mAcm−2,whichis
+2+
+interfacialwettabilityonthepathwaysofethyleneandethanolisfur- amongthebestperformances(Fig.2c,SupplementaryTable2).Fur-
+ther revealed through in-situ spectroscopy and computational fluid thermore, the ethanol-to-ethylene ratio increases from 0.90 to 1.93
+dynamicsimulation. andsubsequentlydropsto1.13withtheincreasingofcontactangle
+from 43° to 131°. The FE of ethanol is enhanced dramatically, from
+Results 23.8%to 53.7%,exceeding most reported Cu-based electro-catalysts
+Characterizationofthewettability-tunablemodifiedCu (Fig. 2d, e, Supplementary Table 2). Under super-hydrophobicity
+electrode (CA=156°),CucatalystexhibitsanotableincreaseofFEtowardethy-
+Thecoppercatalystswerepreparedbydirectcurrent(DC)sputtering lene,whereasproductionofethanolissuppressedobviously(Fig.2e).
+withametalliccoppertargetinAroncarbonpaperasthesubstrate Moreover,thevariationtrendofmethaneFaradaicefficiencyiscon-
+(detailsinthe“Methods”section).Tofabricateamodifiedlayerwith sistent with that of ethylene, while the variation trend of propanol
+continuouslyadjustablewettability,theCusurfacewasmodifiedby Faradaic efficiencyissimilar as that of C products (Supplementary
+2
+alkanethiols with different lengths of an alkyl chain, which were Fig.10).Here,themechanismofwettabilityonmodulatingethanoland
+denoted as Cu-4C, Cu-7C, Cu-12C, and Cu-18C (Cu-xC, x stands the ethylenewillbediscussedbelow.
+numberofcarbon(C)atomsinthealkylchain,detailsinthe“Methods” To confirm the relevance of selectivity with wettability, the
+section).Asshowninscanningelectronmicroscopy(SEM)images,Cu accompaniedchemicalstructureandmorphologyvariationsshouldbe
+nano-islandsareuniformlygrownonthecarbonpapersurfacewithan analyzedandexcluded.Thedurabilityofthealkanethiolmonolayer
+NatureCommunications|( 2023)1 4:3575 2
+
+
+===== PAGE 3 =====
+
+and Cu electrode was evaluated by XRD, XPS, TEM, contact angle analysiscanbeascribedtothestronghydrophobicitythatretardedthe
+measurement, and OH− electroadsorption measurement. The 6.5h contact with the electrolyte after alkanethiol-modification, which is
+stabilitytestat−1.2Vversus(vs.)reversiblehydrogenelectrode(RHE) confirmedbytheECSAanalysis.(SupplementaryFig.27,Supplemen-
+showsthatthestablereductioncurrentdensityandproductselectivity taryTable4).Moreimportantly,formateisthemainproductoftheS-
+aremaintainedafteralkanethiolmodification(SupplementaryFig.17). Cu-composedelectrodeinpreviousstudies39–41.However,thecatalyst
+AccordingtotheSEMimages,XRDprofilesandOH−electroadsorption inthisstudycontributestotheimprovedC product,whichisascri-
+2+
+measurement, the morphology and dominant exposed facets of Cu bedtothenewreductionpathwaysofCO RRafterwettabilitymod-
+2
+catalyst are not significantly changed (Supplementary Figs. 18–20). ification.Thus,thechemicalstructureormorphologychangingafter
+XPSanalysisbeforeandaftertheelectrolysisrevealsimilarCu/Sratios thiol-modified is not the reason for improved CO RR selectivity of
+2
+onthecatalystsurface(SupplementaryFig.21).TheHRTEMdisplays ethyleneandethanol.
+the presence of the alkanethiol layer on the Cu catalyst after the
+reactionduetothehighelectrochemicalstabilityofthehydrophobic Effectofcontrollablewettabilityon*COcoverageviaCO mass
+2
+layer(SupplementaryFig.22).Thehydrophobic-treatedelectrodecan transport
+maintainalargercontactangleafterelectrolysis,whichascribestothe ItisknownthatthemasstransportofCO (localCO concentration)
+2 2
+optimized wettabilityofthecatalystlayerthatimprovestheCO RR can affect the coverage of *CO (a precursor of *CO), *CO, and *H,
+2 2
+stability (Supplementary Fig. 23). In this regard, the exposed facet, which affects the reaction pathways toward ethylene and ethanol
+morphologyandhydrophobicityoftheCucatalystandthethiollayer further5,20,42.Ourdata(Fig.2)alsomayimplythatthekinetic-controlled
+after electrolysisare relatively stableunder experimental condition, *CO/*H ratio can be controlled by tuning the local CO /H O ratio
+2 2
+whichisinaccordancewiththepreviousreport27,34.Additionally,the throughchangingthewettabilityofthecatalyst.Tocircumventthis
+electrochemicallyactivesurfacearea(ECSA)alsodropsrapidlyafter issue,computationalfluiddynamic(CFD)simulationswereemployed
+hydrophobic treatment (Supplementary Fig. 24), although the toinvestigatethemasstransportofCO andH Ointhecatalystlayers
+2 2
+Brunauer–Emmett–Teller specific surface area (S ) is almost relatedtokinetic-controlled*COand*H.Themodelswithandwithout
+BET
+unchanged(SupplementaryFig.26),consistentwithpreviousresult27. the alkanethiol modification layer were established to quantity CO
+2
+Therefore,thelowerECSAandcurrentdensitywiththeformationof alongthecatalystsurface(Fig.3a).Thedifferenceingasdiffusionwas
+thealkanethiollayercanbeattributedtothereducedcontactwiththe verifiedbysimulatingCO concentration.Theavailabilityofthegas
+2
+aqueouselectrolyte(Fig.2f,SupplementaryFig.24,25).Thevariation reactant significantly varied at the gas–electrolyte interface after
+of charge resistance (R ), mass transport resistance (W), and inter- modification.Comparingwiththeunmodified-hydrophilicCucatalyst,
+ct
+facial electrochemical double-layer capacitance (C) after alkanethiol thegasdiffusiondistanceofthealkanethiol-modifiedlayerisincreased
+modification in electrochemical impedance spectroscopy (EIS) duetotheimprovedgasdiffusion.
+156°
+160
+131°
+112°
+120
+95°
+80
+40
+0
+Cu-4CCu-7CCu-12CCu-18C
+)°(
+elgna
+tcatnoC
+S 2p
+Cu-12C
+43°
+Cu
+175 170 165 160 Cu
+).u.a(
+ytisnetnI
+Cu 2p Cu+/Cu0 Cu+/Cu0
+Cu-12C
+Cu2+
+Cu
+970 960 950 940 930
+Binding energy (eV)
+).u.a(
+ytisnetnI
+Cu(200)
+Cu(220)
+Cu
+30 40 50 60 70 80
+Cu2+
+Binding energy (eV)
+).u.a(
+ytisnetnI
+Article https://doi.org/10.1038/s41467-023-39351-2
+a b c
+Cu(111) Electrolyte Modified layer
+Alkanethiol Cu
+Product
+Product
+S
+CO
+2
+Cu-12C 10 nm Cu
+2θ (°)
+d e f
+Fig.1|Characterizationofthewettability-tunablemodifiedCuelectrode. Cu–Sbonds.fTheaveragewaterdropletcontactangleofalkanethiol-treated
+aXRDpatternsofCuandCu-12CshowthatbothCucatalystswithorwithout Cuincreaseswiththeincreaseofthealkylchainlength.Theinsetsshow
+modificationtendtoexposeCu(111)facet.bHRTEMimageofCu-12C, photographsofwaterdroplets.Amodifiedlayerwithcontinuouslytunable
+revealinga2–3nmcontinuousandconformalalkanethiollayer.cIllustration wettability,aswellasahomogeneousstructure,wasobtained.Thea.u.stands
+showsCucatalystsviahydrophobictreatmentbyalkanethiol.dCu2pXPS forarbitraryunits.Errorbarsrepresentthestandarddeviationfromatleast
+spectra.eS2pXPSspectraofCuandCu-12C,demonstratingtheformationof threeindependentmeasurements.
+NatureCommunications|( 2023)1 4:3575 3
+
+
+===== PAGE 4 =====
+
+40 18
+15 30
+12
+20 9
+6
+10
+3
+0 0
+40 60 80 100 120 140 160
+Accordingly,theeffectofCO masstransportonlocalCO con- ThelocalCO concentrationcanfurtherinfluencethecoverageof
+2 2 2
+centration needs to be further studied. However, it is difficult to *CO,whichaffectsthereactionpathwaystowardethyleneandethanol.
+measure local CO concentration in the catalyst layer directly. To Thus,in-situATR-SEIRASwasemployedtofurtherevaluatetheimpact
+2
+investigate the localCO concentration ofdifferentinterfacialwett- ofinterfacialwettabilityontheadsorptionofintermediates(Fig.3d,e).
+2
+ability,controlsampleswerepreparedwithdifferentgas–liquid–solid There is a stretching band at ~2070cm−1 on all electrodes, corre-
+contact, enabling in situ measurements with fluorescence electro- spondingtothestretchingbandofthelinear-bondCO(CO )ontheCu
+L
+chemical spectroscopy (FES) at 100mAcm−2 chronopotentiometry surface43,44.Asforhydrophobic-treatedCuelectrodes,theCO bands
+L
+(Fig.3b).ThelocalCO concentrationofallsamplesdecreasestoanew becomemoreclearlydefinedatmoderateoverpotentials(−0.6to1.2V
+2
+steadystateduringelectrolysis.Asforthethree-phasecontactelec- vs.RHE),indicatingalarger*COcoverage.Furthermore,CO bandsare
+L
+trode,increasinghydrophobicitycanshortentherelaxationtimeof preferentially observed on hydrophobic-treated Cu surfaces under
+thelocalCO concentrationandincreaseequilibriumconcentration, more negative potentials, with a wider voltage range of *CO
+2
+whichcanfacileCO masstransport.ThelocalCO concentrationwill coverage14,45.Theenhanced*COadsorptioncanbeattributedtothe
+2 2
+return back to the initial equilibrium value after electroreduction highproduction rateofthe accumulationofmore*COona hydro-
+(SupplementaryFig.30).TherecoveryoflocalCO concentrationon phobicCusurfaceunderahighlocalconcentrationofCO 31.Thedif-
+2 2
+the highly hydrophobic interface is faster due to the improved gas ferencein*COcoverageoverawidevoltagerangederivedfromthe
+diffusion.Theseresultsdemonstratethattheinterfacialcontactstate wettabilityofthecatalystlayerisoneofthekeyfactorsfortheethylene
+affectstheCO masstransportfromthebulkphasetothecatalyst,thus andethanolpathways.
+2
+affectingthelocalCO concentrationnearbythecatalyst.
+2
+The hydrophobic treatment also can promote CO diffusion in Effectofcontrollablewettabilityon*HcoverageviaH Omass
+2
+COreductionreactions.Thus,itcanbeexcludedthatthelimitedCO transport
+2
+masstransportatthehydrophilicCuelectrodeisentirelyduetothe As another key intermediate, the *H intermediate on the surface is
+neutralization of CO with the electrolyte (Fig. 3c, Supplementary convertedfromthebulksolution,whichisaffectedbyH Otransport.
+2 2
+Fig. 31). Like in the CO RR, the direct coupling between two *CO InordertoelucidatetheeffectofH Otransportontheethyleneand
+2 2
+speciesintheCORRiswidelyacceptedasthemajorC–Ccoupling ethanol reaction pathways, the hydrogen evolution reaction (HER)
+mechanism. Moreover, *CO coverage is determined by the local performance of Cu catalysts with different wettability for various
+concentration of CO near the catalyst. Thus, the coverage of key electrolyteswascompared(Fig.4a,b).TheHERperformanceshould
+intermediate*COcanbeimprovedbydirectlyusingCOasreactant. notbeaffectedbytheexternalgasdiffusionbutisdeterminedbyH O
+2
+WhentheCucatalysthasasimilarcontactangle,thepromotionof availability and transport26. Therefore, stronger hydrophilicity can
+ethanol production is more obvious than that of ethylene during benefittheHERduetomoreefficientH Otransport.
+2
+CORR. In comparison, a similar phenomenon can be observed on Unfortunately,thepeakof*HonCucannotbeobservedbyin-situ
+CuAg catalyst, which can generate more CO during performing Ramanspectra(SupplementaryFig.35)orin-situATR-SEIRASspectra
+CO RR(SupplementaryFig.32).Therefore,increasing*COcoverage (Fig. 3d, e) due to the extremely weak adsorption of *H on Cu. At
+2
+willbenefitethanolgeneration. present, *H coverage can be investigated indirectly through *CO
+)%(ycneiciffeciadaraFOC )%(
+ycneiciffe
+ciadaraF
+2H
+Contact angle (°)
+70 40
+60 36
+50
+32
+40
+28
+30
+24 20
+10 20
+40 60 80 100 120 140 160
+)%(ycneiciffeciadaraFHO5H2C )%(
+ycneiciffe
+ciadaraF
+4H2C
+0
+-50
+-100
+-150
+-200
+-250
+-300
+-1.6 -1.2 -0.8 -0.4 0.0
+Contact angle (°)
+)2-mcAm(ytisnedtnerruC
+100 120
+100
+80
+80
+60
+60
+40 40
+40 60 80 100 120 140 160
+Cu
+Cu-12C
+Cu-18C
+E (V vs. RHE)
+)%(ycneiciffeciadaraF+2C )2-mc
+Am(
+ytisned
+tnerruC
++2C
+90 400
+350
+85 300
+250
+80 200
+150
+75 100
+200 300 400
+Contact angle (°)
+)%(ycneiciffeciadaraF+2C
+)2-mc
+Am(
+ytisned
+tnerruC
++2C
+Current density (mA cm-2)
+2.25
+2.00 1.92
+1.75
+1.59
+1.50
+1.25 1.17 1.13
+1.00
+0.75
+40 60 80 100 120 140 160
+4H2C/HO5H2C
+Article https://doi.org/10.1038/s41467-023-39351-2
+a b c
+d e f
+0.90
+Contact angle (°)
+Fig.2|EffectofcontrollablewettabilityonCO2electroreductionperformance. iRcorrection).ItisdemonstratedthatthestrongdependenceoftheC2product
+aFaradaicefficienciesofCOandH2.bFaradaicefficienciesandpartialcurrent distributiononthewettabilityofCucatalyst.TheevolutionofH2andCOissup-
+densitiesofC onCuelectrodesin1MKOH(aq.)at−1.2Vversus(vs.)reversible pressedviaalkanethioltreatment.fLinearsweepvoltametric(LSV)curvesoftheCu
+2+
+hydrogenelectrode(RHE)withvariouscontactanglescFaradaicefficienciesand electrodeswithandwithoutalkanethiolmodificationin1MKOH(ν=50mVs–1),
+partialcurrentdensitiesofC2+onCu-12Cunderdifferentcurrentdensities. showingtheloweredcurrentofthehydrophobic-treatedCucatalystatagiven
+dEthanoltoethyleneratiosandeFaradaicefficienciesofethanolandethyleneon potential.Errorbarsrepresentthestandarddeviationfromatleastthreeinde-
+Cuelectrodesin1MKOH(aq.)at−1.2Vvs.RHEwithvariouscontactangles(without pendentmeasurements.
+NatureCommunications|( 2023)1 4:3575 4
+
+
+===== PAGE 5 =====
+
+0.01 a.u.
+2200 2150 2100 2050 2000 1950 1900
+Wavenumber (cm-1)
+coverage or H O content18,46–49. *H and *CO occupy most of the Cu coverage)onthesurface.Theseresultssuggestthatthevariationof
+2
+surfacesites,resultingindirectcompetitionbetween*Hand*COfor the interface contact state derived from the interfacial wettability
+surfacesites47.Whenthesurfacemaintainsahigh*COcoverage,the affects both CO and H O transport, which may be a solution for
+2 2
+corresponding *H coverage will decrease12,18,46,47. According to the simultaneouslytuningkinetic-controlled*COand*H.
+results of in-situ ATR-SEIRAS spectra (Fig. 3d, e) and in-situ Raman ThelocalCO /HOratioderivedfromwettabilitymayaffectthe
+2 2
+spectra (Supplementary Fig. 35), higher hydrophobicity indicates coverage of *CO and *H, resulting in the reaction pathways toward
+higher *CO coverage, thus the corresponding *H coverage is lower. ethylene or ethanol. CFD simulation is adopted to understand the
+Further, the surface coverage of intermediate (*CO, *H) is directly effectofwettabilityontheinterfacialcontactstateandthelocalCO /
+2
+proportionaltotheconcentrationofreactants(CO ,H O)5,42.There- H O ratio, which can reveal the mechanism of wettability variation
+2 2 2
+fore,the*Hcoveragecanbededucedindirectlythroughwatercon- influenceontheethyleneandethanolpathways(Fig.4g–j).Asshownin
+tent.Theconfocallaserscanningmicroscopymeasurements(CLSM) SEMimages,Cunano-islandsareuniformlygrownontheporoussur-
+were employed toobserve the variation of availablewater near the face of carbon paper with an average size of around 1μm (Supple-
+interface(detailsinthe“Methods”section)(Fig.4d–f)48.Todetermine mentaryFigs.2and3).Therefore,thestructureoftheCuelectrodecan
+the relevance of absorbed water with different wettability, cross- besimplifiedascatalystislandswithpores.ToenabletheCFDsimu-
+sectionalimagesalongthez-axisarechosenforcomparison.Thegreen lation,asimplifiedmodelwasconstructed(Fig.4g).Thesquaresinthe
+fluorescent regions represent the electrolyte phase, while the dark modelareusedtorepresentthecatalystswithvariouscontactangles.
+regionsrepresentthegasphaseorsolidelectrode.Thedecaytailing Thegapsbetweenthesquaresrepresenttheporesbetweenthereal
+effect of fluorescence intensity atthe liquid phase boundaryrepre- catalystislands(Fig.4g).Thesimulationresultsrevealtheformationof
+sents the decreasing of available water (since the H during CO RR acontinuousliquidlayeronthehydrophiliccatalyst(Cu)surfaceand
+2
+source from H O, which can represent *H coverage), which can be CO needsdiffusethroughthethinliquidlayertoreachthecatalystfor
+2 2
+valued by decay distance. The linear sweep plots of fluorescence reduction,whichcausessomehinderduringgastransport(Fig.4h).In
+intensityalongthez-axisatthewhitearrowsfromthecross-sectional comparison,thewholesurfaceofhighhydrophobicity(CA:156o)cat-
+images were obtained. Without modification, the electrolyte can alystismostlyoccupiedbygasphaseandformedagas–solidinter-
+penetrate into the hydrophilic surface of the Cu catalyst. The faces.Thehindranceofgastransportthroughthethinliquidlayeris
+liquid–solid interface occupy the wholesurface of the catalyst(Cu) eliminated, which will block H O transport from the electrolyte,
+2
+rapidlyduetothehydrophilicCusurface.Onthecontrary,thecatalyst simultaneously(Fig.4j).Incomparison,agas–liquid–solidinterfaceis
+layer (Cu-18) in the super-hydrophobic state is dominated by the formed on the lower hydrophobic catalyst(CA: 131o) with balanced
+gas–solid interface. In addition, the decay distance of fluorescence wettability(Fig.4i,j).Theexposureofthethree-phaseinterfacemay
+intensity at the interface increases with the increasing of hydro- balancethegasandliquidmasstransport,resultinginanoptimized
+phobicity,whichisrelatedtothepenetratedH Oconcentration(*H *CO/*Hratioforethyleneandethanolconversion.Theseresultsshow
+2
+).u.a(ytisnetnI
+70
+60
+50
+40
+30
+(nm)500 (nm)500 20
+10
+0
+400 400
+Cu-12C
+300 300 -1.5 V
+200 200
+100 100
+0 V
+0 0
+0 50 100(nm) 0 50 100(nm)
+)%(ycneiciffeciadaraF
+-1.2 V vs. RHE C2H4
+C2H5OH
+CO2RR CORR
+0.005 a.u.
+2200 215
+W
+0
+av
+2
+e
+10
+n
+0
+um
+20
+b
+50
+er
+2
+(
+0
+c
+0
+m
+0-11
+)
+950 1900
+).u.a(ytisnetnI
+4.0
+3.5
+3.0
+2.5
+2.0
+1.5
+1.0 Cu
+Cu-12C
+0.5 Cu-18C
+0.0
+0 50 100 150 200 250 300
+Cu
+-1.5 V
+0 V
+)Mm(noitartnecnoc2OC
+Article https://doi.org/10.1038/s41467-023-39351-2
+a Modified layer Modified layer b c
+GDL CL Electrolyte Electrolyte GDL CL Electrolyte Electrolyte
+CO CO
+2 2
+Time (s)
+d e
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+Fig.3|Effectofcontrollablewettabilityon*COcoverageviaCO2masstrans- 12CandCu-18Cinterfacialenvironments,respectively.Astrongerhydrophobicity
+port.aToprow:schematicsdisplaytheCO2RRconfigurationwith(rightcolumn) indicatesafasterCO2masstransport.cComparisonofethyleneandethanolFar-
+orwithout(leftcolumn)alkanethiolmodification.Thereddottedboxisthe adaicefficienciesforCORRversusCORRonCu,whichindicatestheimprovement
+2
+simulationarea.Secondrow:comparisonofmodeledgasavailabilityalongthe of*COcoverageismorefavorablefortheethanolpathwaythanforethylene.In-situ
+catalystsurfacewith(rightcolumn)orwithout(leftcolumn)alkanethiolmod- ATR-SEIRASspectraofdCuandeCu-12C,revealingthathigher*COcoveragecan
+ification.Gasavailabilitydramaticallyincreasesviaanalkanethiol-derivedhydro- bemaintainedonCuelectrodesafterhydrophobictreatment.Whereinthe
+phobicenvironment.GDL:gasdiffusionlayer,CL:catalystlayer.bLocalCO stretchingbandat~2070cm−1correspondstothestretchingbandofCO onCu
+2 L
+concentrationversustimeduringtheCORRof100mAcm−2ofmodeledCu,Cu- surface.Thea.u.standsforarbitraryunits.
+2
+NatureCommunications|( 2023)1 4:3575 5
+
+
+===== PAGE 6 =====
+
+0
+-100
+131°
+-200
+-300 43°
+-400
+-1.6 -1.2 -0.8 -0.4 0.0
+thatthespreadingofgasandelectrolyteonthecatalystsurfacecanbe speculatethatthevariationof*Hand*COcoveragecausedbythelocal
+controlledbywettability.Agas–liquid–solidinterfacemaybalancegas concentration of CO and H O via wettability may be one of the
+2 2
+andliquidmasstransfertoachieveasuitable*CO/*Hratioforprodu- importantreasonsfortheselectivitychangesinethyleneandethanol.
+cingethyleneandethanol. Itisworthnotingthataltering*CO/*Hsurfacecoveragenotonlyaffects
+ethylene and ethanol formation but also affects other products.
+Illustrationoftheroleofcontrollablewettabilityonthereaction Herein, only the main products, namely ethylene and ethanol, are
+pathwaysofethyleneandethanol discussed. In general, with the increasing of hydrophobicity, the
+Basedontheaforementioned,themechanismofinterfacialwettability interfacial structure shifts from liquid–solid interface (CA: 43o) to
+effectontheethyleneandethanolpathwayscanbededuced(Fig.5). gas–liquid–solidinterface (CA: 131o) and then to gas–solid interface
+*COcoverageand*Hcoveragehasbeenwidelyacceptedasacrucial (CA:156o)(Fig.5a).Differentinterfacialstructuresinfluencethemass
+factorintheselectiveproductionofethyleneorethanol5–8.Namely,the transportofCO andH O,whichmayleadtothevariationof*COand
+2 2
+*COand*Hintermediatesonthecatalystsurfacecanaffectthepath- *H coverage. Moreover,the voltage ranges from in-situ ATR-SEIRAS
+ways of ethylene and ethanol. Inspired by previous works5–8, we spectraandthedecaydistancesfromCLSMwasadoptedtoquantity
+)2-mc
+Am(
+ytisned
+tnerruC
+0
+156°
+156°
+-100
+131°
+-200
+Cu
+Cu-12C
+-300 43°
+Cu-18C
+-2.0 -1.5 -1.0 -0.5 0.0
+E (V vs. RHE)
+)2-mcAm(
+ytisned
+tnerruC
+a
+HER (0.5 M H SO ) HER (1 M KOH) 2 4
+Cu
+Cu-12C
+Cu-18C
+E (V vs. RHE)
+8.12 μm
+0 2 4 6 8 10 12 14 16 18
+).u.a(
+ytisnetnI
+Z
+Cu-18C
+0 2 4 6 8 10 12 14 16 18
+z axis (μm) z axis (μm)
+).u.a(
+ytisnetnI
+Z
+Cu-12C
+1.16 μm 5.76 μm
+0 2 4 6 8 10 12 14
+z axis (μm)
+).u.a(
+ytisnetnI
+Article https://doi.org/10.1038/s41467-023-39351-2
+b c
+Cu Cu-12C Cu-18C
+d e f Z
+Cu
+g H O h CA:46 i CA:131 j CA:156
+2
+Cat.
+CO 10 nm 10 nm 10 nm
+2
+Fig.4|Effectofcontrollablewettabilityon*HcoverageviaHOmasstransport. respectively.Thedecaydistanceofthefluorescenceintensityincreaseswiththe
+2
+aLSVcurvesofH evolutionontheCuelectrodeswithdifferentcontactanglesin improvementofthehydrophobicityofthecatalystlayer,indicatingthesmaller
+2
+0.5MH2SO4electrolyteandb1MKOHelectrolyte(ν=50mVs–1).Thehydrophilic availableH2Oconcentration.gSchematicoftheCFDsimulation.Theredandblue
+Cuelectrode(CA:43°,blueline)exhibitsoptimalhydrogenevolutionactivity, partsintheschematicrepresentgasandliquid,respectively.Thesquaresrepresent
+suggestingefficientHOtransportinahydrophilicenvironment.cSchematic catalysts.Thegapsbetweenthesquaresrepresenttheporesbetweenthereal
+2
+illustrationofavailableH2OconcentrationatreactioninterfaceofCu,Cu-12C,and catalystislands.Thedifferentwettabilityofthecatalystlayerwillleadtodifferences
+Cu-18C,respectively.Thewhiteandbluepartsintheschematicrepresentgasand intheinterfacialcontactstateandthelocalCO2/H2Oratio.Cat.catalyst.h–j
+liquid,respectively.Theballsrepresentcatalysts.Thecatalystlayersinthehydro- Comparisonofthemodeledgas–liquidmasstransportwithdifferentinterfacial
+philic(Cu)andsuper-hydrophobicstate(Cu-18C)aredominatedbytheliquid-solid wettability,inwhichtheredcolorinthesimulationresultrepresentsaCO volume
+2
+interfaceandthegas–solidinterface,respectively.Thecatalystlayerwithbalanced fractionof100%(electrolyte0%),whilethebluecolorrepresentsaCO2volume
+wettability(Cu-12C)isoccupiedbygas–liquid–solidinterface.d–fCross-sectional fractionof0%(electrolyte100%).TheCO2/H2Oratioatthereactioninterface
+fluorescenceimages(scalebar:20μm)andcorrespondingz-axisfluorescence increaseswiththeenhanceofhydrophobicity.CA:contactangle.Thea.u.standsfor
+intensitylinescansoflabeledregions(whitearrows)ofCu,Cu-12C,andCu-18C, arbitraryunits.
+NatureCommunications|( 2023)1 4:3575 6
+
+
+===== PAGE 7 =====
+
+2.5
+2.0
+1.5
+1.0
+0.5
+0.0
+CA: 131° CA: 156°
+thechangesof*COand*Hcoverage.Ingeneral,awider*COadsorption whereθisthecoverageoffreesurfacesites,E istheCO adsorption
+COx x
+voltageindicatesahigher*COcoverageinin-situATR-SEIRASspectra, energyonthesurface,RistheidealgasconstantandTisthetem-
+while a larger decay distance of fluorescence intensity via CLSM perature. The coverage of intermediate (θ ) is a function of CO
+COx
+representsalower*Hcoverage.Theexperimentaldatarevealthatthe adsorptionenergy(E )andlocalCO concentration([CO]).Tovary
+COx x x
+increaseofhydrophobicitywillleadtoanincreasing*COcoverageand theintermediate(*CO/*H)coverage,changingthelocalconcentration
+adecreasing*Hcoverage(Fig.5b). ofreactant(CO)atthecatalystlayerratherthan*CO/*Hadsorption
+x
+Further,thereactionpathwaysoncatalystsurfaceswithdifferent energyis,therefore,apromisingapproach.Comparedwiththeclas-
+wettability can be understood (Fig. 5c). At equilibrium, the surface sicalmodulationoftheactivesite,thenoveltyofourmethodisthatthe
+coverageoftheintermediate(*CO,*H)isdirectlyproportionaltothe CO RRiscompletelycontrolledbykinetics(masstransport)through
+2
+concentration of reactants (CO , H O). For example, the relevance controllableinterfacialwettability(SupplementaryFigs.39,40).Thus,
+2 2
+betweenthesurfacecoverageofadsorbed*CO (θ ,x=1or2)onthe the hydrophobic modification can enhance the gas transport and
+x COx
+catalystandthelocalconcentrationofCO ([CO]),whichisgivenas increasethesurficialadsorptionofCO ,resultingintheincreaseof
+x x 2
+Eq.(1)5,42 *CO intermediateunderbias.Moreover,thehydrophobicsurfacemay
+2
+further trap the produced CO, which can increase the local con-
+θ COx =θ× (cid:1) CO x (cid:3) ×e(cid:1)EC R O T x ð1Þ c c e in n g tr t a h t e io C n – o C f c C o O up a l n in d g t t h o e C c
+2
+o
++
+v p e r r o a d ge uc o t f s5 * ,2 C 0, O 48. i A n n te o r t m he e r d k ia e t y e, in th te u r s m e e n d h ia an te -
+H
+C/HO
+H
+C
+4
+2
+5
+2
+)%(
+ycneiciffe
+ciadaraF
+1.7
+1.6
+1.5
+1.4
+1.3
+1.2
+1.1
+1.0
+CA: 131° CA: 156°
+100
+CH 2 4 80 CHOH
+2 5
+C 2+ 60
+40
+20
+0
+CA: 43°
+(Cu) (Cu-12C) (Cu-18C)
+)V(OC*foegnaregatloV
+)mμ(ecnatsid
+yecaD
+Article https://doi.org/10.1038/s41467-023-39351-2
+a
+CA:43o CA:131o CA:156o
+Wettability
+b -2
+R=0.95 R=0.18 0
+R=0.24 *CO 2
+4
+6
+*H 8
+10
+12
+CA: 43°
+(Cu) (Cu-12C) (Cu-18C)
+*CO/*H c
+CO CO CO
+2 2 2
+CO C 2 H 4 C 2 H 4
+HO HO HO
+2 2 2
+H 2 C 2 H 5 OH C 2 H 5 OH
+d
+Selectivity
+Fig.5|Illustrationoftheroleofcontrollablewettabilityonthereaction distance(*H)(denotedasR,V/μm)isadoptedtorepresentthe*CO/*Hratio.
+pathwaysofethyleneandethanol.aSchematicsofinterfacialcontactstatesofCu cSchematicsofthereactionpathwaysandproductformationonCu,Cu-12C,Cu-
+(CA:43°,liquid-gascontact),Cu-12C(CA:131°,gas–liquid–solidcontact),andCu- 18Cwithdifferentwettability(blue:liquid,white:gas).dThevarietyofproduct
+18C(CA:156°,gas-solidcontact).Thewhiteandbluepartsintheschematics selectivitywithdifferentinterfacialwettability.ThereactionpathwayofC2product
+representgasandliquid,respectively.bCorrelationbetweeninterfacialwettability isjointlydeterminedby*COcoverageand*Hcoverage.TheFaradaicefficiencies
+and*COand*H.Voltagerangesfromin-situATR-SEIRASspectraanddecaydis- towardethanolandC ofupto53.7%and86.1%,respectively.Theillustrations
+2+
+tancesfromCLSMareusedtocompare*COand*Hcoverage,respectively,at showthatthekinetic-controlled*CO/*Hratioderivedfromtheinterfacialcontact
+differentinterfacialwettability.Withtheincreaseofhydrophobicity,*COcoverage stateaffectstheethyleneandethanolpathways.CA:contactangle.
+increaseswhile*Hcoveragedecreases.Theratioofvoltagerange(*CO)overdecay
+NatureCommunications|( 2023)1 4:3575 7
+
+
+===== PAGE 8 =====
+
+Article https://doi.org/10.1038/s41467-023-39351-2
+*H is converted from the bulk solution. As analyzed above, the *H PreparationofCu-4C,Cu-7C,Cu-12C,Cu-18C
+coverage canbededuced indirectlythrough watercontent.Thus,a The Cu electrode was submerged into the 1-dodecanethiol (liquid,
+hydrophobicsurfacecanhinderwaterabsorptionandlower*Hcov- 98%,AladdinCo.Ltd.)underArandleftfor1min.Theformationofthe
+erage.Assuggestedbyrecentreports7,8,50,thehigher*Hcoverageand thiollayer(Cu-xC)wasperformedinpurethiolliquidtoensurethat
+*Htransportefficiencycanbenefitthegenerationofalcohol.There- thiol molecules reach saturated adsorption on the copper surface.
+fore,theconstructionofgas–liquid–solidinterfacethroughcreatinga After this, the electrode was moved to a solution of ethyl acetate
+surface with suitable hydrophobicity can increase the selectivity of (99.5%,AladdinCo.Ltd.)for5mintoremoveresidual1-dodecanethiol
+ethanol, while a super-hydrophobic surface will lead to ethylene andthenwasdriedundervacuumat60°C,andtheresultantelectrode
+production.Therefore,itisspeculatedthatthereactionpathwaysof wasdenotedasCu-12C.TheCu-4C,Cu-7Ccanbeobtainedbythesame
+ethyleneandethanolcanbetunedbykinetic-controlled*CO/*Hratio methodfrom1-butanethiol(97%,AladdinCo.Ltd.)and1-heptanethiol
+through controllable wettability, which is enabled by modifying (98%,AladdinCo.Ltd.),respectively.AsforCu-18C,1-octadecanethiol
+alkanethiolswithdifferentalkylchainlengths. (97%,AladdinCo.Ltd.)wasfirstmeltedunderavacuumat60°C,and
+Similar phenomena can be observed by the varying selectivity theCuelectrodewassubmergedintothe1-octadecanethiolunderAr
+withdifferentinterfacialwettability(Fig.5d).TheFaradaicefficiencies andleftfor10min.Then,theelectrodewasmovedtoasolutionof
+of C and ethanol are increased first and then decreased with the ethylacetateat60°Cfor5mintoremoveresidual1-octadecanethiol
+2+
+increasingofhydrophobicity,whichrevealstheC reactionpathways andwasdriedundervacuumat60°C.
+2+
+canbemodulatedbybalancingthemasstransportofCO andH O.To
+2 2
+tentativelyquantifythebalancebetweenCO andH Omasstransport, PreparationofCuAgelectrode
+2 2
+theratioofvoltagerange(*CO)overdecaydistance(*H)(denotedasR, Agcatalyst(Agtarget,99.999%,ZhongnuoAdvancedMaterialTech-
+V/μm)isadoptedtorepresent*CO/*Hratio.Generally,ahigherR-value nology Co., Ltd.) was deposited onto the Cu electrode through DC
+indicates a lower ratio of *CO/*H. With the increasing of hydro- magnetronsputteringsystem.Thebasepressurewas2.0×10−4Pa,and
+phobicity,R-valuegraduallydecreasesfrom0.95to0.24andthento theflowrateofArwassetas20sccm.TheDCpowerwas10W,andthe
+0.18,indicatingtheincreased*CO/*Hratio.Theselectivityofethanol workingpressurewas1Pa.Thedepositiontimewas10s.
+andC productscanreachthemaximumthroughbalancingCO and
+2+ 2
+H O mass transport with a R-value of 0.24. Therefore, with the Characterization
+2
+increasingofthehydrophobicity,thecoverageratioof*CO/*Hmay ThecrystalstructurewasdeterminedbyX-raydiffractometer(XRD,
+increasesimultaneously.ThelimitationstepofCO reductionisalso BrukerD8Focus)withCuKαradiation(λ=1.54056Å),XPSanalyses
+2
+change from insufficient *CO to inadequate *H, which may lead to werecarriedoutonaPhysicalElectronicsPHI1600ECSAsystem
+changesinthedistributionofethyleneandethanol. with an Al Kα X-ray source (1486.6eV). Field emission scanning
+electronmicroscopy(FESEM)imageswerecarriedoutonHitachi
+Discussion S-4800withanaccelerationvoltageof5kV.Transmissionelectron
+A direct and efficient interfacial modification protocol has been microscopy (TEM) images were performed on JEOL JEM-2100F,
+developed to continuously modulate the wettability ofthe catalyst. usingtheTecnaiG2F20microscopewithanaccelerationvoltageof
+Throughchangingthealkylchainlengthsonalkanethiols,theequili- 200kV. Fluorescence spectra were obtained on F-4600 (Hitachi,
+briumofkinetic-controlled*COand*Hintermediatesonthesurface Japan) luminescence spectrometer. Confocal laser scanning
+may be controlled. In the flow cell, continuous modulating CO microscopy(CLSM)imageswereperformedonNikonA1(Japan).
+2
+reduction to produce ethanol and ethylene with the ratio arranged The contact angles were measured on the Powereach JC2000C1
+from0.9to1.92isachieved,withthehighestFaradaicefficienciesof contactanglesystem.
+53.7%and86.1%forethanolandC ,respectively.AC Faradaiceffi-
+2+ 2+
+ciency is up to 80.3% can be maintained even at a higher current Electrochemicalmeasurements
+densityof400mAcm−2,correspondingtoaC partialcurrentdensity CO reductionwasconductedinathree-chamberflowcellmanu-
+2+ 2
+of 321mAcm−2, which is a remarkable advance over the recently facturedbyGaossunionCo.,Ltd.(SupplementaryFig.8),wherethe
+reported Cu electrode. Moreover, the models have been built to CO gaswassupplieddirectlytothecatalystlayer(cathode,work-
+2
+exploittherelevanceofreactionpathwayswith*CO/*Hcoverageratio, ing electrode). Ni foam (0.5cm×1.0cm, Tianjin Incole Union
+whichisderivedfromATR-SEIRASspectraanddecaydistancesfrom Technology Co., Ltd.) and saturated Hg/HgO electrode (Gaossu-
+CLSM. Interfacial hydrophobic treatment may accelerate CO mass nion Co., Ltd.) were used as the counter electrode (CE) and the
+2
+transport while hindering H O absorption, resulting higher *CO/*H reference electrode (RE), respectively. The cathode and anode
+2
+ratio.Thereactionlimitationmayshiftfrom*COinsufficiencyto*H compartment was separated by an anion exchange membrane
+exhausting, resulting in the main product changes from ethanol to (AEM,FAA-3-PK-75,Fumatech),bothofwhichwerefilledwith1M
+ethylene.Controllablewettabilitymodulationprotocolherecanela- KOHelectrolyte.CO (99.995%,AirLiquideCo.Ltd.)flowedintothe
+2
+borately balance the CO and H O mass transport, which specially cellataflowrateof20sccm(standardcubiccentimeterperminute)
+2 2
+synthesizes C product with highly selective in electrode design. controllingbyamassflowcontroller(MC-Series,AlicatScientific).
+2+
+Moreover,futureresearchendeavorsmayfocusonpromotingmod- To ensure the accuracy of the product selectivity calculation,
+erateandstablehydrophobicityonporouselectrodestofurtherboost anotherflowmeter(MC-Series,AlicatScientific)wasusedtoaccu-
+activityandselectivity. ratelymeasuretheoutletCO flowrate.Peristalticpumps(EC200-
+2
+01,GaossunionCo.,Ltd.)wereusedtocontroltheflowrateofthe
+Methods electrolytesat~10mLmin−1.Thegasproductswerequantifiedby
+PreparationofCuelectrode gas chromatography (GC) (Ruimin GC 2060, Shanghai), which is
+Cucatalyst(Cutarget,99.999%,ZhongnuoAdvancedMaterialTech- onlineconnectedwiththeflowcell.COandH weredetectedbya
+2
+nologyCo.,Ltd.)wasdepositedontocarbonpapergasdiffusionlayers flameionizationdetector(FID)andthermalconductivitydetector
+(2×2cm2,Sigracet29BC,SGLCarbon)throughadirectcurrent(DC) (TCD),respectively.Theliquidproductswerequantifiedbyusing
+magnetronsputteringsystem.Thebasepressurewas2.0×10−4Pa,and static headspace gas chromatography (HS-GC, Agilent Technolo-
+theflowrateofArwassetas20standardcubiccentimetersperminute gies,7890B).AllpotentialswerenotiRcorrected.DuringtheCORR
+(sccm).TheDCpowerwas40W,andtheworkingpressurewas1Pa. experiment,acontinuouslyflowingCO/N mixedgas(CO:10sccm;
+2
+Thedepositiontimewas10min. N :20sccm)wasdirectedintothegascompartment.
+2
+NatureCommunications|( 2023)1 4:3575 8
+
+
+===== PAGE 9 =====
+
+Article https://doi.org/10.1038/s41467-023-39351-2
+Wettabilitymeasurements thenimmersedinavolumemixture(4.4:1)of2%HFandAuplating
+Asessiledropmethodwasusedforwettabilitytestsbyacontactangle solutionconsistingof5.75mMNaAuCl ·2H O,0.025MNH Cl,0.075M
+4 2 4
+system(PowereachJC2000C1,ShanghaiZhongchenDigitalTechnol- Na SO ,0.025MNa S O ·5HO,and0.026MNaOHfor5minat55°C.
+2 3 2 2 3 2
+ogyApparatusCo.,Ltd.)atambienttemperature.Thewaterdroplet Afterdeposition,theSiprismwascleanedwithdeionizedwatercare-
+with a volume of 10mL spread on the sample surface over time. fully.Subsequently,theCucatalystwassputteredontotheAusurface,
+Contactangleswereestimatedafterstabilizingthewaterdropleton thealkanethiolswerethendroppedontheCusurface.
+thesurface.Theaveragecontactanglewasobtainedbyaveragingthe In-situ ATR-SEIRAS was performed on the FT-IR spectrometer
+datainthreeindependentmeasurements. (is50, Nicolet) with a modified accessory at a 60° incident angle
+(VeeMaxIII,PIKETechnology).Theoperandospectroelectrochemical
+OH−electroadsorptionmeasurements cellwasdesignedaccordingtothepreviousworkreportedbyLietal.53.
+In-situOH−electroadsorptionmeasurementswereperformedinaflow PtfoilandAg/AgClelectrode(GaossunionCo.,Ltd.)wasusedasthe
+cell and a potentiostat (Autolab PGSTAT 204, Metrohm). Ni foam counter electrode and reference electrode, respectively. An anion
+(TianjinIncoleUnionTechnologyCo.,Ltd.)wasusedasthecounter exchange membrane (AEM, FAA-3-PK-75, Fumatech) was used to
+electrode,andsaturatedHg/HgOelectrode(GaossunionCo.,Ltd.)asa separatethecathodeandanode.Beforeperformingtheexperiment,
+referenceelectrode.Anaqueoussolutionof1MKOHwasusedasthe 5sccm(standardcubiccentimeterperminute)N wasusedtopurge
+2
+electrolyte. Before electrolysis, cyclic voltammetry (20mV/s) was theopticalpathsystemfor5htoreducetheimpactofCO (g)andH O
+2 2
+performedbyflowingAr.Then,CO reductionwasconductedat−1.2V (g)intheair.ThebackgroundwastakeninanAr-saturatedelectrolyte
+2
+vs.RHEfor6.5hinaflowcellwithCO feeding.Afterelectrolysis,the foreachelectrode.Later,20mLofelectrolytewasbubbledwithCO
+2 2
+CO feedingwasimmediatelyswitchedtoArfeeding,andthencyclic for30minbeforethetest.Electrochemicalmeasurementswerecon-
+2
+voltammetry(20mV/s)wasperformedaftertheelectrolytestopped ducted on a potentiostat (CompactStat.e20250, IVIUM), and all the
+flowing12,51. spectrawerecollectedattheresolutionof4cm−1and8scans12.
+Electrochemicalimpedancespectroscopy(EIS) In-situRamanspectroscopymeasurements
+EISmeasurementswereperformedinaflowcellatroomtemperature In-situRamanspectroscopywascarriedoutinacustom-designedflow
+with Autolab electrochemical workstation. Ni foam (Tianjin Incole cellwithapotentiostat(CompactStat.e20250,IVIUM).Thegeometric
+UnionTechnologyCo.,Ltd.)andsaturatedHg/HgOelectrode(Gaos- surfaceareaoftheworkingelectrodewas1cm2.APtwireandanAg/
+sunionCo.,Ltd.)wereusedasthecounterelectrodeandthereference AgClelectrode(GaossunionCo.,Ltd.)wereusedasthecounterandthe
+electrode,respectively.TheEISmeasurementswerecarriedoutin1M referenceelectrode,respectively.Thecathodeandanodeweresepa-
+KOHaqueoussolutionatopencircuitpotential(OCP).Theimpedance ratedbyananionexchangemembrane(AEM,FAA-3-PK-75,Fumatech).
+spectrawererecordedwithanamplitudefrom10mVof0.01–100kHz. Anaqueoussolutionof1MKOHwasusedastheelectrolyte.Insitu,
+ThedataobtainedfromtheEISmeasurementswerefittedbytheZview RamanspectroscopywasperformedonaRamanmicroscopysystem
+software(Version3.1,ScribnerAssociates,USA). (LabRAMHREvolution,HoribaJobinYvon).A785nmlaserwasusedas
+theexcitationsource12.
+ECSAmeasurements
+The ECSA was measured by the double-layer capacitance (C ) of Fluorescenceelectrochemicalspectroscopy(FES)
+dl
+electrodesin1MKOHelectrolyteinaflowcell.Firstly,CO electro- Afluorescencespectrophotometer (F-4600, Hitachi,Japan) coupled
+2
+reductionwasconductedat−1.2Vvs.RHEfor1h.Afterelectrolysis,the withanelectrochemicalworkstation(CompactStat.e20250,IVIUM)in
+CO feedingwasimmediatelyswitchedtoArfeeding,andthencyclic thein-situFESsystem.8-hydroxypyrene-1,3,6-trisulfonicacid(HPTS)
+2
+voltammetry was performed after electrolyte stopped flowing. The wasusedasapH-sensitivefluorescenceprobemoleculehereforthe
+scanraterangedfrom20to120mVs−1.Thefunctionofcurrentand determination of the interfacial CO concentration (Supplementary
+2
+scanratewasestablishedtodeterminetheC .ECSAwasobtainedby Fig.28).ExcitationandemissionwavelengthsforHPTSwere485and
+dl
+normalizingtheC withthatofaCufoil12. 520nm,respectively.TheintensityoftheHPTScharacteristicemission
+dl
+peakshowsastrongCO concentrationdependence.AtimescanPL
+2
+Brunauer–Emmett–Teller(BET) intensitycurveandafluorescenceintensityversusCO concentration
+2
+AMicromeriticsTristar3000analyzerwasusedtoobtainthetextual standard curve were collected without electrolysis. Specifically, the
+propertiesofcatalystsbyN adsorption-desorptionat77K.Priortothe total gas flow rate was controlled at 50sccm (standard cubic cen-
+2
+tests, all samples were degassed at 300°C for 6h. It is difficult to timeterperminute)byusingamassflowcontroller(MC-Series,Alicat
+obtainenoughBETsamplesbyDCsputtering.Thus,thecopperpow- Scientific)duringthemeasurement.TheCO concentrationinthegas
+2
+der with and without alkanethiol treatment was used to verify the phasewasswitchedfrom0%to10%in1%incrementsbyusingArasthe
+influence of alkanethiol modification on Brunauer–Emmett–Teller- carriergas.Then,thefluorescenceintensitycouldbecorrelatedwith
+specificsurfacearea. CO concentration (standard curve, Supplementary Fig. 29). Subse-
+2
+quently, according to the standard curve, the corresponding CO
+2
+In-situATR-SEIRASmeasurements concentration could be obtained by measuring the fluorescence
+AufilmwasdepositeddirectlyonaSiprismaccordingtotheprevious intensityofdifferentsystemsunderelectrolysisconditions48.
+workreportedbyDunwelletal.52.TheSiprismwasfirstlypolishedby
+theAl O powder(0.05μm,GaossUnion Technology Co. Ltd.) toa Confocallaserscanningmicroscopy(CLSM)
+2 3
+hydrophobic surface. Then, isopropanol (99.7%, Tianjin Yuanli Che- Thevariationofavailablewaterontheinterfacecanbeestimatedby
+micalCo.Ltd.)anddeionizedwaterwereusedtowashtheSiprismto confocal laser scanning microscopy (Nikon A1, Japan) with the
+removetheresidueandAl O powder.Subsequently,theSiprismwas confocal microscope. 100μL of fluorescein-labeled 1M KOH was
+2 3
+immersedinthemixtureofH SO (95−98%,Sigma-Aldrich)andH O addedtoconfocaldishes,anda5×5mm2Cuelectrodewasplaced
+2 4 2 2
+(30%,Sigma-Aldrich)withavolumeratioof3:1for20mintoremove on the liquid droplet with the catalyst side in contact with the
+organiccontaminants.To improvethe adhesion of the Au film,the electrolyte48. The interfacial contact state of electrodes with dif-
+reflectingplaneoftheprismcrystalwasimmersedin40%NH Fsolu- ferentwettabilitycanbedirectlyreconstructedbytheanalysisofa
+4
+tion(Sigma-Aldrich)for90storemovetheoxidelayerandgeneratea seriesofCLSMimagesatdifferentdepthswithinthecatalystlayer
+hydrogen-terminatedsurface.ThereflectingplaneoftheSiprismwas (SupplementaryFig.37).
+NatureCommunications|( 2023)1 4:3575 9
+
+
+===== PAGE 10 =====
+
+Article https://doi.org/10.1038/s41467-023-39351-2
+CalculationofCO conversion Dataavailability
+2
+ThecalculationofCO conversionwasgivenasfollowingEqs.(2)and The data generated in this study are provided in Supplementary
+2
+(3)54: Information and Source Data file. Source data are provided with
+thispaper.
+(cid:4) (cid:5)(cid:4) (cid:5)(cid:4) (cid:5)(cid:4) (cid:5)(cid:4) (cid:5)(cid:4) (cid:5)
+mC 1C mole(cid:1) 1molethene 2molCO 22:4L
+2
+scm2 1000mC 96485C 12mole(cid:1) 1molethene 1molCO References
+(cid:4) (cid:5)(cid:4) (cid:5) 2
+1000mL 60s (cid:6) 1cm2geometric (cid:7) ð2Þ 1. Dinh,C.T.etal.CO 2 electroreductiontoethyleneviahydroxide-
+1L 1min
+mediatedcoppercatalysisatanabruptinterface.Science360,
+=mLmin(cid:1)1CO 2 consumedbydeviceforethenesynthesis 783–787(2018).
+2. Li,F.etal.MoleculartuningofCO-to-ethyleneconversion.Nature
+! 2
+mLmin
+(cid:1)1CO
+consumed
+577,509–513(2020).
+100× 2 =%CO conversiontoethene ð3Þ 3. DeLuna,P.etal.Whatwouldittakeforrenewablypoweredelec-
+mLmin
+(cid:1)1CO
+flowedin
+2
+2 trosynthesistodisplacepetrochemicalprocesses?Science364,
+350(2019).
+4. Bagger,A.,Ju,W.,Varela,A.S.,Strasser,P.&Rossmeisl,J.Elec-
+Computationalfluiddynamic(CFD)methods
+trochemicalCO reduction:aclassificationproblem.Chem-
+2
+The wettability of the electrode was varied in the simulations by physchem18,3266–3273(2017).
+varying the contactangle. The momentum equations for the entire
+5. Tan,Y.C.,Lee,K.B.,Song,H.&Oh,J.ModulatinglocalCO con-
+flowfieldweregivenasEqs.(4)–(7):
+centrationasageneralstrategyforenhancingC−Ccoupling
+2
+inCO
+2
+electroreduction.Joule4,1104–1120(2020).
+ρ×
+∂u
++ρ×ðu×∇Þ×u=∇×½(cid:1)P+τ(cid:3)+F+ρ×g ð4Þ 6. Wang,X.etal.Mechanisticreactionpathwaysofenhancedethylene
+∂t
+yieldsduringelectroreductionofCO-COco-feedsonCuandCu-
+2
+tandemelectrocatalysts.Nat.Nanotechnol.14,1063–1070(2019).
+ρ×∇×u=0 ð5Þ 7. Luo,M.etal.Hydroxidepromotescarbondioxideelectroreduction
+toethanoloncopperviatuningofadsorbedhydrogen.Nat.Com-
+mun.10,5814(2019).
+(cid:8) (cid:9)
+τ=μ× ∇×u+ð∇×uÞT ð6Þ 8. Chen,C.etal.Cu–Agtandemcatalystsforhigh-rateCO 2 electro-
+lysistowardmulticarbons.Joule4,1688–1699(2020).
+9. Bagger,A.,Ju,W.,Varela,A.S.,Strasser,P.&Rossmeisl,J.Elec-
+trochemicalCO reduction:classifyingCufacets.ACSCatal.9,
+F=σ×k×n×δ ð7Þ 2
+7894–7899(2019).
+10. Christensen,O.etal.CantheCO reductionreactionBeimproved
+2
+whereρ(kg/m3)isthedensity,u(m/s)isthevelocitycomponentsiny onCu:selectivityandintrinsicactivityoffunctionalizedCusur-
+direction,t(s)isthetime,P(Pa)isthepressure,τisthedeviatoricstress faces.ACSCatal.12,15737–15749(2022).
+tensorforaNewtonianfluid,F(N/m3)isthesurfacetensionforceper 11. Bagger,A.,Ju,W.,Varela,A.S.,Strasser,P.&Rossmeisl,J.Single
+unitvolume,g(m/s2)istheaccelerationduetogravity,μ(Ns/m2)isthe siteporphyrine-likestructuresadvantagesovermetalsforselective
+dynamic viscosity, T (K) is the temperature, σ (N/m) is the surface electrochemicalCO reduction.Catal.Today288,74–78(2017).
+2
+tensioncoefficient,k(m−1)istheinterfacialcurvature,nistheinter- 12. Zhang,G.etal.EfficientCO electroreductiononfacet-selective
+2
+facialunitnormalvector,andδisthedeltafunctioncenteredatthe copperfilmswithhighconversionrate.Nat.Commun.12,
+interface. 5745(2021).
+13. Choi,C.etal.AhighlyactivestardecahedronCunanocatalystfor
+Densityfunctionaltheory(DFT)methods hydrocarbonproductionatlowoverpotentials.Adv.Mater.31,
+The theoretical calculation was conducted by Vienna ab initio 1805405(2019).
+simulation package (VASP) with the BEEF-vdW exchange-correla- 14. Chen,Z.etal.Grain-boundary-richcopperforefficientsolar-driven
+tionfunctional55.Asforthesimulationmodels,webuiltfive-layer electrochemicalCO reductiontoethyleneandethanol.J.Am.
+2
+Cu(111)-(4×4) slabs with a Butyl Mercaptan and 1-dodecanethiol Chem.Soc.142,6878–6883(2020).
+moleculartocomparetheeffectofdifferentlengthsofthiolsonthe 15. Reller,C.etal.SelectiveelectroreductionofCO towardethylene
+2
+reaction mechanism. Three bottom layers were fixed while the onnanodendriticcoppercatalystsathighcurrentdensity.Adv.
+upper layers were relaxed in these models. The periodic interac- EnergyMater.7,1602114(2017).
+tionsbetweenrepeatedslabswereminimizedbythevacuumspace 16. Jeonetal.Prism-shapedCunanocatalystsforelectrochemicalCO
+2
+ofatleast15Å.Asforthecalculationsettings,thecut-offenergyis reductiontoethylene.ACSCatal.8,531–535(2017).
+400eV.Theinteractionsbetweentheatomiccoresandelectrons 17. DeLuna,P.etal.Catalystelectro-redepositioncontrolsmorphology
+weredescribedbytheprojectoraugmentedwave(PAW)method56. andoxidationstateforselectivecarbondioxidereduction.Nat.
+Allstructureswereoptimizeduntiltheforceoneachatomhasbeen Catal.1,103–110(2018).
+<0.02eV/Å.A(3×3×1)k-pointgridwasemployedforthesimula- 18. Clark,E.L.,Hahn,C.,Jaramillo,T.F.&Bell,A.T.Electrochemical
+tionmodels. CO reductionovercompressivelystrainedCuAgsurfacealloys
+2
+Thefreeenergyofthe*COand*H(ΔG ads )wascalculatedasfol- withenhancedmulti-carbonoxygenateselectivity.J.Am.Chem.
+lowingEqs.(8)and(9): Soc.139,15848–15857(2017).
+19. Ma,S.etal.Electroreductionofcarbondioxidetohydrocarbons
+4G
+*CO
+=G
+*CO
+(cid:1)G
+COðgasÞ
+(cid:1)G
+surface
+ð8Þ
+A
+us
+m
+in
+.
+g
+C
+b
+he
+im
+m
+e
+.
+t
+S
+al
+o
+li
+c
+c
+.
+C
+13
+u
+9
+–
+,
+P
+4
+d
+7
+c
+–
+a
+5
+t
+0
+al
+(
+y
+2
+s
+0
+ts
+17
+w
+).
+ithdifferentmixingpatterns.J.
+20. Xing,Z.,Hu,L.,Ripatti,D.S.,Hu,X.&Feng,X.Enhancingcarbon
+4G
+*H
+=G
+*H
+(cid:1)1=2G
+H2ðgasÞ
+(cid:1)G
+surface
+ð9Þ dioxidegas-diffusionelectrolysisbycreatingahydrophobiccata-
+lystmicroenvironment.Nat.Commun.12,136(2021).
+NatureCommunications|( 2023)1 4:3575 10
+
+
+===== PAGE 11 =====
+
+Article https://doi.org/10.1038/s41467-023-39351-2
+21. Nesbitt,N.T.etal.Liquid–solidboundariesdominateactivityofCO 42. Li,J.etal.ConstrainingCOcoverageoncopperpromoteshigh-
+2
+reductionongas-diffusionelectrodes.ACSCatal.10, efficiencyethyleneelectroproduction.Nat.Catal.2,
+14093–14106(2020). 1124–1131(2019).
+22. Burdyny,T.&Smith,W.A.CO reductionongas-diffusionelec- 43. Heyes,J.,Dunwell,M.&Xu,B.CO reductiononCuatlowover-
+2 2
+trodesandwhycatalyticperformancemustbeassessedat potentialswithsurface-enhancedinsituspectroscopy.J.Phys.
+commercially-relevantconditions.EnergyEnviron.Sci.12, Chem.C.120,17334–17341(2016).
+1442–1453(2019). 44. Gunathunge,C.M.,Ovalle,V.J.,Li,Y.,Janik,M.J.&Waegele,M.M.
+23. Weng,L.C.,Bell,A.T.&Weber,A.Z.Modelinggas-diffusionelec- ExistenceofanelectrochemicallyinertCOpopulationonCu
+trodesforCO reduction.Phys.Chem.Chem.Phys.20, electrodesinalkalinepH.ACSCatal.8,7507–7516(2018).
+2
+16973–16984(2018). 45. Gunathunge,C.M.etal.Spectroscopicobservationofreversible
+24. Leonard,M.E.,Clarke,L.E.,Forner-Cuenca,A.,Brown,S.M.& surfacereconstructionofcopperelectrodesunderCO reduction.
+2
+Brushett,F.R.Investigatingelectrodefloodinginaflowingelec- J.Phys.Chem.C121,12337–12344(2017).
+trolyte,gas-fedcarbondioxideelectrolyzer.ChemSusChem13, 46. Goodpaster,J.D.,Bell,A.T.&Head-Gordon,M.Identificationof
+400–411(2020). possiblepathwaysforC–Cbondformationduringelectro-
+25. Kas,R.etal.ElectrochemicalCO reductiononnanostructured chemicalreductionofCO :newtheoreticalinsightsfroman
+2 2
+metalelectrodes:factordefect?Chem.Sci.11,1738–1749(2020). improvedelectrochemicalmodel.J.Phys.Chem.Lett.7,
+26. Arquer,F.P.G.etal.CO electrolysistomulticarbonproducts 1471–1477(2016).
+2
+atactivitiesgreaterthan1Acm−2.Science367,661–666 47. Schreier,M.,Yoon,Y.,Jackson,M.N.&Surendranath,Y.Competi-
+(2020). tionbetweenHandCOforactivesitesgovernscopper-mediated
+27. Wakerley,D.etal.Bio-inspiredhydrophobicitypromotesCO electrosynthesisofhydrocarbonfuels.Angew.Chem.Int.Ed.57,
+2
+reductiononaCusurface.Nat.Mater.18,1222–1227(2019). 10221–10225(2018).
+28. Chen,R.etal.Highlyselectiveproductionofethylenebythe 48. Shi,R.etal.Efficientwettability-controlledelectroreductionofCO
+2
+electroreductionofcarbonmonoxide.Angew.Chem.Int.Ed.59, toCOatAu/Cinterfaces.Nat.Commun.11,3028(2020).
+154–160(2020). 49. Zhu,S.,Qin,X.,Yao,Y.&Shao,M.pH-dependenthydrogenand
+29. Ge,W.etal.Dynamicallyformedsurfactantassemblyattheelec- waterbindingenergiesonplatinumsurfacesasdirectlyprobed
+trifiedelectrode-electrolyteinterfaceboostingCO electroreduc- throughsurface-enhancedinfraredabsorptionspectroscopy.J.
+2
+tion.J.Am.Chem.Soc.144,6613–6622(2022). Am.Chem.Soc.142,8748–8754(2020).
+30. Zhong,Y.etal.Anartificialelectrode/electrolyteinterfaceforCO 50. Rahaman,M.,Dutta,A.,Zanetti,A.&Broekmann,P.Electrochemical
+2
+electroreductionbycationsurfactantself-assembly.Angew.Chem. reductionofCO intomulticarbonalcoholsonactivatedCumesh
+2
+Int.Ed.59,19095–19101(2020). catalysts:anidenticallocation(IL)study.ACSCatal.7,
+31. Pham,T.H.M.etal.EnhancedelectrocatalyticCO reductiontoC 7946–7956(2017).
+2 2+
+productsbyadjustingthelocalreactionenvironmentwithpolymer 51. Cao,L.etal.Mechanisticinsightsforlow-overpotentialelectro-
+binders.Adv.EnergyMater.12,2103663(2022). reductionofCO toCOoncoppernanowires.ACSCatal.7,
+2
+32. Kim,C.etal.TailoredcatalystmicroenvironmentsforCO elec- 8578–8587(2017).
+2
+troreductiontomulticarbonproductsoncopperusingbilayer 52. Dunwell,M.etal.Thecentralroleofbicarbonateintheelectro-
+ionomercoatings.Nat.Energy6,1026–1034(2021). chemicalreductionofcarbondioxideongold.J.Am.Chem.Soc.
+33. Lv,K.etal.HydrophobicandelectronicpropertiesoftheE-MoS 139,3774–3783(2017).
+2
+nanosheetsinducedbyFASfortheCO electroreductiontosyngas 53. Li,J.etal.Electrokineticandinsituspectroscopicinvestigationsof
+2
+withawiderangeofCO/H ratios.Adv.Funct.Mater.28, COelectrochemicalreductiononcopper.Nat.Commun.12,
+2
+1802339(2018). 3264(2021).
+34. Du,C.etal.Interfacehydrophobictunnelengineering:ageneral 54. Ripatti,D.S.,Veltman,T.R.&Kanan,M.W.Carbonmonoxidegas
+strategytoboostelectrochemicalconversionofN toNH .Nano diffusionelectrolysisthatproducesconcentratedC productswith
+2 3 2
+Energy92,106784(2022). highsingle-passconversion.Joule3,240–256(2019).
+35. Dilimon,V.S.,Denayer,J.,Delhalle,J.&Mekhalif,Z.Electrochemical 55. Kresse,G.Efficientiterativeschemesforabinitiototal-energycal-
+andspectroscopicstudyoftheself-assemblingmechanismof culationsusingaplane-wavebasisset.Phys.Rev.B54,
+normalandchelatingalkanethiolsoncopper.Langmuir28, 11169–11186(1996).
+6857–6865(2012). 56. Blochl,P.E.Projectoraugmented-wavemethod.Phys.Rev.B50,
+36. Yano,T.,Ebizuka,M.,Shibata,S.&Yamane,M.Anomalouschemical 17953–17979(1994).
+shiftsofCu2pandCuLMMAugerspectraofsilicateglasses.J.
+Electron.Spectrosc.131-132,133–144(2003). Acknowledgements
+37. Ma,G.etal.AhydrophobicCu/CuOsheetcatalystforselective WeacknowledgetheNationalKeyR&DProgramofChina
+2
+electroreductionofCOtoethanol.Nat.Commun.14,501(2023). (2021YFA1500804),theNationalNaturalScienceFoundationofChina
+38. Wang,Y.,Im,J.,Soares,J.W.,Steeves,D.M.&Whitten,J.E.Thiol (22121004,51861125104,22038009,and22250008),theNaturalSci-
+adsorptiononandreductionofcopperoxideparticlesandsurfaces. enceFoundationofTianjinCity(18JCJQJC47500),HaiheLaboratoryof
+Langmuir32,3848–3857(2016). SustainableChemicalTransformations(CYZC202107),theProgramof
+39. Ma,W.etal.PromotingelectrocatalyticCO reductiontoformate IntroducingTalentsofDisciplinetoUniversities(No.BP0618007),and
+2
+viasulfur-boostingwateractivationonindiumsurfaces.Nat.Com- theXplorerPrizeforfinancialsupport.
+mun.10,892(2019).
+40. Deng,Y.etal.Ontheroleofsulfurfortheselectiveelectrochemical Authorcontributions
+reductionofCO toformateonCuS catalysts.ACSAppl.Mater. J.G.supervisedtheproject.J.G.,T.W.,andY.L.conceptualizedthepro-
+2 x
+Inter.10,28572–28581(2018). ject.Y.L.,G.Z.,andQ.C.preparedelectrodes.Y.L.,G.Z.,Q.C.,andH.G.
+41. Phillips,K.R.,Katayama,Y.,Hwang,J.&Shao-Horn,Y.Sulfide- conductedthecatalytictestsandtherelateddataprocessing.C.P.,
+derivedcopperforelectrochemicalconversionofCO toformic Z.-J.Z.,L.Z.,L.L.,Y.L.K.H.,andZ.P.carriedoutthetheoreticalcalcula-
+2
+acid.J.Phys.Chem.Lett.9,4407–4412(2018). tions.Allauthorsparticipatedinthediscussionoftheresearch.
+NatureCommunications|( 2023)1 4:3575 11
+
+
+===== PAGE 12 =====
+
+Article https://doi.org/10.1038/s41467-023-39351-2
+Competinginterests Publisher’snoteSpringerNatureremainsneutralwithregardtojur-
+Theauthorsdeclarenocompetinginterests. isdictionalclaimsinpublishedmapsandinstitutionalaffiliations.
+OpenAccessThisarticleislicensedunderaCreativeCommons
+Additionalinformation Attribution4.0InternationalLicense,whichpermitsuse,sharing,
+SupplementaryinformationTheonlineversioncontains adaptation,distributionandreproductioninanymediumorformat,as
+supplementarymaterialavailableat longasyougiveappropriatecredittotheoriginalauthor(s)andthe
+https://doi.org/10.1038/s41467-023-39351-2. source,providealinktotheCreativeCommonslicense,andindicateif
+changesweremade.Theimagesorotherthirdpartymaterialinthis
+Correspondenceandrequestsformaterialsshouldbeaddressedto articleareincludedinthearticle’sCreativeCommonslicense,unless
+JinlongGong. indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnot
+includedinthearticle’sCreativeCommonslicenseandyourintended
+PeerreviewinformationNatureCommunicationsthanksAliSeifito- useisnotpermittedbystatutoryregulationorexceedsthepermitted
+kaldani,andtheother,anonymous,reviewer(s)fortheircontributionto use,youwillneedtoobtainpermissiondirectlyfromthecopyright
+thepeerreviewofthiswork.Apeerreviewfileisavailable. holder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+licenses/by/4.0/.
+Reprintsandpermissionsinformationisavailableat
+http://www.nature.com/reprints ©TheAuthor(s)2023
+NatureCommunications|( 2023)1 4:3575 12

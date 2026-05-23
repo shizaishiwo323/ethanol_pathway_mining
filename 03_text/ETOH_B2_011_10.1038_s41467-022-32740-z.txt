@@ -1,0 +1,1190 @@
+
+
+===== PAGE 1 =====
+
+nature communications
+Article https://doi.org/10.1038/s41467-022-32740-z
+Electrocatalytic CO reduction to alcohols by
+2
+modulating the molecular geometry and Cu
+coordination in bicentric copper complexes
+Received:27January2022 BaiyuYang1,2,5,LingChen3,5,SonglinXue 1,HaoSun1,2,KunFeng4,
+YufengChen4,XiangZhang1,2,LongXiao1,2,YongzeQin1,2,JunZhong4,
+Accepted:16August2022
+ZhaoDeng 1,2 ,YanJiao 3 &YangPeng 1,2
+Checkforupdates ElectrocatalyticreductionofCO intoalcoholsofhigheconomicvalueoffersa
+2
+promisingroutetorealizeresourcefulCO utilization.Inthisstudy,wechoose
+2
+threemodelbicentriccoppercomplexesbasedontheexpandedandfluori-
+natedporphyrinstructure,butdifferentspatialandcoordinationgeometry,to
+unraveltheirstructure-property-performancecorrelationincatalyzingelec-
+trochemicalCO reductionreactions.Weshowthatthecomplexeswithhigher
+2
+intramoleculartensionandcoordinationasymmetrymanifestsalowerelec-
+trochemicalstabilityandthusmoreactiveCucenters,whichcanbereduced
+duringelectrolysistoformCuclustersaccompaniedbypartially-reducedor
+fragmentedligands.WedemonstratethehybridstructureofCuclusterand
+partiallyreducedO-containinghexaphyrinligandishighlypotentinconvert-
+ingCO intoalcohols,upto32.5%ethanoland18.3%n-propanolinFaradaic
+2
+efficienciesthathavebeenrarelyreported.Moreimportantly,weuncoveran
+interplaybetweentheinorganicandorganicphasestosynergisticallyproduce
+alcohols,ofwhichtheintermediatesarestabilizedbyaconfinedspaceto
+affordextraO-Cubonding.Thisstudyunderlinestheexploitationofstructure-
+dependentelectrochemicalpropertytosteertheCO reductionpathway,as
+2
+wellasapotentialgenerictactictotargetalcoholsynthesisbyconstructing
+organic/inorganicCuhybrids.
+ElectrochemicalCO reductionreactionsdrivenbyrenewableenergy including C and C hydrocarbons and oxygenates, ethanol and n-
+2 1 2+
+sourcestoproducevalue-addedchemicalfuelsandfeedstocksoffera propanol,despitetheirhighindustrialandeconomicmerits,havebeen
+promisingcarbon-negativemeanstofulfillthecarbonneutralgoalof challenging to obtain in high yield and selectivity5,6. One possible
+mankind1,2. Copper and copper-based compounds have been well reasonliesinthehighlyreductiveenvironmentatthecathodesurface,
+reckonedhighlyeffectiveinproducingdeeplyreducedmulti-electron makingtheoxygenicintermediatesdifficulttostay,especiallybeyond
+products,owningtothesuitableintermediatesbindingenergeticsthat thepotentialsofC–Ccoupling.Exquisitecatalystdesignandfabrica-
+allowserialreactioncascades3,4.Amongthediversereactionproducts tion, aiming to tune individual intermediate binding and break the
+1SoochowInstituteforEnergyandMaterialsInnovations,CollegeofEnergy,KeyLaboratoryofAdvancedCarbonMaterialsandWearableEnergyTechnologies
+ofJiangsuProvince,SoochowUniversity,215006Suzhou,P.R.China.2JiangsuKeyLaboratoryofAdvancedNegativeCarbonTechnologies,Soochow
+MunicipalLaboratoryforLowCarbonTechnologiesandIndustries,SoochowUniversity,215123Suzhou,Jiangsu,P.R.China.3SchoolofChemicalEngineering
+andAdvancedMaterials,TheUniversityofAdelaide,Adelaide,SA5005,Australia.4InstituteofFunctionalNano&SoftMaterials(FUNSOM),JiangsuKey
+LaboratoryforCarbon-BasedFunctionalMaterials&Devices,SoochowUniversity,215123Suzhou,China.5Theseauthorscontributedequally:BaiyuYang,
+LingChen. e-mail:zdeng@suda.edu.cn;yan.jiao@adelaide.edu.au;ypeng@suda.edu.cn
+NatureCommunications|( 2022)1 3:5122 1
+;,:)(0987654321 ;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+Article https://doi.org/10.1038/s41467-022-32740-z
+linearscalingrelation7,arethusneededtoproducethesemulti-carbon staggered porphyrin rings (Fig. 1c), each in the form of a hemi-
+alcoholsinhighselectivityandturnoverrates. macrocyclewithcentralCu−N coordination,andinthiscasethe
+4
+ToimprovetheproductionofoxygenatesinCO RR,afewtactics bicentricCu−Cudistance is 5.4Å.
+2
+havebeenpractised.Firstofall,highconcentration oflocalCOhas X-rayabsorptionnearedgestructure(XANES)spectrainFig.1e
+beengenerallyviewedfavorableinproducingalcohols,includingCO revealthatalltheCuoxidationstatesinHex-2Cu-O,Hex-2Cu-2Oand
+addedtothefeedstock8,9orproducedthroughatandemcatalyst10,11. Oct-2CuareCu2+,accordingtotheirabsorptionedgesandwhite-line
+Second,synergiesfromcatalystandsubstrateinteraction,suchasCu intensities in reference to Cu foil and copper tetraphenylporphyrin
+clusters supported on oxidized carbons and metals, have been (Cu-TPP)26. A close inspection on the pre-edge absorption at ca.
+exploited for effectually boosting the alcohol production12,13. Third, 8978eV(1s→3d/4p)discernsstrongerpeakintensitiesofHex-2Cu-O
+nitrogen-dopedgraphiticcarbonanditscomplexationwithCumoi- andHex-2Cu-2OwhencomparedtoOct-2CuandCu-TPP(Fig.1einset),
+etieshavealsowitnessedconsiderableoxygenatesproduction14,15.Last attestingtothedeviatedquadrilateralCu–N Omoietieswithreduced
+3
+butnotleast,theutilizationofcrystallinedefects,especiallythoseare coordinationsymmetry27.Amongthethreebicentriccomplexes,Oct-
+incloseproximity,havebeenrecentlyimplementedasapotentstrat- 2Cuhasthelowestpre-edgeabsorption,butstillhigherthanthatof
+egytodrivealcoholproduction16.Ingeneral,thethinkingbehindthese Cu-TPP.Thisisowingtotheout-of-planeCu–N coordinationinOct-
+4
+diverseapproachesistolowertheoverpotentialforC–Ccouplingsoas 2CuincomparisontotheperfectD symmetryofCu-TPP.Fourier-
+4h
+to mitigate the highly reductive electrolytic environment, and the transformextendedX-rayadsorptionfinestructure(FT-EXAFS)spec-
+exploitationofacompanionactivemotiftostabilizetheoxygenated tra in Fig. 1f indicates the average length of the first shell Cu-O/N
+intermediates17. Thus, the development of efficient electrocatalysts bondinginHex-2Cu-OisslightlyshorterthanthoseofHex-2Cu-2Oand
+basedonfundamentalunderstandingsoftheC–Ccouplingandoxy- Oct-2Cu, owing to the fact that Cu atoms in Hex-2Cu-O are more
+genationprocessisimperativetotargetalcoholproductioninCO RR. stronglycoordinatedtothenitrogenatomsbutweaklyassociatedwith
+2
+Heterogeneous molecular catalysts offer a unique platform for the shared oxygen (see Supplementary Table 1 for crystallographic
+CO RR in that they allow the tuning of intermediates binding by bond-length data).TheshortenedCu–Nbonding hasbeenalsowit-
+2
+modulating the molecular configuration, and the furnishing of nessedforunder-coordinatedNi-N centersinnickelphthalocyanine28.
+3
+mechanistic understandings via the explicit structure18,19. To date, By contrast, the contribution of oxygen to the standalone Cu–N O
+3
+manytransitionmetal-coordinatedmacrocyclemolecules,aswellas coordination in Hex-2Cu-2O is more eminent and indicative of a
+their complexed forms, have been demonstrated with high CO RR strongerligandfield.AsforOct-2Cu,theconjugatedporphyrinligands
+2
+activitiestoproducemajorlyC products20,21,possiblyowingtotheir inthestaggeredconfigurationconfrontstheCu–Nbonds(Fig.1c,side
+1
+singly isolated metal centers. Bicentric metal complexes, with two view),makingtheaverageCu–Nbondlengthslightlyshorterthanthat
+metalcentersadjacenttoeachother,arethushighlyintriguing,for ofCu-TPP.Collectivelyfromtheseobservations,itcanbeinferredthat
+theirpossiblecapabilitiesintriggeringC–Ccouplingandstabilizing amoreintensiveintramoleculartensionexistsinHex-2Cu-OandOct-
+oxygenicintermediatesthroughligationeffects. 2Cu,jeopardizingtheirthermodynamicandelectrochemicalstability.
+Inthisstudy,wechoosethreebicentricCucomplexesbasedon
+the expanded and fluorinated porphyrin structure, but different ElectrochemicalCO RRperformances
+2
+molecular and coordination geometry, to illustrate the structure- ElectrocatalyticCO RRperformancesofHex-2Cu-O,Hex-2Cu-2Oand
+2
+property-performancecorrelationofheterogeneousmolecularcata- Oct-2CuloadedontoKetjenblack(KB)werefirstevaluatedinagas-
+lysts in CO RR. The fluorinated compound structure lends all com- tightH-cellcontainingCO -saturated0.1MKHCO astheelectrolyte.
+2 2 3
+poundsinsolubleinaqueouselectrolyte.Wefindtheelectrochemical Linear sweep voltammetries (LSVs) show that the overall current
+stability of the macrocycle molecules are highly dependent on the densitiesofHex-2Cu-OandOct-2CuintheCO -saturatedelectrolyte
+2
+molecularconfigurationandcoordinationsphere,whichinturnsteers arehigherthanthoseinAr-saturatedelectrolyte,whereasHex-2Cu-2O
+theCO RRpathway.Moreover,weuncover,bothexperimentallyand exhibitssimilarcurrentdensitiesinbothCO andAr-saturatedelec-
+2 2
+theoretically,astrongsynergybetweentheinsitugeneratedCucluster trolytes (Supplementary Fig. 5). This suggests the electron transfer
+and partiallyreducedmolecular substrate in concertedlyproducing number in CO RR catalyzed by Hex-2Cu-2O is close to that inHER,
+2
+oxygenates,withhighselectivityofethanolandn-propanolthathas yielding the majority of 2e− reduction products such as H , CO or
+2
+beenrarelyseeninliterature. HCOOH (assuming the same type/number of active sites were
+engaged).Inthisvein,thereshouldbemoreelectrontransferinvolved
+Results in CO RR catalyzed by Hex-2Cu-O and Oct-2Cu, resulting in more
+2
+Catalystssynthesisandcharacterization deeplyreducedproductsof>2e−.Inaddition,allthecompoundcata-
+Syntheses of the bicentric copper complexes, denoted as Hex- lystsshowsignificantlyhigherLSVcurrentdensitythanthatoftheKB
+2Cu-O, Hex-2Cu-2O and Oct-2Cu in Fig. 1a–c, respectively, are aloneinCO -saturatedelectrolyte,confirmingthatKB,asaconductive
+2
+based on the ring expansion of porphyrins following previous agent,doesnotaffecttheperformanceevaluationofthecatalysts.
+reports (Supplementary Fig. 1)22–25. Their chemical structures are Inthecontrolled-potentialelectrolysis(CPE)from–0.9to–1.5V
+confirmed by UV–Vis (Fig. 1d) and Mass spectroscopy (Supple- (vs RHE without iR correction, all potentials are referenced to this
+mentary Figs. 2–4), matching well with the literature results23,24 format hereafter unless specifically noted), Hex-2Cu-O produces
+and theoretical values. For Hex-2Cu-O, each of the two copper mainlyCOandformateatlowoverpotentials(Fig.2a).Startingfrom
+ions is bound to one bridging meso-oxygen atom and three pyr- −1.1V and beyond, C products including ethylene, ethanol and n-
+2+
+rolic nitrogen atoms in a distorted quadrilateral configuration. propanolconstitutethemainCO RRproducts.Inparticular,at−1.2V
+2
+The central Cu–O–Cu bonding fights against the tension of the thetotalFaradaicefficiency(FE)ofmulti-carbonalcoholsincreasesto
+expandedporphyrin,resultinginagabledstructurewithaCu–Cu 50.8%(ethanol:32.5%;n-propanol:18.3%),whichhasbeenrarelyseen
+distanceof3.7Å(Fig.1a).InHex-2Cu-2O,thedoublyN-confused intheliterature(SupplementaryTable2).At−1.3V,thetotalFEofC
+2+
+hexaphyrinprovidestwocarbonyloxygenstoallowbothcopper products reaches to its maximum of 71% (Supplementary Fig. 6).
+ions to be independently anchored by the surrounding three N Afterwards,boththeFEsofethanolandn-propanoldecreases,whereas
+and one O atoms, also in a square-planar geometry but with theFEandpartialcurrentdensityofethylene continuallyrise (Sup-
+milder Cu-O strain. As a result, the overall structure of the mac- plementaryFig.7).At−1.5V,theFEofethyleneincreasesto34%,sur-
+rocycleisplanarwithaCu–Cudistanceof4.9Å(Fig.1b).Oct-2Cu passingthealcoholswithatotalFEof27%.Theseobservationssupport
+has a C symmetry with the two copper atoms bound to two the common view that the yield of oxygenates, compared to their
+2
+NatureCommunications|( 2022)1 3:5122 2
+
+
+===== PAGE 3 =====
+
+Cu foil(cid:2)(cid:3) (cid:2)0.3
+Cu-TPP
+Hex-2Cu-O
+Hex-2Cu-2O
+Oct-2Cu
+Cu-O/N Cu-Cu
+0 1 2 3 4 5
+R (Å)
+hydrocarboncounterparts,isfavoredatrelativelyhigherpotentials.In periodof25h,thetotalcurrentdensitymaintainednearlyconstantat
+contrast,Hex-2Cu-2Oproducesmajorlyhydrogenandformateduring ∼9.4mAcm−2, and the FEs of ethanol and n-propanol were well
+thewholeCPEtest,apartfromasmallamountofethyleneaswellas retainedat35.3and16.7%,respectively,bytheendofthetest(Fig.2d
+trivial methane at −1.5V (Fig. 2b). Oct-2Cu yields mainly CO and andSupplementaryTable3).Suchahighalcoholselectivityandelec-
+hydrogen when a relatively low bias of −0.9 or −1.0V is applied trocatalytic stability of Hex-2Cu-O intrigues us to interrogate its
+(Fig. 2c). Starting from −1.1V, C H starts to emerge and reaches a structural stability or mutability during the electrolytic process in
+2 4
+maximumFEof17%at−1.3V.Atthispoint,alcoholsarealsodetectedin contrasttoHex-2Cu-2OandOct-2Cu.
+theelectrolyte,buttheFEsaresignificantlylowerthanthoseattained
+byHex-2Cu-O.Notethatmethanolaccountsforasignificantportionof StructuralevolutionofthecatalystsduringCO RR
+2
+thealcoholscatalyzedbyOct-2Cu,whichwasnotobservedforHex- Matrix-assistedlaserdesorptionionization-timeofflight(MALDI-TOF)
+2Cu-O.WhenKBaloneisusedforelectrolysis,theCO RRproductis massspectrometry(MS)takenonHex-2Cu-Oafter10hofCPEat−1.2V
+2
+dominatedbyhydrogen(SupplementaryFig.8). revealsaseriesofpeaksofvariousm/zratios(SupplementaryFig.10),
+Chronoamperometrici–ttestwasfurthercarriedouttoexamine instarkcontrasttothelocalizedpeaksatm/z=1601.9forpristineHex-
+the electrocatalytic stability of Hex-2Cu-O at −1.2V with the liquid 2Cu-O(SupplementaryFig.2).Whilethepeakscenteredatm/z=1462.5
+productscollectedintermittentlyforethanolandn-propanolanalysis correspondtofree-basehexaphyrin,thosecenteredatm/z=1541.4can
+byNMR.SupplementaryFig.9exemplifiesthe1H-NMRspectraofthe beascribedtopartiallyreducedHex-2Cu-OwithoneCuatomstripped
+products from Hex-2Cu-O after 20h of test in CO or Ar-saturated away. Therefore, the post-electrolytic Hex-2Cu-O should contain a
+2
+electrolyte.WithCO purgedintotheelectrolyte,prominentmethyl mixture of free-base, mono-, and bicentric hexaphyrins, as well as
+2
+hydrogenpeaksofethanolandn-propanol(withareal-timetotalFEof possibleCu0moietiesreducedoutfromthecomplexes(whichwillbe
+53.1%)areobservedintheNMRspectrumatδ=1.0and0.75,respec- confirmedlater).Bycontrast,post-electrolyticHex-2Cu-2Oshowsan
+tively (Supplementary Fig. 9a). When CO is replaced with Ar, no unchanged peak at m/z=1615.7 (Supplementary Fig. 11 vs Supple-
+2
+hydrocarbonscanbeidentifiedexceptforDMSOusedastheinternal mentary Fig. 3), suggesting that the original molecular structure of
+standard(SupplementaryFig.9b),indicatingthattheproducedalco- Hex-2Cu-2O was kept intact during electrolysis. Thus, one can con-
+holsaresolelyconvertedfromCO .DuringtheentireCO RRtesting clude that under the same electrolyticconditions Hex-2Cu-Oisless
+2 2
+).u.a(
+edutingam
+TF
+Hex-2Cu-O
+Hex-2Cu-2O
+Oct-2Cu
+400 600 800
+).u.a(
+ecnabrosbA
+Ar
+Ar Ar
+N N
+O
+N Cu Cu N
+N N
+Ar Ar
+Ar
+Ar Ar
+N N N O Ar Cu Cu Ar
+O
+N N N
+Ar Ar
+Ar Ar
+5.42Å
+N N
+N Ar Ar N 2.06
+Cu Cu 1.97
+Ar N N Ar
+N N
+Ar Ar Ar=CF
+6 5
+Cu foil
+Cu-TPP
+Hex-2Cu-O
+Hex-2Cu-2O
+Oct-2Cu
+8980 9000 9020
+Wavelength(nm) Photon Energy (eV)
+).u.a(
+ytisnetnI
+dezilamroN
+Article https://doi.org/10.1038/s41467-022-32740-z
+Topview Sideview
+a
+N
+1.87 2.05 2.15
+O 3.71Å
+Cu Cu
+b
+N
+2.03 1.93 O 4.90Å
+Cu
+c
+N
+Cu
+d e f
+1s 3d/4p
+8976 8980
+Fig.1|Structureandcharacterizationofthebicentricexpanded-porphyrin 2Cu.eXANESCuK-edgeandfFT-EXAFSspectraofHex-2Cu-O,Hex-2Cu-2O,and
+complexes.a–cMolecularstructureandspatialgeometryofHex-2Cu-O(a),Hex- Oct-2CuinreferencetoCu-TPPandCufoil.
+2Cu-2O(b),andOct-2Cu(c).dUV–VisspectraofHex-2Cu-O,Hex-2Cu-2O,andOct-
+NatureCommunications|( 2022)1 3:5122 3
+
+
+===== PAGE 4 =====
+
+120
+H Fromate CO CH
+2 2 4
+Methanol Ethanol n-Propanol
+100
+80
+60
+40
+20
+0
+-1.5 -1.4 -1.3 -1.2 -1.1 -1.0 -0.9
+electrochemically stable than Hex-2Cu-2O, and hence the CO RR spectraofOct-2Cubeforeandafterelectrolysisdisplayasimilartrend
+2
+activityoftheformermusthavecomefromitsmutatedstructure.For to that of Hex-2Cu-O, indicating thatCu2+ inthe moleculewas also
+Oct-2Cu,post-electrolyticMSdidnotdetectanysignalsfromtheori- reduced to Cu+/Cu0 (Supplementary Fig. 18). No Cu2+ state was
+ginalmacrocycles(i.e.Oct-2CuorOctaphyrin)otherthanabunchof observed in the Cu 2p spectrum of Oct-2Cu after electrocatalysis
+fragmentsbelowm/z=1100(SupplementaryFig.12).Thisindicatesthe (SupplementaryFig.19).FurtherintheAugerCuLMMspectra,post-
+conjugatedoctaphyrinringofOct-2Cucanbefullyrupturedduring electrolyticHex-2Cu-Ofeaturesabroadpeakthatcanbedecoupledto
+electrolysis. coordinatedCu2+(572.2eV)andsuperficiallyoxidizedCuδ+(569.8eV)
+The structural mutation of Hex-2Cu-O was also witnessed by species,whereaspost-electrolyticOct-2Cushowsmajorlythesuper-
+UV–vis spectroscopy. After 10h of electrolysis at −1.2V, post- ficialCuδ+apartfromasmallshoulderofCu0(SupplementaryFig.20).
+electrolytic Hex-2Cu-O was dissolved in deoxygenated ethanol and ThiscorroboratestheviewthatOct-2Cucanbefullyreducedduring
+subjectedtoUV–vischaracterization.Comparedtothespectrumof electrolysis.Instarkcontrast,boththeXPSN1sandCu2pspectraof
+pristine Hex-2Cu-O, thatof the post-electrolytic Hex-2Cu-O exhibits Hex-2Cu-2O before and after electrolysis remain mostly unchanged
+twonewabsorptionsat602and741nm,whicharealsoobservedon (SupplementaryFigs.21and22).Consequently,ourXPSanalyseson
+thechemicallyreducedHex-2Cu-ObyreactingwithNaBH (Supple- the three compound catalysts before and after electrolysis further
+4
+mentaryFig.13).Ingeneral,theUV–visspectrumofpost-electrolytic attesttothegoodelectrochemicalstabilityofHex-2Cu-2O,theeasily
+Hex-2Cu-Ocontainssignaturesfromboththepristineandchemically fragmentedOct-2Cu,andthepartiallyreducedHex-2Cu-O.
+reduced Hex-2Cu-O, confirming that Cu centers in Hex-2Cu-O are TovisualizetheHex-2Cu-OcomplexloadedontoKBbeforeand
+partially stripped. For comparison, the UV–Vis spectrum of post- after electrolysis, high-angle annular dark-field and aberration-
+electrolyticHex-2Cu-2Oremainsunchangedafterthesame10-helec- corrected scanning transmission electron microscopy (HAADF-
+trolysis at −1.2V (Supplementary Fig. 14), which echoes previous STEM)wasemployed.Figure3aconfirmsthebicentricconfigurationof
+observationfrommassspectrometry.TheUV–Visspectrumofpost- pristine Hex-2Cu-O, revealing isolated diatomic Cu pairs dispersed
+electrolyticOct-2Cushowsonlyafewweakabsorptionsuponlosing ontothecarbonsupport.Thecorrespondingline-scanprofiledisplays
+mostoftheoriginaloctaphyrinsignatures,providingfurtherevidence abimodalspacingofca.3.7Å(Fig.3b),closelymatchingthetheoretical
+forthecleavageoftheOct-2Cumacrocycles(SupplementaryFig.15). Cu–Cu spacing in the molecular structure shown in Fig. 1a. After
+X-ray photoelectron spectroscopy (XPS) taken on Hex-2Cu-O CO RR test for 10h, organic solvents were used to wash away the
+2
+beforeandafter10hofelectrolysisexhibitsdrasticallyweakenedN-Cu organic phase on the electrode surface, on which TEM discloses
+bondingat399.2eVinthehigh-resolutionN1sspectra(Supplementary numerouscopperclustersofseveralnanometers(Fig.3c).Theatomic
+Fig.16),corroboratingthestrippingofCufromthecomplex.Inthe arrangement of the Cu clusters is better clarified by spherical
+pristineHex-2Cu-O,theCu2psignalscontainamajorityofCu2+state aberration-corrected TEM (Cs-TEM), revealing multi-facet exposure
+at 935.4 (2p3/2) and 955.3 (2p1/2) eV (Supplementary Fig. 17a). After andhighlyunder-coordinatededgeatoms(Fig.3d)whichhavebeen
+electrolysis,despiteoftheoveralllowsignalintensity,bothCu2+and wellreckonedasactivesitesfor*COadsorptionandC–Ccouplingin
+Cu+/Cu0 peaks are discernable (Supplementary Fig. 17b). The N 1s CO RR13,26,29. Additionally, no distinct electron paramagnetic
+2
+)%(
+ycneiciffe
+ciadaraF
+a b
+c d 0
+10
+20
+30
+40
+0 5 10 15 20 25
+Potential (V vs. RHE)
+)2-mc
+Am(
+ytisned
+tnerruC
+100
+80
+Ethanol 60
+n-Propanol
+40
+20
+0
+Time (h)
+Faradaic
+efficiency(%)
+120
+100
+80
+60
+40
+20
+0
+-1.5 -1.4 -1.3 -1.2 -1.1 -1
+)%(
+ycneiciffe
+ciadaraF
+120
+H Formate CO
+2 H Formate CH CO CH
+CH Ethanol n-Propanol 2 4 2 4
+100 2 4
+80
+60
+40
+20
+0
+-1.5 -1.4 -1.3 -1.2 -1.1 -1 -0.9
+Potential (V vs. RHE)
+)%(
+ycneiciffe
+ciadaraF
+Article https://doi.org/10.1038/s41467-022-32740-z
+Potential (V vs. RHE)
+Fig.2|ElectrocatalyticCO2RRperformances.a–cFEsofvariousreductionpro- ethanolandn-propanolFEs.Errorbarsrepresentthestandarddeviationofthree
+ductsatdifferentpotentialforHex-2Cu-O(a),Hex-2Cu-2O(b),andOct-2Cu(c). independentmeasurements.
+dChronoamperometrici–tcurveat−1.2VforHex-2Cu-Owiththeevolutionof
+NatureCommunications|( 2022)1 3:5122 4
+
+
+===== PAGE 5 =====
+
+1 2 3 4 5 6 7
+resonance(EPR)signalwasobservedforthepristineHex-2Cu-Odueto overpotentials(Fig.3e)30,31.InthecorrespondingFT-EXAFSspectra,
+stronganti-ferromagneticexchangebetweenthetwoCu2+ions(Sup- prominentCu–CubondingatR=2.2Åcanbeobservedatallapplied
+plementary Fig. 23). Post-electrolytic Hex-2Cu-O, however, exhibits potentials(Fig.3h).Fittingthespectrumat−1.2VtotheFCCmodelof
+typical EPR spectrum of CuII porphyrin (with S=1/2) as a result of metallic Cu results in a Cu–Cu coordination number (CN) of 4.9
+ligand hydrogenation23. The high-resolution TEM images, together (SupplementaryFig. 24,Table4),underliningitssmall clustersize
+withthecomprehensivespectroscopicevidencesabove,unanimously andhighlyunder-coordinatednaturethatcorrespondtotheCs-TEM
+testify the structural mutation of Hex-2Cu-O during electrolysis to observation. The Cu–N/O coordination at R=1.5Å is persistent
+formahybridstructurecomposedofCuclustersandpartiallyreduced throughout the whole testing period, confirming that not all Cu
+Hex-2Cu-O. centersarestrippedofffromthecomplex32.Thisisinlinewiththe
+Furthermore,tomonitortheCuevolutioninbothHex-2Cu-O, MS, UV–Vis, and XPS observations that collectively point to the
+Hex-2Cu-2OandOct-2CuduringCO RR,insituXASmeasurements coexistenceofbothmetallicCuspeciesandincompletelyreduced
+2
+werecarriedout.ForHex-2Cu-O,theserialXANESspectrarecorded Hex-2Cu-OcomplexesundertheCO RRcondition.NotethattheCu
+2
+byrampingdowntheappliedpotentialfrom−0.6to−1.5Vunveilthe reduction in Hex-2Cu-O is not reversible, as evidenced by the Cu0
+decayofCu2+at8984eVbutemergenceofCu0at8980eVevenatlow state and Cu–Cu bonding retained in the post-electrolytic sample
+).u.a(
+ytisnetnI
+3.70Å
+Distance (Å)
+(cid:3)0.3
+0 2 4 6
+Radial distance (Å)
+).u.a(
+edutingam
+TF
+Cu foil Cu foil
+CuO CuO
+-1.5 V -1.5V
+-1.2 V -1.2V
+-0.9V
+-0.9 V
+OCP
+OCP
+0 2 4 6
+).u.a(
+edutingam
+TF
+Cu foil
+CuO
+-1.5 V
+-1.2 V
+-0.9 V
+OCP
+8980 9000 9020
+Photon Energy (eV)
+Radial distance (Å)
+).u.a(
+ytisnetnI
+8980 9000 9020
+).u.a(
+ytisnetnI
+a b c d
+e f (cid:2)
+Cu foil
+CuO
+Post
+-1.5 V
+-1.2 V
+-0.9 V
+-0.6 V OCP
+OCP
+8980 9000 9020
+Photon Energy (eV)
+h i j
+).u.a(
+ytisnetnI
+Cu foil
+CuO
+-1.5 V
+-1.2 V
+-0.9 V
+Photon Energy (eV)
+(cid:3)0.3
+Post
+-0.6 V
+0 2 4 6
+Radial distance (Å)
+).u.a(
+edutingam
+TF
+Article https://doi.org/10.1038/s41467-022-32740-z
+Cu foil
+CuO
+-1.5 V
+-1.2 V
+-0.9 V
+OCP
+Fig.3|Ex-situTEMimagesandoperandoXAS.aRepresentativeHAADF–STEM 10hofelectrolysisat–1.2V.Scalebars,2nm(a),50nm(c)and2nm(d).e–jInsitu
+imagesofHex-2Cu-O/KB(1:10dilution)showingthepresenceofisolatedCupairs XASmeasurementsunderelectrocatalyticCORRconditions:CuK-edgeXANES
+2
+markedbyredcircles.bLine-scanintensityprofiledrawnupononeofthediatomic spectra(e–g)andFourier-transformCuK-edgeEXAFSspectra(h–j)forHex-2Cu-O,
+Cupairs.c,dHigh-resolutionTEM(c)andCs-TEM(d)imagesofHex-2Cu-O/KBafter Hex-2Cu-2OandOct-2Cu,respectively.
+NatureCommunications|( 2022)1 3:5122 5
+
+
+===== PAGE 6 =====
+
+Article https://doi.org/10.1038/s41467-022-32740-z
+(Fig. 3h). In stark contrast, both the in situ XANES and FT-EXAFS oxygen and is fully fragmented. Based on this cognition, we next
+spectratakenonHex-2Cu-2OexhibitminimalchangeofCuoxidation proceed to unravel how such a complex structure of partially
+andcoordinationstatesfrom−0.9to−1.5V(Fig.3f,i),evidencing, reducedHex-2Cu-Oworktoproducealcoholsasthemajorproduct
+onceagain, its electrochemical stability duringCO RR. Thein situ inCO RR.
+2 2
+XASspectraofOct-2CualsotestifythereductionofCu2+toCu0under To elucidate the synergy from the Cu clusters and partially
+negativebias(Fig.3g,j).At−1.5V,boththespectralfeaturesofXANES reducedHex-2Cu-Ocomplexesinyieldingmulti-carbonproducts,we
+andFT-EXAFSwellmatchthoseofthecopperfoilwithoutdiscern- soaked the Hex-2Cu-O electrode in ethanol to remove the organic
+able Cu–N signals, further supporting the view that Cu clusters phaseafterCO RRat−1.2V.Asaresult,thecatalystremainedonthe
+2
+dominate the post-electrolytic Cu species, which coincides earlier electrodeshouldcomprisemajorlyCuclusterssupportedonKB,as
+XPSobservations. evidenced by EDXimages before and after soaking (Supplementary
+SimilarstructuralevolutionofHex-2Cu-Owiththeemergenceof Figs. 30, 31). Elemental analysis further shows that the Cu clusters
+CuclustersduringCO RRwasalsowitnessedbyTime-lapseXAFSata remainedontheelectrodeaccountfor∼82%oftheoriginalCucon-
+2
+constantpotentialof−1.2V(SupplementaryFig.25).Injust8min,Cu tent, and that the N content isnotably reduced after soaking (Sup-
+centersinthecomplexwerealreadypartiallyreduced,aswitnessedby plementaryTable5).InthesubsequentretestingofCO RR,theFEof
+2
+thecoexistenceofCu0andCu–N/OspeciesinboththeXANESandFT- multi-carbonproductsat−1.2Vdecreasesfrom66.2%fortheoriginal
+EXAFSspectra.After24min,thewholecatalystsystemwasstabilized, catalystto22.1%,inwhichethanolandn-propanolaccountforonly
+withsimilarCuoxidationandcoordinationstatestilltheendofthe 8.8%and8.2%,respectively.Meanwhile,thetotalefficiencyofC pro-
+1
+test.ItisthussurmisedthatmetallicCureducedfromorganometallic ducts(includingformate,COandmethanol)increasesfrom16.3%to
+precursorsmightimposeself-constraintonparticlegrowthduetothe 40.3%(SupplementaryFig.32).Thisresultissomehowsimilartothe
+ligand tethering effect and catalyst-support interaction, which have productdistributionobservedonOct-2Cu,whichformscopperclus-
+been demonstrated in previous literature reports4,33,34, and further ters and fragmented ligands during electrolysis. Collectively, these
+confirmed here by plotting the potential-dependent Cu–Cu CNs observationshelptojustifytheroleofthepartiallyreducedHex-2Cu-O
+revealingtheslow-downofparticlegrowthwithincreasingbias(Sup- incontributingtobothC andalcoholproduction.Toreinforcethis
+2+
+plementaryFig.26).Collectively,ourcomprehensivecharacterizations pointofview,wefurthercastedthesolutefromthesoakingsolution
+aboveshouldhelptorationalizethegreatelectrocatalyticactivityand backontotheelectrode(SupplementaryFig.33)andobservedthatthe
+stabilityofHex-2Cu-OaswitnessedinFig.2d. alcoholproductionwaspartiallyrestored.Comparedtotheethanol-
+soakedelectrode,theregeneratedhybridcatalystcomprisingthecast-
+MechanisticinsightsintothehighC 2+andalcoholproduction back organic phase and Cu clusters is able to augment the FEs of
+OurchoiceofHex-2Cu-O,Hex-2Cu-2Oand Oct-2CuastheCO RR oxygenates and hydrocarbons atall applied potentialsfrom −1.0to
+2
+catalysts offers a paradigm for illustrating the correlation of −1.4V(Fig.4a,b).Thesepost-mortemtreatmentsstronglysupportthe
+structure-property-performance.Forthetwobicentrichexaphyrin interplaybetweenCuclustersandpartiallyreducedHex-2Cu-Oligands
+complexes, although all copper ions are coordinated to three tosynergisticallypromoteC alcoholproduction.
+2+
+nitrogen and one oxygen, the geometry and symmetry of the In situ attenuated total reflection surface-enhanced infrared
+coordinationspheresarequitedifferent.Thesharedoxygenatom absorption spectroscopy (ATR-SEIRAS) was employed to probe the
+in Hex-2Cu-O and the intramolecular tension from the gabled intermediates associated with multi-carbon alcohol production on
+structure make the complex less thermodynamically stable, and Hex-2Cu-O (Fig. 4c). A prominent absorption band at 2095cm−1,
+thustheCuatomsaremoreactiveandcanbestrippedofftoform attributed to the C≡O stretching mode of *CO36, is observed atall
+metal clusters. Comparatively, the quasi-square planar configura- potentials from −0.5 to −1.3V, and its intensity decreases with the
+tionofCu–N OinHex-2Cu-2Owithastrongerligandfieldismore increasing bias. This suggests that at negative potentials more CO
+3
+stable, resilient even to high negative bias. As for Oct-2Cu, the attendtotheC–Ccouplingreactionstoformmulti-carbonproducts,
+staggeredporphyrinligandsthatalsocreateintramoleculartension whichhavebeenreportedinmanypreviousstudies16,37.Meanwhile,the
+makeitboththermodynamicallyandelectrochemicallylessstable peakshowsaredshiftwithincreasingbias,whichisascribedtothe
+andcouldfallapartundernegativepotentials.Theseargumentsare Starkshiftcausedbystrongelectronicinteractionbetween*COand
+well supported by cyclic voltammetry (CV) taken in Ar-saturated theunder-coordinatedmetalcluster38.Thepeakslocatedat1560cm−1
+electrolyte (Supplementary Figs. 27 and 28).Hex-2Cu-2O shows a and1436cm−1growingconspicuouslywithdecreasingpotentialcanbe
+similar voltammogram to that of free-base hexaphyrin without designated to the C-O vibration of adsorbed *OC–CO(H), a strong
+notableCuvalencechangeinthepotentialrangebetween−0.8and evidence for the direct CO-CO dimerization on Cu clusters39. As
+1.2V(SupplementaryFig.27),attestingtoitsstableconfiguration. reportedinpreviousstudies13,16,oneofthemostprobablerate-limiting
+BothHex-2Cu-OandOct-2Cuexhibitprominentredoxfeatureson stepsforgeneratingC intermediatesisthe*COdimerization,whichis
+2
+bothcathodicandanodicscans,inaccordancewiththeCuvalence greatly facilitated by concentrated CO adsorption on under-
+changeobservedbyinsituXAFS(SupplementaryFig.28).Specifi- coordinated Cu sites. More importantly, the growing peak at
+cally,thecathodicpeakat−0.39VforHex-2Cu-Ocanbeascribedto 1360cm−1 is ascribed to the stretching of surface-bound *OCH CH
+2 3
+thereductionCu2+toCu+/Cu0,asconfirmedbytheex-situXPSCu2p species40,whichisconsideredakeyintermediateintheC pathwayto
+2+
+spectratakenatdifferentbias(SupplementaryFig.29).Theother form alcohols. Note that the premature formation of intermediates
+twocathodicpeaksat−0.03and0.36VarenotassociatedwithCu before the actual show-up of the corresponding products has been
+valencechange,butpossiblyrelatedtotheligandredoxbehavior35. oftenseeninliteratureandattributedtotheirstrongsurfaceabsorp-
+ForOct-2Cu,theligandreduction/fragmentationismingledwithCu tionpriortoanendothermicreleasestep40,41.
+valence change, and so that a broad hump is observed on the Tofurtherconfirmthecarbonsourceoftheproducedoxygenates
+cathodicscan.Additionally,alltheanodicpeaksatpotentialshigher isindeedfromtheCO input,CPEmeasurementsusing13CO asthe
+2 2
+than 0.5V indicate the re-oxidation of Cu from its reduced form. feedstockwerecarriedout.1H-NMRspectrumacquiredontheliquid
+Thus, for both Hex-2Cu-O and Oct-2Cu the actual CO RR activity productsrevealsdoubletsat0.7and1ppm,respectivelycorrespond-
+2
+should be originated from a hybrid structure composed of Cu ingtothe13C-labeledn-propanolandethanol(Fig.4d).Meanwhile,GC-
+clusters and reduced ligands. Then, the difference between Hex- MSspectrumofthegasproductsexhibitssignalsofm/z=30andm/
+2Cu-OandOct-2Cuisthattheligandoftheformercontainsoxygen z=29attributedto13C H and13CO,respectively,furtheraffirming13C
+2 4
+and is partially reduced, whereas that of the latter contains no asthesolecarbonsourceinallCO RRproducts(Fig.4e).
+2
+NatureCommunications|( 2022)1 3:5122 6
+
+
+===== PAGE 7 =====
+
+Formate CO CH
+80 2 4
+Methanol Ethanol n-Propanol
+60
+40
+20
+0
+-1.4 -1.3 -1.2 -1.1 -1
+Potential (V vs. RHE)
+)%(
+ycneiciffe
+ciadaraF
+Formate CO CH
+80 2 4
+Methanol Ethanol n-Propanol
+60
+40
+20
+0
+-1.4 -1.3 -1.2 -1.1 -1
+Potential (V vs. RHE)
+)%(
+ycneiciffe
+ciadaraF
+2100 1700 1600 1500 1400 1300 1200
+Wavenumber (cm-1)
+).u.a(
+ecnattimsnarT
+-0.5 V
+-0.7 V
+-0.9 V
+-1.1 V
+-1.3 V
+2095
+1560 1436 1360
+1656
+0 10 20 30 40
+Confined space
+*O-Cu
+CO ethanol
+2 n-propanol
+*CO
+H O
+2
+KB
+ecnadnubA
+evitaleR
+Article https://doi.org/10.1038/s41467-022-32740-z
+a b
+c d
+13CH CH CH OH
+H13COO- 3 2 2
+13CH CH OH
+3 2
+10 9 8 2 1 0
+e Chemical Shift (ppm)
+13C H
+2 4
+*CO
+*OCCO(H)
+*OCHCH
+2 3 13CO
+H-OH
+m/z
+f
+Fig.4|MechanisticinvestigationsintothealcoholproductionbyHex-2Cu-O. theliquidproductsandeGC-MS-spectraofthegasproductsproducedbyisotopic
+a,bCO2RRproductdistributionandthecorrespondingFEsatdifferentpotential 13CO2RRat−1.2V.fTheproposedC–Ccouplingandoxygenationmechanismfor
+foraCuclustersremainedontheelectrodeafterethanolsoakingtoremovethe producingalcoholsonrestructuredHex-2Cu-O.colorcodes:Cu,orange;C,gray
+organicphaseandbthemixtureofCu-clusters/Hexaphyrinsaftercastingbackthe (Hex-2Cu-O),navy(KB)andgreen(reactionintermediates);O,magenta(Hex-2Cu-
+solute.cOperandoATR-SEIRASspectratakenbyrampingdowntheapplied O)andred(reactionintermediates);H,pink(Hex-2Cu-O).Errorbarsrepresentthe
+potentialfrom−0.5to−1.3VinCO2-saturated0.1MKHCO3.d1H-NMRspectrumof standarddeviationofthreeindependentmeasurements.
+NatureCommunications|( 2022)1 3:5122 7
+
+
+===== PAGE 8 =====
+
+Article https://doi.org/10.1038/s41467-022-32740-z
+DFTmodeling including C HOH, C H and C HOH. The reaction pathways are
+2 5 2 4 3 7
+In the existing reports of organometallics-derived copper catalysts, summarized in Fig. 5c; a more detailed thermodynamic profile
+metalliccopperhasbeenoftenperceivedastheonlymotifresponsible regarding all reaction intermediates is given in Supplementary
+forCO reduction42,43.However,inthecurrentcomparativestudyboth Tables6–8.FortheC pathways(blueandblack),the*COcouplingand
+2 2
+the characterization results and control experiments suggest there subsequentproton-coupledelectrontransfer(PCET)toform*OCCOH
+exists a synergy between the Cu clusters and partially reduced (2*CO+H++e− → *OCCOH) show the maximum uphill free energy
+O-containing hexaphyrin complexes in promoting C production, change (ΔG). This step isthe potential-determine step (PDS) with a
+2+
+especially the alcohols. Although the exact structure of this hybrid limiting potential(U )of–0.92V.Thesubsequentreductionof
+limiting
+complexisdifficulttocharacterizeexplicitly,westillbuildastructure *OCCOHonR-Hex-2Cu-O/Gproceedsintwomajorpathways(Fig.5c),
+model,basedonalltheexperimentalevidencegainedaboveaswellas including:(1)C H pathway(black)viatheformationofintermediate
+2 4
+thebestscientificguess,fortherestructuredHex-2Cu-Obyplacinga *HOCCOH, and (2) C HOH pathway (blue) via the formation of
+2 5
+Cu cluster adjacent to the partially reduced Hex-2Cu-O molecule *OCHCOH. The major difference between these two pathways is
+containingonlyonecoordinatedCuatom.Thisresultsinaconfined whetherCorOon*OCCOHisprotonated.TheprotonationonOto
+spacebetweentheagglomeratedCuclusterandunreducedsingleCu *HOCCOHisendergonicwithanuphillΔG=0.42eV,incontrasttothe
+centerinthevicinity.InthefollowingDFTinvestigationsbasedonthis exergonic protonation on C to *OCHCOH (ΔG=–0.09eV), which
+model(Fig.4f),wewillshowtheresultantuniquecoordinationenvir- indicatesthatCO RRcanproceedpreferentiallytowardC HOHfor-
+2 2 5
+onment(i.e.,theconfinedspaceaffordinganextraO–Cubond)would mationonR-Hex-2Cu-O/G.Thereasonfortheunfavoredformationof
+significantlypromoteC–Ccouplingbybreakingthescalingrelation- *HOCCOHliesinthefactthattheprotonationonOisaccompaniedby
+ship between key intermediates and enhance alcohol selectivity by the cleavage of previously formed O–Cu bond (Supplementary
+reservingoxygeninthehydroxylgroup44. Fig.38).TheprotonationonCtoform*OCHCOH,followedbysub-
+AlltheconstructedmodelsarelistedinSupplementaryFig.34. sequenthydrogenation,canbewellsupportedbythereactioninter-
+Aftergeometryoptimization,thestructureofHex-2Cu-Obendstoa mediatesdetectedbyATR-SEIRAS,especiallythestretchingoftheC–C
+curvedshape,coincidingwiththemolecularstructuredeterminedby coupling intermediate—*OCCOH and the C HOH precursor—
+2 5
+X-raycrystallography23,24.ThehybridstructureofCuclusterandpar- *OCH CH around1436and1360cm−1,respectively(Fig.4c),whichin
+2 3
+tially reduced Hex-2Cu-O is represented by a nine Cu atom cluster turnqualitativelyvalidatestheproposedethanolpathway(Fig.5d).
+(Cu )immobilizedontheCu-reduction-inducedvacancyonHex-2Cu- Ourexperimentsobserveaselectivityincreaseforethylenepro-
+9
+O,anddenotedasR-Hex-2Cu-O.ThecurvedstructureofHex-2Cu-O duction starting from –1.3V on Hex-2Cu-O (Supplementary Fig. 7),
+formsaconfinedspacebetweentheCu clusterandtheadjacentsingle whichisrationalizedbycalculationssuggestingthattheaccelerated
+9
+Cucenter,whichare~3.84Åapart(SupplementaryFig.34).Thismodel reactionkinetics is led by the decreased activationbarrier with the
+isreasonableconsideringthesimilarsizeoftheCuclustertothatofthe changeofelectrodepotential.Figure5eshowsthatat0VvsRHEthe
+hexaphyrinmolecule(Fig.3d).Furthermore,toincludetheimpactof formation of *HOCCOH is kinetically unfavored on R-Hex-2Cu-O/G
+carbon-basedconductingagentKetjenBlack(KB)intheexperiment,a with an activation energy barrier of 1.51eV (MEP shown in Supple-
+5×5×1 graphene substrate was introduced to support the hybrid mentary Fig. 39). When applying a bias of –1.3V, the formation of
+structure (R-Hex-2Cu-O/G), which was used for all reaction *HOCCOHbecomesthermodynamicallydownhill(ΔE=–0.87eV)with
+mechanismstudy. aloweractivationenergybarrierof0.72eV,leadingtoanacceptable
+WefirstscrutinizedthekeyreactionintermediatesforC–Ccou- reactionrateatroomtemperature46.Ourcalculationalsoconfirms*CO
+plingonR-Hex-2Cu-O/G,includingtwoCu-adsorbed*CObeforecou- trimerization to form n-propanol is facilitated by the spatial-
+plingandthe*OCCOHdirectlyaftercoupling.Formostoftheactive confinementeffectonR-Hex-2Cu-O/G(SupplementaryFig.36b).The
+sitesexplored,alinearrelationshipexistsbetweenthetwoadsorption C pathwaytowardn-propanolisshowninFig.5candSupplementary
+3
+strengths(i.e.,ΔG andΔG )asshowninFig.5aandSupple- Fig.40;theU is–0.98V,similartothatforethanolproduction,
+2*CO *OCCOH limiting
+mentary Fig. 35. However, some reaction sites significantly deviate and therefore agrees well with the experimental observation for a
+fromthislinearrelationship,withΔG decreasesfromthetrend- notableselectivitytowardn-propanol(Fig.2a).Nonetheless,itisworth
+*OCCOH
+fittedlevelsof1.27,1.21eVto0.92,0.90eV,respectively.Thesereac- tonotethatgiventhecomplexphasespacedemonstratedbyR-Hex-
+tionsitesarethosewithintheconfined-spacebetweentheCu cluster 2Cu-2O/Gthatwouldrequireas-of-yetunrealizedsimulationcapability
+9
+and the adjacent single Cu center (Supplementary Fig. 35), with an toconclusivelydepict,themechanismproposedhereispendingfor
+extrabondformedbetweentheadsorbed*OCCOHandadjacentCu furtherclarificationtounderstandthecausalfactorsfromelectronic
+center (Supplementary Fig. 36a). The extra O–Cu bond boosts the structureandultimatelythecontributionsofstructuralevolutionto
+*OCCOH adsorption while not affecting the 2*CO adsorption, and theobservedkinetics.
+thereforebreakthescalingrelationbetweenthesetwocarbonaceous Inshort,ourcalculationsshowthehighlyunder-coordinatedCu
+intermediatestopromoteC–Ccoupling. clusterinthehybridinorganic/organicstructuresuppressesHERby
+Additionally,thehighlyunder-coordinatedCuclusteronR-Hex- enhancing *CO adsorption, and thereby promotes C–C coupling to
+2Cu-O/Gcaninhibitcompetitivehydrogenevolutionreaction(HER), form *OCCOH, which is the PDS. Furthermore, the confined space
+further contributing to its higher C selectivity. This is achieved betweentheCuclusterandadjacentsingleCucenteraffordsanextra
+2
+through the significantly enhanced *CO adsorption on the under- O–Cu bond to stabilize the *OCCOH intermediate by breaking the
+coordinated sites. We adopted the selectivity determining method linearscalingrelationwith*CO.Next,CO RRproceedspreferentially
+2
+proposedbyRossmeisletal45todecidetheproductselectivityonR- towardC HOHformationthroughtheexergonicprotonationonCto
+2 5
+Hex-2Cu-O/G.TheresultsinFig.5bshowthatallactivesitesfromtheR- from*OCHCOH,whereastheprotonationonOtoform*HOCCOHis
+Hex-2Cu-O/G surface (Supplementary Fig. 37) fell in the CO RR disfavoredowingtotheextraenergyneededtocleavetheO–Cubond.
+2
+dominantzone.Thecalculatedselectivityonthetwomodelsisingood Lastly,theelectrochemicalCO RRofHex-2Cu-Owasfurthertestedina
+2
+agreementwiththeexperimentalobservationofstableC andalcohol flow-cell using the aqueous 1M KOH electrolyte. Similar trend of
+2+
+productionwithsuppressedH yieldonHex-2Cu-O(Fig.2a). ethanol, propanol, and ethylene was observed with a noticeable
+2
+After C–C coupling, the spatial-confinement effect can reserve amountofaceticacid(SupplementaryFig.41a).Atthecurrentdensity
+oxygeninthehydroxylgrouptoincreasealcoholselectivityandinhibit of250mAcm−2,thetotalFEofoxygenates(includingethanol,propa-
+the competing hydrocarbon production. We acquired the complete nol,andaceticacid)sumsupto38.6%andthatofC productsreaches
+2+
+reactionpathwaystowardthemainproductsobservedinexperiments, 55.4%. Chronoamperometric i–t test at −0.66V (Supplementary
+NatureCommunications|( 2022)1 3:5122 8
+
+
+===== PAGE 9 =====
+
+1.4
+1.2
+1.0
+-1.1 -1.3 -1.5 -1.7
+)Ve(
+ygrene
+noitamroof
+HOC-OC*
+sites without extra O-Cu bond
+sites with extra O-Cu bond
+trend fitted level
+Y=-0.54X+0.45
+1.27 4
+1.21
+3
+2
+1
+6
+5
+0.92 0.90
+2 *CO adsorption (eV)
+0.0
+-0.5
+-1.0
+-1.5
+-2.0
+-2.5
+-3.0
+Reaction coordinates
+)Ve(
+G(cid:141)
+0.5
+0.0
+-0.5
+-1.0 5
+H 2
+-1.5
+-0.5 0.0 0.5 1.0
+ethanol pathway
+ethylene pathway
+n-propanol pathway
+)Ve(
+E(cid:141)
+OC*
+active sites on R-Hex-2Cu-O/G
+CO HCOOH
+1
+2
+3
+4
+6
+Beyond CO
+(cid:141)E (eV)
+*H
+1.5
+1.0
+0.5
+0.0
+-0.5
+-1.0
+)Ve(
+ygrenE
+a b
+c
+*CCOH
+*HOCCOH
+*OCCOH
+*CHCOH
+*OCHCOH
+*OCCOCOH *CCH
+2*CO *OCC(OH)COH
+*OCCH2COH
+*HOCCH2CH
+*
+O
+H
+H
+OCHCH2CHOH
+*OCCCOH *CHCH2CHOH
+*OCHC *OCHCH *OCHCH2 *CCH2 *CHCH2 ethylene
+3*CO
+*OCCHCOH
+*OCCH2CHOH
+ethanol
+*CH2CH2CHOH
+2*CO + 8 (H++e-) (cid:2)CH 3 CH 2 OH (g) + H 2 O *OCHCH3 *CH3CH2CHOH
+*OCH2CH3
+n-propanol
+d e
+0 V vs RHE
+-1.3 V vs RHE
+Reaction coordinates
+-0.07
+Article https://doi.org/10.1038/s41467-022-32740-z
+R-Hex-2Cu-O/G
+0.42
+-0.09
+0 V vs RHE
+2*CO + 8 (H++e-) (cid:2)CHCH + 2HO
+2 2(g) 2
+3*CO + 12 (H++e-) (cid:2)CHCHCHOH + 2HO
+3 2 2 (g) 2
+-0.09 1.51
+0.92 -1.18
+*OCHCOH *OCCOH 0.72 0.42 2*CO
+*OCHC
+ethanol(g) 0.48
+-0.03
+-0.03
+-0.71
+-0.87
+*OCHCH
+*OCHCH
+2 3
+*OCHCH 3 *OCHCH 2
+Fig.5|DFTcalculationstounraveltheformationmechanismofmulti-carbon change(ΔG)valuesforkeybifurcatingintermediatesareannotatedineV.dAtomic
+alcohols.aLinearscalingrelationsbetween2*COadsorptionand*OCCOHfor- structuresofthereactionintermediatesalongtheethanolpathway.ΔGforevery
+mationfreeenergiesonR-Hex-2Cu-O/G.Atomicconfigurationofrelevantactive stepat0VvsRHEareannotatedineV.Greenandredvaluesdenote,respectively,
+sitesaresummarizedinSupplementaryFig.35.bAnalysisofadsorptionenergyfor exergonicandendergonicprocess.SolidbluearrowsrefertothePCETsteps.color
+CO(ΔE )andH(ΔE )atvarioussitesontheR-Hex-2Cu-2O/G.Verticalandhor- codes:Cu,orange;C,brown(Hex-2Cu-O),navy(graphene)andgreen(reaction
+*CO *H
+izontalblacklinesrepresenttheequilibriumstates(i.e.,ΔG=0)for*H↔½H2,and intermediates);O,red(Hex-2Cu-O)andpurple(reactionintermediates);H,pink
+*CO↔CO,respectively.Atomicconfigurationofrelevantactivesitesaresummar- (Hex-2Cu-O)andblue(reactionintermediates).eEnergybarriersof*HOCCOH
+izedinSupplementaryFig.37.cReductionpathwaysidentifiedonR-Hex-2Cu-O/G formationonR-Hex-2Cu-O/Gat0Vand–1.3VvsRHE.
+at0VvsRHE.Thereferenceenergylevelissettobebaresurface.Freeenergy
+NatureCommunications|( 2022)1 3:5122 9
+
+
+===== PAGE 10 =====
+
+Article https://doi.org/10.1038/s41467-022-32740-z
+Fig.41b)showsthecatalystisabletomaintainastablecurrentdensity trifluoride diethyl etherate (1.13g, 3.96mmol, 1mL) was added and
+of∼280mAcm−2forupto5h,withtheFEoftotaloxygenateskeptat stirredfor2hunderdarkconditions.ExcessDDQ(11.4g,0.05mol)was
+∼36%throughoutthetestingperiod.Moreover,comprehensivechar- addedtothereactionsolutionandcontinuedtostirovernight.After-
+acterizations using XPS (Supplementary Fig. 42), MALDI-TOF MS wards, the dark red reaction mixture wasdirectly pumped through
+(SupplementaryFig.43)andHR-TEM(SupplementaryFig.44)allpoint filter membrane to remove excessive porphyrin. The filtrate was
+tothecoexistenceofCunanoclustersandpartiallyreducedHex-2Cu-O separatedbysilicagelcolumnchromatography.Byusing30%DCMin
+complexesinthepost-electrolyticcatalyst,similartothescenarioin hexane,bluefractioncorrespondingtooctaphyrin(0.12g,2.3%)was
+H-celltests. obtained.Thefilterresiduewasthenwashedwithwatertoremovethe
+residualDDQ,attainingthecrudeproduct.Finally,hexaphyrin(0.25g,
+Discussion 4.7%)inthefiltratewasobtainedbywashingthecrudeproductwith
+Inthisstudy,bicentriccomplexesofHex-2Cu-O,Hex-2Cu-2OandOct- methylenechloride.
+2Cu with different molecular configuration and coordination geo-
+metry are employed as CO RR catalysts to unveil the underlying Synthesisofhexaphyrin–coppercomplex
+2
+structure-property-performance relationship. Owing to the shared The hexaphyrin-copper complex, Hex-2Cu-O, was prepared as fol-
+oxygen atom and thus caused intramolecular tension, Hex-2Cu-O lowing: In a 100mL round-bottom flask, hexaphyrin (0.086g,
+manifestsalowelectrochemicalstabilitywithhighlyredox-activeCu 0.06mmol) was added and dissolved in chloroform (40mL). The
+centers,whichcanberestructuredduringCO RRtoforminorganic/ reactionwasinitiatedbytheadditionofCu(OAc) (0.12g,0.60mmol)
+2 2
+organichybrids comprising under-coordinated Cu clustersand par- and NaOAc·3H O (0.082g, 0.60mmol) in methanol (10mL). The
+2
+tially reduced hexaphyrin complexes. This hybrid structure in turn mixturewasrefluxedovernightandthenthesolventwasevaporated
+createsasynergytodrasticallypromotemulti-carbonproductsduring under reduced pressure. Subsequently, the obtained solid was dis-
+CO RR,especiallywithhighFEofoxygenatesthathasbeenrarelyseen solvedinchloroform(5mL)andpurifiedbysilica-gelchromatography
+2
+intheliterature.Bycontrast,theplanarHex-2Cu-2Owithindependent with 30% n-hexane in chloroform as the eluent, yielding the target
+Cu–N Omotifsexhibitsamuchbetterelectrochemicalstability,but product in the first bluish-gray band. The collected fractions were
+3
+only mediocre CO RR performance producing majorly H and concentrated and recrystallized in dichloromethane/n-hexane to
+2 2
+HCOOH. Due to ligand fragmentation, Oct-2Cu mainly exhibits the obtainblackcrystals(0.086g,90%).
+CO RRperformanceofCuclusters.DFTcalculationsfurtherdrawa
+2
+vividpictureonthecollaborationbetweentheunder-coordinatedCu SynthesisofN-confusedhexaphyrin–coppercomplex
+clusterandvicinalCucentertosynergisticallypromoteC–Ccoupling The N-confused hexaphyrin-copper complex, Hex-2Cu-2O, was pre-
+andoxygenationbyprovidingaconfinedspacetoaffordextraO–Cu paredasfollows:Hexaphyrin(200mg,0.14mmol)andCuCl·2H O(1g,
+2
+bonding. Consequently, this study sheds new light on tuning the 5.87mmol)inpyridine(50mL)werestirredunderoxygenflowfor3h
+molecular configuration and coordination geometry to impart at room temperature. The reaction mixture was then diluted with
+structure-dependent electrochemical property, which in turn steers dichloromethane, and the organic layer was washed with saturated
+the CO RRpathway. What’s more, itmight offer a general tactic to copper chloride aqueous solution three times. The obtained crude
+2
+targetalcoholsynthesisinCO RRbyconstructingorganic/inorganic productwas washed by methylene chloride toremove the pyridine
+2
+Cuhybrids. complex.Afterremovalofsolvent,thecrudeproductwaspurifiedby
+silica gel column chromatography with CH Cl /hexane (3:7) as the
+2 2
+Methods eluent.Themajorblue-greenfractionwascollected.Recrystallization
+Chemicals fromamixtureofCH Cl /hexanegavethereddishsolidsofHex-2Cu-
+2 2
+Cloromethane (CCl H , ≥99.7%) and Hexyl hydride (C H , ≥99.7%) 2O(50mg,22%).
+2 2 2 6 14
+werepurchasedfromSinopharmChemicalReagentCo.,Ltd.Sodium
+acetatetrihydrate(CH O Na·3H O,≥99.5%),cupricacetateanhydrous Synthesisofoctaphyrin–coppercomplex
+2 3 2 2
+(Cu(C H O ) ) and pyrrole (C HN, ≥99.5%) were obtained from Thebicentriccopper-octaphyrincomplex,Oct-2Cu,waspreparedbya
+2 3 22 4 5
+Shanghai Aladdin Blochemical Technology Co., Ltd. Penta- refluxreactionatroomtemperature.100mgoctaphyrinwasdissolved
+fluorobenzaldehyde (CHFO, ≥98%), Cuprous chloride (CuCl·2H O, in 50mL of dichloromethane, in which 100mg copper acetate was
+7 5 2
+≥97%) and 2,3-Dichloro-5,6-dicyano-1,4-benzoquinone (C Cl N O , added. The reflux reaction lasted for 72h, and then the reaction
+8 2 2 2
+DDQ)wereprovidedbyShanghaiMacklinBiochemicalCo.,Ltd.Boron solutionwasconcentratedandpurifiedtoobtain60mgOct-2Cu.
+trifluoride diethyl etherate (C H BF O, ≥98%) was provided by
+4 10 3
+ShanghaiYienChemicalTechnologyCo.,Ltd.Pyridine(CHN,≥99.5%) Characterizations
+5 5
+was provided by Chinasun Specialty Products Co., Ltd. Copper(II) UV–VisabsorptionmeasurementswerecarriedoutwithaTechcomp
+Chloride Dihydrate (Cl CuH O , ≥99.7%) was provided by Shanghai UV2300-II UV–Vis spectrophotometer. Mass spectra were recorded
+2 4 2
+Titanchem Co., Ltd. Potassium bicarbonate (KHCO , ≥99.5%) was using a Bruker Ultraflextreme MALDI-TOF instrument. The surface
+3
+purchasedfromJ&KScientificCo.,Ltd.Ethanol(C H O,≥99.7%)was composition and valence states were analyzed with XPS, using an
+2 6
+providedbyShanghaiLingfengChemicalReagentCo.,LTD.TheCO Escalab250XiX-rayphotoelectronspectrometer(ThermoFisher)with
+2
+gas (99.995%) was supplied by Suzhou Jinhong Gas Co., Ltd. All Al Ka (1486.6eV) X-rays as the excitation source, and the binding
+materials were used as received without further purification. Deio- energyoftheC1speakat284.8eVwastakenasaninternalreference.
+nized (DI) water was purified with a Sartorius arium mini ultrapure Thepassenergywas30eVandthephotoemissionanglewas45°.The
+watersystem. energylinearitydetectionwascalibratedwithAu4f(83.96eV),Ag3d5
+(368.21eV)andCu2p(932.62eV),respectively.0.4mgofcatalystin
+Synthesisofhexaphyrinandoctaphyrin thepowderformwasloadedonto0.25×0.5cm2ofcarbonpaperfor
+Hexaphyrins(1.1.1.1.1.1)werepreparedfollowingthereportedmethod XPStesting.Theelectronparamagneticresonance(EPR)experiments
+by Osuka et. al with a slight modification. Dichloromethane (DCM) werecarriedoutonaJES-X320spectrometer(JapanElectronOptics
+(200mL)wasaddedtoa500mLsingle-neckround-bottomflaskfilled Laboratory).ThecatalystmicrostructurewascharacterizedbyanFEI
+withnitrogen.Steamedpyrrole(1.35g,0.02mol,1.39mL)andpenta- Talos F200X field-emission TEM equipped with EDX analyzer and
+fluorophenaldehyde(3.92g,0.02mol,2.57mL)werethenaddedand operatedat200KV.Theatomicarrangementofpost-electrolyticHex-
+stirred vigorously at room temperature. After 5minutes, boron 2Cu-OwasexaminedbySpherical-aberration-correctedTEM(Cs-TEM,
+NatureCommunications|( 2022)1 3:5122 10
+
+
+===== PAGE 11 =====
+
+Article https://doi.org/10.1038/s41467-022-32740-z
+FEITitanThemisCubedG2300).TheoperandoXASspectraattheCu platinum-wire as the counter electrode and a standard Ag/AgCl
+K-edgewererecordedattheBL11BbeamlineofShanghaiSynchrotron electrode as the reference. All the ATR-SEIRAS spectra were
+RadiationFacility(SSRF)byfollowingthesameproceduredetailedin acquired using a Fourier Transform Infrared Spectrophotometer
+our previous study34, with the electron storage ring operated at (FT-IR, Nicolet iS50, Thermo Fischer scientific.) equipped with a
+3.5GeV.Thebeamcurrentofthestorageringwassetto220mAina mercury cadmium telluride (MCT) detector. All electrochemical
+top-upmode. testsweretestedin0.5MKHCO aqueoussolutionwithaconstant
+3
+CO flow, and controlled by a CHI electrochemical workstation
+2
+Electrochemicalmeasurements (CHI760E).Inatypicaltest,theworkingelectrodewassubjectedto
+TheCO electroreductionexperimentswerecarriedoutinbothH-cell aninitialactivationbyrunningCVcyclesbetween−0.1and−1.4Vvs
+2
+andflow-cellcontrolledbyanelectrochemicalworkstation(CHI660E). RHEatascanrateof0.05VS−1untilthesystemwasstabilized.The
+ThetwocompartmentsoftheH-cell,eachcontaining30mLof0.1M spectrum under open circuit voltage was then collected as the
+KHCO ,wereseparated byan ion-exchange membrane(Nafionper- background.Thecathodepotentialwasthensweptfrom−0.5Vto
+3
+fluorinatedmembrane).Acarbonrodwasusedasthecounterelec- −1.3V vs RHE, with each potential lasting 2minutes for spectra
+trode,whileanAg/AgClelectrodewasusedasthereferenceelectrode. acquisition. All measurements were performed ata spectral reso-
+The referenceelectrode wascalibrated before each test. Slurries of lutionof4cm−1andpresentedintransmissionunitsaftersubtract-
+catalyst ink were prepared through the sonication of 4mg sample ingthebackground.
+powder,1mgKB,and50µL(5%)Nafionsolutionin1mLethanol.Then,
+10µLofthecatalystinkwasdrop-castedontoaglassycarbonelectrode Computationalmethods
+withasurfaceareaof0.197cm2.Theas-obtainedworkingelectrode AllDFTcalculationswereperformedwiththeViennaAbInitioSimu-
+wasthenfullydriedat50°Cforsubsequenttesting.Priortotheelec- lationPackage(VASP)code47.ThePerdew–Burke–Ernzerhof(PBE)was
+trochemicalmeasurementCO waspurgedintothecathodechamber employedforelectronexchange-correlation48.ProjectorAugmented
+2
+foratleast30mintosaturatetheelectrolyte.Duringmeasurement, Wave(PAW)potentialswereusedtodescribetheioniccores49.The
+CO ataconstantflowrateof20cm3min−1,controlledbyadigitalmass atomicrelaxationswerecarriedoutwiththequasi-Newtonminimiza-
+2
+flowcontroller,waskeptbubblingintotheelectrolyte.Theactivation tionschemeuntilthemaximumforceonanyatomwasbelow0.03eV/
+of the working electrode was carried out by conducting cyclic vol- Å. The geometry optimizations were performed with a plane-wave
+tammetryinthepotentialrangeof−0.4to−1.4Vatarateof10mVs−1 cutoffof400eV.Irreducible2×2×1MonkhorstPackk-pointgridwas
+for20min. used50, with the centre shifted to the gamma point. A Gaussian
+The flowcelliscomposedofthreechambers,including thegas smearingwasemployedwithasmearingwidthof0.05eV.Thevertical
+chamber,catholytechamberandanolytechamber.Whilethegasand separationbetweenperiodicallyrepeatedimageswassettobeatleast
+catholytechambersareseparatedbythegasdiffusionelectrode(YLS 15Åinallcases,toensurenointeractionbetweenimages.
+−30T),thecatholyteandanolytechambersareseparatedbytheanion The implicit solvent effect was considered by using VASPsol51.
+exchange membrane (Fumasep FAB-PK-130). The Ag/AgCl reference Withinthismodel,thesolventdielectricconstantwassettobe78.4F/
+electrodewasinsertedintothecatholytechamberandanickelfoamof m,withwidthofdielectriccavity0.6Å,cutoffchargedensity2.5×10–3
+0.8mminthicknesswasusedasthecounterelectrodeforwateroxi- C/m3,andtheeffectivesurfacetension5.25×10–4N/m.
+dation.Thecatalystslurrywassprayedontothesideofthegasdiffusion TheDFT-calculatedelectronicenergies(E)areconvertedintofree
+electrode facing the catholyte with an areal loading of 0.8mgcm−2. energiesinthefollowingway:
+Siliconegasketwitha1×1cm2windowwasusedtosealeachchamberto
+avoidgasandliquidleakage.High-purityCO wassuppliedtothegas G=E+ZPE(cid:1)TS ð1Þ
+2
+chamberataconstantflowrateof30cm3min−1controlledadigitalmass
+flowcontroller(Horiba).1MKOHwasusedasboththecatholyteand whereZPEisthezero-pointenergycorrectionandTSistheentropy
+anolyte circulated at a constant flow rate of 20mlmin−1 via a two- correctionatroomtemperature(300K).Thefreeenergiesofrelevant
+channel peristaltic pump. All potentials were converted to RHE, gasmoleculesaregiveninSupplementarySupplementaryTable9.
+accordingtotheformulawasE(vsRHE)=E(vsAg/AgCl)+0.059pH+ Limiting potential (U ) was applied to describe the lowest
+limiting
+0.198.Unlessotherwisenotedspecifically,allelectrochemicaldatawere potentialrequirementtoeliminatethefreeenergydifferenceofthe
+iR-uncompensated. potential-determiningstep(PDS),asdescribedas:
+The gas products were quantified by an Agilent 7890B gas
+chromatographyequippedwithboththeflameionizationdetector U
+limiting
+= (cid:1)ΔG emax ð2Þ
+(FID)andthethermalconductivitydetector(TCD).Theliquidpro-
+ductswerequantifiedthrough1HNMR(600MHzAgilentDD2NMR Activation energy barrier (E ) is essential to determine the
+a
+spectrometer) using dimethyl sulfoxide as the internal standard productselectivityanddominantreactionpathway.Thiswascom-
+withwaterinhibition.TheNMRsampleswerepreparedbyadding puted using the nudged elastic band (NEB) approach52. The total
+50μLDMSOsolutionand100μLD Ointo400μLoftheelectrolyte energy and force thresholds for geometry optimizations were
+2
+solution.Allproductconcentrationswerequantifiedbyintegrating 1×10−5eVand0.05eV/Å,respectively.Theminimumenergypath-
+theGCandNMRpeakarea. way (MEP) was examined using six images during the transition
+statesearch. Each transition state was confirmed to have a single
+OperandoATR-SEIRASmeasurements imaginaryvibrationalfrequencyalongthereactioncoordinate,as
+Generally, a layer of 100nm Au film was deposited onto the showninSupplementarySupplementaryTable10.DFT-calculated
+reflectingplaneofaSiprismbyvacuumevaporationusingathermal activationenergybarrierE (U )canbeextrapolatedtopotentialU
+a 0
+evaporator(PuDivacuumPD-400).BeforetheAudeposition,theSi bythefollowingequation53:
+prismwaspolishedwith0.05μmAl 2 O 3 suspensionandcleanedby (cid:1) (cid:3) (cid:1) (cid:3)
+sonicationsequentiallyinthebathsofacetoneanddeionizedwater. E a ðUÞ=E a U 0 +eβ0 U(cid:1)U 0 ð3Þ
+The working electrode was made by airbrushing the catalyst ink
+onto theaboveprepared Au film.TheATR-SEIRAS measurements where U is the equilibrium potential for the relevant elementary
+0
+wasconductedinatwo-compartmentspectroelectrochemicalcell reductionreactionstep,andβ’isthereactionsymmetryfactor,which
+comprising three electrodes including the working electrode, a wasapproximatedtobe0.49forthemodelsinthiswork54.
+NatureCommunications|( 2022)1 3:5122 11
+
+
+===== PAGE 12 =====
+
+Article https://doi.org/10.1038/s41467-022-32740-z
+Dataavailability thicknessforCO electrocatalysis.Angew.Chem.Int.Ed.59,
+2
+Thedatathatsupportthefindingsofthisstudyareavailablefromthe 18954–18959(2020).
+authorsuponrequest. 22. Shin,J.-Y.,Furuta,H.,Yoza,K.,Igarashi,S.&Osuka,A.Meso-aryl-
+substitutedexpandedporphyrins.J.Am.Chem.Soc.123,
+References 7190–7191(2001).
+1. DeLuna,P.etal.Whatwouldittakeforrenewablypoweredelec- 23. Shimizu,S.etal.Biscoppercomplexesofmeso-aryl-substituted
+trosynthesistodisplacepetrochemicalprocesses?Science364, hexaphyrin:gablestructuresandvaryingantiferromagneticcou-
+eaav3506(2019). pling.J.Am.Chem.Soc.126,12280–12281(2004).
+2. Kibria,M.G.etal.ElectrochemicalCO reductionintochemical 24. Suzuki,M.etal.Anewentrytodoublyn-confused[26]hexaphyr-
+2
+feedstocks:frommechanisticelectrocatalysismodelstosystem ins(1.1.1.1.1.1)fromnormal[26]Hexaphyrins(1.1.1.1.1.1)throughan
+design.Adv.Mater.31,e1807166(2019). unprecedenteddoublepyrrolicrearrangement.Chem.Eur.J.12,
+3. Nitopi,S.etal.ProgressandperspectivesofelectrochemicalCO 1754–1759(2006).
+2
+reductiononcopperinaqueouselectrolyte.Chem.Rev.119, 25. Tanaka,Y.etal.ThermalsplittingofBis-Cu(II)octa-
+7610–7672(2019). phyrin(1.1.1.1.1.1.1.1)intotwoCu(II)porphyrins.J.Am.Chem.Soc.
+4. Xu,Y.etal.Lowcoordinationnumbercoppercatalystsforelec- 126,3046–3047(2004).
+trochemicalCO methanationinamembraneelectrodeassembly. 26. Wang,X.etal.Morphologyandmechanismofhighlyselective
+2
+Nat.Commun.12,2932(2021). Cu(II)oxidenanosheetcatalystsforcarbondioxideelectroreduc-
+5. Zhu,Q.etal.CarbondioxideelectroreductiontoC productsover tion.Nat.Commun.12,794(2021).
+2
+copper-cuprousoxidederivedfromelectrosynthesizedcopper 27. Sano,M.,Komorita,S.&Yamatera,H.Xanesspectraofcopper(II)
+complex.Nat.Commun.10,3851(2019). complexes:correlationoftheintensityofthe1s.Fwdarw.3dtran-
+6. Peng,C.etal.Doublesulfurvacanciesbylithiumtuningenhance sitionandtheshapeofthecomplex.Inorg.Chem.31,
+CO electroreductiontoN-propanol.Nat.Commun.12,1580(2021). 459–463(1992).
+2
+7. Xiong,L.etal.Breakingthelinearscalingrelationshipbycompo- 28. Sa,Y.J.etal.ThermaltransformationofmolecularNi2+–N sitesfor
+4
+sitionalandstructuralcraftingofternaryCu-Au/Agnanoframesfor enhancedCO electroreductionactivity.ACSCatal.10,
+2
+electrocatalyticethyleneproduction.Angew.Chem.Int.Ed.60, 10920–10931(2020).
+2508–2518(2021). 29. Choi,C.etal.HighlyactiveandstablesteppedCusurfacefor
+8. Wang,X.etal.Efficientmethaneelectrosynthesisenabledbytun- enhancedelectrochemicalCO reductiontoCH .Nat.Catal.3,
+2 2 4
+inglocalCO availability.J.Am.Chem.Soc.142,3525–3531 804–812(2020).
+2
+(2020). 30. Frank,P.,Benfatto,M.,Hedman,B.&Hodgson,K.O.Thex-ray
+9. Li,J.etal.ConstrainingCOcoverageoncopperpromoteshigh- absorptionspectroscopicmodelofthecopper(ii)imidazolecom-
+efficiencyethyleneelectroproduction.Nat.Catal.2, plexioninliquidaqueoussolution:astronglysolvatedsquare
+1124–1131(2019). pyramid.Inorg.Chem.51,2086–2096(2012).
+10. Morales-Guio,C.G.etal.ImprovedCO reductionactivitytowards 31. Gaur,A.,Shrivastava,B.&Joshi,S.CopperK-edgexanesofCu(I)
+2
+C alcoholsonatandemgoldoncopperelectrocatalyst.Nat. andCu(II)oxidemixtures.J.Phys.:Conf.Ser.190,012084(2009).
+2+
+Catal.1,764–771(2018). 32. Su,X.etal.Complementaryoperandospectroscopyidentification
+11. Li,F.etal.CooperativeCO -to-ethanolconversionviaenriched ofin-situgeneratedmetastablecharge-asymmetryCu -CuN
+2 2 3
+intermediatesatmolecule–metalcatalystinterfaces.Nat.Catal.3, clustersforCO reductiontoethanol.Nat.Commun.13,
+2
+75–82(2019). 1322(2022).
+12. Xu,H.etal.HighlyselectiveelectrocatalyticCO reductionto 33. Rong,W.etal.Size-dependentactivityandselectivityofatomic-
+2
+ethanolbymetallicclustersdynamicallyformedfromatomically levelcoppernanoclustersduringCO/CO electroreduction.
+2
+dispersedcopper.Nat.Energy5,623–632(2020). Angew.Chem.Int.Ed.60,466–472(2021).
+13. Li,J.etal.Copperadparticleenabledselectiveelectrosynthesisof 34. Sun,H.etal.Promotingethyleneproductionoverawidepotential
+n-propanol.Nat.Commun.9,4614(2018). windowonCucrystallitesinducedandstabilizedviacurrentshock
+14. Wu,J.etal.Ametal-freeelectrocatalystforcarbondioxidereduc- andchargedelocalization.Nat.Commun.12,6823(2021).
+tiontomulti-carbonhydrocarbonsandoxygenates.Nat.Commun. 35. Ma,L.etal.Covalenttriazineframeworkconfinedcoppercatalysts
+7,13869(2016). forselectiveelectrochemicalCO reduction:operandodiagnosisof
+2
+15. Chen,C.etal.HighlyefficientelectroreductionofCO toC activesites.ACSCatal.10,4534–4542(2020).
+2 2+
+alcoholsonheterogeneousdualactivesites.Angew.Chem.Int.Ed. 36. Wuttig,A.etal.Trackingacommonsurface-boundintermediate
+59,16459–16464(2020). duringCO -to-fuelscatalysis.ACSCent.Sci.2,522–528(2016).
+2
+16. Gu,Z.X.etal.EfficientelectrocatalyticCO reductiontoC alco- 37. Montoya,J.H.,Peterson,A.A.&Nørskov,J.K.InsightsintoC–C
+2 2+
+holsatdefect-site-richCusurface.Joule5,429–440(2021). CouplinginCO electroreductiononcopperelectrodes.Chem-
+2
+17. Birdja,Y.Y.etal.Advancesandchallengesinunderstandingthe CatChem5,737–742(2013).
+electrocatalyticconversionofcarbondioxidetofuels.Nat.Energy 38. Zhu,S.,Jiang,B.,Cai,W.-B.&Shao,M.Directobservationon
+4,732–745(2019). reactionintermediatesandtheroleofbicarbonateanionsinCO
+2
+18. Wu,Y.,Jiang,Z.,Lu,X.,Liang,Y.&Wang,H.Dominoelectro- electrochemicalreductionreactiononCusurfaces.J.Am.Chem.
+reductionofCO tomethanolonamolecularcatalyst.Nature575, Soc.139,15664–15667(2017).
+2
+639–642(2019). 39. Kim,Y.etal.Time-resolvedobservationofC–Ccouplinginter-
+19. Zhang,X.etal.Molecularengineeringofdispersednickelphtha- mediatesonCuelectrodesforselectiveelectrochemicalCO
+2
+locyaninesoncarbonnanotubesforselectiveCO reduction.Nat. reduction.EnergyEnviron.Sci.13,4301–4311(2020).
+2
+Energy5,684–692(2020). 40. Katayama,Y.etal.Aninsitusurface-enhancedinfraredabsorption
+20. Zhang,Y.etal.Coordinationenvironmentdependentselectivityof spectroscopystudyofelectrochemicalCO reduction:selectivity
+2
+single-site-CuenrichedcrystallineporouscatalystsinCO reduc- dependenceonsurfaceC-boundandO-boundreactioninter-
+2
+tiontoCH .Nat.Commun.12,6390(2021). mediates.J.Phys.Chem.C.123,5951–5963(2019).
+4
+21. Yang,D.,Zuo,S.,Yang,H.,Zhou,Y.&Wang,X.Freestanding 41. Perez-Gallent,E.,Figueiredo,M.C.,Calle-Vallejo,F.&Koper,M.T.
+millimeter-scaleporphyrin-basedmonoatomiclayerswith0.28nm SpectroscopicobservationofahydrogenatedCOdimer
+NatureCommunications|( 2022)1 3:5122 12
+
+
+===== PAGE 13 =====
+
+Article https://doi.org/10.1038/s41467-022-32740-z
+intermediateduringCOreductiononCu(100)electrodes.Angew. AdelaideandNationalComputationalInfrastructure(NCI),whichis
+Chem.Int.Ed.56,3621–3624(2017). supportedbytheAustralianGovernment.Theauthorsalsothankforthe
+42. Weng,Z.etal.Activesitesofcopper-complexcatalyticmaterialsfor supportfromtheHonoraryProfessorProgramofJiangsuProvince,
+electrochemicalcarbondioxidereduction.Nat.Commun.9, CollaborativeInnovationCenterofSuzhouNanoScience&Technology
+415(2018). andUserswithExcellenceProgramofHefeiScienceCenterCAS
+43. Karapinar,D.etal.Carbon-nanotube-supportedcopperpoly- (2019HSC-UE002).
+phthalocyanineforefficientandselectiveelectrocatalyticCO
+2
+reductiontoCO.ChemSusChem13,173–179(2020). Authorcontributions
+44. Chen,L.etal.Spatial-confinementinducedelectroreductionofCO Y.P.conceivedtheideaandledtheproject.B.Y.designedandper-
+andCO todiolsondensely-arrayedCunanopyramids.Chem.Sci. formedthemajorityoftheexperimentsandobtainedmostoftheresults
+2
+12,8079–8087(2021). includingmaterialsynthesis,characterization,andelectrochemical
+45. Bagger,A.,Ju,W.,Varela,A.S.,Strasser,P.&Rossmeisl,J.Elec- tests.L.C.andY.J.carriedouttheDFTcalculations.S.X.andL.X.helped
+trochemicalCO reduction:aclassificationproblem.Chem- tosynthesizethecatalysts.K.F.,Y.C.andJ.Z.carriedoutXAFschar-
+2
+PhysChem18,3266–3273(2017). acterizations.Y.Q.helpedtopolishthepaper.H.S.andX.Z.devotedto
+46. Yim,W.-L.&Johnson,J.K.Ozoneoxidationofsinglewalledcarbon theelectrochemicaldataanalysis.B.Y.,L.C.,Z.D.,andY.P.wrotethe
+nanotubesfromdensityfunctionaltheory.J.Phys.Chem.C.113, paper.Alltheauthorshavediscussedtheresults.
+17636–17642(2009).
+47. Kresse,G.&Furthmüller,J.Efficientiterativeschemesforabinitio Competinginterests
+total-energycalculationsusingaplane-wavebasisset.Phys.Rev.B Theauthorsdeclarenocompetinginterests.
+54,11169–11186(1996).
+48. Perdew,J.P.,Burke,K.&Ernzerhof,M.Generalizedgradient Additionalinformation
+approximationmadesimple.Phys.Rev.Lett.78,1396–1396 SupplementaryinformationTheonlineversioncontains
+(1997). supplementarymaterialavailableat
+49. Kresse,G.&Joubert,D.Fromultrasoftpseudopotentialstothe https://doi.org/10.1038/s41467-022-32740-z.
+projectoraugmented-wavemethod.Phys.Rev.B59,
+1758–1775(1999). Correspondenceandrequestsformaterialsshouldbeaddressedto
+50. Monkhorst,H.J.&Pack,J.D.Specialpointsforbrillouin-zone ZhaoDeng,YanJiaoorYangPeng.
+integrations.Phys.Rev.B13,5188–5192(1976).
+51. Mathew,K.,Sundararaman,R.,Letchworth-Weaver,K.,Arias,T.A.& PeerreviewinformationNatureCommunicationsthanksJosephMon-
+Hennig,R.G.Implicitsolvationmodelfordensity-functionalstudy toyaandtheotheranonymousreviewer(s)fortheircontributiontothe
+ofnanocrystalsurfacesandreactionpathways.J.Chem.Phys.140, peerreviewofthiswork.
+084106(2014).
+52. Henkelman,G.&Jónsson,H.Improvedtangentestimateinthe Reprintsandpermissioninformationisavailableat
+nudgedelasticbandmethodforfindingminimumenergypaths http://www.nature.com/reprints
+andsaddlepoints.J.Chem.Phys.113,9978–9985(2000).
+53. Akhade,S.A.,Bernstein,N.J.,Esopi,M.R.,Regula,M.J.&Janik,M.J. Publisher’snoteSpringerNatureremainsneutralwithregardtojur-
+Asimplemethodtoapproximateelectrodepotential-dependent isdictionalclaimsinpublishedmapsandinstitutionalaffiliations.
+activationenergiesusingdensityfunctionaltheory.Catal.Today
+288,63–73(2017). OpenAccessThisarticleislicensedunderaCreativeCommons
+54. Garza,A.J.,Bell,A.T.&Head-Gordon,M.MechanismofCO Attribution4.0InternationalLicense,whichpermitsuse,sharing,
+2
+reductionatcoppersurfaces:pathwaystoC products.ACSCatal. adaptation,distributionandreproductioninanymediumorformat,as
+2
+8,1490–1499(2018). longasyougiveappropriatecredittotheoriginalauthor(s)andthe
+source,providealinktotheCreativeCommonslicense,andindicateif
+Acknowledgements changesweremade.Theimagesorotherthirdpartymaterialinthis
+ThisworkissupportedbyNationalNaturalScienceFoundationofChina articleareincludedinthearticle’sCreativeCommonslicense,unless
+(No.22072101,22075193),NaturalScienceFoundationofJiangsuPro- indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnot
+vince(No.BK20211306,BK20220027),SixTalentPeaksProjectinJiangsu includedinthearticle’sCreativeCommonslicenseandyourintended
+Province(No.TD-XCL-006),thePriorityAcademicProgramDevelop- useisnotpermittedbystatutoryregulationorexceedsthepermitted
+ment(PAPD)ofJiangsuHigherEducationInstitutions.Thisresearchis use,youwillneedtoobtainpermissiondirectlyfromthecopyright
+alsosupportedbytheAustralianResearchCouncilthroughthesepro- holder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+grams(FT190100636andDP190103472).DFTcomputationsforthis licenses/by/4.0/.
+researchwereundertakenwiththeassistanceofsupercomputing
+resourcesprovidedbythePhoenixHPCserviceattheUniversityof ©TheAuthor(s)2022
+NatureCommunications|( 2022)1 3:5122 13

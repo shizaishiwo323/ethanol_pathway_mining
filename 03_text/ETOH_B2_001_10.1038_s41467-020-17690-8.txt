@@ -1,0 +1,2072 @@
+
+
+===== PAGE 1 =====
+
+ARTICLE
+OPEN
+https://doi.org/10.1038/s41467-020-17690-8
+Oxygen induced promotion of electrochemical
+reduction of CO via co-electrolysis
+2
+Ming He 1,6, Chunsong Li 1,6, Haochen Zhang 1, Xiaoxia Chang2, Jingguang G. Chen 3,
+✉ ✉ ✉
+William A. Goddard III4, Mu-jeng Cheng 5 , Bingjun Xu 2 & Qi Lu1
+Harnessing renewable electricity to drive the electrochemical reduction of CO is being
+2
+intenselystudiedforsustainablefuelproductionandasameansforenergystorage.Copperis
+the only monometallic electrocatalyst capable of converting CO to value-added products,
+2
+e.g., hydrocarbons and oxygenates, but suffers from poor selectivity and mediocre activity.
+Multiple oxidative treatments have shown improvements in the performance of copper
+catalysts. However, the fundamental underpinning for such enhancement remains con-
+troversial. Here, we combine reactivity, in-situ surface-enhanced Raman spectroscopy, and
+computationalinvestigationstodemonstratethatthepresenceofsurfacehydroxylspeciesby
+co-electrolysisofCO withlowconcentrationsofO candramaticallyenhancetheactivityof
+2 2
+coppercatalyzedCO electroreduction.Ourresultsindicatethatco-electrolysisofCO with
+2 2
+anoxidantisapromisingstrategytointroducecatalyticallyactivespeciesinelectrocatalysis.
+1StateKeyLaboratoryofChemicalEngineering,DepartmentofChemicalEngineering,TsinghuaUniversity,Beijing100084,China.2CenterforCatalytic
+ScienceandTechnology,DepartmentofChemicalandBiomolecularEngineering,UniversityofDelaware,Newark,DE19716,USA.3DepartmentofChemical
+Engineering,ColumbiaUniversity,NewYork,NY10027,USA.4MaterialsandProcessSimulationCenter,CaliforniaInstituteofTechnology,Pasadena,CA
+91125,USA.5DepartmentofChemistry,NationalChengKungUniversity,701Tainan,Taiwan.6Theseauthorscontributedequally:MingHe,ChunsongLi.
+✉
+email:mjcheng@mail.ncku.edu.tw;bxu@udel.edu;luqicheme@mail.tsinghua.edu.cn
+NATURECOMMUNICATIONS| (2020) 11:3844 |https://doi.org/10.1038/s41467-020-17690-8|www.nature.com/naturecommunications 1
+;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-17690-8
+A
+mong all electrocatalysts explored to date, copper (Cu) theCO RRandtheORRcouldreducetheseparationcostoftrace
+2
+exhibitstheuniquecapabilityinreducingCO tovaluable amounts of O present in the CO stream from the flue gas or
+2 2 2
+hydrocarbons and oxygenates. However, significant direct air capture.
+enhancementintherateandselectivityforvaluableproductsand
+in energy efficiency for Cu-based electrocatalysis remains
+imperative for this strategy to become industrially viable1–3. Results
+Oxidative treatments of polycrystalline Cu surfaces have been Co-reduction of CO 2 with O 2. The electrolysis experiments are
+shown to improve the activity and selectivity towards the pro- conducted in an H-type electrochemical cell with a standard
+duction of value-added hydrocarbons and oxygenates, for three-electrode setup (Supplementary Fig. 1). Cu electrodes are
+example, thermal oxidation followed by reduction (so called prepared by depositing commercial polycrystalline Cu powders
+oxide-derived Cu)4,5, oxygen plasma activation6, and anodic (~1μm)(SupplementaryFig.2)ontoaPTFE-treatedcarbonfiber
+oxidation7–9.
+Although there is a general recognition of the paper. Compared to planar polycrystalline Cu foil electrodes,
+beneficial effect of oxidative treatments on Cu-based catalysts in these electrodes can effectively improve the mass transport of
+the CO reduction reaction (CO RR), the mechanisms through
+dissolvedgasmoleculesinH-cellconfiguration27–29.Toestablish
+2 2
+whichtheenhancementisrealizedremainatopicofconsiderable the baseline for the co-reduction studies, the CO RR with pure
+2
+discussion. A key point of debate is whether oxygen-containing CO isconductedin0.1MKHCO (SupplementaryFig.3a),and
+2 3
+species,e.g.,CuO ,CuO (OH) ,andCu(OH) ,arepresentatthe the results are consistent with the previous reports on poly-
+x x y x
+CO
+2
+RRconditions6,7,10–19.Multipleexsituandinsitu/operando crystallineCucatalysts29,30.ThemajorC 2+productsareethylene,
+characterizations lead to contradicting
+conclusions6,7,10–17,19.
+As ethanol, n-propanol, and acetate, and the major C products are
+1
+ex situ measurements have the potential of exposing the sample methane, CO, and formate. The co-electrolysis is performed by
+to the ambient condition, the origin of the oxygen-containing feedingamixtureofCO andO withmoleratiosof9:1and8:2.
+2 2
+speciesontheCusurfacedetectedbythesemethodsisuncertain. The corresponding partial current densities (j partial ) of C 2+ pro-
+Another challenge in resolving this debate is the interfacial sen- ducts, C products and H are color-coded in Figs. 1 and 2.
+1 2
+sitivity. As the Pourbaix diagram of Cu shows that only metallic Remarkably, all C 2+ product formation rates are significantly
+Cu should be present at the reducing environment of the enhanced in the presence of O in the gas stream (Fig. 1). At
+2
+CO RR20,theCuoxideand/orhydroxidespeciesareexpectedto −0.75V (Fig.1a),theproductionrateofethylene,ethanoland
+2 RHE
+be present only at the electrode/electrolyte interface, if at all. acetate shows a more than 20-fold increase with 10% O in the
+2
+Thus,thedetectionoftheseoxidizedCuspecieshingesuponthe feed. With 20% O , the enhancement for ethylene, ethanol and
+2
+interfacial sensitivity of characterization methods. In this regard, acetate exceeds 170-fold, 55-fold, and 35-fold, respectively. The
+recent in situ/operando surface-enhanced Raman spectroscopic formation of n-propanol is also observed at −0.75 V with a
+RHE
+investigations provided initial evidence of the existence of oxi- partial current density of ~0.5mAcm
+−2
+in the presence of O ,
+2
+dizedCuspeciesatreducingpotentials21.Amuchlessdiscussed, while no detectable amount of n-propanol is observed at
+but arguably more important, aspect is whether the oxidized Cu thispotentialintheoxygen-freeatmosphere.Theonsetpotential
+species, if they indeed exist at the CO RR conditions, contribute of n-propanol in the oxygen-free atmosphere occurs at as
+2
+to enhanced reactivity of Cu-based catalysts after oxidative negative as −0.90 V (Fig. 1d), and to achieve a similar rate
+RHE
+treatments. It is conceivable that Cu oxide and/or hydroxide of ~0.5mAcm
+−2
+requires an additional 250mV overpotential,
+species are mere spectators during the CO RR, while pre- i.e.,−1.00V (Fig.1f).UnlikeC products,theformationrate
+2 RHE 2
+ferentially exposed facets or defects, e.g., located at the grain ofn-propanoldoesnotshowadrasticfurtherenhancementasthe
+boundarieson themetallic Cusurface, induced by thetreatment O ratio increases from 10 to 20%, suggesting its distinct
+2
+are the real cause of change in the catalytic
+performance22–25.
+chemistry in forming an additional carbon bond after their
+This has been shown in our recent work in the CO-reduction common rate-determining step of C–C coupling between two
+reactiononCu26.Thus,establishingadirectcorrelationbetween adsorbed CO molecules29,31,32. The oxygen induced enhance-
+thesurface speciationofCuatreactionconditions andreactivity ment of all C 2+ products is more pronounced at −0.80 V RHE
+is a frontier in the CO RR research. (Fig. 1b), with higher than 200-fold, 100-fold, and 70-fold
+2
+In this work, we demonstrate that the production rate of increases for ethylene, ethanol and acetate, respectively. As the
+oxygenatesandhydrocarbonsintheCO RRisenhancedbyupto potentialbecomesmorenegative(Fig.1c–f),theseenhancements
+2
+216-foldwhencoupledwiththeoxygenreductionreaction(ORR) start to reduce. At −1.0 V RHE , the increases of C 2+ product
+byco-feedingCO andO (upto20%).Insitusurface-enhanced formationratesbecomelessthantentimesat20%O .Thiscould
+2 2 2
+Ramanspectroscopy(SERS)showsthatsurfacehydroxidespecies be attributed to the enhanced ORR kinetics at higher over-
+onmicron-sizedCuparticlesarepresentattheCO RRcondition, potentials reducing the surface coverage of its intermediates that
+2
+which are likely formed by ORR. The correlation between the facilitatetheC–CcouplingchemistryintheCO RR,aswellasthe
+2
+surfacehydroxylspeciesandtheenhancedreactivityissupported reduced localCO concentrationcaused by the increased proton
+2
+by additional experimental and computational evidence. The consumption rate33,34. These mechanistic aspects will be
+addition of low concentrations of H O , a known possible pro- discussed in the following sections.
+2 2
+duct of the ORR, in the electrolyte results in much less C productformationratesintheCO RRarealsoenhancedin
+1 2
+enhancementofcatalyticperformanceascomparedtothecaseof the presence of O (Fig. 2). The onset of methane production is
+2
+co-reduction of CO and O . Importantly, the Raman feature of improved to as early as −0.75 V in an oxygen-containing
+2 2 RHE
+thesurfacehydroxylgroupisabsent,indicatingthatthepresence atmosphere(Fig.2a),whileintheabsenceofO ,itisnotobserved
+2
+of the surface hydroxyl group, rather than any oxidant such as untilamuchmorenegativepotentialof−0.95V (Fig.2d).We
+RHE
+H O , is central to the enhanced production rates. In addition, emphasize that an increase in the onset potential of at least 200
+2 2
+density functional theory (DFT) calculations show the beneficial mV for methane formation with oxygen indicates significantly
+roleofthesurfacehydroxylgroupinreducingtheenergybarriers acceleratedreactionkinetics,becauseanincreaseinoverpotential
+in the formation of oxygenates and hydrocarbons. Results on this scale could lead to a significant rise in reaction rates
+reported in this work demonstrate the promise of enhancing the (depending on the Tafel slope) assuming the reaction is
+CO RR performance by leveraging coupled reactions via co- kinetically controlled near the onset potential. At −0.75 V ,
+2 RHE
+electrolysis.Fromapracticalperspective,thestrategyofcoupling the CO formation shows a slightly greater than 5-fold increase
+2 NATURECOMMUNICATIONS| (2020) 11:3844 |https://doi.org/10.1038/s41467-020-17690-8|www.nature.com/naturecommunications
+
+
+===== PAGE 3 =====
+
+a b c
+2.0 4 5
+–0.75 V –0.80 V –0.85 V RHE RHE RHE
+×173
+×216 4
+1.5 3
+×60 3
+1.0 2 ×107 ×70
+×102 2 ×24
+×35 ×37 ×75 ×15 ×41 0.5 ×25 1 ×49 ×28 1 ×21
+×28
+0 0
+d e f
+–0.90 V –0.95 V –1.00 V RHE RHE RHE
+and the formateformation shows anapproximately two to three surfaceCu O(Cu O )21,40.Thesepeaksdecreaseinintensityas
+2 2 surf
+times increase with 10–20% oxygen in the reaction atmosphere the potential becomes more negative and disappear at 0 V ,
+RHE
+(Fig. 2a). As the electrode potential becomes more negatively duetothereductionofCu O ,andnootherpeakisobservedat
+2 surf
+biased (Fig. 2b–f), the O induced enhancement in C product more negative potentials. An additional band at 360cm −1
+2 1
+formationratesbecomesincreasinglymarginalandturnsnegative appears after the removal of Cu O at 0 V in the CO
+2 surf RHE 2
+forCOandformateat−0.90V andbelow.Thistrendismore atmosphere (Fig. 3b), whose assignment remains debated in the
+RHE
+pronounced at the higher (20%) O concentration. The compet- literature36,41, This band disappears at −0.4 V , likely due to
+2 RHE
+ing hydrogen evolution reaction (HER) is also improved in the the conversion of adsorbed CO to other products at more
+presence of O (Fig. 2), however, its degree of enhancement is negativepotentials,andthusthecorrespondingspeciesisunlikely
+2
+not as sensitive to the applied potential. It should be noted that tohaveamajorimpactontheCO RR.Aprominentbandat706
+2
+such significant enhancement for CO RR is not observed on cm −1 appears at potentials below 0 V in the O atmosphere
+2 RHE 2
+Cu foil electrodes with the addition of 20% O (Supplementary (Fig. 3c), which has been assigned to the surface hydroxyl spe-
+2
+Figs. 4–6). This could be due to the low solubility of O in the cies21. Control experiment in D O shows a redshift of this band
+2 2
+aqueous electrolyte compared with CO (by a factor of ~26)35, to668cm −1(Fig.3c),whichconfirmsthebindingofaprotonated
+2
+resulting in the sluggish mass transport of O to the planer atom. Although the isotopic shift when switching from H O to
+2 2
+electrodesurface,andthusdiminishingtheimpactoftheORRon D Oislargerthanthatestimatedbasedonthereducedmassofa
+2
+promoting the CO RR. [Cu-]O-H(D)bendingmode(~20cm
+−1),thisislikelyduetothe
+2
+presence of solvent. It is reasonable to assume that there is sub-
+Insitusurface-enhancedRamanmeasurements.Tounderstand stantial hydrogen bonding between Cu-OH and the H in the
+the mechanism through which co-electrolysis of CO and O surroundingwatermolecules,whichwillimpactonthefrequency
+2 2
+boosts the CO 2 RR activity, in situ SERS is employed to identify oftheCu-OHmode.WhenreplacingH 2 OwithD 2 O,wenotonly
+surface species presenting during the co-electrolysis36. The Cu replace Cu-OH with Cu-OD, but also replacing the surrounding
+microparticle catalysts employed in this work readily exhibit the H 2 OwithD 2 O,thus thechangeinthereduced mass isexpected
+surface enhancement of Raman signals, which alleviate the need to be more significant than that without the hydrogen-bonded
+to introduce SERS-inducing particles37,38, and is consistent with water.Thepossibilityofthisbandat706cm
+−1correspondingto
+several recent studies36,37,39. In the Ar atmosphere (Fig. 3a), anadsorbedC-containingspeciesisruledoutbytheobservation
+multiple peaks at146,219,412, 528,and 619cm −1 are observed thatthisbandonlyappearinO 2 containedelectrolytebutnotin
+at the open circuit potential (OCP) and can be attributed to the pure CO 2 or Ar saturated electrolyte (Fig. 3). Electrolysis using
+)2–mc
+Am(
+j
+)2–mc
+Am(
+j
+laitrap
+laitrap
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-17690-8
+×142
+∞ ∞ ∞∞ ∞ ∞
+0.0
+Ethylene Ethanoln-PropanolAcetate Ethylene Ethanoln-PropanolAcetate Ethylene Ethanoln-PropanolAcetate
+6 8 6
+×12 ×4.9
+×51
+5 5
+×3.8
+6
+4 ×37 ×6.5 4
+3 4 3
+×12 ×7.8 ×4.2
+2 2 ×12
+1 ×8.6 ×8.0 ×11 ×7.6 ×14 2 ×5.5 ×3.6 ×5.6 ×7.0 ×9.8 1 ×1.7 ×2.1×1.8 ×6.5
+0 0 0
+Ethylene Ethanoln-PropanolAcetate Ethylene Ethanoln-PropanolAcetate Ethylene Ethanoln-PropanolAcetate
+Pure CO 10% O + 90% CO 20% O + 80% CO
+2 2 2 2 2
+Fig.1ComparisonofC 2+productformations.ThepartialcurrentdensitiesofC 2+productsmeasuredat100%CO
+2
+,10%O
+2
++90%CO
+2
+,and20%O
+2
++
+80%CO arecomparedatdifferentpotentialsofa−0.75V ,b−0.80V ,c−0.85V ,d−0.90V ,e−0.95V ,andf−1.0V .Thenumbers
+2 RHE RHE RHE RHE RHE RHE
+standfortheenhancementrelativetotheratesatpureCO .Theerrorbarsrepresentthestandarddeviationfromatleastthreeindependent
+2
+measurements.
+NATURECOMMUNICATIONS| (2020) 11:3844 |https://doi.org/10.1038/s41467-020-17690-8|www.nature.com/naturecommunications 3
+
+
+===== PAGE 4 =====
+
+4
+3
+2
+1
+0
+15
+12
+9
+6
+3
+0
+13CO is helpful to further confirm this argument. However, we couldpotentiallymodifythesurfacespeciationandimpactofthe
+2
+believe the current evidences are sufficient to support the rateandproductdistributionoftheCO 2 RR.Introducingupto10
+assignmentofthe706cm −1bandtosurfacehydroxyl,ratherthan mM of H 2 O 2 in the electrolyte of the CO 2 RR (with a pure CO 2
+a C-containing species. Surface hydroxyl species in the O feed) leads to a relatively modest change, i.e., less than 10-fold
+2
+atmosphereislikelyformedduringthe4-electronpathwayinthe increase,intheproductionratesofoxygenatesandhydrocarbons
+conversionofO toH O(SupplementaryFig.7),asitisaknown (Supplementary Fig. 10), which is in stark contrast with the
+2 2
+intermediate in the ORR on multiple metal surfaces42. Interest- observation of co-electrolysis with O 2 (Figs. 1b and 2b). This is
+ingly,theCu O appearstopersisttolowerpotentialsintheO consistent with the observation that the ORR occurs mainly
+2 surf 2
+atmosphereasthebroadpeakat430–650cm −1correspondingto through the 4-electron pathway on the Cu surface (Supplemen-
+Cu 2 O surf does not completely disappear until −0.5 V RHE 21,36. In tary Fig. 7) and thus the production of H 2 O 2 is expected to be
+the atmosphere of 10% O +90% CO , the SER spectra exhibit negligible. Furthermore, in situ SER spectra using electrolyte
+2 2
+featuresofthosefrominbothO 2 andCO 2 atmospheres(Fig.3d). (CO 2 saturated0.1MKHCO 3 )withupto10mMofH 2 O 2 donot
+Importantly, the key difference between the SER spectra in the show any detectable feature corresponding to the hydroxyl
+CO and O +CO atmospheres is the presence of the band species (Supplementary Fig. 11), suggesting distinct reduction
+2 2 2
+corresponding to the surface hydroxyl species. This is an indi- mechanisms and intermediates in the ORR and the H 2 O 2
+cation that the presence of the surface hydroxyl group, corre- reduction on Cu. As the H 2 O 2 concentration in the electrolyte
+sponding to a Raman band at 706cm −1, is responsible for the increases, the Raman features corresponding to Cu 2 O surf persists
+distinctreactivitiesintheCO RRintheabsenceandpresenceof to more negative potentials (Supplementary Fig. 11), which is
+2
+O 2 in the reaction atmosphere (Fig. 3e). SER spectra with expectedasH 2 O 2 isapotentoxidant.Importantly,thelackofthe
+extended spectral windows are included in the Supplementary surface hydroxyl group and the modest change in the CO 2 RR
+Figs. 8 and 9 and the related peaks are discussed in Supple- activitywithaddedH 2 O 2 supportthehypothesisthatthesurface
+mentary Note 1. hydroxyl group formed during the co-electrolysis is responsible
+The CO 2 RR activity and spectroscopic results show that the for the enhanced CO 2 RR performance.
+formationof H O isunlikelythecauseoftheenhanced CO RR
+2 2 2
+performance during the co-electrolysis with O 2 . H 2 O 2 is a Density functional theory calculations. To further evaluate the
+possible product of the ORR via the 2-electron pathway43. If hypothesized beneficial effect of the hydroxyl group on the
+producedduringtheco-electrolysisofCO 2 andO 2 onCu,H 2 O 2 CO 2 RR, potential energy landscapes of key reaction steps are
+)2–mc
+Am(
+j
+)2–mc
+Am(
+j
+laitrap
+laitrap
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-17690-8
+a b c
+6 10
+–0.75 V –0.80 V –0.85 V
+RHE ×3.5 ∞ RHE ×5.1 RHE ×4.8
+5
+8
+C products HER C products HER C products HER
+1 1 1
+4
+6 ∞
+∞ ×6.6×6.0 ×3.8
+×1.7
+3 ×2.6
+×2.2
+4
+×2.3 2 ×3.1
+×2.5
+×2.3 ×2.1 ×1.8 ×1.2 ×1.8 ×1.4
+1 ∞ 2
+∞
+0 0
+Methane CO Formate Hydrogen Methane CO Formate Hydrogen Methane CO Formate Hydrogen
+d e f
+16 20
+–0.90 V –0.95 V –1.00 V
+RHE RHE RHE ×3.1
+×2.7
+×3.6
+C products HER 12 C products HER 15 C products HER
+1 1 1
+×2.2 8 ×1.7 10 ×1.8
+∞
+×12
+×11
+×35×34
+∞
+4 ×0.5 ×0.7 5
+×0.7×0.7 ×0.7 ×0.4 ×0.6 ×0.3 ×0.6
+×0.4 ×0.3 ×0.5
+0 0
+Methane CO Formate Hydrogen Methane CO Formate Hydrogen Methane CO Formate Hydrogen
+Pure CO 10% O + 90% CO 20% O + 80% CO
+2 2 2 2 2
+Fig.2ComparisonofC productandH formations.ThepartialcurrentdensitiesofC productsandH measuredat100%CO ,10%O +90%CO ,and
+1 2 1 2 2 2 2
+20%O +80%CO arecomparedatdifferentpotentialsofa−0.75V ,b−0.80V ,c−0.85V ,d−0.90V ,e−0.95V ,andf−1.0V .
+2 2 RHE RHE RHE RHE RHE RHE
+ThenumbersstandfortheenhancementrelativetotheratesatpureCO .Theerrorbarsrepresentthestandarddeviationfromatleastthreeindependent
+2
+measurements.
+4 NATURECOMMUNICATIONS| (2020) 11:3844 |https://doi.org/10.1038/s41467-020-17690-8|www.nature.com/naturecommunications
+
+
+===== PAGE 5 =====
+
+100
+estimated via density functional theory calculations. The free experiments showing that polycrystalline Cu leads to a product
+energy profiles of the rate-determining steps (RDS) in the for- distribution similar to that on Cu(100)48. Therefore, Cu(100)
+mation of C 2+ products, i.e., *CO dimerization29,31,44,45 and facet is commonly used as a representative model surface for
+methane, i.e., *CO hydrogenation29,44,46, are calculated at dif- obtaining theoretical insights into experimental studies based on
+ferent*OHcoverageontheCu(100)facet,withtherepresentative polycrystalline Cu46,49. Our computational model also consists
+model structures and results shown in Figs. 4 and 5, hollow-site adsorbed *OH with different coverage. This is
+respectively31,45,46. −0.5 V (i.e., equivalent to −0.9 V ) is because *OH is most stable on hollow sites at the negative
+SHE RHE
+chosen as the potential in our calculations. Cu(100) facet is potentials described by the VASPsol model. The vibrational
+employedforthecomputationalstudy.Cu(100)andCu(111)are modesforhollow-site*OHinthevicinityof*COwerecalculated
+the mostexposed facets on polycrystalline Cu surface because of attheinitialstatesof*COdimerizationand*COhydrogenation
+their low surface energies47. It has been shown that polycrystal- (Supplementary Tables 1 and 2). We employ a well-established
+lineCusurfaceundergoessurfacereconstructiontoformCu(100) finitedifferencemethodtocalculatethevibrationalmodesofthe
+under the CO RR conditions, which is also consistent with *OH adsorbate49,50. The calculated wavenumbers of vibration
+2
+).u.a(
+ytisnetnI
+).u.a(
+ytisnetnI
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-17690-8
+a b c
+Pure Ar Pure CO Pure O Pure O
+2 2 2
+0.1 M KHCO in HO 0.1 M KHCO in HO 0.1 M KHCO in HO 0.1 M KDCO in DO
+3 2 3 2 3 2 3 2
+500 a.u. 500 a.u. 500 a.u. 706
+668
+–0.8 V –0.8 V
+–0.8 V
+–0.6 V
+–0.6 V
+–0.6 V
+–0.4 V
+–0.4 V
+–0.4 V
+–0.2 V
+–0.2 V –0.2 V
+0 V 360 0 V
+0 V
+0.2 V 0.2 V
+146 0.2 V
+0.4 V 146 0.4 V 0.4 V
+219 412 528 619 ocp 219 412 528 619 ocp ocp
+300 500 700 100 300 500 700 450 600 750 450 600 750
+Raman shift (cm–1) Raman shift (cm–1) Raman shift (cm–1)
+d e
+10% O + 90% CO
+2 2
+0.1 M KHCO in HO
+3 2
+500 a.u.
+706
+–0.8 V
+–0.6 V
+–0.4 V
+–0.2 V
+0 V
+360
+0.2 V
+146
+0.4 V
+219 412 528 619 ocp
+100 300 500 700
+Raman shift (cm–1)
+Fig.3Insitusurface-enhancedRamanspectroscopy.RamanspectraofCucatalystatelectrolysiswithapureArgasfeedin0.1MKHCO /H O;bpure
+3 2
+CO gasfeedin0.1MKHCO /H O;cpureO gasfeedin0.1MKHCO /H Oand0.1MKDCO /D O;d10%O +90%CO in0.1MKHCO /H O.e
+2 3 2 2 3 2 3 2 2 2 3 2
+SchematicofCO RRonCusurfaceatthepresenceofhydroxylgroupsinducedbyORR.
+2
+NATURECOMMUNICATIONS| (2020) 11:3844 |https://doi.org/10.1038/s41467-020-17690-8|www.nature.com/naturecommunications 5
+
+
+===== PAGE 6 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-17690-8
+a b c
+d e f
+Fig.4Computationalmodel.Representativestructuresof*COdimerizationatinitialstates(a),transitionstates(b),andfinalstates(c).Representative
+structuresof*COhydrogenationatinitialstates(d),transitionstates(e),andfinalstates(f).
+modes of *OH are compared with the Raman band observed ThisisconsistentwiththeobservedenhancementofC 2+product
+experimentally. The results show good agreement with the formationratewith≤20%O inthegasfeed(Fig.1).Asthe*OH
+2
+observed Raman band of 706cm
+−1
+in the in situ SERS experi- coverageincreasesbeyond3/9,boththeactivationbarrierandthe
+ments, which supports the representativeness of the computa- free energy change for *CO dimerization increase substantially,
+tional model employed in this work. Due to the limitations of which is likely due to the repulsive interaction with the excess
+DFT calculations, other characters such as band width and *OH groups nearby.
+intensity, cannot be accurately predicted and thus are not For*COhydrogenationto*CHO,bothactivationbarrierand
+discussed. free energy change decrease substantially when *OH coverage
+Boththeactivationbarrierandthefreeenergychangefor*CO increases from 1/9 to 4/9 (Fig. 5b). Notably, these decreases are
+dimerization decrease as the *OH coverage increases from 0 to much more significant than those in *CO dimerization, which
+3/9butreboundwithfurtherincreasein*OHcoverage(Fig.5a). agreeswiththesignificantanodicshiftofmethaneonsetpotential
+Boththeinitialstateandtransitionstatebecomelessstableasthe in the presence of the concurrent ORR (Fig. 2). The energies of
+*OH coverageincreases. Thiscould be attributed to theincrease initial structures fluctuate slightly within an energy range of
+of oxidation state of surface Cu as revealed by Bader charge 0.2eV when *OH coverage increases, however, the transition
+analysis (Supplementary Fig. 12), which weakens the π-back- state of *CO hydrogenation is stabilized under same conditions.
+donation from the Cu to the anti-bonding orbital of the C≡O We speculate that this is likely due to the transition state forms
+bond51,52. The magnitude of destabilization of the initial state is additionalhydrogenbondswith*OHgroupsathighercoverage.
+greaterthanthatofthetransitionstatewhenthe*OHcoverageis The stabilization of reactant by forming hydrogen bonds with
+at or below 3/9, leading to the decrease of the reaction barrier. *OH has been reported in a previous work53.
+6 NATURECOMMUNICATIONS| (2020) 11:3844 |https://doi.org/10.1038/s41467-020-17690-8|www.nature.com/naturecommunications
+
+
+===== PAGE 7 =====
+
+1.2 0.4
+Initial states
+1.0 Transition states 0.2
+ΔΔG≠
+0.8 ΔΔG 0.0
+–0.2
+–0.4
+–0.6
+–0.8
+Initial states
+–1.0
+Transition states
+–1.2 ΔΔG≠
+ΔΔG
+–1.4
+Discussion However, higher pH is known to increase the hydrogen binding
+A key difficulty in elucidating the role of oxidized Cu species on energy (HBE)56,57, which accelerates the HER on Cu58. This is
+thesurfaceinpromotingtheCO RRistheirpoorstabilityunder consistent with the observed enhancement in the HER rate with
+2
+the reducing condition, which renders their composition and the addition of O (Fig. 2). The enhancement of HER rate is
+2
+structure ambiguous. This stems from the fact that these species relativelyinsensitivetotheappliedpotential.Thisislikelydueto
+are prepared at a more oxidizing atmosphere, thermochemically the interfacial pH at the cathode does not change significantly
+or electrochemically, and then brought to a reducing environ- with electrolysis potentials because the ORR is severely mass-
+ment. This challenge is circumvented by providing a continuous transport limited at such large overpotentials (>1.8V). In addi-
+supply of oxidant in the CO RR, i.e., co-electrocatalysis of CO tion to enhancing the CO RR rates, the introduction of O also
+2 2 2 2
+and O , to stabilize the surface oxidized Cu species, i.e., surface significantly reduces the Faradaic efficiency (FE) of CO RR pro-
+2 2
+hydroxyl group. Co-electrolysis could also be viewed as coupled ducts (Supplementary Fig. 3b, c), presumably by introducing a
+reactions, with the ORR supplying reactive oxygen species to competing reaction, i.e., the ORR. We note that at higher O
+2
+form and replenish the surface hydroxyl species vital to the concentrations than 20%, a limited increase in the production
+enhancement of the CO RR. Control experiments with H O rate of the CO RR with elevated ORR activity and reduced Far-
+2 2 2 2
+showthatitisnotH O orintermediatesofitsreductionbecause adaic efficiency for the CO RR are expected based on current
+2 2 2
+neither the CO RR activity nor the spectral feature with H O results. Reliable measurements of electrolysis at higher O con-
+2 2 2 2
+resembles that in the co-electrolysis at otherwise identical con- centrations are challenging due to the instability of the electrode
+ditions. The presence of H O in the electrolyte makes Cu O at high current densities (over 100mAcm
+−2)
+in an H-type
+2 2 2 surf
+more resistant to negative potentials (Supplementary Fig. 11), electrochemicalcell.SystematicinvestigationsoftheimpactofO
+2
+even to −0.8 V at 10mM of H O . The fact that H O does partial pressure on the CO RR activity require enhanced mass
+RHE 2 2 2 2 2
+not significantly promote the CO RR shows that the CO RR transport which could be more easily accomplished in flow cell
+2 2
+performance is highly sensitive to the nature of the surface spe-
+configurations59–62,
+and are outside the scope of this proof-of-
+cies.Asdifferentoxidantsleadtodifferentsurfacespecies,results concept work. It is important to note that any practical CO
+2
+reported in this work establish a paradigm for enhancing the sourcecontainslargequantitiesofO canbeutilized,e.g.,fluegas
+2
+CO RRbyco-electrolyzingCO withanoxidant.Thenatureand from power plants or air, so CO RR systems that are tolerant to
+2 2 2
+concentration of oxidants could be designed to tune the nature or enhanced by a low concentration of O in the feed could
+2
+and coverage of surface oxidized Cu species. This hypothesis is significantly reduce the separation cost. In the meantime, co-
+supported by the contrasting results of using H O and O oxi- electrolysis of other oxidants, e.g., peroxyacetic acid, ammonium
+2 2 2
+dant, as well as different partial pressure of O . Higher partial persulfate,couldbeafruitfulstrategytofurtherimprovetherate
+2
+pressureofO inthefeed(upto20%)isexpectedtoincreasethe and efficiency of CO RR.
+2 2
+surface coverage of the adsorbed hydroxyl species, which is
+generally beneficial toward the improvement of production rates
+Methods
+of oxygenates and hydrocarbons. The diminishing impact of O
+2 Materials.ThepolycrystallineCupowder(−625mesh,APS0.50–1.5micron,99%
+ontheCO 2 RRatpotentialsbelow−0.9V RHE couldbeattributed metalbasis)ispurchasedfromAlfaAesar.Cufoil(0.1mmthick,99.9999%metal
+to at least two factors: (1) Reduction of surface coverage of the basis)ispurchasedfromAlfaAesar.Potassiumcarbonate(99.997%tracemetals
+hydroxyl species due to its facile reduction at such negative basis)ispurchasedfromAlfaAesar.Chelex100sodiumformispurchasedfrom
+Sigma-Aldrich.Isopropanol(99.999%tracemetalbasis)ispurchasedfromSigma-
+potentials; unfortunately, excessive bubble formation prevents
+Aldrich.Dimethylsulfoxide(≥99.9%)ispurchasedfromAlfaAesar.Deuterium
+spectroscopic investigations at these potentials. (2) Reduction in oxide(99.9atom%D)ispurchasedfromSigma-Aldrich.Nafionsolution(5wt%)is
+the local CO 2 concentration due to the accelerated CO 2 RR and purchasedfromSigma-Aldrich.Phosphoricacid(ACSreagent,≥85wt%inH 2 O)is
+increased alkalinity causedby the fast protonconsumption from purchasedfromSigma-Aldrich.Graphiterod(99.995%tracemetalsbasis)is
+boththeCO RRandtheHER33,34.TheincreaseofelectrolytepH
+purchasedfromSigma-Aldrich.Sigracet39BCcarbonfiberpaperispurchased
+2 fromFuelCellStore.CarbonDioxide(99.999%),oxygen(99.999%),andargon
+has been demonstrated to not affect C 2+ product formations (99.999%)arepurchasedfromAirLiquide.Allelectrolytesolutionsareprepared
+because the RDS does not involve any proton transfer28,44,54,55. usingMilli-Qwater(18.2MΩcm).
+Ve/ecnereffid
+ygrene
+eerF
+Ve/ecnereffid
+ygrene
+eerF
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-17690-8
+a b
+0.6
+0.4
+0.2
+0.0
+–0.2
+–0.4
+0 /9 1/9 2/9 3/9 4/9 0 /9 1/9 2/9 3/9 4/9
+*OH coverage *OH coverage
+Fig.5Freeenergydiagram.a*COdimerization.b*COhydrogenation.Thebindingfreeenergiesforinitialstatesandtransitionstatesatdifferent*OH
+coveragearecalculatedwithreferencetoaCuslabwithspecificnumbersof*OH,gasphaseCO,H,andliquidHOmolecules.Thepotentialis−0.5V (i.e.,
+2 2 SHE
+equivalentto−0.9V ).ΔΔG(ΔΔG≠)isdefinedasthereaction-freeenergy(freeenergybarrier)atcertain*OHcoveragereferencedtothevalueobtainedat
+RHE
+zero*OHcoverage(see“Methods”sectionforcomputationaldetails).
+NATURECOMMUNICATIONS| (2020) 11:3844 |https://doi.org/10.1038/s41467-020-17690-8|www.nature.com/naturecommunications 7
+
+
+===== PAGE 8 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-17690-8
+Electrodepreparation.TopreparethepolycrystallineCupowerelectrode,anink TheRamanspectroscopymeasurementsarecarriedoutusingLabRAMHREvo-
+solutionisfirstpreparedbymixing1mgCupowderand1mLisopropanolfol- lutionmicroscope(HoribaJobinYvon)equippedwitha632.8nmHe-Nelaser,a
+lowedbysonicatingfor20min.900μLofinksolutionisdropcastedontothe ×50objective(NA=0.55),andaCCDdetector.Thefilterissettobe50%tokeepa
+microporouslayerofa3×3cm2Sigracet39BCcarbonfiberpaper.Afterdryingin lowlaserintensitytoavoidanyirradiation-inducedmodificationsofCusurface.
+air,180μLof2.5wt%Nafionsolution(dilutedwithisopropanol)isuniformly Theacquisitiontimeis20sforeachspectrumwiththeaccumulationtimesof2.
+depositedontothecatalystsurface.Thecatalystisdriedintheairagainand
+transferredintoavacuumboxtothoroughlyremovetheresidualsolvent.The
+Computationaldetails.TheCu(100)metalslab(3×3)consistingofthreelayers
+catalystisthencutintosmallpieceswithasizeof0.6×1.5cm2andanickelwire withthebottomlayerfixedinitsbulkpositionisemployedtosimulatethesurface
+currentcollectorisattachedtoapieceofthecatalystusingsilverepoxy.Toprepare
+ofCu.Thetotalenergyoftheslabwithdifferentadsorbatesarecalculatedusing
+theelectropolishedCufoilelectrode,anickelwirecurrentcollectorisweldedtoa DFTwiththePerdew–Burke–Ernzerhofexchange-correlationfunctionalinplane-
+pieceofCufoil.Theelectrodeisthenelectropolishedin85%phosphoricacidat
+wavepseudopotentials,asimplementedintheViennaabinitioSimulationPackage
+2
+w
+.
+a
+1
+t
+V
+er
+v
+(
+e
+1
+r
+8
+s
+.
+u
+2
+s
+M
+a
+Ω
+gra
+cm
+ph
+)
+i
+.
+te
+A
+r
+f
+o
+r
+d
+es
+e
+h
+le
+w
+ct
+o
+r
+r
+o
+k
+d
+i
+e
+ng
+fo
+e
+r
+le
+5
+ct
+m
+ro
+in
+de
+fo
+is
+llo
+u
+w
+se
+e
+d
+d
+f
+b
+o
+y
+r
+r
+e
+i
+a
+n
+c
+s
+h
+in
+e
+g
+le
+w
+ct
+i
+r
+t
+o
+h
+ch
+M
+e
+i
+m
+ll-
+i
+Q
+cal
+(VASP)63.TheempiricalD2approachasimplementedinVASPisemployedto
+describethevanderWaalsinteractions.Allcalculatedenergyvaluesareextra-
+measurement. polatedtok T=0.AMonkhorst–Packk-pointnetof3×3×1ischosentosample
+B
+thereciprocalspace.Avacuumof25Åisintroducedtoeachsidetoavoid
+Electrochemicalmeasurements.Allelectrochemicalmeasurementsarecon- interactionsbetweensuccessivemetalslabs.
+ductedinacustomdesignedgastighttwo-compartmentelectrochemicalcellfab- VASPsolmodelisemployedtoestablishtheelectrochemicalinterface64,65.In
+ricatedbyAdams&ChittendenScientificGlasswiththree-electrodeconfiguration. thismodel,theFermienergyisadjustedtoatargetvaluebychangingthenumber
+AgraphiterodisusedascounterelectrodeandaAg/AgCl(3.0M,BASi)electrode ofelectronsinthesystemduringeachstepofthegeometryoptimization,which
+isusedasreferenceelectrode.Thetwochambersoftheelectrochemicalcellare keepstheworkfunctionandelectrodepotentialconstantinthecalculations.Then
+separatedbyanion-exchangemembrane(SelemionAMV,AGCInc.).Theelec-
+thelinearPoisson–BoltzmannimplicitsolvationmodelwithaDebyescreening
+trolyteusedforallelectrochemicalmeasurementsisCO-saturated0.1MKHCO lengthof3.0Åisusedtoneutralizethenon-zerochargeinthesimulationcelland
+2 3
+solutionwithapHof6.8,whichispreparedbypurging0.05MKCO solution simulatewaterandtheelectrolyte,allowingforamorerealisticdescriptionofthe
+2 3
+withCO overnight,andtheelectrolyteispurifiedwithChelexbeforeelectrolysis. electrochemicaldoublelayer.Adetaileddescriptionofthisapproachhasbeen
+Allele
+2
+ctrochemicalmeasurementsareconductedusingaGamryReference600
+providedinourpreviouswork66–68.
++PotentiostatandthemeasuredpotentialisconvertedtoRHEscaleusingthe Thetransitionstateforeachreactionisfirstapproachedusingthenudged
+followingformula:E =E +0.210+0.05916×pH(involts),wherethe elasticband(NEB)methodintheneutralstate.Forcesontheclimbingimageare
+RHE Ag/AgCl
+standardvaluefortheAg/AgClreferenceelectrodeiscalibratedusingahomemade convergedto<0.02eV/Å.Theplane-wavecutoff,smearingparameterand
+standardhydrogenelectrode.Theuncompensatedresistance(R)ismeasuredby functional,andcalculatorparametersarethesameasthoseusedinslabgeometry
+u
+potentiostaticelectrochemicalimpedancespectroscopyand100%ofR is optimizations.StructuresobtainedfromNEBareemployedtogeneratetheinput
+u
+compensatedbythepotentiostatduringelectrolysis.Allelectrodesarepretreatedin structureandorientationforthedimercalculation.Theforceofthedimer
+Ar-purgedelectrolyteat−1V for5mintostabilizesurfaceconditions.Thegas calculationisconvergedto<0.1eV/Åtoaccuratelylocatethesaddlepoint,i.e.,the
+RHE
+flowisthenswitchedtoreactantgas(pureCO or10%O +90%CO or20%O transitionstate.Afterthat,thefreeenergyoftransitionstateiscalculatedunder
++80%CO)andthesystemispurgedfor15m 2 inpriort 2 oa1helect 2 rolysis.All 2 constantpotential.Inthecalculationsfor*COhydrogenation,therequiredH+/e−
+2
+gasesaredirectlydeliveredintoelectrolytethroughagasdispersionfritatatotal pairforreductionisassumedtooriginatefromtheaqueoussolutionandthe
+flowrateof10mL/min.Theflowrateiscontrolledbymassflowcontrollers(MKS electrode.Itsfreeenergyisestimatedbasedonthecomputationalhydrogen
+InstrumentsInc.)andcalibratedbyanADMflowmeter(AgilentTechnologies). electrodemodel69.InadditiontotheimplicitPoisson–Boltzmannsolvationmodel,
+TheO +CO mixtureispreparedbymixingCO andO atdesiredratiousing allthestationarypointsalongthehydrogenationsteparesolvatedbyfourexplicit
+2 2 2 2
+massflowcontrollersatatotalflowrateof10mL/min.Theoutletflowofthe watermoleculestoprovideabetterdescriptionofthesolvent.Allpossible
+electrochemicalcellisdirectlyventedtothesampleloopofagaschromatograph
+structures,includingdifferentadsorptionsitesof*COand*OH,relativeposition
+(Agilent7890B)forproductquantification. between*COand*OH,etc.,areinvestigatedatall*OHcoverage.Themoststable
+structuresareemployedtoinvestigatetheimpactof*OHadsorbatetotheRDSof
+Productquantification.Thegaseousproductsarequantifiedevery20minusinga C 2+
+T
+p
+h
+r
+e
+o
+f
+d
+r
+u
+ee
+ct
+e
+f
+n
+o
+e
+r
+r
+m
+gi
+a
+e
+t
+s
+io
+o
+n
+f
+s
+th
+an
+e
+d
+sla
+C
+b
+H
+s
+4
+ys
+fo
+te
+r
+m
+m
+s
+at
+w
+io
+e
+n
+re
+(S
+c
+u
+al
+p
+c
+p
+u
+l
+l
+e
+a
+m
+te
+e
+d
+n
+a
+ta
+s
+r
+f
+y
+ol
+F
+lo
+ig
+w
+s.
+s:
+14–17).
+gaschromatograph(GC)(Agilent7890B)equippedwithaShinCarbonSTcolumn
+a
+a
+n
+n
+d
+da
+a
+fl
+H
+a
+a
+m
+y
+e
+eS
+i
+e
+o
+p
+ni
+Q
+zat
+c
+i
+o
+o
+l
+n
+um
+de
+n
+te
+.
+c
+A
+to
+t
+r
+h
+w
+er
+it
+m
+h
+a
+a
+l
+m
+co
+e
+n
+th
+d
+a
+u
+n
+ct
+iz
+iv
+e
+i
+r
+ty
+is
+d
+u
+e
+s
+t
+e
+e
+d
+ct
+t
+o
+o
+r
+q
+is
+ua
+u
+n
+s
+t
+e
+i
+d
+fy
+t
+C
+o
+O
+qu
+,C
+an
+H
+tif
+,
+y
+a
+H
+nd 2
+G¼E
+e
+so
+le
+l
+c
+vþZPVEþH
+vib
+(cid:2)TS
+vib
+; ð1Þ
+4
+C 2 H 4 .Arisusedascarriergas.TheanalysisresultsofthreeGCanalysesduringthe whereE e so le l c v wastheelectronicenergyofthesystemcalculatedfromVASPsol.We
+1helectrolysisareaveraged.Theliquidproductsarequantifiedusing1HNMRon treatedalldegreesoffreedomoftheadsorbatesasvibrationalandneglectthe
+aBrukerAVIII400MHzNMRspectrometerafterthewholeelectrolysisprocess. contributionofvibrationsoftheslab.Thevibrationalfrequencies(ν)were
+TheNMRsampleispreparedbymixing500μLoftheelectrolytecollectedafter evaluatedbycalculatingthepartialHessianmatrixthroughthefinitedifference
+electrolysiswith100μLofinternalstandardsolution(1.67ppm(m/m)dimethyl method.Unusuallylowvibrationalmodes(<50cm−1)wereresetto50cm−1to
+sulfoxideinDO).Thewatersignalissuppressedusingthepresaturationmethod. avoidunphysicallylargeentropycontributions.Basedonthecalculatedvibrational
+2
+frequencies,wecalculatedthezero-pointvibrationalenergy(ZPVE),vibrational
+contributionstotheinternalenergy(H )andentropy(S )at298Kasfollows:
+DeterminationofORRelectrontransfernumber.TheORRelectrontransfer vib vib
+numberofpolycrystallineCupowdercatalystisdeterminedusingrotatingdisk X hν
+electrode(RDE)measurementandKoutecký–Levichequationmethod.Toprepare ZPVE¼
+2
+; ð2Þ
+theelectrodeforRDEmeasurement,aninksolutionisfirstpreparedbymixing ν
+c
+g
+5 a
+l
+m
+a
+t
+s
+in g
+sy
+g C
+c
+f u o
+a
+r
+r
+p
+b
+3 o
+o
+0 w
+n
+m d
+r
+e
+o
+in r
+t
+,
+a
+i 2
+t
+n
+i
+5
+n
+a
+g
+μ n L
+d
+i
+i
+N c
+s
+e
+k
+a c fi
+e
+o o
+le
+l n d
+ct
+s w
+r
+o
+o
+a l
+d
+u t
+e
+e t r io
+(0
+b n
+.
+a
+5
+t a h
+c
+n .
+m
+d A 1
+d
+2
+i
+m
+a
+0
+m
+L μL
+e
+2
+te
+- i p n
+r,
+r k o
+G
+i p s
+a
+a
+m
+t n h o
+r
+e
+y
+l n
+)
+f
+.
+o d
+A
+l r l o o
+g
+p w
+r
+c e
+a
+a d
+p
+s
+h
+t b e
+i
+d y
+te
+s o
+r
+o n
+o
+n t
+d
+o i- a H
+vib
+¼ X
+ν ehν=k
+h
+BT
+ν
+(cid:2)1
+; ð3Þ
+isusedascounterelectrodeandadoublejunctionAg/AgClelectrode(3.0M)is
+u 7 (C 1 se 0 V d s ) y a i s s s te r fi m e r f s e t a r l n e y n d t c a t e k h e e e n l e e l c u e t c n r t o d r d e o e r ly . A t T e r h is a e t 0 e . a x 1 p s M e c r a i n K m H r e a n C t t e O s o 3 a f r s e o 1 l 0 c u o m ti n o V d n u / . s c T t w e h d i e th c u y s a c in l r i g c ot v a a o t G i l o ta a n m m s m r p y e o e R g d r D a o E m f S vib ¼k B X ν (cid:4) k B Tðehν h = ν kBT(cid:2)1Þ (cid:2)ln (cid:2) 1(cid:2)e(cid:2)hν=kBT (cid:3)(cid:5) : ð4Þ
+2500rpmpriortoORRmeasurement.TheelectrolyteisthenbubbledwithO 2 for Thefreeenergiesofthemoleculesweredeterminedasfollows:
+atleast20mintosaturatetheelectrolyte.CVsinO atmospherearerecordedat (cid:2) (cid:3)
+2 n
+variousrotationspeed(400,625,900,1225,1600,2025,and2500rpm)atascan G¼EsolvþZPVEþ þ1 k TþH (cid:2)TðS þS þS Þ; ð5Þ
+rateof10mV/s. elec 2 B vib vib trans rot
+wherenis6fornon-linearmoleculesand5forlinearmolecules.ZPVEwas
+calculatedasshownabove.H ,S ,S ,andS wereobtainedfromJaguar
+InsituRamanspectroscopymeasurements.InsituRamanspectroscopymea- usingthePBE/6-31G*basiss v e i t b .T v h ib eco ro r t rection t t r e a r n m s sofallfreeenergiesare
+surementsareconductedusingacustom-madethree-electrodeelectrochemicalcell
+o in f H N - a c fi e o ll n co io n n fig e u xc ra h t a i n on ge th m a e t m co b n r s a i n st e s ( t I w E o M c , o N m a p fi a o r n tm 2 e 1 n 1 t , s F a u n e d l i C s e s l e l p S a t r o a r t e e ) d ( b S y up a p p le ie - ce pro F vi o d r ed *C in O S d u i p m p e l r e i m za e t n io ta n r , y th T e ab ad le so 3 r . ptionfreeenergyofeachstatewascalculated
+as:
+mentaryFig.13).Thethree-electrodesystemismadeupofaCuworkingelectrode (cid:2) (cid:3) (cid:2) (cid:3)
+t
+t
+h
+ro
+a
+d
+t
+e
+is
+(3
+id
+.0
+en
+M
+tic
+N
+al
+aC
+to
+l,
+t
+B
+he
+AS
+o
+i
+n
+)
+e
+a
+s
+n
+i
+d
+n
+a
+re
+g
+a
+r
+c
+a
+t
+p
+iv
+h
+it
+i
+y
+te
+m
+co
+e
+u
+as
+n
+u
+t
+r
+e
+e
+r
+m
+el
+e
+e
+n
+c
+t
+t
+,
+ro
+a
+d
+A
+e.
+g
+A
+/A
+p
+gC
+ot
+l
+e
+r
+n
+e
+t
+f
+i
+e
+o
+r
+s
+e
+t
+n
+at
+ce
+(V
+el
+e
+e
+r
+c
+-
+- GI
+a
+S
+bs
+n=9*OHcoverage ¼G
+IS
+n=9*OHcoverage (cid:2)G
+Cuþn*OH
+(cid:2)2G*CO ; ð6Þ
+saSTAT,Princeton)isusedtoperformelectrolysis.Electrolytesaturatedwith (cid:2) (cid:3) (cid:2) (cid:3)
+d
+D
+e
+i
+s
+o
+i
+n
+re
+e
+d
+x)
+g
+t
+a
+o
+s
+a
+is
+ch
+d
+i
+e
+e
+l
+v
+i
+e
+ve
+s
+r
+i
+e
+m
+d
+il
+i
+a
+n
+r
+to
+m
+t
+a
+h
+s
+e
+st
+c
+r
+e
+a
+ll
+ns
+u
+p
+s
+o
+in
+r
+g
+ta
+a
+s
+H
+in
+P
+m
+LC
+ag
+p
+n
+u
+e
+m
+tic
+p
+al
+(
+ly
+GP
+st
+5
+ir
+0
+re
+G
+d
+r
+r
+a
+e
+d
+a
+i
+c
+e
+t
+n
+iv
+t
+i
+P
+ty
+um
+ce
+p
+ll
+,
+.
+GT
+ab
+S
+s
+n=9*OHcoverage ¼G
+TS
+n=9*OHcoverage (cid:2)G
+Cuþn*OH
+(cid:2)2G*CO ; ð7Þ
+8 NATURECOMMUNICATIONS| (2020) 11:3844 |https://doi.org/10.1038/s41467-020-17690-8|www.nature.com/naturecommunications
+
+
+===== PAGE 9 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-17690-8
+8. Roberts,F.S.,Kuhl,K.P.&Nilsson,A.Highselectivityforethylenefrom
+(cid:2) (cid:3) (cid:2) (cid:3)
+carbondioxidereductionovercoppernanocubeelectrocatalysts.Angew.
+GF ab S s n=9*OHcoverage ¼G FS n=9*OHcoverage (cid:2)G Cuþn*OH (cid:2)2G*CO : ð8Þ Chem.Int.Ed.54,5179–5182(2015).
+For*COhydrogenation,theadsorptionfreeenergyofeachstatewascalculated 9. Jiang,K.etal.MetalioncyclingofCufoilforselectiveC–Ccouplingin
+as: electrochemicalCO 2 reduction.Nat.Catal.1,111–119(2018).
+(cid:2) (cid:3) (cid:2) (cid:3) 10. Lee,S.,Kim,D.&Lee,J.ElectrocatalyticproductionofC3-C4compoundsby
+GI a S bs n=9
+(cid:2)
+*OHcoverage ¼G I
+(cid:3)
+S n=9*OH
+(cid:2)
+coverage (cid:2)G Cuþn*
+(cid:3)
+OH (cid:2)G*CO (cid:2)4G H2O ; ð9Þ
+C
+co
+h
+n
+e
+v
+m
+e
+.
+rs
+I
+i
+n
+o
+t
+n
+.E
+of
+d.
+C
+5
+O
+4
+2
+,
+o
+1
+n
+47
+a
+01
+c
+–
+h
+1
+lo
+4
+r
+7
+id
+05
+e-i
+(
+n
+2
+d
+0
+u
+15
+ce
+).
+dbi-phasicCu 2 O-Cucatalyst.Angew.
+GT ab S s n=9*OHcoverage ¼ G TS n=9*OHcoverage (cid:2)G Cuþn*OH ð10Þ 11. e K le im ct , ro D d . e et fo a r l. th In e si s g e h le t c s ti i v n e to p a ro n d a u u c t t o io n n om of ou C s
+2
+l H y
+4
+fo f r r m om ed C o O xy
+2
+. ge P n h - y e s v . a C c h u e a m ted .C C h u e 2 m O .
+(cid:2) (cid:3)
+(cid:2)G
+(cid:2)
+*CO (cid:2)4G H2O (cid:2)1=2
+(cid:3)
+G H2 ;
+12.
+P
+M
+h
+a
+y
+n
+s.
+da
+1
+l
+7
+,
+,
+L
+8
+.
+2
+e
+4
+t
+–
+a
+8
+l.
+3
+I
+0
+nv
+(2
+es
+0
+t
+1
+ig
+5
+a
+).
+tingtheroleofcopperoxideinelectrochemicalCO 2
+GFS n=9*OHcoverage ¼ G n=9*OHcoverage reductioninrealtime.ACSAppl.Mater.Interfaces10,8574–8584(2018).
+abs FS ð11Þ 13. Scott,S.B.etal.AbsenceofoxidizedphasesinCuunderCOreduction
+(cid:2)G Cuþn*OH (cid:2)G*CO (cid:2)4G H2O (cid:2)1=2G H2 :
+14. C
+co
+a
+n
+v
+d
+al
+i
+c
+ti
+a
+o
+,
+n
+F
+s
+.
+.
+e
+A
+t
+C
+al
+S
+.N
+E
+a
+n
+t
+e
+u
+r
+r
+g
+e
+y
+a
+L
+n
+e
+d
+tt.
+di
+4
+s
+,
+tr
+8
+ib
+03
+u
+–
+ti
+8
+o
+0
+n
+4
+o
+(
+f
+2
+s
+0
+t
+1
+ab
+9)
+le
+.
+subsurfaceoxygenincopper
+FortheresultspresentedinFig.5:
+(cid:2) (cid:3) (cid:2) (cid:3) electrodesduringelectrochemicalCO reduction.J.Phys.Chem.C121,
+2
+ΔGIS n=9*OHcoverage ¼GIS n=9*OHcoverage (cid:2)GIS ðzerocoverageÞ; 25003–25009(2017).
+abs abs abs
+15. Eilert,A.etal.Subsurfaceoxygeninoxide-derivedcopperelectrocatalystsfor
+ð12Þ carbondioxidereduction.J.Phys.Chem.Lett.8,285–290(2017).
+(cid:2) (cid:3) (cid:2) (cid:3) 16. Eilert,A.,Roberts,F.S.,Friebel,D.&Nilsson,A.Formationofcopper
+ΔGTS n=9*OHcoverage ¼GTS n=9*OHcoverage (cid:2)GTSðzerocoverageÞ; catalystsforCO reductionwithhighethylene/methaneproductratio
+abs abs abs 2
+investigatedwithinsituX-rayabsorptionspectroscopy.J.Phys.Chem.Lett.7,
+ð13Þ
+1466–1470(2016).
+(cid:2) (cid:3) (cid:2) (cid:3) 17. Ren,D.etal.Selectiveelectrochemicalreductionofcarbondioxidetoethylene
+ΔΔG¼ΔG n=9*OHcoverage (cid:2)ΔG zero*OHcoverage ; ð14Þ andethanoloncopper(I)oxidecatalysts.ACSCatal.5,2814–2821(2015).
+(cid:2) (cid:3) (cid:2) (cid:3) 18. Liu,C.etal.Stabilityandeffectsofsubsurfaceoxygeninoxide-derivedCu
+ΔΔG≠¼ΔG≠ n=9*OHcoverage (cid:2)ΔG≠ zero*OHcoverage ; ð15Þ catalystforCO 2 reduction.J.Phys.Chem.C121,25010–25017(2017).
+19. Jung,H.etal.ElectrochemicalfragmentationofCuOnanoparticles
+2
+where enhancingselectiveC-CcouplingfromCO 2 reductionreaction.J.Am.Chem.
+(cid:2) (cid:3) (cid:2) (cid:3) (cid:2) (cid:3) Soc.141,4624–4633(2019).
+ΔG n=9*OHcoverage ¼GF ab S s n=9*OHcoverage (cid:2)GI a S bs n=9*OHcoverage ; 20. Beverskog,B.RevisedPourbaixdiagramsforcopperat25to300°C.J.
+ð16Þ
+Electrochem.Soc.144,3476–3483(1997).
+21. Bodappa,N.etal.EarlystagesofelectrochemicaloxidationofCu(111)and
+(cid:2) (cid:3) (cid:2) (cid:3) (cid:2) (cid:3)
+polycrystallineCusurfacesrevealedbyinsituRamanspectroscopy.J.Am.
+ΔG≠ n=9*OHcoverage ¼GT
+ab
+S
+s
+n=9*OHcoverage (cid:2)GI
+a
+S
+bs
+n=9*OHcoverage ; Chem.Soc.141,12192–12196(2019).
+ð17Þ 22. Feng,X.,Jiang,K.,Fan,S.&Kanan,M.W.Adirectgrain-boundary-activity
+correlationforCOelectroreductiononCunanoparticles.ACSCent.Sci.2,
+arethefreeenergychangeandfreeenergybarrierforthereaction(*CO 169–174(2016).
+dimerizationor*COhydrogenation)atcertain*OHcoverage,respectively.
+23. Mariano,R.G.,McKelvey,K.,White,H.S.&Kanan,M.W.Selectiveincrease
+inCO electroreductionactivityatgrain-boundarysurfaceterminations.
+2
+Physicalcharacterization.ThemicrostructureoftheCucatalystischaracterized Science358,1187–1192(2017).
+byfieldemissionscanningelectronmicroscope(MerlinFE-SEM,Zeiss).PowderX- 24. Malkani,A.S.,Dunwell,M.&Xu,B.Operandospectroscopicinvestigationsof
+raydiffractionpatterniscollectedusingaRigakuMiniFlex600withCuKα copperandoxide-derivedcoppercatalystsforelectrochemicalCOreduction.
+radiation.X-rayphotoelectronspectroscopymeasurementsareconductedona ACSCatal.9,474–478(2018).
+PHIQuanteraIIandCasaXPSsoftware(CasaSoftwareLtd.,UK)isusedtoanalyze 25. Wang,L.etal.Electrochemicallyconvertingcarbonmonoxidetoliquidfuels
+theresultingspectra. bydirectingselectivitywithelectrodesurfacearea.Nat.Catal.2,702–708
+(2019).
+Data availability 26. Zhao,Y.etal.SpeciationofCusurfacesduringtheelectrochemicalCO
+reductionreaction.J.Am.Chem.Soc.142,9735–9743(2020).
+Thedatathatsupportthefindingsofthisstudyareavailablefromthecorresponding
+27. Chen,R.etal.Highlyselectiveproductionofethylenebytheelectroreduction
+authoruponrequest. ofcarbonmonoxide.Angew.Chem.Int.Ed.59,154–160(2020).
+28. Li,J.etal.HydroxideisnotapromoterofC2+productformationinthe
+Received: 31March 2020;Accepted: 14July2020; electrochemicalreductionofCOoncopper.Angew.Chem.Int.Ed.59,
+4464–4469(2020).
+29. Li,J.etal.Effectivelyincreasedefficiencyforelectroreductionofcarbon
+monoxideusingsupportedpolycrystallinecopperpowderelectrocatalysts.
+ACSCatal.9,4709–4718(2019).
+30. Kuhl,K.P.,Cave,E.R.,Abram,D.N.&Jaramillo,T.F.Newinsightsintothe
+References electrochemicalreductionofcarbondioxideonmetalliccoppersurfaces.
+EnergyEnviron.Sci.5,7050–7059(2012).
+1. Nitopi,S.etal.ProgressandperspectivesofelectrochemicalCO reductionon
+copperinaqueouselectrolyte.Chem.Rev.119,7610–7672(201 2 9). 31. Xiao,H.,Cheng,T.,Goddard,W.A.III&Sundararaman,R.Mechanistic
+eplanationofthepHdependenceandonsetpotentialsforhydrocarbon
+2. Ross,M.B.etal.Designingmaterialsforelectrochemicalcarbondioxide
+recycling.Nat.Catal.2,648–658(2019). p
+So
+ro
+c.
+d
+1
+u
+3
+ct
+8
+s
+,
+f
+4
+r
+8
+o
+3
+m
+–4
+e
+8
+le
+6
+c
+(
+tr
+2
+o
+0
+c
+1
+h
+6
+e
+)
+m
+.
+icalreductionofCOonCu(111).J.Am.Chem.
+3. Kibria,M.G.etal.ElectrochemicalCO reductionintochemicalfeedstocks:
+frommechanisticelectrocatalysismodel 2 stosystemdesign.Adv.Mater.31, 32. L N i a , t J . . C et om al. m C u o n p . p 9 e , r 4 a 6 d 1 p 4 ar ( t 2 i 0 cl 1 e 8 e ). nabledselectiveelectrosynthesisofn-propanol.
+e1807166(2019).
+33. Raciti,D.,Mao,M.,Park,J.H.&Wang,C.LocalpHeffectintheCO
+4. Raciti,D.etal.Low-overpotentialelectroreductionofcarbonmonoxideusing 2
+coppernanowires.ACSCatal.7,4467–4472(2017).
+S
+re
+o
+d
+c.
+uc
+1
+t
+6
+io
+5
+n
+,F
+r
+7
+ea
+9
+c
+9
+t
+–
+io
+F
+n
+80
+o
+4
+n
+(
+h
+2
+i
+0
+g
+1
+h
+8
+-
+)
+s
+.
+urface-areacopperelectrocatalysts.J.Electrochem.
+5. Li,C.W.,Ciston,J.&Kanan,M.W.Electroreductionofcarbonmonoxideto
+liquidfuelonoxide-derivednanocrystallinecopper.Nature508,504–507 34. Dunwell,M.etal.Examinationofnear-electrodeconcentrationgradientsand
+kineticimpactsontheelectrochemicalreductionofCO usingsurface-
+(2014). enhancedinfraredspectroscopy.ACSCatal.8,3999–400 2 8(2018).
+6. Mistry,H.etal.Highlyselectiveplasma-activatedcoppercatalystsforcarbon
+dioxidereductiontoethylene.Nat.Commun.7,12123(2016). 35. LideD.R.CRCHandbookofChemistryandPhysics(CRCPress,2004).
+36. Jiang,S.,Klingan,K.,Pasquini,C.&Dau,H.NewaspectsofoperandoRaman
+7. Lum,Y.&Ager,J.W.Stabilityofresidualoxidesinoxide-derivedcopper
+spectroscopyappliedtoelectrochemicalCO reductiononCufoams.J.Chem.
+c
+A
+a
+n
+ta
+g
+l
+e
+y
+w
+st
+.
+s
+C
+f
+h
+o
+e
+r
+m
+el
+.
+e
+I
+c
+n
+tr
+t
+o
+.
+c
+E
+h
+d
+e
+.
+m
+5
+i
+7
+c
+,
+a
+5
+l
+5
+C
+1
+O
+–5
+2
+5
+r
+4
+ed
+(
+u
+2
+c
+0
+t
+1
+io
+8
+n
+).
+investigatedwith(18)Olabeling. Phys.150,041718(2019). 2
+NATURECOMMUNICATIONS| (2020) 11:3844 |https://doi.org/10.1038/s41467-020-17690-8|www.nature.com/naturecommunications 9
+
+
+===== PAGE 10 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-17690-8
+37. Linic,S.,Christopher,P.&Ingram,D.B.Plasmonic-metalnanostructuresfor 64. Mathew,K.,Sundararaman,R.,Letchworth-Weaver,K.,Arias,T.A.&
+efficientconversionofsolartochemicalenergy.Nat.Mater.10,911–921 Hennig,R.G.Implicitsolvationmodelfordensity-functionalstudyof
+(2011). nanocrystalsurfacesandreactionpathways.J.Chem.Phys.140,084106
+38. Linic,S.,Aslam,U.,Boerigter,C.&Morabito,M.Photochemical (2014).
+transformationsonplasmonicmetalnanoparticles.Nat.Mater.14,567–576 65. Mathew,K.,Kolluru,V.S.C.,Mula,S.,Steinmann,S.N.&Hennig,R.G.
+(2015). Implicitself-consistentelectrolytemodelinplane-wavedensity-functional
+39. Sardari,B.&Ozcan,M.Real-timeandtunablesubstrateforsurfaceenhanced theory.J.Chem.Phys.151,234101(2019).
+Ramanspectroscopybysynthesisofcopperoxidenanoparticlesvia 66. Zhang,H.etal.Computationalandexperimentaldemonstrationsofone-pot
+electrolysis.Sci.Rep.7,7730(2017). tandemcatalysisforelectrochemicalcarbondioxidereductiontomethane.
+40. Niaura,G.Surface-enhancedRamanspectroscopicobservationoftwokindsof Nat.Commun.10,3340(2019).
+adsorbedOH-ionsatcopperelectrod.Electrochim.Acta45,3507–3519(2000). 67. Zhang,H.,Goddard,W.A.,Lu,Q.&Cheng,M.J.Theimportanceofgrand-
+41. Chernyshova,I.V.,Somasundaran,P.&Ponnurangam,S.Ontheoriginofthe canonicalquantummechanicalmethodstodescribetheeffectofelectrode
+elusivefirstintermediateofCO electroreduction.Proc.NatlAcad.Sci.USA potentialonthestabilityofintermediatesinvolvedinbothelectrochemical
+2
+115,E9261–E9270(2018). CO reductionandhydrogenevolution.Phys.Chem.Chem.Phys.20,
+2
+42. Dong,J.-C.etal.InsituRamanspectroscopicevidenceforoxygenreduction 2549–2557(2018).
+reactionintermediatesatplatinumsingle-crystalsurfaces.Nat.Energy4, 68. Chang,K.,Zhang,H.,Chen,J.G.,Lu,Q.&Cheng,M.-J.Constantelectrode
+60–67(2018). potentialquantummechanicalstudyofCO electrochemicalreduction
+2
+43. Zhang,J.,Zhang,H.,Cheng,M.J.&Lu,Q.Tailoringtheelectrochemical catalyzedbyN-dopedgraphene.ACSCatal.9,8197–8207(2019).
+productionofHO:strategiesfortherationaldesignofhigh-performance 69. Nørskov,J.K.etal.Originoftheoverpotentialforoxygenreductionatafuel-
+2 2
+electrocatalysts.Small16,e1902845(2020). cellcathode.J.Phys.Chem.B108,17886–17892(2004).
+44. Schreier,M.,Yoon,Y.,Jackson,M.N.&Surendranath,Y.Competition
+betweenHandCOforactivesitesgovernscopper-mediatedelectrosynthesis
+ofhydrocarbonfuels.Angew.Chem.Int.Ed.57,10221–10225(2018). Acknowledgements
+45. Xiao,H.,Goddard,W.A.III,Cheng,T.&Liu,Y.Cumetalembeddedin ThisworkissupportedbytheNationalKeyResearchandDevelopmentProgramof
+oxidizedmatrixcatalysttopromoteCO activationandCOdimerizationfor China(GrantNumber2017YFA0208200)andtheNationalNaturalScienceFoundation
+2
+electrochemicalreductionofCO.Proc.NatlAcad.Sci.USA114,6685–6688 ofChina(GrantNumber21872079).X.C.andB.X.acknowledgethesupportofthe
+2
+(2017). NationalScienceFoundationCAREERProgram(AwardNo.CBET-1651625).W.A.G.is
+46. Cheng,T.,Xiao,H.&Goddard,W.A.IIIFree-energybarriersandreaction supportedbytheUSNationalScienceFoundation(CBET-1805022).M.-j.C.acknowl-
+mechanismsfortheelectrochemicalreductionofCOontheCu(100)surface, edgesfinancialsupportfromtheMinistryofScienceandTechnologyoftheRepublicof
+includingmultiplelayersofexplicitsolventatpH0.J.Phys.Chem.Lett.6, ChinaunderGrantNo.MOST107-2113-M-006-008-MY2.
+4767–4773(2015).
+47. Vitos,L.,Ruban,A.V.,Skriver,H.L.&Kollár,J.Thesurfaceenergyofmetals.
+Surf.Sci.411,186–202(1998). Author contributions
+48. Kim,Y.G.,Baricuatro,J.H.,Javier,A.,Gregoire,J.M.&Soriaga,M.P.The Q.L.conceivedanddesignedtheproject.M.H.andC.L.carriedouttheelectrocatalytic
+evolutionofthepolycrystallinecoppersurface,firsttoCu(111)andthentoCu
+testsandphysicalcharacterizations.X.C.andB.X.performedinsituSERSexperiments.
+(100),atafixedCO(2)RRpotential:astudybyoperandoEC-STM.Langmuir
+H.Z.andM.-j.C.performedDFTcalculations.J.G.C.andW.A.G.contributedtodata
+30,15053–15056(2014).
+analysisandwritingofthismanuscript.Theseauthorscontributedequally:M.H.andC.L.
+49. Garza,A.J.,Bell,A.T.&Head-Gordon,M.MechanismofCO reductionat
+2
+coppersurfaces:pathwaystoC2products.ACSCatal.8,1490–1499(2018).
+50. Xiao,H.,Cheng,T.&Goddard,W.A.IIIAtomisticmechanismsunderlying Competing interests
+selectivitiesinC(1)andC(2)productsfromelectrochemicalreductionofCO
+Theauthorsdeclarenocompetinginterests.
+onCu(111).J.Am.Chem.Soc.139,130–136(2017).
+51. Mihaylov,M.,Knözinger,H.,Hadjiivanov,K.&Gates,B.C.Characterization
+oftheoxidationstatesofsupportedgoldspeciesbyIRspectroscopyof Additional information
+adsorbedCO.Chem.Ing.Tech.79,795–806(2007). Supplementaryinformationisavailableforthispaperathttps://doi.org/10.1038/s41467-
+52. Jansson,J.etal.OnthecatalyticactivityofCoO inlow-temperatureCO 020-17690-8.
+3 4
+oxidation.J.Catal.211,387–397(2002).
+53. Ramaswamy,N.&Mukerjee,S.Influenceofinner-andouter-sphereelectron CorrespondenceandrequestsformaterialsshouldbeaddressedtoM.-j.C.,B.X.orQ.L.
+transfermechanismsduringelectrocatalysisofoxygenreductioninalkaline
+media.J.Phys.Chem.C115,18015–18026(2011). PeerreviewinformationNatureCommunicationsthanksHolgerDau,ByoungKoun
+54. Hori,Y.,Takahashi,R.,Yoshinami,Y.&Murata,A.Electrochemical Min,andother,anonymous,reviewersfortheircontributionstothepeerreviewof
+reductionofCOatacopperelectrode.J.Phys.Chem.B101,7075–7081 thiswork.
+(1997).
+55. Wang,L.etal.Electrochemicalcarbonmonoxidereductiononpolycrystalline Reprintsandpermissioninformationisavailableathttp://www.nature.com/reprints
+copper:effectsofpotential,pressure,andpHonselectivitytoward
+multicarbonandoxygenatedproducts.ACSCatal.8,7445–7454(2018). Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+56. Durst,J.etal.Newinsightsintotheelectrochemicalhydrogenoxidationand publishedmapsandinstitutionalaffiliations.
+evolutionreactionmechanism.EnergyEnviron.Sci.7,2255–2260(2014).
+57. Zheng,J.,Sheng,W.,Zhuang,Z.,Xu,B.&Yan,Y.Universaldependenceof
+hydrogenoxidationandevolutionreactionactivityofplatinum-groupmetals Open Access This article is licensed under a Creative Commons
+onpHandhydrogenbindingenergy.Sci.Adv.2,e1501602(2016).
+Attribution 4.0 International License, which permits use, sharing,
+58. ShengW.,MyintM.,ChenJ.G.&YanY.Correlatingthehydrogenevolution
+adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+reactionactivityinalkalineelectrolyteswiththehydrogenbindingenergyon
+appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+monometallicsurfaces.EnergyEnviron.Sci.6,1509–1512(2013).
+Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+59.
+a
+G
+c
+a
+t
+r
+iv
+c
+i
+i
+t
+a
+ie
+d
+s
+e
+g
+A
+re
+r
+a
+q
+te
+u
+r
+er
+t
+,
+h
+F
+a
+.
+n
+P
+1
+.e
+A
+t
+c
+a
+m
+l.
+(
+C
+-
+O
+2)
+2
+.S
+el
+c
+e
+ie
+c
+n
+tr
+c
+o
+e
+ly
+3
+s
+6
+is
+7,
+to
+66
+m
+1–
+u
+6
+lt
+6
+ic
+6
+ar
+(
+b
+2
+o
+02
+n
+0
+p
+).
+roductsat materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+60. D
+co
+i
+p
+n
+p
+h
+e
+,
+r
+C
+c
+.
+a
+T
+ta
+.
+ly
+e
+s
+t
+is
+al
+a
+.
+t
+C
+a
+O
+n
+2
+a
+e
+b
+l
+r
+e
+u
+ct
+p
+r
+t
+or
+in
+ed
+te
+u
+r
+c
+fa
+ti
+c
+o
+e
+n
+.S
+to
+cie
+e
+n
+th
+ce
+yl
+3
+e
+6
+n
+0
+e
+,
+v
+7
+i
+8
+a
+3
+h
+–
+y
+7
+d
+8
+r
+7
+ox
+(2
+id
+0
+e
+1
+-
+8
+m
+).
+ediated article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfrom
+61. Ma,S.etal.One-stepelectrosynthesisofethyleneandethanolfromCO inan
+alkalineelectrolyzer.J.PowerSources301,219–228(2016). 2 thecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+licenses/by/4.0/.
+62. Jouny,M.,Luc,W.&Jiao,F.High-rateelectroreductionofcarbonmonoxide
+tomulti-carbonproducts.Nat.Catal.1,748–755(2018).
+63. Perdew,J.P.,Burke,K.&Ernzerhof,M.Generalizedgradientapproximation
+©TheAuthor(s)2020
+madesimple.Phys.Rev.Lett.77,3865–3868(1996).
+10 NATURECOMMUNICATIONS| (2020) 11:3844 |https://doi.org/10.1038/s41467-020-17690-8|www.nature.com/naturecommunications

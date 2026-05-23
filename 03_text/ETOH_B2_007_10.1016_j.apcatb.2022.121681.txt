@@ -1,0 +1,1122 @@
+
+
+===== PAGE 1 =====
+
+Version of Record: https://www.sciencedirect.com/science/article/pii/S0926337322006221
+Manuscript_4e81cf9932d548a5bdf6029d676ebcc6
+Efficient Electrocatalytic Conversion of CO to Ethanol Enabled by Imidazolium-
+2
+Functionalized Ionomer Confined Molybdenum Phosphide
+Mohammadreza Esmaeilirad1, Alireza Kondori1, Nannan Shan2, Mahmoud Tamadoni Saray3,
+Sreya Sarkar3, Ahmad M. Harzandi1, Constantine M. Megaridis3, Reza Shahbazian-Yassar3,
+Larry A. Curtiss2, Carlo U. Segre4, Mohammad Asadi1†
+1Department of Chemical and Biological Engineering, Illinois Institute of Technology, Chicago, IL
+60616, USA.
+2Materials Science Division, Argonne National Laboratory, Argonne, IL, 60439 USA
+3Department of Mechanical and Industrial Engineering, University of Illinois at Chicago,
+Chicago, IL 60607, USA.
+4Department of Physics & CSRRI, Illinois Institute of Technology, Chicago, IL 60616, USA.
+†Corresponding author: m.asadi@iit.edu
+Abstract
+An effective electrochemical carbon dioxide reduction reaction (eCO RR) requires the
+2
+discovery of a catalytic system that is highly active and selective for multi-carbon products
+together with superior CO diffusion at a catalyst layer to minimize the reduction barriers. Here,
+2
+we found a catalytic system that uses molybdenum phosphide (MoP) nanoparticles covered by
+imidazolium-functionalized ionomer (Im) that promotes CO diffusion at the catalyst layer toward
+2
+the catalyst surface, where CO is reduced to ethanol (C H OH). The electrochemical results
+2 2 5
+with the MoP-Im co-catalyst show a C H OH production Faradaic efficiency and a cathodic
+2 5
+energy efficiency of 77.4% and 63.3%, respectively, at a potential as low as -200 mV vs. RHE.
+The electrochemical experiments along with our physicochemical characterizations indicate that
+the Im improves CO diffusion and balances water content resulting in a higher CO -to-water
+2 2
+ratio at the catalyst layer and fine-tunes the electronic properties of Mo atoms at the MoP
+surface. In-situ Raman spectroscopy reveals that a high number of adsorbed *CO intermediates
+on the surface and a higher binding strength of *CO intermediates on the Mo surface sites in the
+presence of imidazolium molecules are the main reasons for a superior C-C coupling and
+thereby the improved C H OH formation.
+2 5
+1
+© 2022 published by Elsevier. This manuscript is made available under the Elsevier user license
+https://www.elsevier.com/open-access/userlicense/1.0/
+
+
+===== PAGE 2 =====
+
+Keywords: CO reduction reaction, transition metal phosphides, imidazolium, in-situ Raman,
+2
+ethanol electrosynthesis.
+Highlights
+• High energy efficiency electrochemical conversion of CO to ethanol enabled by
+2
+employing MoP nanoparticles covered by an imidazolium-functionalized ionomer
+(Im).
+• The Im reduces mass transport limitations of the reaction and fine-tunes the catalytic
+properties of the surface-active sites. It also boosts CO /water ratio of the catalyst
+2
+layer that suppresses competing hydrogen evolution reaction.
+• In-situ Raman spectroscopy experiments reveal that the imidazolium layer increases
+the number of CO molecules near the catalyst surface and stabilizes the formation of
+2
+the *CO – and *CO intermediates on the Mo surface atoms for the ethanol formation.
+2
+• The first principle computational calculations are consistent with *CO - being strongly
+2
+bound to the Mo surface sites in presence of Im.
+1. Introduction
+The US economy accounts for the release of a large amount of carbon dioxide (CO ) into the
+2
+atmosphere, causing severe environmental impacts.[1] However, CO can be directly converted
+2
+to value-added products via an electrochemical process driven by renewable energy that also
+provides a promising path to carbon-neutral manufacturing of chemicals and fuels at the gigaton
+scale.[2,3] While recent studies have mainly focused on the development of catalysts to
+effectively produce multi-carbon (C +) products, it is also important to improve CO diffusion
+2 2
+(mass transport) to the catalyst surface where CO is adsorbed and then converted to *CO -
+2 2
+intermediates that are identified to be thermodynamically uphill steps in many catalytic systems
+leading to a high overpotential and therefore, a low energy efficiency of the electrocatalytic CO
+2
+reduction reaction (eCO RR).[4,5] This requires the discovery of a novel catalytic system that
+2
+2
+
+
+===== PAGE 3 =====
+
+has a dual effect: (i) high activity and selectivity toward C + products, and (ii) high CO affinity to
+2 2
+reduce diffusion limitations of the reaction. Recent studies have found that imidazolium-based
+ionic liquids can improve eCO RR performance by lowering the thermodynamic barriers of the
+2
+reaction.[4,6,7] The imidazolium cations can also enhance the diffusion of CO to the catalyst
+2
+surface and balance the water content needed for the reaction.[8]
+In the quest for catalysts to produce C + chemicals in eCO RR, transition metal phosphide
+2 2
+(TMPs) have received great attention due to their low overpotentials and high selectivity toward
+C + products, such as 2,3-furandiol (C H O )[9], methylglyoxal (C H O )[10], and ethanol
+2 4 4 3 3 4 2
+(C H OH).[11,12] It has been shown that nanostructured TMPs have a promising catalytic ability
+2 5
+owing to their unique structural properties that provide a high density of metal active sites at the
+surface with outstanding electronic properties, i.e., high density of d-orbital electrons at the
+Fermi energy and low work function that can be ideal for electrocatalysis.[13]
+In this study, we have demonstrated a novel catalytic system with molybdenum phosphide
+(MoP) nanoparticles, a TMP, as the catalyst, and an Im as a catalyst helper that works
+remarkably well as a unified system to effectively produce C H OH in a hybrid electrolyte of 3M
+2 5
+potassium hydroxide (KOH) and 3M potassium chloride (KCl).
+2. Experimental section
+2.1. Synthesis of MoP-Im and MoP catalysts and the ionomer
+MoP nanoparticles were synthesized using a colloidal chemistry method followed by a two-
+step thermal sintering process. Ammonium molybdate tetrahydrate ((NH ) Mo O .4H O, Sigma
+4 6 7 24 2
+Aldrich), ammonium hydrogen phosphate ((NH ) HPO , Sigma Aldrich) and citric acid (C H O ,
+4 2 4 6 8 7
+Sigma Aldrich) were used to synthesize MoP nanoparticles. First, (NH ) Mo O .4H O (4.68 g)
+4 6 7 24 2
+and (NH ) HPO (0.5 g) with a molar ratio of 1:1 were dissolved in a sufficient amount of DI-
+4 2 4
+water (40 ml) at 90 ºC for 2 h. Then citric acid (0.1 g) was added to the solution in a molar ratio
+of 2 (citric acid): 1 (Mo). After the water evaporated, the remaining brown slurry was dried in
+3
+
+
+===== PAGE 4 =====
+
+vacuum at 120 ºC for 24 h and hand ground to get the MoP precursor. The precursor was then
+sintered at 500 ºC for 5 h under nitrogen flow. The obtained dark gray powder was then heated
+to 650 ºC at a heating rate of 10 ºC/min and kept at 650 ºC for 2 h under a controlled flow of 8
+vol.% of hydrogen/argon to obtain the MoP nanoparticles. The as-synthesized MoP
+nanoparticles were then deactivated in mixed 2 vol.% oxygen/argon flow for 2 h, after which
+they could be handled in ambient air. [13]
+The Im used for our MoP-Im was synthesized by mixing 2.4 g of divinylbenzene
+(C H (CH=CH ) , Sigma Aldrich), 0.048 g of cyclohexane carbonitrile (C H CN, Sigma Aldrich),
+6 4 2 2 6 11
+0.08 g 1,1-azobis cyclohexane carbonitrile (NCC H N=NC H CN, Sigma Aldrich) and 1.5 g of
+6 10 6 10
+2-methylimidazole (C H N , Sigma Aldrich) in 10 ml of dimethylformamide (HCON(CH ) , Sigma
+4 6 2 3 2
+Aldrich). The mixture then was heated to 80 ºC for 9 h to obtain a white solid, the ionomer
+precursor. Next, the precursor was washed with 15 ml of dichloromethane (CH Cl , Sigma
+2 2
+Aldrich) to remove residual dimethylformamide solvent and excess reagents. The synthesized
+ionomer was also dried in a vacuum oven at 50 ºC to remove any residual impurities. [14,15]
+To prepare the MoP-Im matrix, 0.1 g of MoP nanoparticles was dispersed in 15 ml of isopropyl
+alcohol (C H OH, Sigma Aldrich). Then synthesized Im was added to the solution and mixed
+3 7
+with MoP nanoparticles for 2 h at 50 ºC to obtain MoP-Im ink with 8 wt.% of the Im.
+2.2. Electrochemical CO reduction reaction setup
+2
+A two-compartment three-electrode flow electrolyzer was used for electrochemical
+experiments. It consists of housings, gaskets, anode and cathode flow-field plates, and an anion
+exchange membrane. The anode and cathode housings (10 × 10 × 1 cm) were made from
+stainless steel and serve to deliver liquid and gas feeds to the anode and cathode parts, through
+0.125” NPT ports with barbed tubing adapters. The cathode and anode housings with active
+surface areas of 5 cm2 sandwich an ionic exchange membrane (Sustainion X37-50 Grade RT,
+Dioxide Materials). The membrane was treated in a CO saturated 3M potassium hydroxide
+2
+4
+
+
+===== PAGE 5 =====
+
+solution for 12 hr at 50 °C prior to use. A peristaltic pump (Masterflex, Cole-Parmer) was used to
+continuously pump a hybrid 3M potassium hydroxide and 3M potassium chloride electrolyte with
+flow rate of 30 ml/min through the cathode and anode sides. A mass flow controller (SmartTrak
+50, Sierra, calibrated with CO gas) connected to the humidifier kit, was used to set the flow rate
+2
+of CO at 30 ml/min. Iridium oxide (IrO ) powder (Sigma Aldrich) and Ag/AgCl (saturated KCl)
+2 2
+were employed as anode and reference electrodes, respectively. More details about
+electrochemical setup and experiments can be found in the Supplementary Materials section
+S8.
+2.3. Product characterization and energy conversion efficiency measurement
+The products of electrochemical CO RR were detected and quantified using a gas
+2
+chromatograph (GC, SRI 8610C Multiple Gas Analyzer), differential electrochemical mass
+spectroscopy (DEMS, HPR-40, Hiden Analytical) and nuclear magnetic resonance spectroscopy
+(NMR, 500 MHz Bruker Advance III HD). The GC system comprised a sampling loop equipped
+with a flame ionization detector (FID) and a thermal conductivity detector (TCD). Ultra-high
+purity helium (He) and nitrogen (N ) (UHP 99.99%, Airgas) were used as the carrier gases to
+2
+identify any possible type of product. The column oven was maintained at 40 ºC for 2 min
+followed by a temperature ramp at 20 ºC/min to 250 ºC which was held constant for 1 min for a
+precise product analysis. Moreover, the in-situ DEMS was used to validate the obtained
+Materials from the GC system by continuously detecting all possible products, even at trace
+amounts (partial pressure of 1 x 10-13 Torr), during the experiments, resulting in a more precise
+measurement. The signal responses of the DEMS instrument for different products were
+calibrated by feeding standard samples into the mass spectrometer. An electron energy of 70
+eV was used for ionization of all species, with an emission current of 500 µA. All mass-selected
+product cations were detected by a secondary electron multiplier with a detector voltage of 1200
+V for maximizing the signal to noise ratio of the products. The NMR spectroscopy was employed
+5
+
+
+===== PAGE 6 =====
+
+to characterize the liquid phase products. To do so, 0.5 ml of the electrolyte was taken and
+mixed with 0.2 ml Deutrium oxide (D O 99.9% deuterium, Sigma-Aldrich) in 5 mm NMR glass
+2
+tube (Wilmad®). All NMR spectra were collected using a 500 MHz Bruker Advance III HD
+system equipped with a TXO Prodigy probe with Z-gradient for enhanced sensitivity at 298 K.
+More details about the products analyses of electrochemical CO RR can be found in
+2
+Supplementary Materials section S9.
+The C H OH energy conversion efficiency is calculated based on experimental
+2 5
+measurements of the cathodic half-cell reaction. The overpotential for the anodic water splitting
+reaction (O +4H++4e- ↔ 2H O, (cid:3)(cid:15) ≅ 1.23 V vs RHE) is assumed to be zero. The
+2 2 (cid:4)(cid:5)(cid:6)(cid:7)(cid:8) (cid:9)(cid:10)(cid:11)(cid:12)(cid:6)(cid:6)(cid:12)(cid:13)(cid:14)
+C H OH energy conversion efficiency for MoP-Im catalyst obtained using Equation 1:
+2 5
+Cathodic Energy Efficiency (%)=
+$
+%
+,
+&’()*+
+× .$/012345
+(Equation 1)
+$6755 8/55
+Where (cid:3) is a summation of the cathodic half-cell potential obtained in the experiments
+9:(cid:11)(cid:11) ;(cid:7)(cid:11)(cid:11)
+with thermodynamic potential of the anodic water splitting reaction where no overpotential
+losses at the anode is considered ((cid:3) = (cid:3) – 1.23). (cid:3)I is thermodynamical
+9:(cid:11)(cid:11) ;(cid:7)(cid:11)(cid:11) ;(cid:5)(cid:6)<=>(cid:7) CDEFG(cid:15)H
+potential of C H OH production that is calculated to be (cid:3)I ≅ -1.15 V using the Gibbs free
+2 5 CDEFG(cid:15)H
+energy of species by using ∆K = −MN(cid:3).
+2.4. Electrochemical impedance spectroscopy (EIS) and CO diffusion
+2
+coefficient calculations
+The EIS experiments were employed to compare the CO diffusion coefficient for MoP-Im and
+2
+MoP catalytic systems under an identical experimental condition. In this regard, when both
+diffusion and kinetic processes are involved in the reaction, the overall resistance is a
+summation of O indicating charge transfer resistance (kinetic parameter observed at high
+PD
+frequency region) and Q (real component of Q shown in Figure S18) that shows frequency-
+R S
+dependent resistance in Warburg impedance (diffusion parameter observed at low frequency
+region).
+6
+
+
+===== PAGE 7 =====
+
+At high overpotentials where both diffusion and kinetic processes are involved in the reaction,
+the overall resistance is a summation of O charge transfer resistance (kinetic parameter
+PD
+observed at high frequency region) and Q (real component of Q ) that shows frequency-
+R S
+dependent resistance in Warburg impedance (diffusion parameter observed at low frequency
+region). The EIS experiments were conducted under identical experimental condition at a
+potential of -0.4 V for both MoP-Im and MoP catalytic systems. At this potential, the reaction
+rate, current density, is overwhelmingly limited by the diffusion of CO reactants to the surface of
+2
+catalyst (diffusion-controlled region).
+The Nyquist plots for different catalysts were recorded over a frequency range of 1 to 2 × 105
+Hz. The CO diffusion coefficient at low frequency range (< 10 Hz) for the MoP-Im and MoP
+2
+catalysts are obtained using Equation 2:
+RUVU
+T = (Equation 2)
+WXUGY.YZU[U
+\
+Where T is the CO diffusion coefficient, O is the universal gas constant, ] is the temperature,
+2
+^ is the electrode area, M is the number of transferred electrons, N is Faraday’s constant, and _
+is the concentration of the oxidants. More details about EIS experiments and CO diffusion
+2
+coefficient calculations can be found in Supplementary Materials section S14.
+2.5. In-situ electrochemical Raman spectroscopy
+The in-situ electrochemical Raman spectroscopy was conducted in a custom designed
+electrochemical cell employing Horiba LabRAM HR Evo Confocal Raman (Horiba scientific
+instrument, US). A 532 nm laser source, a HORIBA Synapse detector, 600 g/mm grating and a
+long-distance 50x objective was used to probe the samples. The measurement parameters
+such as acquisition time, averaging parameters and laser power were all optimized to enhance
+the signal to noise ratio of the spectra. The Raman laser was focused onto the surface of the
+working electrode through a transparent quartz window (1 mm thick) and a thin layer of
+7
+
+
+===== PAGE 8 =====
+
+electrolyte with a total optical path of 3.25 mm. More details about In-situ Raman spectroscopy
+can be found in Supplementary Materials section S17.
+2.6. Theoretical study
+The density functional theory (DFT) calculations were conducted with the commercial code
+VASP. The exchange-correlation energies were obtained with GGA-PBE functional. The van
+der Waals corrections were obtained with zero damping DFT-D3 method of Grimme. The cut-off
+energies for slab models were set to 400 eV and a k-point mesh of 3 × 3 × 1 in Monkhorst-pack
+scheme were used. The self-consistent iterations were stopped until the force is less than 0.02
+eV/Å. All calculations included the dipole corrections. More details of computational methods
+can be found in the Supplementary Materials section S18.
+3. Results and discussion
+3.1. Characterization of Structure and Morphology
+To gain an understanding of structural, physicochemical, and electronic properties of
+synthesized catalysts, i.e., MoP-Im and MoP, and identify the key factors that affect their
+electrocatalytic properties, we have performed different molecular and atomic scale
+characterizations, such as X-ray diffraction (XRD), scanning electron microscopy (SEM), X-ray
+photoelectron spectroscopy (XPS), X-ray absorption fine structure (XAFS), and high-resolution
+transmission electron microscopy (HRTEM), (sections S3-S7, Supplementary Materials).
+The XRD experiment was employed to study the lattice structure of the MoP-Im and MoP
+catalysts (section S3, Supplementary Materials). The XRD patterns of both MoP-Im and MoP
+show a sharp peak at 2θ=43.4º along with three pronounced peaks at 2θ=32.4º, 57.5º, and
+28.3º corresponding to (101), (100), (110) and (001) crystal surfaces of MoP, respectively
+8
+
+
+===== PAGE 9 =====
+
+(Figure S3, Supplementary Materials).[13] The XRD patterns of MoP-Im and MoP shown in
+Figure S3 indicate all Bragg peaks of MoP, verifying their homogeneous and pure structures.
+The XRD results also exhibit a hexagonal ‘6bc2 space group for both MoP-Im and MoP
+catalyst, where the length of all Mo-P bonds are 2.46 Å suggesting no structural changes due to
+the ionomer coating.[19]
+Figure 1. Structural and physicochemical characterization of studied catalysts. (a) Cross-sectional
+scanning electron microscopy (SEM) image of MoP-Im electrode. The electrode was prepared by coating
+the MoP-Im catalyst on a gas diffusion layer (GDL). (b) High-resolution transmission electron microscopy
+(HRTEM) image of MoP-Im catalyst. The inset shows a laminar conformal overcoating of the ionomer. (c)
+Mo 3d high-resolution X-ray photoelectron spectroscopy (XPS) spectra of MoP-Im and MoP. (d) X-ray
+absorption near edge structure (XANES) spectra of MoP-Im compared to MoP.
+9
+
+
+===== PAGE 10 =====
+
+The cross-sectional and surface morphologies of the MoP-Im coated on the GDL are shown in
+Figure 1a and Figure S4a (section S4, Supplementary Materials). The cross-sectional SEM
+image of the MoP-Im deposited on GDL further shows the morphology of the catalyst layer with
+a thickness of 2-3 µm. We also performed energy dispersive X-ray (EDX) spectroscopy analysis
+shown in Figure S4a to study the elemental distribution of Mo, P, N, and C atoms present in the
+MoP-Im electrode (section S4, Supplementary Materials). Our EDX analysis indicates a
+homogenous distribution of Mo and P atoms from MoP as well as N and C atoms from the Im
+with an approximate thickness of 2-3 μm at the top of the cross-sectional SEM image.
+HRTEM experiments were performed to further characterize particle shape, size, and
+thickness of ionomer in the synthesized MoP-Im (section S5, Supplementary Materials). Figure
+1b shows the image of the well-dispersed MoP-Im, confirming its spherical shape and uniform
+size distribution. Figure S5 indicates a high-magnification HRTEM image of a single MoP-Im
+particle confirming the presence of a continuous and conformal ionomer layer with a thickness
+of less than 2 nm, on the surface of MoP nanoparticles with an average particle size of 8-10 nm
+(section S5, Supplementary Materials). Our Atomic resolution ABF image of the <001> zone
+axis is also shown in Figures S5c and S5d with corresponding Fast Fourier transform (FFT)
+image in the inset confirming a hexagonal structure of MoP crystal in both MoP-Im and MoP
+catalysts. The crystal model in the <001> zone axis is overlaid on Figure S5c (section S5,
+Supplementary Materials). Figure S5d shows the image simulation using the crystal model at
+the same zone axis. The good match among model, experiment, and simulated images
+confirms the hexagonal geometry of MoP crystal with dominant Mo atoms at the surface, which
+are the potential active sites in eCO RR.
+2
+The XPS experiments were performed to analyze the surface chemistry of MoP-Im in
+comparison with MoP nanoparticles (section S6, Supplementary Materials). Figure 1c depicts
+the Mo 3d XPS spectra of MoP-Im, indicating two intense peaks centered at 228.36 and 231.7
+10
+
+
+===== PAGE 11 =====
+
+eV attributed to Mo 3d and Mo 3d of Mo+3 atoms in MoP-Im.[20] These results show about
+5/2 3/2
+0.2 eV shifts in the Mo 3d and Mo 3d peaks of MoP-Im compared to the MoP indicating that
+5/2 3/2
+the ionomer coating layer alters the electronic properties of Mo atoms in MoP. The P 2p XPS
+spectra of MoP-Im and MoP are shown in Figure S6a (section S6, Supplementary Materials).
+The results indicate spin-orbit split 2p peaks of 2p at a binding energy of 130.7 eV and 2p at
+3/2 1/2
+a binding energy of 131.6 eV. The peaks are attributed to the Mo-P bond,[20] suggesting an
+oxidation state of -3 for P atoms for both MoP-Im and MoP catalysts (section S6,
+Supplementary Materials).[13] Furthermore, the N 1s XPS spectra of MoP-Im shown in Figure
+S6b indicate two distinct peaks centered at binding energies of 397.3 and 400.5 eV
+corresponding to nitrogen atoms (=N- and –N<, respectively) of imidazolium (section S6,
+Supplementary Materials).[21] In contrast, the XPS spectrum of bare MoP does not show any N
+1s peak, confirming the existence of the ionomer coating layer for MoP-Im. This is further
+confirmed by XPS depth profiling analysis that suggests the surface of MoP-Im is dominated by
+the ionomer (Figure S7, Supplementary Materials).
+Next, we carried out ex-situ X-ray absorption spectroscopy (XAS) measurements at the Mo K-
+edge on MoP-Im and MoP catalysts to determine the effect of the Im on the electronic structure
+and local geometry of the MoP-Im (section S7, Supplementary Materials). Comparing X-ray
+absorption near edge structure (XANES) spectra of MoP-Im and MoP catalysts shown in Figure
+1d indicate that the white line in MoP-Im shifts to lower energy (3.0 eV) compared to that of
+MoP, whereas the peak height remains almost the same.[22] This result suggests that the Mo
+atoms on the surface of MoP-Im catalyst are slightly reduced compared to Mo atoms on the
+surface of MoP catalyst (sections S6 and S7, Supplementary Materials).[23] The Fourier
+transforms of extended X-ray absorption fine structure (EXAFS) results also indicate that Mo-P
+bond distances for the studied catalysts are virtually identical, confirming no structural changes
+11
+
+
+===== PAGE 12 =====
+
+for MoP-Im compared to MoP nanoparticles (see Table S1 and Figure S8, Supplementary
+Materials).
+3.2. Electrochemical Characterization
+We tested the eCO RR performances of synthesized MoP-Im and MoP catalysts in a custom-
+2
+designed three-electrode electrochemical cell (see note S8). All electrochemical tests in this
+study were carefully conducted under identical experimental conditions using a hybrid 3M KOH
+and 3M KCl electrolyte. This combination was selected because it suppresses hydrogen
+production and increases hydrogenation processes in eCO RR.[24,25] We evaluated the overall
+2
+activities of MoP-Im and compared with MoP by performing linear sweep voltammetry (LSV)
+experiments in the potential range of 0 to -0.5 V versus reversible hydrogen electrode (vs. RHE,
+all potentials are reported with respect to RHE in this study) with a scan rate of 20 mV/s (Figure
+2a). As shown in Figure 2a, MoP-Im co-catalyst indicates a current density of -90.8 mA/cm2 at
+the potential of -0.5 V that is about 1.4 times higher than that of MoP nanoparticles (-63.8
+mA/cm2at -0.5 V), indicating higher overall activity of the MoP-Im co-catalyst system compared
+to MoP nanoparticles.
+We also measured the selectivity of synthesized MoP-Im and MoP catalysts by performing
+chronoamperometry experiments (CA) at different potentials (section S9, Supplementary
+Materials). The product streams were analyzed using gas chromatography (GC), differential
+electrochemical mass spectrometry (DEMS), and nuclear magnetic resonance spectroscopy
+(NMR). Our measurements indicate that the MoP-Im starts to produce C H OH at a potential of
+2 5
+-0.2 V (that is equivalent to 280 mV overpotential considering C H OH thermodynamic potential
+2 5
+of +0.08 V) with a maximum FE of 77.4% (Table S2, Supplementary Materials). On the other
+hand, MoP is mainly selective for methanol (CH OH) production with a maximum FE of 60.8%
+3
+and C H OH formation FE of 21.8%, at the same potential (Table S2, Supplementary Materials).
+2 5
+Moreover, the product selectivity analyses reveal that the MoP-Im and MoP catalysts produce
+12
+
+
+===== PAGE 13 =====
+
+other eCO RR products, such as carbon monoxide (CO), methane (CH ), and ethylene (C H )
+2 4 2 4
+at the potential of -0.2 V (section S9, Supplementary Materials). Isotope 13C CO experiments
+2
+confirm that the CO gas present inside the electrolyte is the only source of the formed products
+2
+for MoP-Im in the eCO RR (section S10, Supplementary Materials).
+2
+13
+
+
+===== PAGE 14 =====
+
+-100
+-10
+-1
+-0.1
+-0.01
+-0.20-0.25 -0.30-0.35-0.40 -0.45-0.50
+Figure 2. Electrocatalytic performance of MoP-Im and MoP for eCO RR in a two-compartment
+2
+three-electrode electrochemical cell using a hybrid 3M KOH and 3M KCl electrolyte. (a) Linear
+sweep voltammetry (LSV) results of MoP and MoP-Im in a potential range of 0 to -0.5 V. (b) Partial
+current densities of different products for MoP-Im catalyst as a function of potentials. (c) Cathodic energy
+efficiency for C H OH formation (Cathodic EE ) of MoP-Im and MoP compared to state-of-the-art
+2 5 C2H5OH
+catalytic systems.[11,12,26–33] The data shown in this figure are obtained at the maximum C H OH
+2 5
+formation FE of each catalyst in the literature considering no overpotential losses at the anode. (d)
+C H OH formation turnover frequency (TOF ) calculations for MoP and MoP-Im. (e) Stability analysis
+2 5 C2H5OH
+of MoP-Im in eCO RR at a potential of -0.5 V. This figure shows the overall current density of MoP-Im as
+2
+a function of time. Ethanol and methanol production FEs are also represented over time.
+14
+)2mc/Am(
+j
+laitrap
+0 MoP-Im
+-15
+-30
+-45
+CHOH
+2 5
+CHOH
+-60 3
+CH
+2 4
+-75 CH
+4
+CO
+-90 H
+2
+-0.5 -0.4 -0.3 -0.2 -0.1 0.0
+E (V vs. RHE) WE
+)2mc/Am(
+j
+latot
+MoP-Im
+MoP
+E (V vs. RHE) WE
+1
+0.1
+0.01
+-0.20-0.25-0.30-0.35-0.40-0.45-0.50
+)1-s(
+FOT
+HOHC
+5
+2
+a b
+c d
+70
+MoP-Im
+60 Cu/C
+50
+40
+N-C/Cu
+30 Ce(OH)/Cu
+x
+20 MoP Cu-N-C
+Ag/Cu
+Fe P S
+10 2 2 6 Cu S MoP-Im
+BP 2
+FeP F-Cu MoP
+0
+-0.2 -0.4 -0.6 -0.8 -1.0 -1.2
+E (V vs. RHE) WE
+)%(
+EE
+cidohtaC
+HOHC
+5
+2
+E (V vs. RHE) WE
+-150
+-120
+-90
+-60
+-30
+0 10 20 30 40 50 60 70 80 90 100 110
+)2mc/Am(
+j
+latot
+MoP-Im C H OH 70
+2 5
+50
+30
+10
+Time (h)
+)%(
+EF
+e
+CH OH 3
+
+
+===== PAGE 15 =====
+
+We calculated partial current densities of different products considering the total current
+densities and FEs of MoP-Im and MoP catalysts (Figure 2b, and Figure S11, Supplementary
+Materials). Figure 2b indicates that using the MoP-Im catalyst, the C H OH formation starts at a
+2 5
+potential of -0.2 V with a current density of -8.6 mA/cm2 and reaches its maximum of -54.9
+mA/cm2 at a potential of -0.5 V. The maximum C H OH formation current density of MoP-Im co-
+2 5
+catalyst (-54.9 mA/cm2 at -0.5 V) is about 5 times higher than that of MoP (-10.7 mA/cm2 at -0.5
+V) indicating higher C H OH formation activity of MoP-Im compared to MoP. Furthermore, at the
+2 5
+potential of -0.5 V, MoP-Im catalyst produces other eCO RR products such as CH OH, C H ,
+2 3 2 4
+CH , and CO with partial current densities of -8.3, -5, -3.3, and -7.3 mA/cm2, respectively.
+4
+We benchmarked the MoP-Im and MoP catalysts by comparing their C H OH formation
+2 5
+energy efficiencies to state-of-the-art electrocatalysts in the literature at their highest C H OH
+2 5
+formation FE considering no anodic overpotential losses (Figure 2c, and Table S4,
+Supplementary Materials). Figure 2c indicates C H OH formation cathodic energy efficiency
+2 5
+(cathodic EE )of 63.3% and 17.9% for MoP-Im and MoP catalysts, respectively. As shown
+C2H5OH
+in this figure, the cathodic EE of MoP-Im is about 1.2 and 2-times higher than that of
+C2H5OH
+recently studied Cu/C (55.2%)[27] and N-C/Cu (32.5%)[28] catalytic systems, respectively.
+To understand the actual per atom activity of the MoP-Im co-catalyst, we measured C H OH
+2 5
+formation turnover frequencies (TOF ) of MoP-Im and MoP catalysts where TOF
+C2H5OH C2H5OH
+values were normalized to the number of Mo atoms identified as the potential active sites at the
+surface by our characterization analyses (section S11, Supplementary Materials).[25] Figure 2d
+shows the calculated TOF of MoP-Im and MoP catalysts in the potential range of -0.2 to -
+C2H5OH
+0.5 V. The results indicate a TOF of 0.137 s-1at a potential of -0.2 V for the MoP-Im, that is
+C2H5OH
+about 5.7 times higher than MoP (0.024 s-1 at -0.2 V). Figure 2d exhibits that the TOF
+C2H5OH
+values for both MoP-Im and MoP catalysts increase gradually with increasing potential.
+Moreover, MoP-Im shows a maximum TOF of 0.875 s-1 at the potential of -0.5 V, whereas
+C2H5OH
+15
+
+
+===== PAGE 16 =====
+
+the TOF for MoP is 0.185 s-1. Since TOF values represent the intrinsic activity of
+C2H5OH
+catalytically active sites (i.e., Mo atoms), the difference in TOF values at the same applied
+C2H5OH
+potentials for MoP-Im and MoP catalysts is potentially due to the presence of the ionomer in the
+MoP-Im co-catalyst.[27]
+To realize the C H OH formation kinetic parameters of the MoP-Im and MoP catalysts, we
+2 5
+employed Tafel plot analysis using the potentials and partial C H OH current densities. Our
+2 5
+analysis, shown in Figure S16 (section S12, Supplementary Materials), indicates nearly the
+same C H OH Tafel slopes for MoP-Im and MoP catalysts suggesting a similar reaction
+2 5
+mechanism for both catalytic systems. However, the MoP-Im co-catalyst has a C H OH
+2 5
+exchange current density (d ) of 325 µA that is 5.6-fold higher than that of MoP (58 µA).
+(cid:15),ZWfghf
+This result clearly shows a higher intrinsic catalytic activity of Mo atoms in MoP-Im compared
+with MoP for production of C H OH.[34]
+2 5
+The stability of the MoP-Im was studied by performing a long-term eCO RR experiment at a
+2
+potential of -0.5 V, where the maximum product formation was observed. Figure 2e shows the
+overall current density and FEs of C H OH and CH OH formation during the long-term
+2 5 3
+experiment. As shown in Figure 2e, the MoP-Im exhibited stable total current density of about -
+90 mA/cm2 at the potential of -0.5 V with average FEs of about 60.1% and 9% for C H OH and
+2 5
+CH OH during a 112-hour continuous process. The recorded total current density of the MoP-Im
+3
+indicates less than 8% decay over the entire period. The stability results suggest that the
+presence of the Im stabilize the MoP-Im electrode in long-term eCO RR and prevent the
+2
+catalysts leaching, which usually occurs in long-term processes (section S13, Supplementary
+Materials).[35]
+3.3. Characterization of the Catalyst Layer
+To gain more insight into the effect of the Im on the CO diffusion in the catalyst layer and
+2
+electron transfer properties of MoP-Im, we performed electrochemical impendence
+16
+
+
+===== PAGE 17 =====
+
+spectroscopy (EIS) experiments (section S14, Supplementary Materials). These experiments
+were performed at a potential of -0.4 V where the activities of MoP-Im and MoP catalysts are
+limited by both diffusion of CO as a reactant from bulk to the catalyst surface (linear region at
+2
+low frequencies of the Nyquist plot) and the electron transfer from the surface of the catalyst to
+the reactant (semi-circle region at high frequencies of the Nyquist plot).[36–39] Figure 3a shows
+the fitted EIS spectra of MoP-Im and MoP catalysts using the Randles circuit model. The EIS
+results from the kinetic-controlled region (semi-circle region) indicate a smaller charge transfer
+resistance (R ) for the MoP-Im (~10 ohms) compared to MoP (~12 ohms) suggesting improved
+ct
+electron transfer kinetics of the Mo atoms for the MoP-Im co-catalyst. This result is consistent
+with the XANES and XPS analyses, where we observed changes in electronic properties of the
+MoP-Im co-catalyst.[25] Moreover, we extracted the Warburg factors (σ ) for MoP-Im and MoP
+W
+catalysts from EIS results by plotting the gradient of the linear plot of the real impedance as a
+function of the reciprocal of the square root of the frequency at low-frequency range (diffusion-
+controlled region, section S14, Supplementary Materials).[36–39] Our results indicate Warburg
+factors of 10.35 and 15.85 Ω/s1/2 for MoP-Im and MoP catalysts, respectively. The CO diffusion
+2
+coefficients (D ) of MoP-Im and MoP catalysts were calculated using extracted Warburg
+CO2
+factors (section S14, Supplementary Materials). The results illustrate about 20% higher D
+CO2
+(5.31 x 10-11 m2/s) of the MoP-Im than that of MoP (4.43 x 10-11 m2/s) indicating a higher CO
+2
+diffusion rate from the bulk to the active sites of MoP-Im compared to the MoP (section S14,
+Supplementary Materials). This results in 1.8 times higher availability of CO on the active sites
+2
+of MoP-Im for the reaction. The EIS results confirm that the higher availability of CO near the
+2
+catalyst surface and the lower charge transfer resistance of Mo active sites enhance the activity
+of the MoP-Im compared to the MoP for C H OH production (section S9, Supplementary
+2 5
+Materials). These results align with our calculations, where about five times higher exchange
+current density and TOF (intrinsic activity normalized per Mo active sites) were observed
+C2H5OH
+for the MoP-Im.
+17
+
+
+===== PAGE 18 =====
+
+Figure 3. Catalyst layer analyses of MoP-Im and MoP. (a) EIS experiments of MoP-Im and MoP catalysts. The
+experiments were conducted at a potential of -0.4 V. The results indicate Warburg factors of 10.35 and 15.85 Ω/s1/2
+for MoP-Im and MoP, respectively. (b,c) Static and (d,e) Advancing contact angle analysis images of MoP-Im and
+MoP electrodes with the hybrid electrolyte of 3M KOH and 3M KCl. The wettability analysis reveals the hydrophobic
+character of MoP-Im, as compared to the hydrophilic property of MoP.
+To further elucidate the effect of the Im on the catalyst layer, we obtained CO adsorption
+2
+isotherms for MoP-Im and MoP (section S15, Supplementary Materials). The CO adsorption
+2
+isotherms of the studied catalysts at 298 K are depicted in Figure S20 (section S15,
+Supplementary Materials). These results indicate CO adsorption of 228 µmol/g for MoP-Im at a
+2
+relative pressure of 0.01656, which is about 34% higher than that of MoP (171 µmol/g),
+suggesting higher CO uptake ability of MoP-Im compared with MoP. In addition, we conducted
+2
+static and advancing contact angle measurements to study the wetting properties of MoP-Im
+and MoP catalysts (section S16, Supplementary Materials). The results shown in Figures 3b-e
+indicate that the Im decreases the surface energy (i.e., increases hydrophobicity) of the catalyst
+layer, which controls water content on the surface of MoP nanoparticles and suppresses the
+competing hydrogen evolution reaction for the MoP-Im (see Figure S21 and Table S8,
+Supplementary Materials).[40]
+3.4. Mechanistic Understanding
+We conducted in-situ Raman spectroscopy during eCO RR to gain an insight into the origin of
+2
+a higher C production activity of the MoP-Im (section S17, Supplementary Materials). The
+2+
+18
+
+
+===== PAGE 19 =====
+
+constructive Raman spectra at open circuit potential (OCP) shown in Figure 4 confirm the
+stability of the synthesized catalysts under experimental conditions. Figure 4 indicates five
+distinct Raman peaks of 290, 380, 1063,1520, and 2160 cm-1 at the cathodic potential of -0.5 V
+where 1063 and 1520 cm-1 peaks are attributed to the carbonate (CO 2-) and adsorbed
+3
+carboxylate (*CO -) species.[41,42] Our peak analysis shows that the concentration of CO 2-
+2 3
+representing CO molecules in the aqueous electrolytes (Raman peak at 1063 cm-1 ) on the
+2
+surface of the MoP-Im is about 30% higher at a potential of -0.5 V than on MoP (section S17,
+Supplementary Materials); this is consistent with our diffusion coefficient calculation and CO
+2
+isotherm results (sections S14 and S15, Supplementary Materials). This clearly shows that the
+higher CO diffusion affinity of the MoP-Im catalyst leads to higher local concentrations of CO 2-,
+2 3
+and thus suggests a higher overall activity of the MoP-Im in eCO RR. Similarly, Figure 4 shows
+2
+about 50% higher concentration of *CO - (Raman peak at 1520 cm-1) at the surface of the MoP-
+2
+Im compared to MoP at a potential of -0.5 V. Comparing these results, we found that the
+changes in the local concentration of *CO - are much larger than those observed for CO 2-.
+2 3
+These results suggest that the Im enhances the diffusion of the reactant toward the catalyst
+surface and, more importantly, increases the number of stabilized *CO - intermediates on the
+2
+MoP-Im surface (sections S14 and S15, Supplementary Materials). Our DFT calculations also
+confirm that the imidazolium in Im structure can bind on MoP(100) and MoP(001) surfaces with
+N atoms on Mo top sites and facilitate the charge transfer to the adsorbed CO species. This
+2
+results in increasing the CO binding strength on the surface Mo-atoms of MoP-Im (section S18,
+2
+Supplementary Materials).
+To gain more insight about a higher C-C coupling and ethanol production rates of MoP-Im, we
+further investigated the differences between three Raman peaks centered at 290, 380, and
+2160 cm-1 which are correlated to the restricted rotation of adsorbed *CO (P1), Mo-CO
+stretching (P2), and *C-O stretching (P3), respectively.[30,43,44] It is worth noting that as a
+19
+
+
+===== PAGE 20 =====
+
+metal surface adsorbs *CO intermediates, the electrons are partially transferred from a d-orbital
+of the metal atoms on to anti-bonding molecular orbitals of *CO intermediates.[43,44] This
+electron-transfer strengthens the Mo-CO bond and increases of the vibrational frequencies for
+the Mo-CO bond.[30] Therefore, higher Mo-CO stretching peak (P2) is attributed to the strength
+of the Mo-CO bond.
+2_ _ CO
+3
+E = -0.5 V
+WE
+OCP
+200 400 600 800 1000 1200 1400 1600 1800 2000 2200 2400
+Figure 4. In-situ electrochemical Raman spectroscopy experiments in eCO RR at open circuit
+2
+potential (OCP) and applied cathodic potential of -0.5 V. (a) In-situ Raman spectra of MoP-Im
+electrode, and (b) bare MoP electrode under an identical experimental condition.
+Our peak analysis shows that the intensity of the P2 peak for MoP-Im is higher than that of
+MoP catalyst, and P2/P1 ratio for MoP-Im catalyst at the potential -0.5 V (P2/P1 ≅ 1.47) is about
+47% higher than that of MoP catalyst (P2/P1 ≅ 1). The higher P2/P1 ratio for MoP-Im indicates
+that the *CO intermediates are stabilized on the surface of MoP-Im which results in higher C-C
+20
+)stinu
+.bra(
+ytisnetnI
+P1 P2 *CO P3 MoP-Im
+2
+Raman Shift (cm-1)
+2_ _ CO
+3
+E = -0.5 V
+WE
+OCP
+200 400 600 800 1000 1200 1400 1600 1800 2000 2200 2400
+)stinu
+.bra(
+ytisnetnI
+a
+b
+P1 P2 *CO P3 MoP
+2
+Raman Shift (cm-1)
+
+
+===== PAGE 21 =====
+
+coupling.[43,44] This is consistent with previous studies where it has been confirmed that the
+intensity ratio of P1 and P2 peaks are potential dependent and higher P2/P1 Raman peak ratios
+are linked to a higher C-C coupling and C products formation.[43] Furthermore, our in-situ
+2+
+Raman spectroscopy results show a higher intensity P3 (*C-O stretching) peak of MoP-Im
+compared to MoP catalyst at the potential of -0.5 V indicating a high concentration/coverage of
+adsorbed *CO intermediates on the surface of MoP-Im. These results reveal that the high
+number of adsorbed *CO intermediateson the surface and the higher binding strength of *CO
+intermediates on the Mo atoms in presence of the Im are the main reasons for a greater C-C
+coupling and thereby a higher C H OH production for MoP-Im compared to MoP catalyst. [44]
+2 5
+4. Conclusions
+In summary, we have synthesized and tested the electrocatalytic performance of the MoP-Im
+co-catalyst for CO RR in a hybrid electrolyte of 3M KOH and 3M KCl. Physicochemical
+2
+characterizations, such as XPS, XANES, and TEM experiments and electrochemical analyses,
+such as Tafel plot and EIS studies, suggested that the Im works together with MoP
+nanoparticles to produce C H OH by increasing CO -to-water ratio at the catalyst layer due to
+2 5 2
+high CO diffusion and hydrophobic properties of the ionomer and alters the electronic
+2
+properties of the Mo atoms at the surface of the catalyst. In-situ Raman spectroscopy confirmed
+that the imidazolium layer not only increases the number of CO molecules near the catalyst
+2
+surface but also stabilizes adsorbed *CO – and *CO intermediates at the surface of catalyst that
+2
+promotes C-C coupling and C H OH formation activity of MoP-Im. Moreover, DFT calculations
+2 5
+suggest that the Im can increase the CO binding strength and charge transfer to accelerate the
+2
+reaction. The demonstrated electrocatalytic process using the TMP class of catalysts and
+imidazolium-based ionomer in this study suggests a promising approach for lowering eCO RR
+2
+barriers toward high rate C + production in a sustainable fashion.
+2
+Credit authorship contribution statement
+21
+
+
+===== PAGE 22 =====
+
+Mohammad Asadi and Mohammadreza Esmaeilirad conceived the idea of the work.
+Mohammadreza Esmaeilirad synthesized the nanostructured materials. Mohammadreza
+Esmaeilirad, Alireza Kondori and Ahmad M. Harzandi performed electrochemical experiments
+and data analyses. Mohammadreza Esmaeilirad and Carlo U. Segre did the XRD
+characterization and analysis. Mohammadreza Esmaeilirad and Alireza Kondori did the XPS,
+Raman, FTIR and NMR characterizations. Carlo U. Segre conducted the XAS analysis.
+Mahmoud Tamadoni Saray and Reza Shahbazian-Yassar performed the SEM and TEM
+characterizations. Sreya Sarkar performed the contact angle analysis and was supervised by
+Constantine M. Megaridis. Nannan Shan and Larry A. Curtiss conducted DFT calculations.
+Mohammad Asadi supervised the experimental efforts in design, synthesis, characterization,
+and electrochemical testing and analyses. All authors discussed the results and assisted with
+manuscript preparation and revisions.
+Declaration of competing interest
+Mohammad Asadi, Mohammadreza Esmaeilirad, and Alireza Kondori filed a provisional patent
+application. The other authors declare no competing financial interests.
+Acknowledgments
+Mohammad Asadi’s work was supported by National Science Foundation (NSF) Catalysis
+(CBET- 2135173) and Advanced Research Projects Agency-Energy (ARPA-E) OPEN2021 (DE-
+AR0001581). We acknowledge the EPIC facility (NUANCE Center, Northwestern University),
+which has received support from the MRSEC program (NSF DMR-1121262) at the Materials
+Research Center; the Nanoscale Science and Engineering Center (NSF EEC−0647560) at the
+International Institute for Nanotechnology; and the State of Illinois, through the International
+Institute for Nanotechnology. Reza Shahbazian-Yassar efforts were supported by NSF (DMR-
+1809439). This work made use of instruments in the Electron Microscopy Service (Research
+Resources Center, UIC). The acquisition of the UIC JEOL JEM-ARM200CF was supported by
+22
+
+
+===== PAGE 23 =====
+
+an MRI-R2 grant from the National Science Foundation (Award No. DMR-0959470). Nannan
+Shan and Larry A. Curtiss acknowledge the support from the Office of Science, Basic Energy
+Sciences, Materials Sciences and Engineering Division. The Materials Research Collaborative
+Access Team (MRCAT) operations are supported by the Department of Energy and the MRCAT
+member institutions. This research used resources of the Advanced Photon Source; a U.S.
+Department of Energy (DOE) Office of Science User Facility operated for the DOE Office of
+Science by Argonne National Laboratory. All research at Argonne National Laboratory, a U.S.
+Department of Energy Office of Science laboratory, operated by UChicago Argonne, LLC was
+conducted under Contract No. DE-AC02-06CH11357. Use of computational resources from
+Argonne Laboratory Computing Resource Center is acknowledged.
+References:
+[1] C. Hope, K. Schaefer, Economic impacts of carbon dioxide and methane released from
+thawing permafrost, Nature Climate Change. 6 (2016) 56–59.
+https://doi.org/10.1038/nclimate2807.
+[2] C.F. Shih, T. Zhang, J. Li, C. Bai, Powering the Future with Liquid Sunshine, Joule. 2
+(2018) 1925–1949. https://doi.org/10.1016/j.joule.2018.08.016.
+[3] M. Esmaeilirad, A. Kondori, B. Song, A. Ruiz Belmonte, J. Wei, K. Kucuk, S.M.
+Khanvilkar, E. Efimoff, W. Chen, C.U. Segre, R. Shahbazian-Yassar, M. Asadi, Oxygen
+Functionalized Copper Nanoparticles for Solar-Driven Conversion of Carbon Dioxide to
+Methane, ACS Nano. 14 (2020) 2099–2108. https://doi.org/10.1021/acsnano.9b08792.
+[4] M. Asadi, K. Kim, C. Liu, A.V. Addepalli, P. Abbasi, P. Yasaei, P. Phillips, A. Behranginia,
+J.M. Cerrato, R. Haasch, P. Zapol, B. Kumar, R.F. Klie, J. Abiade, L. a. Curtiss, A. Salehi-
+Khojin, Nanostructured transition metal dichalcogenide electrocatalysts for CO2 reduction
+in ionic liquid, Science (1979). 353 (2016) 467–470.
+https://doi.org/10.1126/science.aaf4767.
+[5] B.A. Rosen, A. Salehi-Khojin, M.R. Thorson, W. Zhu, D.T. Whipple, P.J.A. a Kenis, R.I.
+Masel, Ionic liquid-mediated selective conversion of CO2 to CO at low overpotentials,
+Science (1979). 334 (2011) 643–644. https://doi.org/10.1126/science.1209786.
+[6] H. Zhong, Y. Su, X. Chen, X. Li, R. Wang, Imidazolium- and Triazine-Based Porous
+Organic Polymers for Heterogeneous Catalytic Conversion of CO2 into Cyclic
+Carbonates, ChemSusChem. 10 (2017) 4855–4863.
+https://doi.org/https://doi.org/10.1002/cssc.201701821.
+23
+
+
+===== PAGE 24 =====
+
+[7] B.A. Rosen, J.L. Haan, P. Mukherjee, B. Braunschweig, W. Zhu, A. Salehi-Khojin, D.D.
+Dlott, R.I. Masel, In Situ Spectroscopic Examination of a Low Overpotential Pathway for
+Carbon Dioxide Conversion to Carbon Monoxide, The Journal of Physical Chemistry C.
+116 (2012) 15307–15312. https://doi.org/10.1021/jp210542v.
+[8] D. V Vasilyev, P.J. Dyson, The Role of Organic Promoters in the Electroreduction of
+Carbon Dioxide, ACS Catalysis. 11 (2021) 1392–1405.
+https://doi.org/10.1021/acscatal.0c04283.
+[9] K.U.D. Calvinho, A.B. Laursen, K.M.K. Yap, T.A. Goetjen, S. Hwang, N. Murali, B. Mejia-
+Sosa, A. Lubarski, K.M. Teeluck, E.S. Hall, E. Garfunkel, M. Greenblatt, G.C. Dismukes,
+Selective CO2 reduction to C3 and C4 oxyhydrocarbons on nickel phosphides at
+overpotentials as low as 10 mV, Energy and Environmental Science. 11 (2018) 2550–
+2559. https://doi.org/10.1039/c8ee00936h.
+[10] K.U.D. Calvinho, A.B. Laursen, K.M.K. Yap, T.A. Goetjen, S. Hwang, N. Murali, B. Mejia-
+Sosa, A. Lubarski, K.M. Teeluck, E.S. Hall, E. Garfunkel, M. Greenblatt, G.C. Dismukes,
+Selective CO2 reduction to C3 and C4 oxyhydrocarbons on nickel phosphides at
+overpotentials as low as 10 mV, Energy and Environmental Science. 11 (2018) 2550–
+2559. https://doi.org/10.1039/c8ee00936h.
+[11] L. Ji, L. Li, X. Ji, Y. Zhang, S. Mou, T. Wu, Q. Liu, B. Li, X. Zhu, Y. Luo, X. Shi, A.M. Asiri,
+X. Sun, Highly Selective Electrochemical Reduction of CO2 to Alcohols on an FeP
+Nanoarray, Angewandte Chemie - International Edition. 59 (2020) 758–762.
+https://doi.org/10.1002/anie.201912836.
+[12] L. Ji, L. Chang, Y. Zhang, S. Mou, T. Wang, Y. Luo, Z. Wang, X. Sun, Electrocatalytic
+CO2 Reduction to Alcohols with High Selectivity over a Two-Dimensional Fe2P2S6
+Nanosheet, ACS Catalysis. 9 (2019) 9721–9725.
+https://doi.org/10.1021/acscatal.9b03180.
+[13] A. Kondori, M. Esmaeilirad, A. Baskin, B. Song, J. Wei, W. Chen, C.U. Segre, R.
+Shahbazian-Yassar, D. Prendergast, M. Asadi, Identifying Catalytic Active Sites of
+Trimolybdenum Phosphide (Mo3P) for Electrochemical Hydrogen Evolution, Advanced
+Energy Materials. 9 (2019) 1–9. https://doi.org/10.1002/aenm.201900516.
+[14] R. Liu, Y. Dai, J. Li, X. Chen, C. Pan, J. Yang, Q. Li, 1-(3-Aminopropyl)imidazole
+functionalized poly(vinyl chloride) for high temperature proton exchange membrane fuel
+cell applications, Journal of Membrane Science. 620 (2021) 118873.
+https://doi.org/10.1016/j.memsci.2020.118873.
+[15] D. Huang, Y. Ding, H. Jiang, S. Sun, Z. Ma, K. Zhang, L. Pan, Y. Li, Functionalized
+Elastomeric Ionomers Used as Effective Toughening Agents for Poly(lactic acid):
+Enhancement in Interfacial Adhesion and Mechanical Performance, ACS Sustainable
+Chemistry & Engineering. 8 (2020) 573–585.
+https://doi.org/10.1021/acssuschemeng.9b06123.
+[16] M. Dunwell, W. Luc, Y. Yan, F. Jiao, B. Xu, Understanding Surface-Mediated
+Electrochemical Reactions: CO2 Reduction and Beyond, ACS Catalysis. 8 (2018) 8121–
+8129. https://doi.org/10.1021/acscatal.8b02181.
+24
+
+
+===== PAGE 25 =====
+
+[17] J. Xie, X. Zhao, M. Wu, Q. Li, Y. Wang, J. Yao, Metal-Free Fluorine-Doped Carbon
+Electrocatalyst for CO2 Reduction Outcompeting Hydrogen Evolution, Angewandte
+Chemie. 57 (2018) 9788–9792. https://doi.org/10.1002/ange.201802055.
+[18] F. Pan, H. Zhao, W. Deng, X. Feng, Y. Li, A novel N,Fe-Decorated carbon
+nanotube/carbon nanosheet architecture for efficient CO2 reduction, Electrochimica Acta.
+273 (2018) 154–161. https://doi.org/https://doi.org/10.1016/j.electacta.2018.04.047.
+[19] C. (United S.L.M.P. Lawrence Berkeley National Lab. (LBNL), Berkeley, Materials Data
+on MoP by Materials Project, (2020). https://doi.org/https://doi.org/10.17188/1197238.
+[20] Y. Huang, J. Ge, J. Hu, J. Zhang, J. Hao, Y. Wei, Nitrogen-Doped Porous Molybdenum
+Carbide and Phosphide Hybrids on a Carbon Matrix as Highly Effective Electrocatalysts
+for the Hydrogen Evolution Reaction, Advanced Energy Materials. 8 (2018) 1701601.
+https://doi.org/https://doi.org/10.1002/aenm.201701601.
+[21] Y. Zhang, G. Chen, L. Wu, K. Liu, H. Zhong, Z. Long, M. Tong, Z. Yang, S. Dai, Two-in-
+one: construction of hydroxyl and imidazolium-bifunctionalized ionic networks in one-pot
+toward synergistic catalytic CO2 fixation, Chemical Communications. 56 (2020) 3309–
+3312. https://doi.org/10.1039/C9CC09643D.
+[22] M.S. Duyar, A. Gallo, S.K. Regli, J.L. Snider, J.A. Singh, E. Valle, J. McEnaney, S.F.
+Bent, M. Rønning, T.F. Jaramillo, Understanding selectivity in co2 hydrogenation to
+methanol for mop nanoparticle catalysts using in situ techniques, Catalysts. 11 (2021) 1–
+18. https://doi.org/10.3390/catal11010143.
+[23] W. Ren, X. Tan, X. Chen, G. Zhang, K. Zhao, W. Yang, C. Jia, Y. Zhao, S.C. Smith, C.
+Zhao, Confinement of Ionic Liquids at Single-Ni-Sites Boost Electroreduction of CO2 in
+Aqueous Electrolytes, ACS Catalysis. 10 (2020) 13171–13178.
+https://doi.org/10.1021/acscatal.0c03873.
+[24] A.S. Varela, W. Ju, T. Reier, P. Strasser, Tuning the Catalytic Activity and Selectivity of
+Cu for CO2 Electroreduction in the Presence of Halides, ACS Catalysis. 6 (2016) 2136–
+2144. https://doi.org/10.1021/acscatal.5b02550.
+[25] M. Esmaeilirad, A. Baskin, A. Kondori, A. Sanz-Matias, J. Qian, B. Song, M. Tamadoni
+Saray, K. Kucuk, A.R. Belmonte, P.N.M. Delgado, J. Park, R. Azari, C.U. Segre, R.
+Shahbazian-Yassar, D. Prendergast, M. Asadi, Gold-like activity copper-like selectivity of
+heteroatomic transition metal carbides for electrocatalytic carbon dioxide reduction
+reaction, Nature Communications. 12 (2021) 5067. https://doi.org/10.1038/s41467-021-
+25295-y.
+[26] S. Mou, T. Wu, J. Xie, Y. Zhang, L. Ji, H. Huang, T. Wang, Y. Luo, X. Xiong, B. Tang, X.
+Sun, Boron Phosphide Nanoparticles: A Nonmetal Catalyst for High-Selectivity
+Electrochemical Reduction of CO2 to CH3OH, Advanced Materials. 31 (2019).
+https://doi.org/10.1002/adma.201903499.
+[27] H. Xu, D. Rebollar, H. He, L. Chong, Y. Liu, C. Liu, C.-J. Sun, T. Li, J. V Muntean, R.E.
+Winans, D.-J. Liu, T. Xu, Highly selective electrocatalytic CO2 reduction to ethanol by
+metallic clusters dynamically formed from atomically dispersed copper, Nature Energy. 5
+(2020) 623–632. https://doi.org/10.1038/s41560-020-0666-x.
+25
+
+
+===== PAGE 26 =====
+
+[28] X. Wang, Z. Wang, F.P. García de Arquer, C.T. Dinh, A. Ozden, Y.C. Li, D.H. Nam, J. Li,
+Y.S. Liu, J. Wicks, Z. Chen, M. Chi, B. Chen, Y. Wang, J. Tam, J.Y. Howe, A. Proppe, P.
+Todorović, F. Li, T.T. Zhuang, C.M. Gabardo, A.R. Kirmani, C. McCallum, S.F. Hung, Y.
+Lum, M. Luo, Y. Min, A. Xu, C.P. O’Brien, B. Stephen, B. Sun, A.H. Ip, L.J. Richter, S.O.
+Kelley, D. Sinton, E.H. Sargent, Efficient electrically powered CO2-to-ethanol via
+suppression of deoxygenation, Nature Energy. 5 (2020) 478–486.
+https://doi.org/10.1038/s41560-020-0607-8.
+[29] M. Luo, Z. Wang, Y.C. Li, J. Li, F. Li, Y. Lum, D.-H. Nam, B. Chen, J. Wicks, A. Xu, T.
+Zhuang, W.R. Leow, X. Wang, C.-T. Dinh, Y. Wang, Y. Wang, D. Sinton, E.H. Sargent,
+Hydroxide promotes carbon dioxide electroreduction to ethanol on copper via tuning of
+adsorbed hydrogen, Nature Communications. 10 (2019) 5814.
+https://doi.org/10.1038/s41467-019-13833-8.
+[30] Y.C. Li, Z. Wang, T. Yuan, D.H. Nam, M. Luo, J. Wicks, B. Chen, J. Li, F. Li, F.P.G. de
+Arquer, Y. Wang, C.T. Dinh, O. Voznyy, D. Sinton, E.H. Sargent, Binding Site Diversity
+Promotes CO2 Electroreduction to Ethanol, J Am Chem Soc. 141 (2019) 8584–8591.
+https://doi.org/10.1021/jacs.9b02945.
+[31] W. Ma, S. Xie, T. Liu, Q. Fan, J. Ye, F. Sun, Z. Jiang, Q. Zhang, J. Cheng, Y. Wang,
+Electrocatalytic reduction of CO2 to ethylene and ethanol through hydrogen-assisted C–C
+coupling over fluorine-modified copper, Nature Catalysis. 3 (2020) 478–487.
+https://doi.org/10.1038/s41929-020-0450-0.
+[32] T.-T. Zhuang, Z.-Q. Liang, A. Seifitokaldani, Y. Li, P. De Luna, T. Burdyny, F. Che, F.
+Meng, Y. Min, R. Quintero-Bermudez, C.T. Dinh, Y. Pang, M. Zhong, B. Zhang, J. Li, P.-
+N. Chen, X.-L. Zheng, H. Liang, W.-N. Ge, B.-J. Ye, D. Sinton, S.-H. Yu, E.H. Sargent,
+Steering post-C–C coupling selectivity enables high efficiency electroreduction of carbon
+dioxide to multi-carbon alcohols, Nature Catalysis. 1 (2018) 421–428.
+https://doi.org/10.1038/s41929-018-0084-7.
+[33] D. Karapinar, N.T. Huan, N. Ranjbar Sahraie, J. Li, D. Wakerley, N. Touati, S. Zanna, D.
+Taverna, L.H. Galvão Tizei, A. Zitolo, F. Jaouen, V. Mougel, M. Fontecave,
+Electroreduction of CO2 on Single-Site Copper-Nitrogen-Doped Carbon Material:
+Selective Formation of Ethanol and Reversible Restructuration of the Metal Sites,
+Angewandte Chemie International Edition. 58 (2019) 15098–15103.
+https://doi.org/https://doi.org/10.1002/anie.201907994.
+[34] J. Yang, A.R. Mohmad, Y. Wang, R. Fullon, X. Song, F. Zhao, I. Bozkurt, M. Augustin,
+E.J.G. Santos, H.S. Shin, W. Zhang, D. Voiry, H.Y. Jeong, M. Chhowalla, Ultrahigh-
+current-density niobium disulfide catalysts for hydrogen evolution, Nature Materials. 18
+(2019) 1309–1314. https://doi.org/10.1038/s41563-019-0463-8.
+[35] M. Koy, P. Bellotti, M. Das, F. Glorius, N-Heterocyclic carbenes as tunable ligands for
+catalytic metal surfaces, Nature Catalysis. 4 (2021) 352–363.
+https://doi.org/10.1038/s41929-021-00607-z.
+[36] G. Barbero, Theoretical interpretation of Warburg’s impedance in unsupported electrolytic
+cells, Physical Chemistry Chemical Physics. 19 (2017) 32575–32579.
+https://doi.org/10.1039/C7CP07101A.
+26
+
+
+===== PAGE 27 =====
+
+[37] A. Husain, K. Kupwade-Patil, A.F. Al-Aibani, M.F. Abdulsalam, In situ electrochemical
+impedance characterization of cement paste with volcanic ash to examine early stage of
+hydration, Construction and Building Materials. 133 (2017) 107–117.
+https://doi.org/https://doi.org/10.1016/j.conbuildmat.2016.12.054.
+[38] T.Q. Nguyen, C. Breitkopf, Determination of Diffusion Coefficients Using Impedance
+Spectroscopy Data, Journal of The Electrochemical Society. 165 (2018) E826–E831.
+https://doi.org/10.1149/2.1151814jes.
+[39] V. Grozovski, S. Vesztergom, G.G. Láng, P. Broekmann, Electrochemical Hydrogen
+Evolution: H+ or H2O Reduction? A Rotating Disk Electrode Study, Journal of The
+Electrochemical Society. 164 (2017) E3171–E3178.
+https://doi.org/10.1149/2.0191711jes.
+[40] C. Kim, J.C. Bui, X. Luo, J.K. Cooper, A. Kusoglu, A.Z. Weber, A.T. Bell, Tailored catalyst
+microenvironments for CO2 electroreduction to multicarbon products on copper using
+bilayer ionomer coatings, Nature Energy. 6 (2021) 1026–1034.
+https://doi.org/10.1038/s41560-021-00920-8.
+[41] X. Chen, J. Chen, N.M. Alghoraibi, D.A. Henckel, R. Zhang, U.O. Nwabara, K.E. Madsen,
+P.J.A. Kenis, S.C. Zimmerman, A.A. Gewirth, Electrochemical CO2-to-ethylene
+conversion on polyamine-incorporated Cu electrodes, Nature Catalysis. 4 (2021) 20–27.
+[42] I. v Chernyshova, P. Somasundaran, S. Ponnurangam, On the origin of the elusive first
+intermediate of CO2 electroreduction, Proceedings of the National Academy of Sciences.
+115 (2018) E9261--E9270. https://doi.org/10.1073/pnas.1802256115.
+[43] C. Zhan, F. Dattila, C. Rettenmaier, A. Bergmann, S. Kühl, R. García-Muelas, N. López,
+B.R. Cuenya, Revealing the CO Coverage-Driven C–C Coupling Mechanism for
+Electrochemical CO2 Reduction on Cu2O Nanocubes via Operando Raman
+Spectroscopy, ACS Catalysis. 11 (2021) 7694–7701.
+https://doi.org/10.1021/acscatal.1c01478.
+[44] H. An, L. Wu, L.D.B. Mandemaker, S. Yang, J. de Ruiter, J.H.J. Wijten, J.C.L. Janssens,
+T. Hartman, W. van der Stam, B.M. Weckhuysen, Sub-Second Time-Resolved Surface-
+Enhanced Raman Spectroscopy Reveals Dynamic CO Intermediates during
+Electrochemical CO2 Reduction on Copper, Angewandte Chemie International Edition.
+60 (2021) 16576–16584. https://doi.org/https://doi.org/10.1002/anie.202104114.
+27
+
+
+===== PAGE 28 =====
+
+1 μm
+reyaL
+tsylataC
+LDG
+-150
+-120
+-90
+-60
+-30
+0 10 20 30 40 50 60 70 80 90 100 110
+)2mc/Am(
+j
+latot
+MoP-Im C H OH 70
+2 5
+50
+30
+10
+Time (h)
+)%(
+EF
+10
+MoP-Im s =10.35 W/s1/2
+w
+8
+MoP s =15.85 W/s1/2
+w
+6
+4
+2
+0
+0 5 10 15 20
+@ -0.5 V vs. RHE
+CH OH
+3
+)W(
+Z-
+mI
+Z (W)
+Re

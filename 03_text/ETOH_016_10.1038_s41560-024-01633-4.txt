@@ -1,0 +1,1055 @@
+
+
+===== PAGE 1 =====
+
+nature energy
+Article https://doi.org/10.1038/s41560-024-01633-4
+Key intermediates and Cu active sites for CO
+2
+electroreduction to ethylene and ethanol
+Received: 20 April 2023 Chao Zhan1,4, Federico Dattila 2,3,4, Clara Rettenmaier1, Antonia Herzog 1,
+Matias Herran 1, Timon Wagner 1, Fabian Scholten1, Arno Bergmann 1,
+Accepted: 9 August 2024
+Núria López 2 & Beatriz Roldan Cuenya 1
+Published online: 11 September 2024
+Check for updates Electrochemical reduction of CO (CO RR) to multi-carbon products is
+2 2
+a promising technology to store intermittent renewable electricity into
+high-added-value chemicals and close the carbon cycle. Its industrial
+scalability requires electrocatalysts to be highly selective to certain
+products, such as ethylene or ethanol. However, a substantial knowledge
+gap prevents the design of tailor-made materials, as the properties
+ruling the catalyst selectivity remain elusive. Here we combined in situ
+surface-enhanced Raman spectroscopy and density functional theory on
+Cu electrocatalysts to unveil the reaction scheme for CO RR to C products.
+2 2+
+Ethylene generation occurs when *OC–CO(H) dimers form via CO coupling
+on undercoordinated Cu sites. The ethanol route opens up only in the
+presence of highly compressed and distorted Cu domains with deep s-band
+states via the crucial intermediate *OCHCH . By identifying and tracking the
+2
+critical intermediates and specific active sites, our work provides guidelines
+to selectively decouple ethylene and ethanol production on rationally
+designed catalysts.
+Electrochemical reduction of CO (CORR) to chemicals is a promising coverage and selectivity towards C products exists13. Recently, pos-
+2 2 2+
+approach to store intermittent renewable energy as valuable fuels and sible C–C coupling intermediates *OCCO or *OCCOH were detected
+feedstocks1,2. In particular, the synthesis of multi-carbon (C ) products, by infrared spectroscopy during the electrochemical reduction of
+2+
+such as ethylene and ethanol, is highly attractive because of their ver- CO (COR)14,15. However, while CO coupling has been repeatedly con-
+satility in the chemical and energy industries3, and processes involving firmed, observing and tracking potential-dependent CO dimerization
+C–C bond formation are of great relevance from the point of view of and intermediates during the subsequent gradual reduction process
+fundamental research2,4. towards final products has not yet been achieved.
+Copper-based materials are the most selective catalysts for elec- Among the CORR reaction intermediates7,8, *OCHCH is consid-
+2 2
+trochemically reducing CO to C products2. A myriad of studies have ered the last common precursor in the ethylene and ethanol routes,
+2 2+
+focused on understanding the C–C coupling mechanism, and although although experimental confirmation is still missing2,7. In fact, glyoxal
+some consensus has been reached, the dependence of these paths on and glycolaldehyde reduce to acetaldehyde, ethanol and ethylene
+the particular material history is yet to be confirmed5,6. Several cou- glycol only on polycrystalline copper16–18, suggesting an exclusive
+pling pathways have been proposed7,8, suggesting adsorbed CO (*CO) ethanol-selective route via *OCHCH. Recently, a methyl carbonyl
+2
+as the building block of multi-carbon products5,9,10 via dimerization intermediate, *OCCH, has been proposed as an alternative intermedi-
+3
+(OC–CO)7 or coupling (OC–CHO or OC–COH)8 steps. Experimentally, ate for ethanol and propanol19,20. In general, the reaction pathways for
+*CO has been detected on Cu surfaces using in situ Raman and infrared ethylene and ethanol formation are defined by logical intuition based
+spectroscopy during CORR6,11,12, and a direct correlation between CO on experimental and computational results7,8,16,21. However, the lack of
+2
+1Department of Interface Science, Fritz-Haber Institute of the Max-Planck Society, Berlin, Germany. 2Institute of Chemical Research of Catalonia
+(ICIQ-CERCA), The Barcelona Institute of Science and Technology (BIST), Tarragona, Spain. 3Department of Applied Science and Technology (DISAT),
+Politecnico di Torino, Turin, Italy. 4These authors contributed equally: Chao Zhan, Federico Dattila. e-mail: nlopez@iciq.es; roldan@fhi-berlin.mpg.de
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1485
+
+
+===== PAGE 2 =====
+
+Article https://doi.org/10.1038/s41560-024-01633-4
+–4
+–3
+–2
+–1
+0
+1-PrOH EtOH Formate
+CH CH CO H
+100 2 4 4 2
+80
+60
+40
+20
+0
+–1.10 –1.05 –1.00 –0.95 –0.90 –0.85 –0.80
+Potential (V)
+robust experimental evidence hinders the rational design of CORR (XRD) pattern confirms the presence of CuO (Fig. 1c). Cu LMM X-ray
+2 2
+electrocatalysts, limiting the overall energy efficiency of the process. Auger electron spectroscopy (XAES) data indicate a surface compo-
+The dynamics of electrocatalysts following charge accumulation, sition of about 94% CuI and 6% Cu0 species (Fig. 1d and Supplemen-
+redox chemistry and the presence of adsorbates which can structur- tary Fig. 2), while further elemental analysis confirmed the absence
+ally deteriorate the catalyst surface lead to a very complex behaviour4. of other elements, such as Na, Cl and S (Supplementary Fig. 3). After
+Thus, the generalization of insights gathered through model interfaces 1 h of CORR at −1.0 V (where RHE is reversible hydrogen electrode)
+2 RHE
+in an ultrahigh vacuum (UHV) system needs to be compared with the in 0.1 M KHCO, the XRD pattern of CuO almost completely disap-
+3 2
+in situ electrocatalytic solid–liquid interface22. So far, a direct link peared (Supplementary Fig. 4), and the cubic morphology partially
+between the local atomic surface structure and the Cu coordination changed (Fig. 1b), consistent with previous reports13. In spite of these
+environment on the catalytic process and, in particular, its influence morphological changes, no unexpected elements (for example, K)
+on distinct reaction pathways remains unclear. CO strongly deterio- were present in post-catalysis X-ray photoelectron spectroscopy (XPS)
+rates the Cu surface and leads to undercoordinated sites23, which has analysis (Supplementary Fig. 5). Thus, we opted to use this treatment
+a significant influence on CORR. For example, by comparing various to obtain sufficient enhancement of the Raman signals.
+2
+single-crystal surfaces with different surface roughness, we previously Similar to the oxide-derived Cu (OD-Cu) materials, which are
+showed that undercoordinated Cu sites are required for C formation24. selective for C–C coupling24–27, the as-prepared Cu electrode with a
+2
+However, it is important to further close this knowledge gap by unravel- high electrochemical surface roughness factor (14.6; Supplementary
+ling how Cu coordination and local stress under reaction conditions Fig. 6, electropolished Cu foil as a reference) shows high performance
+affect the catalytic behaviour and thus the full mechanistic picture. To towards C products and provides the opportunity to detect C–C cou-
+2+
+this end, it is required to overcome the challenging low surface cover- pling intermediates25. The specific current densities increase up to at
+ages of intermediates due to their short lifetimes as well as disentangle least −1.1 V (Fig. 1e), while the Faradaic efficiencies of CORR products
+2
+the similarities in the vibrational properties of different C–C coupling and H vary strongly with the applied potential (Fig. 1f). The Faradaic
+2
+intermediates14. efficiencies of C products show a typical volcano dependence on
+2+
+Here we provide direct spectroscopic evidence of potential- the applied potential, with a maximum of 65% at about −1.0 V . The
+RHE
+dependent CO dimerization and subsequent reduction intermedi- onset potentials for ethylene and ethanol are about −0.8 V and
+RHE
+ates during CORR on a Cu surface by combining insights from in situ −0.9 V , with these products reaching a maximum value at −1.0 V
+2 RHE RHE
+surface-enhanced Raman spectroscopy (SERS) and density functional and −1.05 V , respectively.
+RHE
+theory (DFT)-based vibrational analysis. This allows us to identify cru-
+cial Cu sites and surface intermediates for either ethylene or ethanol, Potential-dependent intermediate evolution
+leading to the definition of an updated reaction scheme for CORR to To reveal molecular insights into C–C coupling intermediates and
+2
+C products. their potential dependence, we carried out in situ SERS measurements
+2
+(Supplementary Fig. 7). Figure 2a shows the in situ Raman spectra
+Electrode preparation and CO RR test acquired at the same position on the electrochemically treated Cu
+2
+The Cu electrodes were prepared by an electrochemical oxidation– foil electrode as a function of the applied potential in a CO-saturated
+2
+reduction process (see Methods for details). Scanning electron micros- 0.1 M NaClO electrolyte. A NaClO solution leading to a Raman band
+4 4
+copy (SEM) images show the formation of cubic structures with high at ∼935 cm−1 (Supplementary Figs. 8 and 9) was used to decrease the
+density (Fig. 1a,b and Supplementary Fig. 1). The X-ray diffraction influence of highly concentrated bicarbonate in the wavenumber
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1486
+tnerruC )2–mc
+Am(
+)%(
+ycneiciffe
+ciadaraF
+900 910 920
+).u.a(
+ytisnetnI
+).u.a(
+ytisnetnI
+c e
+a
+CuO
+2
+Cu
+f
+500 nm 30 40 50 60 70 80
+2θ (°)
+d
+b
+CuI Cu LMM
+Cu0
+Envelope
+500 nm
+Kinetic energy (eV)
+Fig. 1 | Characterization of the morphology of electrochemically treated Cu as-prepared Cu foil electrode. e, Potential-dependent current density. f, Faradaic
+foil electrode and its CORR performance. a,b, SEM images of an as-prepared efficiency of the electrochemically treated Cu foil electrode in CO-saturated
+2 2
+(electrochemically treated) Cu foil electrode acquired before (a) and after 0.1 M KHCO electrolyte for 1 h. The error bars in e and f correspond to the s.d. of
+3
+(b) CORR in CO-saturated 0.1 M KHCO electrolyte at −1.0 V for 1 h. c, XRD three independent measurements. Data are given as average ± s.d.
+2 2 3 RHE
+pattern of the as-prepared Cu foil electrode. d, Cu LMM XAES spectrum of the
+
+
+===== PAGE 3 =====
+
+Article https://doi.org/10.1038/s41560-024-01633-4
+500 1,000 1,500 2,000 2,500 3,000
+range of 1,000–2,000 cm−1 (Supplementary Figs. 10 and 11). We note The observation of these peaks agrees well with a CO-coverage-
+here that irrespective of the electrolyte anionic species, carbonate determined C–C coupling during CORR13 and indicates a similar inter-
+2
+and bicarbonate ions will be present due to the CO/HO equilibrium. mediate for C–C coupling during CORR and CORR. Concurrently,
+2 2 2
+Although a lower Faradaic efficiency of C products is obtained during the Raman peaks of *HCOO−/*HCOOH disappear, which suggests that
+2+
+CORR in CO-saturated 0.1 M NaClO (ref. 28), the onset potentials and CO or C–C coupling intermediates may affect the production of
+2 2 4
+potential-dependent trends for ethylene and ethanol formation are formic acid due to competition for surface sites.
+similar to those in 0.1 M KHCO (Supplementary Fig. 12). At more cathodic potentials, CO coverage further increases, and
+3
+Initially, at open-circuit potential, Raman peaks at 400 cm−1, four new peaks can be detected at 1,182 cm−1, 1,318 cm−1, 1,453 cm−1 and
+528 cm−1 and 620 cm−1 from a CuO phase are detected12,29. At a poten- 1,595 cm−1 from −0.85 V , which show a regular shift with the potential,
+x RHE
+tial of −0.36 V , the CuO is reduced to metallic Cu on the surface, and indicating the existence of new adsorbates. These peaks appeared
+RHE x
+a small peak is detected at 1,070 cm−1, typically assigned to carbon- simultaneously during the time-resolved in situ SERS experiment after
+ate13. Two new peaks at ∼1,390 cm−1 and ∼1,610 cm−1 appear, which are a potential switch from −0.36 V
+RHE
+to −0.96 V
+RHE
+(Supplementary Fig. 14).
+attributed to the symmetric and asymmetric stretching vibrations Concurrently, a broad band in the range of 2,830–2,990 cm−1 appeared,
+of carboxyl(ate) groups, respectively, based on control experiments which can be attributed to the stretching band of C–H (ref. 12).
+in Ar-saturated NaClO with 1 mM HCOOH solution (Supplementary
+4
+Fig. 13) and in Ar-saturated KHCO solution (Supplementary Fig. 11). Intermediates responsible for CO RR to ethylene
+3 2
+At −0.56 V , peaks of CO adsorbed on Cu are detected, with and ethanol
+RHE
+vibrational features at ∼280 cm−1, 355–360 cm−1 and 1,970–2,110 cm−1 To confirm the assignment of the vibrational modes detected experi-
+corresponding to the restricted rotation of adsorbed CO (P1), Cu–CO mentally, we reverted to DFT (PBE-D233) through the Vienna Ab initio
+stretching (P2) and C–O stretching, respectively. Consistent with our Simulation Package34,35. To mimic OD-Cu catalysts, we used two different
+recent finding on the CO coverage-driven C–C coupling mechanism13, models. Our first simulation cell consisted of a pristine OD-Cu structure,
+the P2/P1 ratio, a proxy for CO surface coverage on copper, follows a taken from a Cu(111)/CuO(111) epitaxy precursor optimized through
+2
+volcano trend with the applied potential (Fig. 2b). At −0.76 V , Raman ab initio molecular dynamics36. Due to the original oxygen-induced
+RHE
+bands at 490–530 cm−1 appear, which can be attributed to Cu–O stretch- reconstruction, Cu surface sites with Cu–Cu coordination numbers
+ing of oxygen or hydroxide species on Cu, or Cu–C stretching12,29,30. varying from 4 to 10 were obtained (Supplementary Figs. 15 and 16). As a
+There are no indications of Cl− related adsorbates, as the Raman band reference, a four-layer-thick (100) crystalline supercell (Supplementary
+should appear at ∼300 cm−1 (refs. 31,32). Fig. 15) was used, as this facet is often deemed responsible for CO–CO
+More interestingly, the peaks at 1,390 cm−1 and 1,610 cm−1 disap- dimerization10. Surface atoms in this system were characterized by a
+pear with increasing CO surface coverage from −0.56 V to −0.76 V , Cu–Cu coordination number of 8. To obtain the DFT vibrational fre-
+RHE RHE
+and two new peaks evolve at 1,450 cm−1 and 1,550 cm−1 (Fig. 2c), quencies of CORR reaction intermediates, we first optimized them on
+2
+which were previously attributed to the *OCCO intermediate15. different active sites on the OD-Cu distorted surface and the crystalline
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1487
+).u.a(
+ytisnetnI
+).u.a(
+ytisnetnI
+a b
+8
+Cu–CO
+7
+1,000 cps stretching
+Cu–CO 6
+rotation
+CO stretching
+5
+4
+P1 P2
+3
+–1.12 V 2
+1
+CH stretching
+0
+–1.04 V –1.2 –1.0 –0.8 –0.6
+c
+1,182
+–0.95 V 1,3181,4531,595
+P2
+–0.85 V
+P1 –1.12 V
+–1.04 V
+–0.76 V
+–0.95 V
+–0.85 V
+Carbonate –0.56 V 1,550 –0.76 V
+CuO
+2 –0.36 V –0.56 V
+1,390
+OCP 1,610 –0.36 V
+1,000 1,200 1,400 1,600
+Raman shift (cm–1) Raman shift (cm–1)
+1P/2P
+fo
+oitar
+ytisnetnI
+200 300 400
+Potential (V)
+Fig. 2 | In situ SERS measurement during CORR. a, Raman spectra of an CO, ~280 cm−1). c, Zoom-in Raman spectra in the region of 900–1,700 cm−1 from
+2
+electrochemically treated Cu foil acquired during CORR for potentials ranging about −0.4 V to −1.1 V , with relevant peaks highlighted via dashed lines.
+2 RHE RHE
+from the open-circuit potential (OCP) to about −1.1 V in a CO-saturated 0.1 M The error bars in b correspond to the s.d. of three independent measurements.
+RHE 2
+NaClO electrolyte. cps, counts per second. b, Potential-dependent intensity Data are given as average ± s.d.
+4
+ratio of P2 (Cu–CO stretching, ~360 cm−1) to P1 (restricted rotation of adsorbed
+
+
+===== PAGE 4 =====
+
+Article https://doi.org/10.1038/s41560-024-01633-4
+1,200 1,500 1,200 1,400 1,600 1,200 1,500
+Cu(100) and then carried out vibrational analysis on the final configu- 1,320 cm−1 and 1,455 cm−1. For the peak at 1,182 cm−1, no obvious shift was
+rations. Simulated vibrational frequencies can be visualized through observed in the D-labelling experiment, while the low intensity in the
+the ioChem-BD database37 (see the explanatory tutorial in Methods 13C/12C exchange experiment did not allow for a robust determination
+and Supplementary Fig. 17). of the isotope-induced shift.
+In Fig. 3, we show the main reaction intermediates responsible for Since similar C–C coupling intermediates were proposed for
+the vibrational frequencies detected experimentally (Fig. 2a). After CORR3,38, to validate our observations, we performed in situ SERS
+the reduction of the Cu oxidic phases, *CO2− and *HCOO−/*HCOOH during CORR. Our data show similar bands (Supplementary Fig. 18).
+3
+species form (see 1,070 cm−1, 1,390 cm−1 and 1,610 cm−1 signals in Fig. 3; We further prove the appearance of C–C coupling intermediates by
+Supplementary Tables 1–3). Consistent with previous reports14,15, the observing analogous signals on a different Cu foil with distinct surface
+signals appearing at 1,450 cm−1 and 1,550 cm−1 from −0.76 V can be morphology, yet with still good performance towards C products
+RHE 2+
+attributed to *OCCO(H), with the C=O vibration mode (Fig. 3 and Sup- (Supplementary Fig. 19).
+plementary Tables 4 and 5). Alternatively, such frequencies can be As ethanol and acetaldehyde are the main C products for gly-
+2
+assigned to an OCCO− dimer adsorbed on surface oxygen (O), known oxal reduction on polycrystalline copper and are proposed to share
+s
+as deprotonated glyoxylate OCOCO2− (ref. 36), which also shows the the same *OCHCH intermediate16–18, we performed in situ Raman
+s 2
+1,070 cm−1 band detected at −0.76 V (Supplementary Table 6). experiments of glyoxal and ethanol reduction (Supplementary Figs. 20
+RHE
+Among other additional possible intermediates (*OCCHO, *OHC- and 21). As shown in Fig. 4c, similar bands at about 1,290 cm−1, 1,420 cm−1
+COH, *OCCHOH, *CHO and *CH; Supplementary Tables 7–11), we attrib- and 1,605 cm−1 are observed during glyoxal reduction. We attribute
+ute the 1,182 cm−1, 1,318 cm−1, 1,453 cm−1 and 1,595 cm−1 signals detected the variations in relative intensities and positions to the substantially
+at −0.85 V and below to the CCO symmetric stretching, CCO antisym- different chemical environment in the absence of predominantly
+RHE
+metric stretching, C–C stretching and C–O (or C=C) stretching of co-adsorbed CO, as is the case in CORR. The increasing relative inten-
+2
+OCHCH
+2
+(or OCHCH
+3
+) species, respectively (Supplementary Table 7). sity of the band at ∼1,550 cm−1 is probably caused by key intermedi-
+Although this assignment is based on different independent experi- ates for ethylene glycol formation, which is the dominant product of
+ments, we cannot fully rule out that the Raman bands observed might glyoxal reduction at lower potentials20. Instead, these signals were
+also result from (a set of) very similar adsorbates. not observed for ethanol reduction (Supplementary Fig. 21). Thus, we
+In addition, we carried out 13C- or D-labelling SERS experiments reasonably confirmed the detection of a common intermediate along
+at −0.95 V (Fig. 4a). 13C/12C exchange led to obvious redshifts of the CO, CO and glyoxal reduction route to ethanol, which is *OCHCH.
+RHE 2 2
+the 1,455 cm−1 and 1,602 cm−1 peaks, in addition to the CO stretching Overall, the presence of CO molecules on the Cu surface during CORR
+2
+(2,100 cm−1), Cu–CO stretching (358 cm−1) and CO rotation (275 cm−1) is linked to and probably causes the formation of *CO–CO or *CO–COH
+bands, proving that these peaks are related to the CORR process. Such at about −0.76 V , and then these species further reduce to, for exam-
+2 RHE
+redshifts were also confirmed by DFT vibrational analysis of O12CH12CH ple, *OCHCH at −0.85 V and −0.95 V .
+2 2 RHE RHE
+and O13CH13CH (Fig. 4b and Supplementary Table 12). Water shows
+2
+a broad O–H bending band at about 1,600 cm−1 (refs. 14,15) (Supple- Cu active sites selective for CO RR to ethylene
+2
+mentary Table 13), limiting the identification of vibrations from other and ethanol
+species in this regime. In agreement with our assignment, the peak at The potential-dependent formation of C–C coupling intermediates
+about 1,602 cm−1 still appears after the DO/HO isotope exchange. explains the selectivity trend towards C products observed during
+2 2 2+
+Besides, the DO/HO exchange negligibly affected the peaks at about CORR. In correspondence with an increase in the CO coverage from
+2 2 2
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1488
+).u.a(
+ytisnetnI
+–0.36 V versus RHE –0.76 V versus RHE –0.85 V versus RHE
+1,070 cm–1 1,390 cm–1 1,610 cm–1 1,450 cm–1 1,550 cm–1 1,182 cm–1 1,318 cm–1 1,453 cm–1 1,595 cm–1
+N = 4–5 N = 7–8
+Cu–Cu Cu–Cu
+N = 6–7 N = 8–9
+Cu–Cu Cu–Cu
+OCHCH
+OCCO– 2
+CO 2–
+3
+HCOOH O s COCO2– OCHCH 3
+Raman shift (cm–1)
+Fig. 3 | DFT-optimized CORR reaction intermediates and their vibrational highlighted in the panels by vertical dashed lines. Raman spectra were achieved
+2
+fingerprints. DFT vibrational frequencies for *CO2−, *COCO−, OCHCH (top, left by applying a smearing of 10 cm−1 on each DFT frequency and overlapping the
+3 2
+to right), *HCOOH, *OCOCO2− and *OCHCH (bottom, left to right) on adsorption resulting peaks. Inset: different CORR reaction intermediates, with H atoms
+s 3 2
+sites with different coordination numbers, increasing from orange to black. given in white, O atoms in red and C atoms in black.
+Experimental signals at different applied potentials are indicated on top and
+
+
+===== PAGE 5 =====
+
+Article https://doi.org/10.1038/s41560-024-01633-4
+a c
+1,2901,4201,605
+13CO 2 H 2 O CO 2 D 2 O CO 2 H 2 O
+1,305 1,443 2,100 –1.00 V
+1,575
+–0.95 V
+–0.90 V
+268 354
+1,070 1,182 1,320 1,455 –0.85 V
+1,200 1,400 1,600 2,045 –0.80 V
+275 –0.76 V
+358
+500 1,000 1,500 2,000
+–0.70 V
+b –0.65 V
+Assignment N Cu–Cu ν 12C (cm–1) ν 13C (cm–1) ioChem-BD –0.60 V
+CCO symmetric 6.17 1,184, 1,156, OD-Cu-254
+–0.55 V
+stretching 5.00 1,185 1,158 OD-Cu-297
+CCO –0.50 V
+antisymmetric 5.00 1,323 1,317 OD-Cu-297
+stretching
+–0.40 V
+C–C stretching 6.17 1,476 1,443 OD-Cu-254
+–0.30 V
+C–O (or C=C)
+stretching 8.03 1,595 1,543 OD-Cu-263 OCP
+900 1,200 1,500 1,800
+Raman shift (cm–1)
+−0.56 V to −0.76 V , the *OCCO intermediate forms on the surface The formation of defects on the Cu surface during CORR, for
+RHE RHE 2
+and evolves to ethylene at −0.76 V . Instead, the *OCHCH key inter- instance, adatoms or small Cu clusters with low-coordinated Cu atoms,
+RHE x
+mediate is detected from −0.85 V , the observed onset potential for has been experimentally observed via electrochemical scanning tun-
+RHE
+CORR to alcohols. Besides, the ratio of Faradaic efficiencies towards nelling microscopy41. Moreover, the subsurface incorporation of
+2
+ethanol and ethylene continuously increases with increasingly negative atomic impurities such as C or O during CORR cannot be ruled out, as
+2
+applied potential (Fig. 5a). this could also lead to a defective Cu surface with the modified Raman
+To further correlate the catalyst structure, surface intermediates shifts obtained here. Cyclic voltammetry has been used to compare the
+and reaction products, we carried out quasi in situ Cu LMM XAES, defect density on the Cu surface after CORR using the charge trans-
+2
+in situ SERS, cyclic voltammetry and simulations. The surface of the ferred above +0.3 V (ref. 25). Clearly, CORR at −1.0 V induced a
+RHE 2 RHE
+electrochemically treated Cu foil was fully reduced to metallic Cu after higher defect density compared with −0.8 V (Fig. 5e), and the cyclic
+RHE
+CORR at −0.8 V (Fig. 5b). Figure 5c shows the potential-dependent voltammogram agrees well with that of a restructured/roughened Cu
+2 RHE
+variations of the C–O stretching band of adsorbed CO during CORR. foil upon pulsed electrolysis into the Cu2+ regime25. These findings are
+2
+The C–O stretching frequency of atop CO on Cu depends on the coor- further supported by Pb underpotential deposition experiments42,43,
+dination of the underlying metal atom39,40; thus, it can be used as a during which an increased defect site density of CORR at −1.0 V was
+2 RHE
+probe to track the potential-dependent density of different active sites. observed (Supplementary Fig. 22). Finally, adsorbed CO linked to a
+In principle, the peak shifts to higher wavenumbers for adsorption lower C–O stretching band Raman shift becomes preeminent beyond
+sites with lower coordination number (although other effects, such −1.1 V , where CH production again significantly increases, in line
+RHE 4
+as dipole coupling, can interfere)40, consistent with DFT simulations with a previous report44. Thus, both in situ SERS and cyclic voltammetry
+(Fig. 5d and Supplementary Table 14). Four Gaussian peak functions hint at the key role of structural defects in tuning the ethylene/ethanol
+centred at about 2,035 cm−1, 2,075 cm−1, 2,090 cm−1 and 2,100 cm−1 ratio. These defects are probably formed under reaction conditions and
+were used to fit the recorded potential-dependent Raman spectra. generate distinct surface sites with strong CO binding.
+C–O stretching bands with intermediate frequencies (2,075 cm−1 and On the basis of these mechanistic insights, we aimed to correlate
+2,090 cm−1) become the main contribution at −0.76 V , from which specific active sites and reaction intermediates with ethylene and
+RHE
+the *OCCO intermediate is identified and ethylene is produced, in line ethanol production during CORR. Recent experimental studies have
+2
+with the observation of a 2,060 cm−1 CO precursor reacting towards highlighted the relevance of defects and polarized Cu sites in enabling
+C–C coupling as reported in a previous SERS study6. At −0.95 V , the CORR25,26,45,46, while flat atomically ordered surfaces mainly yield H
+RHE 2 2
+C–O stretching bands at 2,090 cm−1 and 2,100 cm−1, assigned to atop (ref. 24). Moreover, defective structures and highly disordered Cu(0)/
+CO adsorbed on defect Cu sites, further increase and reach a maximum Cu(I,II) interfaces created through pulsed electrolysis conditions were
+at −1.04 V , coinciding with the detection of the *OCHCH key inter- found to significantly enhance ethanol selectivity25,45,46. Thus, we ini-
+RHE x
+mediate and ethanol. tially assessed the role of two structural descriptors to identify defects
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1489
+).u.a(
+ytisnetnI
+).u.a(
+ytisnetnI
+1,602
+Raman shift (cm–1)
+Fig. 4 | In situ SERS measurement and DFT vibrational analysis with vibrational fingerprints on selected active sites determined by DFT simulations
+the isotope exchange. a, Raman spectra of species adsorbed on the for 12C and 13C (see Methods, ref. 62). c, Raman spectra of an electrochemically
+electrochemically treated Cu electrode at −0.95 V in 13CO-saturated 0.1 M treated Cu foil acquired in 0.05 M glyoxal for potentials ranging from −0.3 V to
+RHE 2 RHE
+NaClO electrolyte and CO-saturated 0.1 M NaClO DO electrolytes. b, OCHCH about −1.0 V in an Ar-saturated 0.1 M NaClO electrolyte.
+4 2 4 2 2 RHE 4
+
+
+===== PAGE 6 =====
+
+Article https://doi.org/10.1038/s41560-024-01633-4
+N = 7–8 Cu–Cu
+1,800 1,900 2,000 2,100
+among the considered active sites: their coordination number (N ; a positive s-band centre show weak *O binding (black data points in
+Cu–Cu
+Supplementary Fig. 23) and the relative compressive three-dimensional Fig. 6b), whereas distorted sites with a negative s-band centre enable
+strain, calculated by dividing the distances between the active site and strong *O binding, thus promoting the adsorption of intermediates
+neighbouring atoms by the Cu–Cu bulk distance (Σ(Δd/d)N −1 with i with terminal oxygen along the ethanol route49. The s-band centre
+i i i,Cu–Cu
+ranging from 1 to the number of neighboring atoms, see Supplementary shows a strong correlation with the d-band centre (Supplementary
+Table 15 and Methods for additional details). Remarkably, the strain Fig. 25 and Supplementary Table 17). Finally, we observe that scaling
+does not scale with the coordination number for the distorted sites relationships between the binding energy of adsorbed molecules
+from the OD-Cu model. Instead, on crystalline domains such as Cu fac- and strain are heavily affected by the nature of active sites (Sup-
+ets and adatoms, both parameters correlate (Supplementary Fig. 23), plementary Note 2).
+suggesting a mutual dependence of coordination- and strain-based Overall, these insights highlight a clear correlation between active
+linear scaling relationships for crystalline sites47,48. sites and product distribution. Undercoordinated Cu sites enable
+To sample the reactivity of such surface defects, we estimated strong *CO binding, thus sustaining a high CO coverage on the surface,
+the binding energy of atop *CO and *OCHCH versus N and which opens the ethylene pathway via an OCCO(H) intermediate,
+2 Cu–Cu
+Σ(Δd/d)N −1. *CO was taken as a C selectivity descriptor10, whereas explaining the evidence of CH as the only C product observed at
+Cu–Cu 2+ 2 4 2+
+*OCHCH binding strength was used as a descriptor of OCHCH stability −0.76 V (Fig. 1f). This scheme explains the typically high CORR
+2 2 RHE 2
+on the surface. On crystalline domains, *CO binding depends weakly on selectivity towards C of OD-Cu25, which is due to the abundant under-
+2
+the strain, in line with results on crystalline surfaces47, while differences coordinated sites on these materials36 (about 74% for N < 8 on our
+Cu–Cu
+of more than 0.4 eV are observed on highly strained low-coordinated OD-Cu model; Supplementary Fig. 16). Furthermore, from −0.85 V
+RHE
+OD-Cu sites (Supplementary Fig. 24 and Supplementary Table 16). onwards, undercoordinated distorted sites with high surface strain
+Besides, both crystalline and distorted morphologies with coordina- and deep s-band states originate (Fig. 5c,e) and enable the formation
+tion number below 8 show strong CO binding (<−0.2 eV). of OCHCH at the surface (Fig. 6b), detected experimentally through
+2
+Localized compressive strain plays a crucial role in stabilizing Raman spectroscopy (Figs. 2c and 3) together with the production of
+*OCHCH species on distorted sites (red empty data points in Fig. 6a). ethanol (Fig. 1f).
+2
+In fact, *OCHCH formation energies increase following the incre- A careful comparison of ethylene, ethanol and methane Fara-
+2
+ment of compressive strain, and stronger binding is observed on daic efficiency versus CO selectivity (taken from Fig. 1f) confirms the
+undercoordinated distorted sites rather than crystalline sites. Such existence of key differences between the ethylene and ethanol routes
+difference between crystalline and distorted sites can be ascribed (Fig. 6c). Instead, the similar dependence of ethanol and methane
+to their s-band states (Supplementary Table 16). Distorted domains Faradaic efficiency on CO selectivity supports the hypothesis of CH
+x
+present deeper s-band states, whereas crystalline sites are charac- as common precursors for the two products, providing additional
+terized by positive s-band centres (versus the Fermi energy). The parallel pathways from CO–CH coupling, in line with the recent
+x
+s-band equally affects a previously employed descriptor for ethylene/ CHI/CO reduction study20. These undercoordinated distorted sites
+3
+ethanol competition, the *O binding strength49. Crystalline sites with open the OCHCH-mediated ethanol route (Fig. 6d).
+2
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1490
+).u.a(
+ytisnetnI
+)Am(
+tnerruC
+).u.a(
+ytisnetnI
+900 910 920
+N = 4–5 Cu–Cu
+Raman shift (cm–1)
+).u.a(
+ytisnetnI
+a b c
+0.3 CuI Cu LMM –1.12 V
+Cu0
+Envelope
+0.2 –1.0 V
+–1.04 V
+0.1
+–0.8 V
+0
+–1.1 –1.0 –0.9 –0.8
+Kinetic energy (eV)
+d e
+–0.95 V
+–0.85 V
+–0.76 V
+×5 –0.56 V
+fo
+oitar
+ycneiciffe
+ciadaraF
+enelyhte/lonahte
+1,000 cps
+Potential (V)
+0.08 –0.8 V
+–1.0 V 0.04
+0
+–0.04
+–0.08
+–0.2 0 0.2 0.4 1,950 2,100
+Potential (V) Raman shift (cm–1)
+Fig. 5 | Defect-driven mechanisms for CORR to ethylene and ethanol. a, Ratio The Raman data in c are from the same dataset as those in Fig. 2. d, DFT C–O
+2
+of the Faradaic efficiencies of ethanol and ethylene as a function of the applied stretching wavenumber as a function of the Cu–Cu coordination number,
+potential. b, Quasi in situ Cu LMM XAES spectra of electrochemically pre-treated decreasing from orange (N = 4–5) to dark brown (N = 7–8). e, Cyclic
+Cu–Cu Cu–Cu
+Cu foils after 1 h of CORR at −0.8 V and −1.0 V without air exposure. c, voltammograms of the electrochemically treated Cu foil after 1 h of CORR at
+2 RHE RHE 2
+Dependence of the C–O stretching band on the applied potential. The Raman −0.8 V and −1.0 V . Cyclic voltammetry was performed in an Ar-saturated
+RHE RHE
+spectra are fitted with the sum of 4 Gaussian functions with peaks at about 0.1 M NaOH with a scan rate of 50 mV s−1. The error bars in a correspond to the s.d.
+2,035 cm−1 (grey), 2,075 cm−1 (blue), 2,090 cm−1 (green) and 2,100 cm−1 (red). of three independent measurements. Data are given as average ± s.d.
+
+
+===== PAGE 7 =====
+
+Article https://doi.org/10.1038/s41560-024-01633-4
+–1.5 7 Crystalline domains 2.5 8 7 7 6 Crystalline domains
+7
+7
+8.03 7 9 5
+–1.8 5 5 2.0
+9 5
+5 6
+–2.1 8 6.97 1.5
+7 4 7.48
+7 6.17 4 1.0 6.49 6.17 4 4
+9.42 6 6 .49 6 7.48 0.5 6.97 8.03 9.42
+5.00 4.46 5
+Distorted domains 4.46 Distorted domains 5.00
+0
+Proposed reaction scheme for CO RR to C rate-determing step (RDS) towards multi-carbon molecules during
+2 2+
+products CO reduction. Such hypothesis has been recently challenged by
+2
+The proposed OCHCH -mediated ethanol pathway suggests an mechanistic studies of CO reduction50; thus, competing RDSs may
+2
+updated reaction scheme for CORR towards C products (Fig. 7). exist depending on the catalyst morphology. If formed, the CO–CO(H)
+2 2+
+Ethylene and ethanol formations are pH-independent on the RHE species is characterized by either a single or double C–C bond7
+scale5. Thus, according to the state of the art2,7, CO–CO dimeriza- (Supplementary Table 18) and acts as a selectivity switch between
+tion, which involves a single electron transfer, is assumed to be the C and C products (C selectivity-determining step 1, SDS1).
+1 2+ 2+
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1491
+)Ve(
+E∆
+HCHCO* 2
+)Ve(
+E∆
+O*
+pota
+a b
+–2.4
+–2.7
+0 1 2 3 4 5 6 0 1 2 3 4 5 6
+∑(∆d/d)N –1 (%) ∑(∆d/d)N –1 (%)
+Cu–Cu Cu–Cu
+c d
+40 Ethylene
+20
+0
+10
+0 Ethanol Ethylene
+20 Distorted domains Undercoordinated
+High strain sites
+Deep s sates
+0
+0 5 10 15 20 25
+)%(
+ycneiciffe
+ciadaraF
+Ethanol
+Methane
+Faradaic efficiency of CO (%)
+Fig. 6 | Morphological descriptors for COR to C products. a,b, Correlation Faradaic efficiency versus CO Faradaic efficiency. Data retrieved from Fig. 1f.
+2 2+
+of *OCHCH (ΔE ) (a) and *O atop (ΔE ) binding energies (b) versus d, Key reaction intermediates and properties of the active sites selective
+2 *OCHCH2 *Oatop
+Σ(Δd/d)N −1. Cu–Cu coordination numbers are reported as labels. Red data towards ethanol and ethylene, with H atoms given in white, O atoms in red and
+Cu–Cu
+points indicate Cu sites on distorted domains, and black data points represent C atoms in black. The error bars in c correspond to the s.d. of three independent
+crystalline domains. c, Comparison between ethylene, ethanol and methane measurements. Data are given as average ± s.d.
+~1,450 cm–1 ~1,550 cm–1
+–
++H+ +H+ + e– +H+ + e– +5H+ + 5e–
+–H 2 O +H –H 2 O Ethylene
+SDS1 *COCO– *COCOH *CCO *CHCO + +
+e–
+Allyl alcohol
+Propionaldehyde or
+Acetaldehyd
++2
+e
+H+ + 2e–
+1-Propanol
++H+ + e–
++H+ +
+e–
+*CH 2 CO
+Solution
+–
+Glyoxal Acetate
+Ethanol *OCHCH 3 +H+ + e– SDS2 *OCHCH 2 glycolaldehyde
+1,182 cm–1 1,318 cm–1
+1,453 cm–1 1,595 cm–1
+Fig. 7 | Proposed reaction scheme for CO reduction to C products. Proposed Reaction steps confirmed by experimental studies are reported as solid lines,
+2 2+
+reaction scheme, including ethylene and ethanol, was extracted from the present and proposed steps are labelled as dashed lines. Grey arrows indicate potential
+experimental Raman data, our DFT data and additional mechanistic insights CO–CH coupling routes. H atoms are given in white, O atoms in red and C atoms
+x
+reflected in refs. 16,21,51,63. The main C products are highlighted in green. in black.
+2+
+
+
+===== PAGE 8 =====
+
+Article https://doi.org/10.1038/s41560-024-01633-4
+The hypothesis of OCCO(H) as a common C precursor for CO Methods
+2+ 2
+reduction is reinforced by the strong correlation between ethanol Electrode preparations
+and ethylene Faradaic efficiency on copper (R2 = 0.90, values taken A commercial polycrystalline copper foil (Advent Research Materials,
+from ref. 51; see Supplementary Fig. 26 and Supplementary Table 19). 99.995%) was used in all experiments. Before each experiment, the cop-
+In line with recent advances20, additional parallel pathways, such as per foil was electropolished at 3 V versus a titanium foil for 3 min in a
+CO–CH coupling (grey arrows, Fig. 7), may also open, yet our DFT HPO/HSO solution consisting of 130 ml HPO (VWR, 85 wt%), 20 ml
+x 3 4 2 4 3 4
+simulations disprove any major role of these on distorted sites. In fact, HSO (VWR, 95%) and 60 ml ultrapure water. After that, all working
+2 4
+the protonation of CH to CH species (and eventually to methane) electrodes were rinsed with ultrapure water and placed in the electro-
+x x+1
+is always more favourable than the CO–CH coupling, apart from the chemical cell for the electrochemical oxidation–reduction process.
+x
+CO–CH case (Supplementary Fig. 27). The three-electrode system consisted of the copper foil as the work-
+Once formed, CO–CO(H) dimers quickly protonate and evolve ing electrode, a platinum wire as the counter electrode and a leak-free
+into an adsorbed ketene *CCO upon the loss of one HO molecule, as Ag/AgCl reference electrode (LF-1, Alvatek). The copper electrodes
+2
+previously suggested21,27. Such ketene then reduces to *CHCO upon were treated at room temperature by cyclic voltammetry in gas-
+proton-coupled electron transfer7,21, the last common precursor saturated 0.1 M NaClO (Aldrich, 99.99%) without the use of halide,
+4
+between ethylene and ethanol49. *CHCO can then either reduce to at a sweep rate of 10 mV s−1 from −1.3 V to +0.9 V for two cycles.
+RHE RHE
+*OCCH along the acetate/ethanol pathway or undergo reduction to
+2
+ethylene via five proton-coupled electron transfers and the release Characterization of samples
+of one HO molecule21. Along the acetate/ethanol route, OCCH can The crystal structure of the catalysts was studied using XRD with a
+2 2
+desorb and react in solution with OH− to form acetate21. Following the Bruker-AXS D8 Advance in parallel beam configuration equipped with
+C route, when highly strained distorted sites are present, an alternative a Cu X-ray tube, a Goebel mirror and equatorial Soller slit (0.3°) as well
+2
+reaction pathway opens, that is, enabling the reduction of *OCCH to as an energy-dispersive LynxEye detector. The diffraction pattern was
+2
+*OCHCH by strongly binding the terminal oxygen in a monodentate recorded through the grazing incidence mode with an incidence angle
+2
+configuration. *OCHCH (ref. 7; characterized by a double C–C bond, of 1° to decrease the bulk contribution of the Cu foil.
+2
+see Supplementary Table 18) can either reduce to acetaldehyde and The size and morphology of the samples were determined by SEM
+ethanol or couple with a CO/COH species to form allyl alcohol and, with a ThermoFisher Apreo microscope and a Hitachi S-4800 system,
+at later reduction stages, 1-propanol51 (see the correlation between including a cold field emission gun.
+Faradaic efficiency for both products in Supplementary Fig. 26 and XPS measurements were performed with a commercial hemispher-
+Supplementary Table 19). ical analyser (Phoibos 150, MCD-9 Detector, SPECS, E = 15 eV) and a
+pass
+Thus, although a methyl carbonyl intermediate (OCCH) was monochromatic X-ray source (SPECS) with an Al anode (E = 1,486.7 eV
+3 Kα
+recently suggested as the ethanol precursor during CHI and acetalde- as X-ray energy) at a power of P = 300 W. All spectra were aligned by
+3
+hyde/CO reduction20, we here identify *CHCO reduction to *OCHCH fixing the Cu 2p of Cu0 and Cu+ to 932.67 eV as a reference.
+2 3/2
+as the selectivity switch (selectivity-determing step 2, SDS2) to eth-
+anol, acetaldehyde, 1-propanol and allyl alcohol (Supplementary In situ Raman experiments
+Note 1 and Supplementary Figs. 28 and 29), as confirmed by the The in situ Raman spectra were obtained using a Renishaw (InVia
+strong correlation between acetaldehyde and ethanol selectivi- Reflex) confocal Raman microscope with a 785 nm laser. A water
+ties (R2 = 0.82 (ref. 51); Supplementary Fig. 26 and Supplementary immersion objective with a long working distance (Leica Microsys-
+Table 19). Besides, in situ Raman spectroscopy during CO, CO and tems, ×63, numerical aperture of 0.9) was chosen to perform the in situ
+2
+glyoxal reduction to ethanol confirms the existence of a shared reac- experiments in an electrolyte. The objective with a long working dis-
+tion intermediate, which is reasonably OCHCH (Supplementary tance was needed to avoid diffusion hindrance during the Raman
+2
+Fig. 28). The reduction of OCHCH to OCHCH is thermodynamically measurements13. During the measurements, the objective was pro-
+2 3
+sluggish (Supplementary Fig. 30), which might explain the experi- tected from the electrolyte by a Teflon film (DuPont, film thickness
+mental observation of OCHCH species, reflecting a significant popu- of 0.013 mm). The laser power was about 0.36 mW. The acquisition
+x
+lation on the Cu surface to be detected via SERS on a very rough Cu time was 10 s for the steady-state experiments at different potentials.
+surface. In fact, a strong *OCHCH signal was also observed on other The spot size of the focused laser beam was about 2 μm in diameter.
+2 3
+ethanol-selective catalysts52. The electrochemical measurements were performed in a home-built
+spectro-electrochemical cell made of Teflon and controlled by a Bio-
+Conclusion logic SP-240 potentiostat. The cell was equipped with a reference
+On the basis of in situ SERS and DFT simulations, we identified the cru- electrode (leak-free Ag/AgCl, Alvatek), a counter electrode (Pt ring)
+cial active sites and reaction intermediates responsible for ethylene and and a Cu foil working electrode. Typically, a 15 ml CO-saturated 0.1 M
+2
+ethanol formation in CORR over a Cu surface. We unveiled that defects NaClO solution was used as the electrolyte, and CO was continuously
+2 4 2
+in Cu with a low coordination number (<8) enable strong *CO binding, injected into the solution during the experiment. Ar-saturated 0.1 M
+thus sustaining high surface CO coverages and subsequent CO–CO KHCO and Ar-saturated 0.1 M NaClO were used in the experiments
+3 4
+dimerization. These undercoordinated sites are mainly selective to as well. For the steady-state experiment, each potential was applied
+ethylene via the traditional route, *CO–CO or *CO–COH couplings, for at least 10 min before collecting the spectra to ensure steady-state
+which are C product precursors. However, defects characterized by conditions at the surface of the catalyst.
+2+
+a highly compressed and distorted coordination environment and
+deep s-band states are instead generated at higher overpotentials and CORR testing
+2
+stabilize the adsorption of OCHCH via the terminal oxygen, opening Electrocatalytic measurements were performed with a Biologic SP-240
+2
+an alternative selective route towards ethanol on copper. By combining potentiostat in an H-type cell equipped with an anion exchange mem-
+the potential-dependent evolution of CO adsorption and C–C coupling brane (Selemion AMV, AGC). The three-electrode system consisted
+intermediates, we here describe an updated CORR-to-C reaction of the Cu foil as the working electrode, a platinum gauze (MaTecK,
+2 2+
+scheme that correlates between active sites, surface intermediates and 3,600 mesh cm−2) as the counter electrode and a leak-free Ag/AgCl ref-
+products. Insights from the identified active sites provide key guide- erence electrode (LF-1, Alvatek). A CO-saturated 0.1 M KHCO aqueous
+2 3
+lines to rationally design electrocatalysts to maximize the selectivity solution, purified from trace metal ion impurities by a cation-exchange
+of each of these products independently. resin (Chelex 100 Resin, Bio-Rad), was used as the electrolyte. The
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1492
+
+
+===== PAGE 9 =====
+
+Article https://doi.org/10.1038/s41560-024-01633-4
+CO (99.995%) flow rate was 20 ml min−1. For each cathodic potential, the induced through ab initio molecular dynamics for 1 + 10 ps (3 fs time
+2
+chronoamperometry lasted 3,600 s. All potentials are given versus the step)36, and a 4-layer thick crystalline Cu(100). For the Cu(100), the
+RHE scale and were corrected for the iR drop. Each presented data point two uppermost layers were fully relaxed and the rest fixed to the bulk
+corresponds to an identical freshly prepared sample following this distances. The Brillouin zone was sampled by a Γ-centred k-points mesh
+protocol at different potentials. The electrochemical surface rough- from the Monkhorst–Pack method60, with a reciprocal grid size smaller
+ness factor, estimated from double-layer capacitance measurements, than 0.03 Å−1. The vacuum between the slabs was larger than 12 Å. The
+is 14.6, which was measured by cyclic voltammetry in a non-Faradaic adsorbates were placed only on one side of the slab, thus requiring
+potential range from 0.10 V to 0.25 V at scan rates of 20 mV s−1, a dipole correction to remove spurious contributions arising from
+RHE RHE
+40 mV s−1, 60 mV s−1, 80 mV s−1 and 100 mV s−1 in a CO-saturated 0.1 M the asymmetric configuration61. Formation energies for the selected
+2
+KHCO solution after 1 h of electrochemical reaction. intermediates were obtained assuming CO(g), H(g), HO(g) and clean
+3 2 2 2
+Gas products were detected and quantified every 15 min by online surfaces as energy references.
+gas chromatography (Agilent 7890B), equipped with a thermal con-
+ductivity detector and a flame ionization detector. Liquid products Cu–Cu coordination number
+were analysed after each measurement with a high-performance liquid Two Cu atoms are coordinated if their distance falls below a certain
+chromatograph (Shimadzu Prominence), equipped with a NUCLEOGEL threshold. Since bulk Cu (face-centred cubic) and CuO show Cu–Cu
+2
+SUGAR 810 column and a refractive index detector, and a liquid gas bond distances of 2.57 Å and 3.05 Å, respectively, we assigned a coordi-
+chromatograph (Shimadzu 2010 Plus), equipped with a fused silica nation number N for metallic Cu between 0.0 (d = 3.05 Å) and
+Cu–Cu Cu–Cu
+capillary column and a flame ionization detector13. 1.0 (d = 2.57 Å) following a decay controlled by the error function
+Cu–Cu
+All catalytic results in this study are shown in terms of Faradaic (erf)36, as shown in equations (3) and (4). In equation (3), N is the
+Cu–Cu
+efficiency. The Faradaic efficiency of the gas product x was calculated Cu–Cu coordination number (dimensionless), and d is the Cu–Cu
+Cu–Cu
+using equation (1): distance (Å). In equation (4), t (dimensionless) is the variable of integra-
+tion, and 0 and z represent the integration limits:
+FE=
+V̇×Cx ×zx ×F
+×100%, (1)
+A×VM ×jtotal NCu−Cu=
+2
+1 −
+2
+1 erf( dCu−C
+0
+u
+.
+−
+1Å
+2.57Å ) (3)
+and for the liquid product x was calculated using equation (2):
+z
+FE=
+V×ΔCx×zx×F
+×100%. (2)
+erf(z)= 2 ∫ exp(−t2)dt (4)
+ΔQ √π 0
+Here FE is the Faradaic efficiency of product x, V̇ is the CO
+2
+gas flow rate
+(l s−1), C is the volume fraction of the product x detected by gas chro- Three-dimensional localized strain
+x
+matography, z is the number of electrons transferred for reduction to Localized three-dimensional strain for a given Cu active site j was esti-
+x
+product x, F is the Faradaic constant (C mol−1), A is the geometric area mated by assessing the local deformation of Cu–Cu distances versus
+of the electrode (cm−2), V is the molar volume (22.4 l mol−1), j is the the bulk value (d (bulk) = 2.57 Å; Supplementary Table 15) for a
+M total Cu–Cu
+total current density during CO bulk electrolysis (A cm−2), ΔC is the given atom i within the coordination shell of species j, as shown in
+2 x
+final concentration of product detected by high-performance liquid equation (5). Then, such deformations were summed among all the
+chromatography and liquid gas chromatography (mol l−1), ΔQ is the neighbouring Cu atoms and normalized by the Cu–Cu coordination
+total charge transferred during electrolysis at constant potential or number (N ) of the active site j, as shown in equation (6). Dis-
+Cu–Cu
+current (C), and V is the volume of the electrolyte (l). tances are given in Å, coordination numbers are dimensionless, and
+three-dimensional strain is reported as a percentage of deformation.
+Quasi in situ XPS Negative values of strain indicate expansion, whereas positive values
+Quasi in situ XPS experiments were performed to avoid exposure of characterize contraction:
+the sample to air after the electrochemical treatment. In this set-up,
+an electrochemical cell is directly attached to the UHV system where dCu−Cu(bulk)−dCu−Cu(j,i)
+3Dstrain(j,i)= ×100 (5)
+the XPS chamber is located to allow the sample transfer without air dCu−Cu(bulk)
+exposure. The electrochemical measurements were carried out using a
+potentiostat (Autolab PGSTAT 302N) and a CO-saturated 0.1 M KHCO
+2 3 NCu−Cu3Dstrain(j,i)
+electrolyte. After the electrochemical treatment, the samples were Σ(Δd/d)N−1 (j)= ∑ (6)
+Cu−Cu N−1 (j)
+rinsed with Ar-saturated HO and subsequently transferred under an i=1 Cu−Cu
+2
+Ar atmosphere into the load-lock of the UHV system.
+DFT details Visualization of vibrational fingerprints
+The DFT calculations were performed using the Vienna Ab initio To visualize vibrational frequencies of a given reaction intermediate
+Simulation Package34,35, with the Perdew-Burke-Ernzerhof (PBE) den- in ioChem-BD37, it is necessary to follow the next steps, summarized
+sity functional33. We included dispersion according to the DFT-D2 in Supplementary Fig. 17.
+method53,54, with the re-parametrization of C coefficients for metals
+6
+performed by our group55. To account for solvent stabilization of (1) Access ref. 62 and click on the ‘frequencies’ collection (top left)
+intermediate formation energy, we employed the VASPsol code56,57. (2) Select the desired item to visualize by clicking on the title ‘frq-X’
+Inner electrons were represented by projector augmented wave (PAW) (3) Once a new tab opens, click on ‘Actions → View data’ (top right)
+pseudopotentials58,59, whereas the monoelectronic states for the (4) Once a new tab opens, scroll down to ‘vibrational frequencies’
+valence electrons were expanded as plane waves with a kinetic energy and click on it
+cut-off of 450 eV. (5) Click on ‘Load vibrations’
+We modelled the OD-Cu catalyst investigated experimentally by (6) Rotate the point of view by pressing the left button of the
+considering a Cu(111)/CuO(111) epitaxy with surface reconstruction mouse and select the desired frequency
+2
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1493
+
+
+===== PAGE 10 =====
+
+Article https://doi.org/10.1038/s41560-024-01633-4
+Data availability 17. Reichert, A. M., Piqué, O., Parada, W. A., Katsounaros, I. &
+Regarding the experimental datasets, the data are available in the main Calle-Vallejo, F. Mechanistic insight into electrocatalytic glyoxal
+text, in the Supplementary Information file or as Source Data files for reduction on copper and its relation to CO reduction. Chem. Sci.
+2
+Figs. 1e,f, 2b, 5a, 6c and Supplementary Fig. 12. Additional data are 13, 11205–11214 (2022).
+available from the corresponding authors upon reasonable request. 18. Delmo, E. P. et al. The role of glyoxal as an intermediate in the
+The DFT datasets generated during the current study are available in electrochemical CO reduction reaction on copper. J. Phys. Chem.
+2
+the ioChem-BD database37 at https://doi.org/10.19061/iochem-bd-1-251 C 127, 4496–4510 (2023).
+(ref. 62). 19. da Silva, A. H. M., Lenne, Q., Vos, R. E. & Koper, M. T. M.
+Competition of CO and acetaldehyde adsorption and reduction
+References on copper electrodes and its impact on n-propanol formation.
+1. Nitopi, S. et al. Progress and perspectives of electrochemical ACS Catal. 13, 4339–4347 (2023).
+CO reduction on copper in aqueous electrolyte. Chem. Rev. 119, 20. Li, J. et al. Intercepting elusive intermediates in Cu-mediated CO
+2
+7610–7672 (2019). electrochemical reduction with alkyl species. J. Am. Chem. Soc.
+2. Birdja, Y. Y. et al. Advances and challenges in understanding the 144, 20495–20506 (2022).
+electrocatalytic conversion of carbon dioxide to fuels. Nat. Energy 21. Heenen, H. H. et al. Mechanism for acetate formation in
+4, 732–745 (2019). electrochemical CO reduction on Cu: selectivity with potential,
+(2)
+3. De Luna, P. et al. What would it take for renewably powered pH, and nanostructuring Hendrik. Energy Environ. Sci. 15,
+electrosynthesis to displace petrochemical processes? 3978–3990 (2022).
+Science 364, eaav3506 (2019). 22. Handoko, A. D., Wei, F., Jenndy, Yeo, B. S. & Seh, Z. W.
+4. Gao, D., Arán-Ais, R. M., Jeon, H. S. & Roldan Cuenya, B. Rational Understanding heterogeneous electrocatalytic carbon dioxide
+catalyst and electrolyte design for CO electroreduction towards reduction through operando techniques. Nat. Catal. 1, 922–934
+2
+multicarbon products. Nat. Catal. 2, 198–210 (2019). (2018).
+5. Hori, Y., Takahashi, R., Yoshinami, Y. & Murata, A. Electrochemical 23. Auer, A. et al. Self-activation of copper electrodes during CO
+reduction of CO at a copper electrode. J. Phys. Chem. B 101, electro-oxidation in alkaline electrolyte. Nat. Catal. 3, 797–803
+7075–7081 (1997). (2020).
+6. An, H. et al. Sub-second time-resolved surface enhanced 24. Scholten, F., Nguyen, K.-L. C., Bruce, J. P., Heyde, M. &
+Raman spectroscopy reveals dynamic CO intermediates during Roldan Cuenya, B. Identifying structure-selectivity correlations
+electrochemical CO reduction on copper. Angew. Chem. Int. Ed. in the electrochemical reduction of CO: comparison of
+2 2
+60, 16576–16584 (2021). well-ordered atomically-clean and chemically-etched Cu single
+7. Kortlever, R., Shen, J., Schouten, K. J. P., Calle-Vallejo, F. & crystal surfaces. Angew. Chem. Int. Ed. 60, 19169–19175 (2021).
+Koper, M. T. M. Catalysts and reaction pathways for the 25. Arán-Ais, R. M., Scholten, F., Kunze, S., Rizo, R. &
+electrochemical reduction of carbon dioxide. J. Phys. Chem. Lett. Roldan Cuenya, B. The role of in situ generated morphological
+6, 4073–4082 (2015). motifs and Cu(I) species in C product selectivity during CO
+2+ 2
+8. Garza, A. J., Bell, A. T. & Head-Gordon, M. Mechanism of pulsed electroreduction. Nat. Energy 5, 317–325 (2020).
+CO reduction at copper surfaces: pathways to C products. 26. Liu, G. et al. CO reduction on pure Cu produces only H after
+2 2 2 2
+ACS Catal. 8, 1490–1499 (2018). subsurface O is depleted: theory and experiment. Proc. Natl Acad.
+9. Hori, Y., Murata, A. & Yoshinami, Y. Adsorption of CO, Sci. USA 118, e2012649118 (2021).
+intermediately formed in electrochemical reduction of CO, at a 27. Li, C. W., Ciston, J. & Kanan, M. W. Electroreduction of carbon
+2
+copper electrode. J. Chem. Soc. Faraday Trans. 87, 125–128 (1991). monoxide to liquid fuel on oxide-derived nanocrystalline copper.
+10. Bagger, A., Ju, W., Varela, A. S., Strasser, P. & Rossmeisl, J. Nature 508, 504–507 (2014).
+Electrochemical CO reduction: a classification problem. 28. Gao, D. et al. Activity and selectivity control in CO electroreduction
+2 2
+Chem. Phys. Chem. 18, 3266–3273 (2017). to multicarbon products over CuO catalysts via electrolyte design.
+x
+11. Hori, Y., Koga, O., Yamazaki, H. & Matsuo, T. Infrared spectroscopy ACS Catal. 8, 10012–10020 (2018).
+of adsorbed CO and intermediate species in electrochemical 29. Ruiter De, J. et al. Probing the dynamics of low-overpotential
+reduction of CO to hydrocarbons on a Cu electrode. Electrochim. CO-to-CO activation on copper electrodes with time-resolved
+2 2
+Acta 40, 2617–2622 (1995). Raman spectroscopy. J. Am. Chem. Soc. 144, 15047–15058
+12. Moradzaman, M. & Mul, G. In situ Raman study of (2022).
+potential-dependent surface adsorbed carbonate, CO, OH, and 30. Zhao, Y. et al. Speciation of Cu surfaces during the
+C species on Cu electrodes during electrochemical reduction of electrochemical CO reduction reaction. J. Am. Chem. Soc. 142,
+CO. ChemElectroChem 8, 1478–1485 (2021). 9735–9743 (2020).
+2
+13. Zhan, C. et al. Revealing the CO coverage-driven C–C coupling 31. Brown, G. M. & Hope, G. A. A SERS study of SO–4Cl− ion
+2
+mechanism for electrochemical CO reduction on CuO adsorption at a copper electrode in situ. J. Electroanal. Chem.
+2 2
+nanocubes via operando Raman spectroscopy. ACS Catal. 11, 405, 211–216 (1996).
+7694–7701 (2021). 32. Niaura, G. & Malinauskas, A. Surface-enhanced Raman scattering
+14. Pérez-Gallent, E., Figueiredo, M. C., Calle-Vallejo, F. & from chloride on copper electrodes. Chem. Phys. Lett. 207,
+Koper, M. T. M. Spectroscopic observation of a hydrogenated CO 455–460 (1993).
+dimer intermediate during CO reduction on Cu(100) electrodes. 33. Perdew, J. P., Burke, K. & Ernzerhof, M. Generalized gradient
+Angew. Chem. Int. Ed. 56, 3621–3624 (2017). approximation made simple. Phys. Rev. Lett. 77, 3865–3868
+15. Kim, Y. et al. Time-resolved observation of C–C coupling (1996).
+intermediates on Cu electrodes for selective electrochemical CO 34. Kresse, G. & Furthmüller, J. Efficiency of ab-initio total energy
+2
+reduction. Energy Environ. Sci. 13, 4301 (2020). calculations for metals and semiconductors using a plane-wave
+16. Schouten, K. J. P., van der Ham, C. J. M., Qin, Z. & Koper, M. T. basis set. Comput. Mater. Sci. 6, 15–50 (1996).
+M. A new mechanism for the selectivity to C and C species 35. Kresse, G. & Furthmüller, J. Efficient iterative schemes for ab initio
+1 2
+in the electrochemical reduction of carbon dioxide on copper total-energy calculations using a plane-wave basis set. Phys. Rev.
+electrodes. Chem. Sci. 2, 1902 (2011). B 54, 11169–11186 (1996).
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1494
+
+
+===== PAGE 11 =====
+
+Article https://doi.org/10.1038/s41560-024-01633-4
+36. Dattila, F., García-Muelas, R. & López, N. Active and selective 57. Mathew, K., Sundararaman, R., Letchworth-Weaver, K., Arias, T. A. &
+ensembles in oxide-derived copper catalysts for CO reduction. Hennig, R. G. Implicit solvation model for density-functional study
+2
+ACS Energy Lett. 5, 3176–3184 (2020). of nanocrystal surfaces and reaction pathways. J. Chem. Phys.
+37. Álvarez-Moreno, M. et al. Managing the computational chemistry 140, 084106 (2014).
+big data problem: the ioChem-BD platform. J. Chem. Inf. Model. 58. Blöchl, P. E. Projector augmented-wave method. Phys. Rev. B 50,
+55, 95–103 (2015). 17953–17979 (1994).
+38. Ma, W. et al. Electrocatalytic reduction of CO and CO to 59. Kresse, G. & Joubert, D. From ultrasoft pseudopotentials
+2
+multi-carbon compounds over Cu-based catalysts. Chem. Soc. to the projector augmented-wave method. Phys. Rev. B 59,
+Rev. 50, 12897–12914 (2021). 1758–1775 (1999).
+39. Hollins, P., Davies, K. J. & Pritchard, J. Infrared spectra of CO 60. Monkhorst, H. J. & Pack, J. D. Special points for Brillouin-zone
+chemisorbed on a surface vicinal to Cu(110): the influence of integrations. Phys. Rev. B 13, 5188–5192 (1976).
+defect sites. Surf. Sci. 138, 75–83 (1984). 61. Makov, G. & Payne, M. C. Periodic boundary conditions in ab initio
+40. Gunathunge, C. M. et al. Spectroscopic observation of reversible calculations. Phys. Rev. B 51, 4014–4022 (1995).
+surface reconstruction of copper electrodes under CO 62. Dattila, F. Raman-C2. ioChem-BD https://doi.org/10.19061/iochem-
+2
+reduction. J. Phys. Chem. C 121, 12337–12344 (2017). bd-1-251 (2024).
+41. Amirbeigiarab, R. et al. Atomic-scale surface restructuring of 63. Pablo-García, S. et al. Mechanistic routes toward C products in
+3
+copper electrodes under CO electroreduction conditions. copper-catalysed CO electroreduction. Catal. Sci. Technol. 12,
+2 2
+Nat. Catal. 6, 837–846 (2023). 409–417 (2022).
+42. Yang, Y. et al. Operando studies reveal active Cu nanograins for
+CO electroreduction. Nature 614, 262–269 (2023). Acknowledgements
+2
+43. Sebastián-Pascual, P. & Escudero-Escribano, M. Surface C.Z. thanks the Alexander von Humboldt Foundation (AvH)
+characterization of copper electrocatalysts by lead under- for supporting his work with an AvH postdoctoral research
+potential deposition. J. Electroanal. Chem. 896, 115446 (2021). grant. This work was also partially funded by the European
+44. Bai, H. et al. Controllable CO adsorption determines ethylene and Research Council (ERC-725915, OPERANDOCAT), the Deutsche
+methane productions from CO electroreduction. Sci. Bull. 66, Forschungsgemeinschaft (DFG, German Research Foundation) –
+2
+62–68 (2021). project no. 406944504 – SPP 2080, Germany´s Excellence Strategy
+45. Jeon, H. S. et al. Selectivity control of Cu nanocrystals in a gas-fed – EXC 2008 – 390540038 – UniSysCat, and Bundesministerium
+flow cell through CO pulsed electroreduction. J. Am. Chem. Soc. für Bildung und Forschung (BMBF, CatLab, 03EW0015A). F.D.
+2
+143, 7578–7587 (2021). and N.L. thank the Spanish Ministry of Science and Innovation
+46. Timoshenko, J. et al. Steering the structure and selectivity of (PID2021-122516OB-I00, Severo Ochoa CEX2019-000925-S) for
+CO electroreduction catalysts by potential pulses. Nat. Catal. 5, their financial support. We also acknowledge the support from the
+2
+259–267 (2022). IMPRS Functional Interfaces Physics and Chemistry and BSC-RES for
+47. Mavrikakis, M., Hammer, B. & Nørskov, J. K. Effect of strain on the providing generous computational resources.
+reactivity of metal surfaces. Phys. Rev. Lett. 81, 2819–2822 (1998).
+48. Calle-Vallejo, F., Martínez, J. I., García-Lastra, J. M., Sautet, P. & Author contributions
+Loffreda, D. Fast prediction of adsorption properties for platinum C.Z., F.D., A.B., N.L. and B.R.C. co-wrote the paper. B.R.C. and N.L.
+nanocatalysts with generalized coordination numbers. supervised the study. C.Z. designed the study and performed sample
+Angew. Chem. Int. Ed. 53, 8316–8319 (2014). synthesis, characterization, catalytic measurements and the in situ
+49. Peng, H.-J., Tang, M. T., Halldin Stenlid, J., Liu, X. & Abild-Pedersen, SERS measurements. A.B. performed the XRD experiments. C.R., M.H.,
+F. Trends in oxygenate/hydrocarbon selectivity for electrochemical T.W. and F.S. performed the XPS experiments. C.R. performed the Pb
+CO reduction to C products. Nat. Commun. 13, 1399 (2022). UPD experiments. A.H. performed the time-dependent in situ SERS
+(2) 2
+50. Hou, J., Chang, X., Li, J., Xu, B. & Lu, Q. Correlating CO coverage measurements. M.H. performed the in situ SERS measurements of
+and CO electroreduction on Cu via high-pressure in situ glyoxal and ethanol reduction. F.D. carried out the density functional
+spectroscopic and reactivity investigations. J. Am. Chem. Soc. theory simulations. All authors contributed to the discussion and
+144, 22202–22211 (2022). editing of the paper.
+51. Kuhl, K. P., Cave, E. R., Abram, D. N. & Jaramillo, T. F. New insights
+into the electrochemical reduction of carbon dioxide on metallic Funding
+copper surfaces. Energy Environ. Sci. 5, 7050–7059 (2012). Open access funding provided by Max Planck Society.
+52. Ding, L. et al. Over 70% Faradaic efficiency for CO
+2
+electroreduction to ethanol enabled by potassium dopant- Competing interests
+tuned interaction between copper sites and intermediates. The authors declare no competing interests.
+Angew. Chem. Int. Ed. 61, e202209268 (2022).
+53. Grimme, S. Semiempirical GGA-type density functional Additional information
+constructed with a long-range dispersion correction. J. Comput. Supplementary information The online version contains supplementary
+Chem. 27, 1787–1799 (2006). material available at https://doi.org/10.1038/s41560-024-01633-4.
+54. Bucko, T. et al. Improved description of the structure of molecular
+and layered crystals: ab initio DFT calculations with van der Waals Correspondence and requests for materials should be addressed to
+corrections. J. Phys. Chem. A 114, 11814–11824 (2010). Núria López or Beatriz Roldan Cuenya.
+55. López, N. et al. State-of-the-art and challenges in theoretical
+simulations of heterogeneous catalysis at the microscopic level. Peer review information Nature Energy thanks Ward van der Stam and
+Catal. Sci. Technol. 2, 2405–2417 (2012). the other, anonymous, reviewer(s) for their contribution to the peer
+56. Fishman, M., Zhuang, H. L., Mathew, K., Dirschka, W. & Hennig, R. G. review of this work.
+Accuracy of exchange-correlation functionals and effect
+of solvation on the surface energy of copper. Phys. Rev. B 87, Reprints and permissions information is available at
+245402 (2013). www.nature.com/reprints.
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1495
+
+
+===== PAGE 12 =====
+
+Article https://doi.org/10.1038/s41560-024-01633-4
+Publisher’s note Springer Nature remains neutral with regard to article are included in the article’s Creative Commons licence, unless
+jurisdictional claims in published maps and institutional affiliations. indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+Open Access This article is licensed under a Creative Commons use is not permitted by statutory regulation or exceeds the permitted
+Attribution 4.0 International License, which permits use, sharing, use, you will need to obtain permission directly from the copyright
+adaptation, distribution and reproduction in any medium or format, holder. To view a copy of this licence, visit http://creativecommons.
+as long as you give appropriate credit to the original author(s) and the org/licenses/by/4.0/.
+source, provide a link to the Creative Commons licence, and indicate
+if changes were made. The images or other third party material in this © The Author(s) 2024
+Nature Energy | Volume 9 | December 2024 | 1485–1496 1496

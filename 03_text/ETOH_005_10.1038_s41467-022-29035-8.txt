@@ -1,0 +1,1010 @@
+
+
+===== PAGE 1 =====
+
+ARTICLE
+OPEN
+https://doi.org/10.1038/s41467-022-29035-8
+Operando
+Complementary Spectroscopy
+fi
+identi cation of in-situ generated metastable
+charge-asymmetry Cu -CuN clusters for CO
+2 3 2
+reduction to ethanol
+Xiaozhi Su 1,7, Zhuoli Jiang2,3,7, Jing Zhou4,7, Hengjie Liu 5, Danni Zhou2, Huishan Shang2, Xingming Ni6,
+✉ ✉
+Zheng Peng6, Fan Yang 6, Wenxing Chen 2 , Zeming Qi5, Dingsheng Wang 3 & Yu Wang 1
+Copper-based materials can reliably convert carbon dioxide into multi-carbon products but
+they suffer from poor activity and product selectivity. The atomic structure-activity rela-
+tionship of electrocatalysts for the selectivity is controversial due to the lacking of systemic
+multiple dimensions for operando condition study. Herein, we synthesized high-performance
+CO RRcatalystcomprisingofCuOclusterssupportedonN-dopedcarbonnanosheets,which
+2
+exhibitedhighC productsFaradaicefficiencyof73%includingdecentethanolselectivityof
+2+
+51%withapartialcurrentdensityof14.4mA/cm−2at−1.1Vvs.RHE.Weevidencedcatalyst
+restructuring and tracked the variation of the active states under reaction conditions, pre-
+senting the atomic structure-activity relationship of this catalyst. Operando XAS, XANES
+simulations and Quasi-in-situ XPS analyses identified a reversible potential-dependent
+transformation from dispersed CuO clusters to Cu -CuN clusters which are the optimal
+2 3
+sites. This cluster can’t exist without the applied potential. The N-doping dispersed the
+reduced Cu clusters uniformly and maintained excellent stability and high activity with
+n
+adjusting the charge distribution between the Cu atoms and N-doped carbon interface. By
+combiningOperandoFTIRandDFTcalculations,itwasrecognizedthattheCu -CuN clusters
+2 3
+displayed charge-asymmetric sites which were intensified by CH * adsorbing, beneficial to
+3
+the formation of the high-efficiency asymmetric ethanol.
+1ShanghaiSynchrotronRadiationFacility,ZhangjiangLaboratory,ShanghaiAdvancedResearchInstitute,ChineseAcademyofSciences,Shanghai201204,
+China.2BeijingKeyLaboratoryofConstructionTailorableAdvancedFunctionalMaterialsandGreenApplications,SchoolofMaterialsScienceand
+Engineering,BeijingInstituteofTechnology,Beijing100081,China.3DepartmentofChemistry,TsinghuaUniversity,Beijing100084,China.4Shanghai
+InstituteofAppliedPhysics,ChineseAcademyofSciences,Shanghai201800,China.5NationalSynchrotronRadiationLaboratory,UniversityofScienceand
+TechnologyofChina,Hefei,Anhui230029,China.6SchoolofPhysicalScienceandTechnology,ShanghaiTechUniversity,Shanghai201210,China.7These
+✉
+authorscontributedequally:XiaozhiSu,ZhuoliJiang,JingZhou. email:wxchen@bit.edu.cn;wangyu@sinap.ac.cn
+NATURECOMMUNICATIONS| (2022) 13:1322 |https://doi.org/10.1038/s41467-022-29035-8|www.nature.com/naturecommunications 1
+;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29035-8
+E
+lectrochemical conversion of carbon dioxide into value- revealed that Cu/N C displayed a nano flake structure without
+x
+added products using sustainable energies is environmen- obvious large-scale particles on the surface (Fig. 1a and Supple-
+tally friendly and economical approach1. As well known, mentaryFig.1).Thenanosheetstructurewasfurtherconfirmedby
+C 2+ hydrocarbons or oxygenated compounds such as ethanol atomic force microscopy (AFM), and the corresponding height
+(C H OH), ethylene (C H ) and n-propanol (n-C H OH) with profiles of the scans showed a thickness of about 0.6nm (Sup-
+2 5 2 4 3 7
+remarkable energy densities have more value for solving the plementaryFig.2).TheNspeciesinthesamplescouldpreventCu
+energy crisis2. However, complex product selectivity limits the atoms from aggregating excessively and ensured the atomic dis-
+development and application of carbon dioxide reduction. The persion of Cu species. As we found in Supplementary Fig. 3, Cu
+origin of this selectivity toward C 2+ hydrocarbons has been a nanoparticles(about2–3nano)wereobservedinthesampleCu/C
+prominent topic of study recently and has been intensely (withoutN).Highangleannulardark-fieldscanningtransmission
+debated3–6.
+Copper-based materials are absolutely effective and electron microscopy (HAADF-STEM), which can be clearly
+promisingcatalystsforthereductionofcarbondioxidetomulti- observed in the atomic phase, revealed that the copper atoms of
+carbon products3. Previous works indicated that both the cata- Cu/N C agglomerate into clusters without an obvious lattice
+0.14
+lysts and substrates could affect the local structure and the elec- (Fig. 1b). Elemental mapping by Energy Dispersive Spectrometer
+tronicstateofactivesites,andthenmodifythereactionpathway (EDS)(Fig.1c)demonstratesthatnitrogenisuniformlydispersed
+andcatalyticmechanism4,5.Manystrategieshavebeendeveloped withinthecarbonmatrix.X-raydiffraction(XRD)revealedonlya
+to modify or optimize the copper-based catalysts for improving broadpeakfromthe(002)oftheCu/N CandN C(Fig.1d),
+0.14 0.14
+the multi-carbon products selectivity, such as adjusting the sur- however the Cu/C showed totally different peaks which could
+face
+morphology4,5,7–13,
+doping metals or
+non-metals14–18,
+belong to a pure metallic copper (PDF#04-0836). The electron
+buildingnanostructures19–21,ordesigningsingleactivesites22–25.
+diffraction pattern of Cu/N C revealed it was amorphous
+0.14
+Despitetremendous efforthasbeen paid,furtheradvancesare material in Supplementary Fig. 4. To further study the electronic
+still needed to understand the structure-activity relationship structure of the catalysis, Cu K-edge X-ray absorption spectro-
+(SAR) and efficient conversion CO to multi-carbon products scopy, X-ray photoelectron spectroscopy (XPS) and soft-X-ray
+2
+especially for high economy asymmetric C 2+ products (e.g., absorption spectroscopy (XAS) were carried out as shown in
+ethanol). Therefore, the design of catalysts that selectively pro- Fig.1e–gandiandSupplementaryFig.5.TheCu2p XPSfitting
+3/2
+duceethanol viaelectrochemical CO RRwere supposed tofocus curves revealed that Cu was mainly +1 and +2 valence in Cu/
+2
+onminimizingthreecompetingreactionpathwayswhichreduced N C26,27. The Cu L3M45M45 Auger electron spectroscopy
+0.14
+thefaradaic efficiency(FE)ofasymmetricethanol byconsuming (AES) showed no distinct peak around 918.5eV which indicated
+electronsandprotons,thehydrogenevolutionreaction(HER),C thatnoCu0 existed onthesurface.TheN K-edgepresentedfour
+1
+product formation (e.g., CH , HCOOH) and other symmetrical obvious resonances (Fig. 1i) assigned peak A , A , and A to
+4 1 2 3
+C product formation (e.g., ethylene). However, little is known pyridine-like, cyanide-like, and graphite-like N, respectively,
+2
+about the structure-activity relationship, extraordinarily to whereas A at ∼407eV is attributed to the transition from N 1s
+4
+explain the catalyst structure changes with the product changes corestatestoN−Cσ*bonds28.Obviously,peakA ofCu/N C
+3 0.14
+under different potential. Hence, it is urgent to build the shifts negative energy which indicated the charge transfer had
+structure-activity relationship between atomic structure and occurredcomparedwiththatofN Cwhileotherpeakskeepthe
+0.14
+products for designing electrocatalysts. sameposition,indicatinggraphite-Nformedachemicalbondwith
+Here we synthesized CuO clusters supported on nitrogen- Cu sites29. The C K-edge XAS spectra in Supplementary Fig. 5
+doped carbon nanosheets (Cu/N C) as dispersed electro- showed no difference between Cu/N C and N C, excluding
+0.14 0.14 0.14
+catalysts, achieving high-performances CO reduction that are formation of the Cu−C bond. Thus, we could conclude that Cu
+2
+superior to CuO catalysts in terms of stability, activity and sites only bond to graphite-like N, in Cu/N C.
+x 0.14
+selectivity. The prepared Cu/N C catalyst with appropriate X-ray absorption spectroscopy (XAS) measurements were
+0.14
+nitrogencontentdisplayedhighC 2+productsFaradaicefficiency employed to further investigate the electronic structure and
+of 73% which includes ethanol FE of 51% at the potential of geometric structure of the Cu/N C. Fig. 1e showed the Cu
+0.14
+−1.1V vs. RHE with a current density of −14.4mA/cm −2 in K-edge XANES spectra of the Cu/N C together with the
+0.14
+0.1M KHCO electrolyte. Moreover, it exhibited superb long- referencesofCuO,Cu OandCufoil.Theabsorptionedgeofthe
+3 2
+termCO electroreductiondurabilityover10h.Thewell-defined Cu/N C was between the Cu O and CuO, indicating that the
+2 0.14 2
+self-reconstructionfortheactivesitesofCu/N Calsofacilitate oxidationstateofthecopperspeciesisintheintermediatevalence
+0.14
+the in-depth mechanistic understandings from complementary statebetween+1and+2.ThefeatureofXANESat8986eVand
+Operando Spectroscopy (XAS, XPS and FTIR), XANES simula- 8997eVforCu/N CresembledthemixturedominatedbyCuO
+0.14
+tionsandtheoreticalcalculationstopresenttheatomicstructure- with a little contribution by Cu + or Cu0 complex. The Fourier-
+activity relationship between the ethanol selectivity and in situ transformed (FT) k3-weighted EXAFS oscillation in Fig. 1f also
+dynamic structure (local structure, electronic structure and the showedthedisappearanceofthefeatureforCu–CuinRspacein
+adsorbed intermediates), that would benefit the recognition for Cu/N Cwithsimultaneousappearanceofthepeakat1.5Åfor
+0.14
+the CO RR process. Cu−O/N. The fitting result displayed that the Cu−O/N bond
+2
+length is 1.93Å with the coordination number (CN) 3.4,
+(Supplementary Figs. 6, 7 and Table 1) indicating that Cu ions
+Results and discussion intheas-synthesizedcatalystswerepredominatelyintheformof
+Structure characterization of the Cu/N x C. In a typical proce- CuO clusters coordinated with four oxygen atoms. Notably, the
+dure, copper phthalocyanine and dicyandiamide were con- coordination number of Cu−O/N is lower than that of the CuO
+tinuously mixed in ethanol and dried. Subsequently, the dried (CN=4) with a litter shorter bond length (1.93Å) (the bond
+mixturewaspyrolyzedatdifferenttemperaturesforaseriesofCu/ lengthinCuOis1.95Å)suggestingthatCuspecieswithadefinite
+N Csampleswithdifferentnitrogencontent(x=0.14,0.11,0.02, Cu–O/N coordination-unsaturated structure (CN<4, bond
+x
+0,xismasscontentsratioofnitrogentocarbon).Thelinearsweep length<1.95Å)existed.NotethatTEMandEDXresultsshowed
+voltammetry (LSV) curves demonstrated that the activity of Cu/ CuO clusters were uniformly dispersed and anchored on the
+N C was better than other contrast samples with maximum N-doped carbon nanosheets support. To further explore the
+0.14
+current density. Transmission electron microscopy (TEM) N-dopedthatinfluencedCO RRactivity,XANESandFT-EXAFS
+2
+2 NATURECOMMUNICATIONS| (2022) 13:1322 |https://doi.org/10.1038/s41467-022-29035-8|www.nature.com/naturecommunications
+
+
+===== PAGE 3 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29035-8
+Fig.1StructurecharacterizationsoftheCu/NC.aTEMimageofCu/N C.bHAADF-STEMimageofCu/N C.cEDSofCu/N C.dXRDofCu/
+x 0.14 0.14 0.14
+N C,Cu/CandNC.eCuK-edgeXANESspectraofCu/N Cwiththereferences.fFT-EXAFSspectraofCu/N Cwiththereferences.gXPSanalysis
+0.14 0.14 0.14
+oftheCu2p forCu/N CandCu/C.hAESanalysisoftheCuL3M45M45forCu/N CandCu/C.iNK-edgeXANESspectraofCu/N Cand
+3/2 0.14 0.14 0.14
+N C.
+0.14
+ofCu/CwithouttheN-dopingwasplotinSupplementaryFig.8. Versus Cu/N C catalysts, the NC catalyst has little activity.
+0.14
+TheXANESoftheCu/CindicatedthattheCuionswerereduced Fig. 2b showed the product selectivity of CO RR of Cu/N C
+2 0.14
+to metallic Cu. The FT-EXAFS data also showed the peak for catalyst.ThemainproductsformedatlowpotentialwereCOand
+Cu–CuinRspacewiththeweakpeakat1.5ÅforCu–Orevealing H . At −0.7V (versus the reversible hydrogen electrode, RHE),
+2
+that the copper in Cu/C agglomerated into larger metallic hydrocarbons such as ethylene (C H ) and methane (CH ) star-
+2 4 4
+particles with a copper oxides surface in the air (more detail in ted to form, and the selectivity of CO and H decreased. The
+2
+SupplementaryFigs.9,10andTable2).Ourstudyindicatedthat product of ethanol (C H OH) was first detected at −0.8V vs.
+2 5
+N-doped promotes the dispersion of CuO clusters in the as- RHE. Subsequently, the faradaic efficiency (FE) of C 2+ products
+synthesizedcatalystsandplayedthecriticalroleinimprovingFE continuouslyincreasedintherange−0.8Vto−1.1V.At−1.1V,
+for direct CO -to-ethanol electrochemical conversion. These the maximum FE of ethanol is 51% with a current density of
+2
+results agreed well with XRD and HAADF–STEM results. The −14.4mA/cm −2andthetotalC 2+productsFEisupto73%.We
+structureoftheCu/N CisfurtherdiscussedbyoperandoXAS. also gave the each product partial current density of Cu/N C
+0.14 0.14
+catalystinFig.2c.TheLSVcurvesofCu/N CinN afigndCO
+0.14 2 2
+Electrochemical characterization. The electrochemical CO RR were measured, respectively, in Fig. 2d. In CO 2 -saturated 0.1M
+2
+KHCO solution, the Cu/N C displayed high activity. Fig. 2e
+activity of Cu/N C catalysts were evaluated in CO -saturated 3 0.14
+0.1M KHCO sol x ution. Linear sweep voltammetry (LS 2 V) curves showed that H 2 , C 1 and C 2+ products distributions of five cata-
+3
+lysts. Cu/N C catalysts truly boosted the product selectivity of
+(Fig. 2a) demonstrated that the activity of Cu/N C was better x
+0.14
+CO RR. We further evaluated the stability of Cu/N C for
+than other contrast samples with lowest onset potential and 2 0.14
+CO RR by a long-term experiment of 10h. Both the partial
+maximum current density. This suggested that the increase in 2
+nitrogen content is helpful but limited to improve the activity.
+currentdensityandFEofC 2+productslightlydecreased(Fig.2f),
+NATURECOMMUNICATIONS| (2022) 13:1322 |https://doi.org/10.1038/s41467-022-29035-8|www.nature.com/naturecommunications 3
+
+
+===== PAGE 4 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29035-8
+Fig.2CO RRactivityofCu/NC.aLSVcurvesofN CandCu/NC.bFEandcPartialcurrentdensityofeachproductofCu/N C.dLSVcurvesofCu/
+2 x 0.14 x 0.14
+N
+0.14
+CinN
+2
+andCO
+2
+.eFEofH
+2
+,C
+1
+andC 2+productsofN
+0.14
+CandCu/N
+x
+C.fLong-timestabilityofCu/N
+0.14
+C.
+that demonstrated good stability. There were no structural FT-EXAFSdatashowedonlyonepeaklocatedat~1.5Åwhichis
+changes of Cu/N C after long-term CO RR electrolysis, as the typical scattering feature of Cu–N/O coordination. The FT
+0.14 2
+shown in Supplementary Fig. 11. EXAFS fitting results in Supplementary Figs. 5, 6 and Table 1
+showedthatCNofO/NatomstoCuatomswasabout3.4withan
+average bond length of 1.93Å, without the Cu–Cu bond con-
+OperandoXAS,SR-FTIRSpectroscopyandQuasi-in-situXPS- tribution.TheCu–O/Nbondintensityslightdecreasedat−0.6V
+AES results. Studying the atomic structure-activity relationship vs. RHE. No C 2+ products are formed at this stage in Fig. 2c.
+ofCO RRcatalystunderoperandoconditionsiscrucialtoreveal Once applying the potential of −0.8V vs. RHE, the intensity of
+2
+theintrinsicreactivemechanism.Inordertoidentifytherealistic the scattering peak extremely descended with an additional peak
+catalytic centers of Cu/N C, operando XAS study were at~2.4Å.ThisisatypicalscatteringfeatureoftheCu–Cubond.
+0.14
+employed to directly monitor its catalytic behavior. We first The conversion of CO -to-ethanol reaction occurred con-
+2
+collectedex-situXASdataofthefullyactivatedCu/N C.When currently. The intensity of Cu–O/N scattering peak further des-
+0.14
+Cu/N C was soaked into the KHCO solution at open circuit cended with the increasing of the Cu–Cu bond as the potential
+0.14 3
+(OC), no obvious structural change was observed from the decreased. Moreover, the Cu–O/N peak intensity stabilized and
+XANES in Supplementary Fig. 12. Operando XAS spectra recor- the Cu–Cu bond slowly increased with the potential further
+ded approximately every 10min. There were drastic changes decreasing to −1.1V vs. RHE. The FT EXAFS fitting results
+taking place in the sample at the very beginning when the (Fig.3d,SupplementaryFigs.5,6andTable1)indicatedthatthe
+potential was altered. Every spectrum was measured twice after coordination number of the first Cu–O/N shell gradually
+thepotentialwaskeptconstantfor30min.XANESandderivative decreased from 3.4 to 2.0 along with decreasing potential from
+of XANES spectra under the altered potential were plotted in OC to −1.4V vs. RHE. In addition, the average Cu–O/N bond
+Fig.3aandSupplementaryFig.13.TheoxidationstateofCuwas lengthslightlydecreased.ThecoordinationnumberoftheCu–Cu
+estimated by comparing the energy position of the absorption bond increased to 2.7 with a bond length of 2.53Å, slightly
+edge. It could be clearly seen that XANES dramatically changed shorter than that in Cu foil. The FT-EXAFS analyses are in
+with the decreased applied potential indicating that this was a agreement with the XANES data. Note that at −1.1V vs. RHE
+potential-dependent process. The gradual shift of the absorption with the maximum FE of ethanol, the metallic Cu–Cu coordi-
+edgetolowenergysiderevealedafalloftheCuvalencestate.An nation number was 2.0 and the CN of the Cu–O/N dropped
+obvious critical potential at −0.8V vs. RHE could be identified. down to 2.3 concurrently.
+The valence state of copper remained between +1.0 and +2.0 The transformation from CuO to Cu0 studied by operando
+x
+above this potential. Notably, there was a crude transfer to +1.0 XAS during electrochemical CO RR have been widely
+2
+atthiscriticalpotential.Below−0.8Vvs.RHE,Cuionsgradually reported30–32. However, Cu–Cu coordination number, extracted
+get more deoxidized. Especially, the position of absorption edge from EXAFS data fitting was usually larger than 8 with the
+was in the middle of Cu foil and Cu O when the potential was disappearance of Cu–O bond, indicating that Cu nanoparticles
+2
+below −1.1V, illustrating that the copper ions were nearly in formed with average sizes more than 1nm33. In this work,
+averaged valence state of about +0.5. The changes of the atomic operando XANES spectra revealed that Cu/N C would not
+0.14
+localstructurearoundcopperionsduringCO RRwerecaptured transfer to Cu0 totally and FT-EXAFS spectra showed Cu–N/O
+2
+byFT-EXAFS,asshowninFig.3b.Wavelettransformsforthek3- bond becoming steady with CN of 2.0. The stability of Cu–N
+weighted Cu K-edge EXAFS signals at OC, −1.1 and −1.4V vs. coordination has been proved during electrochemical CO RR34.
+2
+RHE were plot in Fig. 3c. Under open-circuit condition, These results suggested CuO clusters have almost reduced,
+4 NATURECOMMUNICATIONS| (2022) 13:1322 |https://doi.org/10.1038/s41467-022-29035-8|www.nature.com/naturecommunications
+
+
+===== PAGE 5 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29035-8
+Fig.3OperandoXAFScharacterizationofCu/N C.aCuK-edgeoperandoXANESofCu/N CfromOCto−1.4Vvs.RHEin0.1MKHCO bOperando
+0.14 0.14 3.
+FT-EXAFSofCu/N C.cWavelettransformsforthek3-weightedCuK-edgeEXAFSsignalsatOC,−1.1Vand−1.4Vvs.RHEduringtheCO RR.dThe
+0.14 2
+relationshipofCu/N Cabsorptionedge,CNoffirstshell,CNofsecondshellandthepotential.eOperandoFT-EXAFSofCu/N Caftertheapplied
+0.14 0.14
+potentialwasswitchedoffandotherconditionsremainedunchanged.fProposedschemeforthereversibleformationofthecatalyticallyactiveCu –CuN
+n 3
+clusterbasedonoperandoXASandQuasi-in-situXPSanalysis(rufous,O;gray,C;purple,N;blue,CubondtobothNandCu;green,CujustbondtoCu).All
+potentialsarenormalizedtoRHE.
+leaving only Cu–N bond of the CuN . XAFS is the technique We further integrated two evidence to prove the formation of
+x
+measuring average values over all Cu species. Therefore, the theCu moietyratherthanmetalparticles.Firstly,wefoundthat
+3
+fitting coordination number of Cu–N (CN=2.0 at −1.4V vs. thepotential-dependenttransformationwasreversibleandinsitu
+RHE)waslowerthanthecoordinationnumberofthetrueactive generated Cu species were highly unstable and could be easily
+sites since a large part of Cu atoms bond to another Cu atoms oxidized in the absence of the applied potential. As shown in
+(Cu–Cu CN>2). On the other hand, considering that a definite Fig. 3e and Supplementary Fig. 14, an operando XAS was
+Cu–Ncoordination-unsaturatedstructure(CN<4)existedinCu/ performedonthissampleaftertheappliedpotentialwasswitched
+N C,wesuggestedthatCu–NCNoftheremainingCuN is3, off and other conditions remained unchanged. It could be
+0.14 x
+x=3. Moreover, EXAFS fitting results also indicated the Cu obviously seen that Cu–O/N bond increased, with Cu–Cu bond
+coordination shell switched from Cu–O to Cu–Cu with an disappeared concurrently, indicating that the coordination
+unusuallowcoordinationnumberof2.0at−1.1Vvs.RHE,with environment reversed from Cu–Cu shell to Cu–O/N shell.
+themaximumFEofethanol.Therearetwopossiblestructuresof Notably,theCu–O/Nbondwasstilllowerthanthatoftheinitial
+theinsitugeneratedCuspeciesofCu/N C,accordingwiththe fully activated sample. At last, the KHCO solution was poured
+0.14 3
+Cu–Cu CN of 2.0. One is that the formation of ultrasmall Cu out and the catalystwasin airatmosphere, and ex-situ XASwas
+moiety, Cu , where n = 335, whilethe other one isa mixture of performedonthissample.Itsspectralshapewasidenticaltothat
+n
+CuN sites and Cu metal particles. of the initial fully activated sample, as shown in Supplementary
+3
+NATURECOMMUNICATIONS| (2022) 13:1322 |https://doi.org/10.1038/s41467-022-29035-8|www.nature.com/naturecommunications 5
+
+
+===== PAGE 6 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29035-8
+Fig.4ComplementaryOperandospectracharacterizations,XANESsimulationandDFTcalculations.aQuasi-in-situXPSoftheCu2p3/2forCu/
+N C.bQuasi-in-situAESoftheCuL3M45M45forCu/N C.cComparisonbetweentheCuK-edgeXANESexperimentalspectra(redline)andthe
+0.14 0.14
+theoreticalspectra(blackline)calculatedwiththeCu -CuN cluster.dOperandoSR-FTIRofCu/N C.ElectrondensitydifferenceplotoftheeCu –CuN
+2 3 0.14 2 3
+cluster,fCu –CuN cluster.Blueandyellowrepresentedtheelectronaccumulationanddeletion,respectively.Theballsingray,purple,blueandwhite
+3 3
+representedC,N,Cu,andHatoms,respectively.AllpotentialswerenormalizedtoRHE.
+Fig. 15, suggesting the Cu species remained to be oxidized and toCu2+ andCu + /Cu[026,27.Thepeakat934.6eVdisappearedat
+dispersedintheair.ThisresultagreedwellwithHAADF–STEM the−1.1Vvs.RHE,whichindicatedtheCu2+ wasreducedduring
+results after CO RR electrolysis in Supplementary Fig. 11. The the CO RR process. The peaks around 932eV still remained. To
+2 2
+conversionprocessoftheCu/N CcatalystwasshowninFig.3f. verifythevalenceoftheCu,AESwasemployedtodistinguishCu
+0.14
+Ontheotherhand,wepreformedoperandoXASontheCu/Cin + /Cu0 species. The peaks around 916.5eV showed a little shift
+SupplementaryFig.16.TheXANESandFT-EXAFSofCu/Cwere indicatingthatthesamplewouldretainthe valence at+1 during
+mostly unchanged, verifying the Cu metal particles were very the CO RR process36,37. The XPS detected the valence state
+2
+stable and could not be easily oxidized. Therefore, we could rule informationwithdepthsensitivityof1–10nm38.Therefore,there
+out the existence of Cu metal particles possibility. are no Cu metal particles existing under the electrochemical
+Secondly, we carried out Quasi-in situ x-ray photoelectron conditions. Notably, the Cu AES shifted to the higher kinetic
+spectroscopy (XPS) and Auger electron spectroscopy (AES) energy with the potential reduced, indicating fewer electrons on
+analysis to prove the valence of Cu species of Cu/N 0.14 C remain averageCuweretransferredtothenitrogen-dopedcarbonsupport
+at+1 without Cu0 underthe altered potential. The Quasi-insitu ofthe−1.2Vvs.RHE.Thecatalysiselectronconfigurationwould
+XPS and AES results were shown in Fig. 4a, b. The Cu/N 0.14 C obviously affect the adsorption of the non-polar molecule, which
+showedtwopeaksat934.6eVand932.2eV,whichcorresponded played an important role during the reduction process39,40.
+6 NATURECOMMUNICATIONS| (2022) 13:1322 |https://doi.org/10.1038/s41467-022-29035-8|www.nature.com/naturecommunications
+
+
+===== PAGE 7 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29035-8
+Probably, the ethanol productivity declined at −1.2V vs. RHE, InordertoverifythatCu –CuN clustersin-situgeneratedare
+2 3
+because the larger cluster could lead to the Cu0 electron trulymetastablecatalystandthepotential-dependentreversibility
+configuration increasing32,41. Interestingly, the Quasi-in situ XPS wasrealchemicalreaction,thefreeze-quenchapproachwasused
+oftheCu/CshoweddifferentchangesduringtheCO RRprocess, to freeze the redox state and local structure of the catalyst and
+2
+asshowninSupplementaryFig.17.ThebindingenergyoftheCu measured XAFS data at liquid helium temperatures (18K), as
+2p peak for the pristine Cu/C was at 932.9eV and the kinetic showninSupplementaryFig.25a.TheX-rayedgeenergyaswell
+3/2
+energyL3M45M45peakslocatedat916.4eVcorrespondtotheCu as the spectral shape of the freeze-quench and operando spectra
++ species37,42, which may be due to the surface oxidation during do not differ significantly in Supplementary Fig. 25b–d. This
+exposingtoair.TheXPSalteredcompletelyafterCO RRprocess
+comparisonverifiedthatthefreeze-quenchandoperandomethod
+2
+at−1.1Vvs.RHE.ThebindingenergyofCu2p 3/2 peaklocatedat access the same electrochemical state of the Cu/N 0.14 C (same
+932.7eV and the kinetic energy L3M45M45 peak located at oxidation state and local structure). The spectra which were
+918.5eV corresponding to Cu0 36,43, indicating that catalysts measured for three times could be perfectly overlapped in
+wouldnotbeoxidizedinthetransferprocess.Therefore,theCu/C
+SupplementaryFig.25e–g.TheseresultsindicatedthatCu
+2
+–CuN
+3
+withoutN-dopinghadaCu0electronconfigurationwithhighH clusters oxidized without the applied potential was the chemical
+productivityandlessmulti-carbonproductivity.Thesedataagreed 2 reaction and Cu 2 –CuN 3 clusters in-situ generated material were
+well with the XAFS results, identifying a strong relationship truly metastable catalysts.
+between the structure of the catalysis and selectivity of multi- Overall, Operando XAS study revealed that a transformation
+carbonproducts formation. from Cu/N 0.14 C to unique ultrasmall Cu n moiety and presented
+Hence,wecanconsequentlyconcludethattheCu–Cubondof the structure-activity relationships of this catalyst, indicating the
+theoperando spectroscopywas fromin-situgenerated ultrasmall in-situ generated Cu 2 –CuN 3 cluster is the optimal site for CO 2
+Cu moieties, Cu , under the electrochemical conditions, where reduction to ethanol.
+n
+n=3 at −1.1V vs. RHE. Three Cu atoms chemically bonded to To further reveal the key adsorbed intermediates in the
+eachotherwiththeCu–Cucoordinationnumberof2andoneCu catalyticreaction,wecarriedoutSynchrotronradiationoperando
+atom bonded to three graphite-like N, forming the Cu –CuN Fourier-transform infrared spectroscopy (SR-FTIRS). No
+2 3
+moiety,asshowninFig.3f.SuchCu moietieswhicharesimilar obvious absorption band was observed on scanning the applied
+tocopperclusters44havegeometricsh 3 apesofequilateraltriangles, potential ranging from −0.1V to −0.7V vs. RHE (Fig. 4d).
+and anchored on the N-doped carbon nanosheets support. The Interestingly, distinct vibration features were observed at
+Cu–Nbondsplayanimportantroletodisperseandanchoredthe 1450cm −1 when applied potentials were lower than −0.7V vs.
+Cu moiety uniformly. Moreover, the coordination number of RHE, which could be assigned to the antisymmetric methyl
+Cu– 3 Cuincreasedto2.6withthepotentialdecreasedto−1.2Vvs. groupsvibrationofCH
+3
+*45,46,animportantintermediateforC
+2
+RHE,suggestingtheCu appearedwithtetrahedronconfiguration formation rates. Furthermore, when the applied potential was
+of the Cu -CuN moiet 4 y and the ethanol productivity declined below −1.1V vs. RHE, two new bands at ~ 1780cm −1 and
+accordingl 3 y. Not 3 ably, the in-situ generated Cu –CuN cluster 1920cm −1 could be ascribed to the surface-bound C=O
+n 3
+can’texistwithouttheappliedpotential.Furthermore,oneCH * species12,47 and electrogenerated CO bound to copper
+was adsorbed to one Cu atom according to operando FTIR 3 S surface12,48 suggesting H* radicals were consumed by other
+results in the next discussion. Therefore, there are the other two products at −1.2V vs. RHE, which was consistent with the
+oxygenatomswhichwereadsorbedtoanotherCuatom,because electrochemicalresults(Fig.2c).TheFEoftheethanolreacheda
+oftheaverageCu–N/Ocoordinationnumber~2.Theclusterwas high point at −1.1V vs. RHE and then decreased obviously at
+shown in Supplementary Fig. 18. The theoretical XANES lower potential to accompany the hydrogen rate increased. The
+spectrum was also calculated to confirm that it was the active FEofethanolreversedat−1.2Vvs.RHEmaybeduetotheCu
+site based on convolution results for every considered model clusterenlargingthatleadtothecompetingreactionofHERand
+aroundeachCuatom.Itcouldbefoundthatthesimulatedresult CO 2 RR hydrogenation to CH 4 enhancing, which blocked the
+for this model could reproduce the main features of the CO 2 to ethanol41,49. These FTIRS analysis showed uniformity
+experimental XANES at −1.1V vs. RHE well in Fig. 4c. Two with operando XAS and XPS results. On the other hand, the
+oxygen atoms may be from the adsorbed groups, such as OH*, infrared bands for CH 3 * over the Cu/C catalyst were not
+OCHO*(or CO ), as shown in Supplementary Fig. 19a, c. The observed even after applying potential at −1.2V vs. RHE in
+2
+experimental spectra were both properly reproduced in Supple- Supplementary Fig. 26. The intensities were much lower than
+mentary Fig. 19b, d. The simulated spectra were similar to the thoseovertheCu/N 0.14 C.Theseresultswereconsistentwiththe
+spectrum that was calculated without the adsorbed groups. A lowC 2+formationratesoftheCu/Ccatalyst,furtherconfirming
+slight change in the structure of the 2nd shell does not the unique structure of Cu/N 0.14 C under the electrochemical
+significantly affect the simulated XAFS spectrum, especially for condition. Therefore, FTIR results provided experimental
+the H atom. On the other hand, the XANES spectra of the evidencefortheconversionofCO 2 -to-ethanolreactionmechan-
+*
+references with different local structures were used to compare ism and demonstrated that CH 3 was the major intermediates
+with XANES of the Cu/N C at −1.1V vs. RHE and rule out covered the catalysis. To further investigate the property of the
+0.14
+Cu–N site, Cu–N site with trigonal planar geometry, Cu–N adsorption species, the isotope labelling operando FTIR was
+2 3 4
+sites(includingtetrahedralgeometry,squareplanargeometryand measured under the reaction condition, as shown in Supple-
+C in u S – u N p 3 p w le i m th en C t H ar 3 y *) F a ig n s d . 2 d 0 if – fe 2 r 3 e . n W ts e iz a e l s so Cu tr n ie a d no li p n a e r a t r ic c le o s m a b s i s n h a o ti w o n n m th e e n p ta ea ry k F sh ig if . te 2 d 7. t W o 1 it 1 h 90 H c 2 m O − r 1 ep o l b a v c i e o d us b l y y i D n 2 d O ica i t n in t g he th e a l t ec it tr c o o ly u t l e d ,
+fitting (LCF) of XANES of Cu NPs with different sizes and be assigned to the vibration of hydrogen group (CD 3 *). This
+various Cu–N sites, as shown in Supplementary Fig. 24. We result was consistent with previous speculate. Therefore, the
+4
+could not obtain a fitting spectrum which was matched with FTIR results suggested that the adsorption of CO 2 was the rate-
+operando XANES at −1.1V vs. RHE. The main features of LCF determiningstepafterCH 3 * formed.Itmaybehighlyaffectedby
+result were notable different from that of operando XANES. mass transfer process. The results are consistent with previous
+Therefore,thepossibilityofcombiningforCuNPswithdifferent reports whereby the selectivity of C 2+ products formation
+sizes and various Cu–N 4 sites could be excluded. increased with the density of CO 2 50,51.
+NATURECOMMUNICATIONS| (2022) 13:1322 |https://doi.org/10.1038/s41467-022-29035-8|www.nature.com/naturecommunications 7
+
+
+===== PAGE 8 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29035-8
+Density functional theory calculations. Theoretical investiga- bondformationtoCH CH OH.Similarreactionprocessesbased
+3 2
+tions were conducted based on DFT calculations to further on *OCHO mechanism were considered for Cu –CuN , as well
+3 3
+understand the reaction mechanism of the Cu –CuN cluster asCuN andCu–CuN whichcontainedonlyoneactiveCusite,
+2 3 3 3
+withCH * adsorbed.AsupportedCu –CuN clustermodelwith as shownin Supplementary Fig. 29.Thecalculated overpotential
+3 2 3
+aCubondingwiththreeNatomsonN-dopedcarbonnanosheets (−0.501V) for Cu –CuN cluster was much lower than that of
+2 3
+was proposed to be the structure of active sites with an applied CuN (−1.685V), Cu–CuN (−1.368V) and Cu –CuN
+3 3 3 3
+potential of −1.1V vs. RHE in Supplementary Fig. 28a. For (−0.699V), implied that the Cu –CuN observed by operando
+2 3
+comparison, we built a model of Cu –CuN cluster in Supple- XAS is the real active site for reduction of CO to ethanol, as
+3 3 2
+mentaryFig.28bthatrepresentforthegrowthofCuclustersand shown in Supplementary Fig. 30. Furthermore, there were
+maybetheactivesiteforthemorenegativeappliedpotential.The relatively high energy barriers for State 8→9 (−0.501eV) and
+calculated average partial charge of three copper atoms in the State11→12(−0.467eV) inthereactionprocessofCu –CuN ,
+2 3
+Cu -CuN cluster was +0.20 e − because of the charge transfer both of which containing –CH and easy to be detected in
+2 3 3
+betweentheclusterandN-dopedcarbonnanosheets.Thecharge accordance with our FTIR results.
+exchange primarily occurred with the Cu atom bonding with N The hydrogen evolution reaction is a competing reaction with
+atoms. The other two Cu atoms changed slightly before the CO RR53,54. Therefore, the competing relationship between
+2
+reaction occurred, which profited from the absorption of C CO RR and HER should be considered. The adsorption energy
+2
+atoms. Thiswas similar to theCu –CuN cluster. The difference was calculated to further investigate the difference between
+3 3
+was that the average partial charge was +0.15e − . Interestingly, Cu –CuN andCu –CuN .TheadsorptionenergyofH*showed
+2 3 3 3
+thechargedistributionbetweenCuatomswascharge-asymmetry that the Cu –CuN model (−0.36eV) had a much lower energy
+3 3
+as shown in Fig. 4e f. The major charge transfer occurred at than the Cu –CuN model (+0.15eV). The CO adsorption
+2 3 2
+Cu–N site.TheN-dopingplayedanimportantroletoadjustthe energyforCu –CuN andCu –CuN hasbeencalculatedandthe
+3 2 3 3 3
+electron transfer and further charge distribution between the Cu result shown that the adsorption energy of CO for Cu –CuN
+2 2 3
+atoms and N-doped carbon interface. and Cu –CuN are +0.24eV and +0.18eV, respectively,
+3 3
+Theoretical investigations were conducted based on DFT implyingtheadsorptioncapacitiesforCu –CuN andCu –CuN
+2 3 3 3
+calculations to further understand the reaction mechanism of are close. However, the corresponding adsorption energy is
+the Cu–N with triangle pyramid geometry, Cu–CuN , +0.15eV (Cu –CuN ) and −0.36eV (Cu –CuN ), respectively,
+3 3 2 3 3 3
+Cu –CuN , and Cu –CuN in Supplementary Fig. 20c, f, g, h. indicatingtheadsorptioncapacitiesofHforCu –CuN aremuch
+2 3 3 3 3 3
+The supported CuN , Cu–CuN , Cu –CuN and Cu –CuN stronger than that for Cu –CuN . These results shown the
+3 3 2 3 3 3 2 3
+models with a Cu bonding with three N atoms on N-doped adsorption processes of both CO and H at the Cu –CuN are
+2 2 3
+carbon nanosheets which were proposed to be the structure of non-spontaneous processes. On the contrary, for Cu –CuN , the
+3 3
+active sites with the applied potential and represents the growth adsorptionoftheHisspontaneousprocess,whiletheadsorption
+of Cu clusters that may be the active site for the formation of of CO is still non-spontaneous process, illustrating the H
+2
+ethanol according the results of operando XAS analysis. The adsorption is advantage state for the competing reaction.
+reaction pathway of CO RR to CH CH OH for the Cu –CuN Therefore, the larger amounts of H were adsorbed on the
+2 3 2 2 3
+cluster was investigated combined by the computational hydro- Cu –CuN sites, which preempted the adsorption sites of CO
+3 3 2
+gen electrode approach as shown in Fig. 5a, b, Supplementary and reduced the amount of ethanol produced. It corresponded
+Fig. 28, and Supplementary Data 1–1352. The *OCHO mechan- withthecompetingreactionofH andCH increasingwhenthe
+2 4
+ism was preferred for our catalysts than the *CO mechanisms, potential decreased.
+*
+due to the production of CO was suppressed along with the CH
+3
+was the key intermediate for C 2+formation rates and it
+formation ofethanol atthepotentials below−0.8Vas shownin occurred when the potential decreased to −0.6V vs. RHE. This
+Fig. 2b. CO molecules interact with two exposed Cu atoms, result suggested the rate-determining steps (RDS) altered when
+2
+respectively, forming coadsorbed (*OCHO+*OCHO) (State 3). thepotentialatdecreasedto−1.2Vvs.RHE,combiningtheFTIR
+One adsorbed *OCHO was firstly reduced to form *CH +* results in Fig. 4d. To further analysis why RDS changed during
+3
+OCHO (State 9), and then the other *OCHO was reduced to the reaction, the different charge density for Cu -CuN (with/
+2 3
+construct*CH +*OCH (State12),thatwentthroughtheC–C without CH * ) and Cu -CuN (with/without CH * ) was
+3 2 3 3 3 3
+Fig.5DFTcalculationsofCO RRactivity.aReactionprogressofCO toCH CH OHontheCu –CuN at0Vand−0.501Vappliedpotential.The*
+2 2 3 2 2 3
+showedthereactionsite.Thestatewiththehighestenergybarrier(0.501eV)is8→9.Allstatesinvolvingthetransferofthe(H++e−)pairwere
+electrochemicalreactionstates,exceptforthe12→13state(CH *+OCH *→OCH CH *),whichwastheC–Cbondformationandnotinfluencedby
+3 2 2 3
+appliedpotential.bLocalstructuresoftheactivesiteandintermediatestate.Theballsinbrown,blue,red,grayandwhiterepresentCu,N,O,C,andH
+atoms,respectively.
+8 NATURECOMMUNICATIONS| (2022) 13:1322 |https://doi.org/10.1038/s41467-022-29035-8|www.nature.com/naturecommunications
+
+
+===== PAGE 9 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29035-8
+calculatedasshowingintheFig.4e,fandSupplementaryFig.31. anddeionizedwater/ethanol(volumeratio,1:4))toformawell-dispersedcatalyst
+Thechargedensitydifferentialdiagramindicatedthenonbonding ink.Furthermore,wedropped10ulinkontheglassycarbonelectrode.Thecatalyst
+Cu atoms in the Cu –CuN –CH got 0.15e − and the charge loadingisabout0.2mg/cm2.TheAg/AgClelectrodeandplatinumplatewere
+2 3 3 employedasthereferenceelectrodeandcounter,respectively.Thecathodic
+accumulation occurred. These results showed that charge- chamberandanodicchamberwereseparatedbyNafion117membrane.Allthe
+asymmetry effected intensified by CH 3 * adsorption. Due to the potentialwasreportedversusRHE.Theconversionbetweendifferentelectrode
+chargeaccumulation,apolarizationelectricalfieldwaspresented potentialsusedthefollowingformula:E =E +0.197V+0.0591×pH.
+that could modulate the CO reduction reaction and reduce the LSV(thescanrateof10mV·s−1)andC R V HE exper A im g/A e g n C t l s(50mV·s−1)wereimple-
+thermodynamic energy barri 2 er for the reaction55. The electron- mentedtotestthecatalyticperformanceinCO 2 -saturated0.1MKHCO 3 elec-
+trolyte,respectively57.ComparisonofCORRactivitiesfortheothercatalystswere
+rich Cu atoms enhanced the boundary oxygen sites of the showninSupplementaryTable3. 2
+adsorbed CO , which protected the oxygen end from being
+2
+protonatedand occupiedthevalenceelectron ofcarbontoavoid
+the C=C double bond formation56. OperandoXAFSMeasurements.Thecomputer-controlledelectrochemicalana-
+lyzerwasusedtoconductelectrochemicalmeasurements.Thecatalystmodified
+carbonpaper,PtplateandAg/AgCl(KCl-saturated)electrodewereemployedas
+Conclusions. In summary, we systematically investigated a cat- theworkingelectrode,counterelectrodeandreferenceelectrode,respectively.The
+alyst in which CuO clusters are supported on nitrogen-doped
+plexiglasselectrochemicalcellwhichhadtheflatwallwithacircularholeof15mm
+carbonnanosheets(Cu/N C)forefficientCO electroreduction. diameter.wasappliedforoperandoXAFSmeasurements.Cu/N x Ccatalystcoated
+0.14 2 carbonpapercontactedwiththecopperslipandthecatalystlayerfacedinward.
+T
+in
+h
+c
+e
+lud
+ca
+ed
+tal
+a
+y
+n
+st
+e
+s
+th
+d
+a
+e
+n
+li
+o
+v
+l
+e
+F
+re
+E
+d
+of
+h
+5
+ig
+1
+h
+%
+C
+at
+2+
+the
+pr
+p
+o
+o
+d
+te
+u
+n
+ct
+t
+s
+ial
+F
+o
+E
+f−
+(~
+1
+7
+.1
+3%
+V
+)
+v
+,
+s
+w
+.R
+h
+H
+ic
+E
+h A
+ele
+ft
+c
+e
+t
+r
+r
+w
+oc
+a
+h
+rd
+em
+sw
+ic
+e
+al
+p
+s
+o
+ta
+u
+t
+r
+i
+e
+o
+d
+n
+K
+w
+H
+ith
+CO
+th 3 e
+s
+c
+o
+o
+lu
+p
+t
+p
+io
+er
+n
+t
+i
+a
+n
+p
+t
+e
+o
+.
+t
+T
+h
+h
+e
+e
+c
+o
+e
+r
+ll
+ga
+w
+n
+h
+ic
+ich
+gla
+w
+ss
+as
+u
+c
+p
+o
+p
+n
+e
+n
+r
+e
+c
+c
+o
+t
+v
+e
+e
+d
+r
+t
+o
+o
+f
+t
+t
+h
+h
+e
+e
+and the current density of −14.4mA/cm −2 in 0.1M KHCO cellwiththeAg/AgClreferenceelectrodewasusedtofixthedistancebetween
+3 referenceelectrodeandworkingelectrodefromstarttofinish57.OperandoXAFS
+electrolyte. Operando XAS and XPS results revealed a potential- dataweremeasuredwithfluorescencemodeusingtheAr-filledLytledetector.
+dependent structure transformation from CuO cluster to
+Cu –CuN moiety,whichisareversibleprocess.OnceCu –CuN
+n 3 2 3
+clusters have been formed at −1.1V, CO conversion to ethanol OperandoSR-FTIRMeasurements.OperandoSR-FTIRmeasurementswere
+2
+occurswiththemaximumFE,indicatingtheCu -CuN clusteris conductedattheinfraredspectroscopyandmicrospectroscopystation(BL01B)of
+2 3 NationalSynchrotronRadiationLaboratory(NSRL)58.TheCHI660Eelectro-
+the optimal site. The N-doping played an important role to dis-
+chemicalworkstation(ShanghaiChenhua,China)wasusedtoapplyvoltagetoa
+perse the reduced Cu
+n
+cluster uniformly and adjust charge dis- self-madeinfraredreflectioncell.Theinfraredspectrumswerecollectedusing
+tributionbetweenmetalatomsandsubstrate.OperandoFTIRand BrukerVertex70V/sFTIRspectrometerwithnitrogencooledmercurycadmium
+theoretic calculations results demonstrated that CH * was the telluridedetector,andthesynchrotronradiationinfraredbeamwasfocusedonthe
+major intermediates and Cu –CuN clusters wer
+3
+e charge-
+reflectioncellusingBrukerHyperion3000microscopeequippedwitha×15
+2 3 objective.Inthemeasurements,thegapbetweentheworkingelectrodeandthe
+asymmetric sites that are intensified by CH 3 * adsorbing. The ZnSewindowwascarefullymaintainedontheorderofmicronstoprevent
+charge-asymmetric sites are responsible for the outstanding excessivewaterabsorption.Allspectrumswerecollectedusingsingle-potential
+asymmetry ethanol formation. Overall, our findings suggest a alterationFTIRspectroscopyandwereacquiredbyaveraging128timesscanwitha
+4cm–1resolution,andthebackgroundspectrumswasconductedunderopen-
+strategy engineering the pre-catalysts to modulate the electron circuitvoltage,thevoltagerangesforconductingmeasurementswere0Vto–1.2V
+transfer and in-situ generate ultrasmall metal clusters anchored withanintervalof0.1V.
+onthesubstrateashighdispersionasymmetricsites,whichisthe
+key factor to facilitate the formation of asymmetric products. It
+wouldextendtothesingle-atomicsite,oxidecompositestructure,
+Quasi-insituXPSandAES.Quasi-insituX-rayphotoelectronspectroscopywas
+conductedofcatalystsdrop-castedoncarbonpaperassameasmentionedin
+and metal-support effect. These catalysts have great potential to
+Electrodessection.BeforetesttheelectrolytesshouldbeCO-saturatedtoremove
+exhibit novel catalytic properties such as more efficient catalytic thedissolvedoxygeninthesolution.Sampleswerecondition 2 edatdifferent
+performance and higher selectivity compared to the single atom potentialfor30minasoneconditioningstep.Afterthatthesampleswasmovedto
+catalysts and oxide catalysts. theXPSvacuumchamberwithoutextraexposedtotheair.Thatwouldavoidthe
+airtoinfluencethecatalyststokeeptheauthenticstateundertheCORRprocess.
+2
+XPS(ESCALAB250X)wasmeasuredatAnalyticalInstrumentationCenter,
+Methods ShanghaiTechUniversity.Itwasusedtocharacterizethechemicalbonding
+PreparationofCu/N
+x
+Candthecomparisonsamples.Typically,100mgcopper characteroftheobtainedcatalystsusingamonochromaticof1486.6eV(AlKα
+phthalocyanineand1.0gdicyandiamidewerecontinuouslymixedinethanoland source).AllXPSspectrawerecorrectedbyC1speakwiththebindingenergyat
+entirelydried.Subsequently,thedriedmixturewaspyrolyzedfor2hintheN
+284.6eV.Allofthereagentswereusedwithoutfurtherpurification.
+2
+atmosphereatdifferenttemperaturetoobtainaseriesofCu/NCsampleswith
+x
+differentnitrogencontent(x=0.14,0.11,0.02,correspondingpyrolysistempera-
+tureat800°C,900°C,1000°C,respectively.xismasscontentratioofnitrogento Freeze-quenchXAS.TheCu/N 0.14 Cwaselectrodepositedonacarbonpaper
+carbon).Collectobtainedblackpowderafterpyrolysisanddirectlyusedforfurther electrode,whichwasanintegralpartoftheXASsampleholder.TheCu/N 0.14 Cwas
+characterizationsandcatalyticperformancetest.Cu/Cwaspreparedwithcopper equilibratedpotentiostaticallyfor20minat−1.1Vvs.RHE.TheCu/N 0.14 C
+chlorideandtrimesicacid.Thepyrolysistemperaturewas800°Candother electrodewasrapidlyfrozenbyimmersioninliquidnitrogen.Thechemical
+synthesisconditionswerethesameasabove. reactionisextremelyslowatlowtemperatureenvironmentandthechemicalstate
+ofthecatalystwaswellpreservedforXAFSdatacollectionperiods.X-ray
+absorptionspectraattheCuK-edgewerecollectedatbeamlineBL14W1ofthe
+Characterization.TEMimageswerecarriedoutbytheJEOLJEM-2100Fmicro- SSRFusingaLytledetectorwiththeNifilter.Themeasurementswereperformedat
+scope(200kV).AFMwasobtainedonSPM-960AFM.Typically,smallamountof 18Kusingacryostat(ARS).Theexcitationenergies(scanrange8779–9779eV)
+samplewasultrasonicallydispersedintheaqueoussolution.ForAFMmeasure-
+wereselectedbyaSi(111)double-crystalmonochromator.
+ment,10μLofthecompletelydispersedsolutionwascarefullydroppedonaflat
+micasheet,andthenplaceditinafumehoodtoairdry.ForTEM,10μLofthe
+dispersedsolutionpreparedabovewasdroppedonacoppermeshwithcarbon
+supportfilm.EDSelementalmappingandHAADF-STEMwerecharacterizedbya
+Computationalmethods.DFTcalculationswereperformedwithintheframeof
+plane-wave-baseddensityfunctionaltheory(DFT)byVASPpackage.Thegen-
+JEOLARM-200microscope(200kV)withaprobesphericalaberrationcorrector. eralizedgradientapproximation(GGA)inthePerdew−Burke−Ernzerhof(PBE)
+X-raypowderdiffraction(XRD)spectrawereobservedbyRigakuTTR-IIIXRDof
+CuKαradiation(λ=1.5418Å).XPSspectrawereacquiredonaPerkinElmer formalismwasadoptedtotreattheelectronexchangeandcorrelationenergy.The
+cut-offenergywassettobe500eV.Forstructuraloptimization,3×3×2k-points
+PhysicsPHI5300spectrometer57.
+mesheswithatheoriginalMonkhorst-Packschemewasusedandtheconvergence
+ofenergyandforcewere10−6eVand0.01eVÅ−1,respectively.6×6×4k-points
+Electrochemicalmeasurements.Electrochemicalmeasurementswereaccom- mesheswereusedforstaticcalculations.A20Åvacuumlayerinthez-axis
+plishedinagas-tightH-typecellatCHI760Eelectrochemicalworkstation directionwasaddedtoavoidtheinterfereofthelayerimagecouplingcausedbythe
+(ShanghaiChenhua,China).Forpreparationoftheworkingelectrode,2mgofthe periodicboundaryconditions59.Formoredetails,pleaseseeSupplementary
+catalystwasdissolvedin500μlsolution(including10μlNafionsolution(5wt%) Figs.20, 28, 29, 31andSupplementaryDatafile1–13.
+NATURECOMMUNICATIONS| (2022) 13:1322 |https://doi.org/10.1038/s41467-022-29035-8|www.nature.com/naturecommunications 9
+
+
+===== PAGE 10 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29035-8
+Data availability 26. Ghodselahi,T.,Vesaghi,M.A.,Shafiekhani,A.,Baghizadeh,A.&Lameii,M.
+Thedatasupportingthefindingsofthisworkareavailablewithinthearticleandits XPSstudyoftheCu@Cu
+2
+Ocore-shellnanoparticles.Appl.Surf.Sci.255,
+SupplementaryInformationfiles.TheDFTdataforclusterandreactionpathwayascif 2730–2734(2008).
+filesareprovidedasaSupplementaryDatafile1–13.Allthedatareportedinthiswork 27. Espino´s,J.P.,Morales,J.,Barranco,A.,Caballero,A.,Holgado,J.P.&Gonza
+areavailablefromtheauthorsonreasonablerequest.Sourcedataareprovidedwith ´lez-Elipe,A.R.InterfaceeffectsforCu,CuO,andCu 2 OdepositedonSiO 2 and
+thispaper. ZrO 2 .XPSdeterminationofthevalencestateofcopperinCu/SiO 2 andCu/ZrO 2
+catalysts.J.Phys.Chem.B106,6921–6929(2002).
+28. Wang,X.etal.TheoreticalcharacterizationofX-rayabsorption,emission,and
+Received: 10November 2020; Accepted: 23February 2022;
+photoelectronspectraofnitrogendopedalonggrapheneedges.J.Phys.Chem.
+A117,579–589(2013).
+29. Li,X.etal.ExclusiveNi-N sitesrealizenear-unityCOselectivityfor
+4
+electrochemicalCO reduction.J.Am.Chem.Soc.139,14889–14892(2017).
+2
+30. Eilert,A.,Roberts,F.S.,Friebel,D.&Nilsson,A.Formationofcopper
+catalystsforCO reductionwithhighethylene/methaneproductratio
+References investigatedwith 2 insituX-rayabsorptionspectroscopy.J.Phys.Chem.Lett.7,
+1. Zhang,W.etal.ProgressandperspectiveofelectrocatalyticCO
+2
+reductionfor 1466–1470(2016).
+renewablecarbonaceousfuelsandchemicals.Adv.Sci.5,1700275(2018). 31. Mistry,H.etal.Highlyselectiveplasma-activatedcoppercatalystsforcarbon
+2. Zheng,Y.etal.Understandingtheroadmapforelectrochemicalreductionof dioxidereductiontoethylene.Nat.Commun.7,12123(2016).
+J C . O A 2 m t . o C m h u em lti . -c S a o r c b . o 1 n 41 o , xy 7 g 6 e 4 n 6 a – t 7 e 6 s 5 a 9 nd (2 h 0 y 1 d 9 r ) o . carbonsoncopper-basedcatalysts. 32. e Ju n n h g a , n H cin . g et s a e l l . ec E t l i e v c e tr C o - c C he c m ou ic p a l l in f g ra f g r m om en C ta O tion re o d f u C ct u io 2 n O r n ea a c n t o io p n a . rt J i . c A le m s .Chem.
+2
+3. Popovic,S.etal.Stabilityanddegradationmechanismsofcopper-based Soc.141,4624–4633(2019).
+c 1 a 4 t 7 a 3 ly 6 s – t 1 s 4 f 7 o 4 r 6 el ( e 2 c 0 t 2 ro 0 c ) h . emicalCO 2 reduction.Angew.Chem.Int.Ed.59, 33. M the ol e le v r o , lu T t . io e n ta o l. f E ch le e c m tr i o c c a a l ta st ly at t e ic ,g C e O om 2 r e e tr d i u c c s t t i r o u n ct o u n re C , u an O d x c n a a t n a o ly c t u ic be s s el t e r c a t c iv k i i t n y g
+4. Yang,K.D.etal.Morphology-directedselectiveproductionofethyleneorethane usingoperandospectroscopy.Angew.Chem.Inter.Ed.59,17974–17983
+fromCO 2 onaCumesoporeelectrode.Angew.Chem.Int.Ed.56,796–800(2017). (2020).
+5. Kim,D.,Kley,C.S.,Li,Y.&Yang,P.Coppernanoparticleensemblesfor 34. Wang,X.,Yang,D.,Zuo,S.,Yang,H.&Zhou,Y.Freestandingmillimeter-
+s 1 e 1 l 4 ec , t 1 iv 0 e 56 e 0 le – c 1 tr 0 o 5 r 6 e 5 du (2 ct 0 i 1 o 7 n ). ofCO 2 toC 2 -C 3 products.Proc.NatlAcad.Sci.USA e sc le a c le tro p c o a r t p a h ly y s r i i s n . - A ba n s g e e d w. m C o h n e o m at . o I m nt i e c r. la E y d e . rs 59 w , it 1 h 89 0 5 .2 4 8 –1 n 8 m 95 t 9 hi ( c 2 k 0 n 2 e 0 s ) s .. forCO 2
+6. Chatterjee,T.,Boutin,E.&Robert,M.ManifestofortheroutineuseofNMR 35. Matos,J.etal.Insitucoarseningstudyofinversemicelle-preparedPt
+f c o h r em th i e ca li l q s u h id ift p d ro a d ta uc to ta f n o a r l m ys a i l s d o e f h a y q d u e e q o u u a s n C ti O fic 2 a r t e io d n uc i t n io w n: a f t r e o r m .D c a o l m ton pr T eh . e 4 n 9 s , ive n ef a f n ec o t p s. ar P t h ic y l s e . s C su h p em po . r C te h d em on .P g h a y m s. m 1 a 4 - , A 1 l 1 2 O 45 3 7 : – p 1 r 1 et 4 r 6 e 7 at ( m 20 en 12 t ) a . ndenvironmental
+4257–4265(2020). 36. Seah,M.P.,Smith,G.C.&Anthony,M.T.AES—energycalibrationof
+7. Resasco,J.etal.Promotereffectsofalkalimetalcationsontheelectrochemical electronspectrometers.I—anabsolute,traceableenergycalibrationandthe
+reductionofcarbondioxide.J.Am.Chem.Soc.139,11277–11287(2017). provisionofatomicreferencelineenergies.Surf.Inter.Analy.15,293–308
+8. Schouten,K.J.,Qin,Z.,PerezGallent,E.&Koper,M.T.Twopathwaysforthe (1990).
+formationofethyleneinCOreductiononsingle-crystalcopperelectrodes.J. 37. Deroubaix,G.&Marcus,P.X-rayphotoelectronspectroscopyanalysisof
+Am.Chem.Soc.134,9864–9867(2012). copperandzincoxidesandsulphides.Surf.Inter.Anal.18,39–46(1992).
+9. Jiang,K.etal.Effectsofsurfaceroughnessontheelectrochemicalreductionof 38. Hofmann,S.Practicalsurfaceanalysis:stateoftheartandrecent
+CO
+2
+overCu.ACSEnergyLett.5,1206–1214(2020). developmentsinAES,XPS,ISSandSIMS.Surf.Inter.Analy.9,3–20(1986).
+10. Ebaid,M.etal.ProductionofC 2 /C 3 oxygenatesfromplanarcoppernitride- 39. Xue,Z.H.etal.Tuningtheadsorptionenergyofmethanolmoleculesalong
+derivedmesoporouscopperviaelectrochemicalreductionofCO 2 .Chem. Ni-N-dopedcarbonphaseboundariesbytheMott-Schottkyeffectforgas-
+Mater.32,3304–3311(2020). phasemethanoldehydrogenation.Angew.Chem.Int.Ed.57,2697–2701
+11. Wang,Y.etal.CatalystsynthesisunderCO 2 electroreductionfavoursfaceting (2018).
+andpromotesrenewablefuelselectrosynthesis.Nat.Catal.3,98–106(2019). 40. Sun,Z.etal.Simultaneouslyrealizingrapidelectrontransferandmass
+12. Ma,W.etal.ElectrocatalyticreductionofCO
+2
+toethyleneandethanol transportinjellyfish‐likeMott–Schottkynanoreactorsforoxygenreduction
+throughhydrogen-assistedC–Ccouplingoverfluorine-modifiedcopper.Nat. reaction.Adv.Funct.Mater.30,1910482(2020).
+Catal.3,478–487(2020). 41. Cheng,T.,Xiao,H.&Goddard,W.A.3rdFullatomisticreactionmechanism
+13. Cai,Z.etal.SelectivityregulationofCO 2 electroreductionthroughcontact withkineticsforCOreductiononCu(100)fromabinitiomoleculardynamics
+interfaceengineeringonsuperwettingCunanoarrayelectrodes.NanoRes.12, free-energycalculationsat298K.Proc.NatlAcad.Sci.USA114,1795–1800
+345–349(2018). (2017).
+14. Li,H.etal.ChangingtheproductselectivityforelectrocatalysisofCO 2 reduction 42. Thuler,M.R.,Benbow,R.L.&Hurych,Z.Resonantphoto-andAuger
+reactiononplatedCuelectrodes.ChemCatChem11,6139–6146(2019). emissionatthe3pthresholdofCu,CuO,andCuO.Phys.Rev.B26,669–677
+2
+15. Ma,S.etal.Electroreductionofcarbondioxidetohydrocarbonsusing (1982).
+bimetallicCu–PdcatalystswithdifferentmixingPatterns.J.Am.Chem.Soc. 43. Cai,J.etal.AnAPXPSendstationforgas–solidandliquid–solidinterface
+139,47–50(2016). studiesatSSRF.Nucl.Sci.Tech.30,81(2019).
+16. Nitopi,S.etal.ProgressandperspectivesofelectrochemicalCO 2 reductionon 44. Sculfort,S.etal.Two-dimensionaltriangularandsquareheterometallic
+copperinaqueouselectrolyte.Chem.Rev.119,7610–7672(2019). clusters:influenceoftheclosed-shelld10electronicconfiguration.Angew.
+17. Zhou,Y.etal.Dopant-inducedelectronlocalizationdrivesCO
+2
+reductionto Chem.Int.Ed.48,9663–9667(2009).
+C 2 hydrocarbons.Nat.Chem.10,974–980(2018). 45. Kruppe,C.M.,Krooswyk,J.D.&Trenary,M.Selectivehydrogenationofacetylene
+18. Liang,Z.Q.etal.Copper-on-nitrideenhancesthestableelectrosynthesisof toethyleneinthepresenceofacarbonaceoussurfacelayeronaPd/Cu(111)single-
+multi-carbonproductsfromCO
+2
+.Nat.Commun.9,3828(2018). atomalloy.ACSCatal.7,8042–8049(2017).
+19. Wang,Y.etal.Reticularchemistryinelectrochemicalcarbondioxide 46. Li,S.-H.,Yang,Z.-X.,Chen,S.-W.,Lee,S.-H.&Lin,J.-L.Comparisonofthe
+reduction.Sci.ChinaMater.63,1113–1141(2020). chemistryofClCHCH(CH)OHandClCHCHCHOHonCu(100)and
+2 3 2 2 2
+20. Reller,C.etal.SelectiveelectroreductionofCO
+2
+towardethyleneonnano O/Cu(100).J.Phys.Chem.C.120,9826–9835(2016).
+dendriticcoppercatalystsathighcurrentdensity.Adv.EnergyMater.7, 47. Wuttig,A.etal.Trackingacommonsurface-boundintermediateduringCO-
+2
+1602114(2017). to-fuelscatalysis.ACSCent.Sci.2,522–528(2016).
+21. Tan,D.etal.Multi-shelledCuOmicroboxesforcarbondioxidereductionto 48. Gunathunge,C.M.,Ovalle,V.J.,Li,Y.,Janik,M.J.&Waegele,M.M.
+ethylene.NanoRes.13,768–774(2020). ExistenceofanelectrochemicallyInertCOpopulationonCuelectrodesin
+22. Karapinar,D.etal.ElectroreductionofCO
+2
+onsingle-sitecopper-nitrogen-doped alkalinepH.ACSCatal.8,7507–7516(2018).
+carbonmaterial:selectiveformationofethanolandreversiblerestructurationof 49. Schouten,K.J.P.,PérezGallent,E.&Koper,M.T.M.TheinfluenceofpHon
+themetalsites.Angew.Chem.Inter.Ed.58,15098–15103(2019). thereductionofCOandCO tohydrocarbonsoncopperelectrodes.J.
+2
+23. Guan,A.etal.BoostingCO
+2
+electroreductiontoCH
+4
+viatuningneighboring Electroanal.Chem.716,53–57(2014).
+single-coppersites.ACSEnergyLett.5,1044–1053(2020). 50. Gao,D.,Arán-Ais,R.M.,Jeon,H.S.&RoldanCuenya,B.Rationalcatalyst
+24. Zhao,K.etal.SelectiveelectroreductionofCO 2 toacetonebysinglecopper andelectrolytedesignforCO2electroreductiontowardsmulticarbon
+atomsanchoredonN-dopedporouscarbon.Nat.Commun.11,2455(2020). products.Nat.Catal.2,198–210(2019).
+25. S u o si n n g g , a Y. co et pp al e . r H n i a g n h o - p se a l r e t c i t c i l v e i / t N y - e d l o ec p t e r d oc g h r e a m ph ic e a n l e co el n e v c e tr r o si d o e n .C of he C m O is 2 tr t y o S e el t e h c a t n 1 o , l 51. F h a ig n h , - L c . o , n X c i e a n , t C ra ., ti Z o h n u p , u P r ., e L f u o , rm Y. ic & a W cid an s g o , lu H ti . o E n l s ec i t n ro a c n he a m ll- i s c o a l l id C - O st 2 at r e ed re u a c c t t io o n r. to
+6055–6061(2016). Nat.Commun.11,3633(2020).
+10 NATURECOMMUNICATIONS| (2022) 13:1322 |https://doi.org/10.1038/s41467-022-29035-8|www.nature.com/naturecommunications
+
+
+===== PAGE 11 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29035-8
+52. Xu,H.etal.HighlyselectiveelectrocatalyticCO reductiontoethanolby Author contributions
+2
+metallicclustersdynamicallyformedfromatomicallydispersedcopper.Nat. Y.W.,D.W.,andW.C.conceivedtheprojectanddesignedtheexperiments.Y.W.and
+Energy5,623–632(2020). X.S.performedtheoperandoXASexperiments,EXAFSdataanalysisandXANES
+53. Yoo,J.S.,Christensen,R.,Vegge,T.,Norskov,J.K.&Studt,F.Theoretical simulations.X.S.,H.L.,andZ.Q.performedtheoperandoSR-FTIRexperimentsanddata
+insightintothetrendsthatguidetheelectrochemicalreductionofcarbon analysis.Z.P.andF.Y.designedQuasi-insituXPSandAESexperiments.X.S.,X.N.,and
+dioxidetoformicacid.ChemSusChem9,358–363(2016). Z.P.performedtheQuasi-insituXPSandAESexperimentsanddataanalysis.Z.J.and
+54. Liu,C.etal.Single-boroncatalystsfornitrogenreductionreaction.J.Am. W.C.conductedmaterialsynthesis.Z.J.,D.Z.,H.S.,andW.C.performedstructural
+Chem.Soc.141,2884–2888(2019). characterization.J.Z.carriedoutDFTcalculations.Y.W.,X.S.W.C.,andZ.J.wrotethe
+55. Liu,M.etal.EnhancedelectrocatalyticCO 2 reductionviafield-induced manuscript.X.S.andY.W.providedinterpretationofmechanism.Allauthorsdiscussed
+reagentconcentration.Nature537,382–386(2016). theresultsandcommentedonthemanuscript.
+56. Lin,S.C.etal.Operandotime-resolvedX-rayabsorptionspectroscopyreveals
+thechemicalnatureenablinghighlyselectiveCO 2 reduction.Nat.Commun. Competing interests
+11,3525(2020).
+Theauthorsdeclarenocompetinginterests.
+57. Jiang,Z.L.etal.DiscoveryofmaingroupsingleSb-N activesitesforCO
+4 2
+electroreductiontoformatewithhighefficiency.EnergyEnviron.Sci.13,
+2856–2863(2020). Additional information
+58. Chen,C.etal.CouplingN
+2
+andCO
+2
+inH
+2
+Otosynthesizeureaunderambient SupplementaryinformationTheonlineversioncontainssupplementarymaterial
+conditions.Nat.Chem.12,717–724(2020).
+availableathttps://doi.org/10.1038/s41467-022-29035-8.
+59. Su,X.Z.etal.OperandospectroscopicidentificationofactivesitesinNiFe
+PrussianBlueanaloguesaselectrocatalysts:activationofoxygenatomsfor CorrespondenceandrequestsformaterialsshouldbeaddressedtoWenxingChenor
+oxygenevolutionreaction.J.Am.Chem.Soc.140,11286–11292(2018).
+YuWang.
+PeerreviewinformationNatureCommunicationsthankstheanonymousreviewersfor
+Acknowledgements
+theircontributiontothepeerreviewofthiswork.
+ThisworkwasfinanciallysupportedbythePhotonScienceCenterforCarbonNeutrality,
+NationalNaturalScienceFoundationofChina(GrantNo.11975301,21801015,and Reprintsandpermissioninformationisavailableathttp://www.nature.com/reprints
+2210020315),BeijingInstituteofTechnologyResearchFundProgramforYoungScholars
+(3090012221909),YouthInnovationPromotionAssociationoftheChineseAcademyof
+Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+Sciences(2020286),ShanghaiSynchrotronRadiationFacilityOperationResearchProject,
+publishedmapsandinstitutionalaffiliations.
+MaintenanceandreconstructionprojectforlargescientificequipmentofChineseAcademyof
+SciencesandNationalMajorScientificResearchInstrumentDevelopmentProject(41827802),
+UserswithExcellenceprogramofHefeiScienceCenterofCAS(2020HSC-UE003)andthe Open Access This article is licensed under a Creative Commons
+FundamentalResearchFundsfortheCentralUniversities(WK2310000099).Theauthors Attribution 4.0 International License, which permits use, sharing,
+thanktheBL02Band03UintheShanghaiSynchrotronRadiationFacility(SSRF),BL01Bin adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+theNationalSynchrotronRadiationLaboratory(NSRL)forhelpwithcharacterizations.The appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+authorsthankExperimentalCenterofAdvancedMaterials(ECAM)ofSchoolofMaterials
+Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+Science&Engineering,BeijinginstituteofTechnologyforhelpwithcharacterizations.Weare materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+gratefultoChuangweiLiuandJigeChenforvaluablediscussions,support,andcooperationof
+indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+DFTcalculations.WethankYangLiu,GuoqiangChenandLiMaforhelpfuldiscussionson article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+thiswork.TheauthorsthankBigDataScienceCenterofShanghaiSynchrotronRadiation
+regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfrom
+Facility.ThisworkwasalsosupportedbyExperimentalSupportingSystematShanghai
+thecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+SynchrotronRadiationFacility.TheauthorsalsothankAnalyticalInstrumentationCenter
+licenses/by/4.0/.
+(#SPST-AIC10112914)(SPST,ShanghaiTechUniversity),theElectronMicroscopyCenter
+andtheHPCPlatformofShanghaiTechUniversityandBeijingZhongkebaiceTechnology
+ServiceCo.,Ltd. ©TheAuthor(s)2022
+NATURECOMMUNICATIONS| (2022) 13:1322 |https://doi.org/10.1038/s41467-022-29035-8|www.nature.com/naturecommunications 11

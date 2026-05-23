@@ -1,0 +1,958 @@
+
+
+===== PAGE 1 =====
+
+Articles
+https://doi.org/10.1038/s41929-022-00760-z
+Steering the structure and selectivity of CO
+2
+electroreduction catalysts by potential pulses
+Janis Timoshenko 1,3 ✉, Arno Bergmann 1,3, Clara Rettenmaier1,3, Antonia Herzog 1,
+Rosa M. Arán-Ais 1, Hyo Sang Jeon 1, Felix T. Haase 1, Uta Hejral1, Philipp Grosse1, Stefanie Kühl1,
+Earl M. Davis 1, Jing Tian2, Olaf Magnussen 2 and Beatriz Roldan Cuenya 1 ✉
+Convoluted selectivity trends and a missing link between reaction product distribution and catalyst properties hinder practi-
+cal applications of the electrochemical CO reduction reaction (CO RR) for multicarbon product generation. Here we employ
+2 2
+operando X-ray absorption and X-ray diffraction methods with subsecond time resolution to unveil the surprising complexity of
+catalysts exposed to dynamic reaction conditions. We show that by using a pulsed reaction protocol consisting of alternating
+working and oxidizing potential periods that dynamically perturb catalysts derived from Cu O nanocubes, one can decouple the
+2
+effect of the ensemble of coexisting copper species on the product distribution. In particular, an optimized dynamic balance
+between oxidized and reduced copper surface species achieved within a narrow range of cathodic and anodic pulse durations
+resulted in a twofold increase in ethanol production compared with static CO RR conditions. This work thus prepares the ground
+2
+for steering catalyst selectivity through dynamically controlled structural and chemical transformations.
+E
+lectrochemical energy conversion driven by renewable energy we steer the CORR selectivity of a CuO nanocube (NC)-derived
+2 2
+is a cost-effective, environmentally friendly route to convert catalyst. In particular, ethanol formation is doubled (compared with
+undesired substances (such as CO) into valuable chemicals that under stationary conditions) within a narrow range of pulse
+2
+and fuels. A challenge for the practical application of complex elec- durations, where a balance between metallic copper and distorted
+trochemical processes, such as the CO reduction reaction (CORR) copper oxide species on the catalyst surface is achieved, as revealed
+2 2
+over copper-based catalysts, is control of selectivity1–5. One of the by time-resolved operando X-ray absorption spectroscopy (XAS)
+critical parameters affecting the catalyst’s properties and function— and high-energy X-ray diffraction (XRD), and supported by quasi
+its oxidation state6,7—can be conveniently manipulated in situ by in situ X-ray photoelectron spectroscopy (XPS). Our study dem-
+choosing appropriate applied potentials. In particular, under pulsed onstrates the great potential of pulsed electrolysis for tailoring the
+reaction conditions the desired structural motifs and preferred oxi- catalyst performance and highlights the role of operando investi-
+dation state can be (re)generated8–11. gations for the mechanistic understanding of next-generation cata-
+Previous investigations have provided conflicting explanations lysts operating under dynamically changing reaction conditions.
+for the enhancement of catalytic properties under pulsed CORR
+2
+conditions. Studies employing polycrystalline copper electro Results
+des8,9,12–18, single crystals10 and preoxidized copper nanocubes11,19 Selectivity under static and pulsed reaction conditions. The
+revealed enhanced C product formation, suppression of the com- size-selected (∼30 nm) and shape-selected CuO NCs employed
+2+ 2
+peting hydrogen evolution reaction (HER) and increased stabil- in this study (Fig. 1a) were shown to be catalytically active and
+ity of catalytic activity under pulsed CORR. These findings were selective for CORR to C products under potentiostatic condi-
+2 2 2+
+attributed either to the formation of oxidized copper species10,11,18, tions19,23,24, but are also well-suited for synchrotron-based operando
+to catalyst surface morphology changes10,19,20, to the removal of poi- investigations. Details of the sample preparation and characteriza-
+soning hydrogen and carbon species from the catalyst’s surface8,17, to tion are given in Supplementary Note 1 and Supplementary Fig. 1.
+an enhanced adsorption of OH species and stabilization of CORR Under static CORR in CO-saturated 0.1 M KHCO at −1.0 V,
+2 2 2 3
+intermediates16, or to the local modulation of the electrolyte pH and a transformation of the crystalline CuO phase to metallic copper
+2
+CO concentration17,19,21,22. The dominant mechanism depends on was observed by XRD, while XAS showed nearly complete copper
+2
+the parameters of the applied potential (for example, its value, pulse reduction at −1.0 V (Supplementary Figs. 2–7)23,24. This process is
+shape and duration of the working and anodic pulses). relatively slow: even after 60 min under CORR, peaks of the CuO
+2 2
+In this article we focus on the regime in which the selected phase were still present in the XRD pattern (Supplementary Fig. 4),
+anodic potential (E = +0.6 V versus the reversible hydrogen elec- and several hours were required until no further changes were vis-
+a
+trode (RHE)) and the duration of the restoring pulse (Δt > 0.5 s) ible in the XAS data (Supplementary Fig. 3 and Supplementary
+a
+are sufficient for the generation of copper oxides. Thus, changes in Note 2). The reduction under static CORR also resulted in changes
+2
+the catalyst surface structure and composition could play a decisive in the catalyst morphology, namely, a partial loss of the cubic shape
+role in the reaction pathway and selectivity. By controlling the type (Fig. 1b and Supplementary Fig. 1). The selectivity of the reduced
+and amount of copper oxide formed during the restoring pulses catalyst under static conditions was in line with previous reports24–26.
+1Department of Interface Science, Fritz-Haber Institute of the Max-Planck Society, Berlin, Germany. 2Institute of Experimental and Applied Physics, Kiel
+University, Kiel, Germany. 3These authors contributed equally: Janis Timoshenko, Arno Bergmann, Clara Rettenmaier. ✉e-mail: janis@fhi-berlin.mpg.de;
+roldan@fhi-berlin.mpg.de
+NATURE CATAlySiS | VOL 5 | APRIL 2022 | 259–267 | www.nature.com/natcatal 259
+
+
+===== PAGE 2 =====
+
+Articles NaTuRe CaTalysIs
+ΔFE (%)
+–20 –10 0 10 20
+a d e
+32
+EtOH CH
+A 2 4
+16
+B C 8
+4
+As-prepared
+2
+b
+D
+1
+f g
+CO CH
+4
+16
+Static CORR
+2
+8
+c
+4
+2
+1
+Pulsed CORR
+2
+Δt
+a
+(s) Δt
+a
+(s)
+Ethylene (CH), methane (CH) and ethanol (EtOH) were detected Fig. 9a shows a remarkable independency of the H selectivity on
+2 4 4 2
+as the main CORR products, with Faradaic efficiencies (FEs) of the pulse duration. This indicates that the enhanced ethanol forma-
+2
+40%, 20% and 10%, respectively. The FE of H from the compet- tion observed for Δt < 2 s and 1 s < Δt < 10 s cannot be attributed to
+2 a c
+ing HER was only 17% (Supplementary Note 3 and Supplementary changes in the hydrogen coverage or local pH. These effects are con-
+Table 1). sidered in the prior literature8,17,19,21 to explain the changes in CORR
+2
+To the pre-reduced catalyst, we applied a series of oxidizing under pulsed conditions, but should also affect the HER. While we
+(anodic) pulses and working (cathodic) pulses with durations Δt recognize their importance for pulsed CORR in general, they do
+a 2
+and Δt, respectively. Figure 1d–g shows the difference in the FEs not play a decisive role in the ethanol selectivity for the pulse lengths
+c
+of the products measured under pulsed CORR with varied Δt and oxidative potential values used here. We also note here that an
+2 a
+and Δt, with respect to the FEs obtained under a static cathodic oxidation of reaction products and intermediates by anodic pulses
+c
+potential (−1.0 V). The potential values for cathodic and anodic cannot be ruled out, but is expected to have only a minor impact
+pulses in all cases were E = −1.0 V and E = +0.6 V, respectively. (Supplementary Note 1). The FE changes observed in our system
+c a
+The latter is a potential that is expected to oxidize Cu(0) to Cu(I) thus must stem from two different effects: periodic dynamic changes
+(Supplementary Note 4 and Supplementary Fig. 8)10. The striking induced in the catalyst by potential pulses, and the irreversible evo-
+feature in Fig. 1 is the distinct dependency of the ethanol FE on the lution of the catalyst morphology. Indeed, the ex situ transmission
+pulse duration. At Δt > 2 s and Δt < 2 s, the formation of ethanol electron microscopy (TEM) images in Fig. 1c and Supplementary
+a c
+is suppressed. Furthermore, an enhancement in the ethanol FE is Fig. 1 show that exposure of the catalyst to pulsed CORR condi-
+2
+observed for Δt < 2 s and Δt values between approximately 1 s and tions for 1 h results in a partial loss of the cubic morphology and
+a c
+10 s, with a maximum at Δt = 0.5 s and Δt = 4 s, where the ethanol the formation of a peculiar granular structure, not observed under
+a c
+FE is 1.7 times higher than that under static CORR (Fig. 1d). At the static CORR. We attribute these to the dispersion/dissolution–
+2 2
+same time, the CH formation (Fig. 1e) is suppressed under pulsed redeposition processes that we recently revealed for cubic copper
+2 4
+CORR at all Δt and Δt. The latter is accompanied by a boost in nanostructures under potentiodynamic CORR-related conditions
+2 a c 2
+the C product formation (CO, Fig. 1f and CH, Fig. 1g), and the using electrochemical electron microscopy27–29.
+1 4
+suppression of the H (Supplementary Fig. 9a). To distinguish the relative contribution to the selectivity of
+2
+Supplementary Note 3, Supplementary Tables 2 and 3 and dynamic transformations from the concomitant irreversible struc-
+Supplementary Figs. 9–15 provide additional details on pulse-length tural changes also induced by the pulses, the pulse sequence was
+dependencies of the catalyst selectivity. In particular, Supplementary interrupted after 1 h and the catalyst selectivity was subsequently
+Δtc
+(s)
+Δtc
+(s)
+1 2 4 8 16 1 2 4 8 16 32
+Fig. 1 | Evolution of the catalyst morphology and selectivity under static and pulsed CORR. a–c, Ex situ TEM images of as-prepared CuO NCs (a),
+2 2
+NCs after CO 2 RR for 60 min under static −1.0 V (RHE) potential (b) and NCs after pulsed CO 2 RR for 60 min (Δt c = Δt a = 10 s, E c = −1.0 V and E a = +0.6 V)
+(c). Scale bars correspond to 20 nm. d–g, Changes in the FE under pulsed CO
+2
+RR with respect to that under a static −1.0 V potential: excess FE for EtOH
+(d), C
+2
+H
+4
+(e), CO (f) and CH
+4
+(g) under pulsed CO
+2
+RR with different lengths of anodic and cathodic pulses (Δt
+a
+and Δt
+c
+, respectively). Regions A–D
+correspond to distinct regimes with different catalyst surface composition, as explained in the text.
+260 NATURE CATAlySiS | VOL 5 | APRIL 2022 | 259–267 | www.nature.com/natcatal
+
+
+===== PAGE 3 =====
+
+NaTuRe CaTalysIs Articles
+E (eV)
+measured under static CORR conditions after another hour. As both XAS (Fig. 2a,b) and XRD (Fig. 2c). In particular, linear combi-
+2
+shown in Supplementary Figs. 9 and 10, under these conditions nation analysis (LCA) of X-ray absorption near-edge spectroscopy
+the high FE for CH is preserved, while the FE for CH remains (XANES) data (Fig. 2d) shows that the Cu(I) fraction increases
+4 2 4
+low. Thus, the enhancement in CH formation and suppression upon applying the anodic pulse, and decreases during the cathodic
+4
+of CH must stem from the irreversibly increased surface rough- pulse. An opposite trend is observed in the Cu(0) concentration,
+2 4
+ness and granular morphology. Nonetheless, such morphological while the Cu(II) concentration varies much less (Supplementary
+changes cannot explain the increase in the CO FE, the suppression Fig. 16). The variations in the fraction of the metallic copper phase
+of HER and the pulse-length-dependent ethanol FE. In fact, when and the size of the crystalline copper domains are captured also by
+the pulses are interrupted, the FEs of CO and H mostly return to the changes in the metallic Cu(311) Bragg peak area and width,
+2
+the level observed for a fresh sample under static CORR condi- respectively. In particular, the amount of metallic copper and the
+2
+tions. Moreover, the ethanol FE under pulsed CORR appears to size of the copper domains are smaller under pulsed CORR with
+2 2
+be a result of two competing mechanisms: irreversible morpho- respect to those during the static CORR at −1.0 V. Similar varia-
+2
+logical transformations and dynamic processes. The former have tions in the catalyst composition and structure were observed
+a detrimental effect, similarly to the case of CH (Supplementary for longer (Δt = Δt = 30 s) and shorter (Δt = Δt = 1 s) pulses
+2 4 a c a c
+Fig. 9e,f). The latter, within a narrow range of Δt and Δt values, (Supplementary Figs. 16–18).
+a c
+results in enhanced ethanol formation, and are probably associated Furthermore, for all pulse durations with Δt = Δt, the periodic
+a c
+with changes in the copper chemical state. Their transient nature variations of the Cu(I) and Cu(0) concentrations were not accom-
+requires us to apply operando methods for their investigation. panied by accumulation of oxide: all oxide species generated dur-
+ing the anodic potential pulse were removed during the subsequent
+Catalyst evolution under pulsed reaction conditions. Periodic cathodic pulse. The removal of the electrochemically grown oxide
+reversible changes in the catalyst structure and composition under species is quick, which contrasts with the sluggish initial reduction
+pulsed CORR with Δt = Δt = 10 s and E = 0.6 V are evidenced by of the CuO phase under the static CORR. This implies that only
+2 a c a 2 2
+SENAX
+)3–Å(
+SFAXE-TF
+a b
+XANES
+FT-EXAFS
+Δ-XANES × 100 Δ-FT-EXAFS × 10
+R (Å)
+2θ (°)
+ytisnetni
+DRX-Δ
+0 2 4 6 8
+t (s)
+d
+E(t)
+I(t)
+20 mA
+w = 0.58 LCA-XANES Cu(0)
+0
+0.5
+0.05
+8,980 9,000 9,020 0 2 4 w 0 = 0.38 Cu(I)
+c 0.05
+9.70 9.75 9.80
+Cu(311) XRD
+Relative peak intensity
+Cu
+(311)
+0.1
+CuO
+2
+(111)
+CuO 0.5 nm
+2 CL =
+(220) 0
+17.3 nm
+Cu Cu
+Cu 2 O (311) Coherence length
+4 6 8 10 0 100 200
+t (s)
+Fig. 2 | Evolution of the operando Cu K-edge XAS and XRD data under pulsed CORR. a–c, Changes in XANES (a), EXAFS (b) and XRD (c) data under an
+2
+anodic pulse. Data corresponding to different times since the onset of the anodic pulse are shown (see colour bar). Panels a and b show raw spectra and
+the differential data, where the XANES or the magnitude of the Fourier-transformed (FT)-EXAFS corresponding to the onset of the anodic pulse (t = 0)
+were subtracted. Panel c shows differential XRD patterns, where the XRD intensities corresponding to t = 0 were also subtracted. Inset: zoomed-in region
+corresponding to the (311) Bragg peak for metallic copper. d, Time dependencies of the concentrations of Cu(0) and Cu(I) species from XANES analysis,
+and changes in the area of the Cu(311) Bragg peak as a measure of the amount of metallic copper, and in the coherence length of the metallic copper
+domains estimated using the Scherrer equation from the width of the Cu(311) Bragg peak. Time dependencies of the applied potential E(t) and measured
+current I(t) are also shown. w 0 and CL 0 are the concentration and coherence length, respectively, of metallic copper species at t = 0. Pulse parameters:
+Δt c = Δt a = 10 s, E c = −1.0 V, E a = +0.6 V.
+NATURE CATAlySiS | VOL 5 | APRIL 2022 | 259–267 | www.nature.com/natcatal 261
+
+
+===== PAGE 4 =====
+
+Articles NaTuRe CaTalysIs
+2%
+2%
+2 × Cu(II)
+10–4
+the near-surface layers of the catalyst (up to 0.5 nm, as estimated the metallic copper lattice decreases within 10–20 s upon applica-
+from the changes in coherence length) are reoxidized during the tion of the anodic pulse, and increases back rapidly, within 1–2 s,
+anodic pulse, while the metallic core structure is maintained. The upon the onset of the cathodic pulse (Fig. 3b and Supplementary
+structure and properties of this electrochemically formed surface Fig. 23). When comparing the results for different pulse lengths,
+oxide probably differ noticeably from the properties of the bulk-like we observe that the characteristic reduction and oxidation times
+CuO phase in the as-prepared NCs, making it easier to reduce. The are independent of the pulse length (Supplementary Fig. 24), and
+2
+formation of a thicker oxide layer can be achieved by increasing the thus can be used as descriptors of a particular sample under a given
+anodic potential value (Supplementary Fig. 19e and Supplementary oxidizing potential (E). The XAS and XRD results are also con-
+a
+Note 5)19. The catalyst properties in this regime of higher E values firmed by quasi in situ XPS measurements (Supplementary Fig. 25
+a
+might differ strongly from those of the system exposed to E = 0.6 V and Supplementary Note 6). In particular, at all pulse lengths, the
+a
+pulses, and are beyond the scope of this paper. surface-sensitive XPS method shows much higher variations in the
+cationic copper concentration due to the potential pulse than the
+Characteristic time scales of catalyst transformations. To bet- bulk-sensitive XAS, providing important evidence that catalyst oxi-
+ter understand the periodic changes in the catalyst structure, we dation is limited to its surface.
+averaged the XAS and XRD data points collected at the same times Moreover, even at E = 0.6 V, not only Cu(I) species but also some
+a
+after the onset of each pulse cycle (Fig. 3 and Supplementary Figs. Cu(II) is created during the anodic pulse, as evident from XANES,
+20–24). The LCA-XANES method and extended X-ray absorp- but also confirmed by observed variations in the Cu–O bond length
+tion fine structure (EXAFS) data fitting for the averaged data in the EXAFS data (Supplementary Fig. 26). The presence of these
+(Supplementary Fig. 20) both revealed the oxidation of copper spe- Cu(II) species is attributed to the unique surface morphology
+cies and Cu–O bond formation during the anodic pulse, and are in adopted by the NCs under the harsh pulsed reaction conditions.
+excellent quantitative agreement (Fig. 3a and Supplementary Fig. Cu(II) species are likely to be unstable, as noted in cyclic voltamme-
+22). The periodic reoxidation of the catalyst is also observed in try experiments where different Cu oxidation states were tracked by
+XRD, as evidenced by the changes in the metallic copper phase (Fig. XAS (Supplementary Note 4) and the generation of Cu(II) coincided
+3b and Supplementary Fig. 23), but also by the appearance of Bragg with the loss of copper fluorescence intensity. Indeed, inductively
+peaks from a CuO-like phase (Fig. 3c). coupled plasma mass spectrometry (ICP-MS) analysis of the copper
+2
+Although the spike in the current I(t) detected upon changing concentration in electrolyte after CORR shows partial catalyst dis-
+2
+the applied potential and mostly related to double-layer charging solution under all pulsed regimes investigated (Supplementary Note
+is relatively short (<1 s, Fig. 3a), the transformations of the cata- 7 and Supplementary Table 4), signalling the appearance of unstable
+lyst structure and composition are much slower. Moreover, a strong species during the anodic pulse. Due to their continuous regenera-
+asymmetry between the oxidation and reduction processes was tion, the importance of these species for catalytic activity cannot
+observed, with the latter being significantly faster. Indeed, although be excluded. We observe no delay between the formation of Cu(I)
+10–20 s of the anodic potential with E = 0.6 V are required for the and Cu(II) species. In fact, it appears that the generation of Cu(II)
+a
+oxidation to reach its stationary value, the complete removal of the species starts slightly before that of Cu(I) species. This suggests
+oxide species generated is achieved within 1–2 s of the cathodic that instead of the gradual oxidation [Cu(0) → Cu(I) → Cu(II)],
+pulse. Similarly, the intensity of the XRD peaks corresponding to the generation of Cu(II) species is a separate, independent process
+seiceps
+uC
+fo
+noitartnecnoC
+a b
+t (s) t (s)
+sretemarap
+kaep
+DRX
+)113(uC
+c
+E = 0.6 V E = 0.6 V
+a a
+E(t) E(t)
+Peak area
+I(t)
+Cu(0)
+Coherence length
+Cu(I)
+Strain
+2 × Cu(II)+Cu(I)
+t (s)
+sretemarap
+kaep
+DRX
+OuC
+2
+E = 0.6 V
+a
+E(t)
+0.03
+6 mA Peak
+area
+0.02
+Coherence 0.3 nm
+length
+(220)
+Strain
+(111) 0.5%
+0 10 20 30 0 10 20 30 0 5 10
+Fig. 3 | Variations in catalyst structure and composition during potential pulse. a, LCA-XANES analysis results (grey open circles) for averaged data for
+NCs under CO 2 RR with pulse lengths Δt a = Δt c = 10 s, E c = −1.0 V and E a = 0.6 V. Results of EXAFS data fitting (filled black and red circles show the Cu(0)
+and total Cu(I) and Cu(II) concentrations extracted from Cu–Cu and Cu–O coordination numbers, respectively). Solid lines display the result of fitting
+concentration profiles for Cu(I) (red line) and Cu(II) (green line) with an analytical model. The concentration profile for Cu(II) is multiplied by 2 for clarity
+and to account for the twofold larger Cu–O coordination number in CuO than in the CuO bulk structure. Depicted error bars reflect the standard errors
+2
+of LCA-XANES fitting results. The time dependencies of the potential E(t) and the current I(t) are also shown (vertical bars show the scale for different
+datasets). b, Evolution of the Cu(311) Bragg peak parameters. The relative changes in the Bragg peak area, the copper coherence length and the lattice
+strain are depicted. c, Evolution of the CuO-like Bragg peak parameters during the anodic pulse. The total area of the (111) and (220) Bragg peaks, average
+2
+coherence length extracted from the (111) and (220) peak broadenings, and the lattice strain for the (111) and (220) lattice spacings are shown. The solid
+lines in b and c are guides for the eye (exponential fits).
+262 NATURE CATAlySiS | VOL 5 | APRIL 2022 | 259–267 | www.nature.com/natcatal
+
+
+===== PAGE 5 =====
+
+NaTuRe CaTalysIs Articles
+a d
+A Cu(I)+Cu(II)
+(E
+c
+pulse)
+C2
+H4
+2% Cu sh 2 O ell
+1% Metallic
+Cu
+b Cu(II) 0% A Cu( i I s ) l / a C n u d ( s II)
+Cu(I)
+EtOH
+CO B C CH
+4
+C
+c B CO
+Cu(I)+Cu(II) Cu(0)
+(after E pulse)
+c CuO
+2 shell
+C 2%
+CH
+1% D 4
+D
+0% Δt
+a
+Δt
+a
+(s)
+[Cu(0) → Cu(II)]. The independence of the Cu(0) → Cu(II) and be a consequence of a tilted growth axis which differs slightly from
+Cu(0) → Cu(I) processes is also observed in the cyclic voltamme- the surface normal and leads to anisotropic compressive strain in
+try experiments (Supplementary Note 4). This leads to a situation the oxide lattice30–32. As the oxide layer grows thicker, the distor-
+that during the short anodic pulse, the concentrations of the Cu(I) tion gradually diminishes, leading to a rather bulk-like CuO after
+2
+and Cu(II) species are comparable, although at large Δt values the 10–20 s. Changes in the lattice spacing in metallic copper under
+a
+concentration of Cu(I) is much higher than that of Cu(II). Indeed, pulsed CORR are also observed, but are quite different from those
+2
+in the dataset corresponding to 1 s pulses (Supplementary Fig. 22a) in the oxide phase. In particular, the copper lattice expansion upon
+the variations in Cu(II) species concentrations seem to be as pro- the application of the anodic pulse is faster than the changes in
+nounced as those in the Cu(I) concentration. With increasing E, the the CuO(111) Bragg peak position (Fig. 3b,c), and the expansion
+a 2
+contribution of Cu(II) species increases strongly (Supplementary magnitude practically does not depend on the anodic pulse length
+Fig. 22d). The generation of Cu(II) species at E = 1.0 V is clearly (Supplementary Fig. 24). This expansion appears to be independent
+a
+faster than that of Cu(I) species at E = 0.6 V, resulting in a steeper from the copper oxidation process and reflects the charging of the
+a
+drop in the Cu(0) concentration when an anodic pulse is applied Cu/CuO interface.
+x
+(Supplementary Note 5).
+We conclude that under CORR pulses with E = 0.6 V, a layer Linking the catalyst’s structural evolution to its selectivity.
+2 a
+of oxide with mixed valence state (Cu(I)/Cu(II)) is formed on the Considering that the oxidation and reduction rates do not depend on
+surface of the copper NCs. Further insights into the structure of the pulse length, we estimate them from the XAS data collected during
+this oxide can be extracted from the XRD measurements. The area pulsed CORR with the largest Δt and Δt values (30 s), and propose
+2 a c
+of the Bragg peaks attributed to CuO shows similar kinetics (with a simple kinetic model to predict the time dependencies of the con-
+2
+opposite sign) to that of metallic copper (Fig. 3b,c). The coherence centrations of Cu(0), Cu(I) and Cu(II) species at arbitrary Δt and Δt
+a c
+length of the CuO phase increases within the entire 10 s anodic (Supplementary Note 8, Supplementary Fig. 27 and Supplementary
+x
+pulse, reaching ∼3 nm at the end of the pulse. At the same time Table 5). Knowing the latter, we can now focus on: (1) the average
+we observe a gradual expansion of the oxide lattice, as determined concentration of copper oxide species present during the cathodic
+from the position of the CuO(111)-like Bragg peak. Importantly, pulse, (2) the ratio of the Cu(II) and Cu(I) content during the cathodic
+2
+the CuO(220)-like Bragg peak position follows a different trend: pulse and (3) the concentration of oxide species remaining after the
+2
+the (220) lattice expands during the first 2–3 s upon the applica- cathodic pulse is completed (Fig. 4a–c). Based on these results and the
+tion of the anodic pulse, and then slightly shrinks. This suggests a catalytic selectivity data in Fig. 1d–g, we identify four regimes (A–D,
+distortion of the CuO-like phase in the early stages of the anodic Fig. 4a–c) with distinct catalytic properties, which stem from distinct
+2
+pulse, which we associate with the growth of (111)-oriented CuO catalyst surface compositions. The latter are schematically depicted in
+2
+on the metallic Cu(100) surfaces30,31. The lattice mismatch between Fig. 4d. In particular, the enhanced ethanol production at low Δt and
+a
+Cu(100) and CuO(111) induces the in-plane expansion and a rela- intermediate Δt values (region B) is attributed to an optimal balance
+2 c
+tively larger CuO-like (220) lattice spacing. The reduced (111) lat- between oxidized and reduced copper species on the catalyst surface,
+2
+tice spacing in the early stages of the anodic pulse might, in turn, and the presence of a distorted copper oxide phase.
+c tΔ
+0.30
+0.25
+0.20
+0.15
+)s( c tΔ
+)s(
+c tΔ
+)s(
+c tΔ
+16
+8
+4
+2
+1
+16
+8
+4
+2
+1
+16
+8
+4
+2
+1
+1 2 4 8 16
+Fig. 4 | Effect of the durations of the anodic (Δt
+a
+) and cathodic (Δt
+c
+) pulses. a–c, Results obtained from the analysis of XAS data for copper NCs
+during pulses with E a = 0.6 V, showing the average concentration of the oxide species present during the cathodic pulse (a), the ratio of Cu(II) and
+Cu(I) concentrations during the cathodic pulse (b) and the concentration of oxide species that remains after the nth cathodic pulse is completed (c).
+d, Schematic depiction of the catalyst structure and composition during a cathodic pulse extracted from XAS and XRD data. The ranges of Δt
+a
+and Δt
+c
+values corresponding to each regime are indicated in a–c.
+NATURE CATAlySiS | VOL 5 | APRIL 2022 | 259–267 | www.nature.com/natcatal 263
+
+
+===== PAGE 6 =====
+
+Articles NaTuRe CaTalysIs
+At larger Δt (region A), in the absence of the effect of an irrevers- applied pulsed CORR protocol provides opportunities for steering
+c 2
+ible morphology change, the FEs for all CORR products become the catalyst’s selectivity on demand.
+2
+similar to those observed under static CORR. Here the catalyst is
+2
+on average completely metallic, and dynamic changes associated Methods
+with the pulsed protocol take place for proportionally shorter times Catalyst synthesis. CuO NCs were prepared by adapting a synthesis recipe
+2
+and cannot affect the catalyst performance noticeably. However, at described in a previous work37. Briefly, 4 ml 0.1 M CuSO
+4
+(Sigma-Aldrich, >98%)
+shorter Δt c , the oxide species created on the catalyst surface during was diluted in 366 ml H 2 O and stirred vigorously. Then 14 ml 1 M NaOH (Alfa
+the anodic pulse have a pronounced impact. Note that the formation Aesar, >97%) was added to start the nucleation process, while the reduction and NC
+growth were initialized by adding 16 ml of 0.25 M l-ascorbic acid (Sigma-Aldrich,
+of a complete monolayer of surface oxide on cubic nanoparticles
+reagent grade) after 10 s. The solution was stirred further for 13 min. The obtained
+∼30 nm in size is equivalent to an increase in the oxide concentra- sample was washed two times with an EtOH:HO mixture (1:1) and once with
+2
+tion by ∼3%, which is in good agreement with the maximal increase EtOH. The clean sample, with a copper concentration of 1.2 mg ml−1, as determined
+in the oxide fraction observed in Fig. 4a for pulses with Δt ≫ Δt, by ICP-MS, was stored in 20 ml of EtOH. The electrodes were prepared by
+suggesting that the catalyst surface is completely oxidized dur
+a
+ing th
+c
+e
+drop-casting 42 μl of the former solution on both sides of 1 cm2 carbon paper (Alfa
+Aesar, Toray Carbon Paper, GGP-H-60). The total copper loading was 50 µg.
+anodic pulse in this case. During the subsequent cathodic pulse, the
+surface is completely (region C) or partially (region D) re-reduced, Electrocatalytic measurements. Electrocatalytic measurements were performed
+recovering the metallic copper sites active for CORR. The pres- with an Autolab (Metrohm) potentiostat in a H-type cell equipped with an
+2
+ence of metallic islands on the catalyst surface in direct contact to anion-exchange membrane (Selemion AMV, AGC) separating the cathodic and the
+anodic compartments. A leak-free Ag/AgCl reference electrode (LF-1, Alvatek) was
+copper-oxide-rich surface regions during the working pulse has a
+set close to the working electrode in the cathodic compartment. A platinum gauze
+beneficial effect for CO formation. In particular, the pulse-duration electrode (MaTecK, 3,600 mesh cm−2) served as the counter-electrode in the anodic
+dependency of the excess FE for CO (Fig. 1f) has a similar profile as compartment. As electrolyte, 0.1 M KHCO (Alfa Aesar, 99.7–100.5%) was purified
+3
+the pulse-duration dependency of the oxide fraction present during with a cation-exchange resin (Chelex 100 Resin, Bio-Rad) and saturated with
+the working pulse (Fig. 4a), where an increase in the oxide fraction CO 2 (99.995%) for at least 20 min. Online products were determined for the static
+CORR conditions by taking an aliquot of the electrolyte every 15 min.
+results in an enhanced CO formation. The latter observation is in 2
+After applying a linear sweep voltammogram from the open circuit potential to
+agreement with the results obtained under pulsed CO 2 RR for a cop- −1.0 V at 20 mV s−1, a potential pulse protocol was carried out with fixed cathodic
+per foil, where the CO production was favoured over HER when potential E c = −1.0 V, anodic potential E a = +0.6 V and different lengths of cathodic
+significant accumulation of oxides was observed33. While the pulse and anodic pulses. The linear sweep step was omitted for the data points with low
+parameters in ref. 33 differ from those in our work, this study pro- Δt c and Δt a values, since in this case it contributed non-negligibly to the final yields
+of reaction products. The pulse sequence was repeated for 4,000 s. For comparison,
+vides additional evidence that strongly oxidized copper surfaces can
+after pulsing, another chronoamperometric measurement at constant −1.0 V was
+lead to efficient CO 2 conversion to CO. performed for 4,000 s.
+The coexistence of metallic and oxidized Cu species is also Gas products were detected and quantified after 1 min and every 15 min
+the key factor for enhanced ethanol formation. As predicted by by online gas chromatography (GC, Agilent 7890B), equipped with a thermal
+density functional theory modelling11,34,35 and corroborated also conductivity detector and a flame ionization detector. Liquid products were
+analysed after each measurement with a high-performance liquid chromatograph
+by recent experimental infrared spectroscopy and in situ XAS
+(Shimadzu Prominence), equipped with a NUCLEOGEL SUGAR 810 column and
+data36, the asymmetry between CO adsorption energies on metal- a refractive index detector, and a liquid GC (Shimadzu 2010 plus), equipped with a
+lic and oxidized copper sites facilitates CO dimerization and is fused silica capillary column and a flame ionization detector. Each presented data
+essential for C product formation34. Nevertheless, the more com- point was measured at least three times, and we report the average values.
+2
+plex shape of the pulse duration dependency for ethanol produc- All catalytic results in this study are shown in terms of FE. The FE of the gas
+products was calculated as:
+tion as compared with CO suggests that not only the amount but
+a
+p
+l
+l
+s
+a
+o
+y
+t
+a
+h e
+ro
+t
+l
+y
+e
+p
+i
+e
+n
+o
+t
+f
+h
+c
+e
+o
+i
+p
+n
+p
+c
+e
+r
+r
+e a
+o
+s
+x
+e
+i
+d
+d e
+e t
+f
+h
+o
+a
+r
+n
+m
+o
+e
+l
+d
+y i
+d
+e
+u
+ld
+r
+.
+i n
+T
+g
+h
+t
+e
+h e
+e n
+a
+h
+n
+a
+o
+n
+d
+c
+i
+e
+c
+m
+r
+e
+e
+n
+gi
+t
+m
+in
+e FEx =
+A ×
+V
+V
+˙
+M
+×
+×
+Cx
+jt
+×
+otal
+z
+×
+x ×
+Δt
+F
+c Δ + tc Δta
+× 100 % (1)
+ethanol is observed only for the shortest anodic pulses (Δt < 1 s,
+a
+region B), where the distorted oxide structure (as seen from our The FE for liquid products (which cannot be measured online, but only after a
+XRD and XAS data) is formed, featuring also some contribution certain time under pulsed CO 2 RR) was calculated as FEx = V×ΔC Δ x Q ×zx ×F × 100 %.
+of Cu(II) species (oxides or hydroxides, Fig. 4b). We consider The factor
+Δtc
+Δ
++
+tc
+Δta
+is used in the FE expression for the gas products to weight j
+total
+these distorted oxide or hydroxide species, in close contact with according to the total time spent by the catalyst in the Faradaic (cathodic) potential
+metallic copper, to be the crucial sites for the ethanol production. regime. In contrast, for liquid products ΔQ already contains the contribution of the
+˙
+Importantly, an increase of Δt a results in an increased thickness of p is u t l h se e t C im O e s g b as y f i l n o t w eg r r a a t t e i n ( g l s t − h 1) e , c C at h is o t d h i e c v c o h l a u r m ge e . H fra e c re ti o F n E x o i f s t t h h e e p F r E o d o u f c p t r x o d d u e c te t c x t , e V d
+the oxide layer that adopts a structure that increasingly resembles 2 x
+by GC, z is the number of electrons transferred for reduction to product x, F is
+the structure of bulk Cu 2 O (region C). The latter results in the the Farad x ay constant (C mol−1), A is the geometric area of the electrode (cm2), V M
+loss of the enhanced ethanol production. Similarly, the reduc- is the molar volume (22.4 l mol−1), j is the total current density during CO bulk
+total 2
+tion of Δt c below ∼1 s leads to an incomplete reduction of the electrolysis (A cm−2), Δtc Δ + tc Δta is a factor to account for the effective CO 2 RR time of
+oxide layer during the cathodic pulse (Fig. 4c), resulting in the j
+total
+while pulsing, ΔC
+x
+is the accumulated concentration of product x detected by
+gradual accumulation of the oxide and the formation of a thicker HPLC or liquid GC (mol l−1), ΔQ is the total charge transfer during the electrolysis
+at constant potential or current (C) and V is the volume of the electrolyte (l).
+CuO shell with bulk-like structure (region D). As a consequence,
+2 The electrochemical surface area after 1 h reduction at −1.0 V was obtained
+the enhancement in the ethanol production is not pronounced for
+by double-layer capacitance with cyclic voltammetry in the non-Faradaic region
+Δt c < 1 s. The observed peak of the ethanol formation at Δt c ≈ 4 s with variable scan rates. The resulting capacitance of 0.23(2) mF cm−2 corresponds
+and Δt < 1 s corresponds to the optimal ratio between distorted to a 8.5-fold higher surface area compared to the copper foil (0.027 mF). Cyclic
+a
+oxidic and metallic copper sites. voltammetry was carried out between +0.3 and +0.45 V versus RHE, with scan
+rates of 20, 40, 60, 80, 100, 120 and 140 mV s−1. The amount of dissolved copper
+Our advanced operando X-ray studies thus revealed the complex
+in the electrolyte after CORR was determined by ICP-MS (iCAP RQ, Thermo
+interplay between a (reversible) oxide formation and the catalytic Fisher Scientific). See Supp 2 lementary Note 1 for more details on the analysis of
+function of oxide-derived cubic copper nanocatalysts. We show electrocatalytic measurement data.
+the crucial role of the catalyst’s surface repopulation with distorted
+multivalent copper oxide species that boost ethanol production. In Characterization of catalyst morphology and composition. The morphology of
+the catalysts before and after CORR was characterized by transmission electron
+contrast, extensive bulk-like copper-oxide formation prevents CO 2
+microscopy (TEM). TEM measurements were performed using a Thermo Fisher
+dimerization and rather facilitates CO formation. The observed 300 kV Titan microscope. The catalysts after CO
+2
+RR were sonicated in 200 µl
+dependency of the catalyst selectivity on the parameters of the isopropanol to detach the sample and drop-cast on a nickel lacey carbon grid.
+264 NATURE CATAlySiS | VOL 5 | APRIL 2022 | 259–267 | www.nature.com/natcatal
+
+
+===== PAGE 7 =====
+
+NaTuRe CaTalysIs Articles
+The surface composition of the copper catalysts was determined by quasi The X-ray energy was set to 67 keV (λ = 0.18505 Å) and a working distance of
+in situ XPS in the as-prepared state of the catalyst, after 1 h reduction under static 0.895 m was calibrated using the diffraction pattern of a CeO standard. The
+2
+CORR and after 1 h under pulsed CORR. Following the approach established diffraction patterns were recorded using a Dectris Pilatus X CdTe 2 M, which
+2 2
+in our previous work to determine the oxidation state at the cathodic and anodic is a large-area detector especially suitable for time-resolved high-energy XRD
+pulse10, the catalytic procedure was interrupted at the respective potential, the experiments. The acquisition time of the individual detector images was set to 10 s
+sample was washed with water at open circuit potential and directly transferred under stationary conditions and to 0.127 s for the time-resolved pulse experiments.
+into an ultra-high-vacuum system for XPS measurements without exposure to air. Primary data treatment (calibration, masking, detector image integration) was
+The ultra-high-vacuum system system was equipped with an X-ray source (XR 50, conducted using the software package pyFAI42.
+SPECS) and a hemispherical electron analyser (Phoibos 100, SPECS, E pass = 15 eV) A home-made electrochemical cell based on a three-electrode configuration
+and an aluminium anode (Al K, hν = 1,486.6 eV, 300 W). using a leak-free miniature Ag/AgCl reference electrode (3.4 M KCl, eDAQ ET072)
+α
+and a platinum counter-electrode43. A depiction of the operando XRD set-up can
+Operando XAS measurements and data analysis. To collect X-ray absorption be found in Supplementary Fig. 2. The electrode potentials were controlled using
+fine structure (XAFS) data, operando time-resolved XAS experiments at the a Biologic SP-240 potentiostat. The electrode potential and current were recorded
+Cu K-edge (8,979 eV) were carried out in quick XAFS (QXAFS) mode at the together with XRD data to allow precise synchronization of the collected images
+SuperXAS beamline at the SLS synchrotron (Switzerland). Additional experiments and the electrode potential. The copper NCs were deposited on the microporous
+were carried out at the P64 beamline of the PETRA III synchrotron (Germany). layer of the gas diffusion electrode (Sigracet 29 BC, SGL Carbon) with a loading
+In both cases the experiments were carried out in fluorescence mode using a of 0.3 mg Cu cm−2. For the operando high-energy XRD experiments, the sample was
+home-made in situ cell for electrochemical measurements. A schematic of the mounted and, subsequently, the operando X-ray cell was filled with the electrolyte.
+cell is shown in ref. 38. A platinum mesh and leak-free Ag/AgCl electrode were For alignment, the cell was centred and the gas diffusion electrode was aligned
+used as counter-electrode and reference electrode, respectively. The sample was parallel to the X-ray beam using the beam stop diode. Subsequently, the incident
+deposited on carbon paper (Sigracet 29 BC, SGL Carbon), with the other side of X-ray angle was tuned between 0° and 1° to ensure an optimal Cu 2 O to graphite
+the substrate covered with Kapton tape. The sample loading used in our operando Bragg peak ratio, and to ensure a sufficiently small spread of the X-rays on the
+XAS experiments was 500 µg cm−2: this is the maximal loading of the sample sample, thus avoiding parasitic peak broadening.
+that allows us to collect data of good quality, but is still sufficiently low to avoid After acquisition of the diffraction pattern under open-circuit conditions, a
+self-absorption effects in fluorescence XAS data. The sample was mounted in the CO 2 RR potential (−1 V versus RHE) was applied for at least 90 min to ensure the
+electrochemical cell with its Kapton-covered side acting as a window for incident reduction of the catalyst. CO 2 was continuously bubbled through the electrolyte
+and fluorescent radiation, while the side coated with the catalyst was in contact to ensure a stable pH. The electrolyte was frequently exchanged to avoid product
+with the electrolyte. As electrolyte we used CO-saturated 0.1 M KHCO, which accumulation.
+was continuously circulated through the cell us 2 ing a peristaltic pump. C 3 O flow The data analysis of the diffraction patterns after integration of the detector
+(20 ml min−1) was ensured through the cell. The applied potential was con 2 trolled images was conducted using a set of GNU Octave scripts to perform background
+with a BioLogic (in the experiments at SuperXAS) or an Autolab (in experiments at pattern subtraction, peak fitting using Lorentz profiles and averaging of the XRD
+DESY) potentiostat. data collected under pulsed CO 2 RR. In the latter case, the averaging of the XRD
+In the SuperXAS set-up, the super-bending magnet was used as X-ray source. A data was conducted after correcting the peak profiles for lo- frequency variations
+silicon-coated collimating mirror and platinum-coated toroidal refocusing mirror due to, for example, bubble formation.
+were used to remove higher-order harmonics, control the beam size and reduce We limited the analysis to Cu(311), Cu 2 O(111) and Cu 2 O(220) Bragg peaks
+heat load on the monochromator. A Si(111) channel-cut monochromator designed due to their sufficient intensity and minimal overlap with other Bragg peaks.
+for high-speed scans was used for energy selection. The monochromator oscillated The coherence length (size) of the crystalline domains was estimated from the
+with a 5 Hz frequency, resulting in five XAFS spectra being collected every second. individual Bragg peaks using the Scherrer equation based on the FWHM with a
+The beam size was 30 μm × 2.5 mm. At P64, a tapered undulator was used as the shape factor of 0.89. The lattice strain was calculated as (d − d 0 )/d 0 , where d 0 is the
+X-ray source, a Si(111) channel-cut monochromator was used for fast energy corresponding lattice spacing determined for the catalyst under the cathodic pulse
+selection, and the beam size was less than 2 mm × 2 mm. The monochromator f√rom the Bragg peak position. The lattice parameter a of copper was calculated as
+oscillation frequency was 1 Hz in this case. In both cases a PIPS detector was used h2+ k2+ l2d.
+for fluorescence intensity measurements. The intensity of the incident radiation For comparison of pulsed CO 2 RR conditions realized in different
+was monitored by a gas chamber filled with nitrogen. electrochemical cell set-ups, it is critical to ensure that the resistor-capacitor (RC)
+For measurements in QXAFS mode, calibration of the acquired data is time constant is shorter than the duration of the studied pulses. In all our cells, we
+essential. For this purpose, we mounted on the surface of our cell a thin CuO confirmed that this condition if fulfilled and does not limit the studied processes.
+pellet, the fluorescence signal from which was used as a reference. Each scan The RC constants were determined by measuring the double-layer capacitance
+began with the pellet being in the beam, then the sample stage was moved to bring and the ohmic cell resistance in each cell used upon catalyst pre-reduction. In the
+our sample into the beam. To align the spectra, the energy scale for the collected H-type cell used for the selectivity measurements, an RC time constant of 38.7 ms
+QXAFS spectra was then shifted so that the maximum of the first derivative for (with C = 2.87 mF and R = 13.5 Ω) was determined for catalysts with the highest
+the first QXAFS spectrum, which corresponds to the signal from the CuO pellet, catalyst loading considered in our study (500 µg cm−2). This value is much shorter
+is at the same energy as the maximum of the first derivative for the standard CuO than the shortest pulse length applied (0.5 s). Lower catalyst loadings led to similar
+spectrum, collected independently at the same beamline. Data calibration was time constants. In our operando XAS cell, the electrode area is twice as large, and
+performed using dedicated beamline-specific software (Pro-QEXAFS at SuperXAS, the typical resistance is 20 Ω. For our XRD cell, the resistance is 40–50 Ω. The latter
+and JAQ at P64)39. Further data alignment, background subtraction, normalization, was used with a lower catalyst loading (300 µg/cm²) with an electrode area of 6% of
+averaging and linear combination fitting of XANES spectra were performed using the one used for the XAS measurements.
+a set of Wolfram Mathematica scripts. EXAFS data extraction from averaged data
+was performed using Athena software40. Data availability
+EXAFS data fitting for the first coordination shell was performed using the Catalytic activity data and processed XAS and XRD data are provided in the
+FEFFIT code40. Theoretical phases and amplitudes were obtained in self-consistent Supplementary Information. The raw XAS and XRD data (which require
+ab initio calculations with FEFF8.541 for bulk copper, Cu 2 O and CuO materials. specialized software to process), and all other data that support the findings of this
+The complex exchange-correlation Hedin–Lundqvist potential and default values study are available from the corresponding authors on reasonable request.
+of muffin-tin radii as provided within the FEFF8.5 code were employed.
+We started with single-shell fitting of the copper foil and CuO data to obtain
+2 Received: 5 July 2021; Accepted: 28 February 2022;
+the values of the amplitude reduction factors S2. The obtained values were used
+0 Published online: 21 April 2022
+later for the fitting of the experimental EXAFS data for nanocatalysts. Fitting
+of spectra for reference materials was carried out in the same ranges in k- and
+R-spaces as the ones later used for the nanocatalysts, to partially compensate for References
+systematic errors due to the limited signal length in k-space. Fitting of EXAFS 1. Hori, Y., Kikuchi, K. & Suzuki, S. Production of CO and CH in
+s to p e R c m tr ax a = χ 2 (k .8 )k Å 2 . t F h o u u s r w ie a r s t c r a a r n r s i f e o d r m ou w t i a n s R ca -s r p ri a e c d e o in u t t h in e t r h a e n g k e r a fr n o g m e f R ro m m in = 2 1 .0 .1 Å Å −1 u u p p h el y e d c r tr o o g c e h n e c m ar i b c o a n l a re te d u so ct lu io t n io n o . f C C h O e 2 m a . t L m et e t t . a 1 l 4 e , l e 1 c 6 t 9 ro 5 d – e 1 s 6 9 in 8 a (1 q 9 u 8 e 4 5 o ) u . s
+to 11.5 Å−1. Fitting parameters were the coordination numbers N and interatomic 2. Mistry, H., Varela, A. S., Kuehl, S., Strasser, P. & Roldan Cuenya, B.
+distances R and disorder factors σ2 for Cu–O and Cu–Cu bonds, and the Nanostructured electrocatalysts with tunable activity and selectivity. Nat. Rev.
+corrections to photoelectron reference energies ΔE 0 . Mater. 1, 16009 (2016).
+3. Gao, D., Arán-Ais, R. M., Jeon, H. S. & Roldan Cuenya, B. Rational catalyst
+Operando high-energy XRD measurements and data analysis. Operando and electrolyte design for CO electroreduction towards multicarbon
+2
+time-resolved high-energy XRD experiments were conducted at the Swedish products. Nat. Catal. 2, 198–210 (2019).
+Materials Science Beamline (P21.2) at Petra III. P21.2 is an undulator beamline 4. Xie, H., Wang, T., Liang, J., Li, Q. & Sun, S. Cu-based nanocatalysts for
+equipped with a cryogenically cooled double Laue Si(111) monochromator. electrochemical reduction of CO. Nano Today 21, 41–54 (2018).
+2
+NATURE CATAlySiS | VOL 5 | APRIL 2022 | 259–267 | www.nature.com/natcatal 265
+
+
+===== PAGE 8 =====
+
+Articles NaTuRe CaTalysIs
+5. Fan, L. et al. Strategies in catalysts and electrolyzer design for electrochemical 33. Kumar, B. et al. Controlling the product syngas H: CO ratio through
+2
+CO reduction toward C products. Sci. Adv. 6, eaay3111 (2020). pulsed-bias electrochemical reduction of CO on copper. ACS Catal. 6,
+2 2+ 2
+6. Mistry, H. et al. Highly selective plasma-activated copper catalysts for carbon 4739–4745 (2016).
+dioxide reduction to ethylene. Nat. Commun. 7, 12123 (2016). 34. Xiao, H., Goddard, W. A., Cheng, T. & Liu, Y. Cu metal embedded in
+7. Zhou, Y. et al. Dopant-induced electron localization drives CO reduction to oxidized matrix catalyst to promote CO activation and CO dimerization for
+2 2
+C hydrocarbons. Nat. Chem. 10, 974–980 (2018). electrochemical reduction of CO. Proc. Natl Acad. Sci. USA 114, 6685–6688
+2 2
+8. Shiratsuchi, R., Aikoh, Y. & Nogami, G. Pulsed electroreduction of CO on (2017).
+2
+copper electrodes. J. Electrochem. Soc. 140, 3479–3482 (1993). 35. Dattila, F., Garcı́a-Muelas, R. & López, N. R. Active and selective ensembles
+9. Engelbrecht, A. et al. On the electrochemical CO 2 reduction at copper sheet in oxide-derived copper catalysts for CO 2 reduction. ACS Energy Lett. 5,
+electrodes with enhanced long-term stability by pulsed electrolysis. J. 3176–3184 (2020).
+Electrochem. Soc. 165, J3059–J3068 (2018). 36. Chou, T.-C. et al. Controlling the oxidation state of the Cu electrode and
+10. Arán-Ais, R. M., Scholten, F., Kunze, S., Rizo, R. & Roldan Cuenya, B. The reaction intermediates for electrochemical CO 2 reduction to ethylene. J. Am.
+role of in situ generated morphological motifs and Cu(I) species in C Chem. Soc. 142, 2857–2867 (2020).
+2+
+product selectivity during CO pulsed electroreduction. Nat. Energy 5, 37. Ke, W. H., Hsia, C. F., Chen, Y. J. & Huang, M. H. Synthesis of ultrasmall
+2
+317–325 (2020). Cu 2 O nanocubes and octahedra with tunable sizes for facet‐dependent optical
+11. Lin, S.-C. et al. Operando time-resolved X-ray absorption spectroscopy property examination. Small 12, 3530–3534 (2016).
+reveals the chemical nature enabling highly selective CO reduction. Nat. 38. Timoshenko, J. & Roldan Cuenya, B. In situ/operando electrocatalyst
+2
+Commun. 11, 3525 (2020). characterization by X-ray absorption spectroscopy. Chem. Rev. 121,
+12. Jannsch, Y. Pulsed potential electrochemical CO reduction for enhanced 882–961 (2021).
+2
+stability and catalyst reactivation of copper electrodes. Electrochem. Commun. 39. Bornmann, B., Kläs, J., Müller, O., Lützenkirchen-Hecht, D. &
+121, 106861 (2020). Frahm, R. The quick EXAFS setup at beamline P64 at PETRA III
+13. Kimura, K. W. et al. Controlled selectivity of CO reduction on copper by for up to 200 spectra per second. AIP Conf. Proc. 2054,
+2
+pulsing the electrochemical potential. ChemSusChem 11, 1781–1786 (2018). 040008 (2019).
+14. Lee, J. & Tak, Y. Electrocatalytic activity of Cu electrode in electroreduction 40. Ravel, B. & Newville, M. ATHENA, ARTEMIS, HEPHAESTUS: data analysis
+of CO. Electrochim. Acta 46, 3015–3022 (2001). for X-ray absorption spectroscopy using IFEFFIT. J. Synchrotron Radiat. 12,
+2
+15. Ishimaru, S., Shiratsuchi, R. & Nogami, G. Pulsed electroreduction of CO on 537–541 (2005).
+2
+Cu–Ag alloy electrodes. J. Electrochem. Soc. 147, 1864–1867 (2000). 41. Ankudinov, A. L., Ravel, B., Rehr, J. J. & Conradson, S. D. Real-space
+16. Kimura, K. W. et al. Selective electrochemical CO reduction during pulsed multiple-scattering calculation and interpretation of X-ray-absorption
+2
+potential stems from dynamic interface. ACS Catal. 10, 8632–8639 (2020). near-edge structure. Phys. Rev. B 58, 7565–7576 (1998).
+17. Kim, C., Weng, L.-C. & Bell, A. T. Impact of pulsed electrochemical 42. Ashiotis, G. et al. The fast azimuthal integration Python library: pyFAI. J.
+reduction of CO2 on the formation of C products over Cu. ACS Catal. 10, Appl. Crystallogr. 48, 510–519 (2015).
+12403–12413 (2020).
+2+
+43. Reikowski, F. et al. Operando surface X-ray diffraction studies of structurally
+18. Tang, Z., Nishiwaki, E., Fritz, K. E., Hanrath, T. & Suntivich, J. Cu(I) defined Co 3 O 4 and CoOOH thin films during oxygen evolution. ACS Catal. 9,
+reducibility controls ethylene vs ethanol selectivity on (100)-textured 3811–3821 (2019).
+copper during pulsed CO reduction. ACS Appl. Mater. Inter. 13,
+2
+14050–14055 (2021). Acknowledgements
+19. Jeon, H. S. et al. Selectivity control of Cu nanocrystals in a gas-fed
+Financial support was provided by the European Research Council (ERC-725915,
+flow cell through CO pulsed electroreduction. J. Am. Chem. Soc. 143,
+2 OPERANDOCAT), the German Research Foundation (DFG, project numbers
+7578–7587 (2021).
+406944504 and SPP 2080) and Germany´s Excellence Strategy (EXC 2008, 390540038,
+20. Lei, Q. et al. Investigating the origin of enhanced C selectivity in oxide-/
+2+ UniSysCat). We acknowledge the Paul Scherrer Institute, Villigen, Switzerland, and
+hydroxide-derived copper electrodes during CO electroreduction. J. Am.
+2 DESY (Germany), a member of the Helmholtz Association HGF, for synchrotron
+Chem. Soc. 142, 4213–4222 (2020).
+radiation beamtime. We thank A. Clark and M. Nachtegaal for assistance in using the
+21. Gupta, N., Gattrell, M. & MacDougall, B. Calculation for the cathode surface
+SuperXAS beamline of the SLS, V. Murzin and W. Caliebe for assistance in using the P64
+concentrations in the electrochemical reduction of CO in KHCO solutions.
+2 3 beamline of PETRA III, and Z. Hegedues and U. Lienert for assistance in using the P21.2
+J. Appl. Electrochem. 36, 161–172 (2006).
+beamline of PETRA III.
+22. Casebolt, R. et al. Effect of electrolyte composition and concentration on
+pulsed potential electrochemical CO reduction. ChemElectroChem 8,
+2
+681–688 (2021). Author contributions
+23. Herzog, A. et al. Operando investigation of Ag-decorated Cu 2 O nanocube J. Timoshenko, A.B., C.R. and B.R.C. co-wrote the paper. B.R.C. designed and
+catalysts with enhanced CO 2 electroreduction toward liquid products. supervised the study. J. Timoshenko designed and supervised the operando XAS
+Angew. Chem. Int. Ed. 60, 7426–7435 (2021). experiments. A.B. designed and supervised the operando XRD experiments. C.R.
+24. Möller, T. et al. Electrocatalytic CO 2 reduction on CuO x nanocubes: tracking performed sample synthesis (with contribution from A.H.), characterization (with
+the evolution of chemical state, geometric structure, and catalytic selectivity contribution from P.G. and S.K.) and designed and performed catalytic activity studies.
+using operando spectroscopy. Angew. Chem. Int. Ed. 132, 18130–18139 (2020). J. Timoshenko, A.B., C.R., R.M.A-A., H.S.J., F.T.H., A.H., U.H., E.M.D., J. Tian and O.M.
+25. Gao, D. et al. Plasma-activated copper nanocube catalysts for efficient carbon participated in planning and realization of the synchrotron experiments. All authors
+dioxide electroreduction to hydrocarbons and alcohols. ACS Nano 11, contributed to the discussion and interpretation of the results and editing
+4825–4831 (2017). the manuscript.
+26. Grosse, P. et al. Dynamic changes in the structure, chemical state and
+catalytic selectivity of Cu nanocubes during CO electroreduction: size and
+2 Funding
+support effects. Angew. Chem. Int. Ed. 57, 6192–6197 (2018).
+27. Arán-Ais, R. M. et al. Imaging electrochemically synthesized CuO cubes and Open access funding provided by Max Planck Society.
+2
+their morphological evolution under conditions relevant to CO
+2
+electroreduction. Nat. Commun. 11, 3489 (2020).
+Competing interests
+28. Grosse, P., Yoon, A., Rettenmaier, C., Chee, S. W. & Cuenya, B. R. Growth
+dynamics and processes governing the stability of electrodeposited The authors declare no competing interests.
+size-controlled cubic Cu catalysts. J. Phys. Chem. C. 124, 26908–26915 (2020).
+29. Grosse, P. et al. Dynamic transformation of cubic copper catalysts during CO
+2 Additional information
+electroreduction and its impact on catalytic selectivity. Nat. Commun. 12,
+6736 (2021). Supplementary information The online version contains supplementary material
+30. Navarro, J. J. et al. Structure of a silica thin film on oxidized Cu(111): available at https://doi.org/10.1038/s41929-022-00760-z.
+conservation of the honeycomb lattice and role of the interlayer. J. Phys. Correspondence and requests for materials should be addressed to
+Chem. C. 124, 20942–20949 (2020). Janis Timoshenko or Beatriz Roldan Cuenya.
+31. Simon, G. H., Kley, C. S. & Roldan Cuenya, B. Potential‐dependent
+Peer review information Nature Catalysis thanks Jinghua Guo and the other,
+morphology of copper catalysts during CO electroreduction revealed by
+2 anonymous, reviewer(s) for their contribution to the peer review of this work.
+in situ atomic force microscopy. Angew. Chem. Int. Ed. 60, 2561–2568 (2021).
+32. LaGrow, A. P., Ward, M. R., Lloyd, D. C., Gai, P. L. & Boyes, E. D. Visualizing Reprints and permissions information is available at
+the Cu/CuO interface transition in nanoparticles with environmental www.nature.com/reprints.
+2
+scanning transmission electron microscopy. J. Am. Chem. Soc. 139, Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in
+179–185 (2017). published maps and institutional affiliations.
+266 NATURE CATAlySiS | VOL 5 | APRIL 2022 | 259–267 | www.nature.com/natcatal
+
+
+===== PAGE 9 =====
+
+NaTuRe CaTalysIs Articles
+Open Access This article is licensed under a Creative Commons unless indicated otherwise in a credit line to the material. If material is not included in
+Attribution 4.0 International License, which permits use, sharing, adap- the article’s Creative Commons license and your intended use is not permitted by
+tation, distribution and reproduction in any medium or format, as long statutory regulation or exceeds the permitted use, you will need to obtain permission
+as you give appropriate credit to the original author(s) and the source, provide a link to directly from the copyright holder. To view a copy of this license, visit http://creativecom-
+the Creative Commons license, and indicate if changes were made. The images or other mons.org/licenses/by/4.0/.
+third party material in this article are included in the article’s Creative Commons license, © The Author(s) 2022
+NATURE CATAlySiS | VOL 5 | APRIL 2022 | 259–267 | www.nature.com/natcatal 267

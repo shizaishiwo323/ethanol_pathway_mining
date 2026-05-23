@@ -1,0 +1,1486 @@
+
+
+===== PAGE 1 =====
+
+ARTICLE
+OPEN
+https://doi.org/10.1038/s41467-021-27456-5
+Improved electrochemical conversion of CO to
+2
+multicarbon products by using molecular doping
+Huali Wu1, Ji Li1,2, Kun Qi 1, Yang Zhang1, Eddy Petit1, Wensen Wang1, Valérie Flaud3, Nicolas Onofrio 1,
+Bertrand Rebiere3, Lingqi Huang4, Chrystelle Salameh1, Luc Lajaunie 5,6, Philippe Miele 1,7 &
+✉
+Damien Voiry 1
+TheconversionofCO intodesirablemulticarbonproductsviatheelectrochemicalreduction
+2
+reaction holds promise to achieve a circular carbon economy. Here, we report a strategy in
+which we modify the surface of bimetallic silver-copper catalyst with aromatic heterocycles
+such as thiadiazole and triazole derivatives to increase the conversion of CO into hydro-
+2
+carbon molecules. By combining operando Raman and X-ray absorption spectroscopy with
+electrocatalytic measurements and analysis of the reaction products, we identified that the
+electron withdrawing nature of functional groups orients the reaction pathway towards the
+production of C species (ethanol and ethylene) and enhances the reaction rate on the
+2+
+surfaceofthecatalystbyadjustingtheelectronicstateofsurfacecopperatoms.Asaresult,
+we achieve a high Faradaic efficiency for the C 2+ formation of ≈80% and full-cell energy
+efficiency of 20.3% with a specific current density of 261.4mAcm−2 for C 2+ products.
+1InstitutEuropéendesMembranes,IEM,UMR5635,UniversitéMontpellier,ENSCM,CNRS,Montpellier34000,France.2CollegeofBioresourcesand
+MaterialsEngineering,ShaanxiUniversityofScience&Technology,710021Xi’an,People’sRepublicofChina.3InstitutCharlesGerhardt,ICGM,UMR5253,
+UniversityofMontpellier,ENSCM,CNRS,34095MontpellierCedex5,France.4SchoolofScienceandEngineering,TheChineseUniversityofHongKong,
+518172Shenzhen,Guangdong,People’sRepublicofChina.5DepartamentodeCienciadelosMaterialeseIngenieríaMetalúrgicayQuímicaInorgánica,
+FacultaddeCiencias,UniversidaddeCádiz,CampusRíoSanPedroS/N,PuertoReal,11510Cádiz,Spain.6InstitutoUniversitariodeInvestigaciónde
+MicroscopíaElectrónicayMateriales(IMEYMAT),FacultaddeCiencias,UniversidaddeCádiz,CampusRíoSanPedroS/N,PuertoReal,11510Cádiz,Spain.
+7InstitutUniversitairedeFrance(IUF),1rueDescartes,75231ParisCedex05,France. ✉ email:damien.voiry@umontpellier.fr
+NATURECOMMUNICATIONS| (2021) 12:7210 |https://doi.org/10.1038/s41467-021-27456-5|www.nature.com/naturecommunications 1
+;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-27456-5
+T
+herapidincreaseintheatmosphericcarbondioxide(CO ) onthecontrolledelectrodepositionofAgandCufollowedbythe
+2
+levels has motivated the development of carbon capture, modificationofthecatalystsurfaceviafunctionalization(Fig.1a).
+utilization, and storage (CCUS) technologies. In this con- The Ag–Cu electrodes were prepared by firstlydepositing Agon
+text,theelectrochemicalreductionofCO tohydrocarbonsusing gas diffusion electrodes (GDE) using pulsed electrodeposition.
+2
+renewable energy is regarded as an effective way to close the The silver structure grows in the form of a dendritic fish-bone
+carboncycle viathe conversion ofCO intochemical precursors structurewithsharpAgnanoneedles(SupplementaryFig.1).The
+2
+orfuels1,2.TheelectrochemicalCO reductionreaction(CO RR) Aglayerwasthenusedasascaffoldforthedepositionofcopper.
+2 2
+towardsinglecarbonproductshasachievedenormousprogress3, ThefinalstructureofthecatalystontheGDEelectrodesisfound
+especially for the production of C molecules such as carbon tobeporouswhereCuispreferentiallydepositedonAg(Fig.1b,c
+1
+monoxide(CO)ormethane(CH
+)4–7.Copper(Cu)isoneofthe
+andSupplementaryFig.2).ThecatalyticperformanceofpureCu
+4
+few transition metals that can efficiently catalyze the electrolysis and Ag–Cu electrodes were systematically investigated (Supple-
+ofCO tomulticarbonproductssuchasethylene,ethanol,acetate, mentaryFigs.2and3),andourresultsindicatedthatappropriate
+2
+propanol8. Because multicarbon products possess higher market loadingofAgcontributestotheenhancementoftheformationof
+values and are more energy concentrated1, intensive efforts have CO,whichmayfurtherfacilitateC 2+productiononcopper.And
+been devoted to improve the reaction selectivity towards the the optimum composition is 15% Ag in Ag–Cu (labeled as
+at.
+production of C 2 and C 2+ molecules. Examples of strategies for 15% at. Ag–Cu).TocontroltheoxidationstateofCu,wesoughtto
+optimizingtheFaradaicefficiencytowardstheproductionofC 2+ functionalizethecatalystwiththiolmoleculesviadipcoating.We
+species include alloying9–12, surface doping13,14, ligand selected thiadiazole (N SN) and triazole (N N) derivatives as
+2 3
+modification15,16, and interface engineering17–20. electron-deficientfunctionalmoleculestoreactwiththesurfaceof
+DesigningCu-basedcatalystsbyadaptingsomeoftheconcepts the
+catalyst41–44
+(Supplementary Fig. 4). For comparison, the
+ofmolecularcatalystsinordertofinelytailorthebehaviorofthe bimetallicelectrodeswerealsomodifiedwith1-propanethiol(C )
+3
+activesites of metallic surfaces iscurrently regarded as thelong- and cysteamine (C N) as model short alkyl and alkyl amine
+2
+standinginterestforthecontrolleddesignofnovelelectrocatalytic functionalgroups(SupplementaryFig.4andSupplementaryFigs.
+materials. Increasing the oxidation state of copper has been 5c,d).Themodificationoftheelectrodeisclearlyvisiblefromthe
+suggested to improve the CO RR performance and notably the change of the water contact angle that varies between 86° and
+2
+formation of C 2+ species14,21,22. Various strategies are being 129°dependingonthenatureofthefunctionalgroupscompared
+δ+
+explored to prepare Cu by using controlled oxidation via to 84° for the pristine catalyst (Supplementary Fig. 6). To verify
+plasma treatments or doping with boron and
+halides14,23–25.
+the presence of the functional groups, we performed energy-
+Alternatively, molecular engineering of either the electrolyte or dispersive X-ray spectroscopy (EDS) analyses in a SEM. The
+the catalyst surface has recently been proposed for orienting the corresponding elemental maps at low magnification show the
+selectivity of the reaction by stabilizing intermediates, inhibiting uniform distribution of S, N, and C on Ag–Cu electrode. A thin
+proton diffusion, or acting as redox mediators during the elec- amorphous layer is observed under high-resolution TEM at the
+trochemical CO reduction reaction (CO RR)26–30. Organic surface of the catalyst with a thickness of ≈2.5nm which also
+2 2
+species such as N-aryl pyridinium salts31,32, imidazole33–35, corresponds to an increase of the S signal in the corresponding
+thiol36,37, and cysteamine38 have been reported as an effective EDS elemental map (Figs. 1d–f and Supplementary Fig. 7). The
+lever to tune the reaction selectivity toward the formation of existence of an organic layer on the Ag–Cu electrodes is further
+specific products by stabilizing key reaction intermediates. confirmed by the high-angle annular dark-field scanning trans-
+Functionalization of alkyl chains can also lead to better CO RR mission electron microscopy (HAADF-STEM) and the electron
+2
+performance by suppressing the competitive hydrogen evolution energy-lossspectroscopy(EELS)mappingofthecarbonelement.
+reaction (HER) via the creation of hydrophobic regions on the Remarkably, the EELS spectrum of the C-K edge displays
+surface of the catalyst37,39,40. fine structural characteristics of carbon linked to heteroatoms
+Here we present an effective strategy to control the surface at ≈292eV (Figs. 1g, h and Supplementary Fig. 8). Raman and
+oxidation state of bimetallic Ag–Cu electrodes by using functio- Fourier transformed infrared (FTIR) spectroscopies were also
+nalization for tuning the oxidation state of Cu δ+ . By combining used to further confirm the successful attachment of the func-
+Auger and X-ray absorption spectroscopies (XAS), we identified tional groups on the surface of the catalyst (Fig. 1i and Supple-
+that the grafting of aromatic heterocyclic functional groups can mentary Fig. 9). The Raman signatures of the different grated
+efficientlydopethesurface ofCubywithdrawingelectronsfrom molecules were detected on the surface of the Ag–Cu electrodes,
+the metal surface leading to the formation of Cu
+δ+
+species. while strong FTIR bands at 1303, 1584, and 1622cm
+−1
+are only
+Compared to pristine non-functionalized and alkyl- presented on N SN-, N N- and C N-functionalized Ag–Cu
+2 3 2
+functionalized electrodes, the modified electrodes display a clear electrodesandattributedtotheC–CorC–Nstretching,theNH
+2
+improvement of the reaction rates and Faradaic efficiency scissor and the C–N stretching modes respectively45–47 (Supple-
+towards the production of C 2+ products. Operando Raman and mentaryFig.9).Thesuccessfulfunctionalizationwiththiadiazole
+X-rayabsorptionspectroscopy(XAS)suggestthatthepresenceof and triazole is further confirmed from the deconvolution of the
+Cu δ+ with 0 < δ<1—due to the p-doping of the Cu surface— X-ray photoelectron spectra from the S2p and N1s regions
+favorstheformationofadsorbedCOwiththeatopconformation respectively (Supplementary Figs. 10b, c). The peak of S2p was
+which is a known key intermediate species involved in the C–C deconvolutedintothreedoubletsat162.75,164.23,and168.31eV
+coupling step associated with the formation of multicarbon for the S2p , corresponding to S–H and S–C bonds on both
+3/2
+products. When assembled in a membrane electrode-assembly thiadiazole and triazole, respectively48. Analogously, the N1s
+electrolyzer, the catalyst delivers a Faradaic efficiency (FE) for spectrum (Supplementary Fig. 10c) can be divided into three
+C 2+productsof80±1%andatotalC 2+energyefficiency(EE)of components at 398.24, 399.63, and 400.70eV, which reflects the
+20.3% for the full cell. existence of N–N, C–N, and N–H bonds on the surface of
+functionalized electrodes. The presence of crystalline Ag and Cu
+on the gas diffusion electrode was further observed from the
+Results X-raydiffractionpatterns,whereasthepresenceofdistinctpeaks
+Catalyst design and characterization. We fabricated the func- from the Ag and Cu facets agrees with the absence of alloy
+tionalized bimetallic catalyst by using a two-step strategy based structure of the bimetallic catalyst (Supplementary Fig. 11). To
+2 NATURECOMMUNICATIONS| (2021) 12:7210 |https://doi.org/10.1038/s41467-021-27456-5|www.nature.com/naturecommunications
+
+
+===== PAGE 3 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-27456-5
+Fig.1StructuralandelementalcompositionofthefunctionalizedAg–Cucatalysts.aSchematicrepresentationofthefunctionalizedAg–Cuelectrodesin
+amembraneelectrodeassembly.b,cCross-section(b)andtop-view(c)scanningelectronmicroscope(SEM)imagesofthefunctionalizedhierarchical
+Ag–Cucatalystonagasdiffusionelectrode(GDE).dHigh-angleannulardark-fieldscanningtransmissionelectronmicroscopy(HAADF-STEM)image
+(left)andcorrespondingCu(red)andAg(blue)EDSelementalmapsofN SN-functionalizedAg–Cu(right).eHigh-resolutiontransmissionelectron
+2
+microscope(HR-TEM)micrographoftheN SN-functionalizedelectrode(e).fHAADF-STEMimageandthecorrespondingCuandSEDSelementalmaps
+2
+takenfromasectionofCusurfaceontheN SN-functionalizedAg–Cuelectrode.gHAADF-STEMimageoftheCusurfaceofN SN-functionalizedAg–Cu.
+2 2
+h(top),Electronenergy-lossspectroscopy(EELS)elementalmappingofCtakenfromtheareamarkedbytheboxing.h(bottom),EELSspectrumofthe
+C-KedgewithfinestructurescharacteristicsofcarbonlinkedtoheteroatomsfromN SNlayerontheCusurface.iRamanspectraofpristine(non-
+2
+functionalized)Ag–Cu(gray),C -functionalizedAg–Cu(orange),C N-functionalizedAg–Cu(green),N N-functionalizedAg–Cu(purple)andN SN-
+3 2 3 2
+functionalizedAg–Cu(blue).
+clarifytheorientationofthearomaticheterocyclesonthecatalyst evaluated the Faradaic efficiency (FE) by using nuclear magnetic
+surface, we carried out density functional theory (DFT) calcula- resonance (NMR) and gas chromatography (GC) (See details in
+tions to estimate the total energy and the binding energy of the Methods section). H 2 , CO, formate, CH 4 , and C 2+ products
+thiadiazole on Cu using a model with 5 Cu (111) slabs (Supple- wereformedonthebimetallicelectrode(SupplementaryFig.14).
+mentary Figs. 12 and 13). Among the different configurations Remarkably,theFaradaicefficiencyforC andH —obtainedvia
+1 2
+tested, the adsorption of thiadiazole is more stable when the the CO RR and HER—decreased after functionalization with
+2
+N 2 –N 3 nitrogen atoms of the diazole sit on Cu (111) and the thiazole and thiadiazole, while the FE for C 2+ products sharply
+binding energy is estimated to be −1.08eV—at least 0.37eV increases (Fig. 2b). Ethylene and ethanol are the major C 2+
+lowerthanfortheotherconfigurations(SupplementaryTable1). products detected, together with a trace amount of acetate and
+n-propanol(SupplementaryFigs.14and15).TheFEforC 2+on
+N SN-andN N-functionalizedelectrodesareestimatedto57.3%
+CO electroreductionperformanceinHcell.Thefunctionalized 2 3
+2 and51.0%at−1.2Vversusthereversiblehydrogenelectrode(vs.
+electrodeswereelectrochemically testedinaH-cellreactorusing
+RHE) compared to only 18% for the pristine catalyst corre-
+Argon and CO -saturated 0.5M KHCO electrolyte solutions.
+2 3 sponding to enhancements of 3.1 and 2.8 folds respectively
+Figure 2a shows that thiadiazole (N SN) and triazole (N N)
+functionalized electrodes exhibit the hi 2 ghest current density a 3 nd (Fig. 2b). The selectivity towards the formation of C 2+ products
+for both thiazole and thiadiazole functional groups increases
+lowest onset potential in CO -saturated solution. We then
+2
+NATURECOMMUNICATIONS| (2021) 12:7210 |https://doi.org/10.1038/s41467-021-27456-5|www.nature.com/naturecommunications 3
+
+
+===== PAGE 4 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-27456-5
+Fig.2CO RRperformanceofthefunctionalizedAg–CuelectrodesinaH-cell.aLinearscanvoltammetry(LSV)curvesmeasuredfordifferentsamples:
+2
+N SN,N N,C N,C functionalizedAg–Cucomparedtopristine(P)Ag–CuinCO -saturated0.5MKHCO atelectrochemicalpotential(V)from0to
+2 3 2 3 2 3
+−1.4Vvs.RHE.Scanrate,20mVs−1.bFaradaicefficiency(FE)valuesforC 2+productsondifferentsamplesatvariouspotentialsrangingfrom−0.3to
+−1.4Vvs.RHEandmeasuredin0.5MKHCO
+3
+.cj–VplotsofthepartialcurrentdensitiesfortheC 2+products(ethyleneandethanol).dRelationships
+betweentheFEforC 2+andthetotalcurrentdensityforallthecatalysts.(e),SelectivityforC 2+productsoverhydrogenbasedontheratioinFEsofC 2+
+andhydrogen.Theerrorbarsinb–ecorrespondtothestandarddeviationofthreeindependentmeasurements.
+continuously with increasing voltage from −0.3 to −1.2V vs. fivetimeslargerthanthatforthepristine15at.%Ag–Cucatalyst
+RHEandstartsdecreasingafter−1.3V,whereasthevaluesofFE (Supplementary Fig. 18). Electrochemical impedance spectro-
+for C products and H exhibit a volcano-shaped dependence scopy(EIS)measurementswereperformedtoexplorethecharge
+1 2
+with the applied potentials (Supplementary Figs. 16a, b). This transferprocessesonthesurfaceofthedifferentelectrodesduring
+leads to an obvious enhancement of the specific current density the electrolysis of CO . The charge transfer resistance of the
+2
+forC 2+products(j
+Cþ
+)upto5foldsat−1.2Vvs.RHE(Fig.2c). N
+2
+SN- and N
+3
+N- functionalized electrodes is not substantially
+Conversely, the func 2 tionalization of the Ag–Cu electrodes with perturbed compared to that of the pristine bimetallic catalyst
+short alkyl or aminoalkyl chains does not suppress the HER (Supplementary Fig. 19). On the contrary, the resistance is sig-
+pathwaynorimprovetheCO RRactivity(Fig.2d).C N-andC - nificantly larger in the case of electrodes functionalized with
+2 2 3
+modified catalysts clearly display lower activities towards the 1-propanthiol and cysteamineindicating thatthecharge transfer
+CO 2 RR, notably with minimal production of C 2+ species and a isstronglyaffected;likelyduetothestronghydrophobicityofthe
+relativelylargeFEfortheevolutionofH .Ourresults,therefore, surface of the alkyl-functionalized catalyst.
+2
+highlight the importance of the nature of the functional groups To gauge the stability of the functionalization, we operated the
+on the CO RR performance. To better evaluate the selectivity of
+electrodesatapotentialof−1.2Vvs.RHEformorethan20hin
+2
+C 2+ products on thiadiazole- and triazole-functionalized Ag–Cu the H-cell reactor, while recording the current density and
+electrodes, we calculated the ratio in FE for C 2+ products and continuously analyzing the products of the reaction (Supplemen-
+hydrogen (FE C 2þ =FE H 2 ) (Fig. 2e). Compared with pristine and t d a e r m y o F n i s g t . rat 2 e 0 d ). st T ab h l e e p N er 2 f S o N rm - a a n n c d e w N it 3 h N- a fu r n et c e t n io t n io a n liz o e f d th e e le c c u tr r o r d en es t
+alkyl-functionalized electrodes, both N SN and N N functional
+groupspresentthelargestFE =FE ra
+2
+tios—illustr
+3
+atingthatthe
+densityof94%and91%respectively—sharplyimprovedcompared
+functionalizationwitharoma C ti 2 c þ hete H ro 2 cyclesefficientlydirectsthe N to N tha fu t n o c f ti p o r n is a t l i i n ze e d A A g g – – C C u u a e t le 7 c 8 tr % o . d T es h r e em FE ain fo s r a C s 2 h + igh of a N s5 2 S 4 N %a an n d d
+reaction pathway towards the formation of C 2+ products while 46 3 .5% after 20h, which demonstrates that the selectivity for the
+suppressing the HER. To get a more accurate estimation of the reaction pathway on the surface of the electrode is not modified
+intrinsic CO 2 RR performance of the functionalized Ag–Cu elec- duringelectrolysis.Tofurtherconfirmtheapparentstabilityofthe
+trodes, we estimated the electrochemically active surface area of
+functionalized electrode, we performed XPS spectroscopy to
+Cu(CuECSA)andAg(AgECSA)forthe15at.%Ag–Cuandthe
+evaluate the N:Cu ratio after 30min, 1h, 24h, and 100h. The
+N SN-15 at.% Ag–Cu catalysts using Pb underpotential deposi-
+2 ratioisfound tobevirtuallyconstantsuggestinga robustgrafting
+tion (Pb UPD) (Supplementary Figs. 17, 18 and Supplementary
+of the functional groups on the catalyst surface (Supplementary
+Table2).ThepartialcurrentdensitiesforC 2+productsmeasured
+Figs. 21, 22andSupplementary Table3).
+in H-cell were normalized by the ECSA values for Cu. Remark-
+ably,wefoundthattheECSA-normalizedpartialcurrentdensity
+onN SNfunctionalizedAg–Cuis5.3mAcm −2,whichisaround Exsituandinsitumechanisticinvestigations.Next,wesought
+2
+to explain the fundamental mechanism responsible for the
+4 NATURECOMMUNICATIONS| (2021) 12:7210 |https://doi.org/10.1038/s41467-021-27456-5|www.nature.com/naturecommunications
+
+
+===== PAGE 5 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-27456-5
+Fig.3PhysicalcharacterizationsofthefunctionalizedelectrodesusingXPSandoperandoRamanandXASspectroscopy.aHigh-resolutionspectraof
+theCu2pregionsandCuL M M AugertransitionmodesmeasuredbyexsituX-rayphotoelectronspectroscopy(XPS)ofpristineAg–Cusample(P),
+3 45 45
+H O -treatedAg–Cu(H O -P),C -,C N-,N N-andN SN-functionalizedAg–Cuelectrodes.ThedifferentcoloredshadingareasrepresentthepeaksofCu
+2 2 2 2 3 2 3 2
+2p (blue),Cu2p (lightpurple),1G(pink)and3F(lightgreen),respectively.bExsituandoperandoCopperK-edgeX-rayabsorptionnear-edgestructure
+1/2 3/2
+(XANES)spectraofpristineandfunctionalizedAg–Cuelectrodes.Inset:Averageoxidationstateofcopperforthecorrespondingelectrodes.cOperando
+CuK-edgeXANESspectraofN SN-functionalizedAg–CuelectrodeduringCO RR.Themeasurementswereperformedafterholdingtheappliedpotential
+2 2
+for30min.dEvolutionoftheFaradaicefficiencyforC 2+andH
+2
+measuredat−1.2Vvs.RHEwiththeoxidationstateofCu.eOperandoRamanspectrafor
+pristine,C -,C N-,N N-andN SN-,functionalizedAg–CuduringCO RRatafixedpotentialof−1.2Vvs.RHE.Thedifferentcoloredshadingareas
+3 2 3 2 2
+representthepeaksof280cm−1(lightgreen),~365cm−1(pink),and~2000cm−1(blue),respectively.Thespectraforalltheotherpotentialsare
+presentedinSupplementaryFig.26.fRelationshipbetweentheFEforC 2+productsandtheRamanpeakareasofthefrustratedrotationalmodeofCOat
+280cm−1,theCu–COstretchat365cm−1,andtheC≡Ostretchat1900–2120cm−1,respectively.gRelationshipbetweentheFEforC 2+moleculesandthe
+ratioofCO andCO ondifferentAg–Cuelectrodes.TheratiowasobtainedfromtheintegratedareasofthedeconvolutedpeaksoftheRaman
+atop bridge
+spectra(SupplementaryFig.27).Theerrorbarsinb,d,f,andgcorrespondtothestandarddeviationofthreeindependentmeasurements.
+improved CO RR properties using ex situ X-ray photoelectron theL (2p )core-holedecayduringtheAugerprocess,inwhich
+2 3 3/2
+spectroscopy (XPS) and operando XAS. XPS was firstly used to twoM (3d)electronsareresponsiblefortheformationofafinal
+45
+characterizethesurfacecompositionanddeterminetheoxidation 3d8 configuration of Cu51–54. The right panel of Fig. 3a presents
+state of Cu. From the Cu2p region, no significant change of the the two final-state terms splitting from L–S coupling 1G and 3F,
+oxidation state of Cu can be detected from the functionalized whosepeak energy positionsprovideinformation onthevalence
+catalysts (Fig. 3a, left). For comparison, after exposure to H O , configurationofCu22,51.Accordingtothepreviousinvestigations,
+2 2
+theelectrodesareclearlyoxidizedasconfirmedbytheapparition the peak energy positionsof 1Gfor thedifferent oxidationstates
+of Cu2p signals at binding energy at 934.6eV and the satellite copperaredetectedat917.1,915.8,and918.0eVforCuO,Cu O,
+3/2 2
+peakat942.6eV,whichisattributedtotheformationofCu2+48. andCu,respectively51–53.Suchdifferences
+aremainlyduetothe
+OurXPSresultsconfirmthatfunctionalizationdoesnotleadtoa modification of the 3d and O2p electron configurations54.
+dramaticmodificationoftheoxidationstateofthesurfaceofthe ComparedwithCu0,the1Gpeakincopperoxideisdownshifted
+Cu since there were no evident oxidation peaks in Cu2p. It is inenergyandpresentsabroadershape,whilethe3Fpeakissolely
+well-known that the small change of binding energy between visible in the case of Cu0 22,55. For pristine and C - and C N-
+3 2
+Cu1+ and Cu0 makes the precise identification of Cu1+ impos- functionalized Ag–Cu, we observed that the energy positions of
+sible from the Cu2p regions22. To overcome this limitation, we, the 1G peak are located at 918.3eV(pristine), 915.9eV (C and
+3
+therefore,usedtheCuAugerL M M transitiontoqualitatively C N), respectively, while the distinct 3F peak is detected at
+3 45 45 2
+discuss the presence of Cu1+ in functionalized Ag–Cu as this 918.2eV for both C - and C N-Ag–Cu, in agreement with the
+3 2
+mode is known to be more sensitive to the modification of the existenceofCu0(SupplementaryTable4).Conversely,inthecase
+electrondensityonthed-bandofthemetals49,50.Itiswell-known oftheN SN-andN Nsamples,the1Gpeakisidentifiedat915.8
+2 3
+thattheformationofCuAugerL M M transitioncomesfrom and 916.0eV, respectively, which is lower than that for Cu0 and
+3 45 45
+NATURECOMMUNICATIONS| (2021) 12:7210 |https://doi.org/10.1038/s41467-021-27456-5|www.nature.com/naturecommunications 5
+
+
+===== PAGE 6 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-27456-5
+Cu2+ andclosetothatofCu1+ (915.8eV).Wealsonotethatthe catalyst surface and the adsorbed *CO intermediate (Fig. 3e and
+3Fpeakisalsovisibleforbothsamplespointingoutthepresence Supplementary Fig. 26, and Supplementary Table 7). The
+of Cu0. These results indicate that the valence state of the N SN presence of the surface-absorbed *CO was identified from the
+and N N samples may be Cu δ+ with 0<δ<1. 2 vibration modes at ≈280 and ≈365cm −1 that originate from the
+To 3 precisely evaluate the electronic states of copper on Cu–CO frustrated rotation and Cu–CO stretch, respectively60,61.
+functionalized Ag–Cu electrodes and eliminate the air effect on The broadband in the range of 1900–2120cm −1 was assigned to
+the electrode, we then performed in situ X-ray absorption near- the C≡O stretch. To confirm that the detected signals are solely
+edge spectroscopy (XANES). The absorption edges of functiona- due to the CO 2 RR, the Raman spectra were also recorded using
+lized catalysts reside between those of copper metal (Cu0) and Ar-saturated K 2 SO 4 as a controlled experiment and no peaks
+Cu O(Cu1+ )usedasreferences(Fig.3b).Tobettercomparethe were detected atthese frequencies (Supplementary Fig. 26f).The
+infl 2 uence of the different functional groups, we estimated the Raman vibration modes around 1900–2120cm −1 have recently
+copperoxidationstateasafunctionofcopperK-edgeenergyshift been the focus of several studies and there is currently a general
+(Fig. 3b). The oxidation state of copper in the N SN- and N N- agreement that the high frequency region (>2000cm
+−1)
+and the
+functionalized Ag–Cu was found to be +0.5 2 3 and +0 3 .47 low-frequency region (1900–2000cm −1) originates to atop-
+respectively—pointing out the withdrawing properties of the bound CO and bridge-bound CO. Atop (CO top ) and bridge
+selected heterocycles (Supplementary Table 5). Remarkably, C 3 - (CO bridge ) configurations correspond to a CO bound on top of
+and C N-functionalized samples displayed a minimal shift by one Cu atom and between two Cu atoms, respectively50,62,63.
+2
+comparing with pristine Ag–Cu electrode and the Cu reference, Compared to pristine as well as 1-propanthiol- and cysteamine-
+suggesting the alkyl groups are not prone to modulate the functionalizedelectrodes,N 2 SN-andN 3 N-functionalizedAg–Cu
+oxidation state nor the coordination environment of Cu. To
+exhibittherelativelyintensesignalsat365and1900–2000cm −1.
+explore the stability of the electron-withdrawing ability of the Oursystematicinvestigationsrevealedthattheintensitiesofboth
+grafted heterocycles, we measured the oxidation state of Cu post regions are also found to increase with the overpotentials32
+CO RRusinginsituXANES.After30minofoperationat−1.2V (SupplementaryFig.26a,b).Importantly,weobservedthatthere
+vs.
+2
+RHE in the testing cell, the oxidation state of copper was is an obvious relationship between the peaks at 365cm
+−1
+and
+estimatedbe+0.51(insetFigs.3b,c).Thisvalueissimilartothat 1900–2100cm −1 and the Faradaic efficiency towards the forma-
+obtained from the freshly prepared samples: +0.53, which tionof C 2+products(Fig.3f) byfollowingliteraturesto fitthese
+demonstrates the stability of the oxidation state of the peaks area32,50. These results, therefore, point out the strong
+functionalized Ag–Cu electrodes. Similarly, no obvious shift of correlation between the density of adsorbed *CO on the catalyst
+the Cu K-edge was observed from the in situ XANES surface and the formation of C–C bonds in agreement with the
+measurements at increasing applied potential up to −1.2V vs. *CO being the key intermediate involved in the dimerization
+RHE and the spectra virtually overlap. This confirms the reaction and the formation of C 2+ products. We note that
+robustness of the oxidation state of the Cu thanks to the stable
+1-propanethiolfunctionalizedAg–Cuelectrodesdisplaythemost
+attachment of the functional groups (Fig. 3c and Supplementary intense peak at 280cm
+−1
+whereas no peak is detected at
+Fig. 23). To better understand the role of Cu
+δ+
+on the CO RR
+1900–2120cm −1.Thisindicatestheadsorbed*COisnotpresent
+properties, we investigated the influence of the copper oxidat 2 ion in the form of CO atop nor CO bridge configurations. We speculate
+i s d ta e t n e tifi o e n d t a h s e tro F n E g f c o o r rre C la 2+ tion an b d etw H e 2 en (F th ig e . o 3 x d id ). at R io e n m s a ta rk te ab a l n y d , t w h e e t A h g a – t C th u e i h n y d d u r c o e p s ho th b e ic e s x u i r s f t a e c n e ce of o th f e a 1 h -p ig ro h p e a n n e e r th gy iol b f a u r n ri c e t r io f n o a r liz th ed e
+F be E n f e o fi r ts C t 2 h + e , C w O hi 2 c R h R p p o r in o t p s e o rt u ie t s th a a n t d th th e e la fo rg rm er a o ti x o i n da o ti f o C n 2+ sta p t r e o o d f u C ct u s p st r a o b t i o li n z s ati t o o n re o a f ch th th e e * s C u O rfac i e n o t f h t e h se e c b a o t u al n y d st c th o a n t fig p u r r e a v t e i n o t n s s th a e s
+in line with recent findings from the literature51,56. To finally previously proposed for other transition metals50. Interestingly,
+excludeanyhydrophobicityeffectontheenhancedselectivityfor we observed a volcano-shaped relationship between theFaradaic
+f
+e
+o
+le
+r
+c
+m
+tr
+a
+o
+t
+d
+io
+e
+n
+s
+o
+w
+f
+it
+C
+h
+2+
+sim
+pr
+il
+o
+a
+d
+r
+u
+w
+ct
+a
+s
+t
+,
+e
+w
+r
+e
+co
+so
+n
+u
+ta
+g
+c
+h
+t
+t
+a
+t
+n
+o
+g
+p
+le
+r
+s
+ep
+a
+a
+s
+re
+fo
+f
+r
+un
+p
+c
+r
+t
+i
+i
+s
+o
+t
+n
+in
+a
+e
+liz
+C
+ed
+u b
+ef
+r
+fi
+id
+c
+g
+ie
+e
+n
+-b
+cy
+ou
+f
+n
+or
+d
+C
+C
+2+
+O
+pr
+o
+o
+n
+du
+t
+c
+h
+ts
+e
+a
+s
+n
+u
+d
+rf
+t
+a
+h
+c
+e
+e
+ra
+o
+t
+f
+io
+A
+o
+g
+f
+–
+a
+C
+to
+u
+p-
+(
+b
+F
+o
+i
+u
+g.
+nd
+4g
+CO
+an
+t
+d
+o
+counterparts. We identified 1,3,4-thiadiazole-2,5-dithiol, N SS, Supplementary Fig. 27). The Faradaic efficiency reaches a
+that shares the same thiadiazole structure but exhibits a wa 2 ter maximum for a ratio of CO atop to CO bridge of 0.4–0.5
+contact angle of 81° compared to 83.9° for pristine non- correspondingtothiadiazoleandtriazole-functionalizedcatalysts,
+functionalizedCu.InH-cellconfiguration,theFaradaicefficiency while the ratio decreases for 1-propanethiol and increases for
+for the formation of C 2+ molecules on N 2 SS-Ag–Cu reaches pristine and cysteamine respectively. We hypothesized that the
+43.7% at −1.2V vs. RHE compared to only 18.3% for Ag–Cu density of CO atop and CO bridge on the surface of the catalysts is
+(Supplementary Fig. 24). To further demonstrate that the water
+influencedbytheelectron-withdrawingabilityoftheheterocycles
+contact angle has limited influence on the improved C 2+ as suggested by the volcano-shaped relationship between the
+selectivity, we plotted the Faradaic efficiency as a function of oxidation state of Cu and the ratio of CO atop to CO bridge
+the water contact angle. No relationship is clearly observed, (Supplementary Fig. 28). Overall our ex situ and operando
+emphasizingthattheoriginoftheimprovedselectivityforC 2+is characterizations of the modified bimetallic catalyst establish an
+not primarily due to the surface properties of the Cu electrodes obvious correlation between the electron-withdrawing ability of
+but rather the electron-withdrawing nature of the aromatic the functional groups and the oxidation state of Cu, which
+heterocycles as evidenced by our operando X-ray absorption translate into a larger concentration of adsorbed *CO on the
+spectroscopy measurements (Supplementary Figs. 6, 24 and 25). electrode surface and ultimately a higher probability for *CO to
+Itiswell-knownthattheformationofmulticarbonproductsin dimerize.
+CO RRproceedsviatheformationofthe*COintermediate,and
+2
+its subsequent dimerization in CO=CO or *CO–COH
+intermediates57–59. To gain insight into the C–C coupling CO 2 RR using a membrane electrode-assembly (MEA) flow
+mechanismonfunctionalizedandpristineAg–CuduringCO RR, electrolyzer. To evaluate the potential of our approach for
+2
+the surface of the catalysts was probed using operando Raman practical applications towards the electrosynthesis of C 2+ pro-
+spectroscopy in order to elucidate the interactions between the ducts, we integrated the different functionalized bimetallic
+6 NATURECOMMUNICATIONS| (2021) 12:7210 |https://doi.org/10.1038/s41467-021-27456-5|www.nature.com/naturecommunications
+
+
+===== PAGE 7 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-27456-5
+Fig.4CO RRperformanceofthefunctionalizedAg–CuelectrodesmeasuredinMEAelectrolyzers.aRelationshipbetweenthecurrentandcellvoltage
+2
+relationshipofpristine,C -,C N-,N N-andN SN-functionalizedelectrodes.TheCO RRelectrolysiswasoperatedusingCO withaflowrateof10sccm,
+3 2 3 2 2 2
+0.1MKHCO
+3
+anolytewithaflowrateof30mLmin−1.bCorrespondingpartialcurrentdensityfortheC 2+products.cComparisonofFEsforC 2+onthe
+differentAg–Cuelectrodesmeasuredatfull-cellpotentialsrangingbetween−3.5and−4.8V.dEvolutionoftheFaradaicefficiencyforC 2+andH
+2
+withthe
+CO
+2
+flowrate.eEvolutionoftheFEsandfull-cellenergyefficiency(EE)forC 2+asafunctionofspecificcurrentdensitiesforC 2+ontheN
+2
+SN-
+functionalizedAg–Cuelectrode.Theerrorbarsrepresentthestandarddeviationofthreeindependentsamplesmeasuredunderdifferentcurrentdensities.
+fComparisonoftheperformancemetricsoftheMEAelectrolyzersbasedonN SN-functionalizedAg–Cucathodeswithliteraturebenchmark.Foreach
+2
+report,theplottedvaluesarethosecorrespondingtothelongestdurationtest32,65–67.Thereferencesarefromrefs.32,65,66,and67.gCO RR
+2
+performanceofN SN-Ag–Cucatalystatafull-cellpotentialof−4.55Vandwitha10sccmfeedinCO over100h.Theanolyteconsistedina0.1MKHCO
+2 2 3
+solutionwithaflowrateof30mlmin−1.ThebluelinerepresentsthecurrentrecordedduringtheextendedCO RRexperiment(primaryyaxis).Each
+2
+orange,gray,green,andpurplespheresrepresenttheFEsforC H ,H ,COandC H averagedfromthreeindependentmeasurements(secondaryyaxis).
+2 4 2 3 6
+Theerrorbarsina,b,c,anderepresentthestandarddeviationofthreeindependentmeasurements.
+electrodes into 4cm2 membrane electrode-assembly (MEA) flow for C 2+ products and the lowest FE for H 2 at ~80% and 14%,
+electrolyzers (Supplementary Fig. 29). The synthesized liquid respectively (Fig. 4b and Supplementary Figs. 31a, 32a).
+products at the cathode were collected by using a cold trap RemarkablytheselectivityfortheC 2+productsincreasestogether
+connected to the cathode gas outlet. We also analyzed the liquid with the electrolysis response when increasing the operating
+products in the anolyte to detect liquid products that may have potential of the full cell. The catalytic activity towards the com-
+crossedoverthemembraneelectrolyte.Wefirstlyscrutinizedthe petitive HER concurrently decreases up to −4.55V (Fig. 4b and
+activityofN SN-functionalizedAg–CuinaMEAelectrolyzerby SupplementaryFig.32c).ComparedtopristineAg–Cu,theFEfor
+2
+flowingAr(usedasablankexperiment)andCO 2 inthecathode C 2+ products from N 2 SN- and N 3 N-functionalized electrodes
+compartment(SupplementaryFig.30)andfoundthatthecatalyst demonstrated an average enhancement for C 2+ of 3.1 and 2.6
+canconvertCO whenoperatinginacatholyte-freeMEAsystem. folds respectively over the extended range of full-cell potentials
+2
+We then characterized the current-voltage response of all the (Fig. 4c and Supplementary Fig. 33). To further assess the per-
+functionalizedcatalystsbetween−2.8and−4.8Vandaconstant formance of the functionalized Ag–Cu electrodes in the MEA
+flowof CO of 10standard cubiccentimeters per minute(sccm) devices, we calculated the ratio of j to j for the different
+(Fig. 4a). T 2 he total current for the different Ag–Cu electrodes potentials.WefoundthatAg–Cufun C c 2 t þ ionaliz C e 1 dwiththiadiazole
+increased from 4·10
+−2A
+up to over 1.6A. The N 2 SN- displays the largest values and the ratio reaches at a maximum
+functionalized electrodes displayed the largest specific current value of ≈10 at a current density of 261.4mAcm −2 (Supple-
+densityforC 2+at261mAcm
+−2togetherwiththemaximumFE
+mentary Fig. 34). These results demonstrate that the controlled
+NATURECOMMUNICATIONS| (2021) 12:7210 |https://doi.org/10.1038/s41467-021-27456-5|www.nature.com/naturecommunications 7
+
+
+===== PAGE 8 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-27456-5
+orientation of the reaction pathways towards the synthesis of Methods
+ethanol and ethylene observed in the H-cell reactors can be Chemicals.Coppersulfates(CuSO 4 ,99%),silvernitrate(AgNO 3 ,99%),ammo-
+transposedtotheMEAdevices(SupplementaryFig.29).Wealso niumsulfate(99%,ethylenediamine(NH 2 CH 2 CH 2 NH 2 ,99.5%),potassiumhydro-
+xide(KOH,90%)potassiumbicarbonate(KHCO,99.7%),sulfuricacid(HSO,
+found thatthe totalFE for gaseous productsgradually decreased 3 2 4
+99.99%),Iridium(III)chloridehydrate(IrCl·xHO,99.9%),5-Amino-1,3,4-thia-
+3 2
+withtheincrease ofthefull-cellvoltageindicating ashifttoward diazole-2-thiol(CHNS,95%),3-amino-1,2,4-triazole-5-thiol(CHNS,99%),
+2 3 3 2 2 4 4
+theformationofliquidproductsathighoperatingpotential.The cysteamine(CHNS,99%)and1-Propanethiol(CHS,99%)werepurchasedfrom
+2 7 3 8
+Faradaicefficiencyforethanolandn-propanolreached16.5%and SigmaAldrich.Nafion117andanionexchangemembrane(FumapemFAA-3-50),
+6.1% at a voltage of −4.4V (Supplementary Fig. 31a). gasdiffusionlayer(Freudenberg,H23C6),andtitaniummeshwereobtainedfrom
+FuelCellStore.Allchemicalswereusedasreceived.Allaqueoussolutionswere
+To better understand theinfluenceof operating conditions on preparedusingdeionizedwaterwitharesistivityof18.2MΩcm−1.
+the CO RR performance of the MEA device, we varied the CO
+2 2
+flow rate from 3 to 100 sccm at a constant full-cell potential of Electrodespreparation.Beforedepositingcatalysts,gasdiffusionelectrode(GDE)
+−4.55V.WhenusingN
+2
+SN-functionalizedAg–Cuelectrodes,the
+wastreatedwithsulfuricacidbysonicating20min.Afteracidtreatment,the
+FE for ethylene reached a peak at 56% at ~10 sccm (Fig. 4d) remainingacidwasrinsedwithdeionizedwaterfor5minthreetimes,andgas
+together with a sharply reduced FE for H at only 15.2%. The diffusionlayerwasdriedatroomtemperature.Toobtaintheworkingelectrodes,
+2 15% Ag–Cucatalystswerepreparedthroughapulseelectrodepositionapproach
+selectivityforethylenerapidlydropsdowntoonly~5%foraCO at.
+2 underCO bubblingcondition.Firstly,electrochemicaldepositionoftheAgcat-
+flow rate of 3 sccm, suggesting that the feed in CO 2 is not alystwasp 2 erformedusingapotentiostat(VSPpotentiostatfromBio-LogicScience
+sufficient to produce enough *CO to dimerize on the surface of Instruments).Theelectrolyteusedwascomposedof0.01MAgNO,0.6M
+3
+v th o e lta c g a e t s al a y n s d t. F T a h ra e da r i e c la e t f i fi o c n i s e h n i c p ie s s b fo e r tw t e h e e n m C ai O n 2 ga fl s o p w rod ra u t c e t s s , (H cell , a (N ta H c 4 ) u 2 r S r O en 4 t ,a d n e d ns 0 i . t 0 y 4 o M f1 e 5 th m y A len c e m d − ia 2 m w in it e h .A o g n- ca a t n a d lys o t ff w -t a im se e le p c u tr l o si d n e g po p s a i r t a e m do et n er G s D of E
+2 0.25and3s,respectively.Then,theCuwaselectrodepositedonAgataconstant
+CO and C
+2
+H
+4
+) were explored on N
+2
+SN-functionalized Ag–Cu currentdensityof−400mAcm−2for45stoobtainthe15%
+at.
+Ag–Cuelectrode.
+electrodes and we found that the FE decreases when Thesolutionconsistedof0.2MCuSO and1MHSO withcontinuousCO
+C2H4 4 2 4 2
+increasingtheCO flowrateandtheoptimalflowrateis10sccm bubbling.
+2
+evenwhenoperatingunderhighvoltageandhighcurrentdensity
+(Supplementary Fig. 35). Conversely, the Faradaic efficiency for FunctionalizationoftheAg–Cuelectrodes.Thedifferentfunctionalgroups
+H increases when increasing the CO flow rate, which further (organicchemicals(5-Amino-1,3,4-thiadiazole-2-thiol(N 2 SN),1,3,4-thiadiazole-
+2 2 2,5-dithiol(NSS),3-amino-1,2,4-triazole-5-thiol(NN),cysteamine(CN)and
+demonstrates that the decrease in the C 2+ performance is not 1-Propanethio 2 l(C))weredissolvedinethanoltoa 3 fixedconcentratio 2 nof5mM.
+causedbyinsufficientfeedinCO 2 .Wealsoestimatedthefull-cell TheAg–Cuelectro 3 desweretreatedbythedifferentfunctionalsolutionsviadrop-
+energy efficiency (EE ) for N SN-functionalized Ag–Cu for casting20μLofthesolutioncontainingthedifferentthiolreagentsontheGDE.
+thedifferentoperating
+ful
+p
+l-
+o
+ce
+t
+l
+e
+l
+ntial.Bo
+2
+ththeFEandEE values
+After5min,theelectrodewaswashedwithethanolanddriedunderargonflow.
+full-cell
+for C 2+ products increased with the increase of the current
+density and achieved a maximum FE C2+ of ≈80±1% and an Physicalcharacterizations.Afieldemissionscanningelectronmicroscope
+EE of 20.3% at a specific current density larger than (TESCANMira3)wasemployedtoobservethemorphologyofsamples.
+260
+fu
+m
+ll-c
+A
+ell
+cm
+−2fortheproductionofC
+2+(Fig.4e).Bycomparing
+A
+en
+b
+e
+e
+r
+r
+g
+r
+y
+a
+-
+t
+d
+io
+is
+n
+p
+-
+e
+c
+r
+o
+s
+r
+i
+r
+v
+e
+e
+ct
+X
+e
+-
+d
+ra
+h
+y
+ig
+s
+h
+p
+-
+e
+r
+c
+e
+t
+s
+r
+o
+o
+l
+s
+u
+c
+t
+o
+i
+p
+o
+y
+n
+(
+(
+E
+sc
+D
+a
+S
+n
+)
+n
+a
+in
+n
+g
+d
+)
+s
+T
+pa
+E
+t
+M
+iall
+i
+y
+m
+-r
+a
+e
+g
+s
+i
+o
+n
+l
+g
+ve
+(
+d
+H
+e
+R
+le
+-
+c
+(
+t
+S
+r
+)
+o
+T
+n
+E
+e
+M
+n
+)
+e
+,
+rgy-
+the performance metrics of N 2 SN-functionalized Ag–Cu with lossspectroscopy(SR-EELS)wereperformedusingaFEITitanCubedThemis
+previous literature benchmarks based on MEA devices, we microscopewhichwasoperatedat80kV.TheThemisisequippedwithadoubleCs
+observed that thiadiazole-functionalized Ag–Cu allows achieving aberrationcorrector,amonochromator,anX-FEGgun,asuperEDSdetector,and
+anUltraHighResolutionEnergyFilter(GatanQuantumERS)whichallowsfor
+outstanding performance notably thanks to a high CO 2 -to-C 2+ workinginDual-EELSmode.HR-STEMimagingwasperformedbyusinghigh-
+conversion rate of 785µmol h
+−1
+cm
+−2
+(Fig. 4f). angleannulardark-field(HAADF)andannulardark-field(ADF)detectors.SR-
+We finally examined the stability of the N SN-functionzalized EELSspectrawereacquiredwiththemonochromatorexcitedallowinganenergy
+Ag–Cu electrodes in a full-cell MEA 2 electrolyzer under resolutionof1.1eVwithanenergydispersionof0.4eVpixel−1.Liquidproducts
+continuous operation at a CO flow rate of 10 sccm and a cell
+werequantifiedby1HNMRspectroscopy(600MHzAvanceIIIBukrerwitha
+2 cryorobeProdigyTCI)usingdeionizedwaterwith0.1%(w/w)ofDSS(Sodium
+voltage of−4.55V. Theperformance of thecell wasfound to be trimethylsilylpropanesulfonate)likeinternalstandardforthequantificationofthe
+stableover100hwithanaverage FEof 51%forethylene andan ethanolandformate.An1Dsequencewatersuppressionwithexcitationsculpting
+average current of around 1.6A (Fig. 4g). After 100h, the
+withgradients(zgesgp)wasusedfortheacquisition(Numberofscan=32,Delay
+D1=30s).X-rayphotoelectronspectroscopy(XPS)measurementswerecarried
+retentionoftheFEforethyleneandthecurrentwereestimatedto outonThermoElectronESCALAB250SystemusingAlKαX-rayradiation
+be48%and1.58Acorrespondingtoretentionsof94%and99%, (1486.6eV)forexcitation.RamanmeasurementswereconductedusingaRenishaw
+respectively. The stability of the CO RR properties is further inViaRamanmicroscopeandan×50objective(Leica)equippedwitha633nm
+2
+accompanied by a high stability of the catalyst morphology and
+laser.OperandoRamanmeasurementswerecarriedoutusingamodifiedliquid-
+electrolyteflowcell.ThespectrawererecordedandprocessedusingtheRenishaw
+microstructure (Supplementary Fig. 36).
+WiREsoftware(version4.4).AnAg/AgClelectrodeandaPtplatewereusedasthe
+referenceandcounterelectrodesrespectively.ExsituX-rayabsorptionspectraat
+thecopperK-edgesandOperandoX-rayabsorptionspectroscopy(XAS)mea-
+Discussion surementsatthecopperK-edgeswerecollectedatBeijingSynchrotronRadiation
+Our study describes an original and robust molecular engineering Facility(BSRF)onbeamline1W1BandtheSOLEILsynchrotronSAMBAbeam-
+strategy to tune the oxidation state of Cu electrodes via functio- line,respectively.
+nalization. We identified that strong electron-withdrawing groups
+basedonaromaticheterocyclescaneffectivelyorientthepathwayof OperandoX-rayabsorptionspectroscopy(XAS).OperandoXASmeasurements
+atthecopperK-edgeswerecollectedatBeijingSynchrotronRadiationFacility
+the CO 2 RR reactions towards the synthesis of C 2+ molecules. (BSRF)onbeamline1W1BandtheSOLEILsynchrotronSAMBAbeamline,
+FunctionalizationofthesurfaceofabimetallicAg–Cucatalystwith
+respectively.OperandoXASmeasurementsoffunctionalizedAg–Cuelectrodes
+thiadiazole and triazole derivatives led to an enhancement of the wereobtainedbyusingaSi(111)monochromatorattheCuK-edgeforenergy
+FE upto≈80±1%,correspondingtoratiosofFE toFE and selectionwiththebeamsizeof1×0.5mm.A13-channelGedetectorwasusedto
+FE C 2þ toFE of10and5.3,respectively.Bycombin C i 2 n þ gAug C er 1 and collectthesignalsinfluorescencemode.Anionizationchamber(I 0 )filledwitha
+XA C N 2þ ES spec H t 2 roscopy we identified that the superior performance W mi h x i t l u e re th o e f m N e 2 a / s H u e re w m a e s n u ts se i d n t t o ra m ns e m as is u s r i e on th m e o in d t e en w s e it r y e o o f p t e h ra e te in d c i i n de o n t t h r e a r d i i o a n ti i o z n at . ion
+p to - w do a p rd in s g th o e f C th O e 2 - C to u -C a 2 n + d co p n re v s e e r n si c o e n o o f ri C gi u n δ a + tes w f i r t o h m 0 th < e δ co < n 1 tr . o T ll h ed e c m h o a d m ifi b e e d rs e w le h c i t c ro h c w he e m re ic fi a l l le c d el w lw ith as th u e se m d i f x o t r ur o e pe o r f a N nd 2 o an X d A A S r m in eas I 1 ur c e h m am en b t e s. r. T A he
+functionalizedAg–Cuelectrodeswerefoundstable,whichtranslates appliedpotentialwascontrolledbyaVSPpotentiostat(Bio-LogicScienceInstru-
+ments).AplatinumwireandAg/AgClelectrode(3MKCl)wereusedascounter
+intoa prolonged production of C 2+ products for >100h. andreferenceelectrodes,respectively.FortheXASstudies,15%at.Ag–Cuwas
+8 NATURECOMMUNICATIONS| (2021) 12:7210 |https://doi.org/10.1038/s41467-021-27456-5|www.nature.com/naturecommunications
+
+
+===== PAGE 9 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-27456-5
+firstlyelectrodepositedongasdiffusionlayer(GDL,Sigracet22BB,FuelCellStore) QuantificationoftheCO
+2
+RRproducts.Theelectrochemicaldatawererecorded
+usedasgasdiffusionelectrode(GDE)andthenfunctionalsolutionsweredrop- whilesimultaneouslycollectingtheCORRgasproductsbyusinganautomatic
+2
+coatedonthecatalystside,whiletheothersideoftheGDLwascoveredwith samplerconnectedtothecathodeoutlet.Acoldtrapwasusedtocollecttheliquid
+polyamidetape.TheGDLwasthentapeonagraphitefoilandsubsequently,the productsbeforethesampler.Foreachappliedpotential,thegasproductswere
+electrodewasmountedinanoperandocellwiththegraphitefoilactingasa collectedatleastthreetimeswithpropertimeintervals.Thegasaliquotswerethen
+workingelectrodeandwindow.A0.5MsolutionofKHCO wasusedaselectrolyte injectedintoanonlinegaschromatograph(Agilent,MicroGC-490)equippedwith
+3
+fortheCORRandthecellwascontinuouslypurgedwithCO duringthemea- aTCDdetectorandMolsieve5Acolumncontinuously.Hydrogenandargon
+2 2
+surements.Allmeasurementswereperformedatconstantpotentialsof−1.2V, (99.9999%)wereusedasthecarriergases.Liquidproductswerequantifiedby1H
+−1.1V,−1.0Vand−0.9Vvs.RHE.Time-resolvedspectrawererecordedevery NMRspectroscopy(600MhzAvanceIIIBukrerwithacryorobeProdigyTCI)
+30minuntilnofurtherchangeswereobservedunderCORRconditions. usingdeionizedwaterwith0.1%(w/w)ofDSS(Sodiumtrimethylsilylpropane-
+2
+DataalignmentandnormalizationoftheX-rayabsorptionnear-edgestructure sulfonate)likeinternalstandardforthequantificationoftheethanolandformate.
+(XANES)spectrawereconductedbyusingtheAthenasoftware.TofittheCu An1Dsequencewatersuppressionwithexcitationsculptingwithgradients(zgesgp)
+K-edgeextendedX-rayabsorptionfinestructure(EXAFS)spectraχ(k)k2,therange wasusedfortheacquisition(Numberofscan=32,DelayD1=30s).Owingtothe
+ofparameterRinR-spacefromR =1ÅuptoR =2.1Åwasusedforthe liquidproductcrossover,theFEvaluesoftheliquidproductswerecalculatedbased
+min max
+freshlypreparedcatalysts,whileR =1.0ÅtoR =3.0Åwereusedforthe onthetotalamountoftheproductscollectedontheanodeandcathodesides
+reductivecatalysts.Thek-rangefro m m in 3.0Å−1to10 m .0 ax Å−1withak-weightingof1, duringthesameperiod.
+2,and3wereappliedintheFouriertransforms.Allfittingparametersincludingthe
+c C o u o – r C di u na p t a i t o h n s, n a u s m w b e e ll rs as N t , h i e nt c e o r r a r t e o c m tio ic n d s i t s o ta t n h c e es ph R o , t d o i e s l o e r c d tr e o r n fa r c e t f o e r r s en σ2 ce fo e r n C er u g – ie O sΔ an E d 0 M St E ab A ili e t l y ec m tro e l a y s z u er re w m a e s n o t p s e i r n at t e h d e a M ta EA con co st n a fi nt gu v r o a lt t a io ge n. o F f o − r 4 t . h 5 e 5 s V tab w i i l t i h ty c t o e n st t , in th u e ous
+wereobtained.TheS2factorsweresetto0.831.
+0 feedinginCO.Thegasproductswerecollectedatfrequenttimeintervals.TheFE
+2
+valueswerecalculatedfromtheaveragevalueobtainedfromthreesuccessive
+Computationaldetails.Alldensityfunctionaltheory(DFT)calculationswere injections.Asfortheliquidproducts,thetotalliquidproductswerecollectedatthe
+carriedoutintheViennaAb-initioSimulationPackage(VASP)codewiththe endoftheexperiments.
+projectoraugmented-wave(PAW)method.Theexchange–correlationenergywas
+t
+P
+r
+e
+e
+r
+a
+d
+te
+e
+d
+w–
+u
+B
+si
+u
+n
+r
+g
+ke
+a
+–
+g
+E
+e
+r
+n
+n
+e
+z
+r
+e
+a
+r
+l
+ho
+gr
+f
+a
+(
+d
+P
+i
+B
+en
+E
+t
+)
+a
+f
+p
+o
+p
+rm
+ro
+a
+x
+l
+i
+i
+m
+sm
+a
+.
+ti
+A
+on
+p
+(
+l
+G
+an
+G
+e
+A
+-w
+)
+a
+w
+ve
+ith
+ba
+t
+s
+h
+is
+e
+withakinetic
+Faradaicefficiencyandenergyefficiencycalculations.TheFaradaicefficiency
+(FE)ofeachgasproductwascalculatedasfollows:
+energycutoffof500eVwaschosentoexpandtheelectronicwavefunctions.To
+i
+a
+n
+5
+ve
+l
+s
+a
+t
+y
+ig
+e
+a
+rs
+te
+o
+t
+f
+h
+C
+e
+u
+po
+(
+s
+1
+s
+1
+ib
+1)
+le
+s
+b
+la
+i
+b
+nd
+(
+i
+7
+n
+.7
+g
+3
+m
+86
+od
+Å
+es
+×
+b
+7
+e
+.
+t
+7
+w
+3
+e
+8
+e
+6
+n
+Å
+fu
+),
+n
+i
+c
+n
+ti
+w
+on
+h
+a
+ic
+l
+h
+m
+t
+o
+h
+l
+e
+ec
+t
+u
+w
+la
+o
+r
+b
+a
+o
+n
+t
+d
+to
+c
+m
+ata
+la
+ly
+y
+s
+e
+t
+r
+s
+s
+, FE
+gas
+¼g
+i
+´v´
+R
+z
+T
+i FP
+0
+´
+I
+1 ´100% ð3Þ
+werekeptfixedduringrelaxation,wasbuiltwithavacuumspaceofabout20Å.For TheFaradaicefficiency(FE)ofeachliquidpr to o t d al uctwascalculatedasfollows:
+thegeometricaloptimizations,allatomswerefullyrelaxedtothegroundstatewith
+t
+w
+h
+h
+e
+e
+c
+re
+on
+a
+v
+3
+er
+×
+ge
+3
+n
+×
+ce
+1
+o
+Γ
+f
+-c
+e
+e
+n
+n
+e
+t
+r
+e
+g
+r
+y
+ed
+an
+M
+d
+o
+f
+n
+o
+k
+r
+h
+ce
+o
+s
+rs
+s
+t
+e
+-
+t
+P
+ti
+a
+n
+c
+g
+k
+t
+s
+o
+ch
+1
+e
+.
+m
+0×
+ed
+10
+k
+−
+-m
+5e
+e
+V
+sh
+a
+w
+n
+a
+d
+s
+0
+u
+.
+s
+0
+e
+1
+d
+e
+t
+V
+o
+Å
+sa
+−
+m
+1
+p
+,
+le
+FE
+liquid
+¼l
+i
+´
+Q
+z
+to
+i
+tal
+F´100% ð4Þ
+thefirstBrillouinzone.Tocomparethebondstrengthbetweeneachgroupof Theformationrate(R)foreachspecies(i)wascalculatedasfollows:
+u fu s n in c g tio th n e al fo m ll o o l w ec i u n l g ar fo a r n m d u C la u : (111),theadsorptionenergy(E ads )iscalculatedby R i ¼ 96; Q 48 to 5 ta ´ l ´ z F ´ E t i ´S ð5Þ
+i
+E ads ¼E Cu=FM (cid:2)E Cu (cid:2)E FM ð1Þ Thefull-cellenergyefficiencies(EE)wascalculatedasfollows:
+whereE Cu/FM ,E Cu ,andE FM denotethetotalelectronicenergiesofanadsorbed EE¼
+ð1:23(cid:2)E
+i
+Þ´FE
+i ð6Þ
+system,acleanCu(111)surface,andthefreefunctionalmolecular,respectively. E
+cell
+whereg representsthevolumefractionofgasproducti;vrepresentsthegasflow
+ElectrochemicalinH-cellandMEAconfiguration.Allelectrochemicalmea- rateatth i eoutletinsccm;z representsthenumberofelectronsrequiredtoproduce
+i
+surementswerecarriedoutatanambienttemperatureandpressureusingaVSP onemoleculeofproducti;I representsthetotalcurrent;l representsthe
+total i
+electrochemicalstationfromBio-LogicScienceInstrumentsequippedwitha5A numberofmolesofliquidproducti;andQ representsthechargepassedwhile
+boosterandFRA32module.Thecellvoltagesreportedinallfigureswererecorded theliquidproductsarebeingcollected.P = tota 1 l .01×105Pa,T=273.15K,F=
+withoutiRcorrection.AllthepotentialsintheH-cellwereconvertedtovalueswith
+96,485Cmol−1andR=8.314Jmol−1K−0
+1;trepresentstheelectrolysistime(h);S
+referencetotheRHEusing: representsthegeometricareaoftheelectrode(cm2);E representsthe
+i
+E RHE ¼E Ag=AgCl þ0:197Vþ0:0591´pH ð2Þ t t h h e e r c m el o l d v y o n l a ta m ge ic i p n o t t w en o t - i e a l l ec (v tr e o r d su e s s R et H up E . )forCO 2 RRtospeciesiandE cell represents
+IntheH-cellconfiguration,Ag/AgClreferenceelectrode(3MKCl)andPtplate
+wereusedasareferenceandcounterelectrodes,respectively.Theelectrolyte
+Data availability
+consistedofa0.5MKHCO solution(99.9%,SigmaAldrich),whichwassaturated
+withalternativelyCO (≥99. 3 998,Linde)orAr(5.0,Linde).Priortoanyexperiment, Theauthorsdeclarethatalldatasupportingtheresultsofthisstudyareavailablewithin
+theelectrolytesolutio
+2
+nsweresaturatedbybubblingCO orArforatleast20min.
+thepaperanditsSupplementaryInformationfilesorfromthecorrespondingauthors
+2
+Theelectrochemicallyactivesurfacearea(ECSA)ofthedifferentcatalystswas uponreasonablerequest.
+determinedusingPbunderpotentialdepositioninH-cell.AnAr-saturatedsolution
+of100mMHClO 4 +1mMPb(ClO 4 ) 2 wasusedasanelectrolyte.Theworking Received: 11 August 2021;Accepted: 12November 2021;
+electrodewasheldat−0.7Vvs.Ag/AgClfor10minandthencyclicvoltammetry
+wasrecordedbetween−0.7and0.7Vvs.Ag/AgClat10mVs−1.Ptfoilwasusedas
+thecounterelectrode,whileAr(Linde,99.998%)wascontinuouslysuppliedtothe
+electrolyte.TheECSAvaluesforCuandAgwerecalculatedassumingthe
+depositionofamonolayerofPbatomsoverCuandAgsurfacewithaconversion
+factorof310and260mCcm−2,respectively64.
+TheMEAelectrolyzer(DioxideMaterials)wascomprisedoftheAg–Cu References
+cathode,aTi-IrO x meshanode,andananionexchangemembrane(AEM,Fumasep 1. Bushuyev,O.S.etal.WhatshouldwemakewithCO 2 andhowcanwemake
+FAA-3-50,Fuelcellstore).Theanodeandcathodeflowfieldsaremadeoftitanium it?Joule2,825–832(2018).
+andstainlesssteelwithgeometricactiveareasof4cm2,respectively.Theanodewas 2. Whipple,D.T.&Kenis,P.J.ProspectsofCO utilizationviadirect
+2
+s p u r p ep p a o r r e t d (0 b . y 00 f 2 o ″ llo th w ic in k g ne p s r s e , v F i u ou el s C w e o ll rk St t o h r r e o ) u w g i h th d a ep lo o a si d t i i n n g g o Ir f O 2 x m o g n c a m t − it 2 an b i y um usinga ( h 2 e 0 te 1 r 0 o ) g . eneouselectrochemicalreduction.J.Phys.Chem.Lett.1,3451–3458
+dipcoatingmethodfollowedbythermalannealing65. 3. Ross,M.B.etal.Designingmaterialsforelectrochemicalcarbondioxide
+TheMEAwaspreparedbyhot-pressingtheanionexchangemembrane(AEM, recycling.Nat.Catal.2,648–658(2019).
+FumapemFAA-3-50,DioxideMaterials)betweentheAg–CucathodeandTi-IrO
+x 4. Ross,M.B.etal.Electrocatalyticratealignmentenhancessyngasgeneration.
+anode.Thecellwasassembledwithflowfieldsfortheanodeandthecathode, Joule3,257–264(2019).
+whichwereseparatedbytheAEM.Anodeandcathodegasketswereusedtoensure 5. Ren,S.etal.Molecularelectrocatalystscanmediatefast,selectiveCO
+2
+goodsealingoftheelectrolyzer(SupplementaryFig.29).A0.1MKHCO 3 anolyte reductioninaflowcell.Science365,367–369(2019).
+3 an 0 d m h L u m m i i n d − ifi 1 ed an C d O 1 2 0 g s a t s a w nd er a e rd fe c d u t b o ic th c e en an ti o m d e e te a r n s d p c e a r th m o i d n e u a te tc ( o sc n c s m ta ) n , t r fl es o p w ec r t a i t v e e s ly o . f 6. G ele u c , t J r . o e re t d a u l. ct A io to n m to ica C ll O y . d S i c s i p e e n r c s e ed 36 F 4 e , 3+ 10 s 9 i 1 te – s 10 ca 9 t 4 al ( y 2 z 0 e 1 e 9 f ) fi . cientCO 2
+Thevoltageoftheelectrolyzerwasprogressivelyincreasedfrom−2.8Vwith 7. Liu,M.etal.EnhancedelectrocatalyticCO reductionviafield-induced
+incrementsof50or100mV.After15–20minofstableoperationunderconstant
+reagentconcentration.Nature537,382–386
+2
+(2016).
+full-cellpotentials,theproductswerecollectedandanalyzed.
+NATURECOMMUNICATIONS| (2021) 12:7210 |https://doi.org/10.1038/s41467-021-27456-5|www.nature.com/naturecommunications 9
+
+
+===== PAGE 10 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-27456-5
+8. Hori,Y.,Murata,A.&Takahashi,R.Formationofhydrocarbonsinthe 36. Kim,C.etal.AchievingselectiveandefficientelectrocatalyticactivityforCO
+2
+electrochemicalreductionofcarbondioxideatacopperelectrodeinaqueous reductionusingimmobilizedsilvernanoparticles.J.Am.Chem.Soc.137,
+solution.J.Chem.Soc.FaradayTrans.85,2309–2326(1989). 13844–13850(2015).
+9. Hoang,T.T.etal.Nanoporouscopper–silveralloysbyadditive-controlled 37. Wakerley,D.etal.Bio-inspiredhydrophobicitypromotesCO reductionona
+2
+electrodepositionfortheselectiveelectroreductionofCO toethyleneand Cusurface.Nat.Mater.18,1222–1227(2019).
+2
+ethanol.J.Am.Chem.Soc.140,5791–5797(2018). 38. Kim,C.etal.InsightintoelectrochemicalCO reductiononsurface-molecule-
+2
+10. Li,Y.C.etal.BindingsitediversitypromotesCO electroreductiontoethanol. mediatedAgnanoparticles.ACSCatal.7,779–785(2017).
+2
+J.Am.Chem.Soc.141,8584–8591(2019). 39. Fang,Y.&Flake,J.C.ElectrochemicalreductionofCO atfunctionalizedAu
+2
+11. Lee,S.,Park,G.&Lee,J.ImportanceofAg–Cubiphasicboundariesfor electrodes.J.Am.Chem.Soc.139,3399–3405(2017).
+selectiveelectrochemicalreductionofCO toethanol.ACSCatal.7, 40. Zhong,Y.etal.Anartificialelectrode/electrolyteinterfaceforCO
+2 2
+8594–8604(2017). electroreductionbycationsurfactantself‐assembly.Angew.Chem.Int.Ed.
+12. Chen,C.etal.Cu-Agtandemcatalystsforhigh-rateCO electrolysistoward 132,19257–19263(2020).
+2
+multicarbons.Joule4,1688–1699(2020). 41. Dena,A.S.A.,Muhammad,Z.A.&Hassan,W.M.Spectroscopic,DFT
+13. Clark,E.L.,Hahn,C.,Jaramillo,T.F.&Bell,A.T.ElectrochemicalCO studiesandelectronicpropertiesofnovelfunctionalizedbis-1,3,
+2
+reductionovercompressivelystrainedCuAgsurfacealloyswithenhanced 4-thiadiazoles.Chem.Pap.73,2803–2812(2019).
+multi-carbonoxygenateselectivity.J.Am.Chem.Soc.139,15848–15857 42. Sherif,E.-S.M.,Erasmus,R.&Comins,J.Corrosionofcopperinaerated
+(2017). acidicpicklingsolutionsanditsinhibitionby3-amino-1,2,4-triazole-5-thiol.
+14. Zhou,Y.etal.Dopant-inducedelectronlocalizationdrivesCO reductionto J.ColloidInterfaceSci.306,96–104(2007).
+2
+C hydrocarbons.Nat.Chem.10,974–980(2018). 43. Pan,Y.-C.etal.2-Amino-5-(4-pyridinyl)-1,3,4-thiadiazolemonolayerson
+2
+15. Buckley,A.K.etal.Electrocatalysisatorganic–metalinterfaces:identification coppersurface:observationoftherelationshipbetweenitscorrosion
+ofstructure–reactivityrelationshipsforCO reductionatmodifiedCu inhibitionandadsorptionstructure.Corros.Sci.73,274–280(2013).
+2
+surfaces.J.Am.Chem.Soc.141,7355–7364(2019). 44. Sherif,E.&Park,S.-M.Effectsof2-amino-5-ethylthio-1,3,4-thiadiazoleon
+16. Han,Z.etal.CO reductionselectiveforC≥2productsonpolycrystalline coppercorrosionasacorrosioninhibitorinaeratedacidicpicklingsolutions.
+2
+copperwithN-substitutedpyridiniumadditives.ACSCent.Sci.3,853–859 Electrochim.Acta51,6556–6562(2006).
+(2017). 45. Ren,D.etal.Selectiveelectrochemicalreductionofcarbondioxidetoethylene
+17. Cui,W.G.&Hu,T.L.Incorporationofactivemetalspeciesincrystalline andethanoloncopper(I)oxidecatalysts.ACSCatal.5,2814–2821(2015).
+porousmaterialsforhighlyefficientsynergeticcatalysis.Small17,e2003971 46. Deng,Y.&Yeo,B.S.Characterizationofelectrocatalyticwatersplittingand
+(2020). CO reductionreactionsusinginsitu/operandoRamanspectroscopy.ACS
+2
+18. Bai,S.etal.HighlyactiveandselectivehydrogenationofCO toethanolby Catal.7,7873–7889(2017).
+2
+orderedPd–Cunanoparticles.J.Am.Chem.Soc.139,6827–6830(2017). 47. Kan,M.etal.2‐Aminobenzenethiol‐functionalizedsilver‐decorated
+19. Huang,J.etal.Structuralsensitivitiesinbimetalliccatalystsfor nanoporoussiliconphotoelectrodesforselectiveCO reduction.Angew.
+2
+electrochemicalCO reductionrevealedbyAg–Cunanodimers.J.Am.Chem. Chem.Int.Ed.132,11559–11566(2020).
+2
+Soc.141,2490–2499(2019). 48. Dilimon,V.,Denayer,J.,Delhalle,J.&Mekhalif,Z.Electrochemicaland
+20. Varandili,S.B.etal.SynthesisofCu/CeO nanocrystallineheterodimers spectroscopicstudyoftheself-assemblingmechanismofnormalandchelating
+2-x
+withinterfacialactivesitestopromoteCO electroreduction.ACSCatal.9, alkanethiolsoncopper.Langmuir28,6857–6865(2012).
+2
+5035–5046(2019). 49. Biesinger,M.C.AdvancedanalysisofcopperX‐rayphotoelectronspectra.
+21. Chou,T.-C.etal.ControllingtheoxidationstateoftheCuelectrodeand Surf.InterfaceAnal.49,1325–1334(2017).
+reactionintermediatesforelectrochemicalCO reductiontoethylene.J.Am. 50. Fielicke,A.,Gruene,P.,Meijer,G.&Rayner,D.M.TheadsorptionofCOon
+2
+Chem.Soc.142,2857–2867(2020). transitionmetalclusters:acasestudyofclustersurfacechemistry.Surf.Sci.
+22. Zhang,W.etal.Atypicaloxygen-bearingcopperboostsethyleneselectivity 603,1427–1433(2009).
+towardelectrocatalyticCO reduction.J.Am.Chem.Soc.142,11417–11427 51. Arán-Ais,R.M.etal.Theroleofinsitugeneratedmorphologicalmotifsand
+2
+(2020). Cu(i)speciesinC 2+productselectivityduringCO
+2
+pulsedelectroreduction.
+23. Yang,P.-P.etal.Protectingcopperoxidationstateviaintermediate Nat.Energy5,317–325(2020).
+confinementforselectiveCO
+2
+electroreductiontoC 2+fuels.J.Am.Chem.Soc. 52. Favaro,M.etal.SubsurfaceoxideplaysacriticalroleinCO
+2
+activationbyCu
+142,6400–6408(2020). (111)surfacestoformchemisorbedCO,thefirststepinreductionofCO.
+2 2
+24. Gao,D.etal.SelectiveCO electroreductiontoethyleneandmulticarbon Proc.NatlAcad.Sci.USA114,6706–6711(2017).
+2
+alcoholsviaelectrolyte‐drivennanostructuring.Angew.Chem.Int.Ed.58, 53. Pauly,N.,Tougaard,S.&Yubero,F.LMMAugerprimaryexcitationspectra
+17047–17053(2019). ofcopper.Surf.Sci.630,294–299(2014).
+25. Wang,H.etal.Rapidandscalablesynthesisofcuproushalide-derivedcopper 54. Tahir,D.&Tougaard,S.ElectronicandopticalpropertiesofCu,CuOand
+nano-architecturesforselectiveelectrochemicalreductionofcarbondioxide. CuOstudiedbyelectronspectroscopy.J.Phys.Condens.Matter24,175002
+2
+NanoLett.19,3925–3932(2019). (2012).
+26. Cui,X.etal.Bridginghomogeneousandheterogeneouscatalysisby 55. Barman,S.&Sarma,D.InvestigationoftheL-M M AugerspectraofCu,
+3 45 45
+heterogeneoussingle-metal-sitecatalysts.Nat.Catal.1,385–397(2018). CuOandCuO.J.Phys.Condens.Matter4,7607(1992).
+2
+27. Copéret,C.etal.EineBrückezwischenindustriellenundwohldefinierten 56. Raciti,D.&Wang,C.RecentadvancesinCO reductionelectrocatalysison
+2
+Trägerkatalysatoren.Angew.Chem.Int.Ed.130,6506–6551(2018). copper.ACSEnergyLett.3,1545–1556(2018).
+28. Copéret,C.,Chabanas,M.,PetroffSaint‐Arroman,R.&Basset,J.M. 57. Cheng,T.,Xiao,H.&Goddard,W.A.Fullatomisticreactionmechanismwith
+Homogeneousandheterogeneouscatalysis:bridgingthegapthroughsurface kineticsforCOreductiononCu(100)fromabinitiomoleculardynamics
+organometallicchemistry.Angew.Chem.Int.Ed.42,156–181(2003). free-energycalculationsat298K.Proc.Nat.Acad.Sci.USA114,1795–1800
+29. Pelletier,J.R.M.D.&Basset,J.-M.Catalysisbydesign:well-definedsingle- (2017).
+siteheterogeneouscatalysts.Acc.Chem.Res.49,664–677(2016). 58. Kortlever,R.etal.Catalystsandreactionpathwaysfortheelectrochemical
+30. Copéret,C.etal.Bridgingthegapbetweenindustrialandwell‐defined reductionofcarbondioxide.J.Phys.Chem.Lett.6,4073–4082(2015).
+supported.Catal.Angew.Chem.Int.Ed.57,6398–6440(2018). 59. Montoya,J.H.,Shi,C.,Chan,K.&Nørskov,J.K.Theoreticalinsightsintoa
+31. Thevenon,A.,Rosas‐Hernández,A.,Peters,J.C.&Agapie,T.In‐situ COdimerizationmechanisminCO electroreduction.J.Phys.Chem.Lett.6,
+2
+nanostructuringandstabilizationofpolycrystallinecopperbyanorganicsalt 2032–2037(2015).
+additivepromoteselectrocatalyticCO reductiontoethylene.Angew.Chem. 60. Chernyshova,I.V.,Somasundaran,P.&Ponnurangam,S.Ontheoriginofthe
+2
+Int.Ed.58,16952–16958(2019). elusivefirstintermediateofCO electroreduction.Proc.Nat.Acad.Sci.USA
+2
+32. Li,F.etal.MoleculartuningofCO-to-ethyleneconversion.Nature577, 115,E9261–E9270(2018).
+2
+509–513(2020). 61. Akemann,W.&Otto,A.VibrationalmodesofCOadsorbedondisordered
+33. Rosen,B.A.etal.Ionicliquid–mediatedselectiveconversionofCO toCOat copperfilms.J.RamanSpectrosc.22,797–803(1991).
+2
+lowoverpotentials.Science334,643–644(2011). 62. Gunathunge,C.M.etal.Spectroscopicobservationofreversiblesurface
+34. Cao,Z.etal.ChelatingN‐heterocycliccarbeneligandsenabletuningof reconstructionofcopperelectrodesunderCO reduction.J.Phys.Chem.C
+2
+electrocatalyticCO reductiontoformateandcarbonmonoxide:surface 121,12337–12344(2017).
+2
+organometallicchemistry.Angew.Chem.Int.Ed.130,5075–5079(2018). 63. Clark,R.J.H.&Hester,R.E.SpectroscopyforSurfaceScience(JohnWiley&
+35. Lau,G.P.etal.Newinsightsintotheroleofimidazolium-basedpromotersfor Sons,1998).
+theelectroreductionofCO onasilverelectrode.J.Am.Chem.Soc.138, 64. Wang,X.etal.EfficientelectricallypoweredCO-to-ethanolviasuppression
+2 2
+7820–7823(2016). ofdeoxygenation.Nat.Energy5,478–486(2020).
+10 NATURECOMMUNICATIONS| (2021) 12:7210 |https://doi.org/10.1038/s41467-021-27456-5|www.nature.com/naturecommunications
+
+
+===== PAGE 11 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-021-27456-5
+65. Gabardo,C.M.etal.Continuouscarbondioxideelectroreductionto functionalizedAg–Cucatalysts.P.M.discussedtheresultswithD.V.andH.W.Allofthe
+concentratedmulti-carbonproductsusingamembraneelectrodeassembly. authorseditedthemanuscriptbeforesubmission.
+Joule3,2777–2791(2019).
+66. Merino-Garcia,I.etal.Cuoxide/ZnO-basedsurfacesforaselectiveethylene Competing interests
+productionfromgas-phaseCO electroconversion.J.CO2Util.31,135–142
+2 Theauthorsdeclarenocompetinginterests.
+(2019).
+67. Ozden,A.etal.High-rateandefficientethyleneelectrosynthesisusinga
+catalyst/promoter/transportlayer.ACSEnergyLet.5,2811–2818(2020). Additional information
+SupplementaryinformationTheonlineversioncontainssupplementarymaterial
+availableathttps://doi.org/10.1038/s41467-021-27456-5.
+Acknowledgements
+CorrespondenceandrequestsformaterialsshouldbeaddressedtoDamienVoiry.
+D.V.,K.Q.,andH.L.W.acknowledgefundingfromtheEuropeanResearchCouncil
+(ERC)undertheEuropeanUnion’sHorizon2020researchandinnovationprogram
+PeerreviewinformationNatureCommunicationsthanksJohnFlake,MiaoZhong,and
+(grantagreementno.804320).L.L.,D.V.,andH.L.WacknowledgetheuseofTEM
+instrumentationprovidedbytheNationFacilityELECMIICTS(‘DivisiondeMicro- theotheranonymousreviewer(s)fortheircontributiontothepeerreviewofthiswork.
+scopiaElectronica’,UniversidaddeCadiz,DME-UCA).L.L.acknowledgesfundingfrom
+theAndalusianregionalgovernment(FEDER-UCA-18-106613),theEuropeanUnion’s Reprintsandpermissioninformationisavailableathttp://www.nature.com/reprints
+Horizon2020researchandinnovationprogram(grantagreement823717-ESTEEM3), Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+andtheSpanishMinisteriodeEconomiayCompetitividad(PID2019-107578GA-I00). publishedmapsandinstitutionalaffiliations.
+K.Q.andY.Z.acknowledgefinancialsupportfromtheChinaPostdoctoralScience
+Foundation(2018M633127)andtheNaturalScienceFoundationofGuangdongProvince
+(2018A030310602).J.L.acknowledgefinancialsupportfromtheNationalNaturalSci-
+Open Access This article is licensed under a Creative Commons
+enceFoundationofChina(21808134).WethankSoleilSynchrotronandAndreaZitolo
+forallocatingbeamtimeatbeamlineSambawithintheproposal20200732. Attribution 4.0 International License, which permits use, sharing,
+adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+Author contributions Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+D.V.conceivedtheidea,designedtheexperiments,andwrotethemanuscript.H.W.
+indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+designedtheexperimentswithD.V.,preparedtheelectrodesandperformedtheelectro- article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+chemicalmeasurements,andanalyzedtheresultswithD.V.H.W.andD.V.analyzedthe
+regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfrom
+dataandwrotethemanuscript.J.L.discussedthedatawithH.WandperformedtheDFT
+thecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+calculations.E.P.,C.S.,andV.F.carriedouttheliquidNMRspectroscopymeasurements
+licenses/by/4.0/.
+andtheXPS/Augermeasurements.K.Q.,Y.Z.,assistedH.W.withtheelectrochemicaland
+theXANES/EXAFSmeasurements.N.O.discussedthereactionmechanismwithD.Vand
+H.W.L.H.andW.W.assistedH.W.withthephysicalcharacterizationsoftheAg–Cu
+©TheAuthor(s)2021
+electrodes.B.R.performedSEM/EDXL.L.L.performedhigh-resolutionTEMonthe
+NATURECOMMUNICATIONS| (2021) 12:7210 |https://doi.org/10.1038/s41467-021-27456-5|www.nature.com/naturecommunications 11

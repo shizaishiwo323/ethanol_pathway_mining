@@ -1,0 +1,1905 @@
+
+
+===== PAGE 1 =====
+
+Nature Communications
+https://doi.org/10.1038/s41467-025-67176-8
+Article in Press
+Subsurface engineering for directional-selective
+CO₂-to-ethanol electrocatalysis at industrial-level
+Received: 11 March 2025 Ming-Zheng Gu, Yuan Min, Ling Jiang, Fu Zhou, Qiao Chen, Xiao-Jun Zhang, Jie-Jie Chen,
+Accepted: 20 November 2025 Han-Qing Yu & Guang-Feng Wang
+S
+We are providing an unedited version of this manuscript to give early access to its
+Cite this article as: Gu, M.-Z., Min, Y.,
+S
+Jiang, L. et al. Subsurface engineering findings. Before final publication, the manuscript will undergo further editing. Please
+for directional-selective CO₂-to- note there may be errors present Ewhich affect the content, and all legal disclaimers
+ethanol electrocatalysis at industrial- apply. R
+level. Nat Commun (2025). https://
+If this paper is publishinPg under a Transparent Peer Review model then Peer
+doi.org/10.1038/s41467-025-67176-8
+Review reports will pub lish with the final article.
+N
+I
+E
+L
+C
+I
+T
+R
+A
+© The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit
+to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed material. You do not
+have permission under this licence to share adapted material derived from this article or parts of it. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain
+permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+
+===== PAGE 2 =====
+
+ARTICLE IN PRESS
+Subsurface Engineering for Directional-Selective CO₂-to-Ethanol
+Electrocatalysis at Industrial-Level
+Ming-Zheng Gu1,*, Yuan Min2,*, Ling Jiang1, Fu Zhou1, Qiao Chen1, Xiao-Jun Zhang1,3, Jie-Jie
+Chen2,**, Han-Qing Yu2,**, Guang-Feng Wang1,**
+1Key Laboratory of Functional Molecular Solids, Ministry of Education, Anhui Key Laboratory
+of Molecule-Based Materials, Anhui Engineering Research Center of Carbon Neutrality, College
+of Chemistry and Materials Science, Anhui Normal University, 241002 Wuhu, Anhui, China
+S
+2State Key Laboratory of Advanced Environmental TechnoloSgy, Department of Environmental
+E
+Science and Engineering, University of Science and Technology of China, 230026 Hefei, Anhui,
+R
+China P
+3State Key Laboratory of High Performance CNeramics and Superfine Microstructure, Shanghai
+I
+Institute of Ceramics Chinese Academy of Sciences, 200050 Shanghai, China
+E
+L
+C
+*These authors contributed equally to this work.
+I
+**Corresponding authors: T
+R
+Prof. Guang-Feng Wang, E-mail: wangyuz@ahnu.edu.cn; Prof. Jie-Jie Chen, E-mail:
+A
+chenjiej@ustc.edu.cn; Prof. Han-Qing Yu, E-mail: hqyu@ustc.edu.cn
+
+
+===== PAGE 3 =====
+
+ARTICLE IN PRESS
+Abstract
+The challenge in precisely controlling the adsorption configuration of oxygen-binding
+intermediates in the branching path following C-C coupling constrains the directed selectivity of
+electroreduction CO -to-ethanol. Here, we present a subsurface Co-doped CuS (Co-Sub-CuS)
+2
+catalyst, which exhibits directed selectivity toward ethanol. We elucidate the role of subsurface
+doping in enhancing the oxophilicity of surface Cu sites, thereby facilitating the conversion of key
+intermediates (*CHCHO*) via the formation of surface-O bonds, Sguiding subsequent protonation
+S
+towards ethanol. Moreover, the surface sulfur vacancies cEreated by subsurface Co-doping help
+R
+regulate the optimal distance between dual sites, faciliPtating asymmetric C-C coupling. Theoretical
+N
+calculations combined with in-situ isotopic spectroscopy validate these views, and the branching
+I
+pathway for converting *CHCO to *CHC E HO* is captured. Consequently, in a membrane electrode
+L
+C
+assembly electrolyzer, the optimized Co-Sub-CuS achieves an ethanol Faradaic efficiency of 78.7%
+I
+T
+at a partial current densityR of 550.9 mA cm-2, with stability over 305 h at industrial-level current
+A
+density of 700 mA cm-2. These findings provide a rational design for the development of
+directionally selective catalysts for CO electroreduction.
+2
+
+
+===== PAGE 4 =====
+
+ARTICLE IN PRESS
+Introduction
+The efficient electrochemical reduction of carbon dioxide (CO ER) to high-value-added
+2
+multicarbon (C ) chemicals is a highly sought-after objective, positioned at the nexus of carbon
+2
+neutrality and the clean energy economy1-3. Among these C products, ethanol (EtOH) is
+2
+particularly promising due to its high energy density (26.8 MJ/kg) and ease of transport 3-7. As is
+well known, Cu-based catalysts are among the most efficienSt and promising catalysts for
+S
+electrochemically reducing CO to ethanol8-11. However, cuErrent documentation on the directional
+2
+R
+selectivity for EtOH on Cu-based electrocatalystsP remains sparse, primarily owing to the
+N
+notoriously sluggish C-C coupling kinetics and the unsettled bifurcation pathway involving a
+I
+series of selective determining intermed E iates (SDI)12-15. In particular, the competing pathway for
+L
+C
+ethylene—another C2 product—poses a significant challenge in controlling the bifurcation
+I
+T
+towards EtOH at the post-RC-C coupling stage5,12,14. Therefore, steering the reaction towards EtOH
+A
+pathway after C-C coupling is crucial for achieving the desired directional selectivity for EtOH,
+alongside the ongoing focus on enhancing C-C coupling dynamics11,12,15.
+Experimental observations suggest that *CO intermediates undergo C-C coupling process,
+followed by protonation of the α-C to generate the shared initial intermediate *CHCO7,9,15,16. The
+subsequent protonation pathway of *CHCO, which forms a variable SDI in a tautomeric form, may
+play a decisive role in dictating the selectivity between C hydrocarbons (mainly C H ) and C
+2 2 4 2
+oxygenates (mainly EtOH), as revealed by density functional theory (DFT) calculations10,15-17.
+These variable SDI configurations can be broadly categorized based on the coordination of the
+
+
+===== PAGE 5 =====
+
+ARTICLE IN PRESS
+atoms with the Cu surface—either as *CH*COH in the form of surface-C bonds17-19, or as
+*CHCHO* in the form of surface-O bonds17,19. Theoretically, the latter configuration could
+efficiently prevent the loss of O atom in subsequent steps, thereby favoring the formation of C
+2
+oxygenates6,8,17,19. In contrast, the former configuration often occurs spontaneously due to its low
+free energy barrier, leading to dehydration during subsequent protonation steps and ultimately
+producing only C hydrocarbons5,14,17-19. In this regard, the binding strength of O atoms in the
+2
+*CHCHO* on the surface of Cu-based electrocatalysts could seSrve as a crucial descriptor for
+S
+evaluating the bifurcation potential between C H and EEtOH formation. In current Cu-based
+2 4
+R
+catalysts system, however, the experimental identPification and induction of *CHCHO* from
+N
+*CHCO have not been reported, primarily due to the uncontrollable binding of O atoms and the
+I
+uncertainty surrounding the adsorption fo E rm of the SDI8-11,16,17. Therefore, there is a pressing need
+L
+C
+to develop a rational and versatile catalyst design strategy to direct the branching SDI pathway
+I
+T
+toward EtOH, focusingR on controlling the adsorption configuration of oxygen-binding
+A
+intermediates (*CHCHO*).
+To date, strategies aimed at modifying surface oxophilicity have provided alternative routes
+to influence the adsorption configuration of oxygen-binding intermediates through techniques such
+as surface engineering20,21, doping effects22, alloying23,24, and interface engineering25. These
+approaches fundamentally rely on manipulating the electronic structure of active sites exposed at
+surface layer to optimize the coordination capacity of oxygen-binding intermediates. However, the
+electronic structure of active sites is largely determined by the local environment of the subsurface
+neighbors26-29. Thus, rational engineering of the subsurface in Cu-based catalysts offers a
+
+
+===== PAGE 6 =====
+
+ARTICLE IN PRESS
+promising approach to creating specific electronic states, thereby enabling precise regulation of
+surface oxophilicity and inducing the branching SDI, *CHCHO*.
+In this work, we developed a facile and scalable strategy to synthesize subsurface Co-doped
+CuS catalysts (Co-Sub-CuS) featuring abundant sulfur vacancies (V ) and surface-subsurface
+S
+electron interactions, enabling the directional selectivity of CO electroreduction to EtOH through
+2
+the branching pathway from *CHCO to *CHCHO* following promoted C-C coupling. Specifically,
+the intrinsically generated V and the specific electronic propertiSes of Co-Sub-CuS were proven
+S
+S
+to regulate optimally-distanced dual sites and create asymEmetric active sites, thereby triggering
+R
+asymmetric OC-COH coupling due to the blended adPsorption configuration. The electron transfer
+N
+from Cu to Co, induced by subsurface Co doping, enhances oxophilicity at surface metal sites,
+I
+promoting the formation and conversion E of *CHCHO* intermediates via surface-O bonds while
+L
+C
+suppressing the production of *CH*COH intermediates. DFT predictions combined with in-situ
+I
+T
+isotopic spectroscopy valRidate these findings, capturing the selective determining intermediates
+A
+*CHCHO*. Consequently, in a flow cell, the optimized Co-Sub-CuS catalysts exhibited a Faradaic
+efficiency (FE) of 87.6% and 79.4% for C and EtOH products at a partial current density of 602.0
+2
+mA cm−2, with a stability over 410 h. In a membrane electrode assembly (MEA) electrolyzer, the
+Co -Sub-CuS catalysts achieved an FE of 78.7% for EtOH products, and a full-cell ethanol
+0.050
+energy efficiency of 26.1% at -3.47 V. The concept of branching control over oxygen-binding
+intermediates, demonstrated using a generalized subsurfaced doped Cu-based catalyst model,
+marks a significant advancement in the directional CO -to-EtOH conversion at industrial current
+2
+densities. This approach offers valuable insights forboth fundamental research and applications in
+
+
+===== PAGE 7 =====
+
+ARTICLE IN PRESS
+electroreduction CO
+2
+for fuel conversion, with broad and far-reaching implications.
+Results
+Preparation and Characterizations of Co-Sub-CuS Catalyst
+Subsurface Co-doped CuS catalysts were synthesized via a one-step solvothermal method
+using [Cu(Tu)]Cl·1/2H O as the self-sacrificing template and Co3+S as the dopant. During the redox
+2
+S
+and vulcanization process, Co3+ was reduced to Co2+ and Eintroduced into the subsurface of CuS
+R
+(denoted as Co -Sub-CuS, where x is the atomic ratioP of Co/(Co+Cu)). For comparison, Co-doped
+x
+N
+CuS surface catalysts (denoted as Co-Sur-CuS) were prepared through ion exchange using Co2+ as
+I
+E
+the dopant. Scanning electron microscopy (SEM), transmission electron microscopy (TEM), and
+L
+C
+X-ray diffraction (XRD) revealed that these catalysts exhibit similar nanosheet morphologies and
+I
+T
+CuS crystal structures (SuRpplementary Fig. 1a-d, Fig. 1a and Supplementary Figs. 2-4). The Co
+A
+content in Co -Sub-CuS and Co-Sur-CuS catalysts was determined by inductively coupled plasma
+x
+atomic emission spectroscopy (ICP-AES) and energy-dispersive X-ray (EDX) mapping
+(Supplementary Fig. 5, Supplementary Fig. 1e-h, and Supplementary Table 1). High-resolution
+TEM (HRTEM) measurements (Fig. 1b) showed that Co -Sub-CuS displays a lattice fringe of
+0.050
+3.24 Å (Fig. 1b1), indexed to the (100) planes of hexagonal CuS, which aligns with the
+corresponding fast Fourier transformation (FFT) (Fig. 1c and Supplementary Fig. 6). In contrast
+to the well-monocrystalline nature of pristine CuS and Co -Sur-CuS (Supplementary Fig. 6 and
+0.050
+Fig. 7), Co -Sub-CuS exhibits numerous defects and disordered lattice fringes across the entire
+0.050
+
+
+===== PAGE 8 =====
+
+ARTICLE IN PRESS
+nanocrystal surfaces (Fig. 1b2-b3 and Supplementary Fig. 8), along with additional diffraction
+spots in the FFT pattern, indicating a disruption of crystal symmetry (Fig. 1d and 1e). Enhanced
+signals at g=2.003 in electron paramagnetic resonance (EPR) spectroscopy (Supplementary Fig. 9)
+further confirmed a higher concentration of S-vacancies (V ) in Co -Sub-CuS compared to
+S 0.050
+pristine CuS and Co -Sur-CuS. This defect-rich nature is likely a result of Co doping via redox
+0.050
+reactions, which more effectively disrupts the original lattice compared to ion exchange doping.
+S
+S
+E
+R
+P
+N
+I
+E
+L
+C
+I
+T
+R
+A
+
+
+===== PAGE 9 =====
+
+ARTICLE IN PRESS
+Fig. 1 | Structural characterizations. (a) TEM images of Co -Sub-CuS. (b) HRTEM images
+0.050
+of Co -Sub-CuS. (b1-b3) enlargement of dash squares in (b), S-vacancies (V ) (labeled by the
+0.050 S
+yellow dotted circles) and line defect (marked by the dotted red line). (c-e) FFT patterns of
+respective region. Cobalt TOF-SIMS mapping images of Co -Sub-CuS (f) and Co -Sur-CuS
+0.050 0.050
+(g), (insert, semiquantitative analysis of TOF-SIMS spectra of Co element of Co -Sub-CuS and
+0.050
+Co -Sur-CuS). (h) Cu K-edge XANES spectra of Co -Sub-CuS, Co -Sur-CuS and CuS.
+0.050 0.050 0.050
+(i) Fitting of k2-weighted EXAFS spectra of Co -Sub-CuS, Co -Sur-CuS and CuS. (j) Co K-
+0.050 0.050
+edge XANES spectra of Co -Sub-CuS, Co -Sur-CuS and standards. (k) Fitting of k2-
+0.050 0.050
+weighted EXAFS spectra of Co -Sur-CuS, Co -Sub-CuS and standards. (l) Corresponding
+0.050 0.050
+wavelet transforms of k2-weighted EXAFS spectra at Co K-edge for Co -Sub-CuS and Co -
+0.050 0.050
+Sur-CuS. (m) Scheme of activating and enhancing oxophilicity of surface Cu sites by subsurface
+Co doping, blue, yellow and purple color spheres in the model represent Cu, S and Co atoms, red-
+hollow and cyan-color spheres represent V and e-, respectively. Source data for Fig. 1h-l are
+S S
+provided as a Source Data file.
+S
+E
+Subsurface Doping and the Optimization of ElectronRic Structure
+P
+To precisely determine the doping location of Co atoms, time-of-flight secondary-ion mass
+N
+I
+spectrometry (TOF-SIMS) was utilized, a highly sensitive method capable of detecting the top
+E
+L
+atomic layers of elements on the catalyst surface30. Fig. 1f, 1g, and Supplementary Fig. 10 show
+C
+I
+more bright purple spots corresponding to Co elements in Co -Sur-CuS than in Co -Sub-
+T 0.050 0.050
+R
+CuS, which is consisteAnt with semiquantitative analysis (Supplementary Fig. 11). This indicates
+that a greater proportion of Co atoms may exist in the subsurface of Co -Sub-CuS.
+0.050
+X-ray photoelectron spectroscopy (XPS) was employed to examine the valence states and
+electronic interactions among the elements in our catalysts (Supplementary Fig. 12).
+Supplementary Fig. 13a displays the Cu 2p core-level spectra of Co -Sub-CuS, Co -Sur-CuS,
+0.050 0.050
+and CuS samples. In Co -Sub-CuS, the binding energies of 934.12 and 954.08 eV correspond
+0.050
+to Cu2+ species, while the S 2p core-level spectra (Supplementary Fig. 13b) show typical S2-
+species features at 161.90 and 163.19 eV31,32. The Cu 2p peak of Co -Sub-CuS exhibits a
+0.050
+
+
+===== PAGE 10 =====
+
+ARTICLE IN PRESS
+positive energy shift of 0.44 eV for Cu2+ species compared to CuS, whereas the S 2p peak shifts
+to lower binding energy by 0.38 eV. Similar XPS peak shifts were observed for other Co -Sub-
+x
+CuS samples (Supplementary Figs. 14-16), with the degree of shift increasing with a higher Co
+doping, peaking at x=0.050, which showed the maximum deviation value (Supplementary Fig. 17).
+In contrast, the XPS peak of the Co 2p in Co -Sub-CuS exhibited the most pronounced shift
+0.050
+toward the negative binding energy direction. This result indicates that Co -Sub-CuS
+0.050
+experienced the most significant electronic modulation within theS Co -Sub-CuS series33.
+x
+S
+The fine structure of Cu and Co species was furtheEr investigated by synchrotron X-ray
+R
+absorption spectroscopy (XAS). The Cu valence statPes in Co -Sub-CuS, Co -Sur-CuS, and
+0.050 0.050
+N
+CuS were assessed via Cu K-edge X-ray absorption near-edge structure (XANES) spectra. Fig. 1h
+I
+E
+shows that both Co -Sub-CuS and Co -Sur-CuS exhibit absorption edges shifted to higher
+0.050 0.050
+L
+C
+energy compared to pristine CuS, with Co -Sub-CuS exhibiting a larger shift, indicating higher
+0.050
+I
+T
+oxidation states of Cu atomRs. The extended X-ray absorption fine structure (EXAFS) spectra at the
+A
+Cu K-edge (Fig. 1i and Supplementary Fig. 18) reveal primary peaks at 1.81 Å, which are
+consistent across Co -Sub-CuS, Co -Sur-CuS, and pristine CuS, indicating the main
+0.050 0.050
+structure of CuS is maintained. However, the peak intensity in Co -Sub-CuS is weaker,
+0.050
+suggesting a higher degree of coordination defects and surface disorder34,35. The Co absorption
+edge in Co -Sub-CuS is significantly shifted to a lower energy compared to Co -Sur-CuS
+0.050 0.050
+(Fig. 1j), indicating lower oxidation states of Co atoms. This shift is attributed to subsurface-doped
+Co inducing electron transfer from Cu to Co, aligning with the XPS results. The EXAFS spectra
+of the Co-edge (Fig. 1k and Supplementary Fig. 19) reveal a peak at 1.83 Å corresponding to Co-
+
+
+===== PAGE 11 =====
+
+ARTICLE IN PRESS
+S bonds in both Co -Sub-CuS and Co -Sur-CuS. However, a additional peak at 2.23 Å in
+0.050 0.050
+Co -Sub-CuS suggests the presence of subsurface Co-S bonds. EXAFS wavelet transform
+0.050
+analysis further confirms the existence of two types of Co-S bonds in Co -Sub-CuS (Fig. 1l).
+0.050
+To sum up, as shown in Fig. 1m, subsurface doping of Co atoms generated surface defects that
+activated dual-Cu sites. Additionally, the electron transfer from Cu to Co sites induced by
+subsurface doping enhanced the oxophilicity of Cu sites, which was critical for the adsorption of
+key intermediates in the EtOH pathway during CO RR via surfacSe-O bonds.
+2
+S
+E
+R
+Catalytic Performance for CO ER P
+2
+N
+The catalytic performances were first evaluated in a three-electrode flow-cell using 1M KOH
+I
+E
+aqueous as the electrolyte (Supplementary Fig. 20). All voltages reported were converted to the
+L
+C
+reversible hydrogen electrode (RHE) scale with 85% iR-correction. Fig. 2a displays the linear
+I
+T
+sweep voltammetry (LSVR) curves of the synthesized catalysts, measured in either CO
+2
+- or Ar-
+A
+saturated electrolytes. The cathodic current densities of these catalysts under CO -saturated
+2
+conditions were largely higher than those under Ar-saturated conditions, highlighting the catalyst’s
+preference for CO ER36.
+2
+The Faradaic efficiencies (FEs) of various gaseous and liquid products (Supplementary Figs.
+21-23) were measured within the potential range of -0.4 V to -1.0 V using gas chromatography
+(GC, Supplementary Fig. 24) and nuclear magnetic resonance (NMR, Supplementary Figs. 25-26).
+According to the FE of C products for these catalysts under different applied potentials (Fig. 2b),
+2
+EtOH was the exclusive C oxygenate, while C H and C H were the only C hydrocarbons
+2 2 4 2 6 2
+
+
+===== PAGE 12 =====
+
+ARTICLE IN PRESS
+(mainly C H ). As the applied potential increased, the FE of Co -Sub-CuS exhibited a
+2 4 C2 0.050
+volcano-shaped trend, reaching a maximum value of approximately 90% at -0.8 V. Additionally,
+the FE reached around 80% among all the products, demonstrating a high selectivity towards
+EtOH
+EtOH. Co -Sub-CuS also exhibited the highest total current density and partial current density
+0.050
+for both C and EtOH across the applied potentials. Notably, the partial current density of EtOH
+2
+on Co -Sub-CuS reached 602.0 mA cm-2 at -0.8 V, significantly surpassing that of Co -Sur-
+0.050 0.050
+CuS (140.8 mA cm-2) or CuS (49.9 mA cm-2) (Fig. 2b and SupplemSentary Figs. 27-28), exceeding
+S
+the current target for practical applications (> 300 mA cm-2E)37,38.
+R
+P
+N
+I
+E
+L
+C
+I
+T
+R
+A
+
+
+===== PAGE 13 =====
+
+ARTICLE IN PRESS
+S
+S
+E
+R
+P
+N
+I
+E
+L
+C
+I
+T
+R
+A
+Fig. 2 | CO ER performance for Co -Sub-CuS, Co -Sur-CuS and CuS. (a) LSV curves. (b)
+2 x 0.050
+Potential-dependent C FE and EtOH current density. (c) Ratio of FE to FE and (d) Ratio of
+2 C2 CO
+FE to FE under selected potential. FE (e), yield rate (f) and EE (g) for EtOH production
+EtOH C2H4
+over Co -Sub-CuS and Co -Sur-CuS. (h) Schematic diagram of the MEA electrolyzer. (i) C FE
+x 0.050 2
+and partial current density at selected cell voltage under MEA measurement. (j) Comparison of the
+performance metrics of the Co -Sub-CuS catalyst with recently reported catalysts (details in
+0.050
+Table S8). (k) CO ER stability of the Co -Sub-CuS catalyst in a three-electrode flow cell at a
+2 0.050
+
+
+===== PAGE 14 =====
+
+ARTICLE IN PRESS
+constant potential of 0.8 V vs. RHE. (l) EtOH FE and cell voltage during CO ER at a constant
+2
+current of 700 mA cm-2 in an MEA electrolyzer. All voltages were converted to the reversible
+hydrogen electrode (RHE) scale with 85% iR-correction. Error bars represent the standard
+deviation from at least three independent measurements. Source data for Fig. 2a-g, Fig. 2i and Fig.
+2k, l are provided as a Source Data file.
+Since *CO is considered a key intermediate for generating ≥2e- products39, the FE /FE ratio
+C2 CO
+of these catalysts was calculated to assess the electrochemical conversion efficiency of *CO-to-C
+2
+(Fig. 2c). Co -Sub-CuS exhibiting a high FE /FE ratio at -0.8 V, nearly 6 and 9 times higher
+0.050 C2 CO
+than that of Co -Sur-CuS and CuS, respectively, displayed Sthe high *CO-to-C conversion
+0.050 2
+S
+efficiency. The FE /FE ratio of Co -Sub-CuS wasE also the highest among these catalysts
+EtOH C2H4 0.050
+R
+(Fig. 2d), demonstrating the high selectivity for EtOPH. Co -Sub-CuS not only accelerated the
+0.050
+N
+C-C coupling process of *CO, enhancing the overall selectivity of C products, but also promoted
+2
+I
+E
+the directional preference for EtOH pathways in CO ER. In contrast, Co -Sur-CuS exhibited a
+2 0.050
+L
+C
+higher FE /FE ratio than CuS, yet both catalysts demonstrated low *CO-to-C conversion
+EtOH C2H4 2
+I
+T
+efficiencies. This suggestsR that Co doping promotes the selection of the EtOH path following C-C
+A
+coupling, with surface V caused by subsurface Co doping likely playing a key role in improving
+S
+the overall selectivity for C product.
+2
+The CO ER performance of various Co -Sub-CuS catalysts with different Co doping levels
+2 x
+was assessed (Supplementary Figs. 29-34, summarized in Supplementary Tables 2-7). It is shows
+that Co -Sub-CuS exhibited the highest FE (Fig. 2e), EtOH formation rate (Fig. 2f), energy
+0.050 EtOH
+efficiency of EtOH (EE , Fig. 2g), and EtOH partial current density (Supplementary Fig. 35)
+EtOH
+across different applied potentials, with a distinct inhibitory effect on FE hydrocarbon compared
+C2
+to bare CuS (Supplementary Fig. 36), the heatmaps displayed more clearly (Supplementary Fig.
+
+
+===== PAGE 15 =====
+
+ARTICLE IN PRESS
+37). Both FE and FE exhibited a volcanic trend with increasing Co doping, while FE and
+EtOH C2 CO
+FE hydrocarbon showed an inverse trend (Supplementary Figs. 38-40). For Cu-based catalysts,
+C2
+the *CO coverage on the Cu surface facilitates C-C coupling, affecting both EtOH and C H
+2 4
+formation. However, only FE correlated with FE on Co -Sub-CuS, indicating that enhanced
+EtOH CO x
+EtOH selectivity not only depends on C-C coupling, but also on additional factors that direct the
+subsequent CO ER pathway toward EtOH.
+2
+Long-term stability remains a critical challenge for CO
+2
+ER, esSpecially at high current densities
+S
+(> 300 mA cm-2). Fig. 2k shows that the Co -Sub-CuS Ecatalyst maintained stable electrolysis
+0.050
+R
+for over 410 h with a constant current density of 760-7P30 mA cm-2 in a flow cell at -0.8 V, achieving
+N
+a FE of approximately 78%. This stability is attributed to the catalyst’s robust structural
+EtOH
+I
+E
+integrity during CO ER (Supplementary Figs. 41-42). Co -Sub-CuS also retained high
+2 0.050
+L
+C
+hydrophobicity throughout the CO ER process, which is essential for maintaining efficient three-
+2
+I
+T
+phase interfaces (SupplemRentary Figs. 43-44)40. The performance and stability of Co
+0.050
+-Sub-CuS
+A
+for EtOH production in CO₂ER meet commercial requirements and are competitive with the
+previously reported results (Fig. 2j and Supplementary Table 8).
+To further explore the intrinsic electrocatalytic activity, the electrochemically active surface
+area (ECSA) was evaluated by electrochemical double-layer capacitance (C )20. Co -Sub-CuS
+dl 0.050
+exhibited the largest ECSA, which is favorable for the formation of abundant active sites for
+CO ER (Supplementary Figs. 45-46). The normalized ECSA current density of Co -Sub-CuS
+2 0.050
+was also the highest, proving its high intrinsic electrocatalytic activity (Supplementary Fig. 47).
+Additionally, the lowest Tafel slope and electrochemical impedance spectroscopy (EIS) results
+
+
+===== PAGE 16 =====
+
+ARTICLE IN PRESS
+demonstrated the fastest CO ER kinetics and charge transfer rate on Co -Sub-CuS22,41,
+2 0.050
+respectively (Supplementary Figs. 48-49).
+The CO ER activity of Co -Sub-CuS was tested in a MEA electrolyzer (Fig. 2h). A strong
+2 0.050
+linear relationship was observed between the applied cell voltage and current density
+(Supplementary Fig. 50). The FEs of all products tested in the flow-cell were well reproduced in
+the MEA electrolyzer (Fig. 2i and Supplementary Figs. 51-52, summarized in Supplementary
+Table 9). At a cell voltage of -3.47 V, Co -Sub-CuS catalystsS achieved a FE of 78.7%, a
+0.050 EtOH
+S
+partial current density of ≈ 550.9 mA cm-2 for EtOH, and aE full-cell energy efficiency (EE )
+full‑cell
+R
+of ≈ 26.1% for EtOH (Supplementary Fig. 53), compaPred with previously reported electrocatalysts
+N
+for selective ethanol production in an MEA electrolyzer, exhibited competitive electrocatalytic
+I
+E
+performance (Supplementary Table 10). The FE /FE ratio at different cell voltages was also
+C2 CO
+L
+C
+evaluated (Supplementary Fig. 54), with a ratio of ≈ 13 at -3.47 V, indicating the high C-C coupling
+I
+T
+orientation capability. TheR CO
+2
+ER stability of Co
+0.050
+-Sub-CuS catalysts in MEA electrolyzers was
+A
+systematically evaluated (Fig. 2l), showing well stability for 305 h at a total current density of 700
+mA cm-2, with a stable cell voltage ranging from -3.45 V to -3.72 V, and an average FE of ≈
+EtOH
+76%. The microstructure of Co -Sub-CuS remained intact after CO ER (Supplementary Figs.
+0.050 2
+55-56).
+Deciphering Ethanol Reaction Pathways
+EtOH and C H follow similar CO ER pathways, both undergoing protonation to the shared
+2 4 2
+intermediate *CHCO, where the bonding configuration of its protonated form *CHCHO plays a
+
+
+===== PAGE 17 =====
+
+ARTICLE IN PRESS
+pivotal role in determining the selectivity between EtOH and C H 11,16,17. The selectivity of Co -
+2 4 0.050
+Sub-CuS for EtOH in CO ER suggests that subsurface Co doping may alter the bonding mode of
+2
+*CHCHO, thereby steering the reaction towards the selective production of EtOH. In-situ Fourier-
+transform infrared (FTIR) spectroscopy was employed to dynamically track the evolution of
+reaction intermediates, complemented by DFT calculations to explore potential bonding modes of
+intermediates in the CO -to-EtOH transformation pathway.
+2
+S
+S
+E
+R
+P
+N
+I
+E
+L
+C
+I
+T
+R
+A
+
+
+===== PAGE 18 =====
+
+ARTICLE IN PRESS
+Fig. 3 | In-situ characterization and mechanism exploration of the CO ER to EtOH. In-situ
+2
+FTIR spectra of Co -Sub-CuS in (a) 12CO -saturated 1 M KOH with H O, (b) 13CO -saturated
+0.050 2 2 2
+1 M KOH with H O. (c) Comparison of the in-situ FTIR spectra on Co -Sub-CuS in 12CO -
+2 0.050 2
+saturated 1 M KOH with H O, 13CO -saturated 1 M KOH with H O and 12CO -saturated 1 M KOH
+2 2 2 2
+with D O. In-situ FTIR spectra of Co -Sub-CuS in (d) 12CO -saturated 1 M KOH with D O as
+2 0.050 2 2
+electrolyte from 0.1 V vs. RHE to -1.1 V vs. RHE. (e) The calculated infrared-active vibrational
+frequency of *OCCOH on Co -Sub-CuS. (f) The calculated infrared-active vibrational
+0.050
+frequency of *CHCHO* on Co -Sub-CuS, the right is the different adsorption modes of two key
+0.050
+intermediates *CHCHO* and *CHC*OH at dual-Cu sites. (g) In-situ Raman peaks on Co -Sub-
+0.050
+CuS in 1 M KOH from 0.1 V vs. RHE to -1.1 V vs. RHE during CO ER. (h) Comparison of the
+2
+LFB/(HFB+LFB) ratio in in-situ Raman spectra for different catalysts at different applied potential.
+S
+(i) Comparison of the *OC /(*OC +*OC ) ratio in in-situ FTIR spectra for different
+bridge bridge atop S
+catalysts at different applied potential. (j) Schematic illustration of the underexplored asymmetric
+E
+coupling process and ethanol path directed selectivity problem in CO electroreduction, and flow
+R 2
+diagram illustrating the working principles of isotopic tracking of surface-adsorbed intermediates
+P
+based on 12C/13C and H/D isotopes in tandem with in-situ FTIR spectra. (k) Schematic for boosted
+EtOH generation over Co -Sub-CuS. Blue, Nsilver, pink, red, gray, and green-color spheres in
+0.050
+the model represent Cu, S, Co, O, C, and HI atoms, respectively. Source data for Fig. 3a-i are
+provided as a Source Data file.
+E
+L
+C
+Fig. 3a shows the in-situ FTIR spectra of Co -Sub-CuS in a 12CO -saturated 1 M KOH with
+0.050 2
+I
+T
+H
+2
+O under potential-depeRndent conditions. Peaks at 2054 and 1896 cm-1 for Co
+0.050
+-Sub-CuS and
+A
+Co -Sur-CuS (Supplementary Fig. 57) correspond to atop-adsorbed *CO (*CO ) and bridge-
+0.050 atop
+adsorbed *CO (*CO ) on Cu sites, respectively38,42-45. In contrast, CuS mainly shows the *CO
+bridge atop
+peak, with minimal evidence of *CO in the same potential region (Supplementary Fig. 58).
+bridge
+Previous studies indicate that protonation of *CO on the Cu surface is more energetically
+bridge
+favorable than protonation of *CO 38,42. The simultaneous presence of *CO and *COH (or *CHO)
+atop
+following *CO protonation can trigger asymmetric C-C coupling on Co -Sub-CuS. The
+bridge 0.050
+appearance of *CHO intermediates at 1259 cm-1 in the in-situ FTIR spectra of Co -Sub-CuS
+0.050
+further supports this mechanism42.
+
+
+===== PAGE 19 =====
+
+ARTICLE IN PRESS
+In-situ FTIR spectra of *OCCOH intermediates involved in C-C asymmetric coupling were
+verified using hydroxypropanone, a compound with a hydroxyl group adjacent to the carbonyl
+group (OCCOH). The band detected at 1152 cm-1 on Co -Sub-CuS during CO ER at -0.8 V is
+0.050 2
+consistent with the C-OH of hydroxypropanone (Supplementary Fig. 59 and Fig. 3a). However,
+H O exhibits a broad O-H bending band in the range 1750-1550 cm-1 46,47, which may overlap the
+2
+C=O vibration signal at 1615 cm-1. To further confirm this, a spectrum recorded using isotopically
+labelled 13CO and replacing the solvent with D O (Fig. 3b aSnd 3j). Pre-labeled C-reaction
+2
+S
+intermediates showed a shift of approximately 43-47 cm-E1 compared with 12C, confirming that
+R
+these bands originate from C-containing species Pof CO ER48. More importantly, the C=O
+2
+N
+stretching of *OCCOH in the 13CO atmosphere shifted to 1575 cm-1, separating it from the O-H
+I
+bending band in H O compared to 12C E spectrum (Fig. 3c and Supplementary Figure 60a). The
+2
+L
+C
+spectra recorded in a 12CO atmosphere with D O supported these views (Fig. 3d and
+2
+I
+T
+Supplementary Figure 60Rb, see details in Supplementary Note 1). Theoretical calculations of the
+A
+FTIR spectra of *OCCOH intermediates adsorbed on the surface of Co -Sub-CuS showed a
+0.050
+C=O stretching at 1151 cm-1, and a C-OH stretching at 1629 cm-1, which correspond to the
+experimental values of 1621 cm-1 and 1132 cm-1, respectively (Fig. 3e and Supplementary Fig. 61).
+A peak at 1540 cm-1, indicative of *OCCO species, was detected on CuS and Co -Sur-CuS, a
+0.050
+key intermediate in traditional C-C symmetric coupling using surface-adsorbed *CO42,49,50.
+Stronger bands at 1335 cm-1 and 1117 cm-1 were detected on Co -Sub-CuS, which are
+0.050
+attributed to *OC H 38,49,51-53, a key intermediate in EtOH production (Fig. 3a). In contrast, only
+2 5
+weak *OC H signals were detected, or none at all, on Co -Sur-CuS and CuS, respectively
+2 5 0.050
+
+
+===== PAGE 20 =====
+
+ARTICLE IN PRESS
+(Supplementary Figs. 57-58). This observation highlights the directional selectivity of the Co -
+0.050
+Sub-CuS catalyst for EtOH. The selectivity between EtOH and C H is primarily governed by the
+2 4
+bonding mode of the protonation intermediate *CHCHO form *CHCO at Cu sites. Co -Sub-
+0.050
+CuS’s pronounced selectivity for EtOH and the electron transfer mechanism induced by Co doping
+suggest that Co doping optimizes the electron configuration of Cu sites and changes the bonding
+form of *CHCHO. Electron transfer from Cu to Co sites decreases the coordination number of Cu
+sites, thereby enhancing the coordination capacity of Cu and O siteSs and promoting the protonation
+S
+of *CHCO to *CHCHO* intermediates in the form of sEurface-O bonds (the right schematic
+R
+illustration of Fig. 3f). And the subsequent protonatioPn steps are carried out via adsorbed O atoms.
+N
+This effectively prevents the protons in the electrolyte from attacking the O atoms, thereby
+I
+E
+inhibiting dehydration and the loss of oxygen atom, which facilitates the production of EtOH in
+L
+C
+subsequent reactions. Theoretical calculations of the FTIR spectra of *CHCHO* intermediates
+I
+T
+adsorbed on the surface oRf Co
+0.050
+-Sub-CuS confirmed the protonation of *CHCO to *CHCHO*
+A
+(Fig. 3f and Supplementary Fig. 62). The calculated spectrum showed the C-H stretching in
+different directions at 1194 cm-1, 1399 cm-1 and 2497 cm-1, which corresponded to the measured
+results at 1206 cm-1, 1409 cm-1 and 2979 cm-1, respectively (see details in Supplementary Note 2).
+To further verify the key protonation process of *CHCO from *CHCHO*, methoxyethene with the
+group of -CH=CH-O- was used. Band detected at 1190 cm-1, 1417 cm-1 and 2998 cm-1 were
+corresponded to the experimental results (Supplementary Fig. 63).
+Based on the above analysis, a mechanism for the directional selection of EtOH production
+can be proposed. Subsurface Co doping induces a mixed adsorption configuration of *CO and
+atop
+
+
+===== PAGE 21 =====
+
+ARTICLE IN PRESS
+*CO , resulting in asymmetric OC-COH coupling, which is further supported by in-situ Raman
+bridge
+spectroscopy (Fig. 3g-i and Supplementary Figs. 64-67, see details in Supplementary Note 3).
+Subsequently, the shared intermediate *CHCO transformed into *CHCHO* via surface-O bonds by
+hydrogenated carbon atoms, followed by the next protonation step through the adsorption of O
+atoms. The complete reaction pathway from CO to EtOH on Co -Sub-CuS is as follows: 2CO
+2 0.050 2
+→ 2*COOH → *CO + *CO → *COH + *CO → *OCCOH → *CCO → *CHCO →
+bridge atop atop
+*CHCHO* → *OCHCH → *OCHCH → *OCH CH → C HSOH (Fig. 3k). The design of
+2 3 2 3 2 5
+S
+subsurface Co-doped CuS selectively directs EtOH produEction by promoting asymmetric C-C
+R
+coupling and controlling the branching pathway. P
+N
+I
+E
+DFT Calculations
+L
+C
+To investigate the role of subsurface cobalt in controlling the selectivity of C products, DFT
+2
+I
+T
+calculations were performRed. The analysis of CO
+2
+ER selectivity begins with examining the co-
+A
+adsorbed state of *CO and *COH, which is a critical initial step in the competing reaction
+pathways54,55. As shown in Fig. 4a, these pathways diverge towards the production of either
+ethylene (Path 1) or EtOH (Path 2). Ab initio molecular dynamics (AIMD) were used to compare
+the structural characteristics of CuS-based catalysts (Supplementary Fig. 68), one with only sulfur
+vacancies (Vs-CuS) and another with sulfur vacancies plus cobalt atoms doped into the sub-layer
+(Co-Sub-CuS). The radial distribution function (gI) shows a first peak within 2.55 Å at ambient
+temperature (Supplementary Fig. 69). Upon adsorption of CO ER intermediates onto the catalyst,
+2
+the Cu-Cu distances change. Specifically, when *CO and *COH are co-adsorbed on the Vs-CuS
+
+
+===== PAGE 22 =====
+
+ARTICLE IN PRESS
+catalyst, the Cu-Cu distance increases from 2.67 Å to 3.52 Å after the coupling reaction, yielding
+OCCOH* (Supplementary Fig. 70). In contrast, on Co-Sub-CuS, this distance changes from 2.53
+Å to 3.16 Å under the same conditions (Fig. 4b). The energy profiles suggest that asymmetric C-
+C coupling is thermodynamically favorable on both Vs-CuS and Co-Sub-CuS catalysts (Fig. 4c),
+confirming the feasibility of asymmetric coupling reactions on these catalysts.
+After asymmetric C-C coupling, the determination of the C product depends on the
+2
+subsequent reduction path of the *CHCO intermediate: Path 1 lSeads to ethylene, while Path 2
+S
+results in EtOH. To understand the mechanism underlying Ethis selectivity, energy profiles for the
+R
+critical steps in both reaction pathways were calcuPlated (Fig. 4d). On Vs-CuS, the *CHCO
+N
+intermediate undergoes two spontaneous steps for both paths (blue line). In contrast, on Co-Sub-
+I
+E
+CuS, Path 1 shows an initial energy increase (0.64 eV) before decreasing, while Path 2 consistently
+L
+C
+decreases (red line). This indicates that Co-Sub-CuS has a pronounced preference for Path 2,
+I
+T
+resulting in higher selectiRvity towards EtOH over ethylene. The difference in reactivity is mainly
+A
+due to interactions between the catalysts and the *CHC*OH and *CHCHO* intermediates. To
+explore the bonding characteristics at the interface, the projected crystal orbital Hamilton
+population (-pCOHP) analysis was conducted. On Vs-CuS, *CHC*OH is adsorbed at the Cu and
+1
+Cu sites with the anti-bonding orbitals below the Fermi level (Fig. 4e), suggesting that the
+2
+*CHC*OH intermediate is stabilized by Vs-CuS. In contrast, on Co-Sub-CuS, the C-Cu bond
+1
+shows anti-bonding states crossing the Fermi level, indicating electronic instability of the
+*CHC*OH adsorbed on Co-Sub-CuS. For the *CHCHO* intermediate, anti-bonding orbitals appear
+at the Fermi level in both the C-Cu and O-Cu bonds at the copper sites of Vs-CuS and Co-Sub-
+
+
+===== PAGE 23 =====
+
+ARTICLE IN PRESS
+CuS catalysts (Supplementary Fig. 71), indicating an unstable electronic structure for the
+*CHCHO* intermediate. Given these observations, the *CHC*OH and *CHCHO* intermediates
+might need to undergo backward oxidation or forward reduction to achieve a more stable electronic
+state. Therefore, various theoretical adsorption configurations for *CHCO, *CHC*OH and
+*CHCHO* on Vs-CuS (Supplementary Figs. 72-74) and Co-Sub-CuS (Supplementary Figs. 75-77)
+were explored to gain a comprehensive understanding of the adsorption states and reaction
+selectivity. S
+S
+E
+R
+P
+N
+I
+E
+L
+C
+I
+T
+R
+A
+
+
+===== PAGE 24 =====
+
+ARTICLE IN PRESS
+S
+S
+E
+R
+P
+N
+I
+E
+L
+C
+I
+T
+R
+A
+Fig. 4 | Mechanistic study. (a) Reaction routes via C-C coupling (grey) towards C products. Path
+2
+1 for the generation of ethylene (blue), and Path 2 for EtOH (red). (b) On the Co-Sub-CuS catalyst,
+*CO and *COH co-adsorb on Cu sites and asymmetrically couple to form OCCOH*, with dashed
+arrows denoting Cu-Cu distances. (c) Energy profiles for the *CO + *COH → OCCOH* on Vs-
+CuS and Co-Sub-CuS. Initial state (IS), transition state (TS) and final state (FS) are depicted in the
+
+
+===== PAGE 25 =====
+
+ARTICLE IN PRESS
+insets. (d) Energy profiles for the reduction of *CHCO. (e) -pCOHP curves of the C-Cu and C-
+1
+Cu bonds. (f) Heat map depicting reaction energy profiles for conversion of *CHCO. B -B refer
+2 1 3
+to three adsorption configurations of *CHCO; C -C denote four configurations of *CHC*OH along
+1 4
+Path 1 and O -O represent *CHCHO* along Path 2. See Supplementary Information for structure
+1 4
+details. (g) *CHCHO* on Co-Sub-CuS with one layer of water molecules. Hydrogen bonds are
+shown in dashed lines, with arrows illustrating the Cu-Cu distance in (h) *CHCHO* and (i)
+*CHC*OH. Configurations of (j) *CHCHO* and (k) *CHC*OH on Vs-CuS. (l) Differential charge
+density plots of *CHCHO* on Co-Sub-CuS. Isosurfaces were generated at ±0.002 e–/bohr3, with
+blue and yellow areas representing electron loss and gain, respectively. Source data for Fig. 4c-e
+are provided as a Source Data file.
+Energy profiles for the transformation of *CHCO across different adsorption configurations
+S
+were calculated (Fig. 4f). For the Vs-CuS catalyst, reaction enSergy changes exhibit a wide range
+E
+from negative to positive (upper panel). In the C rRegion associated with Path 1, there is a
+1-4
+P
+coexistence of positive and negative energy varia tions, with a similar state in the O region
+N 1-4
+I
+corresponding to Path 2. Therefore, on th e Vs-CuS surface, whether Path 2 holds a selective
+E
+L
+advantage over Path 1 depends on the specific adsorption configuration. In contrast, with the Co-
+C
+I
+Sub-CuS catalyst, the competing reaction pathways show two distinct modes (lower panel).
+T
+R
+Specifically, reaction Aenergies in the C
+1-4
+region are characterized by a positive distribution,
+whereas the O region exhibits a negative distribution. Adsorbed intermediates B and B ,
+1-4 1 2
+originating from distinct configurations, converge to the same optimized structure. Therefore, on
+the Co-Sub-CuS surface, Path 2 consistently exhibits a thermodynamic preference over Path 1,
+regardless of the adsorption configurations. To verify the preference of Path 2 for Co-Sub-CuS,
+water molecules were introduced into the adsorption configurations (Supplementary Fig. 78),
+allowing for calculations under conditions more closely resembling the electrode-solution
+interface. Hydrogen bonding interactions were observed between interfacial water and the
+
+
+===== PAGE 26 =====
+
+ARTICLE IN PRESS
+adsorbed intermediates *CHCHO* (Fig. 4g) and *CHC*OH (Supplementary Fig. 79). For the Co-
+Sub-CuS catalyst, three Cu sites participate in the adsorption of these intermediates. The Cu-Cu
+distances involved in *CHCHO* adsorption are 2.48 Å and 2.74 Å (Fig. 4h), while those for
+*CHC*OH adsorption are 2.43 Å and 3.26 Å (Fig. 4i). However, *CHCHO* associated with Path 2
+exhibits a thermodynamic preference over *CHC*OH on Path 1 (-0.22 eV). For the Vs-CuS
+catalyst, two Cu sites are involved in the adsorption of intermediates, with the third Cu located at
+a distance of 3.85 Å. The Cu-Cu distance for *CHCHO* is 3.58 Å S(Fig. 4j and Supplementary Fig.
+S
+80a), whereas for *CHC*OH adsorption it is 3.56 Å (FiEg. 4k and Supplementary Fig. 80b).
+R
+Moreover, *CHC*OH associated with Path 1 exhibitsP a thermodynamic advantage over *CHCHO*
+N
+on Path 2 (-0.22 eV).
+I
+E
+The site-projected d-PDOS was computed and ε was obtained as the first moment of the d-
+d
+L
+C
+states referenced to E within a unified energy window. The results are summarized in
+F
+I
+T
+Supplementary Fig. 81 (CRo-sub-CuS) and Supplementary Fig. 82 (Vs-CuS). To capture the site
+A
+that predominantly governs adsorption on each surface, we report the minimum ε among the
+d
+adsorbing Cu sites (ε ) as a representative descriptor for that adsorbate–surface pair. For Co-
+d,min
+sub-CuS, the ε at the Cu site reaches the lowest value (ε = −2.711 eV) for adsorption of CH–
+d 3 d,min
+CH–O, and this coincides with the stronger adsorption of CH–CH–O on Co-sub-CuS relative to
+CH–C–OH (Supplementary Fig. 81). For Vs-CuS, the ε at the Cu site is the lowest (ε = −2.553
+d 2 d,min
+eV) for adsorption of CH–C–OH, consistent with more favorable adsorption of CH–C–OH on Vs-
+CuS compared with CH–CH–O (Supplementary Fig. 82). Taken together, the Co-doping induced
+redistribution of ε across surface Cu sites switches the adsorption preference from CH–C–OH
+d
+
+
+===== PAGE 27 =====
+
+ARTICLE IN PRESS
+(Vs-CuS) to CH–CH–O (Co-sub-CuS). These additions enhance the analysis and provide a site-
+level electronic rationale for the observed selectivity. Additionally, differential charge density
+analysis reveals that electron density accumulation between Cu sites and the adsorbed states of
+*CHCHO* is significantly stronger than that of *CHC*OH, indicating a more robust covalent bond
+at the Cu sites and *CHCHO* interface (Fig. 4l, Supplementary Fig. 83 and Supplementary data
+1). Therefore, the Co-Sub-CuS catalyst exhibited the selectivity towards EtOH production via Path
+2 compared to the Vs-Cu catalyst. S
+S
+E
+R
+Discussion P
+N
+I
+E
+In summary, Co subsurface-doped CuS with rich sulfur vacancies on the surface was synthesized
+L
+C
+via a one-pot redox solvothermal method. Combining in-situ isotopic spectroscopy and DFT
+I
+T
+calculation prediction, it wRas found that subsurface Co doping effectively regulates dual sites at an
+A
+optimal distance, creating asymmetric active sites through surface V and surface-subsurface
+S
+electron interactions. The asymmetric coupling of OCCOH was triggered by promoting a mixed
+adsorption configuration of *CO and *CO . Particularly, the electrons transfer from Cu to Co
+atop bridge
+induced by subsurface Co doping enhances the oxophilicity of surface metal sites, which in turn
+facilitates the formation and conversion of *CHCHO* intermediates in the form of surface-O bonds.
+This mechanism directs the subsequent protonation towards the EtOH pathway, and capturing the
+transition from *CHCO to *CHCHO*. As expected, the optimal Co -Sub-CuS catalysts
+0.050
+exhibited a FE of nearly 80.0% with a partial current density of 602.0 mA cm-2 in a flow cell.
+EtOH
+
+
+===== PAGE 28 =====
+
+ARTICLE IN PRESS
+In an MEA electrolyzer, the FE was approximately 78.7% consistently reproduced, with a
+EtOH
+EtOH EE
+full‑cell
+value of 26.1% at -3.47 V, and stable electrolysis performance sustained for 305 h
+at 700 mA cm-2. This work provides an in-depth understanding of the directional selectivity of
+EtOH in CO ER, and may inspire the rational design of catalysts for the controlled CO ER to other
+2 2
+high-value products.
+Methods S
+S
+E
+Chemicals
+R
+Copper chloride dihydrate (CuCl .2H O, 99.9%), thiourea (CH N S, 99.5%), cobalt(III)
+2 2 P 4 2
+fluoride (CoF ), cobalt(II) fluoride (CoF ), iridium oxide (IrO , 99.9%), poly(vinylidene fluoride)
+3 2 2
+(PVDF), deuterium oxide (D O, 99.9%), ethanoNl (C H OH) and potassium hydroxide (KOH) were
+2 2 5
+purchased from Aladdin Co. China. All reageInts were used without further purification.
+E
+Synthesis of Co
+x
+-Sub-CuS, Co
+0.050
+-SLur-CuS and CuS Nanosheets
+First, dissolve CuCl ·H O (2 Cmmol) and Tu (4 mmol) separately in 20 mL of ethanol and
+2 2
+sonication 10 min for dispersedI, respectively. The two fresh solutions were mixed, and add the
+T
+desired amount of CoF (serving as cobalt-dopant) to the mixed solution under stirred. Then, the
+3
+R
+mixed solution was stirred for 15 min to form the white flocculent Co-doped [Cu(Tu) ]Cl precursor,
+2
+A
+which will serve as self-sacrificial templates for further vulcanization processes. Afterwards,
+transfer the flocculent solution into a 100 mL Teflon-lined stainless-steel autoclave and heat at
+140 °C for 15 h. After the reaction, the autoclave was naturally cooled to room temperature (25℃)
+and centrifuge the resultant dark green product, washed with deionized water and ethanol for
+several times, respectively. Finally, the collected dark green products were dried in a vacuum oven
+for 12 h to obtain Co -sub-CuS nanosheets. In order to obtain Co -sub-CuS with different doping
+x x
+ratios, the mass of cobalt-dopant is controlled to 3.0, 6.0, 10.0, 15.0 and 30.0 mg to obtain Co -
+0.025
+Sub-CuS, Co -Sub-CuS, Co -Sub-CuS, and Co -Sub-CuS samples, respectively.
+0.050 0.075 0.100
+For the synthesis of Co -Sur-CuS sample, follow the same reaction conditions as the Co -
+0.050 x
+sub-CuS synthesis, replacing 0.010 mmol of CoF dopant with CoF .
+3 2
+For the synthesis of CuS sample, CuCl ·H O (2 mmol) and Tu (4 mmol) separately in 20 mL
+2 2
+of ethanol and sonication 10 min for dispersed, respectively. The two fresh solutions were mixed
+and stirred for 15 min to form the white flocculent [Cu(Tu) ]Cl precursor. Afterwards, transfer the
+2
+flocculent solution into a 100 mL Teflon-lined stainless-steel autoclave and heat at 140 °C for 15
+h. After reaction, the autoclave was naturally cooled to room temperature (25℃) and the resulting
+
+
+===== PAGE 29 =====
+
+ARTICLE IN PRESS
+dark green product was centrifuged, washed with deionized water and ethanol for several times
+and dried in a vacuum oven for 12 h to obtain pristine CuS sample.
+Characterizations
+X-ray diffraction (XRD) patterns were recorded using a SmartLab 9KW vertical powder X-
+ray diffractometer with a Cu-Kα radiation. Scanning electron microscopy (SEM, Hitachi 8100),
+energy-dispersive spectroscopy (EDS, Hitachi 8100), and transmission electron microscopy (TEM,
+FEI Tecnai G220) were used to observe the sample morphology. Elemental contents in catalysts
+and electrolytes were determined using ICP-OES (iCAP PRO X). Chemical component analysis
+of synthesized catalysts was performed using X-ray photoelectron spectrometer (XPS) (Escalab
+250Xi, Thermo Fisher). High-resolution TEM (HRTEM) and EDS mapping images were collected
+on a Talos F200S-G2 field-emission high-resolution transmission electron microscope operated at
+200 kV. XANES and EXAFS experiments on Cu and Co K-edge were conducted at beamline
+S
+BL14W1 in the Shanghai Synchrotron Radiation Facility (SSRF), China. TOF-SIMS experiments
+S
+were conducted on a PHI nano TOF II, 5 iontof. The surface hydrophobicity of gas diffusion
+E
+electrode (GDE) loaded with the catalyst were measured by Contact angle goniometer (CA,
+R
+Attension Theta). EPR data were collected using a Bruker EMX PLUS.
+P
+Electrochemical Measurements N
+A three-chamber flow cell consisting oIf a gas chamber, catholyte chamber, and anolyte
+chamber was used for all electrochemical analyses (1 cm2), the volume of each compartment was
+E
+1cm3. The ambient temperature for Lelectrochemical testing was maintained at 25 °C. The gas
+chamber and catholyte chamber wCere separated by the cathode electrode, while the catholyte and
+anolyte chambers were separaIted by a 1×1 cm2 anion-exchange membrane (FAB-PK-130,
+T
+Fumasep Co., China) to enable product separation and ionic conduction. Prior to use, the
+R
+membrane was first rinsed with deionized water until neutrality was achieved, then immersed in 1
+A
+M NaOH solution for 12 h for activation. Finally, the membrane was rinsed again with deionized
+water to remove residual electrolyte, and stored in deionized water for later use. Immediately
+before use, surface moisture was gently blotted with filter paper. A catalytically deposited gas
+diffusion electrode (GDE) and Hg/HgO were used as working and reference electrodes,
+respectively. The Hg/HgO electrode was calibrated against a stable standard saturated calomel
+electrode (0.241 V at 25 °C). A 1 M KOH electrolyte was prepared, and Ar was purged through it
+for 30 min to remove dissolved gases (e.g., O₂ and CO₂). The potential of the Hg/HgO electrode
+relative to the standard electrode was measured, and determined its standard electrode potential.
+To fabricate the working electrode, disperse 5 mg of catalysts in 250 µL ethanol with 15 µL of 5
+wt% Nafion solution and ultrasonicated for 30 min to produce a mixed ink. Drop this mixture onto
+a gas diffusion layer (SGL carbon) with a geometric size of 1*1 cm2 to obtain a GDE with a loading
+amount controlled to ~1.46 mg cm2 (The loading capacity was estimated based on the mass change
+of the gas diffusion layer before and after loading). Iridium oxide deposited Ti felt was used as the
+anode to avoid corrosion at oxidation potential (the preparation consistent with the working
+electrode). Place the working electrode between the gas and catholyte chambers to ensure gaseous
+
+
+===== PAGE 30 =====
+
+ARTICLE IN PRESS
+CO diffusion and reaction at the catholyte/catalyst interface. Insert the reference electrodes into
+2
+the catholyte chamber and maintain a specified distance from the working electrode. A freshly
+prepared 1 M KOH solution was used as the electrolyte, with a pH of approximately 13.8–14. An
+electrochemical workstation (CHI 760E, Shanghai Chenhua, China) with a current amplifier (CHI
+680D, Shanghai Chenhua, China) was used for the CO ER test. Circulate 1 M KOH solution
+2
+around the anode and cathode at a flow rate of 20 mL min⁻¹ via a peristaltic pump during CO ER.
+2
+Supply CO to the gas chambers at a constant flow rate of 30 mL min⁻¹ via a mass-flow controller.
+2
+Collect LSV polarization curves at a scanning rate of 5 mV s⁻¹ in Ar and CO atmospheres. Assess
+2
+the long-term stability test in a flow cell at -0.8 V for more than 410 h with the environmental
+temperature maintained at 25 °C. In order to avoid the effect of carbonate precipitation on the
+product exchange in the anion exchange membrane, the electrolyte in the anode and cathode pools
+is changed every 24 h. The anion exchange membrane is replaced every 96 h to avoid the effect of
+membrane consumption on stability at high current density. All tested potentials were converted
+S
+by the following formula (1):
+S
+E(RHE) = E(Hg/HgO) + 0.059 × pH + E (HEg/HgO) + 0.85 iR (1)
+0
+R
+where E(Hg/HgO) is the potential against Hg/HgO measured in the experiment, and E (Hg/HgO)
+P 0
+is the standard potential of Hg/HgO at 25℃ (0.098 V). The ohmic loss between the working and
+reference electrodes was measured using eNlectrochemical impedance spectroscopy (EIS)
+(frequency range: 100 kHz to 0.1 Hz, amplituIde: 10 mV), and 85% iR compensation was applied
+to correct the potentials manually.
+E
+L
+CO ER Test in an MEA ElectrolCyzer
+2
+Electroreduction of CO in MIEA consisted of two titanium backplates (TA2, Gaossunion Co.,
+2
+Ltd.) with a 1×1 cm2 serpenti T ne flow field. The cathode was prepared in the same way as the GDE
+R
+in a flow cell (~1.46 mg cm2 for Co -Sub-CuS). Using iridium oxide (IrO₂) deposited Ti felt as
+0.050
+A
+the anode to avoid corrosion at oxidation potential—a material inert to ethanol oxidation yet highly
+active for the oxygen evolution reaction (OER)—as the anode catalyst can mitigate the cross-
+contamination and reoxidation of ethanol products. This, in turn, prevents the degradation of
+ethanol yield and MEA system performance. The cathode and anode were pressed onto the sides
+of the anion exchange membrane (Sustainion 37-50, Dioxide Materials), minimizing the gap
+between the electrodes to reduce ohmic losses. Gaseous CO was fed through the gas diffusion
+2
+layer at a constant flow rate (30 mL min-1) via a mass flow controller, contact the catalyst. The 1
+M KOH solution was used as the anolyte circulated via a gas-liquid mixed flow pump at a flow
+rate of 20 mL min-1 during CO ER. By regulating the flow rate of the anode electrolyte, ethanol
+2
+that permeates through the membrane can be promptly flushed away from the anode catalyst
+surface. This reduces ethanol’s residence time at the anode and minimizes its oxidation probability.
+To enhance the solubility of inorganic salts and prevent salting-out, the reaction temperature was
+maintained at 60 °C throughout the experiment. The CO ER performance for MEA was evaluated
+2
+by applying different currents using a 680D current amplifier in a two-electrode system on the CHI
+760E electrochemical workstation. Long-term stability tesing in a MEA electrolyzer was evaluated
+
+
+===== PAGE 31 =====
+
+ARTICLE IN PRESS
+at 700 mA cm⁻² for over 305 h. To avoid the effect of carbonate precipitation on the product
+exchange in the anion exchange membrane, the electrolyte in the anode and cathode pools is
+changed every 24 h, which ensures that ethanol which has diffused into the anode is recovered as
+much as possible before it undergoes complete oxidation. The anion exchange membrane is
+replaced every 48 h to avoid the effect of membrane consumption on stability at high current
+density. Cathodic gas products were vented through a simplified cold-trap to collect permeable
+liquid prior to gas chromatograph testing. FE values for the liquid products were computed based
+on the total mass of product collected on the anode and cathode.
+CO ER product analysis
+2
+The gas products from CO reduction (H , CO, CH , C H ) were analyzed using a gas
+2 2 4 2 4
+chromatograph (GC-9790Ⅱ, Fuli Co., China) coupled with a thermal conductivity detector (TCD)
+and a flame ionization detector (FID). High-purity Ar (99.999%) was used as the carrier gas. The
+S
+GC was calibrated based on the certified standard gas samples including H , CO, and C to C
+S 2 1 3
+hydrocarbons (Xuancheng Liyuan Gas Co., Ltd). The liquid products were analyzed by 1H nuclear
+E
+magnetic resonance (NMR) spectrometer (Bruker ASCEnd TM 400MHz), in which 500 μL of
+R
+catholyte after CO ER was collected and mixed with 100 μL of DMSO (internal standard, diluted
+2 P
+to 10000 ppm (v/v) by deuterated water), and the ZGPR method was used to suppress the water
+peak. All experimental results were repeated at Nleast three times, keeping all conditions constant.
+The partial current densities for gas prodIucts were calculated by the following formula (2):
+𝑗 = (n × v × 𝑧 × 𝐹 × 𝑝 ) / (𝑅 × 𝑇) × (𝐴)-1 (2)
+𝑖 𝑖 E𝑖 0
+The Faradaic efficiency for gas pLroducts was calculated by the following formula (3):
+CFE = 𝑗 / 𝑗 × 100% (3)
+𝑖 𝑖 total
+where n is the number of electroIns required to be transferred to generate the corresponding product
+i
+T
+i, v is the gas flow rate measured by a mass-flow controller (S49 33/MT) at the exit of the
+R
+electrochemical cell (mL min-1), z is the volume fraction of the gas product based on a calibration
+i
+A
+of the online gas chromatography, 𝐹 is the Faradaic constant (96485 C mol-1), 𝑝 is the standard
+0
+atmospheric pressure (101.3 kPa), 𝑅 is the gas constant (8.314 J mol-1 K-1), 𝑇 is the temperature
+(298.15 K) and 𝐴 is the geometric area of the working electrode (cm2)
+The Faradaic efficiency for liquid products was calculated by the following formula (4):
+FE = (c × V × n × 𝐹) / (I × 𝑇) × 100% (4)
+𝑖 i 𝑖
+The partial current densities for liquid products were calculated by the following formula (5):
+j = FE × j (5)
+𝑖 i total
+where c is the concentration of i product, V is the electrolyte volume, I is the total current density,
+i
+T is total reaction time.
+Half-cell energy efficiency
+Half-cell energy efficiency (EE ) was computed on basis of the cathodic CO ER coupled
+1/2 2
+with the anodic water oxidation reaction (O + 4H+ + 4e- ↔ 2H O; 1.23 V vs. RHE) (6):
+2 2
+EE = (E – E )/(E – E ) × FE (6)
+1/2 oxo redo ox red
+where E and E are the thermodynamic potentials for water oxidation and CO ER to products,
+oxo redo 2
+
+
+===== PAGE 32 =====
+
+ARTICLE IN PRESS
+respectively. E and E are the applied potentials at anode and cathode, respectively. For
+ox red
+computation of the half-cell EE, the anodic reaction was assumed to occur with an overpotential
+of 0 V, that means E = 1.23 V.
+ox
+Full-cell energy efficiency
+The full-cell energy efficiency for product i is calculated as follows (7):
+EE = ((1.23+(-E )) ×FE)/( -E ) × FE (7)
+full-cell 0 i full-cell i
+where E is the thermodynamic potential of CO to product A calculated based on the standard
+0 2
+molar Gibbs energy formation at 298.15 K, FE is the measured FE (%) of the product i, and E
+i full-
+is the full-cell voltage measured in the MEA system without ohmic loss correction.
+cell
+ECSA measurement
+ECSA was measured by double-layer capacitance (C ) methods. All experiments are
+dl S
+conducted in the flow cell and the used catalysts are obtained following activation under CO ER.
+S 2
+C and obtained from CV curves at the potential range of 0.1-0.2 V vs Ag/AgCl with the stepwise
+dl E
+rates from 10 to 50 mV s-1. The capacitance currents at 0.15 V vs RHE were plotted against the
+R
+scan rates, and C (mF cm-2) was derived from the slope according to the following (8):
+dl P
+C = ΔJ /v (8)
+dl
+where ΔJ is the capacitance current (half of the Ndifference between the anodic current density and
+cathodic current density, (J −J )/2), and v is tIhe scan rate.
+a c
+ECSAs were calculated by the equation (9):
+E
+ELCSA = C
+dl
+/C
+s
+× A (9)
+where C is the capacitance of a smCooth planar surface (0.04 mF cm-2 in alkaline media), and A is
+s
+the electrode area. I
+T
+R
+Electrochemical in-situ FTIR spectra measurements
+A
+In-situ FTIR spectra tests were conducted in a spectroelectrochemical cell with a three-
+electrode configuration. The cell was integrated into a Bruker INVENIO R Fourier-transform
+infrared spectrometer equipped with a liquid nitrogen-cooled MCT detector. The gas diffusion
+electrode loaded with the catalyst was used as working electrode. A Pt wire and Ag/AgCl
+electrodes were used as the counter and reference electrodes, respectively. The in-situ isotope
+spectra tests were conducted under the following conditions: 12CO -saturated 1 M KOH with H O,
+2 2
+13CO -saturated 1 M KOH with H O, and 12CO -saturated 1 M KOH with D O. To prepare the 1
+2 2 2 2
+M KOH electrolyte, KOH was dissolved in either H O or D O. Prior to the tests, the system was
+2 2
+purged with the corresponding isotope-labeled CO gas for ten min to eliminate interference from
+2
+other gases. When testing under the 12CO -saturated 1 M KOH with D O conditions, both the
+2 2
+working electrode and the entire cell were thoroughly rinsed several times with D O to remove
+2
+residual H O, followed by vacuum drying at 60 ℃. A fixed-angle Ge prism (60°) coated with
+2
+catalysts embed into the bottom of the cell. Before testing, the detector was cooled with liquid
+nitrogen for at least 30 min to maintain a stable signal. Prior to measurements, the blank spectrum
+was tested under OCP conditions for baseline correction, and then the spectrums under different
+
+
+===== PAGE 33 =====
+
+ARTICLE IN PRESS
+applied potentials were collected at a resolution of 4 cm-1. The Spectrums were presented in
+absorbance, in which the positive and negative peaks show the increase and decrease in signals,
+respectively. All spectroscopic data were baseline corrected andsubtracted with the background.
+Electrochemical in-situ Raman spectra tests
+In-situ Raman experiments were performed using a Raman Spectrophotometer RFS 100/S
+(Bruker Co., Germany) in a homemade standard three-electrode system with a quartz window by
+GaossUnion Photoelectric, China, and a Nd/YAG laser of the 532 nm line was used as the
+excitation source. A Pt wire and Ag/AgCl electrodes were used as the counter and reference
+electrodes, respectively. The gas diffusion electrode loaded with the catalyst was used as working
+electrode. The 1 M KOH solution was used as electrolyte. Supply CO into gas chambers at a
+2
+constant flow rate of 30 mL min⁻¹ via a mass-flow controller. Then, the Raman signals were
+recorded after 15 min electrolysis at OCP and different applied potentials, all spectroscopic data
+S
+were baseline corrected andsubtracted with the background.
+S
+E
+Computational methods
+R
+Density functional theory (DFT) calculations were performed using the Vienna Ab initio
+P
+Simulation Package (VASP) with the projector augment wave (PAW) method56. The electron
+exchange and correlation energy were treatedN within the generalized gradient approximation
+(GGA) and the Perdew, Bueke, and ErnzerhoIf (PBE) functional. Spin polarization was taken into
+account in all calculations. The Brillouin zone was sampled using a k-points grid of 1×1×1. The
+E
+energy cut-off and convergence criterLia for force were set as 480 eV and 0.03 eV/Å, respectively.
+Partial occupancies were determinCed using a Gaussian smearing scheme with a smearing width of
+0.05 eV. The ground state strucItures of the adsorbed *COCOH, *CHCO, *CHCOH, *CHCHO,
+*CHC and *OCHCH were de T termined by searching the lowest energy one among all the possible
+2
+R
+configurations. The CuS (100) surface was modeled by six atomic layers of 72 atoms, and the
+A
+geometry of the upper three layers was optimized while constraining the lower three layers. The
+thickness of the vacuum layer is 20 Å, and the supercell dimensions are 11.447 Å, 16.463 Å and
+25.507 Å. For the Vs- CuS model, a sulfur atom in the first atomic layer of CuS (100) surface was
+removed. For the Co-sub-CuS model, a copper atom in the second atomic layer of CuS-Vs surface
+was replaced with a cobalt atom. Density of states were calculated and weighted by the respective
+Hamilton matrix elements using the Local-Orbital Basis Suite Towards Electronic-Structure
+Reconstruction software package (LOBSTER)57. The anti-bonding and bonding interactions were
+analyzed based on the projected crystal orbital Hamilton population (-pCOHP) method. Changes
+in reaction energy for the competing pathways leading to C products were calculated.
+2
+We calculated the activation barriers for asymmetric coupling of *CO and *COH to form
+*OCCOH using the dimer method implemented in the CP2K code with the Quickstep module58.
+The molecularly optimized Double-Zeta-Valence-Polarization (DZVP-MOLOPT) basis sets and
+Goedecker-Teter-Hutter (GTH) pseudopotentials were used for core electrons in combination with
+Perdew-Burke-Ernzerhof (PBE) exchange correlation functional59. All calculations were
+converged with a Broyden-Fletcher-Goldfarb-Shannon (BFGS) optimizer. The periodic boundary
+
+
+===== PAGE 34 =====
+
+ARTICLE IN PRESS
+conditions were used with a plane-wave grid cutoff of 400 Ry and the Grimme-D3 dispersion
+correction. Vibrational frequency calculation was performed to ascertain the saddle state by
+confirming the existence of an imaginary vibrational frequency. To compute vibrational spectra,
+normal-mode analysis was performed by evaluating second derivatives of energy concerning
+nuclear displacements using MOLDEN package60. AIMD simulations were performed on the
+optimized structures with the CP2K package in the constant-volume and constant-temperature
+(NVT) ensemble. The temperature was controlled with Nosé-Hoover thermostat at 300 K. The
+AIMD simulations are run for 10 ps with the time step of 1 fs. The radial distribution function
+(RDF) analysis was performed using VMD program.
+Data availability
+All data that support the findings in this paper are available within the article and its Supplementary
+S
+Information or are available from the corresponding authors upon reasonable request. Source data
+S
+are provided with this paper.
+E
+R
+References P
+N
+I
+1. A. Ozden et al., Energy- and carbon-efficient CO /CO electrolysis to multicarbon products
+E 2
+via asymmetric ion migration–adLsorption. Nat. Energy 8, 179-190 (2023).
+C
+2. S. Dey, F. Masero, E. Brack, M. Fontecave, V. Mougel, Electrocatalytic metal hydride
+I
+generation using CPET mediators. Nature 607, 499-506 (2022).
+T
+R
+3. P. De Luna et al., What would it take for renewably powered electrosynthesis to displace
+A
+petrochemical processes? Science 364, 350 (2019).
+4. M. Zhong et al., Accelerated discovery of CO electrocatalysts using active machine learning.
+2
+Nature 581, 178-183 (2020).
+5. Cao-Thang Dinh et al., CO electroreduction to ethylene via hydroxide-mediated copper
+2
+catalysis at an abrupt interface. Science 360, 783–787 (2018).
+6. Y. Y. Birdja et al., Advances and challenges in understanding the electrocatalytic conversion
+of carbon dioxide to fuels. Nat. Energy 4, 732-745 (2019).
+7. R. M. Arán-Ais, F. Scholten, S. Kunze, R. Rizo, B. Roldan Cuenya, The role of in situ
+generated morphological motifs and Cu(i) species in C product selectivity during CO
+2+ 2
+pulsed electroreduction. Nat. Energy 5, 317-325 (2020).
+8. H. Zhang, J. Gao, D. Raciti, A. S. Hall, Promoting Cu-catalysed CO electroreduction to
+2
+multicarbon products by tuning the activity of H O. Nat. Catal. 6, 807-817 (2023).
+2
+
+
+===== PAGE 35 =====
+
+ARTICLE IN PRESS
+9. W. Ma et al., Electrocatalytic reduction of CO to ethylene and ethanol through hydrogen-
+2
+assisted C–C coupling over fluorine-modified copper. Nat. Catal. 3, 478-487 (2020).
+10. S. Nitopi et al., Progress and Perspectives of Electrochemical CO Reduction on Copper in
+2
+Aqueous Electrolyte. Chem. Rev. 119, 7610-7672 (2019).
+11. P. Wei et al., Coverage-driven selectivity switch from ethylene to acetate in high-rate CO /CO
+2
+electrolysis. Nat. Nanotechnol. 18, 299-306 (2023).
+12. J. M. Wang et al., Asymmetric gradient orbital interaction of hetero-diatomic active sites for
+promoting C - C coupling. Nat. Commun. 14, 3808 (2023).
+13. A. Vasileff, C. Xu, Y. Jiao, Y. Zheng, S.-Z. Qiao, Surface and Interface Engineering in Copper-
+Based Bimetallic Materials for Selective CO Electroreduction. Chem 4, 1809-1831 (2018).
+2
+14. M. Chhetri et al., Dual-site catalysts featuring platinum-grouSp-metal atoms on copper shapes
+boost hydrocarbon formations in electrocatalytic CO rSeduction. Nat. Commun. 14, 3075
+2
+(2023). E
+R
+15. J. Zhang et al., Steering CO electroreduction pathway toward ethanol via surface-bounded
+2 P
+hydroxyl species-induced noncovalent interaction. Proc. Natl. Acad. Sci. U. S. A. 120,
+e2218987120 (2023). N
+I
+16. Y. Zheng et al., Understanding the Roa dmap for Electrochemical Reduction of CO
+2
+to Multi-
+E
+Carbon Oxygenates and Hydrocarbons on Copper-Based Catalysts. J. Am. Chem. Soc. 141,
+L
+7646-7659 (2019).
+C
+17. H. J. Peng, M. T. TangI, J. Halldin Stenlid, X. Liu, F. Abild-Pedersen, Trends in
+T
+oxygenate/hydrocarbon selectivity for electrochemical CO reduction to C products. Nat.
+2 2
+R
+Commun. 13, 1399 (2022).
+A
+18. T. Cheng, H. Xiao, W. A. Goddard, Full atomistic reaction mechanism with kinetics for CO
+reduction on Cu(100) from ab initio molecular dynamics free-energy calculations at 298 K.
+Proc. Natl. Acad. Sci. U. S. A. 114, 1795-1800 (2017).
+19. H. Peng et al., The role of atomic carbon in directing electrochemical CO reduction to
+2
+multicarbon products. Energy Environ. Sci. 14, 473-482 (2021).
+20. S. Zhao et al., Steering carbon dioxide reduction toward C-C coupling using copper electrodes
+modified with porous molecular films. Nat. Commun. 14, 844 (2023).
+21. W. Ge et al., Dynamically Formed Surfactant Assembly at the Electrified Electrode-
+Electrolyte Interface Boosting CO Electroreduction. J. Am. Chem. Soc. 144, 6613-6622
+2
+(2022).
+22. J. Feng et al., Improving CO -to-C Product Electroreduction Efficiency via Atomic
+2 2+
+Lanthanide Dopant-Induced Tensile-Strained CuO Catalysts. J. Am. Chem. Soc. 145, 9857-
+x
+9866 (2023).
+
+
+===== PAGE 36 =====
+
+ARTICLE IN PRESS
+23. Y. C. Li et al., Binding Site Diversity Promotes CO Electroreduction to Ethanol. J. Am. Chem.
+2
+Soc. 141, 8584-8591 (2019).
+24. C. Long et al., Regulating reconstruction of oxide-derived Cu for electrochemical CO
+2
+reduction toward n-propanol. Sci. Adv. 9, eadi6119 (2023).
+25. B. Jia et al., Restraining Interfacial Cu2+ by using Amorphous SnO as Sacrificial Protection
+2
+Boosts CO Electroreduction. Adv. Mater. 35, e2305587 (2023).
+2
+26. W. H. Lai et al., Activating Inert Surface Pt Single Atoms via Subsurface Doping for Oxygen
+Reduction Reaction. Nano Lett. 21, 7970-7978 (2021).
+27. W. Wei et al., Subsurface oxygen defects electronically interacting with active sites on In O
+2 3
+for enhanced photothermocatalytic CO reduction. Nat. Commun. 13, 3199 (2022).
+2
+28. S. Wang et al., Subsurface-Carbon-Induced Local ChargeS of Copper for an On-Surface
+Displacement Reaction. Angew. Chem. Int. Ed. 60, 23123-S23127 (2021).
+E
+29. K. Yao et al., Mechanistic Insights into OC-COH Coupling in CO Electroreduction on
+R 2
+Fragmented Copper. J. Am. Chem. Soc. 144, 14005-14011 (2022).
+P
+30. H. Zhao et al., The role of Cu –O specie s in single-atom Cu/ZrO catalyst for CO
+1 3 N 2 2
+hydrogenation. Nat. Catal. 5, 818-831 (2022).
+I
+31. Z. Ma et al., CO electroreduction to multicarbon products in strongly acidic electrolyte via
+2 E
+synergistically modulating the locLal microenvironment. Nat. Commun. 13, 7596 (2022).
+C
+32. W. He et al., Enhanced Nitrate-to-Ammonia Efficiency over Linear Assemblies of Copper-
+I
+Cobalt Nanophases Stabilized by Redox Polymers. Adv. Mater. 35, e2303050 (2023).
+T
+R
+33. J. Zhou et al., Linking oxidative and reductive clusters to prepare crystalline porous catalysts
+A
+for photocatalytic CO reduction with H O. Nat. Commun. 13, 4681 (2022).
+2 2
+34. S. F. Hung et al., Unraveling Geometrical Site Confinement in Highly Efficient Iron‐Doped
+Electrocatalysts toward Oxygen Evolution Reaction. Adv. Energy Mater. 8, 1701686 (2017).
+35. Z. Xiao et al., Filling the oxygen vacancies in Co O with phosphorus: an ultra-efficient
+3 4
+electrocatalyst for overall water splitting. Energy Environ. Sci. 10, 2563-2569 (2017).
+36. Z. Liu et al., Interfacial Water Tuning by Intermolecular Spacing for Stable CO
+2
+Electroreduction to C Products. Angew. Chem. Int. Ed. 62, e202309319 (2023).
+2+
+37. M. Jouny, W. Luc, F. Jiao, High-rate electroreduction of carbon monoxide to multi-carbon
+products. Nat. Catal. 1, 748-755 (2018).
+38. P. Wang et al., Boosting electrocatalytic CO -to-ethanol production via asymmetric C-C
+2
+coupling. Nat. Commun. 13, 3754 (2022).
+39. C. Zhu et al., Dynamic restructuring of epitaxial Au–Cu biphasic interface for tandem CO -
+2
+
+
+===== PAGE 37 =====
+
+ARTICLE IN PRESS
+to-C alcohol conversion. Chem 8, 3288-3301 (2022).
+2+
+40. X. Wang et al., Ag+-Doped InSe Nanosheets for Membrane Electrode Assembly Electrolyzer
+toward Large-Current Electroreduction of CO to Ethanol. Angew. Chem. Int. Ed. 62,
+2
+e202313646 (2023).
+41. S. J. Shin et al., A unifying mechanism for cation effect modulating C1 and C2 productions
+from CO electroreduction. Nat. Commun. 13, 5482 (2022).
+2
+42. G. Zhang et al., Selective CO electroreduction to methanol via enhanced oxygen bonding.
+2
+Nat. Commun. 13, 7768 (2022).
+43. S. Zhu, B. Jiang, W. B. Cai, M. Shao, Direct Observation on Reaction Intermediates and the
+Role of Bicarbonate Anions in CO Electrochemical Reduction Reaction on Cu Surfaces. J.
+2
+Am. Chem. Soc. 139, 15664-15667 (2017).
+S
+44. R. Amirbeigiarab et al., Atomic-scale surface restructurinSg of copper electrodes under CO
+2
+electroreduction conditions. Nat. Catal. 6, 837-846 (20E23).
+R
+45. H. Kang et al., Generation of oxide surface patches promoting H-spillover in Ru/(TiO )MnO
+P x
+catalysts enables CO reduction to CO. Nat. Catal. 6, 1062-1072 (2023).
+2
+N
+46. B. Yang et al., Electrocatalytic CO reduction to alcohols by modulating the molecular
+2
+I
+geometry and Cu coordination in bicent ric copper complexes. Nat. Commun. 13, 5122 (2022).
+E
+47. S. Kuang et al., Asymmetrical Lelectrohydrogenation of CO
+2
+to ethanol with copper-gold
+heterojunctions. Proc. Natl. ACcad. Sci. U. S. A. 120, e2214175120 (2023).
+I
+48. E. Perez-Gallent, M. C. Figueiredo, F. Calle-Vallejo, M. T. Koper, Spectroscopic Observation
+T
+of a Hydrogenated CRO Dimer Intermediate During CO Reduction on Cu(100) Electrodes.
+Angew. Chem. IntA. Ed. 56, 3621-3624 (2017).
+49. Y. Shi et al., Localized Geometry Determined Selectivity of Iodide‐Derived Copper for
+Electrochemical CO Reduction. Adv. Energy Mater. 13, 2203896 (2023).
+2
+50. D. L. Meng et al., Highly Selective Tandem Electroreduction of CO to Ethylene over
+2
+Atomically Isolated Nickel-Nitrogen Site/Copper Nanoparticle Catalysts. Angew. Chem. Int.
+Ed. 60, 25485-25492 (2021).
+51. L. Zhang et al., Oxophilicity-Controlled CO Electroreduction to C Alcohols over Lewis
+2 2+
+Acid Metal-Doped Cuδ+ Catalysts. J. Am. Chem. Soc. 145, 21945-21954 (2023).
+52. W. Sun et al., V-Doped Cu Se Hierarchical Nanotubes Enabling Flow-Cell CO
+2 2
+Electroreduction to Ethanol with High Efficiency and Selectivity. Adv. Mater. 34, e2207691
+(2022).
+53. J. Ding et al., A tin-based tandem electrocatalyst for CO reduction to ethanol with 80%
+2
+selectivity. Nat. Energy 8, 1386-1394 (2023).
+
+
+===== PAGE 38 =====
+
+ARTICLE IN PRESS
+54. Wang, P. et al. Boosting electrocatalytic CO –to–ethanol production via asymmetric C–C
+2
+coupling. Nat. Commun. 13, 3754 (2022).
+55. Kuang, S. et al. Asymmetrical electrohydrogenation of CO to ethanol with copper–gold
+2
+heterojunctions. Proc. Natl. Acad. Sci. U. S. A. 120, e2214175120 (2023).
+56. Kresse, G. & Furthmuller, J. Efficient iterative schemes for ab initio total-energy calculations
+using a plane-wave basis set. Phys. Rev. B 54, 11169-11186 (1996).
+57. Maintz, S., Deringer, V. L., Tchougréeff, A. L. & Dronskowski, R. LOBSTER: A tool to
+extract chemical bonding from plane-wave based DFT. J. Comput. Chem. 37, 1030-1035
+(2016).
+58. Henkelman, G. & Jónsson, H. A dimer method for finding saddle points on high dimensional
+potential surfaces using only first derivatives. J. Chem. Phys. 111, 7010-7022 (1999).
+S
+59. Krack, M. Pseudopotentials for H to Kr optimized for gradSient-corrected exchange-correlation
+functionals. Theor. Chem. Acc. 114, 145-152 (2005). E
+R
+60. Schaftenaar, G. & Noordik, J. H. Molden: a pre- and post-processing program for molecular
+P
+and electronic structures. J. Comput. Aid. Mol. Des. 14, 123-134 (2000).
+N
+Acknowledgements I
+E
+This work was supported by the Joint Funds of the National Natural Science Foundation of
+L
+China (U24A20513 to G.F.W.), the key project of National Natural Science Foundation of China
+C
+(21936001 to G.F.W.) and National Natural Science Foundation of China (22176001, 52192684
+I
+to X.J.Z. and G.F.W.), the Opening Project of State Key Laboratory of High Performance Ceramics
+T
+and Superfine MicrostrucRture (SKL202205SIC to X.J.Z.).
+A
+Author Contributions
+M.Z.G., G.F.W., X.J.Z., J.J.C. and H.Q.Y. conceived and designed the research; M.Z.G. M.Z.G.
+conducted the synthesis and characterization. M.Z.G. and F.Z. analyzed the data and relevant
+results. Y.M. performed the DFT calculations. M.Z.G. and L.J. performed the electrochemical
+experiments. M.Z.G. and Q.C. performed and discussed soft X-ray absorption spectroscopy
+characterization. G.F.W., X.J.Z., J.J.C. and H.Q.Y. contributed to the planning and coordination of
+the project. M.Z.G., F.Z., G.F.W., X.J.Z., J.J.C. and H.Q.Y. co-wrote and edited the manuscript.
+All the authors contributed to discussion of the results and the manuscript.
+Competing interests
+The authors declare no competing interests.
+
+
+===== PAGE 39 =====
+
+ARTICLE IN PRESS
+Additional Information
+Supplementary information The online version contains supplementary material available at
+https://www.nature.com/natcom.
+*Correspondence and requests for materials should be addressed to H.Q.Y. at
+hqyu@ustc.edu.cn, G.F.W at wangyuz@ahnu.edu.cn, or J.J.C at chenjiej@ustc.edu.cn.
+S
+S
+E
+R
+P
+N
+I
+E
+L
+C
+I
+T
+R
+A
+
+
+===== PAGE 40 =====
+
+ARTICLE IN PRESS
+Figure Captions
+Fig. 1 | Structural characterizations. (a) TEM images of Co -Sub-CuS. (b) HRTEM images
+0.050
+of Co -Sub-CuS. (b1-b3) enlargement of dash squares in (b), S-vacancies (V ) (labeled by the
+0.050 S
+yellow dotted circles) and line defect (marked by the dotted red line). (c-e) FFT patterns of
+respective region. Cobalt TOF-SIMS mapping images of Co -Sub-CuS (f) and Co -Sur-CuS
+0.050 0.050
+(g), (insert, semiquantitative analysis of TOF-SIMS spectra of Co element of Co -Sub-CuS and
+0.050
+Co -Sur-CuS). (h) Cu K-edge XANES spectra of Co -Sub-CuS, Co -Sur-CuS and CuS.
+0.050 0.050 0.050
+(i) Fitting of k2-weighted EXAFS spectra of Co -Sub-CuS, Co -Sur-CuS and CuS. (j) Co K-
+0.050 0.050
+edge XANES spectra of Co -Sub-CuS, Co -Sur-CuS and standards. (k) Fitting of k2-
+0.050 0.050
+weighted EXAFS spectra of Co -Sur-CuS, Co -Sub-CuS and standards. (l) Corresponding
+0.050 0.050
+wavelet transforms of k2-weighted EXAFS spectra at Co K-edge for Co -Sub-CuS and Co -
+S0.050 0.050
+Sur-CuS. (m) Scheme of activating and enhancing oxophilicity of surface Cu sites by subsurface
+S
+Co doping.
+E
+R
+Fig. 2 | CO ER performance for Co -Sub-CuS, Co -Sur-CuS and CuS. (a) LSV curves. (b)
+2 x 0.050
+P
+Potential-dependent C FE and EtOH current density. (c) Ratio of FE to FE and (d) Ratio of
+2 C2 CO
+FE to FE under selected potential. FE (Ne), yield rate (f) and EE (g) for EtOH production
+EtOH C2H4
+over Co -Sub-CuS and Co -Sur-CuS. (h) SIchematic diagram of the MEA electrolyzer. (i) C FE
+x 0.050 2
+and partial current density at selected cell voltage under MEA measurement. (j) Comparison of the
+E
+performance metrics of the Co
+0.050
+-SLub-CuS catalyst with recently reported catalysts (details in
+Table S8). (k) CO ER stability of Cthe Co -Sub-CuS catalyst in a three-electrode flow cell at a
+2 0.050
+constant potential of 0.8 V vs. RIHE. (l) EtOH FE and cell voltage during CO ER at a constant
+2
+current of 700 mA cm-2 in a T n MEA electrolyzer. All voltages were converted to the reversible
+R
+hydrogen electrode (RHE) scale with 85% iR-correction. Error bars represent the standard
+A
+deviation from at least three independent measurements.
+Fig. 3 | In-situ characterization and mechanism exploration of the CO ER to EtOH. In-situ
+2
+FTIR spectra of Co -Sub-CuS in (a) 12CO -saturated 1 M KOH with H O, (b) 13CO -saturated
+0.050 2 2 2
+1 M KOH with H O. (c) Comparison of the in-situ FTIR spectra on Co -Sub-CuS in 12CO -
+2 0.050 2
+saturated 1 M KOH with H O, 13CO -saturated 1 M KOH with H O and 12CO -saturated 1 M KOH
+2 2 2 2
+with D O. In-situ FTIR spectra of Co -Sub-CuS in (d) 12CO -saturated 1 M KOH with D O as
+2 0.050 2 2
+electrolyte from 0.1 V vs. RHE to -1.1 V vs. RHE. (e) The calculated infrared-active vibrational
+frequency of *OCCOH on Co -Sub-CuS. (f) The calculated infrared-active vibrational
+0.050
+frequency of *CHCHO* on Co -Sub-CuS, the right is the different adsorption modes of two key
+0.050
+intermediates *CHCHO* and *CHC*OH at dual-Cu sites. (g) In-situ Raman peaks on Co -Sub-
+0.050
+CuS in 1 M KOH from 0.1 V vs. RHE to -1.1 V vs. RHE during CO ER. (h) Comparison of the
+2
+LFB/(HFB+LFB) ratio in in-situ Raman spectra for different catalysts at different applied potential.
+(i) Comparison of the *OC /(*OC +*OC ) ratio in in-situ FTIR spectra for different
+bridge bridge atop
+catalysts at different applied potential. (j) Schematic illustration of the underexplored asymmetric
+
+
+===== PAGE 41 =====
+
+ARTICLE IN PRESS
+coupling process and ethanol path directed selectivity problem in CO electroreduction, and flow
+2
+diagram illustrating the working principles of isotopic tracking of surface-adsorbed intermediates
+based on 12C/13C and H/D isotopes in tandem with in-situ FTIR spectra. (k) Schematic for boosted
+EtOH generation over Co -Sub-CuS. Blue, silver, pink, red, gray, and green-color spheres in
+0.050
+the model represent Cu, S, Co, O, C, and H atoms, respectively.
+Fig. 4 | Mechanistic study. (a) Reaction routes via C-C coupling (grey) towards C products. Path
+2
+1 for the generation of ethylene (blue), and Path 2 for EtOH (red). (b) On the Co-Sub-CuS catalyst,
+*CO and *COH co-adsorb on Cu sites and asymmetrically couple to form OCCOH*, with dashed
+arrows denoting Cu-Cu distances. (c) Energy profiles for the *CO + *COH → OCCOH* on Vs-
+CuS and Co-Sub-CuS. Initial state (IS), transition state (TS) and final state (FS) are depicted in the
+insets. (d) Energy profiles for the reduction of *CHCO. (e) -pCOHP curves of the C-Cu and C-
+1
+Cu bonds. (f) Heat map depicting reaction energy profiles for conversion of *CHCO. B -B refer
+2 S 1 3
+to three adsorption configurations of *CHCO; C -C denote four configurations of *CHC*OH along
+1 4 S
+Path 1 and O -O represent *CHCHO* along Path 2. See Supplementary Information for structure
+1 4 E
+details. (g) *CHCHO* on Co-Sub-CuS with one layer of water molecules. Hydrogen bonds are
+R
+shown in dashed lines, with arrows illustrating the Cu-Cu distance in (h) *CHCHO* and (i)
+P
+*CHC*OH. Configurations of (j) *CHCHO* and (k) *CHC*OH on Vs-CuS. (l) Differential charge
+density plots of *CHCHO* on Co-Sub-CuS. IsoNsurfaces were generated at ±0.002 e–/bohr3, with
+blue and yellow areas representing electron loIss and gain, respectively.
+E
+L
+C
+I
+T
+R
+A
+Editorial Summary:
+Precisely controlling the configuration of oxygen-binding intermediates is crucial for selective
+CO -to-ethanol electroreduction. Here, the authors present a subsurface Co-doped CuS catalyst,
+2
+which transforms key intermediates via surface-O bonds to achieve directional selectivity for
+ethanol.
+Peer review information: Nature Communications thanks Fa Yang and the other anonymous
+reviewer(s) for their contribution to the peer review of this work. A peer review file is available.

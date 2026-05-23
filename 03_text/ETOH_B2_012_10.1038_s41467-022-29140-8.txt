@@ -1,0 +1,1175 @@
+
+
+===== PAGE 1 =====
+
+ARTICLE
+OPEN
+https://doi.org/10.1038/s41467-022-29140-8
+Trends in oxygenate/hydrocarbon selectivity for
+electrochemical CO reduction to C products
+(2) 2
+✉
+Hong-Jie Peng 1,2, Michael T. Tang1,2, Joakim Halldin Stenlid 1,2, Xinyan Liu2 & Frank Abild-Pedersen 1
+The electrochemical conversion of carbon di-/monoxide into commodity chemicals paves a
+waytowardsasustainablesocietybutitalsopresentsoneofthegreatchallengesincatalysis.
+Herein, we present the trends in selectivity towards specific dicarbon oxygenate/hydro-
+carbonproducts fromcarbonmonoxidereduction ontransition metalcatalysts,withspecial
+focus on copper. We unveil the distinctive role of electrolyte pH in tuning the dicarbon
+oxygenate/hydrocarbonselectivity.Theunderstandingisbasedondensityfunctionaltheory
+calculated energetics and microkinetic modeling. We identify the critical reaction steps
+determiningselectivityandrelatetheirtransitionstateenergiestotwosimpledescriptors,the
+carbon and hydroxide binding strengths. The atomistic insight gained enables us to ratio-
+nalize a number of experimental observations and provides avenues towards the design of
+selective electrocatalysts for liquid fuel production from carbon di-/monoxide.
+1SUNCATCenterforInterfaceScienceandCatalysis,SLACNationalAcceleratorLaboratory,MenloPark,CA94025,USA.2SUNCATCenterforInterface
+✉
+ScienceandCatalysis,DepartmentofChemicalEngineering,StanfordUniversity,Stanford,CA94305,USA. email:abild@slac.stanford.edu
+NATURECOMMUNICATIONS| (2022) 13:1399 |https://doi.org/10.1038/s41467-022-29140-8|www.nature.com/naturecommunications 1
+;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29140-8
+E
+lectrochemical reduction of carbon dioxide (CO R) into Results and discussion
+2
+carbon-basedchemicalsandfuelsoffersaneffectiverouteto Reaction pathways for COR towards various C 2 Oxy/HC.
+closetheanthropogeniccarboncycle,storesurplusrenewable Surface CO (CO*) is the key intermediate leading to further
+electricity, and build up a sustainable chemical industry1,2. Copper reduced products3,22, and Cu(100) has been identified as the
+(Cu)and Cu-based materials aresofar the onlycatalysts thatpro- major exposedfacet underreactionconditions32,34. Wefocus on
+duce high-value multicarbon (C 2+) species at a significant rate3. COR and select the Cu(100) as the model surface for a detailed
+AmongpossibleC products,C oxygenates(Oxys)suchasethanol investigation of the reaction mechanism. Computational details
+2 2
+and acetic acid are produced in liquid forms and possess high and simplifications of the electrochemical models are shown in
+volumetric energy density and are compatible with existing infra- Supplementary Notes 1–5 with corresponding data and justifi-
+structure for easy storage and transportation1,3. The majority C cation presented in Supplementary Figs 1, 2 and Supplementary
+2
+hydrocarbon(HC)productonCuisethylene,whichisalsoawidely Tables 1–8.
+usedchemicalfeedstockinindustrialprocesses3,4.Despitetheability Figure 1 shows the most relevant reactions considered in this
+to produce C 2+ products, pristine Cu is not selective towards a work. In a previous publication35, we identified three major
+specific C 2+ product. Thus, the fundamental selectivity issues of pathways for CORtowardsmethane (C 1 )and C 2(+) productson
+CO R on Cu is a challenge of great importance in catalysis and Cu(100). The COH/C-H (grey) pathway leads to C as the only
+2 1
+sustainableenergytechnologies.Substantialfocushasbeenmadein productwhereastheOCCOH(magenta)andCOH/OC-C(black)
+enhancingtheselectivityofC productsforCO R5–11. pathways both result in significant C production through a
+2 2 2
+A number of strategies have been developed to address the common intermediate dicarbon oxide (CCO*). A degree of rate
+challengeofregulatingC Oxy/HCselectivityforCO RonCu-based control analysis shows that the total COR rate depends on
+2 2
+catalysts, including facet engineering12,13, nanostructuring14,15, energies of key surface species essentially present in the reaction
+oxide-derivedCu(OD-Cu)6,11,16,alloying9,17,18,andrunningCO R pathwayswithaPETnumber(n,relativetoCO)oflessthantwo
+2
+intandem7.Specifically,directreductionofcarbonmonoxide(COR) (SupplementaryFig.3)35.Inotherwords,reactionstepslaterinn
+atalkalineconditionshasbeenwidelyreportedtoyieldsignificantC than CCO* only play a role in controlling the selectivity of C
+2 2
+Oxyspecies at more positive potentials thanCOR19. This strategy Oxy/HC for COR. We therefore evaluate these later steps with a
+2
+wasoriginallyconceptualizedonOD-CubyKananandcoworkers6, particular focus on different protonation steps. Neutral pH
+andhaslater beenvalidatedforabroadrangeof Cucatalystswith conditions for the bulk electrolyte (pH7) is considered through-
+distinct morphologies and under evaluation in various types of out this section; however, the effect of pH will be discussed in a
+reactors14–16,20,21.InadditiontointrinsicpropertiesofCucatalysts,
+later section. In Fig. 2, we will show that while our energetics
+suchauniversalphenomenonhighlightstheimportanceofextrinsic align closely with previous works by Calle-Vallejo et al.26 and
+factorslikepotentialandpHinsteeringC Oxy/HCselectivity.The Chengetal.29,ourbarriersrevealallowforkineticconsiderations
+2
+pH effects have been widely known for tuning the methane/C regarding the formation of C Oxy vs. HC on Cu surfaces.
+2 2
+selectivity21–25.
+However, despite the diverse reaction mechanisms
+proposed in theoretical works to understand the formation of CCO*/CHCO*.Protonsinsolutioncanattackthesurface-boundα-
+ethylene and ethanol26–31, the observed pH effects on C Oxy/HC C or the dangling carbonyl bonds to produce either CHCO* or
+2
+selectivityremainelusive.Modelexperimentsonwell-definedsingle- CCHO*/CCOH*,respectively.Theprotonationofα-Cisshownto
+crystal Cu facets12,32, as well as principle component analysis33, bethermodynamicallymorefavorableandkineticallyfasterthanthe
+provide statistical insight into product-specific active site motifs of other two reaction steps, rendering CHCO* as the only possible
+Cu. Nevertheless, this insight is limited to pure Cu and as a con- protonation product of CCO* (Supplementary Fig. 4). Similar to
+sequence, the discovery of new materials is challenging. Thus, a CCO*, CHCO* has three possible reduction pathways, CH CO*,
+2
+fundamentallookatthequestions—AtwhichstepdoesthelastC–O OCHCH*,orCHCOH*(Fig.2a).Specifically,OCHCHformationis
+bond break? And how does such a step correlate with potential and enabled through formation of a surface–O bond. Of the three
+pH?—iscrucialforprovidinginsightattheatomic-levelandbroaden branchingintermediatesOCHCH*isthemoststableandCHCOH*
+our understanding when addressing the trends of C Oxy/HC the least (Supplementary Fig. 5a). Despite the poorer thermo-
+2
+selectivity. dynamicstabilityofCHCOH*,itsformationexhibitsthelowestΔG
+a
+In this work, we investigate the reaction mechanism of COR of 0.65eV at U =0V; whereas the other two steps have to
+RHE
+towards major C Oxy/HC products (e.g. ethylene, ethanol, and overcomeafreeenergybarrieratleast0.21eVhigher.Nevertheless,
+2
+aceticacid)fromreactionandactivationenergiescalculatedusing these differences in ΔG become smaller as the overpotential
+a
+density functional theory (DFT). Pathways trifurcating from a increases,duetothesmallercharge-transfercoefficient(β~0.35)for
+common intermediate, CHCO*, are shown to be responsible for CHCO-H than for CHC-HO (β ~0.45) and OCCH-H (β ~0.5)
+generating specific C Oxy/HC products. We observe that it is (SupplementaryFig.5b).Oncethethreespeciesaregeneratedonthe
+2
+kineticallyunfeasibletoformethylenethroughtheOCHCH*and surface, the subsequent reaction steps are shown to be facile at
+CH CO* pathway. An electrochemical microkinetic model reducingconditions(U =−0.73V;pH7)(Fig.2b,d,ande).In
+2 RHE
+(exemplified on Cu(100)) is presented to adequately rationalize eachsteptrifurcatingfromCHCO*,thefreeenergyofactivationof
+the experimental trends in C Oxy/HC selectivity, revealing its the protonation reaction, ΔG, controls the overall rate and hence
+2 a
+dramatic dependency on electrolyte pH, applied potential, and the likely reduction pathway. Therefore, it is crucial to unveil at
+the surface orientation of the Cu catalysts. We find that the which step in each pathway the C–O bond breaks most easily and
+distinct pH effect on the C Oxy/HC selectivity stems from the consequently identify the product specificity of the different
+2
+selectivity-determining steps (SDSs) in each pathway having pathways.
+different proton-electron transfer (PET) numbers with water as
+the proton source. This insight allows us to propose two simple The CHCOH pathway. Among the three possible protonation
+descriptorsfortheC Oxy/HCselectivityonagivenmaterial-the steps, the protonation of the hydroxyl group in CHCOH* to
+2
+adsorptionfreeenergiesofC*andOH*.Theseenergiesserveasa produce water and CCH* is the most kinetically favorable
+measureofthecarbophilicityandoxophilicityofthesurface.The pathway (Fig. 2f and Supplementary Fig. 6). Cheng et al. also
+degreeof carbophilicity isshowntoprimarily guide theC Oxy/ suggested the predominance of CCH formation through
+2
+HC production. The two descriptors provide atomistic under- protonation29. And the extremely low coverage of H* (~10 −8
+standing of product-specific sites on Cu and analogous catalysts. monolayer)onCu(100)stronglylimitstheCHCHOHformation
+2 NATURECOMMUNICATIONS| (2022) 13:1399 |https://doi.org/10.1038/s41467-022-29140-8|www.nature.com/naturecommunications
+
+
+===== PAGE 3 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29140-8
+Fig.1SchematicdiagramofreactionstepsbeyondCO.Reactionintermediatesinvolvedinmajorpathwaysareshowninsolidsquareswithdifferent
+colors:(1)CommonpathwaysviaCOH*/C*towardsbothC andC products(black/grey)andadditionalC pathwayviaOCCO*/OCCOH*(magenta).
+1 2 2
+TheabovepathwayscontrolthetotalCORrate.(2)Majorselectivity-determiningpathwaystrifurcatingfromCHCO*,includingtheCHCOHpathway
+towardsethyleneasthemainC HCproduct(red),theOCHCHpathwaytowardsacetaldehydeandethanol(blue),andtheCH COpathwaytowardsall
+2 2
+threemajorOxyspecies,i.e.,aceticacid/acetate,acetaldehyde,andethanol(green).TheimportantstepsgoverningwhetherthelastC–Obondiscleaved
+orpreservedaremarkedwithlightredandlightcyanbackgrounds,respectively.(3)Minorpathwaysbranchingoffthemajorpathwaysareindicatedby
+dashedsquares,includingtheCHCOHpathwaytowardsminorC HCproducts(brownforacetyleneandgoldforethane),theCHCOHpathwaytowards
+2
+C Oxys(purple,viaCHCHOH*),andtheOCHCH/CH COpathwaystowardsethylene(purple,viaOCH CH *).Solidarrowsrefertoelectrochemical
+2 2 2 2
+protonationstepsanddashedarrowsrefertochemicalprocesses.
+NATURECOMMUNICATIONS| (2022) 13:1399 |https://doi.org/10.1038/s41467-022-29140-8|www.nature.com/naturecommunications 3
+
+
+===== PAGE 4 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29140-8
+Fig.2Freeenergydiagrams(FEDs)ofCORonCu(100)atU =−0.73V(pH7).aTSstructuresofCHCO-H(TS1),CHC-HO(TS2),andOCCH-H
+RHE
+(TS3)protonation.FEDsshowingbthemajorCHCOHpathwaytowardsethylene(red)andethane(yellow),ctheminorCHCOHpathwaytowards
+ethylene(red)andacetylene(brown),dtheOCHCHpathwaytowardsethanol(blue)andacetaldehyde(navy),andetheCH COpathwaytowardsacetic
+2
+acid(green)andanintermediate(blue)leadingtotheothertwoC Oxyproducts.Thecoloredsquaresinbanddhighlightregionswherekeycompeting
+2
+reactionstepsappearfrombranchingpathwaysasillustratedinFig.1:fCHCHOHformationfromCHCOH*(purple),possiblyleadingtoC Oxysand
+2
+gethyleneformationfromOCHCH *(purple)asproposedbyCalle-Vallejoetal.26andbasedonlyonthethermodynamicstabilitiesofsurfacespecies.
+2
+ImportantTSstructures,CHCOH-H(TS4)andCHC-HOH(TS5)protonationareshowninf,andOCH-HCH (TS6),CH CHO-H(TS8),andOCHCH -H
+2 2 2
+(TS9)protonation,aswellasC–OscissionofOCH CH *(TS7)areshowning.Electrochemicalprotonationstepsareshownassolidlineswhilechemical
+2 2
+processesareshownasdashedlines.AllenergiesintheFEDsarereferencedtoCO(g),H (g),andH Obasedonthecomputationalhydrogenelectrode
+2 2
+(CHE)model.Thevaluesinparenthesesinb–grepresenttheΔG atU =−0.73V(pH7).SourcedataareprovidedasaSourceDatafile.
+a RHE
+via surface hydrogenation35. Since the C–O bond breaks easily absence of C HC products, acetylene and ethane, observed
+2
+through CHCOH-H protonation, the CHCOH pathway is con- experimentally may be attributed to the slower H-CCH protona-
+sequently identified to exclusively produce C HCs. Once the tion and CCH -H protonation steps compared to the steps
+2 2
+CCH* isformed, a seriesofCH x CH y+1 * intermediates(x, y>0) towards ethylene, i.e. CCH-H and H-CCH 2 , respectively. In
+follows,amongwhichCCH*→CCH *→CHCH *→C H (g)is addition, the relatively strong binding strength of HCCH* limits
+2 2 2 4
+showntobethemajorpathwaytowardsethylene(Fig.2b,c).The thedesorptionofacetyleneandhencefavorssubsequentreduction.
+4 NATURECOMMUNICATIONS| (2022) 13:1399 |https://doi.org/10.1038/s41467-022-29140-8|www.nature.com/naturecommunications
+
+
+===== PAGE 5 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29140-8
+The OCHCH pathway. Because OCHCH* is thermodynamically Figure3ashowsthetrendsintheoreticalCORcurrentdensities
+more stable than CHCOH* and CH CO*, it is typically con- on Cu(100) obtained through microkinetic modeling, which are
+2
+sidered an inevitable intermediate in several proposed reaction directly comparable with the experimentally measured CO R
+(2)
+mechanisms of ethylene formation26,27. As proposed by Calle- current densities on planar polycrystalline Cu (pcCu) shown in
+Vallejo et al.26, one of the reaction steps involves protonation of Fig. 3b. Two pH conditions were considered, neutral (pH7) and
+OCHCH *, the most stable intermediate in the OCHCH* alkaline (pH13). Despite the discrepancies in the absolute
+2
+reduction on Cu(100), and simultaneous C–O bond scission to magnitudes, our model accurately predicts the potential-
+generate atomic oxygen (O*) and the release of C H . Here we dependent variations in activity and selectivity and reproduces
+2 4
+observe that OCH CH * is a stable intermediate along the reac- several key characteristics in experimental observations:
+2 2
+tion coordinates between two TSs, thus demonstrating the dis-
+jointed nature of the reaction OCHCH *+H ++e − → ● When compared to methane, larger shifts in onset
+O*+C H (g) (Supplementary Fig. 7). In sha 2 rp contrast to the potentials are observed for all C 2 species by varying the
+2 4 pH.ThiscanbeattributedtothedifferenceinPETnumber
+extremely high barriers of directly producing ethylene from
+OCHCH *, reducing OCHCH * to either acetaldehyde or vinyl (relative to CO) for the rate-determining steps (RDSs) of
+2 2 dominant C and C pathways at low overpotentials, i.e.,
+alcohol is almost spontaneous at reducing conditions (Fig. 2g). 2 1
+OCCO-Hprotonation forC andCOH-Hprotonationfor
+Vinyl alcohol is unstable in an aqueous solution at room tem- 2
+perature and ultimately isomerizes to acetaldehyde36. Once C 1 .Thisinsighthasbeendescribedindetailinourprevious
+work35.
+acetaldehydeisformed,ethanolhasbeenexperimentallyvalidated
+as the only further reduced C product22,37. Compared to ● Ethyleneisamoreabundant C 2 product thanethanol and
+OCHCH *, OCH CH* and CHC 2 HOH* as two other possible acetate. The predicted rate of ethylene relative to ethanol/
+intermed 2 iates thro 2 ugh reduction of OCHCH* are demonstrated acetateonCu(100)isevenhigherthanthatexperimentally
+obtainedonpcCu,whichisinagreementwithobservations
+to be less favorable (Supplementary Fig. 8). The above analysis
+by Hori et al.12.
+suggeststhatthepossibleC productsfromtheOCHCHpathway
+2 ● In the low-current-density kinetically-controlled region
+are limited to acetaldehyde and ethanol (Fig. 2d).
+and at pH13, the potential dependencies of ethylene,
+The CH CO pathway. Adsorbed CH CO* tends to detach from ethanol, and acetate are slightly different, indicated by a
+2 2 steeper Tafel slope for ethylene than for ethanol and
+the surface and generate molecular ethenone in solution. Owing
+acetate. This feature originates from the competition
+to the highly reactive nature of cumulative double bonds, ethe-
+betweenmultiplereactionpathways(e.g.,thethreeparallel
+none issusceptible to nucleophilic attack from water to generate
+pathways (CHCOH, OCHCH, and CH CO) for CHCO*,
+aceticacid,i.e.,acetateatneutralandalkalineconditions(Fig.2e). 2
+theethenonehydrationvs.CH COreductionforCH CO*)
+The hydration barrier was experimentally measured to be 2 2
+~0.6eV38,whichisinaccordancewithsimulationsperformedby andthefactthatthesecompetingpathwayspossessdistinct
+Lucetal.8.Thus,theCH COpathwaynaturallycontributestothe potential dependencies. We will discuss the potential and
+2 pH dependencies in more details later.
+acetate generation. Stronger nucleophilicity of hydroxide anions
+−
+(OH ) than water further favors the reaction between ethenone We also note that the larger discrepancy in predicting acetate
+andOH − underhighalkalineconditions6,8,16.Theincorporation production at alkaline condition could be attributed to the
+ofsolventoxygenfromeitherwaterorOH − isalsosupportedby additional pathway of nucleophilic reaction between OH − and
+18Oisotopelabelingexperiments8,16.Onceacetateisformed,the ethenone or surface carbonyl compounds such as CCO* and
+electrostatic repulsion between the negatively charged electrode
+CHCO*39.Furthermore,studiesthatattempttodetermineofthe
+and this anion species, will prevent the acetate from further Tafel slopes for CO R are often based on the RDS—through
+(2)
+reduction.ReducingCH 2 CO*towardacetaldehyde/ethanolisthe (cid:1) e 2 ð : n 3k þ B β T Þ ,wherek B istheBoltzmannconstant,Tthetemperature,
+relevant process competing with acetate formation, which, how- etheelementarycharge,nthePETnumberbeforetheRDS,andβ
+ever, has hardly been investigated28. Protonation of CH 2 CO* the charge-transfer coefficient of the RDS25,40—we note that the
+results in surface species CH CO*, OCHCH *, and CH COH*,
+3 2 2 RDS approach of determining Tafel slopes is valid only for
+respectively, all of which tends to be further reduced to C Oxys
+2 analyzing the total rate of CO/CO consumption or C /C
+(Supplementary Figs. 9 and 10). Compared to the OCHCH formation. To further analyze the 2 formation of specific 1 C 2
+pathway,theonlydifferenceliesintheabilityofCH COpathway 2
+2 products derived from the same intermediate formed after the
+to produce acetate.
+RDS, the Tafel slope of each product consists of two individual
+From this we conclude, that the production of major C Oxy/
+2 components:onefromthetotalC formationandtheotherfrom
+HC species under CO R conditions stems from a common 2
+(2) relative rates between different pathways. Due to the dynamic
+intermediateofCHCO*.TheprotonationstepsofCHCO*playa
+nature of the second component, one should be cautious with
+vitalroleindeterminingtheC productselectivity.TheCHCOH
+2 corresponding Tafel analysis.
+pathway exclusively results in C HC, whereas the OCHCH and
+2 Besidesthevariationofreactionrateswithpotential,pHisseen
+CH CO pathways lead to C Oxy only.
+2 2 tohaveaprofoundeffectontheC Oxy/HCselectivity(Fig.3c).
+2
+To prevent the interference from the different PET number per
+Microkinetic model of COR and pH effects on C Oxy/HC
+2 product molecule, we employed C 2 Oxy/HC molecular ratios
+selectivity. To further illustrate the important role of CHCO rather than FEs for the selectivity analysis. Experimental values
+protonationstepsforC Oxy/HCproducts,wehavedevelopeda were adopted from the literature where a broad range of Cu
+2
+mean-field microkinetic model that accounts for adsorbate- catalysts and reactor types were investigated. We classify the Cu
+adsorbate interactions (see details in Supplementary Note 6)25. catalysts into pcCu electrodes4,6,20,21,41, OD-Cu electrodes6,16,41,
+Given the intrinsic DFT errors (±0.15eV) on barriers and single-crystalCuelectrodes13,andhigh-roughness-factor(RF)Cu
+intermediate energies and the uncertainties brought by the electrodes (mostly derived from oxide)14,15. For a fair compar-
+parameterization and the varying solvent structures, the micro- ison,weonlyconsideredtabulatedliteraturevalueswithproduct
+kinetic model only serves as a tool for qualitative comparison distribution and CO R in 0.1M KHCO electrolyte or COR in
+2 3
+with experimental trends in activity and selectivity. 0.1MKOHelectrolyteforFig.3c.The0.1Mcationconcentration
+NATURECOMMUNICATIONS| (2022) 13:1399 |https://doi.org/10.1038/s41467-022-29140-8|www.nature.com/naturecommunications 5
+
+
+===== PAGE 6 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29140-8
+Fig.3TrendsinCO Rcurrentdensities(j)andC Oxy/HCmolecularratioswithvaryingpotentialsandpH.aTheoreticalCORandbexperimental
+(2) 2
+CO Rpolarizationcurves.TheexperimentaldataforCO R(in0.1MKHCO ,approximatelypH7)andCOR(0.1MKOH,pH13)areobtainedonplanar
+(2) 2 3
+pcCufromref.4andref.21,respectively.ThecurrentdensitiesforCO Rwereintentionallyconvertedbyconsideringthedifferenceinelectrontransfer
+2
+numberperproductmoleculebetweenCO andCOastheinitialreactants(seedetailsinSupplementaryTable9).Thecurrentdensityofethanolshown
+2
+hereinisthesumofethanolandacetaldehydeanddenotedwithasterisk(*).cC Oxy/HCmolecularratiosforCO R(pH7)andCOR(pH13)asafunction
+2 2
+ofU onabroadrangeofCu-basedcatalystsreportedintheliterature.SolidandhollowplotscorrespondtodatafromCO R(pH7)andCOR(pH13),
+RHE 2
+withsolidanddottedlinestoindicatethetrend,respectively.DashedlinesinredandblueshowthetheoreticallypredictedtrendsinC Oxy/HCmolecular
+2
+ratiosatpH7andpH13,respectively.Datafromliteratures:(CO RpH7)planarpcCu;4electrodepositedpcCuandOD-Cu;41single-crystalCu(111),
+2
+Cu(100),andCu(751);13(CORpH13)planarpcCu(black);21planarpcCu(lightblue);20Cunanoparticle,OD-Cu1,andOD-Cu2;6OD-Cuongasdiffusion
+layer(GDL);16OD-Cunanowire;14OD-Cunanoflower15.AllthedataforcarelistedinSupplementaryTable10.SourcedataareprovidedasaSource
+Datafile.
+was selected to be consistent with the parameters in our electric formation ignored) also exhibit similar trends, suggesting a
+field model; albeit we show that variation of the model common factor underpinning this pH effect (Supplementary
+parameters has little effect on the overall trend (Supplementary Fig. 12). To explore this common factor, we conducted a degree
+Fig. 11). It is clearly observed that the C Oxy/HC molecular of selectivity control (DSC) analysis—a mathematical approach
+2
+ratiosdecreasedrasticallywhenU decreasestoapproximately that explicitly links the product sensitivity to certain rate-
+RHE
+−0.5V, which is then followed by a slight increase in the more determiningreactionintermediates(seedetailsinSupplementary
+negative potential region (−0.5V to −0.85V). Our model Note 7). Figure 4 depicts the DSCs for ethylene, ethanol, and
+accurately predicts such an inverse Volcano-like characteristic. aceticacidasafunctionofpotentialandpH.AtpH7,Cu(100)is
+The observed discrepancy in absolute magnitudes could be foundtobeextremelyselectivetowardsethylene,andtheethylene
+attributedtotheabsenceofundercoordinatedsitesonCu(100)in productionisinsensitivetoanyoftheenergystatesinarangeof
+oursimulation,whereasundercoordinatedsitespresentindefect- U from approximately −0.4V to −0.8V; only when U
+RHE RHE
+or grain-boundary-rich pcCu or OD-Cu have been suggested as decreases further, the difference between CHCO-HTS and
+C Oxy-specific active sites in previous studies6,13,33. We will OCCH-HTS becomes smaller and the CH CO pathway starts to
+2 2
+unravel the atomistic origin of C Oxy-specific activity on these compete with the CHCOH pathway (Fig. 4a). The formation of
+2
+sites in the last section. C Oxy shown in Fig. 4b, c is strongly limited by the enhanced
+2
+In general, we ascribe the experimentally observed difference stabilization of CHCO-HTS (a DSC close to −1) on Cu(100). A
+betweenCO RandCORinFig.3ctoapHeffectandthedifferent stabilization of either CHC-HOTS and OCCH-HTS with a DSC
+2
+operating windows of U . The very high C Oxy selectivity of close to 1 should favor ethanol and acetic acid formation in the
+RHE 2
+alkaline COR cannot be reasoned solely through a promoted −0.4V to −0.8V U potential range.
+RHE
+acetate formation with increasing OH − concentration6,8,16. In BesidesthethreeTSsfortheinitialprotonationofCHCO*,we
+fact, the ethanol/ethylene molecular ratios (with acetate also note that the relative rate of the CHCOH pathway is
+6 NATURECOMMUNICATIONS| (2022) 13:1399 |https://doi.org/10.1038/s41467-022-29140-8|www.nature.com/naturecommunications
+
+
+===== PAGE 7 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29140-8
+Fig.4OriginofthepHeffectsontheC Oxy/HCselectivityforCOR.AnalysesofDSCforaethylene,bethanol+acetaldehyde(denotedasethanol*),
+2
+andcaceticacid.SimilartothedegreeofratecontrolconceptualizedbyCampbelletal.60,DSCservesasapowerfultooltoquantifythemagnitudeof
+selectivitycontrollingbyacertainintermediateoraTS.Apositive(negative)valueofDSCindicatesthatthecorrespondingreactionintermediateorTS
+needstobestabilized(destabilized)inordertoenhancetheselectivity.Theboundaryvaluesof1and−1representfullselectivitycontrolbythe
+intermediates.OnlytheenergystateshavingsignificantcontributiontotheDSC,i.e.absolutevalueofDSC>0.01,areshown.KeyintermediatesandTSs
+associatedwiththeCHCOH,OCHCH,andCH COpathwaysareshowninreddish,bluish,andgreenishcolors,respectively.Fromtheuppertolower
+panels,thepHofbulkelectrolyteincreasesfro 2 m7to13.Analyticalapproximationoflnðr
+r
+C2OxyÞasafunctionofdU
+RHE
+andeU
+SHE
+atpH7andpH13,in
+comparisonwiththetheoreticalresultsobtainedthroughmicrokineticmodeling.Theslope
+C s2H
+o
+C
+fthetwolegsaregivenbyEq.(1)andEq.(2),respectively.
+βOxycouldbeeitherβOCCH-HorβCHC-HOdependingonthedominantC Oxyformationpathway.HereβOCCH-HwasemployedforCu(100).Sourcedata
+2
+areprovidedasaSourceDatafile.
+controlled primarily by the second protonation step (CHCOH- On the right leg we have
+ΔGCHCOH(cid:1)H >ΔGCHCO(cid:1)H,
+such that
+H m T o S r ) e at p l r o e w do o m v i e n rp an o t ten fo ti r als e ( t U hy R l H en E e >− fo 0 rm .5 a V ti ) o . n Th a is t fa p c H to 1 r 3 b , ec w o h m er e e s ln r C2Oxy ! (cid:3) ðβOCCH(cid:1)H(cid:1)βCHCOH(cid:1)H(cid:1) a 1ÞeU RHE þð4GC a; H 0 a COH(cid:1)H(cid:1)4G a O ;0 CCH(cid:1)HÞ
+CHCOH-HTS exhibits a significantly higher DSC than at pH7 r C2HC k B T
+when U >−0.4V. Such a shift with pH in the SDS is ð1Þ
+RHE
+analogous to the shift in the RDS for the COH pathway to whereas on the left leg we find ΔGCHCOH(cid:1)H <ΔGCHCO(cid:1)H, such
+produce methane (Supplementary Fig. 3)35. Because of the a a
+additional protonation step required to produce CCH* + H 2 O tha t !
+fromCHCOH*,increasing pHsuppresses theCHCOHpathway ln r C2Oxy (cid:3) ðβOCCH(cid:1)H(cid:1)βCHCO(cid:1)HÞeU RHE þð4G a C ; H 0 CO(cid:1)H(cid:1)4G a O ;0 CCH(cid:1)HÞ
+at the same absolute potential (vs. standard hydrogen electrode, r k T
+U ) and consequently yields higher C Oxy/HC selectivity at
+C2HC B
+SHE 2 ð2Þ
+low overpotentials (Supplementary Fig. 13). This shift also
+rationalizes the inverse Volcano shown in Fig. 3c. On the right Here r and r are the rate of C Oxy and HC
+COxy CHC 2
+leg (U >−0.5V), the SDS for C Oxys (mainly OCCH-HTS formation,2respectively,2ΔG the activation energy relative to
+RHE 2 a, 0
+on Cu(100)) competes with CHCOH-HTS; while on the left leg CHCO* at U =0. With this we can quantify the slope and
+RHE
+(U <−0.5V), the SDS for C Oxys competes with CHCO- intercepts of both legs. The potential and pH dependence of key
+RHE 2
+HTS.Withthisinsight,wecanderiveasimpleanalyticexpression intermediate energies present in Eq. (1) and Eq. (2) induces the
+fortheC Oxy/HCmolecularratiowhentheCH COpathwayis upwardshiftoftheinversevolcanowithincreasingpHonaU
+2 2 RHE
+moredominantthantheOCHCHpathwayforC Oxyformation scaleor,videlicet,theshiftoftherightlegofthevolcanotowards
+2
+(see details in Supplementary Note 8). more negative potentials on a U scale (Fig. 4d, e). Similarly,
+SHE
+NATURECOMMUNICATIONS| (2022) 13:1399 |https://doi.org/10.1038/s41467-022-29140-8|www.nature.com/naturecommunications 7
+
+
+===== PAGE 8 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29140-8
+increasingthelocalpHalsofavorstheC Oxyformation,whichis tethered O atom, e.g. CHCO* and OCHCH* compared to
+2 2 3
+in agreement with experiments performed on high-RF Cu desorption44,45.
+electrodesunderneutralconditions(SupplementaryFig.14)34,41. OnelimitationtotheselectivitymapinFig.5isthatthedecision
+In addition to the key energies determining the C Oxy/HC boundariesarenothardboundaries.MostoftheCufacetsarelocated
+2
+selectivity, Fig. 4b, c also reveal the competing processes closetotheboundariesbetweentheC HC-andtheC Oxy-selective
+2 2
+governing the ethanol/acetate selectivity. Reduction steps of regions, highlighting their ability to produce a variety of C 2+
+CH CO*, i.e. H-CH CO and CH C-HO, possess a positive DSC products,butalsotheimmensechallengeofengineeringCucatalysts
+2 2 2
+forethanolproductionbutanegativeDSCforacetate;incontrast, forCO Rwithasingleproductselectivity.PureCu(100)facetsare
+(2)
+thehydrationbarrierofmolecularethenoneexhibitstheopposite particularly selective towards ethylene; while undercoordinated sites
+trend. Especially at pH13, the acetate formation is insensitive to onsteppedCufacetscanstabilizetheOCCH-HTSandCHC-HOTS
+any of the present energies when U >−0.3V, suggesting the relative to CHCO-HTS and consequently enhance the C Oxy
+RHE 2
+acetateasthemostlikelyC productatsmalloverpotentials.This selectivity.Cu(110)ispredictedtoshowthehighestC Oxyselectivity
+2 2
+isinexcellentagreementwiththeexperimentalobservationbyLi amongtheseCufacets,whichhasbeenexperimentallyvalidatedon
+et al6. Regardless, these energies have no effect on tuning the single-crystalCumaterials12,13.Cu(111)isanotherexceptiondueto
+overall C
+2
+Oxy/HC selectivity according to Fig. 4a. itsextremelyweakΔG C*comparedtootherCufacets,indicatingthe
+dominanceofCHCOpathwaythatexclusivelyleadstoC Oxys.Luc
+2 2
+Selectivity maps with ΔG C* and ΔG OH* as descriptors. The et al. designed Cu(111)-preferential nanosheet catalysts for selective
+abovecomputedenergetics,microkineticmodeling,andtheDSC acetate production through alkaline COR, aligning extremely well
+analysis allow us to identify three key reaction steps that deter- with our prediction8. However, the challenges for Cu(111)-type
+mines the C Oxy/HC selectivity: catalysts would be (1) more negative potential required to drive C*
+2
+formation that also favors methane production28,35 and (2) the
+CHCO*þH þþe (cid:1) !CHCOH*ðCHCO-HprotonationÞ ðiÞ strongtendencytoreconstructtoCu(100)-likefacets32.Considering
+theextremeproductsensitivitytothespecificsitemotifs,investigating
+CHCO*þH þþe (cid:1) !OCHCH*ðCHC-HOprotonationÞ ðiiÞ thestabilityofthesemotifsunderoperandoconditionsclearlyneeds
+moreattention.
+In conclusion, we have established the relevant reaction
+CHCO*þH þþe (cid:1) !
+ð
+C
+O
+H
+C
+2
+C
+C
+H
+O
+-
+*
+H
+ð
+p
+o
+r
+r
+o
+C
+to
+H
+n
+2
+a
+C
+ti
+O
+on
+ðg
+Þ
+Þþ*Þ ðiiiÞ p
+et
+a
+h
+t
+y
+h
+l
+w
+en
+ay
+e,
+s
+e
+fo
+th
+r
+a
+C
+no
+O
+l,
+(2)
+a
+R
+nd
+tow
+ac
+a
+e
+r
+t
+d
+ic
+s m
+ac
+a
+i
+j
+d
+or
+b
+C
+as
+2
+ed
+Ox
+o
+y
+n
+/H
+fi
+C
+rst
+pr
+p
+o
+r
+d
+i
+u
+n
+c
+c
+t
+i
+s
+pl
+o
+es
+f
+reaction energetics and micro-kinetic modeling. We have
+AtheoreticaldescriptionoftheC Oxy/HCselectivityturnsintoa identified a common intermediate, CHCO*, in CO R that
+2 (2)
+simple scheme where TS energies of these key steps define the trifurcates to all major C products. In contrast to previous
+2
+reaction products. Utilizing that these energies can be adequately studies, we find that the most kinetically relevant step towards
+described through scaling by ΔG C* and ΔG OH*, we have ethyleneformationisthroughtheprotonationoftheOatomin
+approximated the activation energies of the three protonation CHCO* towards CHCOH* and subsequent dehydroxylation,
+reactionsonclose-packedmetal(100)surfaces(Ag,Cu,Pd,Rh,and which exclusively results in C HCs. We find that protonation
+2
+Ni),thusallowingustocreateaselectivitymapacrossvariousmetals oftheCatomsinCHCO*andthesimultaneousformationofa
+(Supplementary Fig. 15). Besides the elementary metal (100) surface–O bond leads predominantly to C Oxy products such
+2
+surfaces, several alloys with characteristic four-fold hollow sites asethanoloracetate.WealsoelucidatethepuzzlingpHeffects
+(Cu Ag,Cu Zn,CuAg,CuZn,andNi Ga (111)),aswellasvarious in experimentallyobservedC Oxy/HCselectivity. Thenotable
+3 3 5 3 2
+Cufacets(Cu(111),Cu(211),Cu(511),Cu(310),andCu(110)),were pH effect arises from the additional dehydroxylation step
+investigated and shown on Fig. 5. We note that the U-dependent required for complete removal of the O atom in the C HC
+2
+activation energies in (i), (ii), and (iii) lead to differences in the pathway. Alkaline conditions were found to suppress the
+selectivity maps at varying potentials (Supplementary Fig. 16). kinetically feasible but thermodynamically less favorable path-
+Similar maps based on (ΔG CO*, ΔG OH*) have been introduced ways towards C
+2
+HCs at low overpotential. We have used
+recentlytodescribeselectivitytowardsvariousC products42.Also, scaling relations of transition state energies of key steps to
+1
+mapsbasedon(ΔG CO*,ΔG C*)havebeenestablishedtounderstand determine the C
+2
+Oxy/HC selectivity with two thermodynamic
+the C /C selectivity, offering additional constraints to the optimal descriptors: the adsorption energy of C* and OH*. We found
+2 1
+ΔG C* range that allows facile C 2 production from C*35. Such that carbophilicity is the primary feature controlling the C 2
+constraints (as indicated by the vertical dashed lines) should be Oxy/HC selectivity, while oxophilicity can be similarly
+implementedasaprerequisitefortheapplicationof(ΔG C*,ΔG OH*) important. The trends in C
+2
+Oxy/HC selectivity revealed in
+maps in Fig. 5. Note that Fig. 5 only addresses the C Oxy/HC this work, unveils the sensitivity of C Oxy formation on the
+2 2
+selectivityandnottheactivity. electrolyte pH and the binding affinities of a catalytic surface
+The map in Fig. 5 clearly reveals that weakening the C* binding and thus identifies the enormous challenges of obtaining a
+strength is the major driving force towards C Oxy formation, specific C product through CO R. To overcome the above
+2 2 (2)
+offeringadifferentinterpretationthanstudieswhereO/OHbinding challenges,ourdescriptor-basedapproachpresentsasimpleyet
+oroxophilicityarearguedtocontroltheC Oxy/HCselectivity31.For efficient way of deciphering the product-specific sites on Cu
+2
+instance, despite the comparable oxophilicity, stepped NiGa(111) surfacesanddesigningnewelectrocatalystsmoreselectivethan
+5 3
+possesses a significantly stronger ΔG C* than Cu(211) that leads to pristine Cu.
+predominant C HC formation as experimentally probed on Ni-Ga
+2
+catalysts43. Cu-Ag9,18 and Cu-Zn alloys17 were found to selectively Methods
+catalyzeCO (2) RtoC 2 Oxyproducts,whichalsocanberationalized Adsorptionfreeenergycalculations.Reactionenergeticswerecalculatedwith
+through the principle of lowering the C* affinity. Besides the C* densityfunctionaltheory(DFT)withaperiodicplane-waveimplementationand
+affinity,theoxophilicityservesasasecondarydescriptorthatcanhelp ultrasoftpseudopotentialsusingtheQUANTUMESPRESSOcode46,interfaced
+guide the selectivity of ethanol over less reduced C Oxy products
+withtheAtomisticSimulationEnvironment(ASE)47.WeappliedtheBEEF-vdW
+2 functional,whichprovidesareasonabledescriptionofvanderWaalsforceswhile
+such as acetate and acetaldehyde. Enhancing the oxophilicity maintaininganaccuratepredictionofchemisorptionenergies48.Plane-waveand
+essentially favors further reduction of intermediates with surface- densitycutoffswere500and5000eV,respectively,withaFermi-levelsmearing
+8 NATURECOMMUNICATIONS| (2022) 13:1399 |https://doi.org/10.1038/s41467-022-29140-8|www.nature.com/naturecommunications
+
+
+===== PAGE 9 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29140-8
+Fig.5PrinciplesoftuningtheC Oxy/HCselectivitythroughthe(ΔG ,ΔG )map.The(ΔG ,ΔG )selectivitymapatU =−0.73VatpH7.The
+2 C* OH* C* OH* RHE
+CHCOH−,OCHCH−,andCH CO-dominatedregionsareshownasred,blue,andgreen,respectively,withtherate-controllingTSstructuresshowninthe
+2
+parentheses.TheverticaldashedlinesidentifytheoptimalΔG rangeforOC-Ccouplingaccordingtothepriorwork35.Itshouldalsobenotedthatthe
+C*
+boundariesbetweenthethreeregionsshiftwithpotentialduetothedifferentβvalueforthethreeprotonationreactions.Notethatthelinewidthofthese
+boundariesdoesnotdirectlyreflecttheDFTerrors.SourcedataareprovidedasaSourceDatafile.
+widthof0.1eV.psLibultrasoftpseudopotentialswerechosen.Theadsorption saddlepoint56.Theplanewaveandchargedensitycutoff,exchange-correlation
+energieson(100)surfacesoffcctransitionmetalswereevaluatedusingfour-layer functional,andotherparameterswerethesameasthoseusedforgeometryopti-
+(3×3)supercellswiththebottomtwolayersconstrainedandavacuumlayerof mizations.Thechargeextrapolationmethod57wasusedtodeducetheactivation
+20Å,and[4×4×1]Monkhorst-Packk-pointgrids49wereused.Allthecellsizes barriersatconstantpotential.TheBaderchargeandworkfunctionforeachstate
+andcorrespondingMonkhorst-Packk-pointgridsforotherCufacetsandinter- werecalculatedtoestimatetheenergychangeinducedbycharging.Forsimplicity
+metallicsurfacescouldbefoundinTableS1.Moredetailsabouttheconstructionof andconsistencyacrosstheliterature,Baderanalysiswasappliedastheprimary
+thespecificmetalalloysurfaceswerediscussedinSupplementaryNote1.All spatialpartitioningschemeinthisstudy25,57.VoronoiandHirschfeldanalyses
+structureswereoptimizeduntiltheforcecomponentswerelessthan0.05eVÅ−1. shouldbetechnicallycompatiblewiththechargeextrapolationscheme,which,
+Adipolecorrectionwasappliedtodecoupletheelectrostaticinteractionbetween however,aresuggestedtobeconsideredinfutureworks.Ahydroniumionwas
+theperiodicallyrepeatedslabs.Gibbsfreeenergycorrectionwasappliedusingthe presentintheinitialstatetoactasthehydrogensourceforprotonation.After
+harmonicoscillatorapproximation.Solvationcorrectionwasappliedbycomparing relaxingNEBcalculations,Baderchargesoftheinitialstate,transitionstate,and
+theadsorptionenergycalculatedinathree-layer(4×3)supercellwithorwithouta finalstatearecalculatedbypartitioningtheproton-adsorbatecomplexsuchthat
+monolayerofexplicitwateronaCu(100)slab.Detailedmethodsandparameters theprotonremainsaspartofthesolvent,andusingaz-planethresholdthat
+fortheGibbsfreeenergycorrectionandsolvationcorrectionwereshownin separatestheimmediatewaterlayerfromthemetalslabwithintheunitcell.The
+SupplementaryNote2andSupplementaryNote3.Solvationcorrectionswere netchargeoftheinitialstate,transitionstate,orfinalstatecanthenbedetermined
+calculatedexplicitlyforintermediateswherethereare–Oor–OHgroupsthatcan via:net_charge=(slab_charge+ads_charge)–(neutral_slab_charge+neu-
+facetowardsthesolvent.ForsmallC intermediatesandC intermediatesthatlie tral_ads_charge).Whereneutral_slab_chargeandneutral_ads_chargearedeter-
+1 2
+closetothesurface,weassumenegligible(−0.1eV)orno(0eV)interactionwith minedasasumofthevalencenumberforaparticlemolecule/metallicslab.The
+theintermediates(asexplainedinSupplementaryNote3).Althoughstrongsol- effectofutilizinghydroniumandwaterasprotonsources,respectively,wasdis-
+vationeffectsonOH*adsorptionhavebeenwidelydiscussedinliterature50,51,itis cussedindetailinSupplementaryNote5.Sincechallengesremainformodeling
+notcurrentlypossibletojudgeifthevaluechosenforΔG OH*inthisworkis electrochemicalactivationbarriers,theunderlyinglimitations/assumptionsfrom
+correctedornot.However,significantdeviationswillnotaffecttheconclusionof ourmethodologyarelistedinSupplementaryNote9.
+thisworkbecauseΔG OH*onlyservesasadescriptor;OHsolvationcorrections
+wouldmerelyleadtoaconstantshiftforthey-axisintheselectivitymapofFig.5 Microkineticmodeling.Mean-fieldmicrokineticmodelsweresimulatedwiththe
+whilenotchangingtherelativepositionsofandthetrendsamongdifferent CatMAPsoftwarepackage58.TheCatMAPsoftwarepackageusedinthisworkcan
+materials.Inaddition,exchange-and-correlationfunctionalthataccountsforlong-
+beaccessedanddownloadedthroughhttps://github.com/SUNCAT-Center/
+rangeinteractions,suchasBEEF-vdW,generallyresultsinadecreaseinthe
+catmap.AlltheelementarystepsweredescribedinSupplementaryNote6.
+strengthofsolvationcontributionstotheadsorptionenergies,providingapossible
+Adsorbate-adsorbateinteractionswereconsideredforallpossiblereactioninter-
+e
+T
+x
+o
+p
+i
+l
+n
+an
+cl
+a
+u
+t
+d
+io
+e
+n
+th
+to
+ep
+th
+re
+e
+d
+r
+o
+e
+m
+lat
+in
+iv
+a
+e
+n
+ly
+te
+s
+f
+m
+fe
+a
+c
+l
+t
+l
+o
+s
+f
+ol
+i
+v
+n
+a
+te
+ti
+r
+o
+fa
+n
+ci
+c
+a
+o
+l
+r
+e
+r
+l
+e
+e
+c
+c
+t
+t
+i
+r
+o
+i
+n
+c
+s
+fi
+w
+el
+e
+d
+u
+o
+s
+n
+ed
+sta
+in
+bil
+t
+i
+h
+z
+i
+i
+s
+ng
+w
+s
+o
+o
+r
+m
+k5
+e
+2,
+C
+53. mediatepairs,usingthemethodsinLiuetal.25inwhichfirstorderadsorbate-
+intermediates,anelectricfieldmodelwasconstructedfollowingthesamemethod 2 adsorbateinteractionscausealinearweakeninginadsorptionenergiesofagiven
+intermediatewhenthecoverageofadsorbatesexceedacertainthreshold(0.25
+describedinref.35.ThedetailedparameterswereshowninSupplementaryNote4.
+monolayersinthiswork).Basedonpreviousworks25,32,COisthepredominant
+intermediateontheCusurface.Weassumethattherewillbeminimalcoverage
+effectsonreactionbarriersandenergeticsasidefrominteractionswithCO,which
+Electrochemicalreactionbarriercalculations.Electrochemicalbarrierswere
+havebeenincludedinthemodel.Furtherdetailsregardingmicrokineticmodeling
+calculatedwith(4×3)supercellsandMonkhorst-Packk-pointgridsof[3×4×1], withadsorbate-adsorbateinteractionsareexplainedinSupplementaryNote6.
+respectively.Allstructurescontainedathree-layertransitionmetalslab,withatoms
+inthetoplayerrelaxedandtherestfixed,alongwithahydrogen-bondedwater
+layerdeterminedthroughminimahopping54.Furtherdetailsregardingminima Data availability
+hoppingareprovidedintheSupplementaryNote5.Transitionstategeometries Theatomicstructuresdataandcorrespondingenergeticsgeneratedinthisstudyhave
+andenergieswerecalculatedusingtheclimbing-imagenudgedelasticband(CI- beendepositedinthepublicallyavailableCatalysis-hub59repositorydatabaseathttps://
+NEB)method,withtheforcesontheclimbingimageconvergedtolessthan www.catalysis-hub.org/publications/PengTrends2022.Sourcedataareprovidedwith
+0.05eVÅ−1(ref.55).Thespringconstantsweretightenedforimagesclosetothe
+thispaper.
+NATURECOMMUNICATIONS| (2022) 13:1399 |https://doi.org/10.1038/s41467-022-29140-8|www.nature.com/naturecommunications 9
+
+
+===== PAGE 10 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29140-8
+Received: 30April2021; Accepted: 17February 2022; 29. Cheng,T.,Xiao,H.&Goddard,W.A.Fullatomisticreactionmechanismwith
+kineticsforCOreductiononCu(100)fromabinitiomoleculardynamicsfree-
+energycalculationsat298K.Proc.NatlAcad.Sci.USA114,1795–1800
+(2017).
+30. Garza,A.J.,Bell,A.T.&Head-Gordon,M.MechanismofCO reductionat
+2
+coppersurfaces:PathwaystoC products.ACSCatal.8,1490–1499(2018).
+2
+References 31. Hanselman,S.,Koper,M.T.M.&Calle-Vallejo,F.Computational
+comparisonoflatetransitionmetal(100)surfacesfortheelectrocatalytic
+1. DeLuna,P.etal.Whatwouldittakeforrenewablypoweredelectrosynthesis
+todisplacepetrochemicalprocesses?Science364,eaav3506(2019). reductionofCOtoC 2 species.ACSEnergyLett.3,1062–1067(2018).
+32. Kim,Y.G.etal.Surfacereconstructionofpure-Cusingle-crystalelectrodes
+2. Ross,M.B.etal.Designingmaterialsforelectrochemicalcarbondioxide
+recycling.Nat.Catal.2,648–658(2019). underCO-reductionpotentialsinalkalinesolutions:astudybyseriatim
+ECSTM-DEMS.J.Electroanal.Chem.780,290–295(2016).
+3. Nitopi,S.etal.ProgressandperspectivesofelectrochemicalCO reductionon
+copperinaqueouselectrolyte.Chem.Rev.119,7610–7672(201 2 9). 33. Bagger,A.,Ju,W.,Varela,A.S.,Strasser,P.&Rossmeisl,J.Electrochemical
+CO reduction:classifyingCufacets.ACSCatal.9,7894–7899(2019).
+4. Kuhl,K.P.,Cave,E.R.,Abram,D.N.&Jaramillo,T.F.Newinsightsintothe 2
+34. Kim,D.,Kley,C.S.,Li,Y.F.&Yang,P.D.Coppernanoparticleensemblesfor
+electrochemicalreductionofcarbondioxideonmetalliccoppersurfaces.
+EnergyEnviron.Sci.5,7050–7059(2012). selectiveelectroreductionofCO 2 toC 2 –C 3 products.Proc.NatlAcad.Sci.
+5. Gao,D.F.,Aran-Ais,R.M.,Jeon,H.S.&Cuenya,B.R.Rationalcatalystand
+USA114,10560–10565(2017).
+35. Peng,H.J.etal.TheroleofatomiccarbonindirectingelectrochemicalCO
+electrolytedesignforCO electroreductiontowardsmulticarbonproducts. (2)
+Nat.Catal.2,198–210(2
+2
+019).
+reductiontomulticarbonproducts.EnergyEnviron.Sci.14,473–482(2021).
+36. Smith,M.B.&March,J.Advancedorganicchemistry:Reactions,
+6. Li,C.W.,Ciston,J.&Kanan,M.W.Electroreductionofcarbonmonoxideto
+liquidfuelonoxide-derivednanocrystallinecopper.Nature508,504–507 mechanisms,andstructure,8theditiondoi.(Wiley,2007).
+(2014). 37. Bertheussen,E.etal.Acetaldehydeasanintermediateintheelectroreduction
+ofcarbonmonoxidetoethanolonoxide-derivedcopper.Angew.Chem.Int.
+7.
+a
+M
+lc
+o
+o
+r
+h
+a
+o
+le
+l
+s
+s
+-G
+on
+ui
+a
+o,
+ta
+C
+n
+.
+d
+G
+em
+.et
+go
+a
+l
+l
+d
+.I
+o
+m
+n
+p
+c
+ro
+o
+v
+p
+e
+p
+d
+er
+C
+e
+O
+le
+2
+ct
+r
+r
+e
+o
+d
+c
+u
+a
+c
+ta
+ti
+l
+o
+y
+n
+st.
+a
+N
+ct
+a
+iv
+t
+i
+.
+ty
+Ca
+to
+ta
+w
+l.
+ar
+1
+d
+,
+s
+76
+C
+4
+2
+–
++
+771
+Ed.55,1450–1454(2016).
+38. Bothe,E.,Dessouki,A.M.&Schultefrohlinde,D.Rateandmechanismofthe
+(2018).
+8. Luc,W.etal.Two-dimensionalcoppernanosheetsforelectrochemical
+ketenehydrolysisinaqueoussolution.J.Phys.Chem.84,3270–3272(1980).
+reductionofcarbonmonoxidetoacetate.Nat.Catal.2,423–430(2019). 39. Jouny,M.etal.Formationofcarbon-nitrogenbondsincarbonmonoxide
+electrolysis.Nat.Chem.11,846–851(2019).
+9. Li,Y.G.C.etal.BindingsitediversitypromotesCO electroreductionto
+ethanol.J.Am.Chem.Soc.141,8584–8591(2019). 2 40. Ringe,S.etal.Doublelayerchargingdrivencarbondioxideadsorptionlimits
+10. Zhong,M.etal.AccelerateddiscoveryofCO electrocatalystsusingactive therateofelectrochemicalcarbondioxidereductionongold.Nat.Commun.
+machinelearning.Nature581,178–183(2020
+2
+).
+11,33(2020).
+41. Ren,D.,Fong,J.H.&Yeo,B.S.Theeffectsofcurrentsandpotentialsonthe
+11. Aran-Ais,R.M.,Scholten,F.,Kunze,S.,Rizo,R.&RoldanCuenya,B.Therole
+selectivitiesofcoppertowardcarbondioxideelectroreduction.Nat.Commun.
+o se f le in cti s v i i t t u y g d e u n r e in ra g te C d O mo p r u p ls h e o d lo e g le ic c a tr l o m re o d t u if c s ti a o n n d .N C a u t ( . i E ) n sp er e g c y ie 5 s , i 3 n 17 C – 2 3 + 25 pr ( o 2 d 0 u 2 c 0 t ). 9,925(2018).
+2 42. Tang,M.T.,Peng,H.J.,Lamoureux,P.S.,Bajdich,M.&Abild-Pedersen,F.
+12. Hori,Y.,Takahashi,I.,Koga,O.&Hoshi,N.Electrochemicalreductionof
+Fromelectricitytofuels:descriptorsforC selectivityinelectrochemicalCO
+carbondioxideatvariousseriesofcoppersinglecrystalelectrodes.J.Mol. 1 2
+Catal.A-Chem.199,39–47(2003).
+reduction.Appl.Catal.B279,119384(2020).
+13. Hahn,C.etal.Engineeringcusurfacesfortheelectrocatalyticconversionof 43. Torelli,D.A.etal.Nickel-gallium-catalyzedelectrochemicalreductionofCO 2
+CO :Controllingselectivitytowardoxygenatesandhydrocarbons.Proc.Natl
+tohighlyreducedproductsatlowoverpotentials.ACSCatal.6,2100–2104
+Aca 2 d.Sci.USA114,5918–5923(2017). (2016).
+44. Wang,L.etal.SelectivereductionofCOtoacetaldehydewithCuAg
+14. Raciti,D.etal.Low-overpotentialelectroreductionofcarbonmonoxideusing
+coppernanowires.ACSCatal.7,4467–4472(2017).
+electrocatalysts.Proc.NatlAcad.Sci.USA117,12572–12575(2020).
+15. Wang,L.etal.Electrochemicallyconvertingcarbonmonoxidetoliquidfuels 45. Ledezma-Yanez,I.,Gallent,E.P.,Koper,M.T.M.&Calle-Vallejo,F.
+bydirectingselectivitywithelectrodesurfacearea.Nat.Catal.2,702–708 Structure-sensitiveelectroreductionofacetaldehydetoethanoloncopperand
+itsmechanisticimplicationsforCOandCO reduction.Catal.Today262,
+(2019). 2
+90–94(2016).
+16. Jouny,M.,Luc,W.&Jiao,F.High-rateelectroreductionofcarbonmonoxide
+tomulti-carbonproducts.Nat.Catal.1,748–755(2018). 46. Giannozzi,P.etal.Quantumespresso:amodularandopen-sourcesoftware
+projectforquantumsimulationsofmaterials.J.Phys.-Condens.Mat.21,
+17. Ren,D.,Ang,B.S.H.&Yeo,B.S.Tuningtheselectivityofcarbondioxide
+395502(2009).
+electroreductiontowardethanolonoxidederivedcuxzncatalysts.ACSCatal.
+6,8239–8247(2016). 47. Bahn,S.R.&Jacobsen,K.W.Anobject-orientedscriptinginterfacetoa
+18. Hoang,T.T.H.etal.Nanoporouscoppersilveralloysbyadditive-controlled
+legacyelectronicstructurecode.Comput.Sci.Eng.4,56–66(2002).
+48. Wellendorff,J.etal.Densityfunctionalsforsurfacescience:exchange-
+electrodepositionfortheselectiveelectroreductionofCO toethyleneand
+ethanol.J.Am.Chem.Soc.140,5791–5797(2018). 2 correlationmodeldevelopmentwithbayesianerrorestimation.Phys.Rev.B
+85,235149(2012).
+19. Jouny,M.,Hutchings,G.S.&Jiao,F.Carbonmonoxideelectroreductionasan
+emergingplatformforcarbonutilization.Nat.Catal.2,1062–1070(2019). 49. Monkhorst,H.J.&Pack,J.D.Specialpointsforbrillouin-zoneintegrations.
+20. Bertheussen,E.etal.Electroreductionofcoonpolycrystallinecopperatlow
+Phys.Rev.B13,5188–5192(1976).
+overpotentials.ACSEnergyLett.3,634–640(2018). 50. He,Z.D.,Hanselman,S.,Chen,Y.X.,Koper,M.T.M.&Calle-Vallejo,F.
+Importanceofsolvationfortheaccuratepredictionofoxygenreduction
+21. Wang,L.etal.Electrochemicalcarbonmonoxidereductiononpolycrystalline
+activitiesofPt-basedelectrocatalysts.J.Phys.Chem.Lett.8,2243–2246(2017).
+copper:effectsofpotential,pressure,andphonselectivitytowardmulticarbon
+andoxygenatedproducts.ACSCatal.8,7445–7454(2018). 51. Heenen,H.H.,Gauthier,J.A.,Kristoffersen,H.H.,Ludwig,T.&Chan,K.
+Solvationatmetal/waterinterfaces:anabinitiomoleculardynamics
+22. Hori,Y.,Takahashi,R.,Yoshinami,Y.&Murata,A.Electrochemical
+reductionofcoatacopperelectrode.J.Phys.Chem.B101,7075–7081(1997).
+benchmarkofcommoncomputationalapproaches.J.Chem.Phys.152,
+144703(2020).
+23. Varela,A.S.,Kroschel,M.,Reier,T.&Strasser,P.Controllingtheselectivityof
+CO electroreductiononcopper:Theeffectoftheelectrolyteconcentration 52. Wellendorff,J.,Lundgaard,K.T.,Jacobsen,K.W.&Bligaard,T.mBEEF:an
+and 2 theimportanceofthelocalpH.Catal.Today260,8–13(2016). accuratesemi-localbayesianerrorestimationdensityfunctional.J.Chem.
+Phys.140,144107(2014).
+24. Singh,M.R.,Kwon,Y.,Lum,Y.,Ager,J.W.&Bell,A.T.Hydrolysisof
+53. Granda-Marulanda,L.P.,Builes,S.,Koper,M.T.M.&Calle-Vallejo,F.
+electrolytecationsenhancestheelectrochemicalreductionofCO overAgand
+Cu.J.Am.Chem.Soc.138,13006–13012(2016). 2 Influenceofvanderwaalsinteractionsonthesolvationenergiesofadsorbates
+atPt-basedelectrocatalysts.ChemPhysChem20,2968–2972(2019).
+25. Liu,X.Y.etal.PheffectsontheelectrochemicalreductionofCO towards
+C productsonsteppedcopper.Nat.Commun.10,32(2019). (2) 54. Montoya,J.H.,Shi,C.,Chan,K.&Nørskov,J.K.Theoreticalinsightsintoa
+2 COdimerizationmechanisminCO electroreduction.J.Phys.Chem.Lett.6,
+26. Calle-Vallejo,F.&Koper,M.T.M.Theoreticalconsiderationsonthe 2
+electroreductionofCOtoC speciesonCu(100)electrodes.Angew.Chem.Int.
+2032–2037(2015).
+Ed.52,7282–7285(2013). 2 55. Henkelman,G.,Uberuaga,B.P.&Jonsson,H.Aclimbingimagenudged
+elasticbandmethodforfindingsaddlepointsandminimumenergypaths.J.
+27. Luo,W.J.,Nie,X.W.,Janik,M.J.&Asthagiri,A.FacetdependenceofCO
+reductionpathsoncuelectrodes.ACSCatal.6,219–229(2016).
+2 Chem.Phys.113,9901–9904(2000).
+56. Hammer,B.inGPAW2013:Usersanddevelopersmeeting(Technical
+28. Xiao,H.,Cheng,T.&Goddard,W.A.Atomisticmechanismsunderlying
+selectivitiesinC andC productsfromelectrochemicalreductionofCOon UniversityofDenmark;2013).
+1 2
+Cu(111).J.Am.Chem.Soc.139,130–136(2017).
+10 NATURECOMMUNICATIONS| (2022) 13:1399 |https://doi.org/10.1038/s41467-022-29140-8|www.nature.com/naturecommunications
+
+
+===== PAGE 11 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-022-29140-8
+57. Chan,K.&Nørskov,J.K.Electrochemicalbarriersmadesimple.J.Phys. Competing interests
+Chem.Lett.6,2663–2668(2015). Theauthorsdeclarenocompetinginterests.
+58. Medford,A.J.etal.CatMAP:Asoftwarepackagefordescriptor-based
+microkineticmappingofcatalytictrends.Catal.Lett.145,794–807(2015).
+Additional information
+59. Winther,K.T.etal.Catalysis-Hub.organopenelectronicstructuredatabase
+forsurfacereactions.Sci.Data6,75(2019).
+SupplementaryinformationTheonlineversioncontainssupplementarymaterial
+availableathttps://doi.org/10.1038/s41467-022-29140-8.
+60. Campbell,C.T.Thedegreeofratecontrol:apowerfultoolforcatalysis
+research.ACSCatal.7,2770–2779(2017).
+CorrespondenceandrequestsformaterialsshouldbeaddressedtoFrankAbild-
+Pedersen.
+Acknowledgements
+PeerreviewinformationNatureCommunicationsthankstheanonymousreviewer(s)for
+theircontributiontothepeerreviewofthiswork.Peerreviewfileavailable.
+ThematerialforalltheenergeticcomputationandthemicrokineticmodelsonCuisbased
+u
+In
+p
+n
+o
+o
+n
+va
+w
+ti
+o
+o
+r
+n
+k
+H
+pe
+u
+r
+b
+fo
+,
+r
+s
+m
+up
+e
+p
+d
+o
+b
+rt
+y
+ed
+th
+t
+e
+hr
+Jo
+o
+i
+u
+n
+g
+t
+h
+C
+t
+e
+h
+n
+e
+te
+O
+r
+f
+f
+fi
+o
+c
+r
+e
+A
+o
+r
+f
+ti
+S
+fi
+c
+c
+ie
+ia
+n
+l
+c
+P
+e
+h
+o
+o
+f
+to
+th
+s
+e
+yn
+U
+th
+.S
+e
+.
+si
+D
+s,
+e
+a
+pa
+D
+rt
+O
+m
+E
+en
+E
+t
+n
+o
+e
+f
+rg
+E
+y
+nergy
+Reprintsandpermissioninformationisavailableathttp://www.nature.com/reprints
+underAwardNumberDE-SC0004993.Thematerialforenergeticcomputationonmaterials Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+otherthanCuisbasedonworkperformedbytheLiquidSunlightAlliance,whichissup- publishedmapsandinstitutionalaffiliations.
+portedbytheU.S.DepartmentofEnergy,OfficeofScience,OfficeofBasicEnergySciences,
+FuelsfromSunlightHubunderAwardNumberDE-SC0021266.Weacknowledgetheuseof
+thecomputertimeallocationfortheMaterialSimulationsinJointCenterforArtificial
+Photosynthesis(JCAP)attheNationalEnergyResearchScientificComputingCenter,aDOE Open Access This article is licensed under a Creative Commons
+OfficeofScienceUserFacilitysupportedbytheOfficeofScienceoftheU.S.Departmentof Attribution 4.0 International License, which permits use, sharing,
+EnergyunderContractNo.DE-AC02-05CH11231.J.H.SacknowledgefundingfromtheKnut adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+andAliceWallenbergFoundation(grantnr.2019.0586).TheauthorsthankDr.TaoWang appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+andDr.LeiWangforinsightfuldiscussionsandhelpfulsuggestions. Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+Author contributions
+regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfrom
+H.-J.P.,M.T.T.,andF.A.-P.conceivedtheresearchideaanddesignedthecomputational thecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+models.H.-J.P.performedalltheDFTcalculationsandanalyzedallthedata.H.-J.Pand licenses/by/4.0/.
+X.L.performedmicrokineticmodeling.H.-J.P.,M.T.T.,andX.L.analyzedallthedata.
+J.H.S.andF.A.-P.discussedtheresultsandcommentedonthemanuscript.H.-J.P.wrote
+andrevisedthepaper.M.T.T.,J.H.S.,andF.A.-P.tookpartinrevisingthepaper. ©TheAuthor(s)2022
+NATURECOMMUNICATIONS| (2022) 13:1399 |https://doi.org/10.1038/s41467-022-29140-8|www.nature.com/naturecommunications 11

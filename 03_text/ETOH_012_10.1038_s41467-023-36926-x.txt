@@ -1,0 +1,832 @@
+
+
+===== PAGE 1 =====
+
+Article https://doi.org/10.1038/s41467-023-36926-x
+Accelerating electrochemical CO reduction
+2
+to multi-carbon products via asymmetric
+fi
+intermediate binding at con ned
+nanointerfaces
+Received:1October2022 JinZhang1,5,ChenxiGuo2,5,SusuFang 3,XiaotongZhao1,LeLi1,HaoyangJiang1,
+ZhaoyangLiu1,ZiqiFan1,WeigaoXu 3,JianpingXiao 2,4 &MiaoZhong 1
+Accepted:22February2023
+ElectrochemicalCO reduction(CO R)toethyleneandethanolenablesthe
+2 2
+Checkforupdates long-termstorageofrenewableelectricityinvaluablemulti-carbon(C )
+2+
+chemicals.However,carbon–carbon(C–C)coupling,therate-determining
+stepinCO RtoC conversion,haslowefficiencyandpoorstability,especially
+2 2+
+inacidconditions.Herewefindthat,throughalloyingstrategies,neighbouring
+binarysitesenableasymmetricCObindingenergiestopromoteCO -to-C
+2 2+
+electroreductionbeyondthescaling-relation-determinedactivitylimitson
+single-metalsurfaces.WefabricateexperimentallyaseriesofZnincorporated
+CucatalyststhatshowincreasedasymmetricCO*bindingandsurfaceCO*
+coverageforfastC–Ccouplingandtheconsequenthydrogenationunder
+electrochemicalreductionconditions.Furtheroptimizationofthereaction
+environmentatnanointerfacessuppresseshydrogenevolutionandimproves
+CO utilizationunderacidicconditions.Weachieve,asaresult,ahigh31±2%
+2
+single-passCO -to-C yieldinamild-acidpH4electrolytewith>80%single-
+2 2+
+passCO utilizationefficiency.InasingleCO Rflowcellelectrolyzer,werealize
+2 2
+acombinedperformanceof91±2%C Faradaicefficiencywithnotable
+2+
+73±2%ethyleneFaradaicefficiency,31±2%full-cellC energyefficiency,and
+2+
+24±1%single-passCO conversionatacommerciallyrelevantcurrentdensity
+2
+of150mAcm−2over150h.
+Owing to rapid population and economic growth as well as ElectrochemicalCO reductionisamild,carbon-neutralroutefor
+2
+increasedanthropogenicactivities,globalenergy-relatedCO emis- thelarge-scaletransformation ofwasteCO intovaluablechemicals
+2 2
+sionreached31.5billiontonsin20201.Theresultingglobalwarming usingrenewableelectricityandwater2–7.Thisapproachisparticularly
+andenvironmentalcrisesrequiretherapidimplementationofclean beneficial when targeting highly demanding multicarbon (C ) pro-
+2+
+and efficient recycling measures to reduce the global carbon ductssuchasethyleneandethanol8–13.Toachieveapositivenetpre-
+footprint. sentvalueintechno-economicanalysesofCO R,>80%selectivityand
+2
+1CollegeofEngineeringandAppliedSciences,JiangsuKeyLaboratoryofArtificialFunctionalMaterials,NationalLaboratoryofSolidStateMicrostructures,
+NanjingUniversity,Nanjing210023,China.2StateKeyLaboratoryofCatalysis,DalianNationalLaboratoryforCleanEnergy,DalianInstituteofChemical
+Physics,ChineseAcademyofSciences,ZhongshanRoad457,Dalian116023,China.3KeyLaboratoryofMesoscopicChemistry,SchoolofChemistryand
+ChemicalEngineering,NanjingUniversity,Nanjing210023,China.4UniversityofChineseAcademyofSciences,Beijing100049,China.5Theseauthors
+contributedequally:JinZhang,ChenxiGuo. e-mail:xiao@dicp.ac.cn;miaozhong@nju.edu.cn
+NatureCommunications|( 2023)1 4:1298 1
+;,:)(0987654321 ;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+Article https://doi.org/10.1038/s41467-023-36926-x
+~50% energy efficiency are required14. Furthermore, >15% CO con- energyinthereactionphasediagram(RPD)at−0.6Vversusreversible
+2
+versionatacommerciallyrelevantcurrentdensityof>100mAcm−2is hydrogen electrode (V ) (Supplementary Fig. 3). Our calculations
+RHE
+necessarytoobtainaC yieldsimilartothatproducedbyconven- revealthattheCO R-to-C activitywashighontheCu(211)surface,
+2+ 2 2+
+tionalthermocatalytic CO hydrogenation10,14.Although mucheffort closetotheactivityvolcanomaximum.Ourcalculationsalsoindicate
+2
+has been made in alkaline CO R electrolysis, the relatively low CO thatfurtherCO*–CO*couplingcouldbepromotedbyincorporatingan
+2 2
+utilization causes a great energy penalty that must be addressed elementthatweaklybindsCO*intotheCufacetstocreateasymmetric
+before large-scale implementation. Performing CO R in acidic elec- surface CO* bindings on the binary sites nearby. Note that over-
+2
+trolytesimprovesCO utilizationbecausecarbonateisdifficulttoform weakened CO*binding (>−0.16eV) on the Cu facets is undesirable19
+2
+atpH≤415.Itthereforeurgesthedevelopmentofrobustcatalystswith becauseofthedifficultyinformingkeyintermediatesofCOOH*,which
+highC–Ccouplingactivityandpotentiallycommercialviability. wouldmakeprotonationastherate-limitingstepforC production
+2+
+InelectrocatalyticCO Rsystems,afundamentalissueistheslow withhighreactionenergies.
+2
+reactionkineticsof carbon–carbon (C–C) coupling. Mechanistically, Accordingly,weusedCO*adsorptionenergyasadescriptorto
+C–Ccoupling(C–CbondformationbetweenCO*–CO*,CO*–CHO*,or screenaseriesofCu-basedbinaryactivesites(Fig.1b).Consideringa
+CO*–COH*intermediates)isa(thermo-)chemicalstepthatdoesnot CO*-adsorption-energywindowof~0.40eV,16candidatebinarysites
+involveelectron/protontransfer.Accordingly,catalystsurfacepolar- were found promising for higher CO -to-C activities (Fig. 1b). We
+2 2+
+izationusingexternalelectricalenergydoesnotsignificantlyreduceits thencalculatedthereactionenergyinthelimitingsteps,namelyR1and
+high reaction energy16–18. Considering the Brønsted–Evans–Polanyi R5inSupplementaryTable5,forthe16candidatesitesidentifiedfrom
+(BEP) relations,weaker CO* adsorption is essentialforlowering the theaboveadsorptionenergyscreening.Thelimitingenergy,whichis
+C–Ccouplingbarrier.However,accordingtotheadsorptionscaling themaximumwithinthereactionenergiesofR1andR5,wasfurther
+relation,protonationtoformkeyintermediatessuchasCOOH*,CHO*, presentonthereactionphasediagram(Fig.1c).Asaresult,Znwas
+OCCOH*,andOCCHO*isdifficultonweaklyreactivecatalysts.Over- foundasanappropriatecandidateforalloyingwithCu,displayinga
+weakening of the CO* binding energy also favours CO* desorption weaker CO* binding on CuZn site (the subscript indicates the
+Zn
+insteadofC selectivity. adsorption site) than Cu to create asymmetric surface CO* binding
+2+
+Priorcomputationalworkemployingvolcano-typeactivityscaling energieswiththelowestlimitingenergyforC–Ccouplingininvesti-
+relationspredictedthatsteppedCu(N11,N≥2)facetsshowmoderate gatedcandidates.
+CO binding energies for promoting C production19–21. Indeed, AsshowninthereactionphasediagraminFig.1c,CO*bindingon
+2+
+experimental efforts, including facet engineering22, oxidation-state theCuZn site(SupplementaryFig.4)isrelativelystronger,whereas
+Cu
+steering11,17,andgrain-boundarydesign23,haverealizedethylene(C H ) CO*bindingontheCuZn siteisweaker(SupplementaryFig.4).The
+2 4 Zn
+selectivityofover60%viatheexposureoftheseCusurfaces.Unfor- asymmetric CO* adsorption energies on the nearby CO* adsorption
+tunately, as reported in the literature, these stepped Cu facets are sitesleadstoreducedreactionenergyforCO*–CO*couplingthanon
+relativelyunstablein the aqueoussolutions11,17.Aftera fewhoursof pure Cu surfaces (Supplementary Fig. 6). Further, the G -limiting
+RPD
+CO R,thesteppedCufacetsarereconstructedasCu(111)facets,which energyonCuZn (R1,SupplementaryTable5)waslowerthanthaton
+2 Zn
+arelessactiveforC production,leadingtosubstantialperformance pureCu(R5,SupplementaryTable5),confirmingthepromotionofC
+2+ 2+
+deteriorationovertime. activityonCuZnsurfaces.
+Wetheorizethatalloyingstrategies,inwhichanenhancermetalis Wecalculatedtheactivationbarriersascriticalkineticparameters
+introducedintothelow-activitybutrelativelystableCu(111)facets,can forevaluatingtheactivityofC–Ccoupling.Figure1dshowsCO*–CO*
+createneighbouringbinarysiteshavingasymmetricsurfaceCObind- couplingonCu,CuZn ,andCuZn (211)facets.Thekineticenergyis
+Cu Zn
+ing energies to improve C–C coupling beyond the scaling-relation- reducedby~0.16eVontheCuZn site.Wecomparedtheactivation
+Zn
+determinedactivitylimitationsonsingle-metalsurfaces.Wedevelop energiesforCO*–CO*,CO*–CHO*,andCO*–COH*couplingversusthe
+anactiveglobal-energy-optimizationdiagramtoidentifytheoptimal correspondinglimitingpotentialsoftherelevantpathsonlow-index
+routeforC–Ccouplingondifferentactivebinarysitesinelectrolytes Cu, CuZn and CuZn (111), (211), and (100) surfaces (Fig. 1e).
+Cu, Zn
+underreductionconditions.UsinginsituRamanspectroscopy,elec- CuZn211 was identified as the most active site, with a small C–C
+Zn
+trochemicalhydrodynamicsimulations,andelectrochemicaloperat- coupling barrier and a low limiting potential (Fig. 1e). Microkinetic
+ing experiments, we determine the key features of intermediate modelling26furthervalidatedtheenhancedactivityoftheCuZnalloy
+adsorptionandelectrocatalyticenvironmentthatleadtothemarked for CO R to C , with CuZn211 showing the highest theoretical
+2 2+ Zn
+CO RperformancewithimprovedCO utilizationinacidicconditions. activity (Fig. 1f). Importantly, the most stable CuZn111 shows sig-
+2 2 Zn
+nificantlyincreasedC activitycomparedtoCu111,whichenhanced
+2+
+Results C productionduringextendedCO R.TheHERactivitywasalsocal-
+2+ 2
+Mechanisticstudiesandcatalystdesign culatedon(111),(100),and(211)surfacesofCuandCuZn.Ingeneral,a
+To search for promising catalysts, we set out from a mechanistic worseHERactivitywasobtainedonalltheCuZnsurfacescompared
+analysisofCO -to-C conversionoverthesimplifiedreactionnetwork withthatonCuduetotheweakerH*binding(SupplementaryFig.7).
+2 2+
+(Supplementary Fig. 1) and calculated activity trends via density Overall,ourglobalenergyoptimizationschemeindicatedthatalloying
+functionaltheory(DFT).ThreemajorC–Ccouplingmechanismswere ZnwithCuenablesasymmetricsurfaceCO*bindingsonsurfacebinary
+considered: CO*–CO* (R5), CO*–CHO* (R6), and CO*–COH* (R7) sites to reduce the reaction energy for C–C coupling, therefore
+(SupplementaryTable5).Inadditiontoseveralimportantprotonation effectivelypromotingCO -to-C reduction.
+2 2+
+steps, six reaction pathways were enumerated (Supplementary
+Tables 5, 6). We then followed an energy-global-optimization Modelcatalystandco-sputteredcatalyststudies
+scheme24,25todeterminetheoptimallimitingenergyforagivencata- Toverifythecomputationalresults,wefabricatedaseriesofCu x Zn 1−x
+lyst(Fig.1a,Methods). (x=0.95,0.9,0.85,0.8,0.7)modelcatalystsbywetetchingcommer-
+Toconstructtheactivitytrend,weestablishedscalingrelations, cial Cu Zn powder (Sigma-Aldrich, Product No.: 593583-5G,
+0.6 0.4
+where the reaction free energies for the elementary steps were <150nm). The x values correspond to the surface Cu/Zn ratios
+described by using the CO* adsorption energy as a descriptor ona determinedbyX-rayphotoelectronspectroscopy(XPS)(Supplemen-
+seriesofcatalystsurfaces(SupplementaryFig.2).Theenergy-global- tary Fig. 8 and Table 9). The fabricated Cu x Zn 1−x model catalysts
+optimizationschemeproducesavolcano-likeactivitytrendforCO R exhibited similar surface and crystal structures as that of the com-
+2
+to C over single metal catalysts, described by the G -limiting mercial Cu Zn powder (Supplementary Fig. 9). To examine the
+2+ RPD 0.6 0.4
+NatureCommunications|( 2023)1 4:1298 2
+
+
+===== PAGE 3 =====
+
+Article https://doi.org/10.1038/s41467-023-36926-x
+Fig.1|Computationalstudiestoidentifytheoptimalpathforelectrochemical R5.Theblack-filledtriangleandred-filledcirclerefertothereactionenergyfor
+C–Ccouplingonbinarysites.aEnergy-global-optimisationscheme.Thered,blue, Cu211andCuZnZn(themostpromisingsite).Thesubscriptindicatestheadsorption
+andblackpathsshowdifferentreactionchannels,wherer ,r ,r refertothe site.R1–R9aredetailedinSupplementaryTable5.dActivationenergiesfor
+A B C
+limitingstepinrelevantpaths(SupplementaryFig.5).bScreeningofCOadsorption CO*–CO*couplingonCuandCuZn(211).eActivationenergies(blackforCu,blue
+energiesonCu-basedbinaryactivesites.CuMCuandCuMMrefertothebridgesites forCuZnCu,andredforCuZnZn)plottedagainstthecorrespondinglimiting
+fortheadsorbatebindingbetweentwoCuatoms,andCuandMatoms,whereMis potentialsoftherelevantpaths(pathsIandVforCO*–CHO*,pathsIIandVIfor
+thefirstneighbouratomofCu(SupplementaryFig.4).Theyellowbandshowsthe CO*–COH*,andpathsIIIandIVforCO*–CO*;SupplementaryTable6).Thesquares,
+expectedpromisingactivities.cReactionphasediagramforCO2RtoC2+at−0.6 triangles,andcirclesshowCO*–CO*,CO*–CHO*,andCO*–COH*couplingsteps.
+VRHE.Thedashedlines(red:C–Ccouplingsteps,blue:protonationsteps)indicate Theempty,filled,andshadedsymbolscorrespondtothe(111),(211),and(100)
+thereactionfreeenergiesforallconsideredelementarysteps.Thesolidlines surfaces.fReactionratescalculatedusingmicrokineticmodelsforCORtoC at
+2 2+
+indicatetheG -limitingstepsandenergies.Thepoints(triangleandcircles)show −0.6V (Methods).
+RPD RHE
+thelimitingenergiescalculatedasthemaximumofthereactionenergyofR1and
+electrochemicalCO 2 Rperformance,wesprayedtheCu x Zn 1−x (x=0.95, 0.85, 0.8) and Cu surfaces at different potentials in a homemade
+0.9, 0.85, 0.8, 0.7) model catalysts and commercial Cu catalysts flow-cellsystem(SupplementaryFig.12).AsshowninFig.2c,d,and
+(Aladdin, Product No.: C103844-10G, 80–100nm) on polytetra- Supplementary Figs. 13, 14, characteristic Raman peaks were
+fluoroethylene (PTFE) substrates. Volcano-shaped curves were observedat~280and370cm−1,attributedtofrustratedrotationand
+obtainedfortheC Faradaicefficiency(FE).Notably,at150mAcm−2, stretching vibrations of Cu–CO bonds27, at ~1900–2100cm−1,
+2+
+theC FEoftheCu Zn modelcatalystwas considerablyhigher attributedtostretchingvibrationsofC≡Obonds(bridge-typeCO
+2+ 0.9 0.1
+than that of the commercial Cu catalyst(66±2% and ~50%, respec- at1900–2000cm−1andatop-typeCOat2000–2100cm−1)27,28,andat
+tively;SupplementaryFig.10andTable10).Further,fortheCu Zn 2800–3000cm−1,attributedtoC–Hstretching29.TheaboveRaman
+0.9 0.1
+modelcatalyst,theC /C ratioof~11washigherthanthatof~6forthe bandsdisappearedwhenArwasusedinsteadofCO underthesame
+2+ 1 2
+commercialCucatalyst(SupplementaryFig.11). electrochemical conditions (Supplementary Fig. 13f), confirming
+Consideringtheaboveresults,weco-sputteredCu y Zn 1−y (y=0.95, that the above observed Raman peaks were representative of CO
+0.9,0.85,0.8)catalystsonPTFEgas-diffusionelectrodes.Thethick- adsorptiononthesurfaces.RightafterflowingCO ,quickrecovery
+2
+nessofthesputteredCu y Zn 1−y was~200nm,whichenabledashort of the Cu–CO, C≡O, and C–H stretching peaks were observed,
+distance for CO 2 diffusion from PTFE to the Cu y Zn 1−y surface. suggesting fast CO 2 R and C–C coupling on Cu 0.9 Zn 0.1 (Supple-
+Remarkably, the CO 2 -to-ethylene onset potential with the co-sput- mentaryFig.13g).ForalltheCuandCu y Zn 1−y surfaces,theRaman
+tered,best-performingCu Zn (−0.3V )was~0.16Vsmallerthan peakat~370cm−1wasslightlyred-shiftedasthepotentialbecame
+0.9 0.1 RHE
+thatwithpureCuunderthesamereactionconditions(Fig.2a).The more negative, consistent with the electrochemical Stark effect27.
+TafelslopesforCO -to-ethyleneconversiononpureCuandCu Zn Thepeakat~1900–2100cm−1wasalsoslightlyred-shifted,likelydue
+2 0.9 0.1
+were167.1and110.9mVdecade−1,respectively,highlightingthatC–C toC≡Odipolestretchingwiththeincreaseinthesurfaceelectric
+couplingoccurredfasterafterZnincorporation(Fig.2b). field.Importantly,theRamanbandsat~280,370,1900–2100cm−1,
+We performed in situ Raman studies to explore the inter- and 2800–3000cm−1 appeared at a more positive voltage for
+mediate adsorption on the co-sputtered Cu y Zn 1−y (y=0.95, 0.9, Cu 0.9 Zn 0.1 (−0.30V RHE )thanforCu(−0.46V RHE )(Fig.2e),whichis
+NatureCommunications|( 2023)1 4:1298 3
+
+
+===== PAGE 4 =====
+
+Article https://doi.org/10.1038/s41467-023-36926-x
+Fig.2|ElectrochemicalandinsituRamananalysesfortheco-sputtered potentialsduringCO2R.eInsituRamanpeaksat250–470,1750–2300cm−1and
+Cu y Zn 1−y (y=0.95,0.9,0.85,0.8)andCucatalystsin0.75MKOHelectrolyte. 2700–3200cm−1.fC 2+ /C 1 FEs.Errorbarsrepresentthestandarddeviationbasedon
+aTheCH partialcurrentdensityneartheonsetpotentials.bTafelplotsforCH. threeindependentmeasurements.Allpotentialsarewithrespecttothereversible
+2 4 2 4
+InsituRamanpeaksforCOadsorptiononcCu0.9Zn0.1anddCuatvarious hydrogenelectrodes(RHE).
+consistentwiththeethyleneonsetpotentialintheelectrochemical promotetheC–Ccouplingkineticsinelectrolytes,consideringthe
+tests.TheC–Hstretching(2800–3000cm−1)islikelyattributedto factoflowgas-phaseCOsolubilityinaqueoussolutions.
+intermediatescontainingC–Hbondssuchas(1)C H O*29–theC To further improve the CO -to-C activity, we developed an
+2 2 2+ 2 2+
+intermediateafterC–Ccouplingandhydrogenation,or(2)CHO*or alloying–dealloying strategy to synthesize nanoporous Cu Zn
+0.9 0.1
+COH*30–thekeyintermediatesforC–CcouplingviatheCO*–CHO* catalysts on PTFE over a large area (Fig. 3a, b, and Supplementary
+and CO*–COH* pathways. The Raman signals of CO 2− and HCO − Figs.15,16).ThesputteredCuformscontinuousfilmlayersontopof
+3 3
+were observed in electrolytes at pH 7 and 13.5. In clear contrast, PTFE,differentfromthenanoporousstructureofCu Zn afterwet
+0.9 0.1
+therewasnoCO 2−andHCO −signalinelectrolytesatpH1and4 etching.Thenanoporousstructureoffersafavourablelocalenviron-
+3 3
+during in situ Raman measurement (Supplementary Fig. 14). We ment to concentrate ions and intermediates at the Cu Zn /elec-
+0.9 0.1
+observed an improved CO* peak in in situ Raman analysis with trolyte/CO three interfaces for improved C conversion. Scanning
+2 2+
+Cu Zn 31.Consequently,theC /C ratioforCu Zn (~20)was transmission electron microscopy (STEM) and energy-dispersive
+0.9 0.1 2+ 1 0.9 0.1
+~3-foldhigherthanthatfortheCucatalyst(~7)(Fig.2f).Basedonthe spectroscopy analysis (EDS) images revealed that both Cu and Zn
+above computational, in situ spectroscopic, and electrochemical were uniformly distributed in the nanoporous Cu Zn catalysts
+0.9 0.1
+operating experiments, we conclude that the increase of asym- (Fig.3c).High-resolutiontransmissionelectronmicroscopy(HRTEM)
+metricCO*adsorptiononthesamecatalystsurfaceisessentialto imagegavead-spacingof0.21nmforCu Zn ,correspondingtothe
+0.9 0.1
+NatureCommunications|( 2023)1 4:1298 4
+
+
+===== PAGE 5 =====
+
+a b
+Electrolyte
+K+ C
+Catalyst H+ K+ H+ K+ 2+
+PTFE
+PTFE
+CO
+2
+c d
+0.21
+nm
+(111)
+Cu
+m
+0. 2 1
+n
+( 1 1
+1)
+Zn CuZn
+200 nm 2 nm 200 nm
+e
+Concentration log10(C+/C0)
+−3 −2 −1 0
+Time = 5 μs 20 nm Time = 5 μs 20 nm
+80
+60
+40
+20
+0
+Time = 5 μs 20 nm Time = 5 μs 20 nm planar 10 nm 30 nm 150 nm
+Pore size
+Cu(111)facet(Fig.3d).Similarly,X-raydiffraction(XRD)patternsofall Table 11). Based on the above characterization, we conclude that
+theco-sputteredCu y Zn 1−y andCucatalystsonlyshowedtheCu(111) 10at.% Zn incorporated Cu (111) catalysts provide abundant surface
+diffraction peak, the position of which shifted with increasing Zn CuZn and CuZn sites with asymmetric CO binding energies
+Zn Cu
+incorporation (Supplementary Fig. 17). No CuZn alloy phase was improvingtheelectrochemicalC–Ccoupling.
+formedfortheco-sputteredCu Zn beforeandafterwetetching, To further clarify the geometrical effects at the heterogeneous
+0.9 0.1
+suggestingthatZnwasincorporatedintotheCu(111)latticewhichis nanointerfaces,wefabricatedCu Zn catalystswithporesizesof10,
+0.9 0.1
+differentfromthepreviouslyreportedCuZncatalystswithhigherZn 30, and 150nm (Supplementary Figs. 20–22).Despite the increased
+concentrations32orindifferentCuZnalloyphasesorphasesegregated surfacearea,thenanocavitiesconcentratedions34,andconfinedCO*
+CuZnbimetalliccompounds33.EDSinscanningelectronmicroscopy intermediates to improve C conversion35. Electrochemical hydro-
+2+
+(SEM), XPS, and inductively coupled plasma atomic emission spec- dynamicsimulationsinFig.3eshowedthatfastfluctuationofcharges
+troscopy(ICP-AES)analysesfurtherconfirmedaZnconcentrationof causes chaotic flows that reduce the ion concentration and inter-
+~10% for the Cu Zn catalyst (Supplementary Figs. 18, 19 and mediateretentionnearthecatalystsurface.Comparedwiththeplanar
+0.9 0.1
+)1-s
+m(
+edutingam
+etaR
+100
+10−1 planar
+10 nm
+30 nm
+150 nm
+0 2 4 6 8 10
+Time (μs)
+)Mm(
+noitartnecnoC
+103
+102
+planar
+10 nm
+30 nm
+150 nm
+101
+0 2 4 6 8 10
+Time (μs)
+H2
+100
+CO
+CH4
+HCOOH
+CH3COOH
+C2H5OH
+n-PrOH
+C2H4
+)%(
+ycneiciffe
+ciadaraF
+Article https://doi.org/10.1038/s41467-023-36926-x
+f g
+h
+Fig.3|CharacterisationandperformanceofnanoporousCu Zn catalysts and150nm)Cu Zn surfaces.Thewhitelinesshowtheelectrokineticfluctuating
+0.9 0.1 0.9 0.1
+fabricatedbyco-sputteringandwet-chemical-etching.aSchematicofnano- vortex.fMagnitudesofflowrateandgconcentrationsofpositiveionswithinthe
+porousCu0.9Zn0.1forelectrochemicalCO2R.bSEMimagesofnanoporous(30nm) nanocavities.hCO2Rperformanceofplanarandnanoporous(10,30,and150nm)
+Cu0.9Zn0.1.cSTEMandEDSanddHRTEMimagesofCu0.9Zn0.1.eSimulatedion Cu0.9Zn0.1at150mAcm−2in0.75MKOHelectrolyte.Errorbarsrepresentthe
+concentrationsandelectro-kineticflowsneartheplanarandnanoporous(10,30, standarddeviationbasedonthreeindependentmeasurements.
+NatureCommunications|( 2023)1 4:1298 5
+
+
+===== PAGE 6 =====
+
+Article https://doi.org/10.1038/s41467-023-36926-x
+surfaceorthesurfacewith150nmpores,thesurfacewith30nmpores This~−0.75V gives~120–180mAcm−2inCO R.SinceCO Rincrea-
+RHE 2 2
+generatedamuchlowerionicvortexvelocity(Fig.3f),whichinturn ses at more negative potentials, however, HER also increases at
+increasedthepotassiumandhydroxideionconcentrationsnearthe potentialsmorenegativethan−0.6V andcompeteswithCO R.We
+RHE 2
+catalystsurfacestosuppresshydrogenevolutionandincreaseCO R thusobtainedavolcano-shapedCO Rperformancewithanoptimal
+2 2
+inside the nanopores (Fig. 3g)34. Thus, an increased local ion con- currentdensityofaround120–180mAcm−2.TheethyleneandC FEs
+2+
+centrationwithaprolongeddurationofintermediatesisexpectedto fornanoporousCu y Zn 1−y werehigherthanthoseforCuunderthesame
+promoteCO hydrogenationandC selectivity(Fig.3h). currentdensities(100–300mAcm;−2SupplementaryFigs.24–27and
+2 2+
+Table12).AhighC FEof91±2%withanotableethyleneFEof73±2%
+2+
+ElectrochemicalCO reductionperformance wasobtainedfornanoporousCu Zn at150mAcm−2andacathodic
+2 0.9 0.1
+We performed CO R tests for the co-sputtered and wet-chemical- potentialof−0.55V (SupplementaryFig.24).
+2 RHE
+etched Cu y Zn 1−y (y=0.95, 0.9, 0.85,0.8) and Cu catalysts in0.75M WethenevaluatedtheCO 2 RperformanceofCu 0.9 Zn 0.1 in3MKCl
+KOHelectrolyte(pH13.5).Wefirsttestedthelinearsweepvoltammetry electrolytes with different pH. As reported15, using a concentrated,
+(LSV)curvesforCuandCuZn (y=0.95,0.9,0.85,0.8)catalystsin 3MK+electrolytecanefficientlydecreaseH+concentrationnearthe
+y 1-y
+thesameflowcellinAr-saturatedandCO -saturatedKOHelectrolytes, CO R interface to suppress hydrogen evolution. Remarkably,
+2 2
+respectively (Supplementary Fig. 23). LSV curves for all catalysts Cu Zn showsgreatlyenhancedC performanceof69±2%C FE
+0.9 0.1 2+ 2+
+showedsimilartrends:thecurvesareflatat~−0.3–−0.6V andshow at400mAcm−2atpH4,81±2%C FEat300mAcm−2atpH7,and
+RHE 2+
+a rapid HER increase at potentials more negative than ~−0.75 V . 91±2% C FE at 150mAcm−2 at pH 13.5 (Fig. 4a, Supplementary
+RHE 2+
+Fig.4|ElectrochemicalCO 2 RperformanceonCu 0.9 Zn 0.1 catalystsfabricatedby C 2+ inelectrocatalysis,hollowsphere:C 2–4 inthermocatalysis,Supplementary
+co-sputteringandwet-chemical-etchingatpH1–13.5.aC FEsatdifferent Tables20,21).fC energyefficiency(EE)atdifferentcurrentdensitiesatpH1,4,7,
+2+ 2+
+currentdensitiesatpH1,4,7,and13.5,respectively.bSingle-passC2+yieldat and13.5(sphere:cathodicC2+EE,square:full-cellC2+EE).gCO2RstabilitywithC2+
+differentCO flowratesandcurrentdensitiesatpH1,4,7,and13.5ina13.5cm2cell. andethyleneFEsat150mAcm−2forCu Zn coatedwithgraphite/carbon
+2 0.9 0.1
+cCORstabilitycurveswithC FEsatpH4,7,and13.5inathree-electrodeflowcell. nanoparticlesusingaslimtwo-electrodeflow-cell(Thechangedcurrentdensity
+2 2+
+Currentdensitieswereoptimized:400mAcm−2atpH4,300mAcm−2atpH7,and cyclesconsistoftheworkperiodat−150mAcm−2for120s(lowerblackline)and
+150mAcm−2atpH13.5,respectively(spheres:C2+FEs,lines:cathodicpotentials). theregenerationperiodat−1mAcm−2for30s(upperblackline)).Errorbarsin
+dC /C ratiosatdifferentcurrentdensitiesatpH1,4,7,and13.5.eComparisonof a,b,d,frepresentthestandarddeviationbasedonthreeindependent
+2+ 1
+C FE,single-passC yield,andfull-cellC EEwithpreviousreports(solidsphere: measurements.
+2+ 2+ 2+
+NatureCommunications|( 2023)1 4:1298 6
+
+
+===== PAGE 7 =====
+
+Article https://doi.org/10.1038/s41467-023-36926-x
+Figs.41–47andTables1–4,13).TheC–Ccouplingefficiencyisover95% ICP-AESresultsconfirmedthatnoobviousleachingofCuandZninto
+atpH≥4(SupplementaryFig.28)withahighlyselectiveC /C ratioof the electrolyte occurred during CO R over 150h (Supplementary
+2+ 1 2
+~19atpH13.5(Fig.4d).ThehighelectrochemicalCO -to-C selectivity Table 23). The full-cell voltage was stable at ~−3.7V, enabling an
+2 2+
+isstableover30hofcontinuousoperationatpH≥4(Fig.4c,Supple- uncompensated,stablefull-cellCO -to-C energyefficiencyof28–32%
+2 2+
+mentaryFig.29).Wedidn’tseeanobviouspHchangeinthecatholyte at150mAcm−2.SEM,XRD,andXPSrevealednoobviouschangeforthe
+andanolytebeforeandafterthereaction(SupplementaryTables14, catalyst before and after the 150h stability test (Supplementary
+15).TheseresultsindicatethatnanoporousCu Zn efficientlyand Figs.39,40).
+0.9 0.1
+stablydimerizesCO*intermediatestoboostC production.
+2+
+To investigate the surface pH on electrodes during CO R, we Discussion
+2
+coatedtheCu Zn electrodeswithpara-mercaptobenzoicacid(p- Tosumup,thisworkdemonstratesthattheincreaseofasymmetric
+0.9 0.1
+MBA) and examined the (COO−)/(C=O) ratio as a function of the CO*adsorptionandCO*surfacecoverageisessentialforimproving
+appliedcurrentdensities.ThisisthesamemethoddevelopedbyHalas the electrochemical CO -to-C conversion. Further optimizing the
+2 2+
+and co-workerstoinsitu monitor the localpHnear their electrode reaction local microenvironment suppresses hydrogen evolution,
+surfacesduringtheelectrochemicalreactions36.Itisrevealedthatthe therebysimultaneouslyimprovingC selectivityandCO utilizationin
+2+ 2
+surface pH increased linearly with the increase of current density acidic conditions. Experimentally, we developed an alloying-
+(SupplementaryFigs.30–32),inlinewiththepreviousreport15.(Sup- dealloyingstrategytofabricatehomogeneouslyalloyed,nanoporous
+plementaryinformation). Cu Zn catalyststhatachievedasingle-passC yieldof31±2%ina
+0.9 0.1 2+
+ToimprovetheC yield,weoptimizetheCO flowrateandthe mildacidpH4electrolytewithasingle-passCO utilizationefficiency
+2+ 2 2
+serpentine channel area to increase the reaction between CO and over80%.Weexpectthatourfindingscouldextendtheunderstanding
+2
+electrolyteattheinterface(SupplementaryFigs.33–35andTable16). of intermediates bindings and interactions on heterogeneous inter-
+Weachievedasingle-passC yieldof31±2%atpH4electrolyteata faces as these could be transformative toward practical electro-
+2+
+highcurrentdensityof400mAcm−2withaCO flowrateof12mLmin−1 chemical operation. We further note that lowering the OER
+2
+ina13.5cm2cell(Fig.4b,SupplementaryTable17).Thishighsingle- overpotentialsisanimportantfutureworkforachievingahighfull-cell
+passC yieldisa2-foldincreasecomparedtothecurrentbestC energyefficiencyforCO Rinacidormildacidelectrolytesincombi-
+2+ 2+ 2
+yieldof16.5%usingfluorinemodifiedCuinalkalineelectrolytes10.As nationofhighselectivityandhighCO utilizationathighCO Roper-
+2 2
+reported15,pH≤4electrolytesshowalmostnomeasurableCO lossof atingcurrentdensities.
+2
+formingcarbonate.Weconfirmedthatoursingle-passCO utilization
+2
+efficiencyisover80%atpH4underour31±2%single-passC yield Method
+2+
+conditions(SupplementaryTables18,19). SynthesisofCuZnmodelcatalysts
+WecomparedtheCO Roverpotentialsandcathodicenergyeffi- TheCuZnmodelcatalystswerepreparedbywetetchingcommercial
+2
+ciency(EE)ofC productsinthedifferentpHelectrolytesinFig.4f.At Cu Zn alloy powder (Sigma-Aldrich, Product No.: 593583-5G,
+2+ 0.6 0.4
+pH1 and 13.5, we used a Ptplate for acidic OER and a Ni foamfor <150nm).CommercialCuZnpowder(50mg)wasplacedina30mL
+alkalineOERinasilm,two-electrodeCO Relectrolyzer,respectively. Tefloninletwith10mLnitricacidsolutionsofdifferentconcentrations
+2
+Thefull-cellC EE(withoutiRcompensation)reaches31±2%atpH (0.02,0.03,0.05,0.08,and0.1M)at50°Cfor1h.Afterwetetching,
+2+
+13.5(Fig.4f).ThishighEEisaccompaniedbyasingle-passC yieldof the obtained Cu Zn , Cu Zn , Cu Zn , Cu Zn , and
+2+ 0.7 0.3 0.8 0.2 0.85 0.15 0.9 0.1
+24±1%atthesamecurrentdensityof150mAcm−2 withaC FEof Cu Zn modelcatalystswerewashedwith deionizedwaterand
+2+ 0.95 0.05
+≥90%andataCO flowrateof15mLmin−1ina13.5cm2cell(Supple- dried overnight under vacuum. Subsequently, the model catalysts
+2
+mentary Fig. 34). Significantly, we demonstrated high CO R perfor- weresprayedonapolytetrafluoroethylene(PTFE)substratewiththe
+2
+manceinasingleCO Rsystemthatcombines:(1)aC FEover90%and mass loading of 6mgcm−2 for electrochemical CO reduction
+2 2+ 2
+anuncompensatedfull-cellC energyefficiencyover30%foraposi- (CO R)tests.
+2+ 2
+tivenetpresentvalueintechno-economicanalysesofCO R,and(2)
+2
+C yield over 25% at a commercially relevant current density SynthesisofnanoporousCuZncatalysts
+2+
+exceeding 100mAcm−2 for a C yield similar to that produced by NanoporousCuZncatalystswithdifferentCu/Znratioswerefabricated
+2+
+conventional thermal catalytic CO hydrogenation. For a broader viaco-sputteringandetching.First,~200nmCuZnthinfilmswereco-
+2
+context, we compared our data with reported electrochemical and sputtered(PD-500magnetronsputteringcoatingmachine)onPTFE
+thermal catalytic C synthesis values (Fig. 4e, Supplementary (BeijingZhongxingweiyeInstrumentCo.,Ltd.)underabasepressure
+2+
+Tables20–22).TheachievedC yieldandFEoutperformtheliterature of10−6Torr(WuhanPDVACUUMTechnologiesCo.,Ltd.).TheCu/Zn
+2+
+benchmarks,indicatingcriticalmaterialandsystemadvancementsin ratios in the CuZn films were controlled by varying the Cu and Zn
+thefieldofCO R. sputteringrates.Sputteringratesof~2Ås−1forCuand~xÅs−1(x=0.2,
+2
+Finally, we investigated the CO R stability with full-cell energy 0.4, 0.6, 0.8) for Zn were used to produce homogeneously alloyed
+2
+efficiencyinthetwo-electrodeelectrolyzer.Sargentetal.37,38reported CuZnfilms.Subsequently,theas-preparedCuZnfilmswereplacedina
+thatusingalternatingregenerativecellpotentials(−3.8Vfor60sand 30mLTefloninletwith10mLnitricacidsolution(0.001M)at50°Cfor
+−2.0V for 30s) improved the CO R stability by reducing carbonate 1h wet etching. After wet etching, the catalysts were washed with
+2
+formationonthefrontandbackofcatalysts(SupplementaryFig.36). deionizedwateranddriedusinganairgun.Cucatalystswereprepared
+Using a similar procedure, we applied alternating current density by sputtering Cu onto PTFE. Screening of various PTFE pore sizes
+cycles of −150mAcm−2 for 120s and −1mAcm−2 for 30s. C and (0.1–0.45μm)revealedthatPTFEwith0.1µmporesdeliveredthebest
+2+
+ethylene were stably produced with FEs of ~90% and ~70%, respec- CO Rperformance.Forthestabilitytests,thinlayersofcarbonblack
+2
+tively,at150mAcm−2over>150hofcontinuousoperation(Fig.4g). nanoparticles (Sigma-Aldrich, <100nm) and graphite (Kurt J. Lesker
+ThePourbaixdiagramsofCuandZnindicatethatcathodicprotection Company)werecoatedonthenanoporouselectrodesurfaces.
+occurswhentheappliedpotentialismorenegativethantheoxidation
+potentialsofCuandZn(SupplementaryFig.37).TheZndissolution Characterization
+energycalculationsalsoshowthatCuZn(111)surfaceisstableunder Themorphologiesofthepreparedsampleswerestudiedusingscan-
+ourelectrochemicalconditions(SupplementaryFig.38).Inaddition, ningelectronmicroscopy(SEM;HitachiSU5000VPSEM)andtrans-
+wedidn’tobserveobviouscarbonateprecipitationonthefrontorback mission electron microscopy (TEM; FEI Talos F200X) with a field-
+oftheelectrodesafterthe150hstabilitytest(SupplementaryFig.36). emissiongunat200kV.ForTEMstudies,thesampleswerescratched
+NatureCommunications|( 2023)1 4:1298 7
+
+
+===== PAGE 8 =====
+
+Article https://doi.org/10.1038/s41467-023-36926-x
+intoanethanolsolutionfordispersion.Theethanolsolutionwasthen CalculationofCO Rperformance
+2
+droppedontocarbon-coatedmolybdenumTEMgridsanddriedunder TheproductFEinCO Rwereallobtainedwithbarecatalystswithout
+2
+ambient conditions. The compositions of the samples werestudied surface coating. Once we identify the best-performing catalyst, we
+using energy-dispersive X-ray spectroscopy (EDS) system (Bruker coatedthecatalystwithacarbonlayerforthelong-termstabilitytest.It
+Quantax EDS) coupled to the SEM and TEM instruments. X-ray dif- showedthesameperformanceasthatwithoutthecarbonlayercoat-
+fraction(XRD)patternswerecollectedusinganX’Pert-ProMPDdif- ing.Thecoatingofthecarbonlayeronlymadetheelectricalfieldmore
+fractometer(PANalytical)withaCuKαX-raysource(λ=1.540598Å). homogeneousduringlong-termoperationwhichwasreportedinthe
+X-rayphotoelectronspectroscopy(XPS)studieswereconductedusing previousstudy2.
+anSSIS-ProbeXPSspectrometer.Thecarbonpeak(284.6eV)wasused TheFaradaicefficiencies(FEs)ofthegasandliquidproductswere
+asareferencetocorrectthechargingeffect.Toinvestigatethebond calculatedusingthefollowingequations:
+vibrationsduringCO R,insituRamanspectra(200–3200cm−1)were
+2
+collected using a microspectrophotometer (Horiba-LabRAM HR), a FE ð%Þ=α×n×F=Q=α×C ×f ×t×F=ð22:4×QÞ×100%, ð3Þ
+gas gas CO2
+long-working-distancewaterimmersionobjective(40×;UMPlanSemi
+Apochromat),agratingwith100linesmm−1,andahomemadeflowcell
+FE ð%Þ=α×n×F=Q=α×V×ρ×F=ðM×QÞ×100%, ð4Þ
+with a 633nm laser as the excitation source (excitation energy of liquid
+1.96eV). The objective lens was immersed into electrolytes in the
+homemadeflowcell.Afterthesamplefocus,theworkingdistancewas wheref istheCO flowrate,C isthegasconcentration,αisthe
+CO2 2 gas
+~2mmfromthelenstotheelectrodesurface.Allspectroscopicdata number of electrons transferred for each product, t is the reaction
+werebaselinecorrected. time,ρisthedensityoftheliquidproducts,Mistherelativemolecular
+massoftheliquidproducts,Viscalculatedusingthestandard1HNMR
+ElectrochemicalreductionofCO curve,andQ(A·S)isthetotalelectriccharge.
+2
+Electrochemical CO R was studied at room temperature (20–25°C) Thehalf-cellC energyefficiencywascalculatedasfollows:
+2 2+
+under ambient pressure using a three-electrode setup in a flow-cell
+reactor with an Autolab PGSTAT302N potentiostat. The prepared EE cathodichalf(cid:3)cell =ð1:23(cid:3)E ethylene Þ×FE ethylene =ð1:23(cid:3)E applied Þ ð5Þ
+catalystwasusedasworkelectrode,theworkelectrodereactionarea +ð1:23(cid:3)E Þ×FE =ð1:23(cid:3)E Þ,
+was1–4.5cm2.Ag/AgCl(3.0MKCl,PineInstruments)wasusedasthe ethanol ethanol applied
+reference electrode, Pt plate (Tianjin Aida Hengsheng Technology Thefull-cellC energyefficiencywascalculatedasfollows:
+2+
+DevelopmentCo.,Ltd.)andNifoam(ShenzhenTeenskyTechnology
+Co., Ltd.) were used as the counter electrodes in pH 1, 4, 7 and EE full(cid:3)cell =ð1:23(cid:3)E ethylene Þ×FE ethylene =E applied +ð1:23(cid:3)E ethanol Þ ð6Þ
+13.5solution,respectively.Thelong-termstabilitytestwascarriedout ×FE =E ,
+inatwo-electrodeflowcellwithoutusinganAg/AgClreferenceelec- ethanol applied
+trode and without iR correction. We used a cation exchange mem- where E is the potential during full-cell CO R, E is the
+applied 2 ethylene
+brane(CEM,NafionTM117,FuelCellStore)forelectrochemicalCO thermodynamic potential (vs. RHE) of ethylene for CO R, which is
+2 2
+reductioninelectrolytesatpH1,4,7,andananionexchangemem- 0.06Vforethylene,andE isthethermodynamicpotential(vs.
+ethanol
+brane (AEM, Fumasep FAB-PK-130, Fuel Cell Store) at pH 13.5. The RHE)ofethanolforCO R,whichis0.09Vforethanol39.
+2
+catholyteofpH1were0.05Msulfuricacid(HSO )and3Mpotassium The C selectivity was calculated as (the rate of C product
+2 4 2+ 2+
+chloride(KCl)solution,andpHwasadjustedtoaround1byafewdrops formation (R ))/(the rate of total product formation (R )), as
+product tot
+of5Mpotassiumhydroxide(KOH).ThecatholyteofpH4were3MKCl follows:
+solution,andpHwasadjustedtoaround4byafewdropsofH SO .
+2 4
+ThecatholyteofpH7were3MKClsolution,andpHwasadjustedto C 2+ selectivity=ð2R ethylene +2R acetate +2R ethanol +3R n(cid:3)propanol Þ=
+around7byafewdropsof1MKOH.ThecatholyteofpH13.5were ðR +R +R +2R +2R ð7Þ
+CO formate methane ethylene acetate
+0.75MKOHsolution.TheanolyteofpH1and4were0.5MH SO ,the
+anolyte of pH 7 were 1M KHCO , and the anolyte of pH 1 2 3.5 4 were +2R ethanol +3R n(cid:3)propanol Þ×100%,
+3
+0.75M KOH. Electrochemical impedance spectroscopy (EIS) was
+measuredtoestimatetheelectrolyteresistanceforiRcompensation. Thesingle-passC yieldwascalculatedas(therateofC product
+2+ 2+
+Theelectrolyteresistancewasmeasuredatopencircuitpotentialina formation(R ))/(theflowrateofCO (f )),asfollows:
+product 2 CO2
+frequencyrangefrom10MHzto0.1Hzwithanamplitudeof10mV.All
+potentialsversusthereferenceelectrodeswereconvertedtopoten- C 2+ yield=ð2R ethylene +2R acetate +2R ethanol +3R n(cid:3)propanol Þ=fCO 2 ×100%,
+tials versus the reversible hydrogen electrode (V RHE ) using the fol- ð8Þ
+lowingequations:
+whereRistherateofC productformation,asdeterminedbygas
+2+
+V RHE =V Ag=AgCl +0:059×pH+E0 AgCl , ð1Þ chromatographyanalysisoftheproduct.
+DFTcalculations
+E0
+AgCl
+ð3:0MKClÞ=0:197Vð25(cid:2)CÞ, ð2Þ
+The Vienna ab initio simulation package (VASP)40 was used for
+density functional theory (DFT) calculations. The revised
+CO waspassedthroughthecathodiccompartmentataconstant Perdew–Burke–Ernzerhof(rPBE)functional41wasusedwiththebasic
+2
+flowrateof20mLmin−1.ThegaseousCO reductionproductswere projector-augmented wave (PAW) method with a cut-off energy of
+2
+quantified using gas chromatography (Perkin Elmer Clarus 680). 400eV.Thebulkstructures(Cu,Rh,Pt,andAg)wereoptimizedusinga
+TheliquidproductswerequantifiedusingNMRspectroscopy(Bruker Monkhorst–Packk-pointof4×4×4,the(211)surfaceswerebuiltfirst
+AVIII600MHz)anddimethylsulfoxide(≥99.9%,AlfaAesar)wasadded to build the activity trend for CO R, where, in general, metal (211)
+2
+as an internal standard. The 1H NMR spectrum was measured by surfaceswerereportedmoreactiveforcatalyticC–Ccouplingcom-
+watersuppressionusingthepre-saturationmethod.Allexperimental paredtootherlow-indexmetalsurfaces7.Hereafter,asthemostpro-
+resultswererepeatedatleastthreetimeswhilekeepingallconditions misingmetalperforminghigheractivity,andthe(111),(211),and(100)
+consistent. surfacesforCuwerebuiltwithfourlayerscomprising64,48,and64
+NatureCommunications|( 2023)1 4:1298 8
+
+
+===== PAGE 9 =====
+
+Article https://doi.org/10.1038/s41467-023-36926-x
+atoms,respectively.Allthesurfacestructureswerecalculatedwithhalf anempiricalstep-by-stepcomparisonfromreactantstoproducts(blue
+oftheatomsfixedfromthebottom,andtherestoftheatomswere andblackpaths,SupplementaryFig.3).
+relaxed.TheCuZnalloywasthenobtainedfromthescreeningasthe
+mostpromisingalloyperforminghigheractivityforCO R,whichwas Ratesimulation
+2
+builtbasedonaCu:Znratioof0.9:0.1(Cu Zn ).Accordingly,7,5, MicrokineticmodellingwasusedtosimulatethereactionrateofCO R-
+0.9 0.1 2
+and7CuatomswerereplacedbyZnontheCu(111),(211),and(100) to-C onCu and CuZn surfaces, where the temperature wasset to
+2+
+surfaces, respectively (Supplementary Fig. 2). Monkhorst–Pack 298K.Thekineticconstantforallelementarysteps(Supplementary
+k-pointsof2×2×1,3×2×1,and2×2×1wereusedforthe(111),(211), Table5)wasobtainedbasedontheArrheniusequation,asfollows:
+and (100) surfaces, respectively. The transition states were located
+usingthemethodofconstrainedoptimisationwhichhasbeenwidely (cid:3) E a ð13Þ
+used in many previous works18,24,25, with a force convergency of k=A×e RT,
+0.05eVÅ−1 forboth structural optimizationand transition state cal-
+culations.Noprotonationbarrierswereconsideredinthemicrokinetic whereAreferstothepre-factor,Eareferstotheactivationbarrier,R
+modelling. referstothemolargasconstant,andTreferstothetemperature.The
+steady state was located at dθ/dt=0, and the reaction rate was
+Freeenergycorrections obtained,describedbytheproductionrateofC H .
+2 4
+Allcalculatedenergies,includingadsorptionandgasenergies,were
+correctedtothefreeenergyat298K,asfollows: COMSOLsimulations
+WeusedacommercialsoftwareCOMSOLtoperformthesimulation:43
+E =EZPE+EU +EP +ES , ð9Þ ThepotentialandflowfieldsweregovernedbythePoissonequation,
+cor cor cor cor cor
+Stokesequations,andthecontinuityequationsasfollows:
+whereEZ co P r E isthezero-pointenergycorrection,EU cor andEP cor arethe X
+temperature (inner energy) and pressure corrections, respectively, ε∇2ψ= Fz i c i , ð14Þ
+and ES cor is the entropy correction (Supplementary Table 7). At i
+equilibrium,thechemicalpotentialofapairof(H++e−)ionsat0V
+RHE
+c is on r s e i f d e e r r r i e n d g to th a e s t c h o e m h p a u l t f at c io h n e a m l ica h l yd p r o o te g n e t n ial e o l f ect H r 2 od m e ole ( c C u H le E s ) ρ ∂ ∂ u t = (cid:3)∇p+μ∇2u(cid:3) X Fz i c i ∇ψ, ð15Þ
+approximation42. Therefore, the chemical potential of OH− was i
+obtainedas:
+∇u=0, ð16Þ
+4G OH(cid:3)=G
+HO
+(cid:3)G H+, ð10Þ
+2 (cid:6) (cid:7)
+∂c zFD
+The potential-dependent reaction free energy was calculated i = (cid:3)∇ (cid:3)D∇c (cid:3) i ic∇ψ+cu , ð17Þ
+∂t i i RT i i
+usingtheCHEapproximation:
+(cid:1) (cid:3)
+Whereℇistheelectricalpermittivity,Ψistheelectricpotential,Fisthe
+4G
+U
+=G
+U
+=e U(cid:3)U
+0
+, ð11Þ Faradayconstant,z
+i
+isthevalenceofspeciesi,c
+i
+istheionconcentra-
+0 tionofspeciesi,ρisthedensity,uistheflowfield,tisthetime,pisthe
+whereUandU areelectrodepotentials(Uand0V ,respectively). pressure,andμisthedynamicviscosity.Themasstransferprocessesof
+0 RHE
+ion were described by the Nernst Planck equation, where D is the
+i
+Solventeffectcorrections diffusivityofspeciesi,Risthegasconstant,andTisthetemperature.
+Adsorptionstabilizationhasbeenreportedtomainlyoriginatefrom Similartothepreviousreport34,wesettheparametersforsimu-
+the formation of H-bonds, namely, the solvent effect. In this study, lationasfollows:wesetthediffusioncoefficientof1.957×10−9m2/sfor
+solvationeffectsweresimulatedbasedonanimplicitmodel,VASP K+ and the applied surface voltage of−1.7V on the surfacefor per-
+sol
+(Supplementary Table 8). The solvation effects were also examined formingthesimulationsusingtheabovegoverningequations.
+using explicit models, which validated the results from the implicit Importantly,intheelectro-chaoticsystems,thevertexchaosor
+model (Supplementary Table 8). Note that the solvent effect for ionconvectionismainlydeterminedbytheelectrostaticforcesand
+OCCO*wassimulatedusingpolarisedexplicitwatermodels,forwhich notbythefluidinertia34,43.Theionconcentrationsnearsurfacesare
+the uncertainty of the adsorption energy has been reported to be mainlygovernedbytheappliedvoltages.Afterafewmicroseconds,
+negligible20. the concentrations of ions in the 30nm pores reach a quasi-steady
+state,anorderofmagnitudehigherthanthatontheflatsurfaceorin
+Energyglobaloptimization the150nmpores.Thenumericalsimulationsshowedthat30nmpores
+By considering the elementary steps in the simplified reaction net- increasedthepotassiumconcentrationsnearthesurfaces.Asaresult,
+work, all possible pathways can be enumerated24,25. The elementary hydrogenevolutionreaction(HER)issuppressed.
+stepwiththehighestlimitingenergywasdefinedasthelimitingstepin
+aspecificpathway(r ,r ,andr inSupplementaryFig.3).Thepathway Dataavailability
+A B C
+with the lowest limiting energy among all possible pathways was Sourcedatatogeneratefiguresandtablesareavailablefromthecor-
+chosen as the most favoured pathway (red path in Supplementary respondingauthors.
+Fig.3),withtherelevantlimitingenergydefinedastheG -limiting
+RPD
+energy(G ),asfollows: References
+RPD
+h (cid:4) (cid:5)i 1. IEA.GlobalEnergyReview:CO 2 Emissionsin2020,IEA,Parishttps://
+G =min max G , ð12Þ www.iea.org/articles/global-energy-review-co2-emissions-in-
+RPD i j i,j
+2020(2021).
+whereG referstothereactionenergyforelementarystepjinpath- 2. Dinh,C.-T.etal.CO electroreductiontoethyleneviahydroxide-
+i,j 2
+wayi.Asaresult,thereactionpathwaywithgloballyoptimallimiting mediatedcoppercatalysisatanabruptinterface.Science360,
+energycanbedetermined(redpath,SupplementaryFig.3)ratherthan 783–787(2018).
+NatureCommunications|( 2023)1 4:1298 9
+
+
+===== PAGE 10 =====
+
+Article https://doi.org/10.1038/s41467-023-36926-x
+3. Nitopi,S.etal.ProgressandperspectivesofelectrochemicalCO 25. Fu,X.,Li,J.,Long,J.,Guo,C.&Xiao,J.Understandingtheproduct
+2
+reductiononcopperinaqueouselectrolyte.Chem.Rev.119, selectivityofsyngasconversiononZnOsurfaceswithcomplex
+7610–7672(2019). reactionnetworkandstructuralevolution.ACSCatal.11,
+4. Zhong,M.etal.AccelerateddiscoveryofCO electrocatalysts 12264–12273(2021).
+2
+usingactivemachinelearning.Nature581,178–183(2020). 26. Guo,C.,Mao,Y.,Yao,Z.,Chen,J.&Hu,P.Examinationofthekey
+5. Gu,J.,Hsu,C.-S.,Bai,L.,ChenHao,M.&Hu,X.Atomicallydispersed issuesinmicrokinetics:COoxidationonRh(111).J.Catal.379,
+Fe3+sitescatalyzeefficientCO electroreductiontoCO.Science 52–59(2019).
+2
+364,1091–1094(2019). 27. Chernyshova,I.V.,Somasundaran,P.&Ponnurangam,S.Onthe
+6. Li,L.etal.Stable,activeCO reductiontoformateviaredox- originoftheelusivefirstintermediateofCO electroreduction.
+2 2
+modulatedstabilizationofactivesites.NatCommun.12, Proc.Natl.Acad.Sci.USA115,E9261(2018).
+5223(2021). 28. Wu,H.etal.ImprovedelectrochemicalconversionofCO tomul-
+2
+7. Zheng,T.etal.Copper-catalysedexclusiveCO topureformicacid ticarbonproductsbyusingmoleculardoping.Nat.Commun.12,
+2
+conversionviasingle-atomalloying.Nat.Nanotechnol.16, 7210(2021).
+1386–1393(2021). 29. Gao,J.etal.SelectiveC–Ccouplingincarbondioxideelectro-
+8. Wang,H.etal.SynergisticenhancementofelectrocatalyticCO reductionviaefficientspilloverofintermediatesassupportedby
+2
+reductiontoC oxygenatesatnitrogen-dopednanodiamonds/Cu operandoRamanspectroscopy.J.Am.Chem.Soc.141,
+2
+interface.Nat.Nanotechnol.15,131–137(2020). 18704–18714(2019).
+9. Birdja,Y.Y.etal.Advancesandchallengesinunderstandingthe 30. Jiang,S.,Klingan,K.,Pasquini,C.&Dau,H.Newaspectsofoper-
+electrocatalyticconversionofcarbondioxidetofuels.Nat.Energy andoRamanspectroscopyappliedtoelectrochemicalCO reduc-
+2
+4,732–745(2019). tiononCufoams.J.Chem.Phys.150,041718(2019).
+10. Ma,W.etal.ElectrocatalyticreductionofCO toethyleneand 31. Gunathunge,C.M.etal.Spectroscopicobservationofreversible
+2
+ethanolthroughhydrogen-assistedC–Ccouplingoverfluorine- surfacereconstructionofcopperelectrodesunderCO reduction.
+2
+modifiedcopper.Nat.Catal.3,478–487(2020). J.Phys.Chem.C121,12337–12344(2017).
+11. Lum,Y.&Ager,J.W.Evidenceforproduct-specificactivesiteson 32. Jeon,H.S.etal.Operandoinsightintothecorrelationbetweenthe
+oxide-derivedCucatalystsforelectrochemicalCO reduction.Nat. structureandcompositionofCuZnnanoparticlesandtheirselec-
+2
+Catal.2,86–93(2019). tivityfortheelectrochemicalCO reduction.J.Am.Chem.Soc.141,
+2
+12. Luc,W.etal.Two-dimensionalcoppernanosheetsforelectro- 19879–19887(2019).
+chemicalreductionofcarbonmonoxidetoacetate.Nat.Catal.2, 33. Ren,D.,Ang,B.S.-H.&Yeo,B.S.Tuningtheselectivityofcarbon
+423–430(2019). dioxideelectroreductiontowardethanolonoxide-derivedCuZn
+x
+13. Zhen,S.etal.Natureoftheactivesitesofcopperzinccatalystsfor catalysts.ACSCatal.6,8239–8247(2016).
+carbondioxideelectroreduction.Angew.Chem.Int.Ed.61, 34. Yang,K.D.etal.Morphology-directedselectiveproductionof
+e202201913(2022). ethyleneorethanefromCO onaCumesoporeelectrode.Angew.
+2
+14. Shin,H.,Hansen,K.U.&Jiao,F.Techno-economicassessmentof Chem.Int.Ed.56,796–800(2017).
+low-temperaturecarbondioxideelectrolysis.Nat.Sustain.4, 35. Zhuang,T.-T.etal.Coppernanocavitiesconfineintermediatesfor
+911–919(2021). efficientelectrosynthesisofC alcoholfuelsfromcarbonmon-
+3
+15. Huang,J.E.etal.CO electrolysistomulticarbonproductsinstrong oxide.Nat.Catal.1,946–951(2018).
+2
+acid.Science372,1074–1078(2021). 36. Bishnoi,S.W.etal.All-opticalnanoscalepHmeter.NanoLett.6,
+16. Bagger,A.,Ju,W.,Varela,A.S.,Strasser,P.&Rossmeisl,J.Elec- 1687–1692(2006).
+trochemicalCO reduction:aclassificationproblem.Chem- 37. Xu,Y.etal.Self-cleaningCO reductionsystems:unsteadyelec-
+2 2
+PhysChem18,3266–3273(2017). trochemicalforcingenablesstability.ACSEnergyLett.6,
+17. Yao,K.etal.MechanisticinsightsintoOC–COHcouplinginCO 809–815(2021).
+2
+electroreductiononfragmentedcopper.J.Am.Chem.Soc.144, 38. Kim,C.,Weng,L.-C.&Bell,A.T.Impactofpulsedelectrochemical
+14005–14011(2022). reductionofCO ontheformationofC productsoverCu.ACS
+2 2+
+18. Guo,C.,Fu,X.&Xiao,J.Theoreticalinsightsonthesynergyand Catal.10,12403–12413(2020).
+competitionbetweenthermochemicalandelectrochemicalsteps 39. Kortlever,R.,Shen,J.,Schouten,K.J.P.,Calle-Vallejo,F.&Koper,M.
+inoxygenelectroreduction.J.Phys.Chem.C124, T.M.Catalystsandreactionpathwaysfortheelectrochemical
+25796–25804(2020). reductionofcarbondioxide.J.Phys.Chem.Lett.6,
+19. Liu,X.etal.pHeffectsontheelectrochemicalreductionofCO 4073–4082(2015).
+2
+towardsC productsonsteppedcopper.Nat.Commun.10, 40. Kresse,G.&Furthmüller,J.Efficiencyofab-initiototalenergycal-
+2
+32(2019). culationsformetalsandsemiconductorsusingaplane-wavebasis
+20. Jiang,K.etal.MetalioncyclingofCufoilforselectiveC–C set.Comp.Mater.Sci.6,15–50(1996).
+couplinginelectrochemicalCO reduction.Nat.Catal.1, 41. Zhang,Y.&Yang,W.Commenton“Generalizedgradientapprox-
+2
+111–119(2018). imationmadesimple”.Phys.Rev.Lett.80,890–890(1998).
+21. Sandberg,R.B.,Montoya,J.H.,Chan,K.&Nørskov,J.K.CO–CO 42. Nørskov,J.K.etal.Originoftheoverpotentialforoxygen
+couplingonCufacets:Coverage,strainandfieldeffects.Surf.Sci. reductionatafuel-cellcathode.J.Phys.Chem.B108,17886–17892
+654,56–62(2016). (2004).
+22. Wu,Z.-Z.etal.IdentificationofCu(100)/Cu(111)interfacesas 43. Karatay,E.,Druzgalski,C.L.&Mani,A.Simulationofchaoticelec-
+superioractivesitesforCOdimerizationduringCO electro- trokinetictransport:performanceofcommercialsoftwareversus
+2
+reduction.J.Am.Chem.Soc.144,259–269(2022). custom-builtdirectnumericalsimulationcodes.J.ColloidInterf.
+23. Wu,Z.-Z.,Gao,F.-Y.&Gao,M.-R.Regulatingtheoxidationstateof Sci.446,67–76(2015).
+nanomaterialsforelectrocatalyticCO reduction.EnergyEnviron.
+2
+Sci.14,1121–1139(2021).
+24. Guo,C.etal.Towardcomputationaldesignofchemicalreactions Acknowledgements
+withreactionphasediagram.WIREsComput.Mol.Sci.11, ThisworkwassupportedfinanciallybytheNationalKeyR&DProgram
+e1514(2021). ofChina(No.2020YFA0406102,No.2021YFA1500702),theNational
+NatureCommunications|( 2023)1 4:1298 10
+
+
+===== PAGE 11 =====
+
+Article https://doi.org/10.1038/s41467-023-36926-x
+NaturalScienceFoundationofChina(No.22272078,91963121),andthe Correspondenceandrequestsformaterialsshouldbeaddressedto
+FrontiersScienceCenterforCriticalEarthMaterialCyclingofNanjing JianpingXiaoorMiaoZhong.
+University.
+PeerreviewinformationNatureCommunicationsthanksNgocHuan
+Authorcontributions Tran,LixinZhangandtheother,anonymous,reviewer(s)fortheircon-
+M.Z.conceivedtheideaanddirectedtheoverallproject.M.Z.andJ.X. tributiontothepeerreviewofthiswork.
+supervisedtheproject.J.Z.conductedthesynthesis,characterization,
+andperformancetests.M.Z.,J.X.,J.Z.,C.G.,X.Z.,L.L.,H.J.,Z.L.,andZ.F. Reprintsandpermissionsinformationisavailableat
+discussedtheexperimentresults.J.X.andC.G.carriedouttheDFT http://www.nature.com/reprints
+calculations.S.F.andW.X.carriedouttheinsituRamananalysis.Z.L.
+performedtheelectrokineticsimulations.J.X.,M.Z.,C.G.,andJ.Z.dis- Publisher’snoteSpringerNatureremainsneutralwithregardtojur-
+cussedtheDFTresults.M.Z.,J.X.,J.Z.,andC.G.wrotethemanuscript.All isdictionalclaimsinpublishedmapsandinstitutionalaffiliations.
+authorsdiscussedtheresultsandassistedduringmanuscript
+preparation. OpenAccessThisarticleislicensedunderaCreativeCommons
+Attribution4.0InternationalLicense,whichpermitsuse,sharing,
+Competinginterests adaptation,distributionandreproductioninanymediumorformat,as
+Wehavefiledapatentapplicationbasedonthiswork(Patentapplicant: longasyougiveappropriatecredittotheoriginalauthor(s)andthe
+NanjingUniversity;Inventors:MiaoZhongandJinZhang;Application source,providealinktotheCreativeCommonslicense,andindicateif
+number:202110248146.8;Status:submitted;Thepatentcoversapor- changesweremade.Theimagesorotherthirdpartymaterialinthis
+tionofthepreparationmethodforfabricatingnanoporousbi-metallic articleareincludedinthearticle’sCreativeCommonslicense,unless
+catalystsanditsapplicationinelectrochemicalCO reductionunder indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnot
+2
+alkalineconditions).Otherauthorsarenotlistedinthepatentapplica- includedinthearticle’sCreativeCommonslicenseandyourintended
+tionanddeclarenocompetinginterests. useisnotpermittedbystatutoryregulationorexceedsthepermitted
+use,youwillneedtoobtainpermissiondirectlyfromthecopyright
+Additionalinformation holder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+SupplementaryinformationTheonlineversioncontains licenses/by/4.0/.
+supplementarymaterialavailableat
+https://doi.org/10.1038/s41467-023-36926-x. ©TheAuthor(s)2023
+NatureCommunications|( 2023)1 4:1298 11

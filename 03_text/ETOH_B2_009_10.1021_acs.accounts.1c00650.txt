@@ -1,0 +1,1075 @@
+
+
+===== PAGE 1 =====
+
+Engineering Catalyst-Electrolyte Microenvironments to Optimize the Activity and
+Selectivity for Electrochemical Reduction of CO on Cu and Ag
+2
+Justin C. Bui†1,2, Chanyeon Kim†1,2, Alex J. King1,2, Oyinkansola Romiluyi1,2, Ahmet Kusoglu3,
+Adam Z. Weber2,3, Alexis T. Bell1,2*
+1 Department of Chemical and Biomolecular Engineering
+University of California, Berkeley
+Berkeley, CA 94720, USA
+2 Liquid Sunlight Alliance
+Lawrence Berkeley National Laboratory
+Berkeley, CA 94720, USA
+3 Energy Technologies Area
+Lawrence Berkeley National Laboratory
+Berkeley, CA 94720, USA
+Accounts of Chemical Research
+October 15, 2021
+†Contributed equally
+*Corresponding Author
+email: alexbell@berkeley.edu
+phone: (510) 459-4322
+1
+
+
+===== PAGE 2 =====
+
+1. Conspectus
+The electrochemical reduction of carbon dioxide (CO R) driven by renewably generated electricity
+2
+(e.g., solar and wind) offers a promising means for reusing the CO released during the production
+2
+of cement, steel, and aluminum, as well as the production of ammonia and methanol. If CO could
+2
+be removed from the atmosphere at acceptable costs (i.e., < $100/t of CO ), then CO R could be
+2 2
+used to produce carbon-containing chemicals and fuels in a fully sustainable manner. Economic
+considerations dictate that CO R current densities must be in the range of 0.1A/cm2 to 1 A/cm2
+2
+and selectivity toward the targeted product is high in order to minimize separation costs.
+Industrially relevant operating conditions can be achieved by using gas diffusion electrodes
+(GDEs) to maximize the transport of species to and from the cathode and combining such
+electrodes with a solid-electrolyte membrane by eliminating the ohmic losses associated with
+liquid electrolytes. Additionally, high product selectivity can be attained by careful tuning of the
+microenvironment near the catalyst surface (e.g., the pH, the concentrations of CO and H O, and
+2 2
+the identity of the cations in the double layer adjacent to the catalyst surface).
+We begin this Account with a discussion of our experimental and theoretical work aimed
+at optimizing catalyst microenvironments for CO R. We first examine the effects of catalyst
+2
+morphology on the production of multicarbon (C ) products over Cu-based catalysts and then
+2+
+explore the role of mass transfer combined with the kinetics of buffer reactions on the local
+concentration of CO and pH at the catalyst surface. This is followed by a discussion of the
+2
+dependence of local CO concentration and pH on the dynamics of CO R and the formation of
+2 2
+specific products. Next, we explore the impact of electrolyte cation identity on the rate of CO R
+2
+and the distribution of products. Subsequently, we look at utilizing pulsed electrolysis to tune the
+local pH and CO concentration at the catalyst surface. The last part of the discussion demonstrates
+2
+that ionomer-coated catalysts in combination with pulsed electrolysis can enable the attainment of
+very high (> 90 %) selectivity to C products over Cu in aqueous electrolyte. This part of the
+2+
+Account is then extended to consider the difference in catalyst-nanoparticle microenvironment,
+present in the catalyst layer of a membrane electrode assembly (MEA), to that of a planar electrode
+immersed in an aqueous electrolyte.
+2
+
+
+===== PAGE 3 =====
+
+2. Key References
+(1) Singh, M. R.; Clark, E. L.; Bell, A. T. Effects of Electrolyte, Catalyst, and Membrane
+Composition and Operating Conditions on the Performance of Solar-Driven Electrochemical
+Reduction of Carbon Dioxide. Phys. Chem. Chem. Phys. 2015, 17, 18924–18936.
+https://doi.org/10.1039/c5cp03283k.
+Explores the impact of mass transport on the electrochemical performance and product
+selectivity observed in an electrochemical CO reduction device through the means of experiment
+2
+and macroscale, continuum simulation.1
+(2) Resasco, J.; Chen, L. D.; Clark, E.; Tsai, C.; Hahn, C.; Jaramillo, T. F.; Chan, K.; Bell, A.
+T. Promoter Effects of Alkali Metal Cations on the Electrochemical Reduction of Carbon Dioxide.
+J. Am. Chem. Soc. 2017, 139, 11277–11287. https://doi.org/10.021/jacs.7b06765.
+Demonstrates the impact of the choice of alkali metal cation on the C selectivity of
+2+
+electrochemical CO reduction on Cu catalysts, demonstrating that alkali cations with smaller
+2
+hydrated radii pack more tightly in the outer Helmholtz plane and stabilize intermediate
+adsorption.2
+(3) Kim, C.; Weng, L. C.; Bell, A. T. Impact of Pulsed Electrochemical Reduction of CO on
+2
+the Formation of C Products over Cu. ACS Catal. 2020, 10, 12403–12413.
+2+
+https://doi.org/10.1021/acscatal.0c02915.
+Reveals the impacts of pulsed cathodic potential operation on the observed selectivity and
+performance of CO reduction on Cu catalysts, demonstrating that pulsed operation enables a
+2
+substantial enhancement in the selectivity towards C products due to an increase in the local CO
+2+
+concentration during dynamic operation.3
+(4) Kim, C.; Bui, J. C.; Luo, X.; Cooper, J. K.; Kusoglu, A.; Weber, A. Z.; Bell, A. T. Tailored
+Catalyst Microenvironments for CO Electroreduction to Multicarbon Products on Copper Using
+2
+Bilayer Ionomer Coatings. Nat. Energy 2021, 6, 1026–1034. https://doi.org/10.1038/s41560-021-
+00920-8.
+Develops bilayer, ion-conducting polymer coatings for Cu catalysts that carefully tune
+the local CO , water content, and pH to optimize selectivity for C products, and provides
+2 2+
+physical and mechanistic insight for the enhancement of C selectivity with these ionomer-
+2+
+coated catalyst materials.4
+3
+
+
+===== PAGE 4 =====
+
+3. Introduction
+The rise in the atmospheric concentration of CO has stimulated research devoted to its capture
+2
+and utilization to produce chemicals and fuels, with the energy provided by renewable sources,
+such as wind and solar irradiation. If direct air capture of the CO can be done at a cost of < $100/t,
+2
+then one could envision a closed-loop cycle for producing chemicals and fuels with no net CO
+2
+emissions.5 Electrochemical reduction of CO (CO R) has emerged as a promising means for
+2 2
+converting CO into useful products. Technoeconomic analyses have demonstrated that CO R
+2 2
+current densities in the range of 0.1 to 1 A/cm2 and selectivity to multicarbon (C ) products >80%
+2+
+faradaic Efficiency (FE) are required to make CO R economically attractive.5 Targeted CO R
+2 2
+current densities and selectivity can be achieved through the use of gas-diffusion electrodes
+(GDEs) to maximize transport of species and tuning of the chemical microenvironment near the
+catalyst surface, respectively.3,4,6–8
+This Account examines how various factors influencing the microenvironment
+immediately adjacent to the catalyst surface alter catalyst activity and selectivity for CO R. In this
+2
+context, we examine the effects of mass transfer on the local pH and CO concentration near the
+2
+catalyst surface, and how the choice of electrolyte cation affects the strength of the electrostatic
+field in the Helmholtz double layer.2,9,10 We show that further control of the microenvironment can
+be achieved by deposition of thin ionomer layers over the catalyst and by using pulsed, rather than
+static, electrolysis.4 We then turn our attention to the difference in microenvironments in a porous
+catalyst layer, present in a membrane-electrode assembly (MEA), and planar electrodes immersed
+in an aqueous electrolyte. Within an MEA, the catalyst nanoparticles in the porous catalyst layer
+are covered by ionomer, electrolyte, and gases,6 creating a complex microenvironment that, at the
+moment, is poorly understood.
+4
+
+
+===== PAGE 5 =====
+
+4. Effects of microenvironment on the CO R on Cu and Ag
+2
+Extensive research by Hori and others, has shown that product selectivity is strongly dependent on
+the metal used as the cathode.11–14 Sn exhibits high selectivity to formic acid and HCOOH, Ag and
+Au exhibit high selectivity to CO, and only Cu exhibits high selectivity for the formation of
+multicarbon hydrocarbons and oxygenated compounds.14 Prior work has also shown that the
+structure of the catalyst plays an important role in the product distributions observed on various
+catalysts.14–16 In this Account, we focus primarily Cu and Ag catalysts since are can produce C
+2+
+products and CO, respectively, with high faradaic efficiency. In the case of Cu, surface roughening
+to create undercoordinated Cu atoms enhances the formation of C products and reduces the
+2+
+formation of H and C products. Since C products (e.g., ethylene, ethanol, and propanol) are
+2 1 2+
+suitable intermediates for producing a wide variety of chemicals and fuels, substantial efforts have
+been devoted to identifying methods to alter the microenvironment near the catalyst surface to
+enhance the C product selectivity. In the case of Ag, maximizing the ratio of CO to H can be
+2+ 2
+achieved by increasing the local pH or enhancing the local concentration of CO .
+2
+5
+
+
+===== PAGE 6 =====
+
+Figure 1: Effects of local microenvironment on CO R over a Cu catalyst. Shown are the effects
+2
+of high local CO /H O ratio on the rate of CO R and the effect of high local pH on the FE to C
+2 2 2 2+
+products.
+A schematic showing how the microenvironment near the catalyst surface influences the
+rate at which CO R occurs and its product distribution is given in Figure 1. A high ratio of the
+2
+local concentrations of CO to H O enhances the rate of CO R, whereas a high local pH suppresses
+2 2 2
+the formation of H and C relative to C products.16,17 While not shown in this figure, the
+2 1 2+
+microenvironment at the catalyst surface is also influenced by the identity of the electrolyte cations
+and anions, and by coating the surface with thin films of ionomer.
+Lastly, it is critical to note that this introduction to the effects of microenvironment on
+catalyst performance is done with the aim of giving the reader an understanding of the manner in
+which the microenvironment can be engineered in order to achieve high activities and selectivities
+to targeted products of CO R. More comprehensive reviews of many of the topics treated in this
+2
+Account can be found in Refs. 14, and 18-25.14,18–25
+4.1 Impact of mass-transfer effects
+6
+
+
+===== PAGE 7 =====
+
+During CO R in an aqueous electrolyte, H O is consumed by the reduction of CO , and
+2 2 2
+OH- anions are produced, viz., H O + CO + 2 e- → CO + 2 OH-. The CO consumed at the cathode
+2 2 2
+must be supplied by mass transfer from the bulk electrolyte and the OH- anion must transport from
+the cathode surface to the bulk electrolyte. The gradients in CO and OH- created by these
+2
+processes are sharpened by the occurrence of bulk reactions involving CO and OH- anion, which
+2
+produce HCO - and CO 2-:
+3 3
+(1)
++ −
+CO2(aq)+ H2O ↔ H +HCO 3 (2)
+− + =
+HCO3 ↔ H + C O3 (3)
+− −
+As the cathode curCrOen2t( daeqn)s+ityO iHncrea↔sesH, tChOe 3local concentration of CO
+2
+decreases and that
+of OH- increases, resulting in a substantial increase in the local pH. Computational and
+experimental studies have shown that the local concentration of CO at the catalyst surface
+2
+approaches 0 mM (as opposed to the 34 mM of saturated CO in an aqueous electrolyte) due to
+2
+consumption of CO by both CO R and parasitic electrolyte buffer reactions (equations 1-3).
+2 2
+Conversely, the pH can rise as much as 4 pH units as a result of the stoichiometric generation of
+OH− anions during CO R.1,8,26,27
+2
+The effects of mass transport on the surface concentrations of species are critical to
+consider because the kinetics of each product generated by CO R are dependent on the local
+2
+concentration of CO , the pH, and the overpotential for that reaction. The kinetics for each product
+2
+have been measured and the product current density can be expressed by a Tafel relationship,28
+. (4)
+𝛾𝛾𝐶𝐶𝑂𝑂2,𝑘𝑘
+𝑐𝑐𝐶𝐶𝑂𝑂2 𝛼𝛼𝑐𝑐,𝑘𝑘𝐹𝐹
+𝑖𝑖𝑘𝑘 = −𝑖𝑖𝑜𝑜,𝑘𝑘�𝑐𝑐𝑟𝑟𝑟𝑟𝑟𝑟� exp�−𝛾𝛾𝑝𝑝𝑝𝑝,𝑘𝑘,𝑆𝑆𝑝𝑝𝑆𝑆𝑝𝑝𝑝𝑝�exp�− 𝑅𝑅𝑅𝑅 (𝜂𝜂𝑘𝑘)�
+7
+
+
+===== PAGE 8 =====
+
+In Eq. (4), is the exchange current density for product k, γ is the CO reaction order, γ
+CO2,k 2 pH,k
+𝑖𝑖𝑜𝑜,𝑘𝑘
+is the sensitivity of the current density to pH, and and are the transfer coefficient and
+𝛼𝛼𝑐𝑐,𝑘𝑘 𝜂𝜂𝑘𝑘
+overpotential for product k, respectively.
+We note that the Tafel rate equation assumes a single rate-determining step for which all
+other steps are quasi equilibrated, and it uses semi-empirical lumped parameters to describe the
+charge transfer in the rate-determining step. Additionally, the effects of the electrical double layer
+are contained implicitly in the charge-transfer coefficient and exchange current density.
+Nevertheless, the importance of controlling the local CO and pH becomes clear, since the rate of
+2
+the CO R conversion to each product is directly dependent on these local concentrations. This
+2
+understanding motivates engineering the chemical microenvironment as a means to achieve high
+total current densities and the desired product distribution for CO R.
+2
+4.2 Impact of the electrolyte cation and anion
+In aqueous CO R, the cations and anions from the electrolytic salt are essential components
+2
+of the microenvironment near the catalyst surface, where these ions can influence selectivity. We
+have investigated the effects of alkali metal/bicarbonate (HCO –) electrolytes, Li+, Na+, K+, Rb+,
+3
+and Cs+, on CO R in order to understand better their impact on product formation over Cu.2,9,29
+2
+Partial current densities corresponding to the formation of HCOO–, C H , and C H OH
+2 4 2 5
+demonstrated an increase with respect to the atomic radius of the cation, Li+ < Na+ < K+ < Rb+ <
+Cs+, while those for H , CO, and CH did not change significantly.2,29 Additionally, when a mixture
+2 4
+of LiHCO and MHCO (M = Na+, K+ or Cs+) was used as the electrolyte, the product distribution
+3 3
+more closely resembled that obtained in the presence of MHCO even when Li+ cations were only
+3
+10% of the total.2 Theoretical calculations revealed that the observed effects of cation identity are
+attributable to the strength of the electrostatic field in the double layer, which increases with
+8
+
+
+===== PAGE 9 =====
+
+decreasing radius of the hydrated cation in the outer Helmholtz plane and increasing PZC of the
+metal catalyst.2,29 The increase in the electrostatic field as the hydrated cation decreases stabilizes
+adsorption of surface intermediates having significant dipole moments (e.g., *CO , *OCCO),
+2
+thereby increasing CO R activity and C selectivity (Figure 2).29
+2 2+
+Figure 2: Effect of the electrolyte cation on electrochemical CO R on a Cu catalyst.29 (a) C
+2 2+
+current density measured in an MHCO electrolyte normalized by that measured in an LiHCO
+3 3
+electrolyte. The blue line is for Cu(111) and the red line is for Cu(100). Points and lines represent
+the experimental data and theoretical predictions, respectively. (b, c) Illustration of the impact of
+the size of the hydrated cation on charging of the catalyst surface.
+To elucidate the fundamental influence of cations, a multiscale, multiphysics modeling
+approach is required. Our group has undertaken such an effort for CO R on Ag in an aqueous
+2
+electrolyte. Density functional theory (DFT) was used to predict the rate coefficients needed for
+the microkinetic model, which was then coupled with a continuum transport model.10 This
+approach provided an understanding of the reaction kinetics and surface species present on Ag
+during CO R and revealed that the rate-limiting step for CO R on Ag involves hydrogenation of
+2 2
+adsorbed CO (* ). The studies showed that hydrated cations with smaller radii present near
+2
+δ−
+CO2
+9
+
+
+===== PAGE 10 =====
+
+the surface of Ag stabilize * through electrostatic interactions,10 leading to higher coverages
+δ−
+and, subsequently, higher raCteOs 2 of CO formation, in agreement with experimental observation.29
+Although the complex nature of CO R on Cu makes similar studies exceedingly difficult, the
+2
+findings of this multiscale, multiphysics investigation on Ag demonstrate that cations play a
+critical role in stabilizing partially charged intermediates, thereby impacting CO R product
+2
+distributions.
+We have also investigated the impact of anions on CO R over Cu. Anions with buffering
+2
+capacity, such as bicarbonate, borate (H BO ), and phosphate (HPO 2–), as well as those without
+3 3 4
+buffering capacity, such as perchlorate (ClO –) and sulfate (SO 2–), were examined at a fixed
+4 4
+potassium cation concentration of 0.1 M.30 While anions without buffering capacity exhibited no
+noticeable influence, buffering anions demonstrated an increase in selective formation of H and
+2
+CH in the order HCO – < H BO < HPO 2–. This finding was attributed to the decreasing trend in
+4 3 3 3 4
+their pK —HCO – (10.33) > H BO (9.23) > HPO 2– (7.21), which is consistent with the fact that
+a 3 3 3 4
+the rate of H formation is limited by the rate of H atom formation on the catalyst surface via
+2
+proton-electron transfer, and that the rate of CH formation is limited by the rate of *CO
+4
+hydrogenation.
+4.3 Pulsed CO electrolysis
+2
+Controlling the cathode potential dynamically is a facile means for modulating the catalyst
+microenvironment and, therefore, the CO R product distribution. Of particular interest is the
+2
+performance of CO R when the cathodic potential is repeatedly alternated between two distinct
+2
+potential setpoints (i.e., pulsing). Many prior studies of pulsed-CO R focused on the pulse-derived
+2
+reconstruction of the catalyst surface because the cathode potentials were chosen above and below
+the standard reduction potential of the catalyst (i.e., +0.42 V vs RHE for Cu), resulting in
+10
+
+
+===== PAGE 11 =====
+
+continuous redox of the catalyst surface.31–37 However, improved selectivity toward CO R over
+2
+hydrogen evolution compared to static electrolysis is observed even when both potential setpoints
+were more negative than the standard reduction potential of the catalyst (see Figure 3). This
+observation implies that pulsed electrolysis can be used to modulate reaction dynamics by
+perturbating the microenvironment within the vicinity of the catalyst.3,36–38
+To investigate the pulsing effect, we employed differential electrochemical mass
+spectroscopy (DEMS) in tandem with gas chromatography and high-pressure liquid
+chromatography to analyze both local and bulk concentrations of CO R products. DEMS
+2
+measurements collected in situ during CO R facilitated direct observation of product-evolution
+2
+hysteresis between cathodic (more negative potential) and anodic (less negative potential) scans
+(see Figure 3a). Specifically, the generation CO and C H was increased in the anodic scan
+2 4
+compared to the cathodic scan while that of H exhibited contrary behavior. The two cathodic
+2
+potential setpoints for pulsed electrolysis were set at −0.8 and −1.15 V vs. RHE to maximize the
+difference in generation rates between the cathodic and anodic scan, with an optimal duration of
+10 s. Relative to static electrolysis at the time-averaged potential, the FE of C products increased
+2+
+from 60% to 81% while FE of H decreased from 22% to 9%. DEMS data revealed that the
+2
+distribution of products generated locally during pulsed electrolysis were distinctly different from
+those observed for static electrolysis, suggesting differences in the chemical microenvironments
+between the two electrolysis modes.
+11
+
+
+===== PAGE 12 =====
+
+Figure 3: Overview of study of pulsed electrolysis on Cu catalysts.3,8 (a) Top panel:
+Rectangular wave applied potential signal used in pulsed electrolysis (Φ = −1.15 V vs. RHE, Φ
+1 2
+= −0.8 V vs. RHE, and t = t = 10 s). Bottom panel: Measured DEMS signal of local C H , H ,
+1 2 2 4 2
+and CO concentrations at the Cu catalyst surface. (b) Simulated and experimental product
+distributions and total current density for static and pulsed electrolysis. Static results represent a
+product distribution taken for static electrolysis at the time-averaged potential. (c) Schematic
+representation of the simulated domain for the boundary layer model and its boundary conditions.
+Simulated (d) local pH and (e) local CO concentration for pulsed (solid lines) and static
+2
+electrolysis (dashed line).
+To explain the difference in microenvironments of pulsed and static electrolysis, we
+developed a time-dependent, continuum model of the mass-transport boundary layer next to the
+Cu surface (see Figure 3c). The electrode surface reactions were modeled using concentration-
+dependent Tafel kinetics fit to experimental data of static CO R on a planar Cu catalyst.8 Since the
+2
+reaction kinetics used in these simulations included the effects of pH and CO concentration, the
+2
+impacts of mass transport on the local CO concentration and pH and on the observed product
+2
+12
+
+
+===== PAGE 13 =====
+
+distribution could be described as functions of time. While prior studies attempted to simulate the
+impact of pulsed electrolysis,3,38,39 none explicitly linked the simulated concentrations to product
+distributions through an experimentally validated kinetic model.
+As shown in Figure 3b, the model exhibits good agreement with experimentally observed
+trends; particularly, the enhancements in C FE and total current density upon pulsing.
+2+
+Examination of the simulated transient concentration profiles for CO and pH (Figure 3d-e)
+2
+elucidates the cause for the product enhancements observed during pulsed CO R. At the start of
+2
+the more cathodic portion of the potential pulse, there exists a high transient local concentration of
+CO , consistent with that observed by DEMS, due to replenishment of the local CO concentration
+2 2
+during the less cathodic potential hold. Once the potential is made more cathodic, the local pH
+rises immediately, due to stoichiometric generation of OH−.6,40,41 At the same time, the local CO
+2
+concentration decreases due to increased consumption of CO at more cathodic overpotentials.
+2
+However, because the rate of decrease in local CO concentration is slower than the rate of increase
+2
+in local pH, a transient state of high local pH and CO concentration is achieved that facilitates
+2
+attainment of a C FE that is far greater than that attainable by static electrolysis. Pulsing the
+2+
+potential enables repeated access to this metastable state and, hence, improved selectivity.
+The continuum model of pulsed electrolysis was used to evaluate the performance of pulsed
+electrolysis for a broad range of possible potentials, as well as in different bulk electrolytes. This
+effort showed that a shorter potential pulse (~5 s) could be used to further improve C FE by
+2+
+enabling more repeated access to the enhanced transient state. Additionally, the model revealed
+that pulsed electrolysis substantially favors the generation of CH , consistent with experiments
+4
+when the bicarbonate concentration in the electrolyte was increased because the increased buffer
+capacity mitigates the increases in pH required to generate C products. 42 These results highlight
+2+
+13
+
+
+===== PAGE 14 =====
+
+the impact of engineering the microenvironment to enable substantial control on the observed
+product distributions for CO R on Cu.
+2
+We note that the effects of pulsed electrolysis on the activity and selectivity of Cu have
+also been observed on Ag. Work by Azumi has demonstrated that on Ag pulsing increases the FE
+for CO formation and suppresses that for H .43 The authors attribute the observed enhancement in
+2
+CO FE to replenishing of the CO at the catalyst surface during the anodic segment of the pulse
+2
+(i.e., improved CO mass transport).
+2
+4.4 Ionomer coated catalysts
+As demonstrated for pulsed CO electrolysis, both high local pH and CO concentration
+2 2
+are key to increasing the C FE during CO R on Cu. However, in an aqueous medium, there is an
+2+ 2
+intrinsic tradeoff between these properties due to the parasitic formation of HCO – and CO =. This
+3 3
+tradeoff can be overcome by coating the Cu catalysts with an ion-conducting polymer (ionomer)
+that tailors the chemical microenvironment to achieve enhanced CO R to C products.44,45 The
+2 2+
+ionomer composition enables control of ions and water transport through the polymer. Figure 4
+depicts the chemistry and morphology of two standard ionomers: Nafion (a perfluorosulfonic acid,
+cation-conducting ionomer) and Sustainion (a polystyrene vinylbenzyl methylimidazolium, anion-
+conducting ionomer).
+14
+
+
+===== PAGE 15 =====
+
+Figure 4: Chemistry and morphology of ionomers. (a) Schematic depiction of the bulk
+morphology of ionomers. Cation and anion concentration profiles determined by Donnan
+equilibrium partitioning are shown in the schematic. (b) Phase separation at the nanoscale in the
+ionomers. (c) Chemical structure of Nafion and Sustainion ionomers.
+Our group has demonstrated that a bi-layer of Nafion and Sustainion facilitates both high
+local pH and CO concentration, leading to 90% FE to C products and only 4% FE to H during
+2 2+ 2
+pulsed CO electrolysis (Figure 5).4 To understand the role of these ionomer layers, we measured
+2
+the solubility of water in Nafion (1100 g mol –1 of equivalent weight) and Sustainion coated on Cu
+eq
+(Naf1100/Cu and Sus/Cu, respectively). The concentration of water decreased in the order bare
+Cu (aqueous solution) > Sus/Cu > Naf1100/Cu. Sustainion has about 20-fold higher CO solubility
+2
+than water due to its imidazolium groups, which have a high CO affinity.46 By contrast, Nafion
+2
+has a CO solubility comparable to water.47 Putting these measurements together led to the
+2
+recognition that the ratio of CO /H O should increase in the order of bare Cu (aqueous solution) <
+2 2
+Naf1100/Cu < Sus/Cu. This order is projected to result in a higher rate of CO R compared to HER,
+2
+which was experimentally confirmed (see Figure 5).
+15
+
+
+===== PAGE 16 =====
+
+Figure 5: Impact of ionomer layer on CO R over Cu catalyst.4 (a) Activity and selectivity
+2
+obtained for different configurations of the ionomer layers. (b) Spatial charge configuration and
+local [CO ]/[H O] ratio plotted in the various domains of Naf850/Sus/Cu (right) and
+2 2
+Sus/Naf850/Cu (left) bilayer ionomer coated catalysts. (c) H selectivity and C /C FE ratio
+2 1 2+
+obtained for different configurations of the ionomer layers. (d) Partial current densities for
+different configurations of the ionomer employed in pulsed electrolysis. Adapted with permission
+from Kim et al.4 Copyright 2021, Springer Science Business Media, LLC.
+It is particularly notable that Naf1100/Cu exhibited a higher selectivity to C products than
+2+
+bare Cu. Moreover, the C selectivity increased further when Naf1100 was replaced with lower
+2+
+equivalent weight Naf850 (850 g mol –1), and the i for Naf850/Cu was lower than that for
+eq CO2R
+Naf1100/Cu due to the higher density of hydrophilic sulfonate groups, leading to a lower CO /H O
+2 2
+ratio. Therefore, while the local ratio of CO /H O explains the enhancement in CO R activity, it
+2 2 2
+is not sufficient to describe observed increase in C selectivity. Therefore, we postulated that
+2+
+16
+
+
+===== PAGE 17 =====
+
+Donnan exclusion, the thermodynamic exclusion of ions from a polymer matrix of the same sign
+as that of the background charge (Figure 4a),48 was responsible for the enhanced C selectivity
+2+
+due to an accumulation of OH– generated at the Cu surface and exclusion by the sulfonate groups
+in Nafion. This explanation was supported experimentally by observation of a significant decrease
+in the HER current density when Nafion-coated Cu was used for the electrochemical reduction of
+acetonitrile, a pH-insensitive reaction that suffers from parasitic HER as a side-reaction.49 Finally,
+as shown in Figure 5a-c, by layering Nafion and Sustainion, an optimal microenvironment for C
+2+
+production was found to be Naf/Sus/Cu (Nafion at the outermost layer), which achieved a high
+local CO /H O ratio due to the inner Sustainion layer and a high local pH due to OH– trapping by
+2 2
+Nafion. This bi-layer architecture resulted in a 250% improvement in C production and a 70%
+2+
+suppression in HER during pulsed CO electrolysis relative to what was observed for bare Cu (see
+2
+Figure 5d).
+While our studies of ionomer-coated catalysts have been limited to ionomer-coated Cu,
+similar studies have recently appeared for Ag. Notably, Lees et al. invoke a pH trapping argument,
+similar to that proposed for Cu, in order to explain why Nafion-coated Ag produces substantial
+amounts of formic acid, a product typically only observed on Ag only at extremely high pH.50 And
+in closely related work, Koshy et al. have noted that imidazolium- based ionomer coatings have
+no effect on CO R activity but are able to modulate the activity for HER on Ag.51 These studies
+2
+suggest that while some of the ionomer effects we have observed are transferable to Ag, the details
+of these effects may be chemistry dependent. Hence, further work is needed to explore how
+ionomers can be used to affect the microenvironment of electrocatalysts used for CO R.
+2
+5. Porous-electrode systems
+17
+
+
+===== PAGE 18 =====
+
+A key challenge in the development of CO R devices is overcoming mass-transport limitations
+2
+resulting from the low solubility and diffusivity of CO in aqueous electrolytes.1,18,52 Planar
+2
+electrodes used in conjugation with an aqueous electrolyte are useful for characterizing and/or
+discovering new catalysts and materials. However, they have relatively thick mass-transfer
+boundary layers (50-200 μm), which impose mass-transport limitations, limiting CO R current
+2
+density to < 100 mA cm-2(Figure 6a-b). If CO R is to be employed industrially, current densities
+2
+of > 100 mA cm-2must be achieved.5 For such applications, devices employing porous electrodes
+will be necessary (Figure 6d). The catalyst layer in a porous electrode is made up of nanoparticles
+that increase substantially the catalytically active surface area relative to that available for planar
+electrodes. Furthermore, the porous structure of the catalyst layer enables more direct delivery of
+gaseous CO through thin, overlapping layers of electrolyte (10-100 nm), which drastically
+2
+enhances CO transport (Figure 6e); such systems have been demonstrated to achieve current
+2
+densities for CO R exceeding 1 A cm−2.53
+2
+18
+
+
+===== PAGE 19 =====
+
+Figure 6: Operation of planar and porous electrode systems at several length scales. (a)
+Macroscale schematic of a planar H-cell device used for characterizing catalysts for CO R. (b)
+2
+Zoomed inset of the mass transport boundary layer in CO R on planar Cu. (c) Further zoomed
+2
+inset of the electrical double layer on planar Cu, emphasizing the possibility for cation effects or
+ionomer layers at the catalyst surface. (d) Macroscale schematic of an exchange-MEA device for
+electrochemical CO reduction. (e) Zoomed inset of the porous electrode and the adjacent ion-
+2
+exchange membrane layer. (f) Further zoomed inset of a single pore within the porous electrode.
+The most commonly used porous-electrode architecture for CO R is the exchange
+2
+MEA.50,53–55 In this architecture, gaseous CO is fed into a flow plate that distributes the reactant
+2
+CO . The CO diffuses through a tortuous, porous-transport layer (typically a fibrous carbon layer)
+2 2
+that ensures uniform delivery of the CO and electrons to the porous catalyst layer. The catalyst
+2
+layer, consisting of catalyst nanoparticles dispersed in an ionomer binder, is where the CO R
+2
+occurs. The ionomer binds the particles and provides a pathway for ion conduction. An ion-
+exchange membrane is employed between the porous electrodes to facilitate ionic conduction
+19
+
+
+===== PAGE 20 =====
+
+between the electrodes, while simultaneously mitigating product crossover. At the anode, an
+aqueous exchange solution (typically either a hydroxide or a bicarbonate solution) is fed through
+the porous support for the catalyst layer, wherein water oxidation occurs. The use of an anolyte
+salt at the anode substantially reduces the ohmic resistance of the overall cell by ensuring the
+membrane is well hydrated.40 Figure 6 illustrates the operation of planar and porous systems over
+several length scales. Since this Account is devoted to the effects of the catalyst microenvironment
+on catalyst performance, the issue we focus on is the difference in microenvironments of a catalyst
+in a porous electrode to that in a planar electrode with an aqueous electrolyte.
+There exist multiple critical differences between the microenvironment in an MEA and that
+for a planar-electrode system. First, the MEA achieves a much higher total current density
+compared to that for a planar system due to the substantially reduced diffusion length, which
+increases CO delivery rate.56 However, the high current densities achieved in an MEA produce
+2
+substantial electro-osmotic fluxes that pull water from the cathode catalyst layer and substantially
+reduce its water activity.6 These fluxes, which do not occur in aqueous systems where the water
+activity is unity, can drastically skew the ratio of [CO ]/[H O] within the catalyst
+2 2
+microenvironment. Lastly, because the diffusion boundary layer in an MEA is quite thin, the
+effects of pulsed electrolysis, which rely on transient CO and pH changes within the mass-
+2
+transport boundary layer, may be even greater than those observed for planar electrode systems;
+hence, future work should evaluate the efficacy of pulsed electrolysis for porous catalyst layers.
+We believe that much of the work done by our group on the effects of catalyst
+microenvironment using planar electrodes is transferable to systems employing porous electrodes.
+For instance, because it has been shown that cations from the anolyte transport to the cathode
+catalyst layer during CO R in exchange MEAs,40 the effects of the electrolyte cation are still
+2
+20
+
+
+===== PAGE 21 =====
+
+relevant for porous systems.54,57 Additionally, the effects of pH and CO availability on the rate of
+2
+CO R are expected to persist in MEAs, as these effects are a result of the intrinsic kinetics of Cu.
+2
+The selectivity enhancements for ionomer-coated catalysts and pulsed electrolysis were also
+observed for both metal foils and nanostructured Cu, suggesting that microenvironment effects
+prevail regardless of the catalyst morphology.3,4 Therefore, the effects of the ionomer coatings
+reported here should be transferrable to porous-catalyst layers comprised of nanoparticles
+surrounded by an ionomer. For porous catalyst layers supported on the surface of a gas-diffusion
+layer, the transport of CO to the surface of the ionomer layer surrounding the catalyst is rapid, but its
+2
+transport to the catalyst surface is dictated by the ionomer, as discussed in recent simulation and
+experimental studies.58–60 Thus we expect the pH effects incurred by Nafion, and the local increase
+in CO solubility due to the charged N moieties on Sustainion will likely both remain relevant even
+2
+in porous catalyst layers. Indeed, prior studies have demonstrated that use of a Nafion binder for a
+Cu catalyst layer drastically enhances the rate of C H generation in a porous electrode, and that
+2 4
+increasing the Nafion content improves C FE.53,61 It is important to note, however, that the
+2+
+method of porous-catalyst-layer fabrication typically involves dispersing catalyst particles and
+ionomer within a solvent and depositing the resulting catalyst-layer ink on the membrane or
+porous-transport layer. This preparation method poses a significant challenge in the creation of
+catalyst nanoparticles coated with the kind of distinct bi-layer catalyst coatings developed for the
+planar system. Thus future work should aim to use techniques such as electrospinning to enable
+separation of the ionomer binders and facilitate the fabrication of porous catalyst layers with
+distinct bi-layer ionomer coatings on each nanoparticle.
+21
+
+
+===== PAGE 22 =====
+
+6. Summary and perspective
+This Account demonstrates that not only the composition and surface morphology of the
+catalyst but also the local microenvironment next to the catalyst surface strongly influence both
+the catalyst activity and selectivity for the electrochemical reduction of CO . We have illustrated
+2
+how these factors affect both the total current density and the FE for forming C products on Cu
+2+
+and CO on Ag. We have shown that a roughened Cu surface enhance exhibits high FE to C
+2+
+products and reduced FE to C products and H These effects are largely due to undercoordinated
+1 2.
+Cu sites on the catalyst surface that bind CO more strongly than do flat facets. Mass-transfer
+limitations near the catalyst surface, encountered at current densities exceeding about 1 mA/cm2,
+result from a rise in the local pH of the electrolyte and a drop in the local concentration of CO
+2
+due to the combined effects of mass transfer and buffering via the reaction of CO with OH− anions
+2
+to form HCO - and CO 2- anions. Electrolyte cations present near the catalyst surface also enhance
+3 3
+the activity and selectivity of Cu and Ag catalysts. The choice of electrolyte cation also has an
+effect on the activity and selectivity of Cu. Cs+ cations are present in higher surface concentration
+in the double layer than cations with a larger radius of hydration, e.g., Li+. The higher surface-
+charge density created by hydrated Cs+ cations produces a proportionately stronger space-charge
+field, which stabilizes the adsorption of CO and the OC-CO dimer that are precursors to C
+2 2+
+products. Because of these effects, the total current density and the C FE are higher in CsHCO
+2+ 3
+than LiHCO . By contrast, the presence of buffering anions, such as HCO - and HPO -, that have
+3 3 4
+low pK ’s relative to H O can serve as proton sources that enhance the formation of CH and H
+a 2 4 2
+at the expense of C products. We have also demonstrated that the placement of a thin ionomer
+2+
+film between the surface of Cu and an aqueous electrolyte further alters the microenvironment
+near the Cu surface. Most notably, covering the surface with an anion-conducting film, such as
+Sustainion, and then a cation-conducting film, such as Nafion, enables the attainment of a very
+22
+
+
+===== PAGE 23 =====
+
+high C FE and concurrently a low H FE. These effects are attributed to creation of a
+2+ 2
+microenvironment in which the ratio of CO /H O and the pH are significantly higher than that in
+2 2
+an aqueous electrolyte. Further enhancement of these properties can be achieved by conducting
+pulsed electrolysis of CO . Finally, we note that the catalyst layer in a membrane-electrode
+2
+assembly is more complex that that used in a planar-electrode system, opening up additional
+degrees of freedom for shaping the microenvironment near the catalyst surface.
+7. Author biographies
+Justin Bui was born in 1997 in Fairfax, VA and received his B. Sc. in Chemical Engineering from
+Columbia University in 2019. He is currently pursuing his Ph. D. as a NDSEG Fellow at the
+University of California, Berkeley under the direction of Prof. Alexis Bell and Dr. Adam Weber.
+Chanyeon Kim received his B. Sc. and M. Sc. from Yonsei University and his Ph. D. from Korea
+Advanced Institute of Science and Technology in 2018. He is currently a postdoctoral research
+fellow under the supervision of Dr. Francesca Toma, Dr. Adam Weber, and Prof. Alexis Bell.
+Alex King was born in Cologne, Germany in 1997 and received his B. Sc. in Chemical
+Engineering at the University of Michigan, Ann Arbor in 2019. He is currently an NSF funded Ph.
+D. student at the University of California, Berkeley under the advisement of Prof. Alexis Bell and
+Dr. Adam Weber.
+Oyinkansola Romiluyi received her B. Sc. in Chemical Engineering with a minor in Sustainable
+Energy from the University of Toronto, St. George in 2016. She then received her M. Sc. in
+Chemical Engineering from Columbia University in 2017. She is currently a Ph. D. Candidate at
+the University of California, Berkeley and is advised by Prof. Alexis Bell and Dr. Adam Weber.
+23
+
+
+===== PAGE 24 =====
+
+Ahmet Kusoglu is a Scientist at Berkeley Lab, working on characterization of ionomers and
+interfaces for electrochemical energy devices and related mechanochemical phenomena. He holds
+a Ph. D. from University of Delaware, did his post-doctoral research at LBNL, and received the
+Srinivasan Award of the Electrochemical Society and ECS-Toyota Fellowship.
+Adam Weber received a B. Sc. and M. Sc. from Tufts University and his Ph. D. from UC Berkeley
+in 2004. He is currently a Senior Scientist at LBNL focused on investigating and optimizing
+electrochemical technologies.
+Alexis Bell received his Sc. D. in Chemical Engineering from the Massachusetts Institute of
+Technology, after which he joined the Department of Chemical and Biomolecular Engineering at
+the University of California, Berkeley, where he is the Dow Professor of Sustainable Chemistry.
+His research includes experimental and theoretical studies of heterogeneous catalysis, with a recent
+emphasis on the electrochemical oxidation of water and the reduction of carbon dioxide.
+8. Acknowledgements
+This material is based on work performed by the Liquid Sunlight Alliance, which is supported by
+the U.S. Department of Energy, Office of Science, Office of Basic Energy Sciences, Fuels from
+Sunlight Hub under Award Number DE-SC0021266. JCB acknowledges funding from the
+National Science Foundation Graduate Research Fellowship (NSFGRFP) under Grant No. DGE
+1752814 and the National Defense Science and Engineering Graduate Fellowship Program. AJK
+acknowledges funding from the NSFGRFP under Grant No. DGE 1752814. CK acknowledges
+support from the Basic Science Research Program through the National Research Foundation of
+Korea (NRF) funded by the Ministry of Education (NRF-2021R1A6A3A14044966).
+24
+
+
+===== PAGE 25 =====
+
+8. References
+(1) Singh, M. R.; Clark, E. L.; Bell, A. T. Effects of Electrolyte, Catalyst, and Membrane
+Composition and Operating Conditions on the Performance of Solar-Driven
+Electrochemical Reduction of Carbon Dioxide. Phys. Chem. Chem. Phys. 2015, 17, 18924–
+18936. https://doi.org/10.1039/c5cp03283k.
+(2) Resasco, J.; Chen, L. D.; Clark, E.; Tsai, C.; Hahn, C.; Jaramillo, T. F.; Chan, K.; Bell, A.
+T. Promoter Effects of Alkali Metal Cations on the Electrochemical Reduction of Carbon
+Dioxide. J. Am. Chem. Soc. 2017, 139, 11277–11287. https://doi.org/10.1021/jacs.7b06765.
+(3) Kim, C.; Weng, L. C.; Bell, A. T. Impact of Pulsed Electrochemical Reduction of CO2 on
+the Formation of C Products over Cu. ACS Catal. 2020, 10, 12403–12413.
+2+
+https://doi.org/10.1021/acscatal.0c02915.
+(4) Kim, C.; Bui, J. C.; Luo, X.; Cooper, J. K.; Kusoglu, A.; Weber, A. Z.; Bell, A. T. Tailored
+Catalyst Microenvironments for CO Electroreduction to Multicarbon Products on Copper
+2
+Using Bilayer Ionomer Coatings. Nat. Energy 2021, 6, 1026–1034.
+https://doi.org/10.1038/s41560-021-00920-8.
+(5) Jouny, M.; Luc, W.; Jiao, F. General Techno-Economic Analysis of CO Electrolysis
+2
+Systems. 2018. https://doi.org/10.1021/acs.iecr.7b03514.
+(6) Weng, L. C.; Bell, A. T.; Weber, A. Z. A Systematic Analysis of Cu-Based Membrane-
+Electrode Assemblies for CO reduction through Multiphysics Simulation. Energy Environ.
+2
+Sci. 2020, 13, 3592–3606. https://doi.org/10.1039/d0ee01604g.
+(7) Dinh, C. T.; Burdyny, T.; Kibria, G.; Seifitokaldani, A.; Gabardo, C. M.; Pelayo García De
+Arquer, F.; Kiani, A.; Edwards, J. P.; De Luna, P.; Bushuyev, O. S.; Zou, C.; Quintero-
+Bermudez, R.; Pang, Y.; Sinton, D.; Sargent, E. H. CO Electroreduction to Ethylene via
+2
+Hydroxide-Mediated Copper Catalysis at an Abrupt Interface. Science (80-. ). 2018, 360,
+783–787. https://doi.org/10.1126/science.aas9100.
+(8) Bui, J. C.; Kim, C.; Weber, A. Z.; Bell, A. T. Dynamic Boundary Layer Simulation of
+Pulsed CO Electrolysis on a Copper Catalyst. ACS Energy Lett. 2021, 6, 1181–1188.
+2
+https://doi.org/10.1021/acsenergylett.1c00364.
+(9) Singh, M. R.; Kwon, Y.; Lum, Y.; Ager, J. W.; Bell, A. T. Hydrolysis of Electrolyte Cations
+Enhances the Electrochemical Reduction of CO over Ag and Cu. J. Am. Chem. Soc. 2016,
+2
+138, 13006–13012. https://doi.org/10.1021/jacs.6b07612.
+(10) Singh, M. R.; Goodpaster, J. D.; Weber, A. Z.; Head-Gordon, M.; Bell, A. T. Mechanistic
+Insights into Electrochemical Reduction of CO over Ag Using Density Functional Theory
+2
+and Transport Models. Proc. Natl. Acad. Sci. U. S. A. 2017, 114, E8812–E8821.
+https://doi.org/10.1073/pnas.1713164114.
+(11) Hori, Y.; Kikuchi, K.; Murata, A.; Suzuki, S. Production of Methane and Ethylene in
+Electrochemical Reduction of Carbon Dioxide At Copper Electrode in Aqueous
+Hydrogencarbonate Solution. Chem. Lett. 1986, 15, 897–898.
+https://doi.org/10.1246/cl.1986.897.
+25
+
+
+===== PAGE 26 =====
+
+(12) Kuhl, K. P.; Cave, E. R.; Abram, D. N.; Jaramillo, T. F. New Insights into the
+Electrochemical Reduction of Carbon Dioxide on Metallic Copper Surfaces. Energy
+Environ. Sci. 2012, 5, 7050–7059. https://doi.org/10.1039/c2ee21234j.
+(13) Hatsukade, T.; Kuhl, K. P.; Cave, E. R.; Abram, D. N.; Jaramillo, T. F. Insights into the
+Electrocatalytic Reduction of CO on Metallic Silver Surfaces. Phys. Chem. Chem. Phys.
+2
+2014, 16, 13814–13819. https://doi.org/10.1039/c4cp00692e.
+(14) Nitopi, S.; Bertheussen, E.; Scott, S. B.; Liu, X.; Engstfeld, A. K.; Horch, S.; Seger, B.;
+Stephens, I. E. L.; Chan, K.; Hahn, C.; Nørskov, J. K.; Jaramillo, T. F.; Chorkendorff, I.
+Progress and Perspectives of Electrochemical CO Reduction on Copper in Aqueous
+2
+Electrolyte. Chem. Rev. 2019, 119, 7610–7672.
+https://doi.org/10.1021/acs.chemrev.8b00705.
+(15) Gauthier, J. A.; Stenlid, J. H.; Abild-Pedersen, F.; Head-Gordon, M.; Bell, A. T. The Role
+of Roughening to Enhance Selectivity to C 2+ Products during CO Electroreduction on
+2
+Copper . ACS Energy Lett. 2021, 3252–3260.
+https://doi.org/10.1021/acsenergylett.1c01485.
+(16) Wang, L.; Nitopi, S. A.; Bertheussen, E.; Orazov, M.; Morales-Guio, C. G.; Liu, X.;
+Higgins, D. C.; Chan, K.; Nørskov, J. K.; Hahn, C.; Jaramillo, T. F. Electrochemical Carbon
+Monoxide Reduction on Polycrystalline Copper: Effects of Potential, Pressure, and pH on
+Selectivity toward Multicarbon and Oxygenated Products. ACS Catal. 2018, 8, 7445–7454.
+https://doi.org/10.1021/acscatal.8b01200.
+(17) Liu, X.; Schlexer, P.; Xiao, J.; Ji, Y.; Wang, L.; Sandberg, R. B.; Tang, M.; Brown, K. S.;
+Peng, H.; Ringe, S.; Hahn, C.; Jaramillo, T. F.; Nørskov, J. K.; Chan, K. PH Effects on the
+Electrochemical Reduction of CO towards C Products on Stepped Copper. Nat. Commun.
+(2) 2
+2019, 10, 1–10. https://doi.org/10.1038/s41467-018-07970-9.
+(18) Garg, S.; Li, M.; Weber, A. Z.; Ge, L.; Li, L.; Rudolph, V.; Wang, G.; Rufford, T. E.
+Advances and Challenges in Electrochemical CO Reduction Processes: An Engineering
+2
+and Design Perspective Looking beyond New Catalyst Materials. J. Mater. Chem. A 2020,
+8, 1511–1544. https://doi.org/10.1039/c9ta13298h.
+(19) Casebolt, R.; Levine, K.; Suntivich, J.; Hanrath, T. Pulse Check: Potential Opportunities in
+Pulsed Electrochemical CO Reduction. Joule 2021, 5, 1987–2026.
+2
+https://doi.org/10.1016/j.joule.2021.05.014.
+(20) Kibria, M. G.; Edwards, J. P.; Gabardo, C. M.; Dinh, C. T.; Seifitokaldani, A.; Sinton, D.;
+Sargent, E. H. Electrochemical CO Reduction into Chemical Feedstocks: From
+2
+Mechanistic Electrocatalysis Models to System Design. Adv. Mater. 2019, 31.
+https://doi.org/10.1002/adma.201807166.
+(21) Gao, D.; Arán-Ais, R. M.; Jeon, H. S.; Roldan Cuenya, B. Rational Catalyst and Electrolyte
+Design for CO Electroreduction towards Multicarbon Products. Nat. Catal. 2019, 2, 198–
+2
+210. https://doi.org/10.1038/s41929-019-0235-5.
+(22) Wuttig, A.; Toste, F. D. The Interface Is a Tunable Dimension in Electricity‐driven Organic
+Synthesis. Nat. Sci. 2021, 1, 1–13. https://doi.org/10.1002/ntls.20210036.
+26
+
+
+===== PAGE 27 =====
+
+(23) Zhu, W.; Tackett, B. M.; Chen, J. G.; Jiao, F. Bimetallic Electrocatalysts for CO Reduction.
+2
+Top. Curr. Chem. 2018, 376, 1–21. https://doi.org/10.1007/s41061-018-0220-5.
+(24) Jhong, H. R. M.; Ma, S.; Kenis, P. J. Electrochemical Conversion of CO to Useful
+2
+Chemicals: Current Status, Remaining Challenges, and Future Opportunities. Curr. Opin.
+Chem. Eng. 2013, 2, 191–199. https://doi.org/10.1016/j.coche.2013.03.005.
+(25) Ju, W. E. N.; Bagger, A.; Leonard, N. Nanostructures for CO Reduction : From Theoretical
+2
+Insight to Material Design.
+(26) Zhang, Z.; Melo, L.; Jansonius, R. P.; Habibzadeh, F.; Grant, E. R.; Berlinguette, C. P. pH
+Matters When Reducing CO in an Electrochemical Flow Cell. ACS Energy Lett. 2020, 5,
+2
+3101–3107. https://doi.org/10.1021/acsenergylett.0c01606.
+(27) Clark, E. L.; Bell, A. T. Direct Observation of the Local Reaction Environment during the
+Electrochemical Reduction of CO . J. Am. Chem. Soc. 2018, 140, 7012–7020.
+2
+https://doi.org/10.1021/jacs.8b04058.
+(28) Newman, J.; Thomas-Alyea, K. E. Electrochemical Systems, 3rd ed.; John Wiley and Sons,
+Inc.: Hoboken, NJ, 2004.
+(29) Ringe, S.; Clark, E. L.; Resasco, J.; Walton, A.; Seger, B.; Bell, A. T.; Chan, K.
+Understanding Cation Effects in Electrochemical CO Reduction. Energy Environ. Sci.
+2
+2019, 12, 3001–3014. https://doi.org/10.1039/c9ee01341e.
+(30) Resasco, J.; Lum, Y.; Clark, E.; Zeledon, J. Z.; Bell, A. T. Effects of Anion Identity and
+Concentration on Electrochemical Reduction of CO . ChemElectroChem 2018, 5, 1064–
+2
+1072. https://doi.org/10.1002/celc.201701316.
+(31) Arán-Ais, R. M.; Scholten, F.; Kunze, S.; Rizo, R.; Roldan Cuenya, B. The Role of in Situ
+Generated Morphological Motifs and Cu(i) Species in C2+ Product Selectivity during CO
+2
+Pulsed Electroreduction. Nat. Energy 2020, 5, 317–325. https://doi.org/10.1038/s41560-
+020-0594-9.
+(32) Hori, Y.; Konishi, H.; Futamura, T.; Murata, A.; Koga, O.; Sakurai, H.; Oguma, K.
+“deactivation of Copper Electrode” in Electrochemical Reduction of CO . Electrochim.
+2
+Acta 2005, 50, 5354–5369. https://doi.org/10.1016/j.electacta.2005.03.015.
+(33) Shiratsuchi, R.; Aikoh, Y.; Nogami, G. Pulsed Electroreduction of CO on Copper
+2
+Electrodes. J. Electrochem. Soc. 1993, 140, 3479–3482. https://doi.org/10.1149/1.2221113.
+(34) Yano, J.; Yamasaki, S. Pulse-Mode Electrochemical Reduction of Carbon Dioxide Using
+Copper and Copper Oxide Electrodes for Selective Ethylene Formation. J. Appl.
+Electrochem. 2008, 38, 1721–1726. https://doi.org/10.1007/s10800-008-9622-3.
+(35) Kumar, B.; Brian, J. P.; Atla, V.; Kumari, S.; Bertram, K. A.; White, R. T.; Spurgeon, J. M.
+Controlling the Product Syngas H :CO Ratio through Pulsed-Bias Electrochemical
+2
+Reduction of CO on Copper. ACS Catal. 2016, 6, 4739–4745.
+2
+https://doi.org/10.1021/acscatal.6b00857.
+(36) Engelbrecht, A.; Uhlig, C.; Stark, O.; Hämmerle, M.; Schmid, G.; Magori, E.; Wiesner-
+Fleischer, K.; Fleischer, M.; Moos, R. On the Electrochemical CO Reduction at Copper
+2
+27
+
+
+===== PAGE 28 =====
+
+Sheet Electrodes with Enhanced Long-Term Stability by Pulsed Electrolysis . J.
+Electrochem. Soc. 2018, 165, J3059–J3068. https://doi.org/10.1149/2.0091815jes.
+(37) Kimura, K. W.; Fritz, K. E.; Kim, J.; Suntivich, J.; Abruña, H. D.; Hanrath, T. Controlled
+Selectivity of CO Reduction on Copper by Pulsing the Electrochemical Potential.
+2
+ChemSusChem 2018, 11, 1781–1786. https://doi.org/10.1002/cssc.201800318.
+(38) Kimura, K. W.; Casebolt, R.; Cimada Dasilva, J.; Kauffman, E.; Kim, J.; Dunbar, T. A.;
+Pollock, C. J.; Suntivich, J.; Hanrath, T. Selective Electrochemical CO Reduction during
+2
+Pulsed Potential Stems from Dynamic Interface. ACS Catal. 2020, 10, 8632–8639.
+https://doi.org/10.1021/acscatal.0c02630.
+(39) Gupta, N.; Gattrell, M.; MacDougall, B. Calculation for the Cathode Surface Concentrations
+in the Electrochemical Reduction of CO in KHCO Solutions. J. Appl. Electrochem. 2006,
+2 3
+36, 161–172. https://doi.org/10.1007/s10800-005-9058-y.
+(40) Weng, L. C.; Bell, A. T.; Weber, A. Z. Towards Membrane-Electrode Assembly Systems
+for CO Reduction: A Modeling Study. Energy Environ. Sci. 2019, 12, 1950–1968.
+2
+https://doi.org/10.1039/c9ee00909d.
+(41) Yang, K.; Kas, R.; Smith, W. A. In Situ Infrared Spectroscopy Reveals Persistent Alkalinity
+near Electrode Surfaces during CO Electroreduction. J. Am. Chem. Soc. 2019, 141.
+2
+https://doi.org/10.1021/jacs.9b07000.
+(42) Casebolt, R.; Kimura, K. W.; Levine, K.; Cimada DaSilva, J. A.; Kim, J.; Dunbar, T. A.;
+Suntivich, J.; Hanrath, T. Effect of Electrolyte Composition and Concentration on Pulsed
+Potential Electrochemical CO Reduction. ChemElectroChem 2020, 681–688.
+2
+https://doi.org/10.1002/celc.202001445.
+(43) Oguma, T.; Azumi, K. Improvement of Electrochemical Reduction of CO using the
+2
+Potential-Pulse Polarization Method. Electrochemistry 2020, 88, 451–456.
+https://doi.org/10.5796/electrochemistry.20-00037.
+(44) Crothers, A. R.; Darling, R. M.; Kusoglu, A.; Radke, C. J.; Weber, A. Z. Theory of
+Multicomponent Phenomena in Cation-Exchange Membranes: Part I. Thermodynamic
+Model and Validation. J. Electrochem. Soc. 2020, 167, 013547.
+https://doi.org/10.1149/1945-7111/ab6723.
+(45) Aeshala, L. M.; Uppaluri, R.; Verma, A. Electrochemical Conversion of CO to Fuels:
+2
+Tuning of the Reaction Zone Using Suitable Functional Groups in a Solid Polymer
+Electrolyte. Phys. Chem. Chem. Phys. 2014, 16, 17588–17594.
+https://doi.org/10.1039/c4cp02389g.
+(46) Sadeghpour, M.; Yusoff, R.; Aroua, M. K. Polymeric Ionic Liquids (PILs) for CO Capture.
+2
+Rev. Chem. Eng. 2017, 33, 183–200. https://doi.org/10.1515/revce-2015-0070.
+(47) Ren, X.; Myles, T. D.; Grew, K. N.; Chiu, W. K. S. Carbon Dioxide Transport in Nafion
+1100 EW Membrane and in a Direct Methanol Fuel Cell. J. Electrochem. Soc. 2015, 162,
+F1221–F1230. https://doi.org/10.1149/2.0711510jes.
+(48) Kamcev, J.; Galizia, M.; Benedetti, F. M.; Jang, E. S.; Paul, D. R.; Freeman, B. D.;
+Manning, G. S. Partitioning of Mobile Ions between Ion Exchange Polymers and Aqueous
+28
+
+
+===== PAGE 29 =====
+
+Salt Solutions: Importance of Counter-Ion Condensation. Phys. Chem. Chem. Phys. 2016,
+18, 6021–6031. https://doi.org/10.1039/c5cp06747b.
+(49) Xia, R.; Tian, D.; Kattel, S.; Hasa, B.; Shin, H.; Ma, X.; Chen, J. G.; Jiao, F. Electrochemical
+Reduction of Acetonitrile to Ethylamine. Nat. Commun. 2021, 12, 1–8.
+https://doi.org/10.1038/s41467-021-22291-0.
+(50) Lees, E. W.; Mowbray, B. A. W.; Salvatore, D. A.; Simpson, G. L.; Dvorak, D. J.; Ren, S.;
+Chau, J.; Milton, K. L.; Berlinguette, C. P. Linking Gas Diffusion Electrode Composition
+to CO reduction in a Flow Cell. J. Mater. Chem. A 2020, 8, 19493–19501.
+2
+https://doi.org/10.1039/d0ta03570j.
+(51) Koshy, D. M.; Akhade, S. A.; Shugar, A.; Abiose, K.; Shi, J.; Liang, S.; Oakdale, J. S.;
+Weitzner, S. E.; Varley, J. B.; Duoss, E. B.; Baker, S. E.; Hahn, C.; Bao, Z.; Jaramillo, T.
+F. Chemical Modifications of Ag Catalyst Surfaces with Imidazolium Ionomers Modulate
+H Evolution Rates during Electrochemical CO Reduction. J. Am. Chem. Soc. 2021, 143,
+2 2
+14712–14725. https://doi.org/10.1021/jacs.1c06212.
+(52) Higgins, D.; Hahn, C.; Xiang, C.; Jaramillo, T. F.; Weber, A. Z. Gas-Diffusion Electrodes
+for Carbon Dioxide Reduction: A New Paradigm. ACS Energy Lett. 2019, 4, 317–324.
+https://doi.org/10.1021/acsenergylett.8b02035.
+(53) García de Arquer, F. P.; Dinh, C. T.; Ozden, A.; Wicks, J.; McCallum, C.; Kirmani, A. R.;
+Nam, D. H.; Gabardo, C.; Seifitokaldani, A.; Wang, X.; Li, Y. C.; Li, F.; Edwards, J.;
+Richter, L. J.; Thorpe, S. J.; Sinton, D.; Sargent, E. H. CO Electrolysis to Multicarbon
+2
+Products at Activities Greater than 1 A Cm−2. Science (80-. ). 2020, 367, 661–666.
+https://doi.org/10.1126/science.aay4217.
+(54) Huang, J. E.; Li, F.; Ozden, A.; Rasouli, A. S.; de Arquer, F. P. G.; Liu, S.; Zhang, S.; Luo,
+M.; Wang, X.; Lum, Y.; Xu, Y.; Bertens, K.; Miao, R. K.; Dinh, C. T.; Sinton, D.; Sargent,
+E. H. CO Electrolysis to Multicarbon Products in Strong Acid. Science (80-. ). 2021, 372,
+2
+1074–1078. https://doi.org/10.1126/science.abg6582.
+(55) Gabardo, C. M.; O’Brien, C. P.; Edwards, J. P.; McCallum, C.; Xu, Y.; Dinh, C. T.; Li, J.;
+Sargent, E. H.; Sinton, D. Continuous Carbon Dioxide Electroreduction to Concentrated
+Multi-Carbon Products Using a Membrane Electrode Assembly. Joule 2019, 3, 2777–2791.
+https://doi.org/10.1016/j.joule.2019.07.021.
+(56) Weng, L. C.; Bell, A. T.; Weber, A. Z. Modeling Gas-Diffusion Electrodes for CO
+2
+Reduction. Phys. Chem. Chem. Phys. 2018, 20, 16973–16984.
+https://doi.org/10.1039/c8cp01319e.
+(57) Fink, A. G.; Lees, E. W.; Zhang, Z.; Ren, S.; Delima, R. S.; Berlinguette, C. P. Impact of
+Alkali Cation Identity on the Conversion of HCO − to CO in Bicarbonate Electrolyzers.
+3
+ChemElectroChem 2021, 8, 2094–2100. https://doi.org/10.1002/celc.202100408.
+(58) Nesbitt, N. T.; Burdyny, T.; Simonson, H.; Salvatore, D.; Bohra, D.; Kas, R.; Smith, W. A.
+Liquid-Solid Boundaries Dominate Activity of CO Reduction on Gas-Diffusion
+2
+Electrodes. ACS Catal. 2020, 10, 14093–14106. https://doi.org/10.1021/acscatal.0c03319.
+(59) Moore, T.; Xia, X.; Baker, S. E.; Duoss, E. B.; Beck, V. A. Elucidating Mass Transport
+29
+
+
+===== PAGE 30 =====
+
+Regimes in Gas Diffusion Electrodes for CO Electroreduction. ACS Energy Lett. 2021, 6,
+2
+3600–3606. https://doi.org/10.1021/acsenergylett.1c01513.
+(60) Weng, L. C.; Bell, A. T.; Weber, A. Z. Modeling Gas-Diffusion Electrodes for CO
+2
+reduction. Phys. Chem. Chem. Phys. 2018, 20, 16973–16984.
+https://doi.org/10.1039/c8cp01319e.
+(61) Guzmán, H.; Zammillo, F.; Roldán, D.; Galletti, C.; Russo, N.; Hernández, S. Investigation
+of Gas Diffusion Electrode Systems for the Electrochemical CO Conversion. Catalysts.
+2
+2021. https://doi.org/10.3390/catal11040482.
+30

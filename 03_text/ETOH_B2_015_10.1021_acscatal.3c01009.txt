@@ -1,0 +1,1633 @@
+
+
+===== PAGE 1 =====
+
+Mechanistic Insights into Aldehyde Production from
+Electrochemical CO Reduction on CuAg Alloy via
+2
+Operando X-Ray Measurements
+Yu Qiao, Georg Kastlunger*, Ryan C. Davis, Carlos Andrés Girón Rodriguez, Andreas Vishart,
+Wanyu Deng, Qiucheng Xu, Shaofeng Li, Peter Benedek, Junjie Chen, Johanna Schröder, Joseph
+Perryman, Dong Un Lee, Thomas F. Jaramillo, Ib Chorkendorff, Brian Seger*
+KEYWORDS. electrochemical CO reduction, operando X-ray measurements, alloy, aldehyde,
+2
+strain effect, d-band center, oxophilicity.
+ABSTRACT. CO electrolysis converts the greenhouse gas CO into valuable fuels and
+2 2
+chemicals, such as carbon monoxide, ethylene, ethanol, etc. Currently, Cu is the only known
+monometallic catalyst capable of producing multicarbon products from electrochemical CO
+2
+reduction reaction (eCO2RR), while the poor selectivity limits its further use. It has been found
+that introducing Ag atoms into the Cu lattice can modulate product preference. However, the
+synergistic effects between Cu and Ag, and thus the catalytic performance, are strongly
+influenced by catalyst morphology, electrolyzer configuration, reaction conditions, etc.
+Operando measurements can provide explicit information on the catalyst dynamic variation
+1
+
+
+===== PAGE 2 =====
+
+during the reaction, but their operation and analysis are challenging. Herein, we prepared CuAg
+multiphase alloy catalysts by magnetron sputtering, which allowed for investigating the intrinsic
+interaction between Cu and Ag. eCO2RR performance exhibited an improved selectivity towards
+carbonyls at the expense of hydrogen and hydrocarbons. The partially alloyed Cu and Ag phases
+were confirmed by operando X-ray diffraction. By means of combining operando X-ray
+measurements and density functional theory (DFT) calculations, the preferred carbonyl
+production is attributed to the reduced electron density and compressive strain of Cu due to Ag
+incorporation, which leads to a deeper d-band center and therefore weakened intermediate
+adsorption and oxophilicity. This work provides evidence of the intrinsic structural and
+electronic interaction between Cu and Ag during eCO2RR. The obtained information will
+facilitate the design of bi-/multi-phase metallic or alloy electrocatalysts.
+INTRODUCTION
+Climate change driven by the continuously increasing CO concentration in the atmosphere is
+2
+one of the greatest threats facing humans. The Intergovernmental Panel on Climate Change
+(IPCC) released a special report (SR15) in 2018, proposing that in order to limit global warming
+to the safe limit, which is 1.5 ⁰C above preindustrial levels, the global net CO emission needs to
+2
+reach ”net zero” by 20501. Electrochemical CO reduction (eCO2RR) converts CO into valuable
+2 2
+fuels and chemicals, and thus helps with closing the anthropogenic carbon cycle. Among all the
+reported eCO2RR catalysts, Cu is the only monometallic catalyst that produces both
+hydrocarbons and oxygenates, while the poor selectivity limits its further use2,3. C products
+2+
+(e.g., C H , C H , ethanol, and propanol) generally have higher energy densities and larger
+2 4 2 6
+2
+
+
+===== PAGE 3 =====
+
+economic values compared to C1 products (CO, CH , and formate), and therefore provide a more
+4
+attractive direction to aim for4.
+Ethylene and ethanol are of great interest because they are economically and energetically
+valuable and are produced in substantial quantities globally (> 30 MtC/yr)2. Literature has found
+that these two products share the same generation pathway after C-C coupling5,6, which is
+believed to be the rate-determining step (RDS) of C product formation7–9. Considering that C-C
+2+
+coupling usually requires a high surface CO coverage (i.e. high θ ), and that Cu is sluggish in
+*CO
+converting CO to *CO, tandem catalysts combining Cu and a CO-selective metal (Ag, Au, and
+2
+Zn) have shown to be advantageous in C product generation5,10–22.
+2+
+Taking advantage of the high electrical conductivity, eCO2RR activity, and cost-effectiveness,
+Cu-Ag bimetallic/alloy catalysts have been widely investigated18–20,23–29. The reported Cu-Ag
+interaction is strongly dependent on the interplay between Ag deposition content, preparation
+procedures, and the resulting catalyst structure/morphology, as well as phase miscibility, which
+has led to different product distributions. For example, Higgins et al. synthesized a CuAg alloy
+with physical vapor deposition (PVD).23 Compared to pure Cu, the CuAg selectivity of
+acetaldehyde increased at the expense of ethanol. This was attributed to the reduced oxophilicity
+when introducing Ag in the Cu lattice, which weakened the adsorption of acetaldehyde and thus
+its further reduction to ethanol. A similar phenomenon was also observed on CuAg bimetallic
+catalysts with separated Cu and Ag phases20,30. Although with distinctive catalyst structures (Ag
+nanoparticle-decorated Cu nanocubes30 and galvanically exchanged Cu foil with Ag20), Clark et
+al. and Herzog et al. both attributed the weakened carbonyl-containing intermediate adsorption to
+the locally compressive strain by introducing Ag in the Cu surface. In contrast, Su et al.
+suggested an improved oxygen affinity for oxygen-adsorbed intermediates instead, resulting in
+3
+
+
+===== PAGE 4 =====
+
+improved ethanol production when the Cu/Cu O composite was dispersed with trace amounts of
+2
+Ag31.
+The above divergencies demonstrate a yet-to-be-fully-understood mechanism of the interaction
+between Cu and Ag in eCO2RR, which generally falls into three aspects: i) if Cu and Ag have
+miscible phases, ii) if there is electronic and/or structural interaction between Cu and Ag, and if
+so, iii) how is the intermediate adsorption influenced and the resultant variation in selectivity.
+Being able to track the catalysts’ variations in crystallite and coordination environment in the
+eCO2RR environment can provide more insightful information regarding the above points.
+Therefore, operando measurements are indispensable in helping support traditional H-cell
+fundamental work.
+Herein, CuAg multiphase alloys with various Ag concentration were prepared by magnetron co-
+sputtering, which not only ensures Cu/Ag interfaces, but also produces a consistent deposition
+that rules out potential inconsistencies in facet distributions or morphology. Additionally,
+compared to conventional PVD (used in Ref 23, magnetron sputtering also improves the
+deposition efficiency and homogeneity. This approach allows for the focus to be on the intrinsic
+performance of the Cu-Ag interaction. The result presented herein showed eCO2RR performance
+with an improved selectivity towards carbonyls at the expense of H and hydrocarbons upon Ag
+2
+introduction. To provide further insight, the structural and electronic effects between Cu and Ag
+were investigated by operando grazing incident X-ray diffraction (GIXRD) and grazing-incident
+X-ray absorption spectroscopy (GIXAS). Combined with density functional theory (DFT)
+calculations, these analyses lead us to conclude the altered product propensity was attributed to
+the shared electron cloud density redistribution and strain effect due to Ag incorporation, which
+lowers the d-band center of Cu and therefore weakens the adsorption of CO and other oxygen-
+4
+
+
+===== PAGE 5 =====
+
+containing intermediates. Although several previous studies on similar systems have proposed a
+variety of possible Cu-Ag interaction mechanisms, this work evidenced these hypotheses by
+operando X-ray measurements combined with computational simulations to make the argument
+more solid.
+RESULTS AND DISCUSSION
+Catalyst preparation and ex situ characterizations
+All catalysts were co-deposited on a Si wafer by magnetron sputtering, which not only enables a
+controllable composition, but has also been shown to yield metastable miscibility between this
+two thermodynamically immiscible metals24. In such a way, the Cu/Ag interfaces are also
+ensured, which minimized the influence of geometric and structural engineering and therefore
+enables focusing on the intrinsic performance of the CuAg system.
+The near-surface Cu/Ag composition of each sputtered sample was examined by X-ray
+photoelectron spectroscopy (XPS). Figure 1 shows the ex situ XPS spectra of all as-prepared
+catalysts with various Ag concentrations. No impurity element was found in the survey scans
+(Figure S1) of as-prepared and post-mortem catalysts. Low Energy Ion Scattering (LEIS) spectra
+of as-prepared (Figure S2a) and post-mortem (Figure S2b) samples both exhibit an absence of
+impurity elements. Two satellite peaks in Cu 2p orbital (Figure 1a) indicate the existence of
+Cu2+, which is inevitable for ex situ XPS measurements considering that Cu is easily oxidized
+once exposed to air. The weaker peak intensity of Ag 3d scans (Figure 1b) after eCO2RR
+compared to their as-prepared counterparts appeared in all compositions suggests a less
+concentrated Ag surface composition after eCO2RR. Near-surface composition (5-10 nm) of all
+samples before and after eCO2RR are listed in Table S1. It is worth pointing out that since Cu
+5
+
+
+===== PAGE 6 =====
+
+and Ag are both susceptible to oxygen in the air, information on the oxidation state and near-
+surface element composition obtained from ex situ XPS can only provide a preliminary
+evaluation, while operando X-ray measurements (vide infra) will be able to give better insight
+into the catalyst in its active state. Note that although the real Cu-Ag composition is slightly
+different than expected, the nominal composition was used in this paper for convenience and
+simplification.
+Figure 1. Ex situ high-resolution XPS element scan spectra of samples with various Ag
+compositions: a) Cu 2p orbital and b) Ag 3d orbital.
+To understand the influence of Ag incorporation on the crystal structure of Cu, ex situ grazing
+incident (GI)XRD patterns (Figure 2) of as-prepared samples were collected. Both pure Cu and
+Ag samples agree well with the characteristic Cu and Ag peaks without noticeable position
+6
+
+
+===== PAGE 7 =====
+
+shifting. After Ag was introduced into the Cu, two broad peaks appeared at a 2θ of 35-45⁰, where
+peak A (blue area) and peak B (green area) most likely stem from the shifted and broadened Ag
+(111) and Cu (111) peaks, respectively. Peak shifting indicates lattice strain of the Cu and Ag
+phases induced by each other32,33. Additionally, the reduced signal-to-charge ratio and broadened
+peaks may be attributed to the worse atomic arrangement and smaller crystallite size,
+respectively, as a result of inter-diffused Cu and Ag domains.
+Figure 2. Ex situ XRD pattern of a) Ag, b) Cu Ag , and c) Cu. Dash lines indicate the peak
+x 100-x
+position of each facet in the pure metal samples. Highlighted A and B areas indicate the Ag- and
+Cu-rich phase, respectively.
+Thus, these XRD results suggest the formation of multiphase alloys in the CuAg samples, where
+one is Cu-rich (with Ag being the minority), and the other is Ag-rich (with Cu being the
+minority). This conclusion is supported by the DFT-based convex hull, shown in Figure S15. No
+uniform phases of CuAg with fixed composition could be identified by theoretically sampling
+7
+
+
+===== PAGE 8 =====
+
+varying CuAg compositions and arrangements, suggesting a phase separation proficiency of the
+two elements. Nevertheless, since it is the Cu sites that produces multicarbon products, the Cu-
+rich phase is expected to be dominating. Therefore, our following analyses will be mainly
+focusing on the Cu-rich phase (however both phases will still be considered for H and CO
+2
+production as explained below).
+The absence of peaks related to oxidized Cu in the pure Cu sample indicates that the incident
+beam penetrated much deeper than the topmost sample layers. Although ex situ XRD
+measurements were conducted in a grazing incident geometry, the incident angle could only be
+as shallow as 0.7⁰ beyond which the signal-to-noise ratio was insufficiently high for an accurate
+analysis.
+Scanning electron microscopic (SEM) images (Figure S3) also depict smaller particle size of the
+Cu Ag sample (Figure S3b) compared to that of pure Cu (Figure S3a) and pure Ag (Figure
+80 20
+S3b), which agrees with the broadened peaks in ex situ XRD results. Energy-dispersive X-ray
+spectroscopic (EDS) mapping (Figure S4) exhibits a uniform elemental distribution on the
+Cu Ag sample.
+80 20
+Electrochemical CO reduction performance
+2
+Figure 3a gives an overview of the distribution of all detected products for Cu, Ag and various
+Cu-Ag alloys as reflected by their Faradaic Efficiency (FE). (Selectivity regarding the produced
+number of moles of each detected product was plotted in Figure S6.) In contrast to Cu being able
+to produce a variety of products, Ag mainly produces CO, as well as a small amount of H and
+2
+formate under eCO2RR conditions. The slightly above 100% total FE may be due either to an
+experimental error in measuring or not using outlet flow rates from the reactor due to
+8
+
+
+===== PAGE 9 =====
+
+experimental difficulties. Either way, this slight offset is not expected to affect the trends and
+conclusions of this work.
+Figure 3b shows a promoted CO while suppressed H production, as the Ag concentration
+2
+increased. This is as expected given that Cu is known to have a higher H selectivity, whereas Ag
+2
+has a strong selectivity towards CO. In CuAg alloys, CO produced on Ag can also create a high
+local CO partial pressure at the adjacent Cu sites14,18,20, leading to a CO-enriched local
+environment, which facilitates the following C-C coupling and thus suppresses direct *CO
+hydrogenation to produce CH , as shown in Figure 4b and c. Previous DFT calculations also
+4
+revealed weakened *H binding on the Cu surface as *CO coverage increases32 with experimental
+results validating this33. Considering that Cu is located at the weak binding side of the volcano
+plot of H evolution, a weaker *H binding energy will further suppress H production34. This
+2 2
+may be one reason for the hampered production of H (Figure 3b)20,35.
+2
+9
+
+
+===== PAGE 10 =====
+
+Figure 3. Electrochemical CO reduction performance test conducted in an H-cell with CO -
+2 2
+saturated 0.1 M KHCO aqueous solution at -1 V vs. RHE for 2 hours. The electrolyte was
+3
+continuously purged with CO at 10 sccm during eCO2RR. a) Faradaic Efficiency of all detected
+2
+10
+
+
+===== PAGE 11 =====
+
+products. b) Faradaic Efficiency of H and CO as a function of Ag content, and c) Faradaic
+2
+Efficiency ratio between C products and CH (all are *CO-originated) as a function of Ag
+2+ 4
+content. d) Faradaic Efficiency of CH and other hydrocarbons (CH , C H , C H , C H , and
+4 4 2 4 2 6 3 6
+C H ) as a function of Ag content. e)-g) Faradaic efficiencies of *CO-originated products
+3 8
+containing C-O bond as a function of Ag content: e) other carbonyls (glyoxal, acetate, and
+hydroxy acetone; formate is not included), f) aldehydes (glycolaldehyde, acetaldehyde, and
+propionaldehyde), g) alcohols (ally alcohol, ethanol, and propanol).
+Aldehydes and other carbonyls (excluding formate since it branches from CO and other *CO-
+originated products in an early stage2) both exhibit a selectivity peak with Cu Ag (Figure 3e
+80 20
+and f), accompanied by restrained alcohol (Figure 3g) and hydrocarbon (Figure 3d) production.
+Introducing Ag would be expected to lead to a local compressive strain of the Cu lattice, due to
+the larger atomic size of Ag (r ~ 172 pm) compared to Cu (r ~ 128 pm). This strain effect should
+shift the Cu valence band structure to deeper levels, which reduces the binding energy of
+intermediates36,37 as well as the oxophilicity (the tendency to form a chemical bond with oxygen
+atoms of intermediate molecules) of Cu, leading to weakened adsorption of carbonyl
+intermediates on the Cu surface20,38,39. Another theory that has been proposed to explain the
+reduced oxophilicity of Cu is that electron density shifts from Cu to Ag at the interface, driven
+by the difference in their electrochemical potential15,40. The above electronic interaction would
+decrease the electron density of Cu15,39,41,42 at a negative potential30,43,44. As a result, aldehyde
+would desorb from the catalyst surface before being further reduced to alcohols20,30,44.
+To gain more insights into the effects of Ag on C-C coupling, Figure 3c looks at the branching
+point between C-C coupling to C products versus protonation to the C1 product CH . The
+2+ 4
+promoted C /CH ratio primarily occurs by the suppressed CH formation upon alloying with
+2+ 4 4
+11
+
+
+===== PAGE 12 =====
+
+Ag, as shown in Figure 4b. This can be a convolution of multiple reasons: i) modified adsorption
+strength of *CO versus *H as mentioned above (because previous studies have found that the
+rate-limiting step for methane production is involved with *H 45), ii) preferential Ag deposition
+on undercoordinated sites versus terraces, and iii) Ag tends to agglomerate into small islands due
+to its lower surface energy46. A prominent decline of the C /CH ratio occurs with alloys with
+2+ 4
+Ag content greater than 20 atm.%. This could be attributed to that as Ag composition
+continuously increases, the excessive Ag atoms will cover too many Cu sites, leaving less Cu-Cu
+neighbors where CO* adsorption and C-C coupling happen. Considering that C-C coupling
+requires two adsorbed CO* in adjacent while CH formation only requires one, a lower C /CH
+4 2+ 4
+ratio is expected. This phenomenon has been observed by scanning electron microscope (SEM)
+on CuAg thin films under eCO2RR conditions, where the importance of an optimal CO*
+availability was emphasized for an efficient C-C coupling40.
+Current density (at a constant potential) as a function of the near-surface Ag composition (as
+measured via XPS) enables investigating the reaction kinetics influenced by Ag incorporation.
+This is plotted in Figure 4. The dashed lines are linear predictions by assuming that the Cu and
+Ag sites function separately without interaction between them. The lower total current density
+relative to the linear expectation shown in Figure 4a indicates a reduced overall activity upon Ag
+introduction. DFT calculations on the segregation energy of Ag on various Cu facets indicate the
+propensity of introduced Ag to distribute on the Cu under-coordinated sites compared to terraces
+(Figure S14). Considering that literature has widely shown that under-coordinated sites are
+generally more active than terraces in polycrystalline Cu2,47–49, the overall activity is expected to
+be reduced. Moreover, previous studies have found that by occupying Cu undercoordinated sites
+with Ag, not only was *H binding energy weakened and thus suppressed HER (as explained in
+12
+
+
+===== PAGE 13 =====
+
+Figure 3b)23, but further reduction of acetaldehyde to ethanol would also be mitigated26. With Ag
+preferentially depositing on the undercoordinated sites, this effect can also influence the C
+2+
+versus methane product ratio.
+Figure 4. Current density as a function of Ag content. a) Total current density. Partial current
+density of b) CH , c) C products, d) H , e) CO, f) other C H excluding CH , g) other carbonyls
+4 2+ 2 x y 4
+excluding aldehydes, h) aldehydes, and i) alcohols.
+13
+
+
+===== PAGE 14 =====
+
+The good agreement of Figure 4 (partial current density) and Figure 3 (Faradaic Efficiency) of
+each product classification reveals a synergistic effect between Cu and the incorporated Ag on
+the facilitated aldehydes/other carbonyls production at an expense of H /C H formation.
+2 x y
+From the above discussion, the altered product preference could be a convolution of several
+effects created by introducing Ag in Cu, including spatial effects, compressive strain,
+oxophilicity variations, electronic interaction between Cu and Ag, CO* and *H adsorption, Ag
+incorporation site, etc. To deconvolute these possibilities, operando X-ray measurements were
+employed to provide structural and electronic information on the Cu-Ag interaction in the course
+of eCO2RR. Considering that the most promising performance (i.e. the most promoted
+aldehydes/other carbonyls generation and facilitated C-C coupling) occurs on sample Cu Ag ,
+80 20
+this alloy was used in the following synchrotron measurements.
+Operando grazing incident X-ray diffraction (GIXRD)
+To monitor the crystal structure of the catalyst during eCO2RR, operando GIXRD was
+conducted. Given that catalysis occurs at the surface, the surface sensitivity of the measurement
+geometry was analyzed with pure Cu initially. Since Cu is known to be easily oxidized when
+exposed to air, the top surface is expected to resemble an oxidized Cu (CuO ). Figure 5a exhibits
+x
+a prominent peak related to CuO at open circuit voltage (OCV), which is in stark contrast to its
+absence at -1 V vs. RHE. Oxidized Cu being reduced to metallic Cu under eCO2RR conditions
+have been widely observed by SERS. 49–51 The poor signal-to-charge ratio is a consequence of
+the fast scan rate due to beamtime limitations. Nevertheless, the disappearance of the prominent
+CuO(211) peak at negative potential further validated the surface sensitivity of the incident angle
+of 0.15⁰ (this is much shallower than what was used in ex situ XRD since the operando X-ray
+beam source energy is higher), corresponding to ~2.8 nm of penetration depth (~13.3
+14
+
+
+===== PAGE 15 =====
+
+monolayers). The corresponding X-ray attenuation depth and penetrated monolayer numbers of
+each sample were listed in Table S2 (in the case of the Cu Ag alloy, the density of each phase
+80 20
+was estimated to be a linear molar combination of each element). In parallel, the crystal size of
+all samples was estimated via the Scherrer equation listed in Table S3. X-ray penetration depth
+was estimated by assuming linear combination of Cu and Ag atoms according to their molar
+fraction (Table S4). Results show that the X-ray beam penetration depth was below the value of
+the corresponding crystal size, demonstrating that it penetrates a homogeneous crystal structure,
+and therefore further validates the surface sensitivity of GI X-ray measurements. It is worth
+noting that since our samples are not atomically flat, the estimated X-ray penetration depth could
+be deeper than calculated. However, the disappearance of the oxidized Cu shown in Figure 5a
+well confirms the surface sensitivity qualitatively.
+Figure 5. a) Operando GIXRD surface sensitivity verification on Cu at the incident angle of
+0.15⁰. The broad peak between 2θ 16-18⁰ in the OCV scan (black) is assigned to the phase
+resulting from the mixture of CuO (0 0 2) and (1 1 -1), and its disappearance at -1.0 V vs. RHE
+(red) indicates the absence of oxidized Cu, which validates the surface sensitivity. b) Operando
+15
+
+
+===== PAGE 16 =====
+
+GIXRD pattern of Ag (top), Cu Ag (middle), and Cu (bottom), respectively. Dashed lines
+80 20
+indicate the peak position of corresponding facets in pure metal samples. Dashed lines indicate
+the corresponding peak position in the pure Cu and Ag samples. Highlighted area A and B
+indicate the deconvoluted Ag- and Cu-rich phase in the Cu Ag sample, respectively.
+80 20
+Backgrounds are removed.
+The different peak position from that in ex situ XRD is induced by the applied X-ray source
+energy. Table S5 demonstrates peak matching between ex situ (8.04 keV) and operando (17
+keV) GIXRD measurements.
+During operando measurements, a working electrode potential of -1 V vs. RHE was applied to
+the catalyst and kept for 1 hour, during which 6 consecutive scans (~10 min for each scan) were
+collected and averaged to reduce the signal/noise ratio. Figure 5b shows the same phenomenon
+regarding peak shift as seen via ex situ measurements (Figure 2).
+Operando grazing incident X-rat absorption spectroscopy (GIXAS)
+An XAS spectrum is comprised of two regions: the X-ray absorption near edge structure
+(XANES) region, which is located within ~100 eV around the absorption edge; and the extended
+X-ray absorption fine structure (EXAFS) region, which extends up to ~1000 eV after the
+absorption edge. The XANES spectra identify the oxidation state and local geometric structure of
+the absorber atom; while the EXAFS region contains information on the local chemical
+environment surrounding the central absorber atom, such as coordination number, atomic shell
+distance, etc.52
+16
+
+
+===== PAGE 17 =====
+
+Figure 6. Operando XAS scans at the Cu K-edge. a) XANES region of Cu and Cu O
+2
+references (bottom), and the pure Cu sample at open circuit voltage (OCV) and -1 V vs. RHE
+(eCO2RR), respectively. The labels 50 min and 60 min mean the amount of time the samples had
+been exposed to the corresponding conditions. b) Heat map of the highlighted energy ranges A1
+and A2 in a) within 8985-9010 eV. c) Comparison of Cu and Cu Ag samples at OCV and
+80 20
+COR conditions, respectively. Each spectrum was the average of two scans at 50 and 60 min
+being exposed to the corresponding condition, respectively. Spectra of the Cu and Cu O
+2
+references are plotted at the bottom. Each spectrum was subtracted by its pre-edge background
+and normalized by the edge height.
+The surface sensitivity of GIXAS was verified by comparing XANES spectra taken at different
+incident angles. In order to produce a reasonable signal-to-charge ratio, an incident angle of 0.25⁰
+corresponding to a penetration depth of ~2.9 nm (13.9 monolayers) was used for the following
+GIXAS measurements. The sensitivity test is similar to that in the case of GIXRD. Further
+details can be found in Figure S7 and Table S6. At the bottom of Figure 6a, both pure Cu and
+Cu O reference XANES spectra are shown. While the absorption edge (8980-8982 eV) has a
+2
+subtle difference, there is a notable difference in the energy range of 8990-9020 eV under open
+17
+
+
+===== PAGE 18 =====
+
+circuit voltage (OCV) and eCO2RR (-1 V vs. RHE) conditions: metallic Cu has one peak in the
+energy range of 8991-8997 eV (noted as A1) and one peak at ~9002 eV (noted as A2), with the
+same intensity; while Cu O only exhibits one peak in A1. Since XANES gives integral
+2
+information of all detected Cu atoms regardless of oxidation state, a combination of metallic and
+oxidized Cu would have a higher intensity of A1 relative to A2, since both oxidation states
+contribute to the former while only metallic Cu contributes to the latter. Therefore, the more
+distorted intensity of A1 to A2 is, the more Cu O there is. This enables a qualitative indication of
+2
+the transformation from Cu O to Cu at the surface.
+2
+The top four scans in Figure 6a show the pure Cu sample at OCV and subsequently being
+exposed to eCO2RR conditions (@ -1.0 V vs. RHE). The spectra at OCV appear to be primarily
+metallic Cu, which is expected given that the penetration depth of 2.9 nm is a bit thicker than the
+native oxide layer, entailing a strong background Cu signal. However, a detailed look at the data
+showed there is a noticeable difference. To make the spectra difference more explicit, Figure 6b
+enlarges the energy range of 8985-9010 eV and transforms it into a heat map plot. It can be
+clearly seen that A1 has a higher intensity than A2 at OCV while both areas reached the same
+intensity under eCO2RR conditions.
+Figure 6c compared pure Cu to the Cu Ag sample, where an evident difference can be seen.
+80 20
+The worse signal-to-noise ratio of the Cu Ag spectra can be attributed to the lower Cu
+80 20
+composition as well as smaller crystallite sizes and/or worse crystallinity, as also indicated by the
+XRD results (Figure 5). Nevertheless, the raw XANES profile without background subtraction or
+signal intensity normalization (Figure S9) exhibited the same trend as in Figure 6. In contrast to
+pure Cu, where two separated peaks in A1 and A2 are present, only one wide wave in the energy
+range of 8985-9010 eV exists in the Cu Ag spectra. Thus, these spectra appear to be more
+80 20
+18
+
+
+===== PAGE 19 =====
+
+similar to the Cu O reference. This suggests a reduced electron density in the Cu phase upon
+2
+introducing Ag, compared to the case of pure Cu. Furthermore, this reduced electron density
+would also suggest that less electron density variation would be seen when switching from open
+circuit voltage to eCO2RR conditions. As expected, a zoom-in of the Cu Ag during the
+80 20
+transition from OCV to eCO2RR similar to Figure 6b shows a much less noticeable variation in
+A1 relative to A2 in the corresponding energy range (Figure S8). XANES spectra at the Ag L3-
+edge were also analyzed but did not show significant changes as Ag composition varied (Figure
+S13). Note that any factor that changes the electron density of the absorbing atom could
+influence the XANES profile shape, including but not limited to oxidation state,
+electronegativity, as well as the number and identity of ligand(s) and binding atom(s). In order
+to build a concrete conclusion from the above observed trends, DFT calculations were also
+employed later in this work.
+Computational simulations
+In order to verify the strength of the found charge transfer and strain effects and their influence
+on the binding of eCO2RR reaction intermediates, we performed DFT calculations on the CuAg
+system. Although our XRD results indicate the existence of two phases, one Cu-rich and the
+other Ag-rich (Figures 2 and 5), considering that both the nominal and near-surface composition
+(Table S1, Figure S1, and S2) indicates the dominating composition of Cu in general, and that it
+is the Cu sites that are active for C product formation, our simulation focused on the Cu-rich
+2+
+phase. Both the bulk and surface structures of Cu with varying Ag content (x ) were screened,
+Ag
+where for each x all symmetrically unique atomic arrangements were sampled and the most
+Ag
+stable motifs were identified (see Methods section for further details). Note that only metallic Cu
+19
+
+
+===== PAGE 20 =====
+
+was considered in the simulations based on the experimentally observed disappearance of CuO
+x
+under eCO2RR conditions.
+Figure 7. DFT calculated charge transfer and Cu-Cu distances on Cu Ag surfaces. a-c)
+x 100-x
+Average partial charges per Ag atom in Cu Ag when Ag atoms are introduced on Cu (100)
+x 100-x
+(a), (111) (b), and (211) (c) facets, respectively. d-f) Cu-Cu radial distance distribution in
+Cu Ag when Ag atoms are introduced to Cu (100) (d), Cu (111) (e), and Cu (211) (f),
+x 100-x
+respectively. Averaged Cu-Cu bond length of each Ag content on each facet is indicated by a bar
+with the same color. Dashed lines represent the Cu-Cu bond length without Ag introduction.
+The performed DFT calculations support the spectroscopic suggestions of an electron density
+shifting in the Cu phase upon Ag introduction compared to pure Cu. In the case of dilute Ag
+concentrations in the bulk crystal (< 30 atm.%) where Ag atoms are generally surrounded by Cu,
+each Ag atom gains ca. 0.14 electrons on average, leading to a charge redistribution in the
+20
+
+
+===== PAGE 21 =====
+
+surrounding Cu atoms in order to keep a neutral charge in the crystal (Figure S17). The same
+qualitative behavior was found for Ag covering the Cu crystal surface, as shown in Figure 7a-c
+for the (111), (100) and (211) facets of Cu with varying Ag surface coverage. However, the
+magnitude of the charge on Ag is reduced with respect to the bulk crystal as the number of
+neighboring Cu-atoms is decreased on the surface. The determined charge per Ag atom linearly
+decreases beyond an Ag coverage of 30%, as Ag atoms start to adjoin each other.
+Our calculations indicate that introducing Ag into a Cu bulk crystal leads to an overall increase
+in the Cu-Cu distances (Figure S18) as a consequence of the crystal lattice expanding linearly
+with the Ag content (Figure S16), reflecting the GIXRD measurements (Figure 5b). In contrast,
+introducing Ag atoms on the Cu surface leads to a net compressive strain among surface Cu
+atoms, as shown in Figure 7d-f. The compressive strain is significant on the terrace facet (100)
+and (111), where a reduction in the mean Cu-Cu distances up to 0.1Å with increasing Ag surface
+coverage is found. In contrast, surface steps, exemplarily simulated as the (211) facet, experience
+no significant strain. The varying strain on different facets suggests that surface terraces might
+react more strongly to an introduction of Ag on Cu. On the other hand, we emphasize that Ag
+tends to preferably segregate on Cu-steps rather than terraces, leading to a more pronounced
+deactivation of under-coordinated sites for the reaction towards products beyond CO (Figure
+S14).
+In order to identify the magnitude of the respective effects arising from introducing Ag on the
+surface of Cu-rich domains, we further studied the effect of Ag on eCO2RR adsorbate binding.
+We note that although Ag generally tends to segregate to the surface (Figure S14), the binding of
+*CO on surface-Ag is strongly disfavored compared to Cu-sites. Thus, the latter is likely
+responsible for the activity and we focus on the ligand and strain effects surface Cu-atoms
+21
+
+
+===== PAGE 22 =====
+
+experience from neighboring Ag-atoms. The two effects are intertwined and a rigorous splitting
+of them is, in principle, impossible. In order to distinguish between them, in this work, we define
+ligand effects as the effect on adsorbate binding upon exchanging Cu atoms neighboring the
+active site with Ag at fixed atomic geometry, while strain effects are referred to the change in
+binding strength resulting from geometric rearrangement on the catalyst surface. The main focus
+is to evaluate which effect plays the dominant role in the altered production distributions.
+Figure 8. DFT-calculated Gibbs free energy of *CO binding on a) *CO on Cu (100), b) *OH Cu(100), c) *CO on Cu(211),
+and d) *OH on Cu (211) facets with varying number of nearest neighboring Ag atoms (#NN Ag).
+The *CO binding energy reduces upon increasing the number of neighboring Ag atoms
+(#NNAg) due to a pure ligand effect, as shown in blue in Figures 8a and c. Interestingly, the
+22
+
+
+===== PAGE 23 =====
+
+reduction in binding strength only occurs when in-plane neighbors of the *CO-adsorbing Cu
+atom are substituted with Ag, whereas introducing Ag to the subsurface layer did not have a
+significant effect. We attribute this reduced effect in the subsurface to a higher saturation of Ag
+in the subsurface, reducing the charge transfer from specific neighbors.Atomic relaxation leads
+to a distancing of the Cu-atoms from Ag, while at the same time reducing the distance to the
+neighboring Cu-atoms. This created compressive strain adds to the ligand effect in the reduction
+of *CO binding strength, as indicated by the black arrow in Figure 8a and c. In the case where
+Cu is completely surrounded by Ag on the surface, the effect of strain maximizes. Upon further
+increasing the number of Ag neighbors, the Cu atom is lifted slightly above the original surface
+plane, increasing its distance to all neighbors and the second layer (distance to second layer
+increased up to ~0.3 Å). This weakened coordination strength of Cu to the neighboring atoms
+enhances *CO binding again.
+Figure 8 depicts the binding energy of *CO (a,c) and *OH (b,d), on Cu (100) and (211) facets,
+respectively. *CO is a descriptor for eCO2RR activity, while *OH binding can be used as a
+descriptor for the binding of oxygen-bound species (*OR), as verified by the scaling of
+*OCH CH with *OH in Figure S20. The Cu(100) surface terrace and (211) step were chosen, as
+2 3
+the former is often identified as the most active facet for CO-dimerization53,54, while surface
+steps are generally considered as most relevant for the adsorption of weak binding reaction
+intermediates55, such as acetaldehyde. The nearest neighbors (NN) to the Cu-atoms binding the
+corresponding intermediates were chosen as the Ag deposition sites. All possible Ag
+arrangements were sampled but only the most stable CuAg surface structures were considered in
+Figure 8. In all four considered scenarios, Ag energetically favored substituting all neighboring
+surface Cu-atoms before substituting the subsurface.
+23
+
+
+===== PAGE 24 =====
+
+In order to first simulate the pure ligand effect, plotted as blue dots in Figure 8, as defined above,
+we first introduced Ag on Cu while keeping the atomic positions frozen, i.e., the introduced
+forces resulting from substituting Cu with Ag were not allowed to relax. Subsequently, the atoms
+were allowed to relax the introduced forces, giving rise to a strain effect, as presented in black
+dots in Figure 8.
+Independent of the adsorbate and surface facet, adsorption strength is reduced upon introducing
+Ag, a consequence of a downshift in the d-band center (Figure S21). Furthermore, the effect of
+introducing Ag is strongly enhanced on the (100) terrace (Figure 8 a-b) compared to the (211)
+step sites (Figure 8 c-d).
+In contrast to *CO, the *OH binding strength responds barely to a pure ligand effect. Note that
+while *CO tends to adsorb in a top site, we identified the binding site of *OH as the fourfold-
+hollow site on the (100) facet (Figure 8b) and in a bridge site on the (211) step (Figure 8d).
+These binding motifs make *OH much more sensitive to strain effects compared to *CO.
+Considering that carbonyl products, especially aldehydes, bind on Cu with *O before desorbing
+or being further reduced, the large reduction in binding strength due to strain explains their
+promoted production.
+It has been found that both a compressive strain and the slightly reduced electron density in the
+Cu sites, as demonstrated by XANES results, could shift the pristine Cu d-band center to a
+deeper level and hence weaken the intermediate adsorption36–39, which coincides with the
+attenuated Cu-C*/O* shell (peak B) in EXAFS spectra on the Cu K-edge shown in Figure S10.
+More details and analysis regarding EXAFS data can be found in Supporting Information
+Section 3.3.
+24
+
+
+===== PAGE 25 =====
+
+Figure 9. Cyclic voltammetry scans for determining oxophilicity of Cu from Ag
+incorporation in CO -saturated 0.1 M KHCO at the scan rate of 50 mV/s. Inset is the enlarged
+2 3
+highlighted area of the Cu2+/Cu+ wave.
+The compressive strain was also found to reduce the oxophilicity of transient metals31,56,57 and
+thus weaken the adsorption of species binding on the metal surface with O* (e.g., aldehydes and
+other carbonyls). It has been found that the oxophilicity of transition metal surfaces is highly
+correlated with their standard reduction/oxidation potential20. Therefore, cyclic voltammetry
+scans in the potential window between -0.2 to 0.7 V vs. RHE were performed to investigate the
+redox properties (Figure 9). As expected, an anodic shift of the Cu2+/ Cu+ reduction wave is
+observed, confirming a reduced oxophilicity upon the introduction of Ag in Cu20. This is further
+evidence to help explain the promoted production of aldehydes and other carbonyls observed in
+Figure 3. It is worth pointing out that for Cu catalysts, it is often the Cu2+/Cu+ onset potential is
+compared to evaluate the catalysts’ oxophilicity. However, onset potential of bimetallic catalysts
+involves with kinetic effects. Specifically, an earlier onset potential occurs not only due to a
+25
+
+
+===== PAGE 26 =====
+
+lower oxophilicity, but also with a higher surface Cu composition. In this regard, CV feature
+position is more straightforward.
+CONCLUSIONS
+In this work, we prepared a series of CuAg multiphase alloys with varying Ag content for a
+better understanding of product selectivity resulting from electrochemical CO reduction. Among
+2
+the alloys, Cu Ag (nominal composition) exhibited the highest selectivity towards C-C
+80 20
+coupling and carbonyl production. Operando GIXRD confirmed the spatial strain effect between
+Cu and Ag phases. The Cu K-edge XANES suggests a slight electron density decrease in the Cu
+phase upon Ag introduction, compared to pure Cu. DFT calculations demonstrated both the
+electronic interaction and strain effect of Cu upon Ag incorporation, which shifted the Cu d-band
+center to a deeper level and thus weakened intermediate adsorption. The oxophilicity of Cu was
+also reduced as a consequence of compressive strain. Taking together, the facilitated generation
+of multicarbon aldehydes and carbonyls at the expense of H and hydrocarbon production can be
+2
+attributed to a combined effect of a deeper d-band center and reduced oxophilicity as Ag is
+introduced. This work provides insights into the interaction between alloyed metals during
+electrochemical CO reduction on an atomic scale, which can be used to direct new bi-/multi-
+2
+metallic/alloy designs in this field.
+ASSOCIATED CONTENT
+Supporting Information. Experimental and simulation methods, details of element distribution
+acquired from ex situ XPS, sample configuration of operando XAS measurements on the Ag L -
+3
+edge, LEIS spectra and peak assignment, surface sensitivity verification and penetration depth of
+operando X-ray measurements, operando XRD and ex situ XRD 2θ match, DFT-calculated
+26
+
+
+===== PAGE 27 =====
+
+facet-dependent Ag surface segregation energies, DFT-calculated convex-hull, DFT-calculated
+lattice expansion with Ag content, Bader charges on Cu and Ag in the bulk crystal, calculated
+Cu-Cu radial distances in the bulk crystal, calculated effect of pure strain on the binding of *CO
+and *OH, scaling of the binding energy of *OCH CH with the binding strength of *OH, d-band
+2 3
+center shift with the #NN .
+Ag
+This information is available free of charge on the ACS Publications website.
+Corresponding Authors
+Brian Seger – Surface Physics and Catalysis (SurfCat) Section, Department of Physics,
+Technical University of Denmark, 2800 Kgs. Lyngby, Denmark. Email: brse@fysik.dtu.dk
+Georg Kastlunger – CatTheory Center, Department of Physics, Technical University of
+Denmark 2800 Kongens, Lyngby, Denmark. Email: geokast@dtu.dk.
+Authors
+Yu Qiao – Surface Physics and Catalysis (SurfCat) Section, Department of Physics, Technical
+University of Denmark, 2800 Kgs. Lyngby, Denmark
+Ryan C. Davis – Stanford Synchrotron Radiation Light source, SLAC National Accelerator
+Laboratory, Menlo Park, California 94025, United States
+Carlos Andrés Girón Rodriguez – Surface Physics and Catalysis (SurfCat) Section, Department
+of Physics, Technical University of Denmark, 2800 Kgs. Lyngby, Denmark
+Andreas Vishart – Atomic Scale Materials Modelling Section, Department of Energy Conversion
+and Storage, Technical University of Denmark 2800 Kongens, Lyngby, Denmark
+27
+
+
+===== PAGE 28 =====
+
+Wanyu Deng – Key Laboratory for Green Chemical Technology of Ministry of Education,
+School of Chemical Engineering and Technology, Tianjin University 300072, China;
+Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), Tianjin
+300072, China
+Qiucheng Xu – Surface Physics and Catalysis (SurfCat) Section, Department of Physics,
+Technical University of Denmark, 2800 Kgs. Lyngby, Denmark
+Shaofeng Li – Surface Physics and Catalysis (SurfCat) Section, Department of Physics,
+Technical University of Denmark, 2800 Kgs. Lyngby, Denmark
+Peter Benedek – Department of Chemical Engineering, Stanford University, 443 Via Ortega,
+Stanford, California 94305, United States of America; SUNCAT Center for Interface Science and
+Catalysis, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California
+94025, United States of America
+Junjie Chen – Department of Chemical Engineering, Stanford University, 443 Via Ortega,
+Stanford, California 94305, United States of America; SUNCAT Center for Interface Science and
+Catalysis, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California
+94025, United States of America
+Johanna Schröder – Department of Chemical Engineering, Stanford University, 443 Via
+Ortega, Stanford, California 94305, United States of America; SUNCAT Center for Interface
+Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo
+Park, California 94025, United States of America
+28
+
+
+===== PAGE 29 =====
+
+Joseph Perryman – Department of Chemical Engineering, Stanford University, 443 Via Ortega,
+Stanford, California 94305, United States of America; SUNCAT Center for Interface Science and
+Catalysis, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California
+94025, United States of America
+Dong Un Lee – Department of Chemical Engineering, Stanford University, 443 Via Ortega,
+Stanford, California 94305, United States of America; SUNCAT Center for Interface Science and
+Catalysis, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo Park, California
+94025, United States of America
+Thomas F. Jaramillo – Department of Chemical Engineering, Stanford University, 443 Via
+Ortega, Stanford, California 94305, United States of America; SUNCAT Center for Interface
+Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sand Hill Road, Menlo
+Park, California 94025, United States of America
+Ib Chorkendorff – Surface Physics and Catalysis (SurfCat) Section, Department of Physics,
+Technical University of Denmark, 2800 Kgs. Lyngby, Denmark
+Notes
+The authors declare no competing financial interest.
+ACKNOWLEDGMENT
+B.S., G.K., and Y.Q. acknowledge European Union’s Horizon 2020 research and innovation
+programme under grant agreement no. 85144, (SELECT-CO2) as well as the Villum Center for
+the Science of Sustainable Fuels and Chemical grant 9455. Use of the Stanford Synchrotron
+29
+
+
+===== PAGE 30 =====
+
+Radiation Lightsource, SLAC National Accelerator Laboratory, is sup-ported by the U.S.
+Department of Energy, Office of Science, Office of Basic Energy Sciences under Contract No.
+DE-AC02-76SF00515. Part of this work was performed by the Liquid Sunlight Alliance,
+supported by the US Department of Energy, Office of Science, Office of Basic Energy Sciences,
+Fuels from Sunlight Hub under award DE-SC0021266. Part of this work was performed at the
+Stanford Nano Shared Facilities (SNSF), supported by the National Science Foundation under
+Award ECCS-1542152. Y.Q. acknowledges Otto Mønsted for the travel grant. The authors
+gratefully thank Christian Danvad Damsgaard and Chao Wei for insightful X-ray data
+discussion; Qiucheng Xu, Clara Bruun Jensen, Sahil Garg, and Melissa Kreider for help with
+preparing and testing samples; Kevin Stone, Charles Troxel Jr, Matthew Latimer, Erik Nelson,
+and Sarah Gooding for technical support at SSRL; Christopher Hahn for valuable input in the
+early stage of this work; José Zamora Zeledón, Sihe Zhang and Bjørt Óladóttir Joensen for help
+with synchrotron measurements; Thomas Bligaard for valuable discussion on the separation of
+strain and ligand effects in DFT simulations
+REFERENCES
+(1) Masson-Delmotte, V., P. Zhai, H.-O. Pörtner, D. Roberts, J. S.; P.R. Shukla, A. Pirani,
+W. Moufouma-Okia, C. Péan, R. Pidcock, S. Connors, J.B.R. Matthews, Y. Chen, X. Zhou, M.I.
+Gomis, E. L.; T. Maycock, M. Tignor, and T. W. (eds. . Summary for Policymakers. In Global
+Warming of 1.5°C; Cambridge University Press, 2022; pp 1–24.
+https://doi.org/10.1017/9781009157940.001.
+(2) Nitopi, S.; Bertheussen, E.; Scott, S. B.; Liu, X.; Engstfeld, A. K.; Horch, S.; Seger, B.;
+Stephens, I. E. L.; Chan, K.; Hahn, C.; Nørskov, J. K.; Jaramillo, T. F.; Chorkendorff, I. Progress
+30
+
+
+===== PAGE 31 =====
+
+and Perspectives of Electrochemical CO2 Reduction on Copper in Aqueous Electrolyte. Chem.
+Rev. 2019, 119 (12), 7610–7672. https://doi.org/10.1021/acs.chemrev.8b00705.
+(3) Clark, E. L.; Resasco, J.; Landers, A.; Lin, J.; Chung, L. T.; Walton, A.; Hahn, C.;
+Jaramillo, T. F.; Bell, A. T. Standards and Protocols for Data Acquisition and Reporting for
+Studies of the Electrochemical Reduction of Carbon Dioxide. ACS Catal. 2018, 8 (7), 6560–
+6570. https://doi.org/10.1021/acscatal.8b01340.
+(4) Jia, H.; Yang, Y.; Chow, T. H.; Zhang, H.; Liu, X.; Wang, J.; Zhang, C. yang. Symmetry-
+Broken Au–Cu Heterostructures and Their Tandem Catalysis Process in Electrochemical CO2
+Reduction. Adv. Funct. Mater. 2021, 2101255, 1–11. https://doi.org/10.1002/adfm.202101255.
+(5) Shen, S.; Peng, X.; Song, L.; Qiu, Y.; Li, C.; Zhuo, L.; He, J.; Ren, J.; Liu, X.; Luo, J.
+AuCu Alloy Nanoparticle Embedded Cu Submicrocone Arrays for Selective Conversion of CO2
+to Ethanol. Small 2019, 15 (37), 1–7. https://doi.org/10.1002/smll.201902229.
+(6) Li, Y. C.; Wang, Z.; Yuan, T.; Nam, D. H.; Luo, M.; Wicks, J.; Chen, B.; Li, J.; Li, F.;
+De Arquer, F. P. G.; Wang, Y.; Dinh, C. T.; Voznyy, O.; Sinton, D.; Sargent, E. H. Binding Site
+Diversity Promotes CO2 Electroreduction to Ethanol. J. Am. Chem. Soc. 2019, 141 (21), 8584–
+8591. https://doi.org/10.1021/jacs.9b02945.
+(7) Kortlever, R.; Shen, J.; Schouten, K. J. P.; Calle-Vallejo, F.; Koper, M. T. M. Catalysts
+and Reaction Pathways for the Electrochemical Reduction of Carbon Dioxide. J. Phys. Chem.
+Lett. 2015, 6 (20), 4073–4082. https://doi.org/10.1021/acs.jpclett.5b01559.
+31
+
+
+===== PAGE 32 =====
+
+(8) Song, H.; Song, J. T.; Kim, B.; Tan, Y. C.; Oh, J. Activation of C2H4 Reaction Pathways
+in Electrochemical CO2 Reduction under Low CO2 Partial Pressure. Appl. Catal. B Environ.
+2020, 272 (November 2019), 119049. https://doi.org/10.1016/j.apcatb.2020.119049.
+(9) Kim, Y.; Park, S.; Shin, S. J.; Choi, W.; Min, B. K.; Kim, H.; Kim, W.; Hwang, Y. J.
+Time-Resolved Observation of C-C Coupling Intermediates on Cu Electrodes for Selective
+Electrochemical CO2reduction. Energy Environ. Sci. 2020, 13 (11), 4301–4311.
+https://doi.org/10.1039/d0ee01690j.
+(10) Zhang, Z.; Bian, L.; Tian, H.; Liu, Y.; Bando, Y.; Yamauchi, Y.; Wang, Z. L. Tailoring
+the Surface and Interface Structures of Copper-Based Catalysts for Electrochemical Reduction of
+CO2 to Ethylene and Ethanol. Small 2022, 18 (18), 1–24.
+https://doi.org/10.1002/smll.202107450.
+(11) Su, X.; Sun, Y.; Jin, L.; Zhang, L.; Yang, Y.; Kerns, P.; Liu, B.; Li, S.; He, J.
+Hierarchically Porous Cu/Zn Bimetallic Catalysts for Highly Selective CO2 Electroreduction to
+Liquid C2 Products. Appl. Catal. B Environ. 2020, 269 (February), 118800.
+https://doi.org/10.1016/j.apcatb.2020.118800.
+(12) Jia, F.; Yu, X.; Zhang, L. Enhanced Selectivity for the Electrochemical Reduction of
+CO2 to Alcohols in Aqueous Solution with Nanostructured Cu-Au Alloy as Catalyst. J. Power
+Sources 2014, 252, 85–89. https://doi.org/10.1016/j.jpowsour.2013.12.002.
+(13) Gao, J.; Ren, D.; Guo, X.; Zakeeruddin, S. M.; Grätzel, M. Sequential Catalysis Enables
+Enhanced C-C Coupling towards Multi-Carbon Alkenes and Alcohols in Carbon Dioxide
+32
+
+
+===== PAGE 33 =====
+
+Reduction: A Study on Bifunctional Cu/Au Electrocatalysts. Faraday Discuss. 2019, 215, 282–
+296. https://doi.org/10.1039/c8fd00219c.
+(14) Lum, Y.; Ager, J. W. Sequential Catalysis Controls Selectivity in Electrochemical CO2
+Reduction on Cu. Energy Environ. Sci. 2018, 11 (10), 2935–2944.
+https://doi.org/10.1039/c8ee01501e.
+(15) Huang, J.; Mensi, M.; Oveisi, E.; Mantella, V.; Buonsanti, R. Structural Sensitivities in
+Bimetallic Catalysts for Electrochemical CO2 Reduction Revealed by Ag-Cu Nanodimers. J.
+Am. Chem. Soc. 2019, 141 (6), 2490–2499. https://doi.org/10.1021/jacs.8b12381.
+(16) Zhong, Y.; Kong, X.; Song, Z.; Liu, Y.; Peng, L.; Zhang, L.; Luo, X.; Zeng, J.; Geng, Z.
+Adjusting Local CO Confinement in Porous-Shell Ag@Cu Catalysts for Enhancing C-C
+Coupling toward CO2 Eletroreduction. Nano Lett. 2022, 22 (6), 2554–2560.
+https://doi.org/10.1021/acs.nanolett.1c04815.
+(17) Lee, S.; Park, G.; Lee, J. Importance of Ag-Cu Biphasic Boundaries for Selective
+Electrochemical Reduction of CO2 to Ethanol. ACS Catal. 2017, 7 (12), 8594–8604.
+https://doi.org/10.1021/acscatal.7b02822.
+(18) Chen, C.; Li, Y.; Yu, S.; Louisia, S.; Jin, J.; Li, M.; Ross, M. B.; Yang, P. Cu-Ag Tandem
+Catalysts for High-Rate CO2 Electrolysis toward Multicarbons. Joule 2020, 4 (8), 1688–1699.
+https://doi.org/10.1016/j.joule.2020.07.009.
+(19) Wang, X.; Wang, Z.; Zhuang, T.; Dinh, C.; Li, J.; Nam, D.; Li, F.; Huang, C.; Tan, C.;
+Chen, Z.; Chi, M.; Gabardo, C. M.; Seifitokaldani, A.; Todorović, P.; Proppe, A.; Pang, Y.;
+Kirmani, A. R.; Wang, Y.; Ip, A. H.; Richter, L. J.; Scheffel, B.; Xu, A.; Lo, S.; Kelley, S. O.;
+33
+
+
+===== PAGE 34 =====
+
+Sinton, D.; Sargent, E. H. Efficient Upgrading of CO to C3 Fuel Using Asymmetric C-C
+Coupling Active Sites. Nat. Commun. 2019, 10 (1), 5186. https://doi.org/10.1038/s41467-019-
+13190-6.
+(20) Clark, E. L.; Hahn, C.; Jaramillo, T. F.; Bell, A. T. Electrochemical CO2 Reduction over
+Compressively Strained CuAg Surface Alloys with Enhanced Multi-Carbon Oxygenate
+Selectivity. J. Am. Chem. Soc. 2017, 139 (44), 15848–15857.
+https://doi.org/10.1021/jacs.7b08607.
+(21) Feng, Y.; Li, Z.; Liu, H.; Dong, C.; Wang, J.; Kulinich, S. A.; Du, X. Laser-Prepared
+CuZn Alloy Catalyst for Selective Electrochemical Reduction of CO2 to Ethylene. Langmuir
+2018, 34 (45), 13544–13549. https://doi.org/10.1021/acs.langmuir.8b02837.
+(22) Dongare, S.; Singh, N.; Bhunia, H. Oxide-Derived Cu-Zn Nanoparticles Supported on N-
+Doped Graphene for Electrochemical Reduction of CO2 to Ethanol. Appl. Surf. Sci. 2021, 556
+(April), 149790. https://doi.org/10.1016/j.apsusc.2021.149790.
+(23) Higgins, D.; Landers, A. T.; Ji, Y.; Nitopi, S.; Morales-Guio, C. G.; Wang, L.; Chan, K.;
+Hahn, C.; Jaramillo, T. F. Guiding Electrochemical Carbon Dioxide Reduction toward Carbonyls
+Using Copper Silver Thin Films with Interphase Miscibility. ACS Energy Lett. 2018, 3 (12),
+2947–2955. https://doi.org/10.1021/acsenergylett.8b01736.
+(24) Higgins, D.; Wette, M.; Gibbons, B. M.; Siahrostami, S.; Hahn, C.; Escudero-Escribano,
+M.; García-Melchor, M.; Ulissi, Z.; Davis, R. C.; Mehta, A.; Clemens, B. M.; Nørskov, J. K.;
+Jaramillo, T. F. Copper Silver Thin Films with Metastable Miscibility for Oxygen Reduction
+34
+
+
+===== PAGE 35 =====
+
+Electrocatalysis in Alkaline Electrolytes. ACS Appl. Energy Mater. 2018, 1 (5), 1990–1999.
+https://doi.org/10.1021/acsaem.8b00090.
+(25) Gibbons, B. M.; Wette, M.; Stevens, M. B.; Davis, R. C.; Siahrostami, S.; Kreider, M.;
+Mehta, A.; Higgins, D. C.; Clemens, B. M.; Jaramillo, T. F. In Situ X-Ray Absorption
+Spectroscopy Disentangles the Roles of Copper and Silver in a Bimetallic Catalyst for the
+Oxygen Reduction Reaction. Chem. Mater. 2020, 32 (5), 1819–1827.
+https://doi.org/10.1021/acs.chemmater.9b03963.
+(26) Wang, L.; Higgins, D. C.; Ji, Y.; Morales-Guio, C. G.; Chan, K.; Hahn, C.; Jaramillo, T.
+F. Selective Reduction of CO to Acetaldehyde with CuAg Electrocatalysts. Proc. Natl. Acad.
+Sci. U. S. A. 2020, 117 (23), 12572–12575. https://doi.org/10.1073/pnas.1821683117.
+(27) Nishimura, Y. F.; Peng, H. J.; Nitopi, S.; Bajdich, M.; Wang, L.; Morales-Guio, C. G.;
+Abild-Pedersen, F.; Jaramillo, T. F.; Hahn, C. Guiding the Catalytic Properties of Copper for
+Electrochemical CO2 Reduction by Metal Atom Decoration. ACS Appl. Mater. Interfaces 2021,
+13 (44), 52044–52054. https://doi.org/10.1021/acsami.1c09128.
+(28) Farmand, M.; Landers, A. T.; Lin, J. C.; Feaster, J. T.; Beeman, J. W.; Ye, Y.; Clark, E.
+L.; Higgins, D.; Yano, J.; Davis, R. C.; Mehta, A.; Jaramillo, T. F.; Hahn, C.; Drisdell, W. S.
+Electrochemical Flow Cell Enabling: Operando Probing of Electrocatalyst Surfaces by X-Ray
+Spectroscopy and Diffraction. Phys. Chem. Chem. Phys. 2019, 21 (10), 5402–5408.
+https://doi.org/10.1039/c8cp07423b.
+(29) Zhang, H.; Chang, X.; Chen, J. G.; Goddard, W. A.; Xu, B.; Cheng, M. J.; Lu, Q.
+Computational and Experimental Demonstrations of One-Pot Tandem Catalysis for
+35
+
+
+===== PAGE 36 =====
+
+Electrochemical Carbon Dioxide Reduction to Methane. Nat. Commun. 2019, 10 (1), 1–9.
+https://doi.org/10.1038/s41467-019-11292-9.
+(30) Herzog, A.; Bergmann, A.; Jeon, H. S.; Timoshenko, J.; Kühl, S.; Rettenmaier, C.; Lopez
+Luna, M.; Haase, F. T.; Roldan Cuenya, B. Operando Investigation of Ag-Decorated Cu2O
+Nanocube Catalysts with Enhanced CO2 Electroreduction toward Liquid Products. Angew.
+Chemie - Int. Ed. 2021, 60 (13), 7426–7435. https://doi.org/10.1002/anie.202017070.
+(31) Su, W.; Ma, L.; Cheng, Q.; Wen, K.; Wang, P.; Hu, W.; Zou, L.; Fang, J.; Yang, H.
+Highly Dispersive Trace Silver Decorated Cu/Cu2O Composites Boosting Electrochemical CO2
+Reduction to Ethanol. J. CO2 Util. 2021, 52 (August), 101698.
+https://doi.org/10.1016/j.jcou.2021.101698.
+(32) Zhang, Y.-J.; Sethuraman, V.; Michalsky, R.; Peterson, A. Supporting Information for
+Competition between CO2 Reduction and H 2 Evolution on Transition-Metal Electrocatalysts.
+ACS Catal. 2014, 4, 3742–3748.
+(33) Cave, E. R.; Shi, C.; Kuhl, K. P.; Hatsukade, T.; Abram, D. N.; Hahn, C.; Chan, K.;
+Jaramillo, T. F. Trends in the Catalytic Activity of Hydrogen Evolution during CO2
+Electroreduction on Transition Metals. ACS Catal. 2018, 8 (4), 3035–3040.
+https://doi.org/10.1021/acscatal.7b03807.
+(34) Nørskov, J. K.; Bligaard, T.; Logadottir, A.; Kitchin, J. R.; Chen, J. G.; Pandelov, S.;
+Stimming, U. Trends in the Exchange Current for Hydrogen Evolution. J. Electrochem. Soc.
+2005, 152 (3), J23. https://doi.org/10.1149/1.1856988.
+36
+
+
+===== PAGE 37 =====
+
+(35) Hahn, C.; Hatsukade, T.; Kim, Y. G.; Vailionis, A.; Baricuatro, J. H.; Higgins, D. C.;
+Nitopi, S. A.; Soriaga, M. P.; Jaramillo, T. F. Engineering Cu Surfaces for the Electrocatalytic
+Conversion of CO2: Controlling Selectivity toward Oxygenates and Hydrocarbons. Proc. Natl.
+Acad. Sci. U. S. A. 2017, 114 (23), 5918–5923. https://doi.org/10.1073/pnas.1618935114.
+(36) Hammer, B.; Nørskov, J. K. Electronic Factors Determining the Reactivity of Metal
+Surfaces. Surf. Sci. 1995, 343 (3), 211–220. https://doi.org/10.1016/0039-6028(96)80007-0.
+(37) Ruban, A.; Hammer, B.; Stoltze, P.; Skriver, H. .; Nørskov, J. . Surface Electronic
+Structure and Reactivity of Transition and Noble Metals1Communication Presented at the First
+Francqui Colloquium, Brussels, 19–20 February 1996.1. J. Mol. Catal. A Chem. 1997, 115 (3),
+421–429. https://doi.org/10.1016/S1381-1169(96)00348-2.
+(38) Chang, Z.; Huo, S.; Zhang, W.; Fang, J.; Wang, H. The Tunable and Highly Selective
+Reduction Products on Ag@Cu Bimetallic Catalysts Toward CO2 Electrochemical Reduction
+Reaction. J. Phys. Chem. C 2017, 121 (21), 11368–11379.
+https://doi.org/10.1021/acs.jpcc.7b01586.
+(39) Martić, N.; Reller, C.; Macauley, C.; Löffler, M.; Reichert, A. M.; Reichbauer, T.; Vetter,
+K. M.; Schmid, B.; McLaughlin, D.; Leidinger, P.; Reinisch, D.; Vogl, C.; Mayrhofer, K. J. J.;
+Katsounaros, I.; Schmid, G. Ag2Cu2O3-a Catalyst Template Material for Selective
+Electroreduction of CO to C2+products. Energy Environ. Sci. 2020, 13 (9), 2993–3006.
+https://doi.org/10.1039/d0ee01100b.
+(40) Hoang, T. T. H.; Verma, S.; Ma, S.; Fister, T. T.; Timoshenko, J.; Frenkel, A. I.; Kenis,
+P. J. A.; Gewirth, A. A. Nanoporous Copper-Silver Alloys by Additive-Controlled
+37
+
+
+===== PAGE 38 =====
+
+Electrodeposition for the Selective Electroreduction of CO2 to Ethylene and Ethanol. J. Am.
+Chem. Soc. 2018, 140 (17), 5791–5797. https://doi.org/10.1021/jacs.8b01868.
+(41) Lv, X.; Shang, L.; Zhou, S.; Li, S.; Wang, Y.; Wang, Z.; Sham, T. K.; Peng, C.; Zheng,
+G. Electron-Deficient Cu Sites on Cu3Ag1 Catalyst Promoting CO2 Electroreduction to
+Alcohols. Adv. Energy Mater. 2020, 10 (37), 1–8. https://doi.org/10.1002/aenm.202001987.
+(42) Xu, Y.; Li, C.; Xiao, Y.; Wu, C.; Li, Y.; Li, Y.; Han, J.; Liu, Q.; He, J. Tuning the
+Selectivity of Liquid Products of CO2RR by Cu-Ag Alloying. ACS Applied Materials and
+Interfaces. 2022, pp 11567–11574. https://doi.org/10.1021/acsami.2c00593.
+(43) Chen, X.; Henckel, D. A.; Nwabara, U. O.; Li, Y.; Frenkel, A. I.; Fister, T. T.; Kenis, P.
+J. A.; Gewirth, A. A. Controlling Speciation during CO2 Reduction on Cu-Alloy Electrodes.
+ACS Catal. 2020, 10 (1), 672–682. https://doi.org/10.1021/acscatal.9b04368.
+(44) Chang, C. J.; Lin, S. C.; Chen, H. M. H. C. H. M. H. C.; Wang, J.; Zheng, K. J.; Zhu, Y.;
+Chen, H. M. H. C. H. M. H. C. Dynamic Reoxidation/Reduction-Driven Atomic Interdiffusion
+for Highly Selective CO2Reduction toward Methane. J. Am. Chem. Soc. 2020, 142 (28), 12119–
+12132. https://doi.org/10.1021/jacs.0c01859.
+(45) Peng, H. J.; Tang, M. T.; Halldin Stenlid, J.; Liu, X.; Abild-Pedersen, F. Trends in
+Oxygenate/Hydrocarbon Selectivity for Electrochemical CO(2) Reduction to C2 Products. Nat.
+Commun. 2022, 13 (1), 1–11. https://doi.org/10.1038/s41467-022-29140-8.
+(46) Vitos, L.; Ruban, A. V.; Skriver, H. L.; Kollár, J. The Surface Energy of Metals. Surf.
+Sci. 1998, 411 (1–2), 186–202. https://doi.org/10.1016/S0039-6028(98)00363-X.
+38
+
+
+===== PAGE 39 =====
+
+(47) Tang, W.; Peterson, A. A.; Varela, A. S.; Jovanov, Z. P.; Bech, L.; Durand, W. J.; Dahl,
+S.; Nørskov, J. K.; Chorkendorff, I. The Importance of Surface Morphology in Controlling the
+Selectivity of Polycrystalline Copper for CO2 Electroreduction. Phys. Chem. Chem. Phys. 2012,
+14 (1), 76–81. https://doi.org/10.1039/c1cp22700a.
+(48) Möller, T.; Scholten, F.; Thanh, T. N.; Sinev, I.; Timoshenko, J.; Wang, X.; Jovanov, Z.;
+Gliech, M.; Roldan Cuenya, B.; Varela, A. S.; Strasser, P. Electrocatalytic CO2 Reduction on
+CuOx Nanocubes: Tracking the Evolution of Chemical State, Geometric Structure, and Catalytic
+Selectivity Using Operando Spectroscopy. Angew. Chemie - Int. Ed. 2020, 59 (41), 17974–
+17983. https://doi.org/10.1002/anie.202007136.
+(49) Karapinar, D.; Creissen, C. E.; Rivera De La Cruz, J. G.; Schreiber, M. W.; Fontecave,
+M. Electrochemical CO2Reduction to Ethanol with Copper-Based Catalysts. ACS Energy Lett.
+2021, 6 (2), 694–706. https://doi.org/10.1021/acsenergylett.0c02610.
+(50) Chang, X.; Vijay, S.; Zhao, Y.; Oliveira, N. J.; Chan, K.; Xu, B. Understanding the
+Complementarities of Surface-Enhanced Infrared and Raman Spectroscopies in CO Adsorption
+and Electrochemical Reduction. Nat. Commun. 2022, 13 (1), 1–12.
+https://doi.org/10.1038/s41467-022-30262-2.
+(51) An, H.; Wu, L.; Mandemaker, L. D. B.; Yang, S.; de Ruiter, J.; Wijten, J. H. J.; Janssens,
+J. C. L.; Hartman, T.; van der Stam, W.; Weckhuysen, B. M. Sub-Second Time-Resolved
+Surface-Enhanced Raman Spectroscopy Reveals Dynamic CO Intermediates during
+Electrochemical CO2 Reduction on Copper. Angew. Chemie - Int. Ed. 2021, 60 (30), 16576–
+16584. https://doi.org/10.1002/anie.202104114.
+39
+
+
+===== PAGE 40 =====
+
+(52) Baker, M. L.; Mara, M. W.; Yan, J. J.; Hodgson, K. O.; Hedman, B.; Solomon, E. I. K-
+and L-Edge X-Ray Absorption Spectroscopy (XAS) and Resonant Inelastic X-Ray Scattering
+(RIXS) Determination of Differential Orbital Covalency (DOC) of Transition Metal Sites.
+Coord. Chem. Rev. 2017, 345, 182–208. https://doi.org/10.1016/j.ccr.2017.02.004.
+(53) Kastlunger, G.; Wang, L.; Govindarajan, N.; Heenen, H. H.; Ringe, S.; Jaramillo, T.;
+Hahn, C.; Chan, K. Using PH Dependence to Understand Mechanisms in Electrochemical CO
+Reduction. ACS Catal. 2022, 12 (8), 4344–4357. https://doi.org/10.1021/acscatal.1c05520.
+(54) Montoya, J. H.; Shi, C.; Chan, K.; Nørskov, J. K. Theoretical Insights into a CO
+Dimerization Mechanism in CO2 Electroreduction. J. Phys. Chem. Lett. 2015, 6 (11), 2032–
+2037. https://doi.org/10.1021/acs.jpclett.5b00722.
+(55) Ledezma-Yanez, I.; Gallent, E. P.; Koper, M. T. M.; Calle-Vallejo, F. Structure-Sensitive
+Electroreduction of Acetaldehyde to Ethanol on Copper and Its Mechanistic Implications for CO
+and CO2 Reduction. Catal. Today 2016, 262 (111), 90–94.
+https://doi.org/10.1016/j.cattod.2015.09.029.
+(56) Lim, J.; Shin, H.; Kim, M.; Lee, H.; Lee, K. S.; Kwon, Y.; Song, D.; Oh, S.; Kim, H.;
+Cho, E. Ga-Doped Pt-Ni Octahedral Nanoparticles as a Highly Active and Durable
+Electrocatalyst for Oxygen Reduction Reaction. Nano Lett. 2018, 18 (4), 2450–2458.
+https://doi.org/10.1021/acs.nanolett.8b00028.
+(57) Xia, Z.; Guo, S. Strain Engineering of Metal-Based Nanomaterials for Energy
+Electrocatalysis. Chem. Soc. Rev. 2019, 48 (12), 3265–3278.
+https://doi.org/10.1039/c8cs00846a.
+40
+
+
+===== PAGE 41 =====
+
+Table of Contents Graphic:
+41
+
+
+===== PAGE 42 =====
+
+Supporting Information for
+Mechanistic Insights into Aldehyde Production from Electrochemical CO
+2
+Reduction on CuAg Alloy via Operando X-Ray Measurements
+Yu Qiaoa, Georg Kastlungerb,*, Ryan C. Davisc, Carlos Andrés Girón Rodrigueza, Andreas Vishartd,
+Wanyu Denge,f, Qiucheng Xua, Shaofeng Lia, Peter Benedekg,h, Junjie Cheng,h, Johanna Schröderg,h,
+Joseph Perrymang,h, Dong Un Leeg,h, Thomas F. Jaramillog,h, Ib Chorkendorffa, Brian Segera,*
+a Surface Physics and Catalysis (SurfCat) Section, Department of Physics, Technical University of
+Denmark, 2800 Kgs. Lyngby, Denmark
+b CatTheory Center, Department of Physics, Technical University of Denmark 2800 Kongens, Lyngby,
+Denmark
+c Stanford Synchrotron Radiation Light source, SLAC National Accelerator Laboratory, Menlo Park,
+California 94025, United States
+d Atomic Scale Materials Modelling Section, Department of Energy conversion and storage, Technical
+University of Denmark 2800 Kongens, Lyngby, Denmark
+e Key Laboratory for Green Chemical Technology of Ministry of Education, School of Chemical
+Engineering and Technology, Tianjin University 300072, China
+f Collaborative Innovation Center of Chemical Science and Engineering (Tianjin), Tianjin 300072,
+China
+g Department of Chemical Engineering, Stanford University, 443 Via Ortega, Stanford, California
+94305, United States of America
+h SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575
+Sand Hill Road, Menlo Park, California 94025, United States of America
+* Corresponding Author
+Brian Seger: brse@fysik.dtu.dk
+Georg Kastlunger: geokast@dtu.dk
+1
+
+
+===== PAGE 43 =====
+
+1. THIN FILM CATALYST FABRICATION AND CHARACTERIZATION
+Cu Ag (X = 100, 95, 80 and 60, nominal content) were fabricated with a high vacuum (base pressure
+X 100-X
+< 1 x 10-7 mbar) magnetron sputtering chamber (AJA International, Inc.) using direct current
+(DC) mode. The Cu and Ag targets (Kurt–Lesker, 99.9999%) were (co)-deposited on 75 nm thick Si
+wafers (Wafer World Inc., boron-doped, resistivity < 0.025 Ohm-cm) or Kapton foil (DuPont, only for
+XAS at Ag L3-edge) as the substrate. In both cases, the substrate was sputter-cleaned by Ar at 40 W
+for ~5min to remove any surface contaminations and oxide layers. A ~5 nm thick Ti adhesive layer was
+then sputtered at a rate of ~0.7 Å/s, followed by a ~50 nm thick Cu Ag catalyst layer deposited at
+X 100-X
+a rate of ~1.0 Å/s. The deposition rate and nominal composition as well as the thickness of the
+deposited catalyst layer were calibrated by a quartz crystal microbalance (QCM). All samples were
+deposited under a 5 mTorr, 10 sccm Ar (N5, Air Liquide) atmosphere at room temperature.
+X-ray photoelectron spectroscopy (XPS) was performed by a ThermoScientific Thetaprobe instrument
+equipped with an Al Kα X-ray source. The operating base pressure was kept below 1.0 × 10−10 mbar.
+Survey and high-resolution elemental scans were recorded with a step size of 1.0 eV and 0.1 eV,
+respectively; while in all cases pass energy of 200 eV and dwell time of 50 ms were used. The data
+were acquired and analyzed with Thermo Avantage (Thermo Fisher Scientific). Low energy ion
+scattering (LEIS) was processed on the same instrument, utilizing a focused He ion gun (1 keV) at a
+base pressure of 2.0 × 10−7 mbar. The LEIS spectra were acquired with a step size of 1.0 eV.
+X-ray diffraction (XRD) was conducted on a Malvern Panalytical Empyrean X-ray diffractometer in the
+grazing incident geometry with the incident beam angle at 0.7⁰. An Empyrean Cu LFF HR gun (Kα =
+1
+1.540598 Å, 8.04 keV) was used as the X-ray source and operated at 45 kV and 40 mA.
+Scanning electron microscopy (SEM) measurements were performed on a FEI Quanta 200 FEG
+instrument at an accelerating voltage of 10 kV.
+Table S1 Element composition acquired from ex situ XPS. Three spots were taken on each sample and the
+average is listed in the table.
+Element Distribution
+Sample
+As-prepared After CO2ER
+(nominal
+composition)
+Cu in Cu in
+Cu Ag O C Cu Ag O C K
+CuAg CuAg
+Cu 37.0 0 100.0 42.2 20.8 26.1 0 100.0 42.8 31.1 0
+Cu Ag 33.4 5.8 85.2 38.1 22.7 36.5 2.9 92.6 42.29 17.4 1.5
+95 5
+Cu Ag 36.4 14.1 72.1 28.7 20.8 28.4 7.4 79.4 41 23.17 0
+80 20
+Cu Ag 24.9 20.8 54.4 28.3 26.0 25.2 14.9 62.8 34.6 25.0 0
+60 40
+Ag 0 49.2 0.0 13.5 37.3 0.0 44.8 0.00 13.6 41.6 0
+2
+
+
+===== PAGE 44 =====
+
+Figure S1 XPS survey of samples with varying Ag contents.
+Figure S2 LEIS survey of samples with various Ag concentrations. (a) Samples before eCO2RR. Spectra were
+taken without any pre-treatment of the samples. O was from the oxidation of Cu and Ag, considering that the
+samples were stored in the atmosphere. No impurity elements were detected. (b) Samples after eCO2RR for 2
+hours. The sample surface was carefully rinsed with MilliQ water and dried with pressed air before the test. Dash
+lines indicate the peak position of the corresponding element. K was from the not fully removed electrolyte after
+eCO2RR. No signal related to Ir was found in any sample.
+3
+
+
+===== PAGE 45 =====
+
+Figure S3 SEM images of a) pure Cu, b) Cu80Ag20, and c) pure Ag.
+Figure S4 EDS elemental mapping images of a) pure Cu, where O comes from oxidized Cu; b) Cu Ag , and c) Ag.
+80 20
+4
+
+
+===== PAGE 46 =====
+
+2. ELECTROCHEMICAL CO
+2
+REDUCTION MEASUREMENTS
+K CO solutions were prepared by dissolving K CO (99.995% trace metals basis, Aldrich) into MilliQ
+2 3 2 3
+water (18.2 MΩ.cm @25°C, 2ppb TOC, Q-POD®). 0.1M KHCO solution was prepared by purging CO
+3 2
+(N45, Air Liquide) into 0.05 M K CO solution for at least 30min, until pH~6.8.
+2 3
+Electrochemical CO reduction was carried out in a 2-chamber H-cell in the 3-electrode configuration.
+2
+The two chambers were separated by a hydrocarbon-based ion-exchange membrane (Selemion AMV,
+AGC Engineering CO., LTD.), activated in 0.1 M KOH (99.995% trace metals basis, Sigma-Aldrich)
+overnight, and stored in MilliQ water. The liquid volume of both chambers is 6.5 mL, whereas the
+actual electrolyte volume was 6.0 mL in both chambers. The cathode chamber was purged with CO
+2
+at 10 sccm for the duration of the experiment. An IrO -coated carbon paper (1.0 cm x 1.0 cm, Dioxide
+2
+Materials) and a miniature leak-free Ag/AgCl/Saturated KCl electrode (Innovative Instruments Inc.)
+were used as the counter and reference electrode, respectively.
+A stagnant H-cell was chosen because the current is more stable without electrolyte flow. Moreover,
+it allows for concentrating on the intrinsic performance of the catalysts by minimizing potential
+influence from unstable liquid flow and/or dead volumes, as well as varied mass transfer conditions
+in different runs.
+Electrochemical experiments were controlled using a BioLogic SP-200 potentiostat. Unless otherwise
+stated, the working electrode potential (E ) was recorded and referenced against the Ag/AgCl
+WE
+reference electrode (RE), which was then converted and reported in terms of the reversible hydrogen
+electrode (RHE) scale following the equation below. The RE was calibrated following the procedure
+described in 1 before use.
+E = E +E +0.059×pH (1)
+RHE WE RE
+Prior to each measurement, a 10 min chronoamperometry (CA) at -0.2 V vs. RHE was applied to reduce
+the CuO layer, which was naturally formed when metallic Cu (or the Cu phase in CuAg bimetallic
+x
+catalysts) was exposed to air. This potential was chosen because it is more negative than the CuO
+x
+reduction potential (0.35 V vs. RHE) while not sufficiently reductive to produce detectable products.
+Cyclic voltammetry (CV) was then scanned in the potential window of -0.2 to +0.7 V three times. The
+redox features were used to primarily check the consistency of the same sample in different runs. A
+constant potential of -1.0 V vs. RHE was then applied and kept for 2 hours. Gas products were analyzed
+in situ with gas chromatography (GC, Thermo-Scientific, TRACE 1300), while liquid products were
+collected at the end of the experiment and analyzed with high-performance liquid chromatography
+(HPLC, Agilent 1200 series). eCO2RR measurements were conducted three times for each sample.
+Figure S3 is a screenshot of the HPLC data processing software (since the diode array detector (DAD)
+was used for detecting acetaldehyde, only DAD signals are shown here). Insert is enlarged area
+highlighting acetaldehyde. Different products are ladled in highlighted area. Four spectra are shown
+here: 0.1 M KHCO3 electrolyte (red), post-mortem electrolyte after CO2R reaction on Cu (purple),
+Cu80Ag20 (yellow), and Cu60Ag40 (green). It gives an example to show the sensitivity of our HPLC
+equipment in detecting acetaldehyde. It can be seen that the signal-to-noise ratio is sufficient even at
+5
+
+
+===== PAGE 47 =====
+
+the lowest acetaldehyde concentration (i.e., on pure Cu, read line) for accurately investigating product
+selectivity.
+Figure S5 Screenshot of the HPLC data processing software. Insert is enlarged area highlighting
+acetaldehyde. Different products are ladled in highlighted area. Four spectra are shown here: 0.1 M
+KHCO electrolyte (red), post-mortem electrolyte after CO2R reaction on Cu (purple), Cu Ag (yellow),
+3 80 20
+and Cu Ag (green). The selectivity of each product was determined by its Faradaic efficiency,
+60 40
+following Faraday’s law:
+z×F×𝑛 i (2)
+FE = ×100%
+i I ×t
+T
+where, z is the number of transferred electrons for producing species i, F is the Faraday’s constant
+(96485 C/mol), 𝑛 is the number of moles of produced species i; 𝐼 is the total current of the reaction,
+i 𝑇
+and t is the reaction time.
+Specifically, gas products are calculated following the equation:
+z×F×P×v Total (3)
+FE = ×𝐴 ×f ×100%
+i I×R×T i,GC i,GC
+where, P is the atmosphere pressure (101.325 kPa), 𝑣 is the inlet CO gas flow rate (10 sccm), T
+𝑇𝑜𝑡𝑎𝑙 2
+is room temperature (300 K), 𝐴 is the integrated peak area of species i in GC, and 𝑓 is the
+𝑖,𝐺𝐶 𝑖,𝐺𝐶
+calibration factor of species i in GC. (As the total conversion is small, inlet CO gas flowrate is a
+2
+reasonable approximation for outlet flow rate in this situation.)
+Liquid products are measured by the following equation:
+z×F×V × A i,HPLC (4)
+Total f
+i,HPLC
+FE = ×100%
+i Q
+where, 𝑉 is the total volume of the cathode chamber (6 mL), T is room temperature (300 K),
+𝑇𝑜𝑡𝑎𝑙
+𝐴 is the integrated peak area of species i in HPLC, and 𝑓 is the calibration factor of species i
+𝑖,𝐻𝑃𝐿𝐶 𝑖,𝐺𝐶
+in HPLC.
+Current densities were based on the geometric area of the working electrode (2.25 cm2). Partial
+current density of each product was evaluated by the following equation:
+6
+
+
+===== PAGE 48 =====
+
+j = j ×FE (5)
+i Total i
+where, 𝑗 is the total geometric current density.
+𝑇𝑜𝑡𝑎𝑙
+Productivity 𝑆 of each product with respect to the produced number of moles are calculated in the
+i
+following way:
+𝑛
+i (6)
+𝑆 = ×100%
+i ∑𝑖=𝑛𝑛
+𝑖=1 i
+For gas products:
+P×v Total (7)
+n = ×𝐴 ×f
+i R×T i,GC i,GC
+For liquid products:
+V × A i,HPLC (8)
+Total f
+i,HPLC
+n =
+i Q
+Figure S6 eCO2RR performance test conducted in an H-cell in CO-saturated 0.1 M KHCO aqueous solution at -1 V vs. RHE
+2 3
+for 2 hours, plotted in selectivity regarding produced number of moles. CO was continuously purged to the solution at 10
+2
+sccm during eCO2RR. a) Faradaic efficiency of all detected products. b) Faradaic efficiency ratio between *CO-originated
+products depending on the involvement of C-C coupling during formation process as a function of Ag contents. c) Faradaic
+efficiency of H and CH (CH , CH , CH , CH , and C H ) as a function of Ag content. d) Faradaic efficiencies of CO as a
+2 x y 4 2 4 2 6 3 6 3 8 2
+function of Ag content. e)-g) Faradaic efficiencies of *CO-originated products classified on C-O bond as a function of Ag
+content: e) other carbonyls (glyoxal, acetate, and hydroxy acetone; formate is not included), f) aldehydes (glycolaldehyde,
+acetaldehyde, and propionaldehyde), g) alcohols (ally alcohol, ethanol, and propanol).
+7
+
+
+===== PAGE 49 =====
+
+3. OPERANDO X-RAY MEASUREMENTS
+3.1 Experimental Details
+All operando X-ray measurements were conducted at the Stanford Synchrotron Radiation Lightsource
+(SSRL) at ambient pressure and room temperature. Electrochemistry was controlled using a BioLogic
+SP-200 potentiostat.
+Operando GIXRD was conducted at beamline 2-1, using a Si (111) monochromator and beam energy
+of ~17 KeV (0.729 Å). Operando GIXAS on the Cu K-edge in both X-ray absorption near edge structure
+(XANES) and the extended X-ray absorption fine structure (EXAFS) regions were collected at beamline
+11-2, using a Si (220) LN2-cooled monochromator and a 100-pixel monolithic solid-state Ge detector
+array, in the transmission mode.
+A previously designed 3D-printed flow cell was employed in XRD and XAS at the Cu K-edge (~ 9 keV)
+to enable the grazing incident configuration of the sample while maintaining a higher horizontal
+alignment of the sample and also maintaining a high transmissivity for X-ray incidence as described in
+2. During operando XAS, the electrolyte being purged with CO gas was pumped through the cell by a
+2
+2-channel peristaltic pump (SHENCHEN LabN6) at 50 mL/min. Cu Ag catalyst samples were
+X 100-X
+prepared on a Si (111) substrate, as described in Session 2.1. Two 50 µm diameter Pt wires (Alfa Aesar,
+99.99%) and a miniature Ag/AgCl electrode (Innovative Instruments Inc.) served as the counter and
+reference electrode, respectively.
+XAS data analysis was processed using SixPack156 3, Athena and Artemis software 4.
+3.2 X-ray Diffraction (XRD)
+Table S2 Structural property and elemental composition of samples in operando XRD measurements at E =
+17 keV (λ = 0.0927 nm).
+Molar Molar
+Lattice Lattice
+Sample 2θ (⁰) composition composition
+spacing (Å) constant (Å)
+of Cu (%) of Ag (%)
+Cu 20.18 2.08 3.60 100 0
+Ag 17.83 2.35 4.07 0 100
+Ag-rich phase
+18.16 2.31 4.00 15.85 84.15
+in Cu Ag
+80 20
+Cu-rich phase
+19.34 2.17 3.76 67.14 32.86
+in Cu Ag
+80 20
+# The elemental molar fraction is calculated according to Vegard's law.
+8
+
+
+===== PAGE 50 =====
+
+Table S3 X-ray penetration depth calculation in operando XRD measurements: attenuation and penetration
+depth calculation at α = 0.15⁰, E = 17 keV.
+Penetrated
+Density Penetration Lattice spacing
+Sample monolayer
+(g/cm3)# depth (nm)¤ (Å)
+numbers
+Cu 8.96 2.76 2.08 13.89
+Ag 10.49 2.42 2.35 10.77
+Ag-rich phase in
+10.25 2.23 2.31 9.65
+Cu Ag
+80 20
+Cu-rich phase in
+9.47 2.43 2.17 11.20
+Cu Ag
+80 20
+# The density of each phase in Cu Ag was estimated by assuming a linear molar combination of Cu and Ag.
+80 20
+¤ Penetration depth was calculated based on Beer-Lambert law, assuming the primary intensity is reduced to
+i~1/e (i.e., ~37% of the initial value.
+Table S4 Estimation on the crystal size in operando XRD measurements.
+FWHM Crystallite size
+Sample 2θ (⁰)
+width (⁰)
+(nm)$
+Cu 20.18 0.22 18.15
+Ag 17.83 0.69 5.82
+Ag-rich phase in
+18.16 0.87 4.56
+Cu Ag
+80 20
+Cu-rich phase in
+19.34 1.44 2.77
+Cu Ag
+80 20
+$ Crystal size was calculated by Scherrer’s formula. The Scherrer constant was 0.94 by assuming spherical
+crystallites with cubic symmetry.
+9
+
+
+===== PAGE 51 =====
+
+Table S5 XRD peak match between operando and ex situ measurements
+2θ (⁰)
+Facet
+Operando (17keV) Ex situ (8.04 keV)
+Ag (1 1 1) 17.88 38.33
+Ag (0 0 2) 20.67 44.54
+Ag (0 0 2) 29.29 64.56
+Cu (1 1 1) 20.23 43.54
+Cu (0 0 2) 23.36 50.63
+Cu (0 2 2) 33.24 74.34
+CuO (2 1 1) 17.01 36.43
+CuO (1 1 1) 18.07 38.75
+CuO (2 0 0) 18.15 38.93
+CuO (1 1 -3) 28.04 61.55
+3.3 X-ray Absorption Spectroscopy (XAS) on the Cu K-edge
+Figure S7 Operando GIXAS surface sensitivity verification on Cu: a) XANES region at different grazing incident
+angles. Solid lines: XANES scans at various incident angle θ; dash lines: reference scans of different Cu oxidation
+state that were previously taken at the same beamline with the identical setup 2. The stronger absorption
+intensity at θ < 0.2⁰ at the edge energy (~ 9 keV) compared to θ ≥ 0.2⁰ indicates the more oxidative Cu state.
+However, a slightly large incident angle is necessary to compensate the weak absorption intensity. Therefore,
+0.25⁰ was chosen as the incident angle for the following GIXAS measurements. B) EXAFS plotted in the k space
+at θ 0.25⁰. Solid line: scan plotted in the k space at the incident angle θ 0.25⁰. Dashed lines: reference scans of
+Cu and Cu O.
+2
+10
+
+
+===== PAGE 52 =====
+
+Table S6 Operando GIXAS surface sensitivity verification: attenuation and penetration depth calculation at α
+= 0.25⁰, E = 9 keV
+Density Penetration Lattice spacing Penetrated
+Sample
+(g/cm3) depth (nm) ¤ (Å)£ monolayer numbers
+Cu 8.96 2.89 2.08 13.89
+Ag 10.49 2.53 2.35 10.77
+Ag-rich phase in
+10.25 2.55 2.31 11.04
+Cu Ag
+80 20
+Cu-rich phase in
+9.47 2.77 2.17 12.77
+Cu Ag
+80 20
+¤ Penetration depth was calculated based on Beer-Lambert law.
+£ Lattice spacing was calculated from XRD, based on (111) facet for both Cu and Ag, as it is the most
+prominent phase shown in XRD.
+Figure S8 a) Illustration of XANES data normalization: the raw data (µ(𝐸)) is extracted by the sooth background
+(µ (𝐸)), and divided by peak height (∆µ (𝐸)). This is to eliminate the influence of energy absorbed by other
+𝐵𝐾𝐺 0
+compartments other than the sample itself. In the case of CuAg alloy, the energy can also be absorbed by Ay atoms in the
+pre-edge region. µ (𝐸) is the smooth “bare-atom” background in the EXAFS fine-structure function and is not for XANES. b)
+0
+Heat map of operando XAS scans ay the Cu K-edge in the zoomed in XANES region of 8985-9010 eV of the Cu Ag
+80 20
+sample.
+11
+
+
+===== PAGE 53 =====
+
+Figure S9 Raw XANES profile (i.e., without background extraction or signal intensity normalization) of (a) Cu Ag at OCV
+80 20
+(black) and during eCO2RR (red), (b) Cu at OCV (black) and during eCO2RR (red) and (c) Cu reference (black) and Cu O
+2
+reference (red). The XANES signal intensity and noise-to-charge ratio in the Cu Ag alloy (a) is lower than that of the pure
+80 20
+Cu sample (b) in general, which can be attributed to the lower Cu composition and worse crystallinity in the alloy.
+Figure S10 XAS R space (k-2 weight) peak identification on the Cu K-edge.
+12
+
+
+===== PAGE 54 =====
+
+In order to investigate how the electronic interaction contributes to the facilitated acetaldehyde and
+other carbonyl production, EXAFS measurements on the Cu-edge were Fourier-transformed to radial
+distance R (i.e., R space) to inspect its local chemical environment. Figure S6 gives a primary
+assignment of peak positions in the pure Cu sample compared with the metallic and Cu O references,
+2
+where the interatomic distance information surrounding the central atom (i.e., Cu) is given as the R-
+value. Since atoms in the first shell predominantly contribute to the coordination environment of the
+central atom 5,6, only R values below 3 Å are considered in this work. This is because 3 Å is normally
+the maximal bond length of the first shell and greater R numbers usually suggest atoms beyond the
+first shell or multiple scattering 7. The peak at R ~2.25 Å is assigned to the first Cu-Cu shell (all R values
+in this work are phase uncorrected without further notice), while the peak located at ~1.6 Å is
+attributed to the first Cu-O shell, which agrees with the previous studies 8,9.
+Figures S7b and S7c depicted R space starting after 30 minutes of testing (Cu-30 min) on Cu and
+Cu Ag , respectively. The observed peaks can be attributed to two main areas contributed by
+80 20
+different atomic shells, as compared to Cu and Cu O references (Figure 8a). The peak centered at ~R
+2
+1.5 Å is usually assigned to the Cu-O or Cu-C shell, which is normally attributed as the indication of
+CuO 5,10. However, our GIXRD (Figure 5) and XANES (Figure 6a) results have pointed out that Cu was
+x
+in its metallic state after the first 20 min. Additionally, considering that all intermediates produced
+during eCO2RR bind on the Cu surface with either C or O atom(s), and that EXAFS only indicates the
+existence of an atom at a given distance while fails in atom identification, one potential explanation
+for peak B is the adsorption of intermediate species. Therefore, the greatly attenuated peak B upon
+Ag adsorption might suggest a suppressed intermediate adsorption upon Ag incorporation.
+The peak centered at ~R 2.25 Å is normally attributed to the first Cu-Cu or Cu-Ag shell 8,10,11. Again,
+since EXFAS does not identify the neighboring atoms, and considering the close atomic number of Cu
+and Ag, both shells can contribute to this wide peak. Additionally, considering that XRD results (Figure
+5) indicate the co-existence of two phases in the sample, one to be Cu-rich (where Cu is the majority
+while Ag is the minority) and the other Ag-rich (where Cu is the minority while Ag is the majority), and
+that EXAFS gives an averaged information for all the detected Cu atoms, the current peak at ~R 2.25
+Å exhibits the interatomic bond distance convoluted with six circumstances upon Ag introduction: i)
+Cu-Cu right next to Ag in the Cu-rich phase, ii) Cu-Cu outreached the close neighbor of Ag in the Cu-
+rich phase, iii) Cu-Ag in the Cu-rich phase, iv) Cu-Cu right next to Ag in the Ag-rich phase, v) Cu-Cu
+outreach the closest neighbor of Ag in the Ag-rich phase, and vi) Cu-Ag in the Ag-rich phase. With such
+a complicated and convoluted information, it is difficult to draw any concrete conclusion on the strain
+effect of Ag introduction on the Cu-Cu bond.
+13
+
+
+===== PAGE 55 =====
+
+Figure S11 Fourier-transformed EXAFS R space spectra (k-2 weight) on the Cu K-edge on a) Cu and Cu O references, b)
+2
+pure Cu sample, and c) Cu Ag sample as a function of time during eCO2RR.
+80 20
+Ag L -edge (~ 3.4 keV) tender XANES was performed at beamline 4-3 using a LN2 cooled Si (111)
+3
+monochromator at ϕ =0°, in the fluorescence mode with a Lytle detector. A custom-designed back
+illumination bottle cell allowed the X-ray incident to transmit 12. Owing to the soft excitation energy
+required for Ag L -edge, the catalysts were deposited on an ultra-thin 7.5 µm thick Kapton foil to
+3
+mitigate X-ray attenuation. The layer configuration from the bottom (right next to the substrate) to
+the top is as the following (Figure S1): i) Ti interlayer (~10 nm) providing a better adhesion); ii) Cu
+sublayer (~ 100 nm) to help maintain the mechanical stability without introducing foreign elements in
+addition to Cu and Ag during deposition; and iii) the catalyst layer CuAg (~ 5 nm), which is so thin that
+the incident X-ray beam can easily reach the catalyst/electrolyte interface. The total transmission at
+the Ag L-edge energy (~3.35 keV) was calculated to be above 85% 13. During the operando XANES scans,
+CO was continuously purged in the electrolyte at 10 sccm. A graphite rod (Ted Pella) and the same
+2
+miniature Ag/AgCl electrode as abovementioned functioned as the counter and reference electrode,
+respectively. While XANES experiments were also employed to record the Ag L -edge, these variations
+3
+were quite small and were relatively inconclusive.
+14
+
+
+===== PAGE 56 =====
+
+3.4 X-ray Absorption Spectroscopy (XAS) on the Ag L-edg
+Figure S12 Sample configuration and X-ray transmission of each layer of back-scattered bottle cell used for XAS
+measurements on the Ag L -edge at beamline 4-3
+3
+Figure S13 Operando XAS scans at Ag L3-edge in the near-edge region (XANES) durinng eCO2RR of samples with different
+Ag content, compared with the Ag foil reference, indicated by dashed lines. Arrows emphasize peak position shift.
+15
+
+
+===== PAGE 57 =====
+
+4. COMPUTATIONAL METHODS
+The first principles analyses have been performed by density functional theory (DFT) calculations
+applying the Vienna ab initio package (VASP) 14. A plane wave cut-off energy of 500 eV was used
+throughout, combined with the BEEF-vdW exchange correlation functional 15. Periodic boundary
+conditions where applied and the number of k-points were varied based on the respective unit cell
+sizes. For surface calculations, a vacuum layer of at least 14 Å was added perpendicular to the slab
+surface, only one k-point was applied in this direction together with a dipole correction to avoid
+artificial interaction of repeated slabs. The charge distributions in the CuAg compositions were
+determined via Bader charge decomposition. Both the bulk and surface compositions at varying Cu/Ag
+ratios were sampled by comparing all symmetrically inequivalent atom distributions and optimizing
+both the atomic positions and lattice cell parameters. Bulk structures consisting of up to 64 atoms
+were considered. The most stable structures at each simulated CuAg composition were chosen for the
+analyses in this article. Segregation energies were calculated as the potential energy difference of a 6-
+layer thick Cu-slab being doped by Ag on the surface or in the 4th layer.
+All theoretical data and analysis routines can be retrieved from
+https://gitlab.com/gkastlun/cuag_for_c2.git.
+Figure S14 Surface segregation energy of dilute Ag in Cu on a series of surface facets
+16
+
+
+===== PAGE 58 =====
+
+Figure S15 DFT-Calculated formation energies of CuAg crystals with varying composition. All possible CuAg arrangements
+in 2x2x2 and 3x3x3 unit cells were sampled. No stable phase of a CuAg alloy has been identified
+Figure S16 DFT-Calculated volume per atom in a CuAg bulk crystal in dependence of the Ag content. The volume per atom
+was chosen instead of the lattice constant as varying arrangements of Ag in Cu lead to slight deviations from the cubic
+symmetry into a tetragonal crystal.
+17
+
+
+===== PAGE 59 =====
+
+Figure S17 Net mean charge per atom for Cu and Ag atoms in a bulk fcc crystal of varying composition, resulting from
+Bader charge analysis.
+Figure S18 DFT calculated Cu-Cu radial distance in CuxAg100-x at varying Ag content right next to the introduced Ag atoms
+in bulk.
+18
+
+
+===== PAGE 60 =====
+
+Figure S19 DFT calculated binding energies of *CO and *OH on the (100) and (211) facets of Cu at varying amounts of
+strain on the crystal.
+Figure S20 DFT calculated scaling line of *OCH CH with *OH, justifying the use of the latter as a descriptor for the binding
+2 3
+of oxygenate intermediates.
+19
+
+
+===== PAGE 61 =====
+
+Figure S21 DFT calculated Cu d-band centers in dependency of the number of Ag nearest neighbors.
+20
+
+
+===== PAGE 62 =====
+
+5. REFERENCES
+(1) Zamora Zeledón, J. A.; Jackson, A.; Stevens, M. B.; Kamat, G. A.; Jaramillo, T. F. Methods—A
+Practical Approach to the Reversible Hydrogen Electrode Scale. J. Electrochem. Soc. 2022, 169
+(6), 066505. https://doi.org/10.1149/1945-7111/ac71d1.
+(2) Farmand, M.; Landers, A. T.; Lin, J. C.; Feaster, J. T.; Beeman, J. W.; Ye, Y.; Clark, E. L.; Higgins,
+D.; Yano, J.; Davis, R. C.; Mehta, A.; Jaramillo, T. F.; Hahn, C.; Drisdell, W. S. Electrochemical
+Flow Cell Enabling: Operando Probing of Electrocatalyst Surfaces by X-Ray Spectroscopy and
+Diffraction. Phys. Chem. Chem. Phys. 2019, 21 (10), 5402–5408.
+https://doi.org/10.1039/c8cp07423b.
+(3) Webb, S. M. SIXpack: A Graphical User Interface for XAS Analysis Using IFEFFIT. Phys. Scr. T
+2005, T115, 1011–1014. https://doi.org/10.1238/Physica.Topical.115a01011.
+(4) Ravel, B.; Newville, M. ATHENA, ARTEMIS, HEPHAESTUS: Data Analysis for X-Ray Absorption
+Spectroscopy Using IFEFFIT. J. Synchrotron Radiat. 2005, 12 (4), 537–541.
+https://doi.org/10.1107/S0909049505012719.
+(5) Herzog, A.; Bergmann, A.; Jeon, H. S.; Timoshenko, J.; Kühl, S.; Rettenmaier, C.; Lopez Luna,
+M.; Haase, F. T.; Roldan Cuenya, B. Operando Investigation of Ag-Decorated Cu2O Nanocube
+Catalysts with Enhanced CO2 Electroreduction toward Liquid Products. Angew. Chemie - Int.
+Ed. 2021, 60 (13), 7426–7435. https://doi.org/10.1002/anie.202017070.
+(6) Wang, X.; Wang, Z.; Zhuang, T.; Dinh, C.; Li, J.; Nam, D.; Li, F.; Huang, C.; Tan, C.; Chen, Z.; Chi,
+M.; Gabardo, C. M.; Seifitokaldani, A.; Todorović, P.; Proppe, A.; Pang, Y.; Kirmani, A. R.;
+Wang, Y.; Ip, A. H.; Richter, L. J.; Scheffel, B.; Xu, A.; Lo, S.; Kelley, S. O.; Sinton, D.; Sargent, E.
+H. Efficient Upgrading of CO to C3 Fuel Using Asymmetric C-C Coupling Active Sites. Nat.
+Commun. 2019, 10 (1), 5186. https://doi.org/10.1038/s41467-019-13190-6.
+(7) Newville, M. Fundamentals of XAFS. Rev. Mineral. Geochemistry 2014, 78 (1), 33–74.
+https://doi.org/10.2138/rmg.2014.78.2.
+(8) Chang, C. J.; Lin, S. C.; Chen, H. M. H. C. H. M. H. C.; Wang, J.; Zheng, K. J.; Zhu, Y.; Chen, H. M.
+H. C. H. M. H. C. Dynamic Reoxidation/Reduction-Driven Atomic Interdiffusion for Highly
+Selective CO2Reduction toward Methane. J. Am. Chem. Soc. 2020, 142 (28), 12119–12132.
+https://doi.org/10.1021/jacs.0c01859.
+(9) Xu, Y.; Li, C.; Xiao, Y.; Wu, C.; Li, Y.; Li, Y.; Han, J.; Liu, Q.; He, J. Tuning the Selectivity of Liquid
+Products of CO2RR by Cu-Ag Alloying. ACS Applied Materials and Interfaces. 2022, pp 11567–
+11574. https://doi.org/10.1021/acsami.2c00593.
+(10) Hoang, T. T. H.; Verma, S.; Ma, S.; Fister, T. T.; Timoshenko, J.; Frenkel, A. I.; Kenis, P. J. A.;
+Gewirth, A. A. Nanoporous Copper-Silver Alloys by Additive-Controlled Electrodeposition for
+the Selective Electroreduction of CO2 to Ethylene and Ethanol. J. Am. Chem. Soc. 2018, 140
+(17), 5791–5797. https://doi.org/10.1021/jacs.8b01868.
+(11) Kottakkat, T.; Klingan, K.; Jiang, S.; Jovanov, Z. P.; Davies, V. H.; El-Nagar, G. A. M.; Dau, H.;
+Roth, C. Electrodeposited AgCu Foam Catalysts for Enhanced Reduction of CO2 to CO. ACS
+Appl. Mater. Interfaces 2019, 11 (16), 14734–14744.
+https://doi.org/10.1021/acsami.8b22071.
+(12) Gibbons, B. M.; Wette, M.; Stevens, M. B.; Davis, R. C.; Siahrostami, S.; Kreider, M.; Mehta, A.;
+Higgins, D. C.; Clemens, B. M.; Jaramillo, T. F. In Situ X-Ray Absorption Spectroscopy
+Disentangles the Roles of Copper and Silver in a Bimetallic Catalyst for the Oxygen Reduction
+Reaction. Chem. Mater. 2020, 32 (5), 1819–1827.
+https://doi.org/10.1021/acs.chemmater.9b03963.
+21
+
+
+===== PAGE 63 =====
+
+(13) Henke, B. L.; Gullikson, E. M.; Davis, J. C. X-Ray Interactions: Photoabsorption, Scattering,
+Transmission, and Reflection at E = 50-30, 000 EV, Z = 1-92. Atomic Data and Nuclear Data
+Tables. 1993, pp 181–342. https://doi.org/10.1006/adnd.1993.1013.
+(14) Kresse, G.; Furthmüller, J. Efficiency of Ab-Initio Total Energy Calculations for Metals and
+Semiconductors Using a Plane-Wave Basis Set. Comput. Mater. Sci. 1996, 6 (1), 15–50.
+https://doi.org/10.1016/0927-0256(96)00008-0.
+(15) Wellendorff, J.; Lundgaard, K. T.; Møgelhøj, A.; Petzold, V.; Landis, D. D.; Nørskov, J. K.;
+Bligaard, T.; Jacobsen, K. W. Density Functionals for Surface Science: Exchange-Correlation
+Model Development with Bayesian Error Estimation. Phys. Rev. B 2012, 85 (23), 235149.
+https://doi.org/10.1103/PhysRevB.85.235149.
+22

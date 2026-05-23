@@ -1,0 +1,865 @@
+
+
+===== PAGE 1 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+A chelate to break diffusion limits on
+Helmholtz plane for CO electroreduction to
+2
+ethanol
+Received:15April2025 WenbinLi1,ChangYu 1 ,XuedanSong1,YafangZhang1,XinyiTan1,
+WenxinYang1,WeizheLiu1,YiYang1&JieshanQiu2
+Accepted:6August2025
+ThedistributionofanionswithintheHelmholtzplanefeaturesadetermined
+Checkforupdates effectonthereactionselectivityofCO electroreductionreaction(CO RR).
+2 2
+However,theconventionalanionsdiffusionapproachfromthebulkelectro-
+lytetotheelectrode-electrolyteinterfaceishamperedbydiffusivemass
+transferresistanceandelectrostaticrepulsion,resultingindifficultiesinfast
+anionsenrichmentwithintheHelmholtzplane.Herein,Cuchelatesaresys-
+tematicallyscreened,andacitrate-coordinatedCuchelatefeaturingrapid
+interfacialwettabilityreversalandminimumreconstructionpotentialis
+developedtoenrichthecitrateanion(CA)intheHelmholtzplaneinsteadofin
+bulksolutionandbreaktheanionsdiffusionlimitstoachieveaninternalinside
+toon-surfacediffusionbeyondthetraditionalexternaloutsidetoabove-
+surfacediffusion.TheenrichedCAatthereactioninterfaceisabletomodulate
+thereactionpathwayandaccelerateC H OHelectrosynthesis,inwhicha
+2 5
+Faradaicefficiencyof55.3%andpartialcurrentdensityof297mAcm−2for
+C H OHareachieved.Thissystemopensanavenuetorefineinterfacial
+2 5
+microenvironmentbydesigningmetalchelatesforhigh-efficiency
+electrocatalysis.
+Modulating the microenvironment of electrified Helmholtz plane at activeelectrolyteadditivestotheelectrodesurface12,13.Thisdiffusion
+sub-nanoscaleandregulatingthetransportbehaviorofionsbetween behaviorfromthebulkphasetothesurfaceisaffectedandgoverned
+the bulk electrolyte and the electrical double-layer (EDL) can sig- byFrumkineffects14,featuringthecross-scale,long-range,andtime-
+nificantly improve the electrochemical performance and alter the consumingspatial&temporalcharacteristics(Fig.1a).The diffusive
+selectivity and activityof electrochemical reactions1–4,especially for mass transfer resistance together with electrostatic repulsion inter-
+star-levelCO electroreductionreaction(CO RR)withcomplexreac- action impede the migration of anions from the bulk phase to the
+2 2
+tion pathways and products distribution over Copper (Cu)-based diffusion layer of cathode and further to the Helmholtz plane con-
+electrocatalysts5–9.Thenear-surfaceanionsonthe electrodesurface sistingofinnerandouterHelmholtzlayer(IHPandOHP)whereCO RR
+2
+canalterthestructureofEDL,ionicinteractionsandthedistributionof occurs.Thislong-range,outsidetoabove-surfacediffusionbehavior
+interfacialwater,aswellasstabilizereactionintermediates,thereby acrossscalesdeterminesthesignificantlylowanionconcentrationat
+significantlyregulatetheactivityandselectivityofCO electroreduc- theinterface(C)thaninthebulkphase(C ),producingaspatiallyand
+2 i b
+tion, verified by theoretical simulation and experiment10,11. Never- temporallyscale-limitedslowresponserate,leadingtoasuboptimal
+theless,theregulationofthelocalchemicalmicroenvironmentinthe electrochemical performance. Thus, once the diffusion behavior is
+Helmholtzplaneisachievedbytheconcentration-drivenmigrationof shifted to inside to on-surface, which is characterized by short
+1StateKeyLaboratoryofFineChemicals,FrontierScienceCenterforSmartMaterials,LiaoningKeyLaboratoryforEnergyMaterialsandChemicalEngineering,
+SchoolofChemicalEngineering,DalianUniversityofTechnology,Dalian116024,China.2StateKeyLaboratoryofChemicalResourceEngineering,Collegeof
+ChemicalEngineering,BeijingUniversityofChemicalTechnology,Beijing100029,China. e-mail:chang.yu@dlut.edu.cn;qiujs@mail.buct.edu.cn
+NatureCommunications|( 2025)1 6:8390 1
+;,:)(0987654321 ;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+Fig.1|Schemeforthedifferentdiffusionapproachesattheinterfacebetween concentrationintheHelmholtzplanecomparedtothatinthebulksolution.
+theproposedchelatecatalystandtheconventionalsystem.aOutsidetoabove- bInsidetoon-surfacediffusionachievedbydirectlyin-situreleasinganionsfrom
+surfacediffusiondrivenbytheconcentrationdifferenceinconventionalsystem, catalysttotheHelmholtzplane,whichbreaksdiffusionlimitsandcorrespondsto
+whichwasachievedbymigrationofelectrolyteadditivesfrombulksolutionto ananion-enrichedinterfacialstructure.
+diffusionlayerandfurthertheHelmholtzplane,correspondingtoaloweranion
+diffusiondistanceandfastdiffusionrate,itwillbepossibletobreak chelatecharacterizedbybothrapidinterfacialwettabilityreversaland
+throughthediffusionlimitationandenrichtheanionsintheHelmholtz minimum reconstruction potential, emerged as an ideal electro-
+planeatthemicroscopicscale(C >C ),whicharehighlyessentialfor catalysttoin-siturapidlyreleasecitrateanion(CA)totheHelmholtz
+i b
+theoptimizationofCO RRprocess. plane, thereby creating an anion-enriched sub-nano interface and
+2
+Asabran-newsolution,theinternalinsidetoon-surfacediffusion governingtheselectivityofthecomplicatedCO RR.Experimentally,
+2
+behavior in the Helmholtzplane could shorten the anionsdiffusion thelarge-scalefabricationofthecitrate-coordinatedCuchelatewas
+pathway and time on spatial and temporal scales, correspondingly carriedoutina5Lreactor,producingapproximately320ginasingle
+refraining the diffusive mass transfer resistance and creating the batch. The electrocatalyst after reconstruction, denoted as CA Cu,
+favored microenvironments to determine the selectivity of CO RR, containedabundantmetallicCuthatservedasactivesitesaswellasa
+2
+which are inaccessible for conventional external outside to above- uniqueHelmholtzplaneenrichedwithCA,demonstratingaFaradaic
+surfacediffusionapproach(Fig.1b).Thisinsidetoon-surfacediffusion efficiency(FE)andapartialcurrentdensity(j)towardC HOHof55.3%
+2 5
+processcanbeideallyrealizedbyin-situreleasingtheanionsfromthe and 297mAcm−2. In-situ spectroscopy techniques verified the inter-
+uniquechelatecatalysttothesub-nanoHelmholtzplane.Specially,the molecular interactions between the CA and H O and their positive
+2
+chelate needs to be characterized by rapid reconfiguration and influenceforenhancedC–CcouplingandsynthesisofC chemicals.
+2+
+hydrophilic-to-hydrophobicinterfacialwettabilityreversaltoachieve TheoreticalcalculationsrevealedthattheCAmoleculeadsorbedon
+anionsenrichmentattheHelmholtzplaneandpromoteCO RRpro- theCucatalystsurfaceweakenedtheCu–Obondaswellasstabilized
+2
+cess,beingamajorchallenge.Oncethehydrophilicchelateundergoes the C–O bond in the *OC H intermediate, thus turning the bond
+2 3
+rapidreconstruction/phasetransformation,thein-situreleasedanions cleavageorderandretainingtheOatomintheintermediate,which
+will be fast enriched at the Helmholtz plane, where the optimized facilitated the electrosynthesis of C HOH, an oxygen-containing
+2 5
+interfacial structure and reconfigured hydrophobic catalyst will be chemical, correspondingly inhibited the production of C H ,a non-
+2 4
+conducive to the favorable CO RR dynamics as well as restricted oxygen-containing hydrocarbon chemical. Notably, a self-healing
+2
+hydrogenevolutionreaction(HER)dynamics.Thisinnovativestrategy processwasachieved by employing the asymmetric pulsed electro-
+willsimultaneouslyyetwhollyoptimizethereactionprocessinterms lysis,wherethelocalmicroenvironmentthatvariedwiththereaction
+ofbothcatalystengineeringandinterfaceengineering. process was rebuilt and rejuvenated, creating a consecutively CA-
+Herein,aCuchelateelectrocatalystwasdevelopedtorealizethe enrichedreactionconditioninHelmholtzplanethatenableda con-
+uniqueinsidetoon-surfacediffusionbeyondthetraditionaloutsideto tinuous C HOH electrosynthesis. The carbon emission of C HOH
+2 5 2 5
+above-surface diffusion, finally breaking the diffusion limits and productionfromCO RRsystemwassignificantlylowerthantraditional
+2
+enrichingtheanionsintheHelmholtzplanetoachieveasignificant coal-to-C HOH and biomass-to-C HOH ways, meanwhile the eco-
+2 5 2 5
+CO -to-CHOHactivity,whichwasneverreporteduptonow.Among nomic viability of C HOH electrosynthesis was demonstrated by
+2 2 5 2 5
+thecomparativelyscreenedaseriesofchelates,citrate-coordinatedCu techno-economicassessment(TEA)analysis.
+NatureCommunications|( 2025)1 6:8390 2
+
+
+===== PAGE 3 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+Fig.2|Screeningofchelates.aDiagramofinterfacialwettabilityreversalfor withCu2+,containingacetate,oxalate,tartrate,acetylacetone,citrate,gluconate,
+hydrophilic-to-hydrophobictransformationaccompaniedbyin-situreleaseof EDTA,andPc.cH2OcontactanglesandinterfacialwettabilityofaseriesofCu
+anionandchangedcontinuouslyconductivenetworkfromelectrolyte-mediated chelates.dFirst-cycledCVcurvesoveraseriesofCuchelates.Colorcode:grey(C),
+conductivenetworktoreconstructedCuandelectrolyte-comediatedcontinuous white(H),red(O),blue(N),orange(Cu).
+conductivenetwork.bSchemeforstructureofaseriesofanionsforcoordinating
+Results CVcurves(Fig.2d),thecitrate-coordinatedCuchelateexhibitedthe
+Screeningofchelates minimumonsetreductionpotentialof−0.74V(vs.RHE,thereafter)as
+As a paradigm, initial hydrophilic Cu chelate featured a favorable well as the maximal reduction peak area, indicating the fast recon-
+contactwiththeelectrolyte,allowingreasonablepermeabilityofthe structionandmetallicCuformation.Althoughoxalate-,acetylacetone-
+H Omolecules,leadingtotheformationofanelectrolyte-mediated ,andacetate-coordinatedCuchelatesexpressedtheonsetreduction
+2
+conductivenetworkforrapidreconstructionandreduction(Fig.2a). potentialsclosetocitrate-coordinatedCuchelate(only0.02Vhigher),
+AccompanyingwiththereconstructionoftheCuchelate,H Owillbe the smaller reduction peak areas were observed from CV curves,
+2
+repelledandretreatedfromthecatalystsurface,whiletheanionswere suggestingamoresluggishreconstructionprocess.Moreover,amore
+releasedanddiffusedfromtheinsidetoon-surface,andwereaswellas negative onsetreduction potentialof −0.95V wasexhibited for tar-
+enrichedintheHelmholtzplane,correspondinglyresultinginforma- trate-andgluconate-coordinatedCuchelatesaswellasapotentialof
+tion of a reconstructed Cu and electrolyte-comediated continuous −1VforEDTA-andPc-coordinatedCuchelates,illustratingtheseCu
+conductive network. This was also sensitive and dependent on the chelateswereweaklyactivatedanddifficulttobereconstructedsuf-
+usedmetal-coordinatedanionstoagreatdegree.Wehaddetailedly ficiently, corresponding to slow release of anions to the sub-nano
+screenedandcomparedaseriesofusedligandsforcopperchelates interface.Inaddition,afterelectrochemicalreconstruction,thecon-
+(Fig. 2b). Indeed, the interfacial wettability and onset reduction tactangleofcitrate-coordinatedCuchelatewaschangedfrom71°to
+potential as descriptors can evaluate the rates of electrocatalysts 94°,verifyingthein-situhydrophilic-to-hydrophobicvariation,which
+reconstruction and anions release. For citrate-, gluconate-, acetate-, willbeconducivetothesubsequentCO RRprocess(Supplementary
+2
+andtartrate-coordinatedCuchelates,thehydrophilicitywasverified Fig. 1). The in-situ Raman technique was employed to monitor the
+bycontactanglemeasurements,inwhichthecitrate-coordinatedCu structure change during electrochemical reconstruction of citrate-
+chelatefeaturedthestrongestwettabilitywithaH Ocontactangleof coordinated Cu chelate, which was able to further determine the
+2
+71°,correspondingto78°,83°,and85°forthegluconate-,acetate-,and reconstructionrateofthechelate(SupplementaryFig.2).Thechar-
+tartrate-coordinatedCuchelates(Fig.2c).Furthermore,theH Ocon- acteristicpeakcorrespondingtothecoordinationofCuandCAwas
+2
+tact angles for oxalate-, acetylacetone-, phthalocyanine (Pc)-, and located at 473cm−1 under open circuit potential condition. The
+ethylene diamine tetraacetic acid (EDTA)-coordinated Cu chelates intensityofthecharacteristicpeaksofCu-CAcoordinationdiminished
+wereallgreaterthan90°withatrendofCuEDTA(130°)>CuPc(125°)> withcontinuousapplyingofthenegativepotential,indicatingthatthe
+Cuacetylacetone(108°)>Cuoxalate(91°). citrate-coordinated Cu chelate underwent electrochemical recon-
+Also, the onset reduction potential or reduction peak area of struction.After270sofreaction,thecharacteristicpeakdisappeared,
+cyclic voltammetry (CV) activation test was correlated with the indicating that the reconstruction was nearly completed, while the
+reconstructionrateoftheCuchelate.Amongtheresultsoffirst-cycled metallic Cu catalyst and a CA-enriched interface were formed. In
+NatureCommunications|( 2025)1 6:8390 3
+
+
+===== PAGE 4 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+Fig.3|Large-scalepreparationandcharacterizationofcitrate-coordinatedCu citrate-coordinatedCuchelate.dSEMimageofcitrate-coordinatedCuchelate.
+catalyst.aThedigitalphotographof5Lreactorforscale-uppreparingofcitrate- eSEM,fTEM,gHR-TEMimagesofelectrochemicallyreconstructedCACu.hIn-situ
+coordinatedCuchelate.bThedigitalphotographofasinglebatchofcitrate- XRDpatternsofcitrate-coordinatedCuchelateinCO2-saturated1MKOHelec-
+coordinatedCuchelatewithamassof320g.cFT-IRspectrumofenlarged-batch trolyte.iCVcurvecollectedinAr-saturated1MKOHforCACu.a.u.arbitraryunits.
+consequence,amongaseriesofCuchelates,thecitrate-coordinated Furthermore, the electrochemical active surface area (ECSA) of
+Cu chelate, featured a relatively strong interfacial wettability, i.e. reconstructed CA Cu was evaluated based on the measurement of
+hydrophilicity, and minimum onset reduction potential compared double-layercapacitance(C ).TheCACuexhibitedalargerC (5.3mF
+dl dl
+withtheotherCuchelates,emergedasthemostdesirableyetideal cm−2)comparedtocommercialCu(2.1mFcm−2),whichimpliedthat
+electrocatalystforachievingfastinterfacialwettabilityreversalandin- the CA Cu possessed more abundant active sites (Supplementary
+situreleaseofaniontoHelmholtzplane. Fig.5).Consequently,theCACufeaturedwell-developedpore,high
+surfaceroughnesscharacteristicsandabundantactivesites,whichwas
+Preparationandcharacterizationofcatalysts conducivetopromotethereactantdiffusionandacceleratethereac-
+Afterscreeningthecitrate-coordinatedCuchelatethatenabledrapid tionkineticsinthesubsequentelectrochemicalprocess.
+interfacialwettabilityreversalandenrichmentofanionintheHelm- Transmission electron microscopy (TEM) and high-resolution
+holtzplane,wefurthercarriedoutascale-upproductionofthisunique TEM(HR-TEM)imagesofreconstructedCACuexhibited thelattice
+catalystina5Lreactor(Fig.3a).UnderthechelationofCA,Cu2+was distance of 0.21 and 0.18nm, corresponding to Cu (111) and (200)
+coordinatedwithcarboxylandhydroxylgroupstoformchelate,and crystalfacets,(Fig.3f,g)15,16.In-situXRDtechniquewasemployedto
+thegeneratedchelatewasgraduallyprecipitatedasthereactiontem- further analyze and verify the evolution of crystalline structure for
+perature increased, and finally a single batch of 320g of citrate- citrate-coordinatedCuchelateduringelectrochemicalreconstruction
+coordinated Cu chelate product was obtained after post-treatment (Fig. 3h,SupplementaryFig.6). Fromthein-situXRDpatterns,new
+(Supplementary Fig. 3, 3b). The structure of enlarged-batch citrate- diffractionpeakslocatedat43°and50°correspondingtothe(111)and
+coordinated Cu chelate was characterized by FT-IR spectroscopy (200) planes related to Cu0 gradually appeared as the constant
+(Fig.3c).Theabsorbancepeaksat1602and1364cm−1wererelevantto reduction proceeded17,18. The results revealed that central Cu2+ of
+C=O,–COOstretchingvibrationfromcarboxylgroup,whilethepeak citrate-coordinatedCuchelatewasdirectlyreducedtoCu0duringthe
+at 1072cm−1 was related to –OH bending vibration from hydroxyl electrochemicalactivationwithouttheformationofCu+species.This
+group, verifying the successful scale-up synthesis of citrate- directconversionofCu2+toCu0alsofacilitatedtherapidandcomplete
+coordinated Cu chelate catalyst. The morphology characteristic of releaseoftheCA,creatingalocalmicroenvironmentwhereCAwas
+citrate-coordinatedCuchelatewascharacterizedbyscanningelectron enrichedintheHelmholtzplane.Furthermore,thesurfacestructureof
+microscopy(SEM),showingablockstructurewithasmoothsurface CACuwasprobedbyhydroxide(OH−)adsorptiontechnique,which
+(Fig.3d).Whereasafterelectrochemicalactivationandreconstruction, was determined by analysis of CV curve collected in Ar-saturated
+theCACucatalystexhibitedaroughsurfacemorphologyandavoid- electrolyte(Fig.3i).ThetwoadsorptionpeaksobservedinCVcurveat
+rich structure, as shown in Fig. 3e and Supplementary Fig. 4. 0.33and0.47VcanbeattributedtotheOH−adsorptiononCu(100)
+NatureCommunications|( 2025)1 6:8390 4
+
+
+===== PAGE 5 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+Fig.4|CO2RRelectrochemicalperformance.FEsofvariousproductsandjof ratiosofFEC2H5OHtoFECH4,eFEC2+toFECH4underdifferentappliedpotentialsover
+C2H5OHandC2+productsundervariousappliedpotentialswithoutiRcompensa- CACu,andcommercialCuinelectrolytewithoutandwith1,5,10mMCA.
+tion(internalresistance:0.7±0.2Ω)over(a)CACu,(b)commercialCuinelec- fComparisonofCACuwithadvancedCuelectrocatalystsforCHOHelectro-
+2 5
+trolytewithoutCA,(c)commercialCuinelectrolytewith1mMCA.Theerrorbars synthesisintermsofFEandjofCHOH.
+2 5
+correspondtothestandarddeviationofthreeindependentmeasurements.dThe
+and (111) surface12,19, respectively, which demonstrated that the Cu demonstratingthecrystalstructurewasdominatedby(111)and(200)
+(100)and(111)structuresweregeneratedduringthereconstruction facets (Supplementary Figs. 9, 10). The results of electrochemical
+process.Consequently,thereleasedanionsthatenrichedatsub-nano performanceforcommercialCuinelectrolytewith/withoutCAwere
+interface with the formation of rough & porous metallic Cu were showninFig.4b,candSupplementaryFigs.11,12.TheFEsof14.1%and
+favorableforthesubsequentelectrocatalyticreaction. 42.6%forC HOHandC wereexhibitedoncommercialCucatalyst,
+2 5 2+
+aswellasthej andj were48and146mAcm−2,respectively.
+C2H5OH C2+
+Electrolyticperformance When1mMcitricacidwasaddedintoelectrolyte,thepoorselectivity
+CO RR performance was measured in a three-compartment config- (FEsof15.2%and42.6%forC HOHandC )andlowactivity(jof54
+2 2 5 2+
+uredflowcell.FEvaluesoverCACuelectrocatalystwereexhibitedin and152mAcm−2forC HOHandC )werestilldisplayed,inwhichthe
+2 5 2+
+Fig.4a,andthetypical1Hnuclearmagneticresonance(NMR)spectrum overallCO RRperformancewasnearlyunchangedcomparedtothat
+2
+was exhibited in Supplementary Fig. 7. The highest FE was of commercial Cu in the electrolyte without CA. Surprisingly, the
+C2H5OH
+reachedto55.3%aswellasthehighestFE was80.7%at−1.6V,while concentrationofCAthatwasaddedtotheelectrolyte(1mM)wasfar
+C2+
+thehighestj andj of297and473mAcm−2,respectively,were higherthanthetheoreticalvalueforconcentrationofCAthatwasin-
+C2H5OH C2+
+displayedunderthesameconditions.ToverifytheroleofCAforthe situreleasedtotheelectrolytefromadoptedcitrate-coordinatedCu
+reactionselectivityandactivityandfurtherillustratetheimportantyet catalyst,whichwasonlynear0.07mM.WhentheconcentrationofCA
+positiverolesofanion-enrichedsub-nanointerfacecreatedbyinside wasfurtherincreasedto5and10mM,somesignificantchangesand
+toon-surfacediffusionbehavior,CO RRmeasurementswerecarried improvements in performance of CO RR on commercial Cu were
+2 2
+outusingcommercialCuasacatalystandaddingtraceamountsof observed,whereFE reached45.0%and47.2%,andFE reached
+C2H5OH C2+
+citricacid(1,5or10mM)totheelectrolyte,whereintheconcentration 70.0%and74.3%.Similarly,thej andj increasedto172and
+C2H5OH C2+
+ofK+wereremained.Notably,thepHandconductivityofelectrolyte 248mAcm−2inelectrolytewith5mMCA,aswellasthej andj
+C2H5OH C2+
+were nearly unaltered when adding micro-additive citric acid (Sup- of194and306mAcm−2inelectrolytewith10mMCA.Theseresults
+plementary Fig. 8). The micromorphology and crystal structure of verifiedthattheCAcanindeedmodulatetheselectivityofCO RRover
+2
+commercial Cu were characterized by TEM and XRD techniques, Cucatalyst,buttherequiredamountofCAaselectrolyteadditiveswas
+NatureCommunications|( 2025)1 6:8390 5
+
+
+===== PAGE 6 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+farhigherthanthedoseofin-situreleasefromCuchelate.Eventwo −1.8Vweredecreasedto8.7%and2.7%whentheconcentrationofCA
+ordersofmagnitudehigherconcentrationsofCAwereaddedinthe in electrolytes was raised to 5 and 10mM (Supplementary Fig. 12),
+electrolyte,theCAwasdifficulttodiffuseandenrichintheHelmholtz respectively, validating that the CA indeed can modulate the local
+planeduetodiffusionlimitationandelectrostaticrepulsion,anditwas microenvironment and produce the favorable conditions for C
+2+
+difficult to achieve the positive effects of in-situ release approach. generation and inhibition of competitive CH product. More aston-
+4
+Moreover,tofurtherdemonstratetheintrinsicperformanceofCACu, ishingly,theFE onlybelow1%canbeobtainedovertheproposed
+CH4
+the iR-corrected potential was also calculated and corresponding CACucatalyst,furtherconfirmingthattheinsidetoon-surfacediffu-
+resultswasexhibitedinSupplementaryFig.13. sion approach derived from the intrinsic characteristics of CA Cu
+Tofurtherverifiedtheproposedinsidetoon-surfaceandoutside catalyst could enrich the anions at the sub-nano reaction interface
+to above-surface diffusion modes, electrochemical quartz crystal more efficiently, giving a fulleffectto their modulation of reaction
+microbalance (EQCM), a sensitive weight detection instrument, was activity and selectivity. Correspondingly, the ratios of FE to
+C2H5OH
+employedtomonitorandrecordthechangesinelectrodemassduring FE andFE toFE atvariousappliedpotentialswerecalculated
+CH4 C2+ CH4
+electrochemical process. As for citrate-coordinated Cu chelate and andshowninFig.4d,e,wherethehighestvaluesofFE /FE and
+C2H5OH CH4
+commercialCu,themassoftheelectrodeincreasedsignificantlywhen FE /FE were101and150at−1.6V,respectively,demonstratingthe
+C2+ CH4
+anegativepotentialwasapplied.Therewasnoobviousdifferencein CO RRselectivitywasmodulatedbythein-situreleaseofanionsfrom
+2
+the mass increase between the two samples, proved that the mass thechelatetotheHelmholtzplane.Thiswascompletelydifferentfrom
+changecorrespondedtotheadsorptionofK+fromtheelectrolyteon and beyond the additive system. Upon comparison with recently
+theelectrodesurface(SupplementaryFig.14a,14b).Duringthekept reported Cu electrocatalysts for C HOH production, the recon-
+2 5
+negative potential, the mass of the electrode remained essentially structed CA Cu electrocatalyst exhibited the extraordinary C HOH
+2 5
+stable,inwhichthecitrate-coordinatedCuchelatewasreconstructed. electrosynthesis in terms of FE and j (Fig. 4f, Supplementary
+When the applied negative potential subsequently changed to the Table1)15–17,20–36.Inaddition,toexcludethepossibilityofinterference
+open-circuit potential state, the mass of the citrate-coordinated Cu withtheproductselectivitycausedbytheconvertoftheCAintosome
+chelate electrode decreased rapidly and more greatly than that of newspeciesunderelectrochemicalconditions,correspondinglyelec-
+commercial Cu. Also, the mass change over citrate-coordinated Cu trochemicalperformancewasalsotestedoncommercialCuinelec-
+chelatefromnegativepotentialtoopen-circuitpotentialwashigher trolytewith10mMCAandwithoutCO inlet.The1HNMRspectrumof
+2
+thanthestatefromtheopen-circuittothenegativepotentialapplied. the electrolyte after reaction wascollected and analyzed, where no
+This demonstrated that from constant negative potential to open- liquid products (C HOH, n-propanol, CH COO−, and HCOO−) were
+2 5 3
+circuit state, in addition to the K+, a small amount of CA also was detected, verifying the CA was stable under electrochemical condi-
+desorbedfromtheinterface.ThisresultalsoreflectedthattheCAcan tions(SupplementaryFig.15).
+beenrichedintheHelmholtzplanethroughtheinsidetoon-surface Inordertoanalyzeandelucidatetheeffectsofanionsdiffusionby
+diffusionmodel.Also,themasschangeofcommercialCuelectrodein insidetoon-surfacebehavioronthecations(mainlyK+)diffusion,in-
+1MKOHelectrolytewith1mMCAwassimilartothatinthecaseofthe situ electrochemical impedance spectroscopy (EIS) was adopted to
+electrolytewithoutCAwhentheappliedpotentialfromopen-circuitto detect the impedance variations during the electrochemical recon-
+negativecondition(SupplementaryFig.14b,14c).Thissuggestedthat structionandthereleaseofCAfromcitrate-coordinatedCuchelate.
+themasschangecorrespondingtoCAadsorptionfromtheelectrolyte Whenapplyingaconstantpotential,theresistanceinhigh-frequency
+waslowcomparedtothatofK+adsorption.AndtheCAwasdifficultto regionintheEISdisplayedagradualincrease.Whenthepotentialwas
+diffusefromtheelectrolytetotheelectrodesurfaceandenrichedin applied for a period time, the resistance nearly no longer changed
+theHelmholtzplane,i.e.,thediffusionmodefromoutsidetoabove- (Supplementary Fig. 16a). While at the low-frequency region, the
+surface,whichmayberestrictedbydiffusivemasstransferresistance relationshipbetweentheZ′(realpart)andw−1/2(w:angularfrequency)
+andelectrostaticrepulsion.Correspondingly,anundesirablelocalized reflected the impedance of ion diffusion, and a larger slope of the
+microenvironmentandanunsatisfactoryelectrocatalyticperformance curveafterfitting(σ:Warburgcoefficient)waspresented,indicativeof
+werepresentedoverCucatalystintheelectrolytewith1mMCA,and thelargeriondiffusionresistance.AsshowninSupplementaryFig.16b,
+theoverallperformanceofCO RRwasdramaticallyfarinferiorcom- the ion diffusion resistance increased significantly during the
+2
+paredwiththatofCACucatalyst.Finally,suchauniqueinsidetoon- initial stage of electrochemical reconstruction and then remained
+surfacediffusionapproachderivedfromCA-coordinatedCuchelate stable. This suggested that the diffusion of K+ from the electrolyte
+can distinctly yet positively affect the local microenvironment and to the interface was impeded by CA released from the catalyst to
+create an anion-enriched sub-nano reaction interface, which was theelectrode-electrolyteinterface,whichmaybecontributedtothe
+hardlyachievablethroughconventionaloutsidetoabove-surfacedif- competitive yet relative co-motion of the CA and K+, as well asthe
+fusionapproach.Consequently,afavorableconditionfortheelectro- steric-hindranceeffects.
+synthesisofC HOHandC chemicalswascreatedbyin-situreleased
+2 5 2+
+of CA from Cu chelate to sub-nano reaction interface, which sig- RevealingtheeffectsofenrichedCAonCO RRmechanism
+2
+nificantlyimprovedtheselectivityandreactivity. Sincetheanionsreleasedbyin-situelectrochemicalreconstructionof
+Additionally,thesynthesisofC productswascompetitivewith chelate allowed anions enrichment at the Helmholtz plane and the
+2+
+thesingle-carbonproductCH ,andtheselectivitydependedonwhe- modulationofreactionselectivity,advancedin-situFT-IR,astrongand
+4
+therthe*COintermediateunderwentaC–Ccouplingto*OCCO*ora powerfulinstrumentfordetectingthekeyreactionintermediates,was
+directhydrogenationto*CHOintermediate.Consequently,oncethe employed to further reveal the CA-dominated mechanisms that
+directhydrogenationofthe*COintermediatetoCH productionwas favoredtheC production37.Toavoidtheeffectsofstructuralfeatures
+4 2+
+inhibited,theC productssynthesiswascorrespondinglypromoted. ofelectrocatalystsontheresultsandfurtheraccuratelyanalyzethe
+2+
+Electrochemicaltestresultsexhibiteda FE ashighas18.0%over effectofCAonselectivity,thecommercialCuasthestationarycatalyst
+CH4
+commercial Cu catalyst (Fig. 4b), which suggested that the intense was used and the changes for the reaction intermediates were also
+competitivereactionofCH productionwasreceivedduringtheC investigatedintheelectrolytewith10mMandwithoutCA.Fromthein-
+4 2+
+productsformation,leadingtoarelativelypoorselectivityofmulti- situFT-IRresults(Fig.5a,b),excepttheH Oabsorptionpeaklocatedat
+2
+carbonchemicalsoverCu.Also,anearlyunchangedFE of17.8%was 1570cm−1wasclearlyobserved,the*COintermediateintensityinthe
+CH4
+shownoncommercialCuinelectrolytewith1mMCA(Fig.4c).Asa 2040-2100cm−1 related to CO adsorption on Cu0 site gradually
+sharpcontrast,theFEsofCH overawidepotentialregionfrom−1to increasedasthereactionproceeded38,39.Theobviousdifferencesfor
+4
+NatureCommunications|( 2025)1 6:8390 6
+
+
+===== PAGE 7 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+Fig.5|In-situcharacterizationandtheoreticalcalculations.In-situFT-IRspectra *OCH intermediateonCu(100)(left)andCu(100)-CA(right).gDiagramofCA-
+2 3
+ofcommercialCuunderCORRinelectrolyte(a)withoutCA,(b)withCA.a.u. dominatedCO-to-CHOHconversionmechanismoverCucatalyst.Gibbsfree
+2 2 2 5
+arbitraryunits.cSchematicofCO2RRmechanismandpathwayforvarioussingle-/ energydiagramof*OC2H3toC2H4orC2H5OHover(h)Cu(100),(i)Cu(100)-CA.
+multi-carbonproducts.dΔGdiagramofC–CcouplingonCu(100)andCu(100)-CA. jTheatomicstructureofC–CcouplingandC2H4/C2H5OHformationstateson
+eCOHPanalysisofC–Obondinginteractionin*OCH intermediateonCu(100) Cu(100)-CA.Colorcode:grey(C),white(H),red(O),orange(Cu).
+2 3
+(left)andCu(100)-CA(right).fCOHPanalysisofCu–Obondinginteractionin
+theabsorbancepeaksintherangeof1200to1600wavenumberswere AfterdecouplingtheroleofCAontheselectivityofCO RR,the
+2
+presentedduetothepresenceofCA,indicatingthattheCAatthesub- interactionofCAattheHelmholtzplanewithH OmoleculesandH O
+2 2
+nanoreactioninterfaceprofoundlyaffectedtheadsorptionstrength dissociationprocesswerefurtherreal-timeinvestigatedandanalyzed
+and further conversion of reaction intermediates and governed the byahighlysurfacesensitivein-situRamantechnique43,44.Atthe3000-
+CO RR mechanism. Specifically, for the system without CA, the 3800cm−1positionoftheRamanspectra,theO–Hstretchingvibration
+2
+*OCCOH,*OC H intermediatescorrespondingtothesynthesisofC can be decomposed into three types according to Gaussian fitting
+2 5 2+
+productsandC HOHlocatedat1210and1350cm−1aswellasthe*CHO (SupplementaryFig.17)45,46.Revealedbyexistingfindings43,47,K+inthe
+2 5
+and*OCH intermediatesassociatedwiththeformationofCH at1480 electrolytewasmorelikelytobespecificallyadsorbedontheelectrode
+3 4
+and1410cm−1wereclearlydetected40–42.Differently,inthepresenceof surface. The K+-coordinated water (denoted as K+ H O) will con-
+2
+CA, the *OCCOH and *OC H were extraordinarily stronger in the tinuouslysupplyH Otoelectrodesurfaceaswellasacceleratedthe
+2 5 2
+intensities and dramatically easier than the formation of *CHO and HERkinetics,whichwasmoresignificantlyyeteffectivelyforHERthan
+*OCH intermediatesfortheformation ofCH ,distinctlyillustrating theothertwostructuraltypesofH O(2-,4-coordinatedH-bondwater,
+3 4 2
+that the C HOH and C products werefavorablyformed over the whichweredenotedas2-HBH Oand4-HBH O).Thein-situRaman
+2 5 2+ 2 2
+developed catalyst. In consequence, the CA dominated and had a spectraresultsexhibitedthattheproportionsofK+H OoverCucat-
+2
+determinedeffectonthechangeinCO RRselectivityonCucatalyst,in alystincreasedfrom6.6%to12.3%asthepotentialdecreasedfrom0to
+2
+whichthekey*COintermediatewasstabilized,resultinginafavored −1VintheelectrolytewithoutCA,aswellasanincreasefrom6.8%to
+C–C coupling kinetics and restricted directed *CO hydrogenation 10.7%intheelectrolytewithCAwaspresented(SupplementaryFig.18).
+process,ultimatelypromotedtheC productformationandinhibited ComparedwiththatoftheelectrolytewithoutCA,theproportionofK+
+2+
+themethanation(Fig.5c). H OincreasedslowlyalongwithchangedpotentialonCuelectrodein
+2
+NatureCommunications|( 2025)1 6:8390 7
+
+
+===== PAGE 8 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+theelectrolytewithCAtosomedegree,implyingarestrictedHERrate, −0.75eV,thusswitchingtheselectivityfromC H toC HOH.Conse-
+2 4 2 5
+whichmaybeduetotheenhancedinteractionofCAandH Omole- quently,thepresenceofCAmoleculeaffectedtheadsorptionstrength
+2
+culesatthereactioninterface.Inaddition,duetotheStarkeffect,the of*OC H overCusurfaceanditsinternalC–Obond,switchingthe
+2 3
+vibrationalwavenumberoftheO–Hbondingdecreasedastheincrease bond cleavage order and the CO RR pathway, thus resulting in the
+2
+oftheelectricfield(SupplementaryFig.19).Incomparison,thesmaller impressiveC HOHselectivity.
+2 5
+StarkeffectoverCucatalystintheelectrolytewithCAindicatedthat
+thereorientationofH Owasslower,aswellasthelongerdistanceof ContinuousenrichmentofCAbypulsedelectrolysisstrategy
+2
+Cu–Hbond48,illustratingH Owasfarawayfromthecatalystsurfacein Aproposedinsidetoon-surfacediffusionapproachcanwellenrichthe
+2
+the presence of CA (Supplementary Fig. 20). Consequently, an anions in the Helmholtz plane indeed and manipulate the interface
+ordered/stable H-bond network derived from the strong inter- microenvironment.Todeeplyintensifythisprocessandalleviatethe
+molecularinteractionofCAwithH Omoleculesgovernedarestricted gradualdiffusionofCAintothebulkelectrolyteduetoelectrostatic
+2
+H O adsorptionand activation processes, further inhibited the HER repulsionduringlong-termoperation,weinnovativelyemployedan
+2
+kinetics. asymmetricpulsedelectrolysismethodtorebuildandrejuvenatethe
+DFT calculations were carried out to further understand the local chemical microenvironment, sufficiently enriching and con-
+contributionofCAintheCO RRprocess,especiallytheeffectsofC–C tinuouslymaintainingtheCAintheHelmholtzplane.Atthesametime,
+2
+coupling and hydrocarbon or oxygenated multi-carbon chemicals in order to avoidthe overhigh positive potential during pulse elec-
+selectivity.Thermodynamically,Cu(100)facetwasconducivetoC–C trolysisaffectingthestructureandmorphologyoftheCucatalyst,a
+coupling,whichwasverifiedbypreviouswork49,50.Consequently,we specific asymmetric pulse electrolysis procedure was designed, i.e.,
+constructedaCu(100)catalystmodelwithandwithoutaCAmolecule −1.6V for 15min, then rapidly switching to 0.1V for 5min (Fig. 6a,
+adsorbedonthesurface(denotedasCu(100)-CAandCu(100),Sup- SupplementaryFig.24).Thiscontinuousdynamicpotentialswitching
+plementary Data1). *CO was a key intermediate in the synthesis of strategy significantly improved the stability of the reaction system,
+multi-carbonchemicals,andC–Ccouplingstepfollowingthereduc- allowingthecontinuousandstableelectrosynthesisofC HOHforup
+2 5
+tionofCO toCOwasusuallyregardedastherate-determiningstep51,52. to 40h. As a sharp comparison, the FE was significantly
+2 C2H5OH
+Therefore,theGibbsfreeenergy(ΔG)oftheC–Ccouplingstepcor- decreased to less than 40% after 5h reaction in a constant static
+respondingtoformthekeyOC**COintermediatewascalculated,where electrolysis(Fig.6b).Bycarryingouttheasymmetricpulseelectrolysis,
+thevalueof ΔGonCu(100)-CAwas0.51eV,significantlylowerthan thedecayrateofFE decreaseddramatically(Fig.6c).Also,the
+C2H5OH
+that on the Cu(100) (1.75eV) (Fig. 5d). This illustrated that the CA XRDpatternsofCACuafterapplyingconstantandpulseelectrolysis
+molecule was able to enhance the *CO stability indeed, thereby processes illustrated that the valence structure of the catalyst
+increasingthechances ofC–Ccoupling.Itwas wellknownthatthe remained unchanged (Fig. 6d). Furthermore, we verified this asym-
+generationofC H wasthermodynamicallymorefavorablecompared metricpulsedelectrolysisstrategyofre-enrichingCAtotheelectrode-
+2 4
+toC HOH16.AccordingtothereactionmechanismofC H orC HOH electrolyteinterfacebyNMRtechnique.ThepresenceofCAwasbarely
+2 5 2 4 2 5
+formation,thefurtherreactionofthe*OC H intermediatefromthe detectableintheelectrolyteafter7000stest,thentheconcentration
+2 3
+hydrogenationofOC**COintermediatewascrucialindeterminingthe ofCAreached0.02mMafter17000s,andfurthertheconcentrationof
+mechanism for the synthesis of C products, in which the direct CAreached0.05mMafter50000s(SupplementaryFig.25,Fig.6e).
+2
+deoxygenationof*OC H intermediateledtoC H formation,whereas Whereas when a continuous pulsed electrolysis was employed, a
+2 3 2 4
+theretentionofC–Obondin*OC H intermediateshiftedtowardsthe relativelylowCAconcentrationintheelectrolytewasemerged(near
+2 3
+synthesis of C HOH. Consequently, the affinity of the Cu catalyst 0.01mM,Fig.6f)fromthe1HNMRspectrum,suggestingthattheCA
+2 5
+towardoxygenin*OC H willhaveaneffectontheinteractionintensity was continuously enriched in the Helmholtz plane. This result sug-
+2 3
+ofCuwithadsorbed*OC H intermediate,i.e.,thestrengthofCu–O gested that the CA enriched in the Helmholtz plane, which was
+2 3
+(*OC H ) bond, and correspondingly changed the stability of C–O achievedbytheuniqueinsidetoon-surfacediffusionapproach,canbe
+2 3
+bondof*OC H intermediate.Accordingly,thisdeterminedtheclea- consistently maintained by the innovative asymmetric pulsed elec-
+2 3
+vageversuspreservationofC–Obond,resultinginthesynthesisof trolysisstrategy,furtherfacilitatedtheefficientandcontinuouselec-
+hydrocarbonversusoxygenatedproducts.TheinteractionofCuwith trosynthesisofvalue-addedC HOHproduct.
+2 5
+adsorbed *OC H intermediate and C–O internal bond strength of
+2 3
+*OC H onCu(100)andCu(100)-CAwereinvestigatedbythecrystal CO emissionandTEAofCO RRprocess
+2 3 2 2
+orbitalHamiltonpopulations(COHP).TheCOHPresultsandtheinte- Afterverifyingthattheuniqueinsidetoon-surfacediffusionapproach
+grated overlap populations up to Fermi level (ICOHP) of C–O and canachieveanefficientandstableC HOHelectrosynthesis,wefurther
+2 5
+Cu–O bonds on Cu(100) and Cu(100)-CA were shown in Fig. 5e, f. validatedthepotentialofthisapproachforthescale-upproductionof
+According to the ICOHP theory, more negative ICOHP value repre- C HOHinalarge-area(25cm2)membraneelectrodeassembly(MEA)
+2 5
+sentedstrongerbondstrength53,54.WithCA,thestrengthofC–Obond electrolyzer,whereahighFE andCO conversionrateof45.2%
+C2H5OH 2
+wasstrong,whiletheCu–Ointeractionwasweak.Inbrief,theadsor- and12%aswellasanenergyefficiency(EE)of16.6%wereachieved
+bedCAmoleculeweakenedtheinteractionbetweenCuandOatoms, underanindustrialcurrentof5A(SupplementaryFig.26,27).Also,we
+stabilizingtheC–Obondwithinthe*OC H andallowingOatomtobe investigatedCO emissionreductionandperformedTEAbasedonthe
+2 3 2
+retained,thuspromotingtheformationofoxygen-containingC HOH. tested electrochemical performance data to evaluate the environ-
+2 5
+TheelectroreductionpathwayfromCO toC HOHandcorrespond- mental impact and economicfeasibility of this industrialCO RR-to-
+2 2 5 2
+ingchangeinselectivitybyCAmoleculewereshowninFig.5g.Further, C HOH conversion55–58. Here, distillation was employed for the
+2 5
+theΔGofeachstepfrom*OC H toC H andC HOHonCu(100)and separationofC HOHproducedbyCO RR,whichwasduetothefact
+2 3 2 4 2 5 2 5 2
+Cu(100)-CA were calculated and shown in Fig. 5h, i, corresponding thatthedistillationwascommonlycommercialwayofseparationand
+modelstructureofreactionintermediateswerealsoshowninFig.5j purification for alcohols. Calculations suggested that one ton (t) of
+andSupplementaryFig.21–23.TheΔGofC H formation(−0.43eV)on C HOHproducedbyCO electrolysisusingrenewablewindenergyas
+2 4 2 5 2
+bareCu(100)waslowerthantheformationof*OC H (0.14eV),ver- thedrivingforceemitted1.2tofCO accordingly,whichsubstantially
+2 4 2
+ifyingthecleavageofC–ObondwasmorefavorablethanCu–Obond, lower than that of conventional coal-to-CHOH and biomass-to-
+2 5
+resultingintheformationofC H insteadofC HOH.Onthesurfaceof C HOHapproacheswithemissionvaluesof7.6and3.9t /t ,
+2 4 2 5 2 5 CO2 C2H5OH
+Cu(100)-CA, the ΔG of C H formation exhibited major uphill to respectively(Fig.6g,SupplementaryNote1,SupplementaryTable2)59.
+2 4
+−0.24eV, whereas the ΔG of *OC H formation was downhill to Additionally, under current TEA analysis, the system of CO
+2 4 2
+NatureCommunications|( 2025)1 6:8390 8
+
+
+===== PAGE 9 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+Fig.6|StabilityandeconomicassessmentsofCO2RR.aSchematicdiagram patternsofCACuafterconstantandpulsedelectrolysisprocesses.1HNMRspectra
+showingthedynamicasymmetricpulseelectrolysis(−1.6V,15min;0.1V,5min)to ofelectrolyteduringCORR(e)appliedintheconstantpotentialafter50000s,
+2
+achieveastableCA-enrichedmicroenvironmentforCHOHelectrosynthesis. (f)appliedinthepulsedpotentialafter100000s.a.u.arbitraryunits.gCO emis-
+2 5 2
+Colorcode:grey(C),white(H),red(O),orange(Cu).bStabilitytestsofCACuand sionvaluesofcoal-to-C2H5OH,biomass-to-C2H5OHandelectrochemicalCO2-to-
+thecorrespondingFEC2H5OHwithpulsedandconstantpotential.cFEC2H5OHdecay C2H5OHways.hThefractionofoperationcostofCO2electrolysisforC2H5OH
+rateonCACuunderconstantandpulseelectrolysis,wherepulsedelectrolysis production.iTEAanalysisresultsofCO electrolysisundercurrentresultand
+2
+reducedthedecayratebyafactorof6comparedtoconstantelectrolysis.dXRD optimisticscenario.
+electrolysisfor C HOH production was economically feasible(Sup- Discussion
+2 5
+plementaryNote2).WeanalyzedthecostofC HOHproductionfrom Insummary,wepresentedashort-rangeyetinsidetoon-surfacediffu-
+2 5
+CO electrolysis,whereelectricitywasthelargestcontributortothe sion approach to regulate the transport behavior of anions at the
+2
+cost, accounting for 54.8%. In addition, product separation costs, microscopic scale and alter the selectivity and activity of electro-
+includingpressureswingadsorption(PSA)forgas-phaseproductsand chemicalreactionsviathedevelopedCuchelatecatalysts,farsurpass-
+distillationforliquid-phaseproducts,was3.9%and2.9%,respectively. ingconventionaloutsidetoabove-surfaceapproach.Thiscangreatly
+Consideringthehighcostofelectricityandgasseparationparts,an breakthediffusionlimitsinHelmholtzplaneandcreateacontinuously
+optimizationscenariowasenvisagedwherebylowcellvoltage(2.5V) CA-enrichedsub-nanointerface,whichwasfarbeyondtheconventional
+andhighCO conversionrate(20%)couldbeachievedinthefuture. systemachievedbyaddingtheadditivesintheelectrolyte.Thisledto
+2
+Accordingly,theTEAanalysisverifiedthatiftheoverallcellvoltageand theefficientelectrosynthesisofCHOHalongwithhighC yieldrate.
+2 5 2+
+CO conversionratecanbefurtheroptimized,theoverallcostcanbe TheeasilyscalableCACucatalystachievedanexpressiveFE of
+2 C2H5OH
+significantlyreduced,wheretheoperationcostcanbereducedto82% 55.3% and a j of 297mAcm−2, respectively. In-situ FT-IR and
+C2H5OH
+of the original cost, the capital cost can reduce by 13%, the annual RamanspectraverifiedthattheCAcanstabilizetheH-bondnetworkof
+profit can be increased by 133%, and the payback period can be HO,aswellaspromoteCHOHelectrosynthesis.TheCAweakenedthe
+2 2 5
+reducedfromtheoriginal8.6yearsto3.2years(Fig.6i,Supplementary interactionbetweenCuandOatoms,stabilizedtheC–Obondwithin
+Table3).Inconclusion,thereisanattractivepotentialfortheadvanced theadsorbed*OCH,therebychangingtheselectivityofCORRonCu
+2 3 2
+electrochemical CO -to-C HOHsystem driven by renewable energy fromCH toCHOH,confirmedbyDFTcalculations.Also,inorderto
+2 2 5 2 4 2 5
+sources to meet carbon neutrality and also provides an important continuouslyenrichtheCAattheinterface,weproposedanasymmetric
+guidelinefortheeconomicfeasibilityoflarge-scale CO electrolysis pulse electrolysis strategy to rejuvenate the local chemical micro-
+2
+projectsinthefuture. environmentandachievethecontinuousCAenrichmentinHelmholtz
+NatureCommunications|( 2025)1 6:8390 9
+
+
+===== PAGE 10 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+planebyperiodicallyapplyingananodicpotentialwithoutchangingthe electrode(loadingmassof1mgcm−2)astheworkingelectrode.The
+valencestructureoftheCucatalyst,resultinginstableCHOHelec- counterandreferenceelectrodesusedwerethePtwireandAg/AgCl,
+2 5
+trosynthesisatindustrialcurrentdensity.CO emissionreductionana- respectively,whiletheCO -saturated1MKOHwithandwithoutCAas
+2 2
+lysis indicated the electrochemical CHOH production can reduce theelectrolytes.Theappliedpotentialwassetas−1Vvs.RHE.Spectra
+2 5
+emissionsby84%and69%comparedtotraditionalcoal-to-CHOHand werecollectedwitharesolutionof4cm−1inthewavenumberrangeof
+2 5
+biomass-to-CHOH ways, respectively. Also, the scale-up CHOH 400-3800cm−1andrecordedbytheOPUSsoftware.
+2 5 2 5
+electrosynthesisinlarge-area(25cm2)MEAwithindustriallargecurrent
+of 5A and TEA analysis illustrated the electrochemical CHOH pro- Electrochemicalmeasurements
+2 5
+duction was economically viable. This work deepened the under- TheECSAmeasurementwasbasedontheCVtestsatdifferentscan
+standingofelectrode-electrolyteinterfacialchemistry,broketheions rates(20,40,60,80,100mVs−1)intherangeof0.1to0.2Vvs.RHE.
+diffusion limits through the simple design of a Cu chelate catalyst, TheOH−electrosorptionmeasurementwasemployedbyCVtestsin
+enabledtheenrichmentofanionsinHelmholtzplaneandefficientCO Ar-saturated1MKOHelectrolyteintherangeof0to0.8Vvs.RHE,
+2
+electroreductiontooxygenatedchemicals,whichalsoguidedtheeffi- wheredifferentCufacetsexhibiteddistinctiveadsorptionpeaksonthe
+cientutilizationofCO andthelarge-scalesynthesisofeconomic-viable CVcurves.
+2
+&value-addedchemicalsinthefuture. TheEQCMwasperformedonanSRSQCMequipmentatopen-
+circuitpotentialand−0.8Vvs.RHEin1MKOHelectrolyte.InsituEIS
+Methods was performed using a EnergyLab instrument over the frequency
+Materialsandchemicals rangeof100kHzto0.03Hzat−0.8Vvs.RHEin1MKOHelectrolyte
+Thegasdiffusionelectrode(YLS-30T),Nickel(Ni)foam,andthetitanium withanamplitudevoltageof10mV.
+(Ti)feltloadedwithIrO werepurchasedfromSuzhouSineroTechnol- For CO RR in a flow cell, a three-electrode compartment was
+2 2
+ogy.TheGDE(Sigracet38BC)waspurchasedfromSGLCarbon.Anion employedconsistingwithananionexchangemembrane(Fuma,FAA-
+exchangemembraneswerepurchasedfromFumatech(Fuma,FAA-PK- PK-130), Ni foam anode and catalyst-deposited GDE cathode. The
+130),andDioxideMaterials(SustainionX37-50grade60).Commercial catalystandacetyleneblackwithamassratioof2:1wasdispersedina
+CuwaspurchasedfromGuangzhouMetalMetallurgyCo.,Ltd. mixed solvent consisting of isopropanol (1mL) and Nafion binder
+(100µL)underultrasonicationfor30mintoachieveahomogenous
+Preparationofcitrate-coordinatedCuchelate ink. The solution was dropped on the GDE (YLS 30T) as cathode
+Citrate-coordinated Cu chelate was prepared by liquid-phase pre- (activeareaof1cm2,loadingmassof2mgcm−2).Thehigh-purityCO
+2
+cipitation method in a 5L reactor. First, 1.2mol anhydrous copper gaswasinjectedintocathodeat15mLmin−1.1MKOHsolutionwas
+sulfate was dissolved in 2L deionized water to form the uniform usedasanodeandcathodeelectrolytesandpumpedat5mLmin−1.
+solution.Then,1Msodiumcitratesolution(1.25L)wasaddedtocop- Before electrochemical performance tests, the electrocatalyst was
+persulfatesolutionwithconstantstirringat70°Cfor30min.Even- activatedviaCVmeasurementuntilthecurrentdensitywasbasically
+tually,theprecipitatewasfilteredbysuctionwithdeionizedwaterand unchanged. The data was collected and recorded by the Corrtest
+thendriedinavacuumovenat50°C. CS310M electrochemical workstation (Wuhan Corrtest Instrument,
+China) and the CHI 1140C electrochemical workstation (Shanghai
+Materialscharacterization ChenHua,China).Themeasuredelectrolyteresistancewas0.7±0.2Ω.
+SEMwasperformedonHITACHISU8220,TEMwasconductedusing ThepotentialwasconvertedtoRHEbasedontheNernstequation:
+FEI TF30 microscope. The interfacial wettability was conducted on
+contactanglemeasurement(KINO,SL150E).TheFT-IRspectrawere Evs:RHE=Evs:Ag=AgCl+0:197V+0:0591V×pH ð1Þ
+collectedonaBrukerINVENIO-Rspectrometer.
+TheiR-correctedpotentialswereallrecordedwith100%iRcompen-
+In-situRamanmeasurement
+sationandcalculatedbytheequation:
+In-situRamanwasperformedusingaspectro-electrochemicalcellto
+detectthecathode.Thecatalystwassupportedontheglassyelectrode
+(loadingmassof1mgcm−2).ThePtwireandAg/AgClservedascounter E(cid:2)iR=E Ag=AgCl+ 0:197+0:0591×pH(cid:2)iR ð2Þ
+and reference electrodes, respectively, while the CO -saturated 1M
+2
+KOHwithandwithoutCAastheelectrolytes.TheRamanspectroscope
+(LabRAMHREvolution)wasconfigurationwithan50Xobjectivelen ForMEAmeasurement,theelectrochemicalsignalwasprovided
+anda532nmRamanlaserforspectraacquisition.Ramansignalswere andrecordedbyaDCpowersupply(WYG-30V200A)withoutiRcor-
+collectedinthewavenumberrangeof50-4000cm−1duringelectro- rected.Thepreparationofthecathodeelectrodewassimilartothatin
+lysisfor30sateachappliedpotential. the flow cell, the catalyst ink was pipetted onto the GDL (Sigracet
+38BC),withaneffectiveareaof5×5cm2.TheanodeelectrodewasaTi
+In-situXRDmeasurement feltloadedwithIrO withaloadingmassof1mgcm−2andananion
+2
+In-situ XRD was measured with SmartLab equipped with a D/teX exchange membrane (Sustainion X37-50 grade 60) was placed
+Ultra250 detector using Cu Kα radiation (λ=1.5406Å). Single- betweencathodeandanode.Additionally,1MKOHwaspumpedto
+compartment cell including a liquid inlet port and a liquid outlet anodeat50mLmin−1 anddryCO wastransportedtocathodewith
+2
+portwasusedasareactor.Thecitrate-coordinatedCuchelatecoated 80mLmin−1.Thetestwascarriedoutatroomtemperature(25°C).
+carbonpaperwasusedastheworkingelectrode,preparedCO -satu- The gas products from CO RR were analyzed by adopting an
+2 2
+rated1MKOHsolutionastheelectrolytewhilecyclingthroughthe onlineAgilent 8860 gas chromatograph. Theliquidproducts were
+electrochemicalcellatarateof5mLmin−1.PlatinumwireandAg/AgCl quantifiedby1HNMRspectroscopy(AVANCENEO600M,Bruker),
+wereusedascounterelectrodeandreferenceelectrode,respectively. DMSOwasusedasaninternalstandard.Asforflowcell,thecatholyte
+Theappliedpotentialwassetas−1Vvs.RHE. andanolyteafterCO RRwerecollectedandanalyzedtodetermine
+2
+theconcentrationoftheliquidproducts.ForMEAelectrolyzer,the
+In-situFT-IRmeasurement liquidproductsentrainedbythecathodegaswascollectedbycon-
+In situ FT-IR was conducted with time-resolved FT-IR spectrometer densation,andthecondensationalsolutionatthecathodeandano-
+(BrukerINVENIO-R).ThecommercialCucatalystwasloadedinPtdisk lytewereanalyzed.
+NatureCommunications|( 2025)1 6:8390 10
+
+
+===== PAGE 11 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+TheFEofproductiscalculatedusingthefollowingequation: 2. GarcíadeArquer,F.Pelayo.etal.CO electrolysistomulticarbon
+2
+productsatactivitiesgreaterthan1Acm−2.Science367,661–666
+FEð%Þ= F×n×Z ×100% ð3Þ (2020).
+Q 3. Sa,Y.J.etal.Catalyst-electrolyteinterfacechemistryforelectro-
+chemicalCO reduction.Chem.Soc.Rev.49,6632–6665(2020).
+2
+FisFaradayconstant(96485Cmol−1),nisthemoleofproduct,Zis 4. Jin,B.,Gao,J.,Zhang,Y.&Shao,M.Deprotonatedoflayereddouble
+the quantity of transferred electrons for each product, Q is total hydroxidesduringelectrocatalyticwateroxidationformulti‐cations
+transfercharge. intercalation.SmartMolecules2,e20230026(2024).
+TheCO conversionratecalculationwasfollowingequation: 5. Tan,X.etal.RecentadvanceininnovativestrategiesforCO
+2 2
+electroreductionreaction.EnergyEnviron.Sci.14,765–780(2021).
+CO conversionrateð%Þ= R products ð4Þ 6. Gu,J.etal.Modulatingelectricfielddistributionbyalkalicationsfor
+2 u CO electroreductioninstronglyacidicmedium.Nat.Catal.5,
+CO2
+268
+2
+–276(2022).
+Whereu wastheCO flowrateattheinletofMEA(mmolh−1), 7. Yang,Y.etal.OperandostudiesrevealactiveCunanograinsfor
+CO2 2
+R was the formation rate of CO RR products including CO, CO electroreduction.Nature614,262–269(2023).
+products 2 2
+HCOO−,CH ,CH COO−,C HOH,C H ,andn-Propanol.Thespecific 8. Jin,J.etal.ConstrainedC adsorbateorientationenablesCO-to-
+4 3 2 5 2 4 2
+R foreachCO RRproductwascalculatedasfollow: acetateelectroreduction.Nature617,724–729(2023).
+product 2
+9. Chen,J.etal.SelectiveandstableCO electroreductionathigh
+(cid:1) (cid:3) 2
+R mmolh (cid:2)1 = Q total ×1000 ×FE % ð5Þ ratesviacontroloflocalH 2 O/CO 2 ratio.Nat.Commun.15,5893
+product F×Z×t product (2024).
+10. Yoo,J.M.,Ingenmey,J.,Salanne,M.&Lukatskaya,M.R.Anioneffect
+whereZwasnumberofelectronsrequiredfordifferentproducts(Z=2 inelectrochemicalCO reduction:fromspectatorstoorches-
+2
+forCOandHCOO−,8forCH andCH COO−,12forC HOHandC H , trators.J.Am.Chem.Soc.146,31768–31777(2024).
+4 3 2 5 2 4
+and18forn-Propanol),FwasFaradaicconstant(96485Cmol−1),twas 11. Tan,X.etal.RobustO-Pd-Clcatalyst-electrolyteinterfacesenhance
+thereactiontime(h),andQ wastherecordedtotalchargeduring COtoleranceofPd/CcatalystforstableCO electroreduction.
+total 2
+thereaction(C). NanoEnergy104,107957(2022).
+TheEEwasdeterminedusing: 12. Han,Z.etal.Steeringsurfacereconstructionofcopperwithelec-
+trolyteadditivesforCO electroreduction.Nat.Commun.13,3158
+2
+ð1:23 +ð(cid:2)E0 ÞÞ×FE (2022).
+EE C 2 H 5 OH ð%Þ= C 2 H E 5 c O e H ll C 2 H 5 OH ð6Þ 13. Z C e O ng r , e M d . u e c t ti a o l n .R in ea a c c t i i d o s n . e A n n v g ir e o w n . m C e h n e t m re . g In u t l . a E ti d o . n 6 f 3 o , r e e 2 le 0 c 2 t 4 ro 0 c 4 a 5 t 7 a 4 lytic
+2
+where E0 referred to the thermodynamic potential for CO (2024).
+C2H5OH 2
+conversionintoC HOH,whichwas0.09Vvs.RHE,andE wasthe 14. Zhu,X.,Huang,J.&Eikerling,M.Hierarchicalmodelingofthelocal
+2 5 cell
+totalcellvoltage. reactionenvironmentinelectrocatalysis.Acc.Chem.Res.57,
+2080–2092(2024).
+DFTcalculations 15. Sang,J.etal.AreconstructedCu P O catalystforselectiveCO
+2 2 7 2
+Viennaabinitiosimulationpackage(VASP)60wasusedtocarryoutthe electroreductiontomulticarbonproducts.Angew.Chem.Int.Ed.
+spin-polarized DFT calculations61,62. Pseudopotentials built by the 61,e202114238(2022).
+projector-augmented wave (PAW) method and Perdew−Burke−Ern- 16. Bi,J.etal.Constructionof3Dcopper-chitosan-gasdiffusionlayer
+zerh(PBE)63exchange-correlationfunctionwithintheVanderWaals electrodeforhighlyefficientCO electrolysistoC alcohols.Nat.
+2 2+
+(vdW)correctionexploitedbyGrimme(DFT+D3)64.Similarcalculated Commun.14,2823(2023).
+parameters had been performed in Previous works65,66. We con- 17. Lin,Y.etal.TunableCO electroreductiontoethanolandethylene
+2
+structed a three layer 5 × 5 Cu(100) surface, and for modeling real withcontrollableinterfacialwettability.Nat.Commun.14,3575
+aqueoussolutionconditions,14H Omoleculeswererandomlyplaced (2023).
+2
+abovetheCu(100)catalystsurface,andaddedaCAmoleculeabove 18. Zhu,C.etal.Ampere-levelCO reductiontomulticarbonproducts
+2
+thecatalystsurfacetosimulatethecatalyst-electrolyteinterfacethat overacoppergaspenetrationelectrode.EnergyEnviron.Sci.15,
+formedbyelectrochemicalreconfigurationofcitrate-coordinatedCu 5391–5404(2022).
+chelate.Weseta20Åvacuumspaceintheperpendiculardirection. 19. Zhong,D.etal.CouplingofCu(100)and(110)facetspromotes
+The Gibbs free energies were calculated by the VASPKIT tool at a carbondioxideconversiontohydrocarbonsandalcohols.Angew.
+temperatureof298.15Kusingtheformula: Chem.Int.Ed.60,4879–4885(2021).
+20. Lv,Z.etal.ImprovingCO‐to‐C conversionofatomicCuFONC
+2 2
+G=E +E (cid:2)TS ð7Þ electrocatalyststhroughF,O‐codrivedoptimizationoflocalcoor-
+DFT ZPE
+dinationenvironment.Adv.EnergyMater.14,2400057(2024).
+whereE representedtheelectronicenergycalculatedbyDFT,andS 21. Kim,C.etal.Cu/Cu Ointerconnectedporousaerogelcatalystfor
+DFT 2
+and E represented the entropy contribution and zero-point highlyproductiveelectrosynthesisofethanolfromCO.Adv.Funct.
+ZPE 2
+energy67. Mater.31,2102142(2021).
+22. Meng,X.etal.SteeringC–CcouplingbyhollowCuO@C/N
+2
+Dataavailability nanoreactorsforhighlyefficientelectroreductionofCO toC
+2 2+
+Additional data related to this study are available from the corre- products.Adv.Funct.Mater.34,2312719(2024).
+sponding authors on reasonable request. Source data are provided 23. Chen,C.etal.HighlyefficientelectroreductionofCO toC
+2 2+
+withthispaper. alcoholsonheterogeneousdualactivesites.Angew.Chem.Int.Ed.
+59,16459–16464(2020).
+References 24. Zang,Y.etal.SelectiveCO electroreductiontoethanolovera
+2
+1. Li,F.etal.MoleculartuningofCO-to-ethyleneconversion.Nature carbon-coatedCuOxcatalyst.Angew.Chem.Int.Ed.61,
+2
+577,509–513(2020). e202209629(2022).
+NatureCommunications|( 2025)1 6:8390 11
+
+
+===== PAGE 12 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+25. Zhang,X.Y.etal.DirectOC-CHOcouplingtowardshighlyC 46. Zhong,W.etal.Mitigatingcathodicdissolutionthroughinterfacial
+2+
+productsselectiveelectroreductionoverstableCu0/Cu2+interface. watermaskingtoenhancethelongevityofaqueouszinc–ionbat-
+Nat.Commun.14,7681(2023). teries.EnergyEnviron.Sci.17,2059–2068(2024).
+26. Zhang,G.etal.EfficientCO electroreductiononfacet-selective 47. Liu,H.etal.Observationonmicroenvironmentchangesofdynamic
+2
+copperfilmswithhighconversionrate.Nat.Commun.12, catalystsinacidicCO reduction.J.Am.Chem.Soc.146,
+2
+5745(2021). 5333–5342(2024).
+27. Kim,J.etal.VitaminC-inducedCO captureenableshigh-rate 48. Wang,Y.etal.StrongHydrogen-BondedInterfacialWaterInhibiting
+2
+ethyleneproductioninCO electroreduction.Nat.Commun.15, HydrogenEvolutionKineticstoPromoteElectrochemicalCO
+2 2
+192(2024). ReductiontoC .ACSCatal14,3457–3465(2024).
+2+
+28. Liang,Y.etal.Stabilizingcoppersitesincoordinationpolymers 49. Pang,Y.etal.Efficientelectrocatalyticconversionofcarbonmon-
+towardefficientelectrochemicalC-Ccoupling.Nat.Commun.14, oxidetopropanolusingfragmentedcopper.Nat.Catal.2,
+474(2023). 251–258(2019).
+29. Zhang,X.etal.SelectiveandhighcurrentCO electro-reductionto 50. DeGregorio,G.L.etal.Facet-dependentselectivityofCucatalysts
+2
+multicarbonproductsinnear-neutralKClelectrolytes.J.Am.Chem. inelectrochemicalCO reductionatcommerciallyviablecurrent
+2
+Soc.143,3245–3255(2021). densities.ACSCatal10,4854–4862(2020).
+30. Xu,F.etal.Oxygen-BridgedCuBinuclearSitesforEfficientElec- 51. Chen,L.etal.Energy-efficientCO conversiontomulticarbon
+2
+trocatalyticCO ReductiontoEthanolatUltralowOverpotential.J. productsathighratesonCuGabimetalliccatalyst.Nat.Commun.
+2
+Am.Chem.Soc.146,9365–9374(2024). 15,7053(2024).
+31. Feng,J.etal.Modulatingadsorbedhydrogendriveselectro- 52. Li,P.etal.Manipulationofoxygenspeciesonanantimony-modified
+chemicalCO -to-C products.Nat.Commun.14,4615(2023). coppersurfacetotunetheproductselectivityinCO electro-
+2 2 2
+32. Chen,C.etal.OxidationofmetallicCubysupercriticalCO and reduction.J.Am.Chem.Soc.146,26525–26533(2024).
+2
+controlsynthesisofamorphousnano-metalcatalystsforCO 53. Tan,X.etal.Stabilizingcopperbyareconstruction-resistantatomic
+2
+electroreduction.Nat.Commun.14,1092(2023). Cu-O-SiinterfaceforelectrochemicalCO reduction.J.Am.Chem.
+2
+33. Su,X.etal.Complementaryoperandospectroscopyidentification Soc.145,8656–8664(2023).
+ofin-situgeneratedmetastablecharge-asymmetryCu -CuN 54. Lin,L.etal.AhighlyCO-tolerantatomicallydispersedPtcatalystfor
+2 3
+clustersforCO reductiontoethanol.Nat.Commun.13, chemoselectivehydrogenation.Nat.Nanotechnol.14,354–361
+2
+1322(2022). (2019).
+34. Yang,P.P.etal.Protectingcopperoxidationstateviaintermediate 55. Jouny,M.,Luc,W.&Jiao,F.Generaltechno-economicanalysisof
+confinementforselectiveCO electroreductiontoC fuels.J.Am. CO electrolysissystems.Ind.Eng.Chem.Res.57,2165–2177(2018).
+2 2+ 2
+Chem.Soc.142,6400–6408(2020). 56. Shin,H.,Hansen,K.U.&Jiao,F.Techno-economicassessmentof
+35. Yao,K.etal.MechanisticinsightsintoOC–COHcouplinginCO low-temperaturecarbondioxideelectrolysis.Nat.Sustain.4,
+2
+electroreductiononfragmentedcopper.J.Am.Chem.Soc.144, 911–919(2021).
+14005–14011(2022). 57. Li,H.etal.COElectrolysistoMulticarbonProductsoverGrain
+36. Fu,W.etal.Preservingmoleculartuningforenhancedelectro- Boundary-RichCuNanoparticlesinMembraneElectrodeAssembly
+catalyticCO ‐to‐ethanolconversion.Angew.Chem.Int.Ed.63, Electrolyzers.Nat.Commun.15,4603(2024).
+2
+e202407992(2024). 58. Fan,L.etal.Selectiveproductionofethyleneglycolathighratevia
+37. Zhang,Y.etal.Ni/N-modulatedbiomasspyrolysistomakecarbon- cascadecatalysis.Nat.Catal.6,585–595(2023).
+basedcatalystsforelectrochemicalCO -to-COconversion.Nano 59. Li,J.&Cheng,W.Comparisonoflife-cycleenergyconsumption,
+2
+Energy126,109658(2024). carbonemissionsandeconomiccostsofcoaltoethanoland
+38. Yuan,X.etal.ControllableCu0‐Cu+sitesforelectrocatalytic bioethanol.Appl.Energ.277,115574(2020).
+reductionofcarbondioxide.Angew.Chem.Int.Ed.60, 60. Blochl,P.E.Projectoraugmented-wavemethod.Phys.Rev.B50,
+15344–15347(2021). 17953–17979(1994).
+39. Cheng,J.etal.ProtonShuttlingbyPolyanilineofHighBrønsted 61. Kresse,G.&Hafner,J.Ab-Initiomolecular-dynamicssimulationof
+BasicityforImprovedElectrocatalyticEthyleneProductionfrom theliquid-metalamorphous-semiconductortransitioningerma-
+CO.Angew.Chem.Int.Ed.62,e202312113(2023). nium.Phys.Rev.B49,14251–14269(1994).
+2
+40. Ding,L.etal.Over70%FaradaicEfficiencyforCO Electroreduc- 62. Kresse,G.&Hafner,J.AbInitioHellmann-FeynmanMolecular
+2
+tiontoEthanolEnabledbyPotassiumDopant-TunedInteraction DynamicsforLiquidMetals.J.Non-Cryst.Solids156,
+betweenCopperSitesandIntermediates.Angew.Chem.Int.Ed.61, 956–960(1993).
+e202209268(2022). 63. Perdew,J.P.,Burke,K.&Ernzerhof,M.Generalizedgradient
+41. Zhao,J.etal.Modulationof*CHxOadsorptiontofacilitateelec- approximationmadesimple.Phys.Rev.Lett.77,3865–3868
+trocatalyticreductionofCO toCH overCu-basedcatalysts.J.Am. (1996).
+2 4
+Chem.Soc.145,6622–6627(2023). 64. Methfessel,M.&Paxton,A.T.High-PrecisionSamplingforBrillouin-
+42. Li,J.etal.TwinHeterostructureEngineeringandFacetEffectBoosts ZoneIntegrationinMetals.Phys.Rev.B40,3616–3621(1989).
+EfficientReductionCO-to-EthanolatLowPotentialonCuO@CuS 65. Tan,X.etal.TowardanunderstandingoftheenhancedCO elec-
+2 2 2 2
+Catalysts.ACSCatal14,3266–3277(2024). troreductioninNaClelectrolyteoverCoPcmolecule‐implanted
+43. Wang,Y.-H.etal.InsituRamanSpectroscopyRevealstheStructure graphiticcarbonnitridecatalyst.Adv.EnergyMater.11,
+andDissociationofInterfacialWater.Nature600,81–85 2100075(2021).
+(2021). 66. Li,W.etal.Metal-freepolyphthalocyaninewithimplantedbuilt-in
+44. Li,W.etal.BeyondleverageinactivityandstabilitytowardCO electricfieldenablinghigh-efficiencyCO electroreduction.Chem.
+2 2
+electroreductiontoformateoverabismuthcatalyst.ACSCatal14, Mater.36,1602–1611(2024).
+8050–8061(2024). 67. Wang,V.,Xu,N.,Liu,J.C.,Tang,G.&Geng,W.T.VASPKIT:auser-
+45. Liu,Z.etal.Interfacialwatertuningbyintermolecularspacingfor friendlyinterfacefacilitatinghigh-throughputcomputingandana-
+stableCO electroreductiontoC products.Angew.Chem.Int.Ed. lysisusingVASPcode.Comput.Phys.Commun.267,
+2 2+
+62,e202309319(2023). 108033(2021).
+NatureCommunications|( 2025)1 6:8390 12
+
+
+===== PAGE 13 =====
+
+Article https://doi.org/10.1038/s41467-025-63009-w
+Acknowledgements Reprintsandpermissionsinformationisavailableat
+ThisworkwaspartlysupportedbytheNationalNaturalScienceFoun- http://www.nature.com/reprints
+dationofChina(NSFC,No.U24B20198,C.Y.),theFundamentalResearch
+FundsfortheCentralUniversities(DUT23LAB612,C.Y.),theNationalKey Publisher’snoteSpringerNatureremainsneutralwithregardtojur-
+ResearchandDevelopmentProgramofChina(GrantNo. isdictionalclaimsinpublishedmapsandinstitutionalaffiliations.
+2022YFB4101602,C.Y.),LiaoNingRevitalizationTalentsProgram
+(XLYC2202003,C.Y.). OpenAccessThisarticleislicensedunderaCreativeCommons
+Attribution-NonCommercial-NoDerivatives4.0InternationalLicense,
+Authorcontributions whichpermitsanynon-commercialuse,sharing,distributionand
+J.Q.andC.Y.supervisedandrevisedthemanuscript.W.L.conceivedthe reproductioninanymediumorformat,aslongasyougiveappropriate
+conceptandcarriedouttheexperiments.W.L.conductedtheelectro- credittotheoriginalauthor(s)andthesource,providealinktothe
+chemicalmeasurementsandcharacterizations.W.L.,J.Q.andC.Y.co- CreativeCommonslicence,andindicateifyoumodifiedthelicensed
+wrotethepaper.W.L.,X.S.andW.Y.performedtheDFTcalculations. material.Youdonothavepermissionunderthislicencetoshareadapted
+W.L.,Y.Z.,X.T.,W.L.andY.Y.discussedandreviewedthemanuscript. materialderivedfromthisarticleorpartsofit.Theimagesorotherthird
+partymaterialinthisarticleareincludedinthearticle’sCreative
+Competinginterests Commonslicence,unlessindicatedotherwiseinacreditlinetothe
+Theauthorsdeclarenocompetinginterests. material.Ifmaterialisnotincludedinthearticle’sCreativeCommons
+licenceandyourintendeduseisnotpermittedbystatutoryregulationor
+Additionalinformation exceedsthepermitteduse,youwillneedtoobtainpermissiondirectly
+SupplementaryinformationTheonlineversioncontains fromthecopyrightholder.Toviewacopyofthislicence,visithttp://
+supplementarymaterialavailableat creativecommons.org/licenses/by-nc-nd/4.0/.
+https://doi.org/10.1038/s41467-025-63009-w.
+©TheAuthor(s)2025
+Correspondenceandrequestsformaterialsshouldbeaddressedto
+ChangYuorJieshanQiu.
+PeerreviewinformationNatureCommunicationsthanksLeiWang,
+WenleiZhu,andtheother,anonymous,reviewer(s)fortheircontribution
+tothepeerreviewofthiswork.Apeerreviewfileisavailable.
+NatureCommunications|( 2025)1 6:8390 13

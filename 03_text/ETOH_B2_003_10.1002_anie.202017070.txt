@@ -1,0 +1,1116 @@
+
+
+===== PAGE 1 =====
+
+Angewandte
+Research Articles
+Chemie
+How tocite: Angew.Chem. Int. Ed.2021, 60,7426–7435
+CO Electroreduction Hot Paper International Edition: doi.org/10.1002/anie.202017070
+2
+German Edition: doi.org/10.1002/ange.202017070
+Operando Investigation of Ag-Decorated Cu O Nanocube Catalysts
+2
+with Enhanced CO Electroreduction toward Liquid Products
+2
+Antonia Herzog, Arno Bergmann, HyoSang Jeon, Janis Timoshenko, Stefanie Kghl,
+Clara Rettenmaier, Mauricio Lopez Luna, FelixT. Haase, and Beatriz RoldanCuenya*
+Abstract: Direct conversion of carbon dioxide into multi- A variety of metal electrodes can be used to catalyze
+carbon liquid fuels by the CO electrochemical reduction CORR as demonstrated in the pioneering work by Hori.[3]
+2 2
+reaction(CORR)cancontributetothedecarbonizationofthe WhilesomemetalsprimarilyreduceCO toCO(Ag,Au,Zn)
+2 2
+global economy. Here, well-defined CuO nanocubes (NCs, or formate (Sn, In, Bi), copper is the only metal yielding
+2
+35nm)uniformlycoveredwithAgnanoparticles(5nm)were products such as methane, ethylene, and ethanol in consid-
+synthesized. When compared to bare CuONCs, the catalyst erable amounts.[4] However, the selective conversion to C
+2 2+
+with5at%AgonCuONCsdisplayedatwo-foldincreasein productsintheformofliquids(alcoholsandcarbonyls)still
+2
+the Faradaic efficiency for C liquid products (30% at requires high overpotentials, suffers from low current den-
+2+
+@1.0V ), including ethanol, 1-propanol,and acetaldehyde, sities that can be achieved, and the generation of parasitic
+RHE
+whileformateandhydrogenweresuppressed.OperandoX-ray hydrogenthroughthecompetinghydrogenevolutionreaction
+absorptionspectroscopyrevealedthepartialreductionofCuO (HER). Various strategies have been developed to enhance
+2
+during CORR, accompanied by a reaction-driven redisper- the performance of Cu-based catalysts, including nanostruc-
+2
+sion of Ag on the CuO NCs. Data from operando surface- turing Cu (control of exposed facets, defects and low-
+x
+enhanced Raman spectroscopy further uncovered significant coordinatedsites),[5]engineeringtheCu–electrolyteinterface
+variations in the CO binding to Cu, which were assigned to (changeoflocalpH),[6]andadjusting theCu oxidationstate
+Ag@CusitesformedduringCORRthatappearcrucialforthe (compositional change).[7] For example, CuO nanocubes
+2 2
+C@Ccouplingandtheenhancedyieldofliquidproducts. (NCs) with well-ordered (100) facets have been shown to
+lead to an increase in the selectivity toward ethylene, while
+Introduction suppressingmethaneproduction.[5e,8]
+A promising way to further improve the catalystQs
+Inthequestfordevelopingasustainableenergyeconomy, performanceandselectivityistheintroductionofasecondary
+the electrochemical reduction of carbon dioxide (CORR) metal.[9]RecentstudiesofCu–Agbimetallicsystemsshowed
+2
+into value-added chemicals and fuels offers the potential to enhancedselectivityforC products.Inparticular,aphase-
+2+
+close the anthropogenic carbon cycle and store renewable blendedAg-CuOcatalysthadathreetimeshigherFaradaic
+2
+(wind,solar,hydro)energyintochemicalbonds.[1]Ithasbeen efficiency (FE) toward ethanol than Ag-free CuO, but
+2
+therefore of particular interest to develop efficient and sufferedfromlowactivity(jj j<1mA).[10]Additionally,
+ethanol
+selective electrocatalysts, which reduce the reaction over- Ag-coveredCuOnanowirespreparedviaagalvanicreplace-
+2
+potential and steer the reaction toward hydrocarbons and ment reaction enabled a 1.4times higher current density
+multicarbon oxygenates (C ). The selective generation of toward ethylene production as compared to pure CuO
+2+ 2
+liquidproductssuchasethanol,1-propanol,andacetaldehyde nanowires.[11] Furthermore, CuAg surface alloys have been
+is highly desirable due to their high energy densities and foundtobemoreselectivefortheformationofmulti-carbon
+advantages for storage/transport as compared to gaseous products than pure copper.[12] The facilitated yield of C
+2+
+products.[2] products in the bimetallic system is usually linked to the
+suppression of HER due to the enhanced coverage of *CO
+adsorbates as compared to *H,[12b] and the diffusion of CO
+[*] A.Herzog,Dr.A.Bergmann,Dr.H.S.Jeon,Dr.J.Timoshenko,
+from Ag sites to Cu sites that enables C@C coupling (CO
+Dr.S.Kfhl,C.Rettenmaier,M.LopezLuna,F.T.Haase,
+spillover).[10,11] Note here that a short diffusion path of CO
+Prof.Dr.B.RoldanCuenya
+DepartmentofInterfaceScience and therefore a homogeneous distribution of Cu and Ag at
+Fritz-HaberInstituteoftheMax-PlanckSociety the surface of the catalyst are essential for an effective CO
+Faradayweg4–6,14195Berlin(Germany) spillover.[10,12b]Nonetheless,althoughthespatialarrangement
+E-mail:roldan@fhi-berlin.mpg.de ofCuandAginthesestudiesseemstoplayakeyroleforthe
+SupportinginformationandtheORCIDidentificationnumber(s)for differentCORRselectivitytrendsobtained,thekeyparam-
+theauthor(s)ofthisarticlecanbefoundunder: 2
+eters for achieving an optimal synergy in Cu–Ag bimetallic
+https://doi.org/10.1002/anie.202017070.
+systems are still unknown. In particular, open questions still
+T2021TheAuthors.AngewandteChemieInternationalEdition
+remain on the composition and structure of the most active
+publishedbyWiley-VCHGmbH.Thisisanopenaccessarticleunder
+and C -selective systems under operando CORR condi-
+thetermsoftheCreativeCommonsAttributionLicense,which 2+ 2
+permitsuse,distributionandreproductioninanymedium,provided tions,includingthestabilityofCu 2 O,whichmightbemodified
+theoriginalworkisproperlycited. byintroducingAg.[13]
+7426 T2021TheAuthors.AngewandteChemieInternationalEditionpublishedbyWiley-VCHGmbH Angew.Chem.Int.Ed.2021,60,7426–7435
+
+
+===== PAGE 2 =====
+
+Angewandte
+Research Articles
+Chemie
+Herein, we prepared well-defined CuONCs (35nm) surface of the CuONCs. The STEM-EDX maps of the as-
+2 2
+uniformly covered with Ag nanoparticles (NPs, 5nm) by prepared 3- and 5-Ag/CuO catalysts (Figure1f,j) indicate
+2
+afacilewet-chemicalligand-freesynthesis.Employingexsitu, a clear phase separation between the AgNPs and the
+in situ and operando characterization techniques, we gained CuONCs.
+2
+insightintothemorphology,chemicalstate,composition,and After 2h of CORR at @1.0V in 0.1m KHCO, the
+2 RHE 3
+adsorbates of the Cu–Ag catalyst under CORR conditions. cubic morphology appeared less pronounced and hollow
+2
+In particular, we discuss reaction-induced Ag redispersion, structuresformedinallcases(Figure1c,g,k).Simultaneously,
+Cu–Ag surface alloy formation, the influence of Ag on the the edge length of the NCs decreased in average by 3nm
+reductionofCuO,theadsorptionofCOonCuandAg,and (TableS2)andthesizedistributionbroadened,asreportedin
+2
+theeffectoftheformerparametersintheCORRactivityand the literature for pure CuONCs after CORR.[8] STEM-
+2 2 2
+selectivity. EDXmapsafterreaction(Figure1d,h,l)revealthatCuOis
+2
+partiallyreducedtometallicCu(TableS3)andthattheclear
+phaseseparationbetweenAgandCuislost.Instead,smallAg
+Results and Discussion clusters are dispersed on the Cu surface. In addition, some
+Ag-rich areas with sizes of 6.3:1.6nm (3-Ag/CuO) and
+2
+Figure1showsSTEM-HAADFandSTEM-EDXmapsof 9.5:2.5nm(5-Ag/CuO)werealsofound(TableS2).
+2
+pure and AgNP-decorated CuONCs. The as-prepared X-raydiffraction(XRD)wasappliedtoconfirmthephase
+2
+CuONCs have an edge length of 35:7nm (Figure1a). purityofthecatalystsandtotracktheevolutionofthecrystal
+2
+The STEM-EDX data (Figure1b, S1, TableS1) reveal an structureafterCORR.FigureS4showstheXRDpatternof
+2
+average Cu/O at% ratio of 66:34, which corresponds to the theas-preparedCuONCsandAg/CuOwiththemainCuO
+2 2 2
+composition of CuO. In the following, the CuONCs reflectionsassigned to(111) at 36.488 and (200)at 42.388. The
+2 2
+decorated with 3 and 5at% of Ag will be denoted 3-Ag/ presenceofmetallicAgcanbeseenbytheAg(111)at38.288
+CuOand 5-Ag/CuO. The AgNPswith adiameter of 4.6: and Ag(200) at 44.588 for the Ag/CuO. The low intensity of
+2 2 2
+1.1nm(3-Ag/CuO,Figure1e,S2)andof6.0:2.1nm(5-Ag/ thefccAgreflectionscanbeattributedtothelowAgloading 2
+CuO,Figure1i,S3)appeartobeuniformlydistributedonthe andXRDpeakbroadeningduetosmallparticlesizes.
+2
+Figure1. STEM-HAADFimageswithcorrespondingEDXmapsofCuONCs,3-Ag/CuO,and5-Ag/CuOintheupper,middle,andlowerpanels,
+2 2 2
+respectively.As-preparedsamplesareshownontheleft(a,e,i)withEDXmapsin(b,f,j)andsamplesafter2hofCORRat@1.0V ontheright
+2 RHE
+(c,g,k)withEDXmapsin(d,h,l).Thescalebarscorrespondto50nm.
+Angew.Chem.Int.Ed.2021,60,7426–7435 T2021TheAuthors.AngewandteChemieInternationalEditionpublishedbyWiley-VCHGmbH www.angewandte.org 7427
+15213773,
+2021,
+13,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/anie.202017070
+by
+CochraneAustria,
+Wiley
+Online
+Library
+on
+[23/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+
+===== PAGE 3 =====
+
+Angewandte
+Research Articles
+Chemie
+Table1: AtomicfractionandstructuralcoherencelengthofCuOandmetallicCu anincreasedAg/Curatio.Addition-
+2
+andAgphases.[a] ally, there is a slight contraction of
+Sample Atomicfraction[at%] Structuralcoherencelength[nm] the Ag lattice (4.092:0.003 to
+CuO fccCu fccAg CuO fccCu fccAg 4.088:0.003c), which could be
+2 2
+explained by the incorporation of
+As-prepared
+CuONC 100 – – 32.6(3) – – Cu into the Ag lattice (TableS4).
+2
+3-Ag/CuO 97.55(9) – 2.45(6) 32.3(7) – 5.9(7) Notably, the coherence length of
+2
+5-Ag/CuO 95.1(7) – 4.9(5) 23.1(3) – 6(2) CuO decreased strongly from
+2 2
+23.1nm (as-prepared) to 6.8nm
+AfterCORR
+2 (after CORR), reaching a similar
+5-Ag/CuO 56(16) 24(9) 20(7) 6.8(3) 9(2) 4.4(5) 2
+2 valuetothecoherencelengthofthe
+[a]DerivedfromRietveldrefinementofexsituXRDpatternsofas-prepared metallic Cu phase (9nm). We con-
+Cu 2 ONCs,3-Ag/Cu 2 O,and5-Ag/Cu 2 O,andof5-Ag/Cu 2 Odepositedoncarbon clude that the hollow structures
+paperafter2hofCORRat@1.0V .
+2 RHE afterCORR(Figure1)mightcon-
+2
+sist of a mixture of CuO and Cu
+2
+Table1showstheas-preparedcompositionandcoherence crystallites as seen in XRD. The coherence length of the
+length derived from Rietveld refinement of the XRD metallic Ag phase is on average slightly decreased after
+patterns.ThecoherencelengthofCuOagreeswellwiththe CORR,whichagreeswiththepartialre-dispersionofAgon
+2 2
+size distribution obtained by STEM analysis, although it is theCusurfaceandtheAg-richdomainslikelybeingformed
+slightly smaller than the mean NC edge length. The atomic frommultipleAgNPs.
+fractions of metallic Ag in the as-prepared Ag/CuO agree Quasi-in situ X-ray photoelectron spectroscopy (XPS)
+2
+well with the Cu/Ag composition obtained by ICP-MS measurementswereperformedtogaindeeperinsightintothe
+(TableS5). This confirms that the majority of the added Ag surface composition and chemical state of the AgNP-
+from the AgNO solution was incorporated in the AgNPs, decorated and pure CuONCs before and after 2h of 3 2
+and that the initial ratios of the metal salts utilized were CORR. Figure3 presents the Ag3d and Cu Auger LMM
+2
+maintained. spectra, while FigureS6 shows the Cu2p spectra. The Ag3d
+The structural evolution of the 5-Ag/CuO catalyst was core level regions of 3- and 5-Ag/CuO (Figure3a,b) reveal
+2 2
+investigated before and after 2h of CORR using ex situ thatAgisinthemetallicstatebeforeandafterCORR,which
+2 2
+grazing incidence (GI) XRD (Figure2, Table1) and shows is also consistent with the XRD results. The Ag/Cu surface
+thereductionofCuOtometallicCuasprominentlyseenin composition ratios were determined by integrating the peak
+2
+the Cu(111) reflection at 43.288. The background arises from areas of Ag3d and Cu2p . As expected for AgNPs
+5/2 3/2
+thecarbonpapersupport(FigureS5).Rietveldrefinementof decorating the surface of CuONCs, the Ag/Cu ratio
+2
+5-Ag/CuO after CORR suggests a mixture of CuO and extracted from the more surface-sensitive XPS technique
+2 2 2
+metallic Cu and a significantly increased Ag fraction, while washigherthanthebulkcompositionobtainedfromtheXRD
+ICP-MS did not show changes in the catalyst composition and ICP-MS analysis. After CORR, the Ag/Cu XPS ratios
+2
+(TableS6). Thus, we are missing a considerable fraction of further increased from 4:96 to 7:93at% in 3-Ag/CuO and
+2
+Cu/CuO afterreactionaccordingtoXRD.Thissuggeststhat from 9:91 to 11:89 in 5-Ag/CuO. Thus, we conclude that
+x 2
+Cu might be present in non-crystalline domains, resulting in amorehomogeneousdistributionofAg(redispersion)onthe
+CuO surface takes place during CORR. Furthermore, we
+2 2
+can exclude significant preferential dissolution of Cu during
+CORRduetotheconstantbulkAg/Curatiobeforeandafter
+2
+CORR as demonstrated by ICP-MS (TableS6). The higher
+2
+AgsignalobservedafterCORRagreeswiththeformationof
+2
+smallerAgNPsandclustersandanenhancedAgdispersion,
+asalsorevealedbytheSTEMandXRDdata.
+Additionally, deconvolution of the Cu LMM spectra
+(Figure3c,d, TableS7) was carried out to distinguish Cu0,
+CuI, and CuII near-surface species. In the as-prepared state,
+thesamplesconsistedmainlyofCuOwithacontributionof
+2
+CuO. After 2h of CORR, the near-surface regions of the
+2
+CuONCs and Ag/CuO samples were fully reduced to
+2 2
+metallic Cu within the error margin. In contrast to prior
+studies, our samples were not exposed to air after CORR,
+2
+sinceourelectrochemicalcellisdirectlyconnectedtotheXPS
+chamber.Thus,eventhoughnopotentialisappliedduringthe
+XPSmeasurement,re-oxidationinaircanbeexcluded.
+The electrocatalytic performance of AgNP-decorated Figure2. ExsituXRDpatternof5-Ag/CuOdepositedoncarboninthe
+as-preparedstateandafter2hofCO 2 RR 2 at@1.0V RHE .Redlines andpureCu 2 ONCsdepositedoncarbonpaperwasevaluated
+correspondtoRietveldfits. by chronoamperometric measurements for 2h at potentials
+7428 www.angewandte.org T2021TheAuthors.AngewandteChemieInternationalEditionpublishedbyWiley-VCHGmbH Angew.Chem.Int.Ed.2021,60,7426–7435
+15213773,
+2021,
+13,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/anie.202017070
+by
+CochraneAustria,
+Wiley
+Online
+Library
+on
+[23/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+
+===== PAGE 4 =====
+
+Angewandte
+Research Articles
+Chemie
+at @0.7V in comparison to
+RHE
+20%FEforthepureCuONCs
+2
+(FigureS8b). At higher overpo-
+tentials, the FE decreases for
+CO
+all catalysts, and starting from
+@1.0V theselectivityforCO
+RHE
+oftheAg/CuOisevensimilarto
+2
+that of the bare CuONCs
+2
+(FE =3–5%).Wenotethat3-
+CO
+Ag/CuO shows a better ability
+2
+totransformCO intoC prod-
+2 2+
+uctsatloweroverpotentialsthan
+5-Ag/CuO,whichisalsorelated
+2
+to a lower FE of CO starting
+from @0.83V (FigureS8b).
+RHE
+These differences might origi-
+nate from the different sizes of
+theAgNPsinthetwosamplesas
+extractedbySTEManalysis(Ta-
+bleS2), which can affect the
+electrocatalytic reduction of
+CO to CO as well as the CO
+2
+spilloverto theAg/Cuinterface.
+The production of ethylene
+on the CuONCs peaks at
+2
+@0.95V with 40% FE (Fig-
+RHE
+ures4c,S7c),whileforthe3-Ag/
+CuO the FE is slightly larger
+2
+(45%). In contrast, 5-Ag/CuO 2
+shows a lower FE (34%),
+ethylene
+paralleledbyanenhancementin
+the ethanol production. Conse-
+Figure3. Quasi-insituAg3dXPSandCuLMMXAESspectraofCuONCs,3-Ag/CuO,and5-Ag/CuO quently,theFE /FE ra-
+2 2 2 ethanol ethylene
+(a,c)intheas-preparedstateand(b,d)after2hofCORRat@1.0V (withoutairexposure)withthe tio at @1.0V increases with
+2 RHE RHE
+correspondingfits(redline)andreferencespectra. Ag loading from 0.28 for
+CuONCs, 0.33 for 3-Ag/CuO,
+2 2
+between@0.7and@1.1V inaCO-saturated0.1mKHCO to 0.49 for 5-Ag/CuO. The C selectivity is the highest for
+RHE 2 3 2 2+
+electrolyte(Figures4,S7–S11,TableS8).Figure4displaysthe thetwoAg/CuOsampleswithaFEof65%at@0.98V ,
+2 RHE
+Faradaic efficiencies (FEs) of the main C and C products, which is an increase of 10% compared to pure CuONCs
+2 3 2
+namely, ethanol, 1-propanol, and ethylene, as well as the (Figure4d,S7d).
+combinedFEsofallC products,oftheC liquidproducts, Furthermore, the parasitic HER (FigureS8a) and the
+2+ 2+
+and of the C carbonyl products; see also FiguresS8 (C production of formate (the only C liquid, FigureS8d) were
+2+ 1 1
+products), S9 (minor C products), S10 (sum of all liquid (slightly) suppressed. The latter has also been recently
+2+
+products),andS11(geometricandmasscurrentdensities). observed for AgCu foam catalysts as compared to pure Cu
+Theproductionofethanolat@1.0V increasessignifi- foams.[14] In contrast, the formation of acetaldehyde (Fig-
+RHE
+cantlywiththeamountofAg.CuONCs,3-,and5-Ag/CuO ureS9a) and propionaldehyde (FigureS9b) is significantly
+2 2
+reach 10%, 13%, and 17% FE for ethanol at @1.0V , increasedfor5-Ag/CuO,whichresultsinanenhancementof
+RHE 2
+respectively (Figures4a, S7a). Thus, FE increased thecarbonylC productsbyafactorofthree(Figure4f,S7f).
+ethanol 2+
+1.5times by the addition of 5at% of Ag to CuONCs. Overall, introducing Ag increases the FE of the desired C
+2 2+
+Additionally,theproductionof1-propanolisdoubledinthe liquid products (Figure4e, S7e) for 5-Ag/CuO by 15% in
+2
+Ag/CuOsampleswithFEof5–6%at@0.9V compared comparisontoCuONCsat@1.0V .Thisisassignedtothe
+2 RHE 2 RHE
+to3%fortheCuONCs(Figure4b).Thisincreaseinalcohol enhanced production of ethanol, 1-propanol, allyl alcohol,
+2
+yieldhasbeenpreviouslylinkedtoCOspilloverfromAgto andcarbonylC products(Figure4a,b,f,S9c).Weaddition-
+2+
+Cu, since the weaker binding between Ag and the *CO ally performed long-term CORR measurements for 12h at
+2
+intermediate is considered to facilitate CO production as @1.0V totrackthestabilityofthecatalyticperformance
+RHE
+compared to the moderate binding energy between Cu and (FigureS12) and found a good stability for all catalysts. For
+the *CO intermediate leading to the formation of hydro- the Ag/CuO samples, the amount of C liquid products
+2 2+
+carbons.[4,10] Also in our case, the Ag/CuO samples show remainsstableovertimewithadecreaseofthealdehydesand
+2
+higherFEsforCOatlowoverpotentials,withalmost40%FE
+Angew.Chem.Int.Ed.2021,60,7426–7435 T2021TheAuthors.AngewandteChemieInternationalEditionpublishedbyWiley-VCHGmbH www.angewandte.org 7429
+15213773,
+2021,
+13,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/anie.202017070
+by
+CochraneAustria,
+Wiley
+Online
+Library
+on
+[23/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+
+===== PAGE 5 =====
+
+Angewandte
+Research Articles
+Chemie
+Figure4. Potential-dependentFaradaicefficienciesofa)ethanol,b)1-propanol,c)ethylene,d)C +C products(C ),e)C liquidproducts,and
+2 3 2+ 2+
+f)C carbonylproductsofCuONCs(black),3-Ag/CuO(blue),and5-Ag/CuO(green)after2hofelectrolysisinCO-saturated0.1mKHCO.
+2+ 2 2 2 2 3
+Solidlinesareaguidefortheeye.
+increase of 1-propanol as well as acetate for the 5-Ag/CuO 8981eV. Linear combination analysis (LCA) of CuK-edge
+2
+catalyst. XANES data revealed the presence of CuI and CuII species
+InordertofurtherexaminetheCu–Aginteractionandits (FigureS14), as already seen in the more surface-sensitive
+role in the CORR selectivity, we also investigated the XPS analysis. The decoration with the AgNPs does not
+2
+catalytic performance of the pure CuONCs deposited on change the Cu XANES spectra (Figure5c). AgK-edge
+2
+a polished Ag foil (CuO/Ag). In this configuration (Fig- XANES spectra, in turn, confirm the metallic state of Ag
+2
+ureS13),theproductionofC liquidsisalsoenhancedonthe with all XANES features resembling those of the Ag foil.
+2+
+CuO/Ag sample at @1.0V , indicating again the impor- ThesefindingsareconsistentwiththeSTEM,XRD,andXPS
+2 RHE
+tance of the CO generated at the Ag sites for the further results, emphasizing the lack of significant interaction be-
+hydrogenationoftheC@CproductsgeneratedontheCusites. tweentheCuOandAgspeciesintheas-preparedstate.
+2
+However, the CuO/Ag sample shows a drastic increase of The reduction of the CuONCs was investigated during
+2 2
+HERascomparedtothe5-Ag/CuO,namelyfrom20to40% CORR at@1.0V for5h(FigureS14).In thefinalstate,
+2 2 RHE
+FE,andasuppressionoftheethyleneFEfrom30%to20%. the CuK-edge XANES spectrum resembles that of the
+Thismightbecorrelatedtothedecreaseofthetotalareaof metallic Cu foil reference (Figure5b). We tracked the
+the Ag/Cu interface, which decreases the atomic interaction evolution of the Cu0/CuI/CuII ratios by LCA (FigureS14b,c)
+and synergy between Ag and Cu. Consequently, the well- andouranalysisrevealedthatasignificantfractionofCuIwas
+distributed AgNPs, which redispersed on the surface of our preservedunderCORRreactionconditionswith15–25%of
+2
+CuONCs, appear to play a significant role in the observed CuI present in all samples. Figure5d shows the AgK-edge
+2
+synergisticeffectandtheC@Ccouplingmechanism. XANESspectraunderCORRconditionsat@1.0V after
+2 RHE
+Further insight into the Ag–Cu interaction can be reachingstationaryconditions.Agremainedmetallic,butan
+extracted from operando X-ray absorption spectroscopy attenuation of the post-edge oscillations is visible during
+(XAS)data.Figure5depictsthenormalizedCuK-edgeand CORR,explainablebyadecreaseinthesizeoftheAgNPs
+2
+AgK-edge X-ray absorption near edge structure (XANES) duetotheirredispersionontheCuONCsurface.[15]
+2
+spectraoftheAgNP-decoratedandpureCuONCsintheir To achieve a deeper understanding of the local atomic
+2
+as-prepared state (Figure5a,c) and during CORR in structure, Fourier transformed extended X-ray absorption
+2
+a steady-state after 5h of the reaction (Figure5b,d). The fine structure (FT-EXAFS) spectra of the AgNP-decorated
+position of the absorption edge in the CuK-edge XANES and pure CuONCs are shown in Figure6 with the corre-
+2
+spectra of the as-prepared CuONCs compared to the spondingFourier-filteredEXAFSspectrainFigureS15.The
+2
+reference spectra shows that the NCs mainly exhibit a CuI peaks at 1.5c and 2.8c (phase uncorrected) in CuK-edge
+oxidation state with the characteristic pre-edge feature at FT-EXAFSandat2.8cinAgK-edgeFT-EXAFSfortheas-
+7430 www.angewandte.org T2021TheAuthors.AngewandteChemieInternationalEditionpublishedbyWiley-VCHGmbH Angew.Chem.Int.Ed.2021,60,7426–7435
+15213773,
+2021,
+13,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/anie.202017070
+by
+CochraneAustria,
+Wiley
+Online
+Library
+on
+[23/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+
+===== PAGE 6 =====
+
+Angewandte
+Research Articles
+Chemie
+creased from 12 in the Ag
+foilover11.4:0.4in3-Ag/
+CuOto10.5:0.3in5-Ag/
+2
+CuO, indicating an en-
+2
+hanced disorder within the
+AgNPs.However,theR
+Ag@
+distances in all samples
+Ag
+are comparable to that of
+theAgfoil,2.833:0.003c,
+which means that there is
+no significant lattice con-
+traction due to alloying in
+theas-preparedstate.
+Under stationary
+CORR conditions, the
+2
+Cu@Cu coordination num-
+ber of approx. 9 is lower
+than that of the Cu foil
+reference(12).Wealsoob-
+serve Cu@O bonds with
+N &0.3. The Cu@Cu
+Cu@O
+distance (R ) during
+Cu@Cu
+CORR, 2.524:0.003c, is
+2
+comparable to that in the
+bulk Cu foil reference
+(2.527:0.002c). The Cu0/
+CuIratio underCORR, as
+2
+obtained from the EXAFS
+analysis, agrees well with
+the XANES data (Ta-
+bleS9),showingthepartial
+reduction of the CuO to
+2
+metallic Cu under CORR
+2
+Figure5. NormalizedCuandAgK-edgeXANESspectraofCuONCs(black),3-Ag/CuO(blue),and5-Ag/ conditions. Our primary
+2 2
+CuO(green)inas-preparedstate(a,c)andinthefinalstateunderCORRat@1.0V (b,d).Reference findingfromtheCuK-edge
+2 2 RHE
+spectraofCuO,CuO,Cufoil,AgO,andAgfoilareshownforcomparison. istheincreasingdisorderof
+2 2
+the Cu@Cu bonds with
+higherAgloadingandthus
+preparedsamplesindicatethepresenceofCu@OandCu@Cu revealsthedecorationoftheCuONCswithAgNPsduring
+2
+bonds(typicalforCuO)andAg@Mbonds(here,MisAgor CORR, but one cannot exclude that this could also be
+2 2
+Cu),respectively,inagreementwiththeXANESanalysis. aresultofincompleteCuO reduction.
+x
+UnderCORRconditionsat@1.0V ,astrongpeakat One of the main goals of this study is to explore the
+2 RHE
+2.2c (phase-uncorrected) appeared in the CuK-edge FT- interaction between Cu and Ag at the atomic scale under
+EXAFS,whichcanbeattributedtotheCu@Cucontribution CORR conditions. Due to the low concentration of Ag as
+2
+in metallic Cu. The Ag@M peak position at 2.8c in AgK- compared to Cu, information on the interplay between Ag
+edge FT-EXAFS did not change significantly, and no addi- andCuatomscanbebestextractedfromtheanalysisofAg
+tional peaks appeared. Nonetheless, the comparison of the EXAFS data (Figure6c,d, S16). During CORR, we identi-
+2
+FT-EXAFS before and during CORR shows a decrease in fiedanadditionalcontributionofAg@CubondswithR of
+2 Ag@Cu
+the Ag@M peak intensities. Moreover, the intensity of both, 2.623:0.005c (3-Ag/CuO) and 2.596:0.008c (5-Ag/
+2
+theCu@CuandAg@MpeaksdecreaseswithanincreaseinAg CuO), while the bond lengths in the more prominent Ag@
+2
+loading (Figure6). These differences suggest structural Ag component did not contract significantly for 3-Ag/CuO
+2
+changesintheAgandCuatomicenvironmentunderCORR (2.840:0.005c), but did so for 5-Ag/CuO (2.787:
+2 2
+conditions, which we further investigated using quantitative 0.007c). The Ag@Ag coordination number decreased from
+fitting of the EXAFS spectra to obtain the structural 12(bulk)to9,andanAg@Cucoordinationnumber(N )
+Ag@Cu
+parameterspresentedinTablesS10–S11.Fortheas-prepared ofupto1wasobtainedunderCORRconditions,beinglarger
+2
+state, we obtained a Cu@O coordination number (N ) of forthe3-Ag/CuOsamplethanfor5-Ag/CuO.Theobtained
+Cu@O 2 2
+circa2 and a Cu@O distance (R ) of circa1.87c, which Ag@CubondlengthisinbetweenthevaluesfortheCu@Cu
+Cu@O
+agree with the values of these parameters in bulk CuO. distanceinbulkCu(2.527:0.002c)andtheAg@Agdistance
+2
+Furthermore, in the as-prepared samples, the N de- in bulk Ag (2.833:0.003c). The Ag@Cu bond lengths as
+Ag@Ag
+Angew.Chem.Int.Ed.2021,60,7426–7435 T2021TheAuthors.AngewandteChemieInternationalEditionpublishedbyWiley-VCHGmbH www.angewandte.org 7431
+15213773,
+2021,
+13,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/anie.202017070
+by
+CochraneAustria,
+Wiley
+Online
+Library
+on
+[23/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+
+===== PAGE 7 =====
+
+Angewandte
+Research Articles
+Chemie
+Intheas-preparedstate,
+the characteristic peaks of
+CuO are observed at
+2
+415cm@1, 527cm@1, and
+623cm@1.[16] The CuO
+2
+peaks vanished for all sam-
+plesafter applyinga reduc-
+tivepotentialof@0.4V ,
+RHE
+which indicates a prompt
+reduction of the surface
+CuOspeciesindependently
+2
+from the Ag loading. The
+latter is in agreement with
+thequasi-insituXPSanaly-
+sis.
+At more negative po-
+tentials, the operando
+SERS data of the AgNP-
+decoratedCuONCsexhib-
+2
+it significant differences
+compared to the bare
+CuONCs during CORR:
+2 2
+1)At higher Raman shifts,
+a broad band of the C@O
+vibrations appeared at
+2088cm@1 for CuONCs
+2
+during CORR, while for
+2
+Ag/CuO a shoulder at
+2
+2031cm@1 is more pro-
+nounced. This might be as-
+signedtothemultisitebind-
+ing mechanism on the Ag-
+Cu surface, where each
+Figure6. ModuliofFourier-transformedCuandAgK-edgeEXAFSspectraofCuONCs(black),3-Ag/CuO binding configuration has
+2 2
+(blue),and5-Ag/CuO(green)intheas-preparedstate(a,c)andinthefinalstateunderoperandoCO a different electron back-
+2 2
+reductionconditionsat@1.0V (b,d)withcorrespondingfits(red).PartialcontributionofAg@Cubonds,as donating ability.[17] 2)For
+RHE
+obtainedfromEXAFSdatafitting,isalsoshownin(d)withdottedlines.ReferencespectraofCu 2 O,Cuand the AgNP-decorated
+Agfoilsareshownforcomparison.
+CuONC samples, two ad-
+2
+ditional peaks at 490 and
+well as the coordination numbers suggest the partial incor- 530cm@1 appeared, which might be assigned to Ag@CO
+porationofAgintoCu-richdomainseitherasanAgCuphase vibrations.[11,18] 3)Two peaks evolve differently at 280cm@1
+orasdispersedparticlesorclustersontheCusurfaceunder and366cm@1, causedby theCu@COfrustratedrotation and
+CORR conditions. Furthermore, the reduced total Ag@M stretchingvibration,respectively.[16b,18]Thus,wecantrackthe
+2
+coordinationnumberswithrespecttothoseintheas-prepared CO adsorbed on Cu and Ag separately by using operando
+samples suggest an increase in the disorder in the Ag@Ag SERS and identified significant differences in the CO
+componentduringCORR,whichagreeswellwithasmaller adsorptioncharacteristicsonCuinthepresenceofdispersed
+2
+particlesizeand/orAgredispersionduringCORR,asshown AgatomsduringCORRas,interestingly,thepeakintensity
+2 2
+bytheSTEMresults.Thus,weobservethepartialmiscibility ratioofthetwoCu@CORamanpeaksshiftstowardstheCu@
+of Cu and Ag under CORR conditions by using operando CO stretching vibration with decreasing electrode potential.
+2
+AgK-edge XAS, which was not provided in comparable AsimilartrendcanalsobeseenwithincreasingAgcontentat
+studiessofar. @1.0V . These drastic changes might originate from the
+RHE
+We furthermore followed the reduction of the CuO way that CO predominantly binds to Cu. While on pure
+2
+speciesandtheCOorCO-likeintermediateschemisorbedon CuONCstheCObindingconfigurationissimilarlyproneto
+2
+Cu and Ag at different potentials and during CORR via Cu@COrotationandstretching,thepresenceofAgsitesgives
+2
+operando surface-enhanced Raman spectroscopy (SERS). risetoaCObindingconfigurationthatfacilitatestheCu@CO
+Figure7 presents potential-dependent SERS spectra of the stretchingwiththusstrongerlateralconfinement.Weantici-
+AgNP-decorated and pure CuONCs acquired at open patethatthelatterplaysacriticalcatalyticroleinenhancing
+2
+circuitpotential(ocp)andbetween@0.4and@1.1V from the C@C coupling of neighboring CO adsorbates and thus
+RHE
+150–700cm@1and1850–2350cm@1(seealsoFigureS17). increasestheC liquidproductformation.
+2+
+7432 www.angewandte.org T2021TheAuthors.AngewandteChemieInternationalEditionpublishedbyWiley-VCHGmbH Angew.Chem.Int.Ed.2021,60,7426–7435
+15213773,
+2021,
+13,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/anie.202017070
+by
+CochraneAustria,
+Wiley
+Online
+Library
+on
+[23/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+
+===== PAGE 8 =====
+
+Angewandte
+Research Articles
+Chemie
+Figure7. Operandosurface-enhancedRamanspectraofa)CuONCs,b)3-Ag/CuO,andc)5-Ag/CuOatopencircuitpotential(ocp)andunder
+2 2 2
+differentappliedpotentialsinCO-saturated0.1mKHCO.AllpotentialsaregivenwithreferencetoRHE.
+2 3
+From the ex situ and operando studies performed under
+*CHCHOþHþþe@!*CHCHO!CHCHO ð1Þ
+CORR we gained a detailed insight into the structural 2 3 3 2
+evolutionoftheAgNP-decoratedCu 2 ONCcatalysts.Intheir *CH 3 CHOþ2Hþþ2e@!C 2 H 5 OH ð2Þ
+as-prepared state, the CuONCs as well as the AgNP-
+2
+decorated samples mainly consist of Cu 2 O, with some If*CH 3 CHOcoupleswithanother*CO,propionaldehyde
+contribution from CuO. During CO 2 RR, Cu 2 O is partially [Eq.(3)]and1-propanol[Eq.(4)]canbeformed.
+reduced to metallic Cu, while the contribution of CuO
+vanishes. In fact, the operando XANES data evidenced the *CHCHOþCOþ2Hþþ2e@þHO!
+3 2 ð3Þ
+incompletereductionofCu 2 Oinallsamplesafterfivehours *CH 3 CH 2 CHOþH 2 O!CH 3 CH 2 CHO
+ofCORR(upto30%ofCuOremainedinthe3-Ag/CuO
+2 2 2
+sample).However,wedidnotfindacorrelationbetweenthe *CHCHCHOþ2Hþþ2e@!1-CHOH ð4Þ
+3 2 3 7
+content of CuO (in the bulk, XAS data) and the increased
+2
+selectivityforC liquidproducts,whichmightbeduetothe On Cu surfaces, acetaldehyde and propionaldehyde are
+2+
+completereduction(XPS,SERS)ofthesurfaceCuOspecies usually hydrogenated to ethanol, and 1-propanol is only
+2
+tometallicCuduringCORR. detectedwithFE&1%,asseenfortheCuONCs.Therefore,
+2 2
+Since the fraction of Ag in the near-surface is low wecanrelatetheenhancementofthetwoaldehydeselectiv-
+(<11at%),intermixingisplausiblealthoughaprecisedeter- ities to the dispersion of the Ag atoms/small clusters on the
+mination of the Ag/Cu ratio in the AgCu regions is not CusurfaceduringCORR,whichinduceslocallystrainedCu
+x 1@x 2
+possible. Therefore, our system consists of three classes of sites with expanded Cu@Ag distances compared to Cu@Cu
+potentiallyactivesitesduringCORR:Ag/AgCu/Cu. and, most importantly, differences in the predominant CO
+2
+To further understand how the structural/chemical rear- binding motifs. DFT calculations of our previous study
+rangementsinfluencethereactionmechanism,itisusefulto showed that an expanded Cu lattice increases the binding
+correlate such changes with the formation and stability of energies for the intermediates of CORR (e.g., *CO on
+2
+different intermediates during CORR. The production of Cu).[9c] Additionally, Ag incorporation in Cu weakens the
+2
+CO increased at lower overpotentials with increasing Ag bindingenergies of the reduced aldehyde intermediates and
+content in the samples.[19] It has been suggested that *CO, inhibitstheirfurtherreductiontoethanoland1-propanolas
+which is a key intermediate for the C@C coupling mecha- demonstrated in a recent DFT study.[22] However, the
+nism,[19] might couple with *CH[20] to form the *CHCHO structural analysis of the catalysts showed that the surface
+x 2
+intermediate, which plays a central role in the formation of partially consists of Cu/Ag areas, which also leads to the
+C liquid products.[21] The *CHCHO intermediate can be formationofethanoland1-propanolattheCusites,sincethey
+2+ 2
+hydrogenatedto*CHCHOandformacetaldehyde[Eq.(1)] are expected to have higher binding energies for the oxy-
+3
+orbefurtherhydrogenatedtoyieldethanol[Eq.(2)]. genated intermediates as compared to the Ag–Cu mixed
+Angew.Chem.Int.Ed.2021,60,7426–7435 T2021TheAuthors.AngewandteChemieInternationalEditionpublishedbyWiley-VCHGmbH www.angewandte.org 7433
+15213773,
+2021,
+13,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/anie.202017070
+by
+CochraneAustria,
+Wiley
+Online
+Library
+on
+[23/05/2026].
+See
+the Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+
+===== PAGE 9 =====
+
+Angewandte
+Research Articles
+Chemie
+regions. Therefore, having Ag/AgCu/Cu interfaces as active Conflict of interest
+surface sites appears to enhance the yield of C liquid
+2+
+products. Theauthorsdeclarenoconflictofinterest.
+Keywords: CO electroreduction · CuO· CuAgalloy ·
+Conclusion 2 2
+operandosurface-enhanced Ramanspectroscopy ·
+operandoX-rayabsorption spectroscopy
+Insummary,AgNP-decoratedCuOnanocubesdisplayed
+2
+enhanced selectivity toward C liquid products, while the
+2+
+production of formate and hydrogen was suppressed. By
+[1] a)S. Chu, Y. Cui, N. Liu, Nat. Mater. 2017, 16, 16–22; b)P.
+means of ex situ, quasi-in situ, and operando spectroscopy
+DeLuna,C.Hahn,D.Higgins,S.A.Jaffer,T.F.Jaramillo,E.H.
+studies under CORR conditions, we could gain insight into Sargent,Science2019,364,eaav3506.
+2
+thestructuralandchemicaltransformationsofthesecatalysts [2] a)M. Jouny, W. Luc, F. Jiao, Ind. Eng. Chem. Res. 2018, 57,
+that were shown to influence the selectivity trends. In 2165–2177;b)S.I.Mussatto,G.Dragone,P.M.R.Guimar¼es,
+particular, we found the redispersion of the AgNPs on Cu J.P.A. Silva, L.M. Carneiro, I.C. Roberto, A. Vicente, L.
+Domingues,J.A.Teixeira,Biotechnol.Adv.2010,28,817–830.
+andacertainCu–Agmiscibility,leadingtoexpandedCu–Ag
+[3] Y.Hori,K.Kikuchi,A.Murata,S.Suzuki,Chem.Lett.1986,15,
+distances compared to metallic Cu–Cu distances. Such
+897–898.
+structural rearrangements were found to result in an [4] Y. Hori, in Modern Aspects of Electrochemistry (Eds.: C.G.
+enhancedformationofalcoholsandaldehydes. Vayenas, R.E. White, M.E. Gamboa-Aldeco), Springer, New
+By comparing the selectivity of pure CuO and AgNP- York,2008,pp.89–189.
+2
+decorated CuONCs we concluded that even though CuO [5] a)H.Mistry,A.S.Varela,S.Kghl,P.Strasser,B.RoldanCue-
+2 2 nya,Nat.Rev.Mater.2016,1,16009;b)R.Reske,H.Mistry,F.
+species were partially preserved under reaction conditions,
+Behafarid, B. RoldanCuenya, P. Strasser, J. Am. Chem. Soc. theyarenotthesolespeciesresponsiblefortheenhancement
+2014, 136, 6978–6986; c)H. Mistry, R. Reske, Z. Zeng, Z.-J.
+intheC liquidproducts,whichisfavoredwhenlargeAg/Cu 2+ Zhao,J.Greeley,P.Strasser,B.RoldanCuenya,J.Am.Chem.
+interfacesareformed.Importantly,wecorrelatetheenhance- Soc.2014,136,16473–16476;d)H.S.Jeon,I.Sinev,F.Scholten,
+ment to variations in the predominant CO adsorption motif N.J.Divins,I.Zegkinoglou,L.Pielsticker,B.RoldanCuenya,J.
+onCuinthepresenceofdispersedAgatoms. Am. Chem. Soc. 2018, 140, 9383–9386; e)A. Loiudice, P.
+Our work contributes to the fundamental understanding Lobaccaro,E.A.Kamali,T.Thao,B.H.Huang,J.W.Ager,R.
+Buonsanti,Angew.Chem.Int.Ed.2016,55,5789–5792;Angew.
+of the CORR by highlighting the intricate interplay of 2 Chem.2016,128,5883–5886;f)Z.Wang,G.Yang,Z.Zhang,M.
+different parameters affecting the selectivity. These include
+Jin,Y.Yin,ACSNano2016,10,4559–4564.
+the content of residual CuO species, the presence of
+2 [6] a)A.S.Varela,M.Kroschel,T.Reier,P.Strasser,Catal.Today
+asecondarymetalnearCuwhereefficientCOspillovercan 2016,260,8–13;b)D.Ren,J.Fong,B.S.Yeo,Nat.Commun.
+takeplace,andthealloyingofCuwithanothermetalthatis 2018,9,925;c)Y.Lum,B.Yue,P.Lobaccaro,A.T.Bell,J.W.
+able to locally increase the interatomic distance, leading to Ager,J.Phys.Chem.C2017,121,14191–14203;d)D.Gao,F.
+a change in the binding energies of adsorbates and inter- Scholten, B. RoldanCuenya, ACS Catal. 2017, 7, 5112–5120;
+e)J. Resasco, L.D. Chen, E. Clark, C. Tsai, C. Hahn, T.F.
+mediates,thusfavoringtheformationofC liquidproducts.
+2+ Jaramillo, K. Chan, A.T. Bell, J. Am. Chem. Soc. 2017, 139,
+11277–11287.
+[7] a)J.-J.Velasco-V8lez,T.Jones,D.Gao,E.Carbonio,R.Arrigo,
+Acknowledgements C.-J. Hsu, Y.-C. Huang, C.-L. Dong, J.-M. Chen, J.-F. Lee, P.
+Strasser,B.RoldanCuenya,R.Schlçgl,A.Knop-Gericke,C.-H.
+This work was funded by the Deutsche Forschungsgemein- Chuang,ACSSustainableChem.Eng.2019,7,1485–1492;b)H.
+Mistry,A.S.Varela,C.S.Bonifacio,I.Zegkinoglou,I.Sinev,Y.-
+schaft(DFG),projectno.406944504—SPP2080andGerma-
+W. Choi, K. Kisslinger, E.A. Stach, J.C. Yang, P. Strasser, B.
+nyQs Excellence Strategy—EXC 2008–390540038—UniSys-
+RoldanCuenya,Nat.Commun.2016,7,12123;c)C.Liu,M.P.
+Cat,andtheEuropeanResearchCouncilundergrantERC-
+LourenÅo, S. Hedstrçm, F. Cavalca, O. Diaz-Morales, H.A.
+OPERANDOCAT (ERC-725915). A.H., C.R., and F.T.H. Duarte,A.Nilsson,L.G.M.Pettersson,J.Phys.Chem.C2017,
+acknowledgesupportbytheIMPRSFunctionalInterfacesin 121,25010–25017;d)R.M.Ar#n-Ais,F.Scholten,S.Kunze,R.
+PhysicsandChemistry.WeacknowledgeSOLEILforprovi- Rizo,B.RoldanCuenya,Nat.Energy2020,5,317–325.
+sion of synchrotron radiation facilities, and thank the [8] a)D.F.Gao,I.Zegkinoglou,N.J.Divins,F.Scholten,I.Sinev,P.
+Grosse,B.RoldanCuenya,ACSNano2017,11,4825–4831;b)P.
+“SAMBA” beamline staff for their great assistance. Experi-
+Grosse, D.F. Gao, F. Scholten, I. Sinev, H. Mistry, B. Roldan
+ments were also performed at CLAESS beamline at ALBA
+Cuenya, Angew. Chem. Int. Ed. 2018, 57, 6192–6197; Angew.
+synchrotronwiththecollaborationofALBAstaff.Wethank Chem.2018,130,6300–6305.
+See Wee Chee and Osman Karslioglu (FHI) for STEM [9] a)S. Ma, M. Sadakiyo, M. Heima, R. Luo, R.T. Haasch, J.I.
+support and Chao Zhan (FHI) for feedback concerning the Gold,M.Yamauchi,P.J.A.Kenis,J.Am.Chem.Soc.2017,139,
+SERS data. Open access funding enabled and organized by 47–50;b)D.Kim,J.Resasco,Y.Yu,A.M.Asiri,P.Yang,Nat.
+Commun.2014,5,4948;c)M.Bernal,A.Bagger,F.Scholten,I. ProjektDEAL.
+Sinev,A.Bergmann,M.Ahmadi,J.Rossmeisl,B.RoldanCue-
+nya,NanoEnergy2018,53,27–36;d)H.S.Jeon,J.Timoshenko,
+F.Scholten,I.Sinev,A.Herzog,F.T.Haase,B.RoldanCuenya,
+J.Am.Chem.Soc.2019,141,19879–19887.
+[10] S.Lee,G.Park,J.Lee,ACSCatal.2017,7,8594–8604.
+7434 www.angewandte.org T2021TheAuthors.AngewandteChemieInternationalEditionpublishedbyWiley-VCHGmbH Angew.Chem.Int.Ed.2021,60,7426–7435
+15213773,
+2021,
+13,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/anie.202017070
+by
+CochraneAustria,
+Wiley
+Online
+Library
+on
+[23/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License
+
+
+===== PAGE 10 =====
+
+Angewandte
+Research Articles
+Chemie
+[11] J.Gao,H.Zhang,X.Guo,J.Luo,S.M.Zakeeruddin,D.Ren,M. [17] Y.C. Li, Z. Wang, T. Yuan, D.-H. Nam, M. Luo, J. Wicks, B.
+Gr-tzel,J.Am.Chem.Soc.2019,141,18704–18714. Chen, J. Li, F. Li, F.P.G. deArquer, Y. Wang, C.-T. Dinh, O.
+[12] a)D.Higgins,A.T.Landers,Y.Ji,S.Nitopi,C.G.Morales-Guio, Voznyy,D.Sinton,E.H.Sargent,J.Am.Chem.Soc.2019,141,
+L.Wang,K.Chan,C.Hahn,T.F.Jaramillo,ACSEnergyLett. 8584–8591.
+2018, 3, 2947–2955; b)E.L. Clark, C. Hahn, T.F. Jaramillo, [18] I.Oda,H.Ogasawara,M.Ito,Langmuir1996,12,1094–1097.
+A.T.Bell,J.Am.Chem.Soc.2017,139,15848–15857. [19] a)J.H.Montoya,C.Shi,K.Chan,J.K.Norskov,J.Phys.Chem.
+[13] T.T.H.Hoang,S.Verma,S.Ma,T.T.Fister,J.Timoshenko,A.I. Lett. 2015, 6, 2032–2037; b)D.F. Gao, I.T. McCrum, S. Deo,
+Frenkel,P.J.A.Kenis,A.A.Gewirth,J.Am.Chem.Soc.2018, Y.W.Choi,F.Scholten,W.M.Wan,J.G.G.Chen,M.J.Janik,B.
+140,5791–5797. RoldanCuenya,ACSCatal.2018,8,10012.
+[14] a)A. Dutta,I.Z. Montiel,R. Erni, K. Kiran,M. Rahaman, J. [20] L.R.L.Ting,O.Piqu8,S.Y.Lim,M.Tanhaei,F.Calle-Vallejo,
+Drnec,P.Broekmann,NanoEnergy2020,68,104331–104342; B.S.Yeo,ACSCatal.2020,10,4059–4069.
+b)T.Kottakkat,K.Klingan,S.Jiang,Z.P.Jovanov,V.H.Davies, [21] a)R. Kortlever, J. Shen, K.J.P. Schouten, F. Calle-Vallejo,
+G.A.M. El-Nagar, H. Dau, C. Roth, ACS Appl. Mater. M.T.M. Koper, J. Phys. Chem. Lett. 2015, 6, 4073–4082;
+Interfaces2019,11,14734–14744. b)E.L.Clark,A.T.Bell,J.Am.Chem.Soc.2018,140,7012–
+[15] J.Timoshenko,S.Roese,H.Hçvel,A.I.Frenkel,Radiat.Phys. 7020.
+Chem.2020,175,108049–10852. [22] L.Wang,D.C.Higgins,Y.Ji,C.G.Morales-Guio,K.Chan,C.
+[16] a)Y.Deng,A.D.Handoko,Y.Du,S.Xi,B.S.Yeo,ACSCatal. Hahn, T.F. Jaramillo, Proc. Natl. Acad. Sci. USA 2020, 117,
+2016,6,2473–2481;b)S.Jiang,K.Klingan,C.Pasquini,H.Dau, 12572–12575.
+J. Chem. Phys. 2019, 150, 041718-1–041718-12; c)G. Niaura,
+Electrochim.Acta2000,45,3507–3519;d)A.Singhal,M.R.Pai, Manuscriptreceived:December23,2020
+R. Rao, K.T. Pillai, I. Lieberwirth, A.K. Tyagi, Eur. J. Inorg. Acceptedmanuscriptonline:January26,2021
+Chem.2013,2640–2651. Versionofrecordonline:February22,2021
+Angew.Chem.Int.Ed.2021,60,7426–7435 T2021TheAuthors.AngewandteChemieInternationalEditionpublishedbyWiley-VCHGmbH www.angewandte.org 7435
+15213773,
+2021,
+13,
+Downloaded
+from
+https://onlinelibrary.wiley.com/doi/10.1002/anie.202017070
+by
+CochraneAustria,
+Wiley
+Online
+Library
+on
+[23/05/2026].
+See
+the
+Terms
+and
+Conditions
+(https://onlinelibrary.wiley.com/terms-and-conditions)
+on
+Wiley
+Online
+Library
+for
+rules
+of
+use;
+OA
+articles
+are
+governed
+by
+the
+applicable
+Creative
+Commons
+License

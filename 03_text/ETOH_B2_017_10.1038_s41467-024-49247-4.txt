@@ -1,0 +1,999 @@
+
+
+===== PAGE 1 =====
+
+Article https://doi.org/10.1038/s41467-024-49247-4
+Low-coordinated copper facilitates the
+fi
+*CH CO af nity at enhanced rectifying
+2
+fi
+interface of Cu/Cu O for ef cient CO -to-
+2 2
+multicarbon alcohols conversion
+Received:12August2023 YangyangZhang1,2,YanxuChen1,2,XiaowenWang1,YafeiFeng1,ZechuanDai1,
+MingyuCheng1&GenqiangZhang 1
+Accepted:29May2024
+Thecarbon−carboncouplingattheCu/Cu OSchottkyinterfacehasbeen
+2
+Checkforupdates widelyrecognizedasapromisingapproachforelectrocatalyticCO conver-
+2
+sionintovalue-addedalcohols.However,thelimitedselectivityofC alcohols
+2+
+persistsduetotheinsufficientcontroloverrectifyinginterfacecharacteristics
+requiredforprecisebondingofoxyhydrocarbons.Herein,wepresentan
+investigationintothemanipulationofthecoordinationenvironmentofCu
+sitesthroughanin-situelectrochemicalreconstructionstrategy,whichindi-
+catesthattheconstructionoflow-coordinatedCusitesattheCu/Cu Ointer-
+2
+facefacilitatestheenhancedrectifyinginterfaces,andinducesasymmetric
+electronicperturbationandfasterelectronexchange,therebyboostingC-C
+couplingandbondingoxyhydrocarbonstowardsthenucleophilicreaction
+processof*H CCO-CO.Impressively,thelow-coordinatedCusitesattheCu/
+2
+Cu Ointerfaceexhibitsuperiorfaradicefficiencyof64.15 ± 1.92%andenergy
+2
+efficiencyof~39.32%forC alcoholsproduction,whilemaintainingstability
+2+
+forover50h(faradicefficiency>50%,totalcurrentdensity=200mAcm−2)ina
+flow-cellelectrolyzer.Theoreticalcalculations,operandosynchrotronradia-
+tionFouriertransforminfraredspectroscopy,andRamanexperimentsdeci-
+pherthatthelow-coordinatedCusitesattheCu/Cu Ointerfacecanenhance
+2
+thecoverageof*COandadsorptionof*CH COandCH CHO,facilitatingthe
+2 2
+formationofC alcohols.
+2+
+CO electrochemicalreduction(CER)toproducevalue-addedchemi- onCu+andreducedenergybarrierforC–CorC –Ccouplingatthe
+2 2
+calsandfuelisanavailablestrategyinresponsetothegrowingenergy rectifyinginterface3,4.Nevertheless,owingtotheprecariousstabilityof
+and environmental crisis1. C alcohols are coveted outputs of CER oxyhydrocarbons intermediates (wherein, C H O* serves as the
+2+ 2 3
+owing to their extensive market potentials and remarkable energy watershed of C H or alcohols) and the oxidation state of Cu, the
+2 4
+densities2. Indubitably, the harmonious cooperation ofbiphasicCu/ enduringly biphasic Cu/Cu O catalyst continues to face significant
+2
+Cu O catalyst stands as an eminent contender in engendering C obstaclesinsuppressingthedesorptionofC H O*andenhancingthe
+2 2+ 2 3
+alcoholsowingtoitsheightenedpredilectiontowards*COadsorbates yieldofalcoholscomparedtohydrocarbonsinthehighlyreductive
+1HefeiNationalResearchCenterforPhysicalSciencesattheMicroscale,CASKeyLaboratoryofMaterialsforEnergyConversion,DepartmentofMaterials
+ScienceandEngineering,UniversityofScienceandTechnologyofChina,Hefei,Anhui,China.2Theseauthorscontributedequally:YangyangZhang,Yanxu
+Chen. e-mail:gqzhangmse@ustc.edu.cn
+NatureCommunications|( 2024)1 5:5172 1
+;,:)(0987654321 ;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+Article https://doi.org/10.1038/s41467-024-49247-4
+environmental5. Therefore, the feasible strategies are demanded to Mott–Schottky catalyst. Thus, the mechanism exploration of low-
+develop the architectural blueprint ofcatalysts and electrolytic sys- coordinatedCu/Cu Oonstabilizing*COandoxyhydrocarbonsinter-
+2
+temsforpreservingtheoxidationstateandbolsteringtheCO per- mediatesissignificant.
+2
+formance of copper-based catalysts, including but not limited to Herein, we demonstrated a low-coordinated Cu/Cu O
+2
+elemental doping6, interface engineering7,8, intermediate Mott–Schottky catalyst with an enhanced rectifying interface (Cu /
+L
+confinement9, and pulse CO electrolysis (P-eCO R owing the Cu O).Thiscatalystadjuststheelectrondensitiesthroughinterfacial
+2 2 2
+straightforwardandreadilyadjustablemeansofmanipulatinganodic charge exchange, leveraging the difference in Cu and Cu O work
+2
+potentialsforfacilitatingtheformationofCuoxidespecies)10,11.Espe- functions,whichcaneffectivelyformbondsbetween*COandoxyhy-
+cially,theMott−Schottkycatalystpossessestheremarkableabilityto drocarbons under CER conditions. Furthermore, Cu /Cu O catalyst
+L 2
+hinder the accumulation of electrons, thereby safeguarding the generatedhighlyselectivecatalyticsitesforthecouplingreactionof
+integrityofCu–Obonds,whilesimultaneouslyenablingswiftelectron *CO–COHandhydrogenationofC H O*intermediatetoC alcohols.
+2 2 2+
+transfercourtesyofitsbuilt-inelectricfield12,13.Therefore,itnecessi- Chlorine-dopedcuprousoxide(Cl–Cu O)andpureCu Owereselec-
+2 2
+tatestheemploymentofintricatecatalystconfigurationandfabrica- ted as the precursors and electrochemically reconstructed to
+tiontechniquestoelevatetherectifyinginterfaceeffectsofCu/Cu O unsaturated-coordinate Cu /Cu O and pure Cu /Cu O. The low-
+2 L 2 P 2
+forthepurposeofbondingoxyhydrocarbons. coordinated Cu /Cu O achieved a C alcohols faradic efficiency
+L 2 2+
+Severalstrategiescanimprovetheselectivityofoxyhydrocarbons (FE )of64.15±1.92%withthecorrespondingenergyefficiencyof
+alcohols
+inCER,includingthehighconcentrationoflocal*COaroundtheactive ~39.32%.Inaddition,astableC alcoholsfaradaicefficiencyof>50%
+2+
+sites14,15,dopingmodificationofcoppercatalystswithheteroatoms16,17, was also obtained during a continuous 50h chronopotentiometry
+building of crystal defects and low coordination of copper12,18,19. experiment.Ourresearchprovidesaplatformfortherationaldesign
+Effectively, the coverage of *CO can be facilitated on the low- of low-coordinated Cu–Cu O Mott–Schottky catalysts and analyzes
+2
+coordinatedCusitesofoxide-derivedCu,leadingtoitssubsequent thekeyelementsforefficientsynthesisofC alcohols.
+2+
+hydrogenationinto*COH,whichisessentialforthecouplingofOC
+−COH20,21.Forexample,LianggroupreportedafragmentedCucatalyst Results
+withabundantlow-coordinatedsitesbyelectrochemicalreconstruc- SynthesisandcharacterizationofCu L /Cu 2 Onanoparticles
+tion ofB-dopedCu O,whichexhibited aC products faradaiceffi- The Cu /Cu O catalysts were synthesized using a simple electro-
+2 2+ L 2
+ciencyof77.8%at300mAcm−2(seeref.19).Theoreticalcomputations chemical reconstruction strategy on Cl–Cu O nanoparticles (see
+2
+havedemonstratedthatthe*CObindingscouldbestrengthenedon detailsin“Methods”,SupplementaryFigs.1–4).TheCu /Cu Ocatalysts
+L 2
+low-coordinated copper sites and prefer to coupling with *COH are designed to function as a Mott–Schottky catalyst of Cu/Cu O,
+2
+insteadof*COdimerization22.Moreover,theincorporationofhalide which generates enhanced rectifying interfaces between electron-
+species and the creation of oxygen vacancy also contribute to the deficientmetalandelectron-richregionbecauseofthedifferencein
+formationoflow-coordinatedmetalandthecontrolledgenerationof work function (Fig. 1A). The rectifying interface effect of Cu–Cu O
+2
+intermediates23,24.Sunandco-workerintervenedthebehavioroflow- Mott–Schottky catalyst adjusts the electronic densities through
+coordinationchlorideion(Cl−)adsorptiononthesurfaceofasilver interfacial charge exchange, resulting in reduced adsorption resis-
+hollowfiber(AgHF)electrodein3MKClelectrolyte,whichresultedin tanceforintermediatesThiseffectalsoleadstohighercatalyticper-
+the high concentration of *CO on low-coordination Ag–Cl state for formance due to the electronic perturbation at both sides of the
+CER25. However, only few studies provide insight on the priority of interface (Fig. 1B)26. Enhancement of the rectifying interface effect,
+enhancedrectifyinginterfaceeffectsforbondingoxyhydrocarbonson however, can be achieved through the smaller size and defects of
+the low-coordinated Cu/Cu O in comparison to the pure Cu/Cu O crystals27,28,whichcontributestofasterelectrontransferandadenser
+2 2
+Fig.1|CatalyticmechanismofCuL/Cu2Oandfreeenergyofintermediates. Cu/CuO.DFreeenergyversusthenumberofadsorbed*COintermediatesonthe
+L 2
+ASchematicdiagramofrectifyinginterfacesinMott–Schottkycatalysts,whereE, catalystmodels.ETheformationenergyof*CHCHOonCu,CuO,Cu/CuO,and
+F 2 2 P 2
+EC,EVareFermilevels,conductionbandandvalencebandofsemiconductors, CuL/Cu2O.FTheformationenergyof*CH2COonCu,Cu2O,CuP/Cu2O,and
+respectively.BTheadsorptionofintermediatesandC–CcouplingreactiononCu/ Cu/CuO.
+P L 2
+CuO.CTheadsorptionofintermediatesandC–CorC–Ccouplingreactionon
+2 2
+NatureCommunications|( 2024)1 5:5172 2
+
+
+===== PAGE 3 =====
+
+Article https://doi.org/10.1038/s41467-024-49247-4
+Fig.2|StructuresofCu/CuO.AXRDpattern,BHRTEMimage,and verticalcoordinatescorrespondingtothetwodashedlinesandthedarkercolor
+L 2
+CcorrespondingelementalmappingofCu/CuOshowingtheinterfacebetween meanslowersurfacepotential.FWorkfunctiondeterminedbyUPSmeasurements.
+L 2
+CuandCu2Odomains.DTheTaucplots(αℏν)2versuslightenergy(ℏv)derivedby GElectrostaticpotential,H3Delectrondensitydifferencedistributionswithyellow
+transformingtheKubelka–MunkfunctiononthebasisoftheinsertedUV–visdif- indicatingchargedensityaccumulationandblueindicatingdepleteandI2Ddis-
+fuseabsorptionspectrum,whereEgisenergybandgap.EThesurfacepotentialof playofelectronlocalizationfunctionofCu/CuO:reddisplayshighelectron
+L 2
+CuL/Cu2Oandcorrespondingvariationofsurfacepotentialalongwiththeorien- densityandblueislow.
+tationofthewhiteline,wherethegrayarrowsarethedifferencebetweenthe
+asymmetricchargedistribution(Fig.1C).Furthermore,theaccumul- ToverifytheenhancedrectifyinginterfacesofCu /Cu O,aseries
+L 2
+ableelectrondensityindicatesthatthed→2π*backdonationinduce of experiments were conducted. The sharp peaks of XRD patterns
+thetransferofelectrondensityfromCutothe*COintermediates29,30. matchedperfectlywiththestandardcubicCu O(JCPDSNo.99-0041)
+2
+Theadsorptionabilitiesforintermediatesondifferentcatalystmodels andCu(JCPDSNo.89-2838),providingevidenceforthecoexistenceof
+arequantifiedbyDFTcalculation(SupplementaryFigs.5–8andSup- Cu+ and Cu0 (Fig. 2A). The SEM and TEM images show that the
+plementary Table 3). Figure 1D demonstrates that all these models reconstructed Cu /Cu O nanoparticles exhibit smaller particle sizes
+L 2
+exhibitalinearrelationshipbetweentheadsorptionenergyand*CO rangingfrom200to300nmcomparedtoCu /Cu O,withnoserious
+P 2
+coverage.Notably,theCu /Cu Omodelshowsahigherstarktuning agglomeration (Supplementary Figs. 9 and 10). From the high-
+L 2
+slope(−1.04),indicatinganenhancedinteractionbetween*COandthe resolution TEM and SAED images of Cu /Cu O (Fig. 2B and Supple-
+L 2
+catalystsurface,resultinginincreasedadsorptionstrengthandcov- mentaryFig.10C),thelatticefringeswithinterplanarspacingof0.25
+erage.Inaddition,theCu OmodelbondsmorefirmlywithCOmole- and0.18nmareclassifiedtothedspacingofexposedCu O(111)and
+2 2
+cules than other models due to the presence of stepped sites, Cu (200) planes, respectively. The distortion of Cu(200) may be
+confirmingtheaffinityfor*COadsorbatesonCu+ sites,asstatedin causedbythepotentialsurfacedefectowingtothecounterdiffusion
+previous literature31,32. Subsequently, the adsorption energy of oflatticeOfromtheCu O/Cuinterfacewithlowenergybarriers34.The
+2
+CH CHO (a branching intermediate for ethanol or ethylene) and distortedCu(200)caninducealow-coordinatedCuandreducethe
+2
+CH CO intermediates were calculated to assess the potential capa- barriersofintermediatesadsorption35.EnergydispersiveX-rayspectra
+2
+citiesfor ethanol andC products(Fig.1E,F). Both ofthemexhibit (EDS)mappinganalysisshowsthepresenceofresidualchlorinewitha
+3
+strong adsorption on the surface of Cu /Cu O model. The *CH CO contentof1.14at%andahomogeneousdistributionamongCu,Cl,and
+L 2 2
+molecular,withtheC(2)endofH C(1)C(2)Opossessingahighpositive O(Fig.2C,SupplementaryFig.10DandSupplementaryTableS2).The
+2
+charge,servesasakeyintermediatefortheC –Ccouplingreaction, enhancedrectifyinginterfacesoflow-coordinatedCu /Cu Oresultin
+2 L 2
+suggesting the C –C coupling as a nucleophilic addition reaction anincreasedabsorptionedgeintheultraviolet–visible(UV–vis)diffuse
+2
+process in the mixed-valence boundary region33. Thus, the low- reflectancespectrumacrosstheentirewavelengthrange(insertedin
+coordinatedCu /Cu OMott–Schottkycatalysthasanenhancedaffi- Fig.2D).BasedontheKubelka−Munkfunction,theopticalbandgapof
+L 2
+nityforintermediatescomparedtopureCu /Cu O. asemiconductorcanbeextrapolatedfromtheTaucplot(thecurveof
+P 2
+NatureCommunications|( 2024)1 5:5172 3
+
+
+===== PAGE 4 =====
+
+Article https://doi.org/10.1038/s41467-024-49247-4
+converted(αhν)1/nversushνfromtheUV-visspectrum,whereα,h,and electron-richstatusofoxygen-deficientCu+.However,theCu /Cu O
+P 2
+νaretheabsorptioncoefficient,Planckconstant,andfrequencyofthe exhibitsaperfectMott−Schottkystructurewithoutanysignsofdefi-
+photon,respectively,andnis1/2foradirectbandgapsemiconductor cient oxygen (Fig. 3B and Supplementary Fig. 15). From the Cl 2p
+or2foranindirectbandgapsemiconductor)33.TheTaucplotexhibitsa spectrums in Fig. 3C, the bonding energy of Cu–Cl also shifts to a
+well-matchedlinearfitwithn=1/2,whichisinlinewithpreviousarti- higherstatewithdeeperAr+etchingduetothepresenceofsufficient
+cles supporting Cu O as a direct bandgap semiconductor (Supple- ClandOatomsinthedepthofCu /Cu O.Thecleanrectifyinginterface
+2 L 2
+mentaryFig.11)36.TheE valueofCu /Cu Oiscalculatedtobe1.73eV regions of Cu /Cu O ensure smooth absorption and desorption, as
+g L 2 L 2
+by measuring the x-axis intercept of an extrapolated line from the well as the coupling behavior of oxyhydrocarbon intermediates. In
+linear regime of the curve, which is smaller than that of Cu /Cu O contrastwithCu2pspectraoftheCu /Cu Ospecies,theCu2p3/2
+P 2 P 2
+(1.85eV). The Cu /Cu O sample with a minimum band energy and peakofCu /Cu OshowsastrongcharacteristicsignalforCu0/Cu+at
+L 2 L 2
+highestconductivityisbeneficialforenhancingtherectifyinginterface 932.3eV,accompaniedbyweaksatellitepeaks(Fig.3D).TheAESof
+effect. Kelvin probe force microscopy (KPFM) was carried out to Cu /Cu OandCu /Cu OwereanalyzedbyCuLMMAugerspectrato
+P 2 L 2
+explore the internal electric field and work function of Cu /Cu O provetheclearerevidenceofthevalencestatesofCu(Fig.3E).The
+L 2
+(Fig.2E).Thecontactpotentialdifference(CPD)profileshowslightand kinetic energy of the Auger electron transitions of Cu /Cu O corre-
+L 2
+dark variations due to the different work functions of sample and sponding to Cu+, Cu2+, and Cu0 are measured at 916.4, 917.2, and
+substrate37.AccordingtotheCPDprofiles,theworkfunctionofCu / 918.3eV,respectively,furtherconfirmingthecoexistenceofCu+and
+L
+Cu O was defined to be the lowest among the other samples (Sup- Cu0 (Supplementary Fig. 16)40. Synchrotron-based X-ray absorption
+2
+plementaryFig.12).Figure2Eexhibitsthecontactpotentialdifference fine spectroscopy was employed to analyze the coordination envir-
+(CPD)profilesforCu /Cu O,fromwhichanestimateoftheaverage onmentofCu.TheadsorptionedgepositionofCu /Cu O(8980eV)is
+L 2 L 2
+surface potential of 0.037V can be derived. These results are in closertothatofCu O(8983.5eV)andCufoil,whileitisfurtheraway
+2
+accordancewiththeexperimentalexpectationsofUltravioletphoto- fromthatofCuO,indicatingthepresenceofintegralvalenceCuδ+(0<δ
+electron spectroscopy (UPS). Importantly, UPS experiments were <1) in the Cu /Cu O catalyst (Fig. 3F and Supplementary Fig. 17)41.
+L 2
+performed to calculate the work function (WF) of samples for esti- Figure3GshowstheFouriertransform(FT)extendedX-rayabsorption
+mating the electron binding factor (Fig. 2F). The experimental WF finestructurespectraofCu /Cu O.AstrongsignaloftheCu–Obondat
+L 2
+values for Cu O, Cl-Cu O, Cu /Cu O, and Cu /Cu O, calculated by 1.5ÅcanbedetectedinCu /Cu O,accompaniedbytheCu–Cubondat
+2 2 P 2 L 2 L 2
+recording the secondary electron cutoff and Fermi edge (Supple- 2.32Å, which also proves the coexistence of Cu0 and oxidized Cu+.
+mentary Fig. 13), are 5.23, 5.06, 4.57, and 4.18, respectively. These Furthermore,theCu–ObonglengthofCu /Cu Oisslightlylongerthan
+L 2
+values suggest that Cu /Cu O has a smaller escaping resistance for thatofCu–OinpureCu O(1.44Å),implyingthepresenceofCu–Cl
+L 2 2
+electronsfromthesurface,whichpotentiallyfacilitatesasynergistic becauseofthelongerCu–ClbondcomparedtoCu–O42.Unfortunately,
+rectifying interface to enhance the asymmetric adsorption of inter- theCu–Clsignhasfallenoutduetothelowcontentofchlorineele-
+mediates.Thetheoreticalelectrostaticpotentialenergiesofthesam- mentsandtheshadingimpactofthestrongCu–Osign.Inaddition,the
+plesareplottedinFig.2G,wherethesurfacepotentialsofthemodels Cu+ in Cu /Cu O may have a low-coordination number due to the
+L 2
+are calibrated based on the corresponding Fermi levels (E ). deficiencyofoxygenandchlorine.Tobetterquantifythecoordination
+Fermi
+Noteworthy,thechargetransferattheinterfaceofCu /Cu Oresultsin number of Cu, EXAFS fitting was carried out (Fig. 3H and Supple-
+L 2
+theformationofinterfacedipole,therebydecreasingtheWFofCu / mentaryTable4).Theexperimentalk3–weightCuK-edgeEXAFSfits
+L
+Cu Ointhevacuumregion.Thedistributionofelectrondensitydif- perfectly with the calculated R-space fitting model of Cu /Cu O.
+2 L 2
+ferencesoftheinternalelectricfieldinsideCu /Cu Owereexploredto Accordingtothefittingresults,thecoordinationnumberofCuatom
+L 2
+estimate the potential adsorption of electrically charged inter- ofCu /Cu O(10.3)issmallerthanthatofCu O(12.3)andCu(12),which
+L 2 2
+mediates.AsshowninFig.2H,theelectroncloudsaroundthesideof correspondtothefittingofCu OandCu,respectively(Supplementary
+2
+Cu+attherectifyinginterfaceofCu /Cu Oaremuchmoreenriched Fig.18).ThestructureoftheMott–Schottkycatalystwasfurtherana-
+L 2
+due to the stronger electronegativity of O than Cl and a low- lyzed by wavelet transform of the EXAFS. As shownin Fig. 3I, both
+coordinationnumberthanthatofCu /Cu O(SupplementaryFig.14 Cu OandCu /Cu OhavetheKvaluescenteredaround6.3Å−1,while
+P 2 2 L 2
+and Supplementary Table 4), indicating the preferred nucleophilic thevaluefromCu /Cu Oislocatedat7.1,closerto7.9Å−1observed
+L 2
+addition reaction process on Cu /Cu O. Due to the difference in fromtheCufoil.Theseanalysesconfirmthatthelow-coordinatedCu /
+L 2 L
+electrondensity,theCu+regionbecomesnucleophilic,whiletheCu0 Cu O possesses an electron-rich region and abundant defect sites,
+2
+regionprefersanelectrophilicadditionreactionprocess(Fig.2I).In whichreceivenucleophilicadditionreactionofC–CorC –Ccoupling
+2
+conclusion, the faster electron exchange at enhanced rectifying in the mixed-valence boundary region to generate ethanol and
+interfaceregions,resultingfromtheasymmetricelectronaggregation, n-propanol.
+willboostthenucleophilicorelectrophilicadditionreactionprocess
+for C–C or C –C coupling. Generally, the enhanced adsorption of PerformanceofCERintheflowcell
+2
+negativelycharged*COmayfocusontheelectrophilicCusites,while ThecathodicelectrochemicalexperimentsofCO reductionreaction
+2
+theC endof*C H O,withahighpositivecharge,prefersbondingwith were implemented in flow cells using 1M KOH as electrolyte under
+2 2 2
+nucleophilicCu O. ambientconditions(SupplementaryFig.19).Allworkingpotentialsare
+2
+Toanalyzetheoriginsofenhancedrectifyinginterfaces,electro convertedintothereversiblehydrogenelectrode(RHE)scalewithiR
+paramagnetic resonance (EPR), XPS, and X-ray absorption spectro- correctionof85%.Thelinearsweepvoltammetry(LSV)curvesinFig.4A
+scopywereutilizedtocharacterizetherefinedstructureofCu /Cu O. show that the Cu /Cu O catalyst provides higher conductivity and
+L 2 L 2
+AsshowninFig.3A,theO1sXPSspectrumisdeconvolutedintofour activity for CER, with a total current density (j ) of −200 at the
+total
+peakssituatedat529.7,530.3,530.8,and531.7eV,correspondingto appliedpotentialof−0.66V.ThesplendidkineticpropertyofCu/Cu O
+L 2
+the lattice oxygen (Cu–O), oxygen vacancies (Vo), C–O bond and revealsasmallercharge-transferresistanceandhighercatalyticactivity
+adsorbedoxygenonCu /Cu Osamples,respectively38.TheratioofVo/ (tafelslopeof232mVdec−1andelectrochemicallyactivesurfaceareaof
+L 2
+Cu–O demonstrates a descendant trend with Ar+ etching, implying 6.1mFcm−2)forCER(SupplementaryFigs.20and21).Remarkably,Cu /
+L
+surfaceandsubsurfaceoxygendeficiencyintheoxide-derivedCu.The Cu O shows excellent selectivity of C alcohols with a maximum
+2 2+
+shiftofbondingenergyofCu–Otowardahigherlevelalsoindicates faradicefficiency(FE)of64.15±1.92%(ethanolof~56%andn-propanol
+thedisappearanceofVowithinthedepthofCu /Cu O.Acharacteristic of ~8%), whereas Cu /CuO only reaches a maximum FE and
+L 2 P 2 ethylene
+sign of Vo is observed at g=2.004 (Fig. 3B)39, which supports the FE of ~38.4% and 11.4%, respectively (Fig. 4B, C and
+alcohols
+NatureCommunications|( 2024)1 5:5172 4
+
+
+===== PAGE 5 =====
+
+Article https://doi.org/10.1038/s41467-024-49247-4
+Fig.3|ElectronstructuresandcoordinationofCu
+L
+/Cu
+2
+O.AO1sXPSspectraof normalizedCuK-edgeEXAFSspectraandGFouriertransformk3-weigntedEXAFS
+Cu/CuOwithorwithoutAr+etching.BEPRspectraofCu/CuOandCu/CuO. forCufoil,CuO,CuO,andCu/CuO.HEXAFSfittingcurveofCu/CuO.Iwavelet
+L 2 L 2 P 2 2 L 2 L 2
+CCl2p,DCu2p,andECuLMMAugerspectraofCuP/Cu2OandCuL/Cu2O.FThe transformforthek3-weigntedEXAFSforCufoil,Cu2O,andCuL/Cu2O.
+SupplementaryFig.22).AsshowninFig.4D,ataj of−200mAcm−2, ClonthesurfaceofNH Cl–CuO(SupplementaryFig.23).Inaddition,
+total 4 2
+the partial current density of alcohols (j ) rapidly rises to the distribution of Cl was estimated by XPS after undergoing Ar+
+alcohols
+128.3mAcm−2 on the Cu /CuO catalyst (the applied potential is etching, confirming the superficial adsorption of Cl (Supplementary
+L 2
+−0.66V),whichis13-foldhigherthanthatofCu /Cu O(9.9mAcm−2at Fig.24andSupplementaryTable2).ThepeakvaluesofFE and
+P 2 alcohols
+−0.81V).Meanwhile,thehalf-cellcathodicenergyefficiency(EE)and j on NH Cl–CuO are 17.7% and −50.6mAcm−2, respectively,
+alcohols 4 2
+productionrateofalcoholsonCu/Cu Oalsoreachoptimalvaluesof indicatingaslightincreaselimitedbythenegligibleClconcentration.
+L 2
+39.32%and379.78μmolcm−2h−1,respectively(Fig.4E,F).Ourresults However,asignificantlyenhancedselectivityofalcohols(amaximum
+feature one of the most excellent efficiencies for alcohol compared FE of23.5%)isachievedonCu /CuOin1MKOHelectrolytewith
+alcohols P 2
+withthereportedliteraturetodate(SupplementaryTable5).Tofurther 3MKCl,suggestingthatthespecificadsorptionofsurface-boundCl,
+investigatethepositiveeffectofhalogenaniononCER,comparative locatedontheinnerHelmholtzplanesofCuelectrode,contributesto
+experiments with introducing Cl were conducted. The acid-aqueous theC–CorC–Ccouplingowingtothestrongchemicalaffinityofthe
+2
+solutionofNH ClresultedintheoxidizedCu2+andphysicallyadsorbed anion for meal (Supplementary Fig. 25)43. Notably, the Cu/Cu O
+4 L 2
+NatureCommunications|( 2024)1 5:5172 5
+
+
+===== PAGE 6 =====
+
+0
+-1
+-2
+catalyststillretainsitsoriginalprofilewithamott−schottkyinterface effect of electrolytes on the selectivity of C alcohols, various elec-
+2+
+andunspoilednanoparticles,aswellasanunalteredpresenceofClafter trolyteswereusedtoofferadifferentpHenvironment(Supplementary
+CER (Supplementary Figs. 26 and 27). Furthermore, the electro- Fig.31).ItundergoeselectrochemicalreductionreactionofCO with
+2
+chemicalstabilityofCu/CuOforCERwasevaluatedthroughchron- synergisticeffectofCO coverageandcatalystinpH-compatibleelec-
+L 2 2
+opotentiometryelectrolysisat200mAcm−2(Fig.4G).Despiteasteady trolyteandthermodynamics-mediatedcompetitivereactioninastrong
+decline over the course of 50h electrochemical process, Cu/Cu O alkaline electrolyte. The Cl element shows a positive effect on
+L 2
+achieves a sustained FE of >50% and an alcohols yield of improvingtheselectivityofC products,butthesensitivityofethylene
+alcohols 2+
+17.1mmol.However,thementionofpulseelectrolysisisnecessaryfor isstrongerthanthatofC alcohols.
+2+
+long-termindustrialproduction,whichmaystillbeanessentialstrategy
+for the CO 2 electrolysis community, especially due to its unique Structure–propertycorrelationandoxidationstateofCu L /Cu 2 O
+advantageinelectrolysisstability(>1000h)44,45.ThestructureofCu / OperandoFTIRandRamanspectroscopywereemployedforinvesti-
+L
+Cu OmaintainsaclassicarchitectureofMott–Schottkycatalyst,while gating the reconstruction of catalysts and adsorbates on both Cu /
+2 L
+slightmorphologicalchangesoccur(SupplementaryFig.28).Cl–Cu O Cu OandCu /Cu O.Theelectrochemicalreactionswereexecutedin
+2 2 P 2
+powdersofdifferentparticlesizeswerepreparedandtestedunderthe CO -saturated0.1MKHCO electrolyte.Thereferencespectrumwas
+2 3
+sameelectrochemicalconditions(SupplementaryFigs.29and30).The takenatopen-circuitpotential,andadditionalspectrawereprovided
+selectivityofC alcoholsgraduallyincreasesonagasdiffusionelec- intherangeof−0.2~−1.1Vvs.RHE.Twobandsemergeat1663and
+2+
+trodeloadedwithlarger-sizedparticles,whichisattributedtothesta- 1280cm−1duringCO bubbling,whichcorrespondstotheC=OandC
+2
+bility of low-coordinated Cu/CuO. The appropriate particle size −OHstretchingvibrationsofCOOH.Thesepeaksindicatethepresence
+2
+contributestothestabilizationoftheenhancedrectifyinginterfaceof oftheCOOH*intermediateduringthereductionofCO onCu /Cu O.
+2 L 2
+thelow-coordinatedCu /Cu OMott–Schottkycatalyst.Toexplorethe Furthermore,theC≡Ostretchbandinthe2000–2100cm–1rangecan
+L 2
+)EHR.svV(Ri-E 200mAcm-2
+Refreshingelectrolyte Refreshingelectrolyte Refreshingelectrolyte
+80
+60
+40
+20
+0
+0 10 20 30 40 50
+)%(
+EF
+slohocla+2C
+30
+24
+18
+12
+6
+0
+Time(h)
+)lomm(
+dlieY
+slohocla+2C
+j2+alcohols-CuL/Cu2O
+j2+-CuL/Cu2O
+0
+)2-mcAm(j
+80
+70
+60
+50
+40
+30
+20
+10
+0
+j2+alcohols-CuP/Cu2O
+j2+-CuP/Cu2O
+E-iR(Vvs.RHE)
+)%(EF
+80 Hydrogen Formate Carbonmonoxide
+Ethylene C2+alcohols
+70
+60
+50
+40
+30
+20
+10
+0
+j(mAcm-2)
+)%(EF
+0 Hydrogen Formate Carbonmonoxide
+Ethylene C2+alcohols
+0.0
+j(mAcm-2)
+)2-mcAm(j
+CuP/Cu2O
+CuL/Cu2O
+E-iR(Vvs.RHE)
+400
+320
+240
+160
+80
+0
+50 100 150 200 250 300 350 400
+)1-h2-
+slohocla+2CetarnoitcudorP
+CuL/Cu2O
+40 CuP/Cu2O
+32
+24
+16
+8
+0
+-0.4 -0.5 -0.6 -0.7 -0.8 -0.9 -1.0
+Currentdensity(mAcm-2)
+)%(slohocla+2CEE
+Article https://doi.org/10.1038/s41467-024-49247-4
+A B C
+D E F
+CuP/Cu2O
+CuL/Cu2O
+E-iR(Vvs.RHE)
+G
+Fig.4|ElectrochemicalperformanceofCO reduction.ALSVcurvesacquiredin efficiencies(E)andproductionrate(F)ofC onCu/CuOandCu/CuO
+2 2+alcohols P 2 L 2
+flowcellusing1MKOHaselectrolyte,wherethecurveswerecalibratedbyiR catalysts.GElectrochemicalstabilitytestatthej of200mAcm−2usingtheCu/
+total L
+compensationwitharesistancevalueof2.65±0.3Ω.B,CFaradicefficienciesof Cu2Ocatalysts.Errorbarsshowthestandarddeviationscalculatedfromthree
+productsatvariousjtotalusingCuP/Cu2O(B)andCuL/Cu2O(C)catalysts.DC2+and independentexperiments.
+C partialcurrentdensityofCu/CuOandCu/CuOcatalysts.E,FEnergy
+2+alcohols P 2 L 2
+NatureCommunications|( 2024)1 5:5172 6
+
+
+===== PAGE 7 =====
+
+Article https://doi.org/10.1038/s41467-024-49247-4
+beattributabletothelinearbondingmodeofCOmolecules(CO )46.In dissolutionandreductionofCO .Briefly,theoriginoftheoxidation
+L 2
+contrast to the behavior of the CO band, the band in the state of Cu /Cu O can be summarized as follows: (1) the lattice
+L L 2
+≈1800–1900cm–1range,causedbythebridgingbondingmodeofCO shrinkageresultingfromfastelectrontransferfromCutoCu+atthe
+molecules(CO ),exhibitsasignificantdegreeofhysteresis.Thered- enhancedrectifyinginterfaceinhibitsthelossofoxygenatomsand
+B
+shiftoftheCO bandatmorenegativepotentialsisaresultofthestark stabilizesthechemicalvalenceofthecationCu+speciesworkingwith
+B
+tuning effect47. Simultaneously with the CO-related band, a band at residual Cl atoms61,62. (2) The presence of coordination defects and
+1305cm−1 associated with *COH stretching grows, and *COOH dis- oxygen vacancies increases the adsorption of intermediates rather
+appears in the spectra. which indicates the performance of CO than forming proton bonds with O atoms of Cu–O to avoid the
+2
+reduction.Theabsenceofthebandsat1589cm−1inthetransmission reductionofCu+species63,64.(3)Strongelectronicinteractionsoccur
+spectrapoints out the possibility of the *OCCOH coupling reaction betweencarbonintermediatesandCu+species65,66.WhenCOformsa
+duringthereductionofCO onCu /Cu O(Fig.5A).However,incon- hybridizationorbitalwiththeCud-states,the5σand2π*orbitalsof*CO
+2 L 2
+trast to Cu /Cu O catalyst, some new signals at 1706, 1543, and splitintobondingandanti-bondingorbitals.Inthisprocess,electrons
+L 2
+1399cm−1correspondingtothestretchof*CHO,*OCCO,and*OCHO fromtheCud-bandaretransferredtothe2πorbitalsof*COthroughd-
+intermediatesemergedinspectraofCu /Cu O,certifyingthecoupling 2πbackdonation,whileelectronsfromthe5σorbitalof*COdonateto
+P 2
+mode of OC–CO and possible formate product (Supplementary the Cu d-band through 5σ-d donation30. These effects stabilize the
+Fig. 32)48. Combining with time-independent spectral analysis (Sup- oxidationstateofCu+speciesduringCO electroreduction,allowing
+2
+plementaryFig.33A,B),apparentpeaksaredeterminedat1064and forthesynergisticeffectofCuandCu+species.
+1558cm−1, which correspond well to the symmetric and asymmetric ThereactionbarriersforthehydrogenationprocessofC inter-
+2+
+vibrationsofthe*OCCOHintermediate,respectively49,50.Inaddition, mediatesonthemodelsofCu/CuOwithandwithoutCl,respectively,
+2
+thestretchingvibrationat1335and1716cm−1areincloseproximityto werecalculatedbyDFT.Firstly,byanalyzingtheBaderchargeandbond
+thestretchingof*OCH CH and*CHO,respectively,whichserveasthe length of Cu/CuO (Fig. 5C, D), it is observed that the lower Bader
+2 3 L 2
+important intermediates for the subsequent C–C coupling in the chargevalue(0.477|e|)comparedtoCu /CuO(1.01|e|)indicatesthat
+P 2
+productionofC alcohols51,52.Theseconclusionsareconsistentwith thepopulatedelectronicorbitalsoflow-coordinatedCusiteswilleasily
+2+
+theresultsobtainedfromtheproductanalysisofCu /Cu OandCu / bindtointermediatesandreducetherate-determiningenergybarrier67.
+P 2 L
+Cu O.IntheRamanspectra(Fig.5BandSupplementaryFig.33D),the Cu/CuOwithadditionallyformedemptyorbitalscanfacilitateelectron
+2 L 2
+Cu /Cu Opowderloadedoncarbonpapersubstrateexhibitstypical transferfromhydrogentonucleophilicintermediates,suggestingtheCu
+L 2
+characteristic peaks of adsorbed *CO intermediates, which are 3dorbitalsoverlapwiththeπorbitalsofCandfurtherreducedactivation
+deconvoluted into a low-frequencyband (LFB) at ∼2045cm−1 and a energyforCO hydrogenationonCu/CuO68.Asaresult,thenucleo-
+2 2
+high-frequencyband(HFB)at∼2097cm−1,whichverifiesthebonding philic addition reaction process of *CHCO–*CO coupling may effec-
+2
+stylesonterraceandstepsites,respectively53,54.Aredshiftoftheυ(CO) tivelyreactonthemixed-valenceboundaryregion33,whichreducesthe
+bandindicatestheenhancedinteractionbetweenthecatalystsurface formation energy of *CHCOCO on Cu/CuO (−0.148eV) toward
+2 L 2
+and *CO, resulting in a higher *CO coverage55. In addition, the fre- n-propanol(Fig.5E,SupplementaryFig.35,andSupplementaryTable6).
+quenciesofυ(CO)bandsarecorrelatedwiththecoordinationstatesof For the C–C coupling on Cu/CuO model (Fig. 5F, Supplementary
+L 2
+Cusites.Therefore,thelow-coordinationstatesofCusitesinCu /Cu O Fig.36andSupplementaryTable7),the*CO–COHcouplingistherate-
+L 2
+willinduceapositiveshiftofthed-bandcenterofCuandboostthe determiningstepforCu/CuOcatalyst(1.46eV),indicatingthevitalrule
+L 2
+hybridizationofthed-bandwiththe2π*orbitalofCO.TheHFBmodes of *CO coverage in the post-coupled proton-electron transfer (CPET)
+derivedfromthelow-coordinatedCusiteswillfavorthebreedingof reaction.Theenergybarriersofintermediatesgraduallydecreaseuntil
+theυ(C–C)band(~1960cm−1),whereablueshiftmaypredictthepro- *CHOisreached,whichcanbefurtherreducedto*CH Oor*Ofor
+2 3 2 4
+tonationprocessC–Cbonds29,30.Onthecontrary,theweaksignsofthe ethanol or CH , respectively. The Cu/CuO model exhibits a more
+2 4 L 2
+υ(CO)andυ(C–C)bandsonCu /Cu Ocatalystalsoverifythepoor*CO stable adsorption for CH O* (−0.293eV) than Cu /CuO (−0.154eV),
+P 2 2 4 P 2
+coverageandC–Ccoupling(SupplementaryFig.34B).Toverifythe implying facilitated thermodynamics for increasing the adsorption of
+originoftheoxidationstateofCu /Cu O,Ramanspectroscopywas keyintermediate.
+L 2
+conducted in the shift range of 200–1600cm−1, and the results are
+presentedinSupplementaryFigs.33Aand34A.InthecaseofCl–Cu O Discussion
+2
+samples, characteristic signals were observed at 224, 425, 522, and Thementionedtheoreticalandexperimentalstudiesprovidetangible
+626cm−1,whichwereattributedtothe2Γ− ,4Γ− ,Γ+ ,andΓ− +Γ+ proofthattheenhancedrectifyinginterfaceoflow-coordinatedCu/CuO
+12 12 25 12 25 2
+phonon modes, respectively56,57. These Raman signals gradually dis- Mott–Schottkycatalystplaysanessentialroleintheselectiveproduction
+appearwithin the potentialrange from −0.2 to −0.7V vs RHE, indi- ofC .Weemphasizeseveralelementsofthelow-coordinated
+2+alcohols
+catingthecompletereductionofCu OtometallicCu.Incontrast,the Cu/CuOcatalystfortheupgradedCERperformance.Firstly,thefast
+2 L 2
+Cl–Cu O samples retain the characteristic Raman modes (2Γ− and electronexchangeandenhancedintermediateadsorptionatsynergistic
+2 12
+Γ− +Γ+ )evenatpotentialsgreaterthan−0.7V,suggestingthatthe rectifyinginterfaceregionsareduetothelowcoordinationandasym-
+12 25
+low-coordinatedCu /Cu OcanprotectCu+speciesagainstreduction metricelectronaggregationinsidetheCu/CuOcatalyst.Inaddition,the
+L 2 L 2
+duetoacombinationofenvironmentalandstructuralfactors.Overall, excellent conductivity and charge difference of Cu+/Cu0 boost the
+Cu /Cu Ocatalystexhibitsastrongeradsorptioncapacityfor*COdue nucleophilicorelectrophilicadditionreactionprocessforC–CorC–C
+L 2 2
+totherestrictedrotationandstretchingvibrationpeaksofadsorbed coupling. Secondly, the fast electron transfer from Cu to Cu+ at the
+*COandtheCu–CObondataround274and358cm−1,respectively58. enhancedrectifyinginterfacecaninducelatticeshrinkage,inhibitingthe
+Specifically,thecoverageof*COiscloselycorrelatedwiththeintensity lossofresidualoxygenatomsresponsibleforstabilizingthechemical
+ratioofν(Cu−CO)toν(*CO)59.Importantly,theintensityratioofν(Cu valenceofCu+whenworkingwithresidualClatoms.ThecleanCu/CuO
+2
+−CO)toν(*CO)ofCu /Cu OishigherinthecaseofCu /Cu Ocom- regionsensuresmoothabsorptionanddesorption,aswellasthecou-
+L 2 L 2
+paredtoCu /Cu O,implyingagreaterCOcoverage,whichisfavorable plingbehavioroftheoxyhydrocarbonintermediates.Thirdly,abundant
+P 2
+fortheoxidationstateofCu+.Thepeaksobservedat1015,1024,and defectsoriginatedfromoxygenvacanciesandresidualCl,asaresultof
+1069cm−1canbeassignedtothevibrationsofν(C–O)ofHCO −,OCO electrochemically reconstructing Cl–CuO, supply rich free electrons
+1 3 2
+antisymmetric stretching from *COOH, and ν (C–O) of CO 2−, andlandingsitesforadsorbedintermediates.Theseresultsworktoge-
+2 3
+respectively60. Furthermore, as the potential increases, CO 2− accu- theronlow-coordinatedCu/CuOMott–Schottkycatalysttoimprove
+3 L 2
+mulates and disappears on the catalyst surface, indicating the theselectivityofC .Thefaradicefficiencyandenergyefficiency
+2+alcohols
+NatureCommunications|( 2024)1 5:5172 7
+
+
+===== PAGE 8 =====
+
+Article https://doi.org/10.1038/s41467-024-49247-4
+Fig.5|OperandoexperimentsandDFTcalculations.AOperandoFTIRand freeenergyof*CHCOCOintermediatesforC productsandFC–CcouplingtoC
+2 3 2
+BRamantestsofCu/CuOusing0.1MKHCO aselectrolyte.C,DBadercharge products(ethanolandethylene)onCu/CuOandCu/CuOcatalysts:thesteps
+L 2 3 P 2 L 2
+analysisandbondlengthofCuP/Cu2OandCuL/Cu2O,respectively:redandyellow indicatedbythearrowsrepresentthegenerationof*OandC2H4.
+displayelectronaccumulation,blueandcyanindicateelectrondepletion.EGibbs
+NatureCommunications|( 2024)1 5:5172 8
+
+
+===== PAGE 9 =====
+
+Article https://doi.org/10.1038/s41467-024-49247-4
+ofC areupto64.15%and39.32%,respectively,wherethesta- probe force microscopy (KPFM) was performed on Atomic force
+2+alcohols
+bilityofover50h(FE >50%atj =200mAcm−2)explainsthe microscopy(AFM)withaVeecoDINanoscopeMultiModeVsystem.
+C2+alcohols total
+positiveeffectsoftheaboveresults. ElectronParamagneticResonance(EPR)wasperformedonJES-FA200.
+Fouriertransforminfrared(FTIR)spectroscopywasperformedwitha
+Methods Thermo-Fisher Nicolet iS10. X-ray absorption near edge structure
+SynthesisofCu
+P
+/Cu
+2
+O,Cu
+L
+/Cu
+2
+O,andNH
+4
+Cl–Cu
+2
+O (XANES)andextendedX-rayabsorptionfinestructure(EXAFS)data
+nanoparticles werecollectedonbeamline14WattheShanghaiSynchrotronRadia-
+In the synthesis of the Cu O nanocrystals, glucose served as a tion Facility. The electro-catalysis actions were tested by CorrTest
+2
+reductant,contributingto the reductionprocess69. Detail:a mixed workstations. The gas chromatographs (GC 7900) equipped with a
+solutioncontaining2mLofOAand5mLofethanolwasaddedunder TCDandFIDdetectorisusedtodetectthegeneratedgas.LiquidNMR
+magneticstirringfor30minafterdissolving1mmolCuSO ·5H Oin were quantified by the Bruker AVANCE III 400MHZ using dimethyl
+4 2
+15mLofdeionizedwaterandplacedinawaterbathat80°C.Then, sulfoxideasaninternalstandard.
+5mLof1MNaOHaqueoussolutionwasaddedandkeptfor10min.
+Next,5mLof2Mglucoseaqueoussolutionwasaddedasareductant OperandoFTIRandRamantests
+tomaintainchlorine-freeenvironmentfor3hat80°C.Thebrickred RamanexperimentswereperformedusingaRenishawinViaRaman
+products were obtained by centrifugation and thoroughly cleaned microscopeinacommercialflowcellattheexcitationlasersourceof
+with cyclohexane and ethanol multiple times to eliminate any 785nm, the electrolyte was 0.1M KHCO aqueous solution. The Cl-
+3
+remaining OA. They were then dried and stored under vacuum at doped Cu O and Cu O precursors were monitored at different
+2 2
+room temperature for future use. As-prepared Cu O nanocrystals potentialsandtimeunderthesameconfigurationcondition.Then,the
+2
+(2mg)weremixedwith20µLof5wt%Nafioninasolutioncomposed intermediates-adsorption measurements were collected signals at
+of ethanol (190µL) and water(190µL). Themixture wasdeposited differentpotentialsaftertheprecursorswerereducedtoobtainthe
+onto a gas diffusion layer (2cm×2cm) using an airbrush. It was Cu /Cu OandCu /Cu O.TheRamanspectrawerecollectedevery0.1
+P 2 L 2
+subsequently electrochemically reduced at–50mAcm−2 for10min Vatarangeof−0.2~−1.1V(vs.RHE)and150swithbubblingCO into
+2
+withflowingCO in1MKOHelectrolyte.Theobtainedcatalystwas theelectrolyte.FTIRweremeasuredusingaThermoScientificNicolet
+2
+named as Cu /Cu O, which provided a chlorine-free environment. iS50FTIRSpectrometerwithaPikeVeeMAXIIIattachment.Intotal,
+P 2
+Usingtheimpregnationapproach,aspecificquantityofNH Clwas 2mgofthecatalystwasdispersedinamixtureof0.38mLethanol,and
+4
+loaded onto the Cu O. In this case, Cu O particles were fully 20μL 5 wt.% Nafion solution (Sigma-Aldrich) and sonicated, then
+2 2
+immersedinanNH Clsolution.Toreduceacidityandpreventsur- droppedoncarbonpaper.Spectrawererecordedatdifferentpoten-
+4
+face etching, a mixed solution of 80% ethanol and 20% water was tialsandtimeinaCO –saturated0.1MKHCO -D Oelectrolyte.During
+2 3 2
+used as the solvent. The residuals were then promptly dried and theOperandoFTIRtests,spectrawerecollectedevery0.1Vand120s
+stored for later use in a vacuum at room temperature. After elec- withbubblingCO intotheelectrolyte.Thespectrumcollectedatopen
+2
+trochemical reconstruction, the obtained catalyst was named circuitpotential(OCP)inCO -saturated0.1MKHCO -D Oelectrolyte
+2 3 2
+NH Cl–Cu O,whichexhibitedasurfaceCl-modifiedenvironment. wasusedasabackground.
+4 2
+In addition, 20mL of water was used to dissolve 2 mmol of
+Cu(CH COO) ·H O. Then, 7mL of 1 M NaOH aqueous solution was ElectrochemicalmeasurementsforCER
+3 2 2
+addedandkepttherewhilebeingstirredmagneticallyfor10min.After Theexperimentswereperformedinacustom-designedflow-cellsys-
+that, 3.5mL of 2M NH OH·HCl aqueous solution was added as a tem.Thecarbonpaperelectrode(thecommercialSigracet29BCgas
+2
+reductantandkepttherefor1h.Theorangeproducts(Cl–Cu O)were diffusion layers with the standard microporous layer based on 77%
+2
+obtainedbycentrifugationandrepeatedlycleanedwithmethanoland carbonblackand23%PTFE)wassprayedbyairbrushwithaloading
+deionized water before being dried and stored for later use under catalystof1mg/cm2.Thegeometricareaoftheelectrodewassetto
+vacuum atroom temperature. The Cl–Cu O powderswith different 1cm2.andNifoamorIrO/TimeshwithIrO loadingof1mg/cm2(for
+2 2 2
+particlesizeswerepreparedbymodulatingtheinputsofreactantsand studyingthestabilityofcathode)wereactedasworkingandcounter
+reactiontime(15min–5h).Similartotheelectrochemicalreconstruc- electrode, respectively, which was separated by an anion exchange
+tion method described above, the only difference is that Cl–Cu O membrane (Fumasep, FAB-PK-130). The FAB-PK-130 is an anion
+2
+nanocrystalastheprecursorloadedoncarbonpaperinsteadofCu O exchange membrane with a thickness of 130 μm, which is cut to
+2
+nanocrystal. The obtained catalyst was named as Cu /Cu O, which 1.5cm*1.5cm size for practical use. The purchased FAB-PK-130
+L 2
+showedachlorine-richenvironment. membrane was placed in 1M KOH solution for 72h to activate the
+anion exchange and subsequently used directly in electrochemical
+Catalystcharacterization tests.TheHg/HgOelectrodewasusedasareferenceelectrode.The
+X-raydiffractionpatterns(XRD)ofsampleswerecarriedoutbyTTR-III relevantelectrochemicaltestswereperformedin1MKOH(or0.1,0.5,
+operatingat40KVvoltageand15mAcurrentwithCuKαradiation 1M KHCO , 2M KOH, 3M KCl) with using a Corrtest Workstation.
+3
+(λ=0.15406nm). Transmission electron microscopy (TEM), high- Duringthemeasurements,CO wasdirectlyfedtothebackofcathode
+2
+resolution TEM, high-angle annular darkfield scanning transmission GDEatarateof20sccm.Theelectrolytewasforcedtocontinuously
+electron microscopy (HAADF-STEM) and energy disperse spectro- circulate through the chamber at a rate of 10 sccm.Allthe applied
+scopy (EDS) are recorded on a JEM-2100 (JOEL). Scanning electron cathodepotentialsafteriRcellcompensationwereconvertedtothe
+microscope (SEM) was performed on FESEM SU8200. Raman data RHE reference scale using E RHE =E Ag=AgCl +0:204V+0:0591×pH(cid:1)
+werecollectedonaRenishawinViausing785-nmlaser.X-rayphoto- 0:85×i×R(i:appliedcurrent;R:cellresistance).Theelectrochemical
+electron spectroscopy (XPS) data were collected on Kratos Axis impedancespectroscopy(EIS)measurementformeasuringtheohmic
+supra+.AnAr+beamwasemployedtodetectthequantityofCland loss between the working and reference electrodes was performed
+oxygenvacancywithaelectronenergyof12.5V,filamentcurrentof withfrequencyrangesfrom100,000to0.1Hzandanamplitudeof
+3mA, emission current of 7.5A and energy of 2KV. UPS excitation 5mV at open-circuit voltage in three-electrode system. The linear
+source:Helightsource(hv=21.22eV),beamspot2mm.Roomtem- sweep voltammetry (LSV) curves were carried with a scan rate of
+perature UV–Vis absorption was recorded using a Solid 3700 DUV 5mVs−1. Controlled potential electrolysis was performed at each
+spectrophotometerinthewavelengthrangeof300–2500nm.Kelvin potentialfor10min.
+NatureCommunications|( 2024)1 5:5172 9
+
+
+===== PAGE 10 =====
+
+Article https://doi.org/10.1038/s41467-024-49247-4
+CERproductanalysis D3)72.Thekineticenergycutofffortheplanewaveexpansionwassetto
+Thecollectedproductswereanalyzedviagaschromatography(GC) 500eV. The self-consistent field (SCF) iteration was considered to
+and1HNMRona400MHzNMRspectrometer.Thegaseousproducts convergewhenthethresholdreached10−5eV.Geometryoptimization
+of CO reduction, including carbon monoxide, methane, ethylene, wasperformedusingtheconjugategradientmethod,withforceson
+2
+ethane,andpropylene,aredetectedandquantifiedusingGCwithan eachatomconstrainedbelow0.03eVÅ−1.
+FIDdetectorequippedwithanickelconversionfurnace.Hydrogenis TheCu/Cu Omodelwasobtainedbyselectivelyremovingspecific
+2
+quantitatively detected using a TCD detector. The liquid products, oxygenatomsfromtheCu O(111)surfaceunitcell,adoptingap(4*2)
+2
+includingmethanol,ethanol,n-propanol,formicacid,andaceticacid, Cu O(111)unitcell.Subsequently,weoptimizedthelatticeparameters
+2
+arequantitativelydetectedusingNMRwithdimethylsulfoxideserving and atomic positions. The optimized Cu/Cu O composite exhibited
+2
+astheinternalstandard.Typically,0.5mLKOHelectrolyteafterelec- lattice parameters of a=21.48Å, b=10.29Å, c=23.62Å, α=90°,
+trolysiswasmixedwith100μLofD Oand67μLofDMSO,including β=90°, γ=118.63°. To incorporate chlorine (Cl), an O atom on the
+2
+5mMasaninternalstandard.The1HNMRspectrum wasmeasured surfacewasreplacedwithaClatom,yieldingtheCl-Cu/Cu Omodel.
+2
+with water suppression via a pre-saturation method. The faradaic For the Cu/Cu O composite slab models, we employed a 1×2×1
+2
+efficiencyiscalculatedbasedonthecalibrationcurveasfollows: k-pointmesh. TheCu O(111)model wasbased ona p(2*2)unitcell,
+2
+while the Cu(111) model also utilized a p(2*2) unit cell. The atomic
+N =C ×V×N ×ne ð1Þ coordinatesoftheoptimizedcomputationalmodelsareprovidedin
+products products A
+Supplementary Dataset 1, which are defined as Cu-POSCAR, Cu O-
+2
+POSCAR,Cu /Cu O-POSCAR,Cu /Cu O-POSCAR.Totakeintoaccount
+N = Q ð2Þ theon-siteC P oulo 2 mbinteraction L betw 2 een3delectronsofCu,theGGA
+total e
++UapproachwasalsoemployedwithaU–Jvalueof4eV73,74.Notethat
+Cu(111) does not use GGA+U. The reaction free energy change and
+N
+FE= products ×100% ð3Þ adsorptionenergycanbeobtainedwiththeequationbelow:
+N
+total
+ΔG=ΔE+ΔZPE(cid:1)TΔS ð7Þ
+whereN istotalnumberofproducttransferelectron,C is
+products products
+theconcentrationofproduct,Visthevolumeofelectrolyteorgases,
+ΔE =E (cid:1)E (cid:1)E ð8Þ
+N :avogadroconstant,6.022×1023mol−1,nisthenumberofelectron ads *X * X
+A
+transferredforproductformation,eiselectron,Qisthenumberof
+transfercharge,N istotalnumberoftransferelectron. WhereΔErepresentsthetotalenergydifferencebeforeandafterthe
+total
+Theenergyefficiency(EE)wasdefinedastheratiooffuelenergy intermediateisadsorbed,ΔZPEandΔSdenotethedifferencesinzero-
+toappliedenergy,whichwascalculatedforthehalf-cellofCRRwith point energy and entropy, respectively. The zero-point energy and
+thefollowingequation: entropy of the free molecules and adsorbents were derived from
+vibrationalfrequencycalculations.E correspondstothetotalenergy
+*X
+E0 ofthesystemwhenmoleculeXisadsorbedonthesurfaceoftheslab,
+EEð%Þ= E p a r p o p d li u e c d ts ×FE products ×100% ð4Þ E * representstheenergyoftheslabsystem,andE X signifiestheenergy
+products oftheadsorbedintermediateX.
+Where E0 ethanol = 0.07 V, E0 n(cid:1)propanol =0.1V is the thermodynamic Dataavailability
+potentialofCRRtoethanolandn-propanol,FE arethefaradaic The rawdata of the figures in the main manuscript areavailable in
+products
+efficiencies of ethanol and n-propanol productions at an applied figshare with the identifier(s) https://doi.org/10.6084/m9.figshare.
+potential.Eapplied istheappliedpotentialforalcoholsproduction. 25124129. All other data needed to evaluate the conclusions in the
+products
+The production rate for formate was calculated using the fol- paperarepresentinthepaperandtheSupplementaryInformationor
+lowingequation: can be obtained from the corresponding authors upon request. All
+dataareavailableinthemanuscript,thesupplementarymaterials,and
+Yieldrate= Q×FE alcohols ð5Þ fromtheauthorsonrequest.Sourcedataareprovidedwiththispaper.
+F×n×t×S
+Codeavailability
+where Q is the total charge passed, t is the time (1h) and S is the Thecodeusedinthisworkcanbeobtainedfromthecorresponding
+geometricareaoftheelectrode(1cm2). authorsonrequest.
+Thepartialcurrentdensities(j )ofproductswerecalculated
+alcohols
+asbelow,whereSisthegeometricarea(1cm2)ofthecathode,iisthe References
+currentoftheelectrode: 1. Zhao,K.&Quan,X.Carbon-basedmaterialsforelectrochemical
+reductionofCO toC oxygenates:recentprogressandremaining
+2 2+
+j = i×FE alcohols ð6Þ challenges.ACSCatal.11,2076–2097(2021).
+alcohols S 2. Bi,J.etal.Constructionof3Dcopper-chitosan-gasdiffusionlayer
+electrodeforhighlyefficientCO electrolysistoC alcohols.Nat.
+2 2+
+Commun.14,2823(2023).
+Densityfunctionaltheory(DFT)calculations 3. Li,Y.etal.Perovskite-socketedsub-3nmcopperforenhancedCO
+2
+AllcalculationsinthisstudywereperformedusingtheViennaabinitio electroreductiontoC .Adv.Mater.34,2206002(2022).
+2+
+simulationpackage(VASP)basedondensityfunctionaltheory(DFT)70. 4. Ma,G.etal.AhydrophobicCu/CuOsheetcatalystforselective
+2
+Weemployedprojectoraugmentedwave(PAW)pseudopotentialsand electroreductionofCOtoethanol.Nat.Commun.14,501(2023).
+the Perdew–Burke–Ernzerhof (PBE) exchange-correlation functional 5. Yang,Y.etal.OperandoconstructingCu/Cu Oelectrocatalystsfor
+2
+withinthesemi-localgeneralizedgradientapproximation(GGA)71.To efficientCO electroreductiontoethanol:CO -assistedstructural
+2 2
+adequatelycaptureweaklong-rangevanderWaals(vdW)interactions, evolutionofoctahedralCuObyoperandoCVactivation.ACS
+2
+we employed an empirical dispersion-corrected DFT method (DFT- Catal.12,12942–12953(2022).
+NatureCommunications|( 2024)1 5:5172 10
+
+
+===== PAGE 11 =====
+
+Article https://doi.org/10.1038/s41467-024-49247-4
+6. Zhang,L.etal.Oxophilicity-controlledCO electroreductiontoC2 28. Liu,L.&Corma,A.Metalcatalystsforheterogeneouscatalysis:from
+2 +
+alcoholsoverLewisacidmetal-dopedCuδ+catalysts.J.Am.Chem. singleatomstonanoclustersandnanoparticles.Chem.Rev.118,
+Soc.145,21945–21954(2023). 4981–5079(2018).
+7. Zhang,X.Y.etal.DirectOC-CHOcouplingtowardshighlyC 29. Gunathunge,C.M.etal.Surface-adsorbedCOasaninfraredprobe
+2+
+productsselectiveelectroreductionoverstableCu0/Cu2+interface. ofelectrocatalyticinterfaces.ACSCatal.10,11700–11711(2020).
+Nat.Commun.14,7681(2023). 30. Blyholder,G.Molecularorbitalviewofchemisorbedcarbonmon-
+8. Zhang,Z.-Y.etal.Cu-Zn-basedalloy/oxideinterfacesforenhanced oxide.J.Phys.Chem.68,2772–2777(1964).
+electroreductionofCO toC products.J.EnergyChem.83, 31. Verdaguer-Casadevall,A.etal.Probingtheactivesurfacesitesfor
+2 2+
+90–97(2023). COreductiononoxide-derivedcopperelectrocatalysts.J.Am.
+9. Vavra,J.etal.Solution-basedCu+transientspeciesmediatethe Chem.Soc.137,9808–9811(2015).
+reconstructionofcopperelectrocatalystsforCO reduction.Nat. 32. Eilert,A.etal.Subsurfaceoxygeninoxide-derivedcopperelec-
+2
+Catal.7,89–97(2024). trocatalystsforcarbondioxidereduction.J.Phys.Chem.Lett.8,
+10. Cai,R.etal.EngineeringCu(I)/Cu(0)interfacesforefficientethanol 285–290(2017).
+productionfromCO electroreduction.Chem10,211–233(2024). 33. Chang,C.-C.etal.UnveilingthebondingnatureofC intermediates
+2 3
+11. Zhang,T.etal.Catalyst-freecarbondioxideconversioninwater intheCO reductionreactionthroughtheoxygen-deficient
+2
+facilitatedbypulsedischarges.J.Am.Chem.Soc.145, CuO(110)surface—aDFTstudy.J.Phys.Chem.C.126,
+2
+28233–28239(2023). 5502–5512(2022).
+12. Lu,X.K.etal.StabilizationofundercoordinatedCusitesinstron- 34. Sun,X.etal.Dislocation-inducedstop-and-gokineticsofinterfacial
+tiumcopperoxidesforenhancedformationofC productsin transformations.Nature607,708–713(2022).
+2+
+electrochemicalCO reduction.ACSCatal.12,6663–6671(2022). 35. Niu,W.etal.Pb-richCugrainboundarysitesforselectiveCO-to-n-
+2
+13. Zhou,Y.etal.StabilizationofCu+viastrongelectronicinteraction propanolelectroconversion.Nat.Commun.14,4882(2023).
+forselectiveandstableCO electroreduction.Angew.Chem.Int. 36. Wu,Y.A.etal.Facet-dependentactivesitesofasingleCuOpar-
+2 2
+Ed.61,e202205832(2022). ticlephotocatalystforCO reductiontomethanol.Nat.Energy4,
+2
+14. Zhang,Y.etal.Self-polarizationtriggeredmultiplepolarunits 957–968(2019).
+towardelectrochemicalreductionofCO toethanolwithhigh 37. Zhang,B.etal.Workfunctionandbandalignmentoffew-layer
+2
+selectivity.Angew.Chem.Int.Ed.62,e202302241(2023). violetphosphorene.J.Mater.Chem.A8,8586–8592(2020).
+15. Chen,Z.etal.Grain-boundary-richcopperforefficientsolar-driven 38. Yang,T.etal.InterfacialsynergybetweentheCuatomiclayerand
+electrochemicalCO reductiontoethyleneandethanol.J.Am. CeO promotesCOelectrocouplingtoacetate.ACSNano17,
+2 2
+Chem.Soc.142,6878–6883(2020). 8521–8529(2023).
+16. Zhu,J.etal.Janusnanocagesofplatinum-groupmetalsandtheir 39. Zhang,Y.etal.OxygenvacancystabilizedBi O CO nanosheetfor
+2 2 3
+useaseffectivedual-electrocatalysts.Angew.Chem.Int.Ed.60, CO electroreductionatlowoverpotentialenablesenergyefficient
+2
+10384–10392(2021). CO-productionofformate.Infomat5,e12375(2023).
+17. Yang,R.etal.Insituhalogen-ionleachingregulatesmultiplesites 40. Terminello,L.J.&Barton,J.J.Augerelectronangulardistributions
+ontandemcatalystsforefficientCO electroreductiontoC pro- fromsurfaces:directcomparisonwithisoenergeticphotoelectrons.
+2 2+
+ducts.Angew.Chem.Int.Ed.61,e202116706(2022). Science251,1218–1220(1991).
+18. Zhu,J.etal.Cation-deficiency-dependentCO electroreduction 41. Dubois,J.L.etal.AsystematicK-edgeX-rayabsorptionspectroscopic
+2
+overcopper-basedRuddlesden–Popperperovskiteoxides.Angew. studyofCu(III)sites.J.Am.Chem.Soc.122,5775–5787(2000).
+Chem.Int.Ed.61,e202111670(2022). 42. Chen,W.etal.Activationofperoxymonosulfatefordegrading
+19. Yao,K.etal.MechanisticinsightsintoOC–COHcouplinginCO ibuprofenviasingleatomCuanchoredbycarbonskeletonand
+2
+electroreductiononfragmentedcopper.J.Am.Chem.Soc.144, chlorineatom:theradicalandnon-radicalpathways.Sci.Total
+14005–14011(2022). Environ.858,160097(2023).
+20. Wang,Y.etal.Amino-functionalizedCuforefficientelectro- 43. Ogura,K.Electrochemicalreductionofcarbondioxidetoethylene:
+chemicalreductionofCOtoacetate.ACSCatal.13, mechanisticapproach.J.CO Utilization1,43–49(2013).
+2
+3532–3540(2023). 44. Zhang,X.-D.etal.Asymmetriclow-frequencypulsedstrategy
+21. Jin,J.etal.ConstrainedC adsorbateorientationenablesCO-to- enablesultralongCO reductionstabilityandcontrollableproduct
+2 2
+acetateelectroreduction.Nature617,724–729(2023). selectivity.J.Am.Chem.Soc.145,2195–2206(2023).
+22. Pramhaas,V.etal.InterplaybetweenCOdisproportionationand 45. Zhang,J.etal.Selective,stableproductionofethyleneusinga
+oxidation:ontheoriginoftheCOreactiononsetonatomiclayer pulsedCu-basedelectrode.ACSAppl.Mater.Interfaces14,
+deposition-grownPt/ZrO modelcatalysts.ACSCatal.11, 19388–19396(2022).
+2
+208–214(2021). 46. Zhu,S.etal.Directobservationonreactionintermediatesandthe
+23. Yang,P.-P.etal.Highlyenhancedchlorideadsorptionmediates roleofbicarbonateanionsinCO electrochemicalreductionreac-
+2
+efficientneutralCO electroreductionoveradual-phasecopper tiononCusurfaces.J.Am.Chem.Soc.139,15664–15667(2017).
+2
+catalyst.J.Am.Chem.Soc.145,8714–8725(2023). 47. Gunathunge,C.M.etal.ExistenceofanelectrochemicallyinertCO
+24. Wei,S.etal.Constructionofsingle-atomcoppersiteswithlow populationonCuelectrodesinalkalinepH.ACSCatal.8,
+coordinationnumberforefficientCO electroreductiontoCH .J. 7507–7516(2018).
+2 4
+Mater.Chem.A10,6187–6192(2022). 48. Kim,Y.etal.Time-resolvedobservationofC–Ccouplinginter-
+25. Li,S.etal.Chlorideionadsorptionenablesampere-levelCO mediatesonCuelectrodesforselectiveelectrochemicalCO
+2 2
+electroreductionoversilverhollowfiber.Angew.Chem.Int.Ed.61, reduction.EnergyEnviron.Sci.13,4301–4311(2020).
+e202210432(2022). 49. Zhu,H.-L.etal.Aporousπ–πstackingframeworkwithdicopper(I)
+26. Tauster,S.J.Strongmetal-supportinteractions.Acc.Chem.Res. sitesandadjacentprotonrelaysforelectroreductionofCO toC
+2 2+
+20,389–394(1987). products.J.Am.Chem.Soc.144,13319–13326(2022).
+27. Ioannides,T.&Verykios,X.E.Chargetransferinmetalcatalysts 50. Zhu,C.etal.DynamicrestructuringofepitaxialAu–Cubiphasic
+supportedondopedTiO :atheoreticalapproachbasedon interfacefortandemCO -to-C alcoholconversion.Chem8,
+2 2 2+
+metal–semiconductorcontacttheory.J.Catal.161,560–569(1996). 3288–3301(2022).
+NatureCommunications|( 2024)1 5:5172 11
+
+
+===== PAGE 12 =====
+
+Article https://doi.org/10.1038/s41467-024-49247-4
+51. Yang,B.etal.ElectrocatalyticCO reductiontoalcoholsbymod- 73. Dudarev,S.L.etal.Electron-energy-lossspectraandthestructural
+2
+ulatingthemoleculargeometryandCucoordinationinbicentric stabilityofnickeloxide:anLSDA+Ustudy.Phys.Rev.B57,
+coppercomplexes.Nat.Commun.13,5122(2022). 1505–1509(1998).
+52. Katayama,Y.etal.Aninsitusurface-enhancedinfraredabsorption 74. Li,L.etal.ImagingcatalyticactivationofCO onCu O(110):afirst-
+2 2
+spectroscopystudyofelectrochemicalCO reduction:selectivity principlesstudy.Chem.Mater.30,1912–1923(2018).
+2
+dependenceonsurfaceC-boundandO-boundreactioninter-
+mediates.J.Phys.Chem.C.123,5951–5963(2019). Acknowledgements
+53. Gunathunge,C.M.etal.Revealingthepredominantsurfacefacets G.Z.acknowledgesthefinancialsupportfromtheNationalNaturalSci-
+ofroughCuelectrodesunderelectrochemicalconditions.ACS enceFoundationofChina(GrantNo.52072359),theRecruitmentPro-
+Catal.10,6908–6923(2020). gramofGlobalExperts,andtheFundamentalResearchFundsforthe
+54. Lee,G.etal.ElectrochemicalupgradeofCO fromaminecapture CentralUniversities(WK2060000016).Thenumericalcalculationsin
+2
+solution.Nat.Energy6,46–53(2021). thispaperhavebeendoneintheSupercomputingCenteroftheUni-
+55. Li,J.etal.Hydrogenbondingsteerstheproductselectivityof versityofScienceandTechnologyofChinaandTianHe-2atLvLiang
+electrocatalyticCOreduction.Proc.Natl.Acad.Sci.USA116, CloudComputingCenterofChina.Theauthorsaregratefultoinfrared
+9220–9229(2019). beamline(BL01B)atNationalSynchrotronRadiationLaboratoryforthe
+56. Yu,P.Y.&Shen,Y.R.ResonanceRamanstudiesinCuO.I.The experimentalbeamtimesupport.Thisworkwaspartiallycarriedoutat
+2
+phonon-assisted1syellowexcitonicabsorptionedge.Phys.Rev.B theInstrumentsCenterforPhysicalScience,UniversityofScienceand
+12,1377–1394(1975). TechnologyofChina.
+57. Balkanski,M.,Nusimovici,M.A.&Reydellet,J.FirstorderRaman
+spectrumofCuO.SolidStateCommun.7,815–818(1969). Authorcontributions
+2
+58. Chen,C.etal.Theinsitustudyofsurfacespeciesandstructuresof G.Z.conceivedandsupervisedthestudy.Y.Z.conductedexperiments
+oxide-derivedcoppercatalystsforelectrochemicalCO reduction. andanalyzeddata.Y.C.performedandpreparedtheDFTcalculations
+2
+Chem.Sci.12,5938–5943(2021). section.X.W.andY.F.conductedsomeexperiments.Z.D.andM.C.
+59. Zhan,C.etal.RevealingtheCOcoverage-drivenC–Ccoupling assistedtheelectrochemicalinsituFourierTransformInfrared(FTIR)
+mechanismforelectrochemicalCO reductiononCuOnanocubes spectroscopyandRamananalysis.G.Z.contributedsignificantlytothe
+2 2
+viaoperandoRamanspectroscopy.ACSCatal.11,7694–7701(2021). analysisandmanuscriptpreparation.Allauthorsparticipatedinthe
+60. Shan,W.etal.Insitusurface-enhancedRamanspectroscopicevi- analysiswithconstructivediscussions.
+denceontheoriginofselectivityinCO electrocatalyticreduction.
+2
+ACSNano14,11363–11372(2020). Competinginterests
+61. Petrie,J.R.etal.Straincontrolofoxygenvacanciesinepitaxial Theauthorsdeclarenocompetinginterests.
+strontiumcobaltitefilms.Adv.Funct.Mater.26,1564–1570(2016).
+62. Shi,X.etal.Achievinghighsafetyforlithium-ionbatteriesby Additionalinformation
+optimizingelectronandphonontransport.ACSEnergyLett.8, SupplementaryinformationTheonlineversioncontains
+4540–4546(2023). supplementarymaterialavailableat
+63. Wang,P.etal.Sub-1nmCuOnanosheetsfortheelectrochemical https://doi.org/10.1038/s41467-024-49247-4.
+2
+CO reductionandvalencestate–activityrelationship.J.Am.Chem.
+2
+Soc.145,26133–26143(2023). Correspondenceandrequestsformaterialsshouldbeaddressedto
+64. Gu,Z.etal.Oxygenvacancytuningtowardefficientelectro- GenqiangZhang.
+catalyticCO reductiontoC H .SmallMethods3,1800449(2019).
+2 2 4
+65. Shi,H.etal.StabilizingCu+speciesinCuO/CuOcatalystviacar- PeerreviewinformationNatureCommunicationsthanksSiddhartha
+2
+bonintermediateconfinementforselectiveCO RR.Adv.Funct. Subramanian,andtheother,anonymous,reviewer(s)fortheircon-
+2
+Mater.34,2310913(2024). tributiontothepeerreviewofthiswork.Apeerreviewfileisavailable.
+66. Wu,Q.etal.Nanograin-boundary-abundantCu O-Cunanocubes
+2
+withhighC selectivityandgoodstabilityduringelectrochemical Reprintsandpermissionsinformationisavailableat
+2+
+CO reductionatacurrentdensityof500mA/cm2.ACSNano17, http://www.nature.com/reprints
+2
+12884–12894(2023).
+67. Li,N.etal.Chargetransferandorbitalreconstructionofnon-noble Publisher’snoteSpringerNatureremainsneutralwithregardtojur-
+transitionmetalsingle-atomsanchoredonTiCTx-MXenesfor isdictionalclaimsinpublishedmapsandinstitutionalaffiliations.
+2
+highlyselectiveCO electrochemicalreduction.Chin.J.Catal.43,
+2
+1906–1917(2022). OpenAccessThisarticleislicensedunderaCreativeCommons
+68. Shi,R.etal.Room-temperatureelectrochemicalacetylenereduc- Attribution4.0InternationalLicense,whichpermitsuse,sharing,
+tiontoethylenewithhighconversionandselectivity.Nat.Catal.4, adaptation,distributionandreproductioninanymediumorformat,as
+565–574(2021). longasyougiveappropriatecredittotheoriginalauthor(s)andthe
+69. Hua,Q.etal.Crystal-plane-controlledselectivityofCu Ocatalysts source,providealinktotheCreativeCommonslicence,andindicateif
+2
+inpropyleneoxidationwithmolecularoxygen.Angew.Chem.Int. changesweremade.Theimagesorotherthirdpartymaterialinthis
+Ed.53,4856–4861(2014). articleareincludedinthearticle’sCreativeCommonslicence,unless
+70. Hafner,J.Ab-initiosimulationsofmaterialsusingVASP:density- indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnot
+functionaltheoryandbeyond.J.Comput.Chem.29, includedinthearticle’sCreativeCommonslicenceandyourintended
+2044–2078(2008). useisnotpermittedbystatutoryregulationorexceedsthepermitted
+71. Perdew,J.P.,Burke,K.&Ernzerhof,M.Generalizedgradient use,youwillneedtoobtainpermissiondirectlyfromthecopyright
+approximationmadesimple.Phys.Rev.Lett.77,3865–3868(1996). holder.Toviewacopyofthislicence,visithttp://creativecommons.org/
+72. Grimme,S.etal.Aconsistentandaccurateabinitioparametrization licenses/by/4.0/.
+ofdensityfunctionaldispersioncorrection(DFT-D)forthe94ele-
+mentsH-Pu.J.Chem.Phys.132,154104(2010). ©TheAuthor(s)2024
+NatureCommunications|( 2024)1 5:5172 12

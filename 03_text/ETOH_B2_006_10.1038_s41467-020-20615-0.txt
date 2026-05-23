@@ -1,0 +1,659 @@
+
+
+===== PAGE 1 =====
+
+ARTICLE
+OPEN
+https://doi.org/10.1038/s41467-020-20615-0
+The nature of active sites for carbon dioxide
+electroreduction over oxide-derived copper
+catalysts
+Dongfang Cheng 1,2,6, Zhi-Jian Zhao 1,2,6, Gong Zhang 1,2, Piaoping Yang1,2, Lulu Li1,2, Hui Gao1,2,
+Sihang Liu 1,2, Xin Chang1,2, Sai Chen1,2, Tuo Wang1,2, Geoffrey A. Ozin3, Zhipan Liu 4 &
+✉
+Jinlong Gong 1,2,5
+TheactivesitesforCO electroreduction(CO R)tomulti-carbon(C )productsoveroxide-
+2 2 2+
+derivedcopper(OD-Cu)catalystsareunderlong-termintensedebate.Thispaperdescribes
+the atomic structure motifs for product-specific active sites on OD-Cu catalysts in CO R.
+2
+Herein,wedescriberealisticOD-Cusurfacemodelsbysimulatingtheoxide-derivedprocess
+viathemoleculardynamicsimulationwithneuralnetwork(NN)potential.Aftertheanalysis
+of over 150 surface sites through NN potential based high-throughput testing, coupled with
+densityfunctionaltheorycalculations,threesquare-likesitesforC–Ccouplingareidentified.
+Among them, Σ3 grain boundary like planar-square sites and convex-square sites are
+responsibleforethyleneproductionwhilestep-squaresites,i.e.n(111)×(100),favoralcohols
+generation, due to the geometric effect for stabilizing acetaldehyde intermediates and
+destabilizing Cu–O interactions, which are quantitatively demonstrated by combined theo-
+reticalandexperimentalresults.Thisfindingprovidesfundamentalinsightsintotheoriginof
+activity and selectivity over Cu-based catalysts and illustrates the value of our research
+framework in identifying active sites for complex heterogeneous catalysts.
+1KeyLaboratoryforGreenChemicalTechnologyofMinistryofEducation,SchoolofChemicalEngineeringandTechnology,TianjinUniversity,300072
+Tianjin,China.2CollaborativeInnovationCenterofChemicalScienceandEngineering(Tianjin),300072Tianjin,China.3DepartmentofChemistry,
+UniversityofToronto,Toronto,ON,Canada.4CollaborativeInnovationCentreofChemistryforEnergyMaterial,ShanghaiKeyLaboratoryofMolecular
+CatalysisandInnovativeMaterials,KeyLaboratoryofComputationalPhysicalScience,DepartmentofChemistry,FudanUniversity,Shanghai,China.5Joint
+SchoolofNationalUniversityofSingaporeandTianjinUniversity,InternationalCampusofTianjinUniversity,BinhaiNewCity,350207Fuzhou,China.6These
+✉
+authorscontributedequally:DongfangCheng,Zhi-JianZhao. email:jlgong@tju.edu.cn
+NATURECOMMUNICATIONS| (2021) 12:395 |https://doi.org/10.1038/s41467-020-20615-0|www.nature.com/naturecommunications 1
+;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-20615-0
+T
+he excessive utilization of fossil fuels has led to dramatic sites for C 2+ products on OD-Cu may be different from that on
+anthropogenic climate change and serious energy crisis. Cu NP. In addition, active sites for specific products should be
+Electrochemical carbon dioxide reduction (CO R) to further clarified. Thus, new calculation method should be devel-
+2
+renewable fuels and feedstocks has gained significant attention, oped to simulate the “oxide-derived” process to obtain the
+and been regarded as a promising strategy to close the carbon authentic OD-Cu surface model.
+cycle and store renewable
+energy1–3.
+Copper is by far the most Here, we break the spatiotemporal limitation of QM and use
+promising metal capable of converting CO into multi-carbon molecular dynamic simulation with global neural network
+2
+hydrocarbonsand oxygenates4–8.AmongtheCu-based catalysts, potential(NN-MD)20,21tosimulatethewholedynamicevolution
+oxide-derived copper (OD-Cu) is particularly attractive catalyst of the surface from copper oxide to OD-Cu. By combining NN
+duetoitsremarkableselectivitytowardspotentiallyvaluableC 2+ potential-based high-throughout testing, density functional the-
+products at relatively low overpotentials, which exhibits the orycalculationsandexperimentalstudies,weestablishthelinkage
+prospect of large-scale
+industrialization9–11.
+correlationsbetweentheatomicstructureofactivesitesandtheir
+The outstanding catalytic performance for C 2+ products over catalytic activities for specific products in CO 2 R over OD-Cu
+OD-Cucatalystsisunderintensedebate,whichispossiblyrelated catalysts. This work provides theoretical guidance for the design
+to, for instance, subsurface oxygen12, grain boundaries10,13, of highly selective Cu-based catalysts and develops a versatile
+exposed facet14, and local pH15. Moreover, recent study by Ager research framework, machine-learning accelerated theoretical
+et al.16 showed that different C 2+ products are generated from calculations, coupled with actionable experiments, for analyzing
+specificactivesites onOD-Cuvia isotopelabeling. However, the atomic structures of active sites in heterogeneous catalytic
+currentunderstandingofatom-scaleactivesitesoverOD-Cufalls systems.
+short of expectation, impeding the rational design of catalysts
+converting CO 2 to specific product, like ethylene and ethanol, Results
+with high selectivity. The difficulty is that available character-
+A realistic surface model is the prerequisite for the exact
+ization techniques cannot detect the complex surface features of
+analysis of atomic structure of active sites. We employed mole-
+OD-Cu due to the insufficient spatial resolution. Meanwhile, the
+cular dynamics simulation with neural network potential
+computational demanding quantum mechanics (QM) level cal- (NN-MD)20,21 to simulate the whole reduction process of the
+culationsareimpracticalforlarge-scaleandlong-termsimulation,
+oxideprecursor.Experimentally,OD-Cuaremainlyderivedfrom
+thus inhibiting the display of the “oxide-derived” process and Cu O phase9,22, thus Cu O (111), the most stable facet23, was
+2 2
+furthercomprehensionofatomicstructuresonauthenticOD-Cu
+chosenastheprecursorforthereductionprocess.Tosimulatethe
+surface models. Therefore, identifying atom-scale product-spe- “oxide-derived” process, the two-step approach was employed.
+cific active sites for CO R over OD-Cu catalysts remains grand
+2 First,NN-MDwasperformedwithcanonicalensemble(NVT)to
+challenges.
+obtain a thermodynamically balanced surface structure. Subse-
+The development of machine-learning-based new calculation
+quently,theoxygenvacancyformationenergies(E )ofsurfaceO
+methods is a frontier in the field of theoretical catalysis, at the ov
+were calculated, wherein O atoms with lower vacancy formation
+same time, a promising route to analysis the active sites in
+energies were removed to represent the reduction process,
+complex heterogeneous catalytic system17,18. Goddard and co-
+thereby forming a partially reduced surface. Afterwards, another
+workers19computationally synthesizedcoppernanoparticles (Cu
+round NN-MD simulation was carried out followed by the
+NP)bysimulatingthechemicalvapordeposition(CVD)process
+reduction,i.e.,removalofsurfaceOatoms,untilOcannolonger
+andusedmachine-learningmethodtoexploretheactivesitesfor migrate to the surface and all been trapped in the third layer or
+C–Ccoupling.However,itisunclearthatthesurfacestructureof
+below(Fig.1aandSupplementaryFigs.1–12).(fordetails,seethe
+Cu NP can be compared to that of OD-Cu. OD-Cu differs from “Methods”) Previous research has shown that O below the third
+Cu NP or poly-Cu in that it shows higher selectivity for C 2+ layerhadlittleeffect ontheadsorptionbehaviorof adsorbates24,
+oxygenates at lower overpotential9,10, which means that active
+therefore we believe that our OD-Cu surface models are
+a
+Remove O
+SUR
+Several rounds
+NN-MD
+b
+other (111) step
+defects square
+( )
+Fig.1Theoreticalsimulationofoxide-derivedprocess.aIllustrationofourproceduretoconstructOD-Cumodelwithmoleculardynamicsimulation.
+Colorcode:brown-Cu;blue-surfaceO;gray-subsurfaceO;red-bulkO.bProportionsofdifferentsurfacestructures.
+2 NATURECOMMUNICATIONS| (2021) 12:395 |https://doi.org/10.1038/s41467-020-20615-0|www.nature.com/naturecommunications
+
+
+===== PAGE 3 =====
+
+1.9
+1.8
+1.7
+1.6
+1.5
+1.4
+1.3
+1.2
+-1.1 -1 -0.9 -0.8 -0.7 -0.6 -0.5
+consistent with the current experimental research that metallic Wethenrandomlyselected155surfacesitesonOD-Cusurface
+copperistheactivephaseforCO RoverOD-Curatherthanthe modelstoexplorethisdimerizationprocess.AsshowninFig.2b,
+2
+oxide phase25. some sites obviously show stronger *COCO binding energies.
+In our simulated OD-Cu surface structures, (111) facet dom- Interesting,thesesiteshavethesamefeaturethattheyallownthe
+inates,occupyingabout53%surfacearea(Fig.1b).Besides,there square-like orientation. We then selected another 15 square sites
+are some obvious steps, which resemble Cu(S)-[n(111)×(111)] from OD-Cu surfaces to verify this tendency. Not surprisingly,
+step sites, where one atomic height of (111) step is introduced these square sites can efficiently stabilize the *COCO inter-
+intoseveralatomicrowsof(111)terrace.Moreover,afewdefects mediate as well. Two disparate scaling relationship can be
+likegrainboundariesandvacanciesexist(SupplementaryFig.13). obtained between the average adsorption energy of two binding
+Up to now, authentic OD-Cu surface structures are obtained *CO (E(CO)) and coupled intermediate *COCO (E(COCO)) on
+based on NN-MD simulation of the whole reduction process. the non-square sites and square sites. Moreover, these two rela-
+ToimprovetheactivityandselectivityforC 2+productsofthe tionshipsalmostsharethesameslopebuthavea0.34eVintercept
+catalyst, it is crucial to understand the nature of the active sites difference. This value is very close to the adsorption energy dif-
+presented on Cu catalyst. The pathway for C 2+ products26–28 is ference, 0.31eV, of *COCO over Cu(111) and Cu(100), indicat-
+illustratedinFig.2a.SolidexperimentalresearchesshowthatCO ing the decreased intercept is merely attributed to the additional
+2
+electroreduction to multi-carbon products isindependent on the stabilizing effect for *COCO intermediate at square-like sites.
+standard hydrogen electrode (SHE) scale and C–C coupling step ReflectedinreactionenergyofC–Ccouplingprocess(Fig.2c),the
+that does not involve proton transfer is considered as rate- average reaction energy on square sites is 1.27eV, 0.36eV lower
+determiningstep(RDS)29,whichmeanstherateofC–Ccoupling thanthatonnon-squaresites.Therefore,square-likesitesarethe
+determines the whole activity for C 2+ products over OD-Cu most potential candidates to serve as active sites for C–C
+catalysts. Both vibrational spectra30,31 and kinetic models32,33 coupling.
+reveal that *CO is the main intermediate on Cu surface under Further analysis found that these square sites have different
+reduction conditions. Considering that C 2+ pathway displays a localstructures.Therefore,weclassifiedthesesitesintofourtypes:
+pH independent on SHE scale, 2*CO dimerization is thus the planar-square (p-sq), step-square (s-sq), concave-square (cc-sq)
+most accepted form for C–C coupling on copper surface34. and convex-square (cv-sq). p-sq sites are the Σ3 grain boundary
+)Ve(
+ygrenE
+noitcaeR
+non-square sites square sites
+selected square sites
+1.63eV
+1.27eV
+Average E(*CO) (eV)
+1.2
+1
+0.8
+0.6
+0.4
+0.2
+0
+-0.2
+)Ve(
+ygrenE
+noitcaeR
+d
+1.2
+1
+0.8
+0.6
+0.4
+0.2
+0
+(111) (100) (221) p-sq s-sq cc-sq cv-sq
+)Ve(
+reirraB
+noitcaeR
+0.4
+0.2
+0
+-0.2
+-0.4
+-0.6
+-1.1 -1 -0.9 -0.8 -0.7 -0.6 -0.5
+(111) (100) (221) p-sq s-sq cc-sq cv-sq
+)Ve(
+)OCOC*(E
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-20615-0
+a
+b c
+non-square sites square sites
+selected square sites
+y=1.82x+1.48
+planar-square step-square
+y=1.85x+1.14
+concave-square convex-square
+Average E(*CO) (eV)
+e f g
+p-sq s-sq cc-sq cv-sq
+side view
+top view
+Fig.2IdentificationofC–Ccouplingactivesites.aReactionpathwayforC 2+productsinCO2R.bTheadsorptionenergyof*COCOasthefunctionofthe
+averageadsorptionenergyoftwoadsorbed*CO.cReactionenergy(2*CO→*COCO)asthefunctionoftheaverageE(*CO)onthesesites.dDFTperiodic
+slabmodelsoffoursquare-likesites.e*OCCOconfigurationsonthesefoursites(solventmoleculeshavebeenremovedtoshowtheadsorbate
+configurations).fReactionenergiesandgbarriers(2*CO→*COCO)ondifferentDFTslabmodelsunderappropriateelectrochemicalinterface.Colorcode:
+brown-Cu;yellow-Cuinsquare-likesites;gray-C;red-O.
+NATURECOMMUNICATIONS| (2021) 12:395 |https://doi.org/10.1038/s41467-020-20615-0|www.nature.com/naturecommunications 3
+
+
+===== PAGE 4 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-20615-0
+created by two flat (111) planes with 60° lattice orientation dif- Theseresultssuggestthatp-sqandcv-sqsitesareresponsiblefor
+ference. s-sq sites are similar to Cu(S)-[n(111)×(100)] step sites generating ethylene while s-sq favors the alcohols production.
+where(100)stepsareintroducedto(111)basalplane.Whilecc-sq Interestingly, we found that the tendency to produce ethylene
+and cv-sq are formed by rotation and then splicing of two (111) or alcohols can be simply predicted by the C–O bond length of
+planes. In order to explore C–C coupling more accurately, we *CH CHO. The shortest C–O bond length (1.296Å) is in
+2
+abstracted these four surface sites into small slab models for *CH CHO on s-sq site, followed by that on p-sq and cv-sq sites
+2
+accurate density functional theory (DFT) calculations (Fig. 2d), (1.315Å and 1.322Å). To further quantitatively evaluate the
+which are expected to have similar chemical properties to the strength of the bond, we conducted the integrated crystal orbital
+selectivesitesfromtheMDmodels(MethodsandSupplementary Hamilton population (ICOHP) analysis of C–O bond (Fig. 3d).
+Tables 4–6). Here, (322) and (221) facet, 5(111)×(100) and 5 The shorter bond length and larger value of –ICOHP indicates
+(111)×(111), represent s-sq sites and other step sites, thattheC–Obondishardertobreak,whichmeanstheethylene
+respectively. pathway is inhibited while alcohols pathway is favored. Indeed,
+Our calculation shows that CO dimerization reaction over the difference between the Gibbs-free reaction energy to break
+these four square-like structures are less endothermic than that C–Obondandfurtherprotonationisnegativelycorrelatedtothe
+over (111) and (221) facet (Fig. 2e, f) under proper electro- C–O bond length (Fig. 3d). Remarkably, s-sq class, the Cu(211),
+chemicalinterface.Amongthem,p-sqexhibitsthelowestreaction Cu(533), Cu(755) and Cu(433) [n=3, 4, 6, 7 in n(111)×(100)]
+energy of −0.16eV. Moreover, we found that the reaction bar- all exhibit the same tendency like (322) facet. It is noteworthy,
+riers of C–C coupling on p-sq, s-sq and cv-sq sites are 0.33eV, that, Cu(100) and Cu(751), which experimentally show more
+0.72eV, and 0.39eV, respectively, much lower than 0.85eV and selective for ethylene and alcohols7, fall in their respective pro-
+1.19eVon(111)and(221)facets(Fig.2g).Basedontheanalysis duct region, thus meaning the bond length of C–O in adsorbed
+above,threeactivesites,p-sq,s-sqandcv-sqsites,whichfavorfor *CH CHO may be a simple descriptor for the selectivity of
+2
+C 2+ products production have been identified on OD-Cu. ethylene and alcohols on different surface structures.
+Previous work proved that ethylene and ethanol are not gen- The specific geometry of step-square site explains the differ-
+eratedfromthesametypesofactivesites,whichmeanstheC–C enceinselectivity.Figure3eshowsthatthegeneralcoordination
+couplingactivesitescanbefurthersubdivided16.Fromcalculated number (GCN) of s-sq is the lowest (5.50), thus showing the
+free energy profiles of the whole reaction pathway (Supplemen- strongest adsorption energy of acetaldehyde intermediate
+taryFigs.24–26),*CH CHOservesastheselectivitydetermining (*CH CHO),leadingtothehydrogenationpathwaydominances.
+2 3
+intermediate (SDI), which corresponds to previous calculations Meanwhile, p-sq and cv-sq can supply the fourfold sites to sta-
+on copper single crystal facets27,28. The ethylene pathway pro- bilize the newly formed *O after C–O cleavage. While on s-sq
+ceeds with cleavage of C–O bond while alcohols are formed by site, *O can only adsorb in adjacent triple site, resulting in the
+further protonation. On p-sq and cv-sq sites (Fig. 3a, b), the instabilityof*O,therebyfurtherhinderingtheethylenepathway
+cleavage of C–O bond to form C H is thermodynamic favored (Fig. 3f). Based on the analysis above, we elucidated how the
+2 4
+compared to the protonation of α-C to form *CH CHO inter- geometry of C–C active sites affects the bifurcation pathway,
+3
+mediate. Conversely, s-sq site shows strong thermodynamic resulting in the difference of the selectivity for C 2+ products.
+tendency for further hydrogenation, thus inhibiting the C H Furthermore,wecanproposethatthekeytogeneratingethanolis
+2 4
+pathwayandmeanwhilepromotingalcoholsproduction(Fig.3c). that square-like sites coupled with low coordinated sites, where
+Fig.3Identificationofproduct-specificactivesites.Energyprofiletoformethylene(blueline)andethanol(orangeline)foraplanar-squaresite,b
+convex-squaresite,andcstep-squaresite.dBlue:TherelationshipbetweenthebondlengthofC–OinadsorbedCH CHOandthedifferenceofGibbs-free
+2
+reactionenergyofC–Oscission(ΔG(C–O))andhydrogenation(ΔG(+H)).Orange:TherelationshipbetweenthebondlengthofC–Oinadsorbed
+CH CHOandtheICOHPofC–Obond.eGeneralcoordinationnumberandadsorptionenergyof*CH CHOonthesethreeactivesites.fAdsorptionenergy
+2 3
+of*Oonthesethreeactivesites.
+4 NATURECOMMUNICATIONS| (2021) 12:395 |https://doi.org/10.1038/s41467-020-20615-0|www.nature.com/naturecommunications
+
+
+===== PAGE 5 =====
+
+0.5
+0.4
+0.3
+0.2
+0.1
+0
+0 0.1 0.2 0.3 0.4 0.5
+square-like sites are responsible for C–C coupling, low coordi- The ratio of three theoretically identified active sites, p-sq, s-sq,
+nated sites are conducive to further protonation for alcohols. andcv-sqsites,decreasedwithincreasingannealingtemperatureas
+Very recent study35 found that square, four-atom Cu islands are well. From our theoretical models, the OD-Cu surface before
+the active sites for generating ethanol. This structure certainly annealing has the largest proportion, 11.54%, of these three active
+meets our design criteria for alcohols production. Although our sites. The percentage drops to 9.37%, 4.93% and 1.67% after
+OD-Cu models didn’t directly observe such structure due to the annealingat450,500,and650K,respectively.Whenplottedagainst
+scale limitation, their conclusion is consistent with ours. the catalytic activity, a linear relation is obtained between the sur-
+To further illustrate the correlation between the catalytic facearea-normalizedcurrentdensityofC 2+productsat−1.2Vvs.
+activityforcertainC 2+productsonOD-Cuandtheseactivesites, RHEandtheproportionofthesethreeactivesites(Fig.4b).More
+we experimentally synthesized OD-Cu catalysts, which are specifically, the experimental current densities of ethylene and
+derivedbyCu Ooctahedron,where(111)facetdominates.Then, alcoholsarelinearlycorrelatedtothedensityofsumofthedensity
+2
+we varied defect concentrations by annealing the OD-Cu at 450, of p-sq and cv-sq sites, and the density of s-sq sites, respectively
+500, and 650K (Fig. 4a and Supplementary Figs. 14 and 15). (Fig. 4c, d). The linear correlations are also existed at −1.0 and
+Meanwhile, similar annealing operations were performed theo- −1.1V vs. RHE (Supplementary Figs. 21 and 22). Moreover, the
+retically by NN-MD simulation to change the amount of the ratioofcatalyticactivitiesofalcoholstoethyleneisproportionalto
+activesites,thuswecanaccuratelycounttheratiosofactivesites the ratio of the amount of s-sq to (p-sq + cv-sq) (Fig. 4e). If we
+under different annealing temperature conditions from theore- change the ordinate from F.E.(alcohols)/F.E.(ethylene) to F.E.
+ticalmodels(fordetails,seethe“Methods”).Afterannealing,step (ethylene)/F.E.(alcohols), the positive correlation no long exists
+sites and some defects are erased in this process and transform (Supplementary Fig. 23), which means the catalytic activities of
+into flat (111) facet in general (Supplementary Figs. 16 and 17), alcohols and ethylene have no correlation with (p-sq+cv-sq) and
+whichisconsistentwithpreviousworkthatthesurfaceroughness s-sq, respectively. This in turn suggests that the CO reduction
+2
+decreased after annealing10 and our cyclic voltammetry (CV) activityforethyleneandalcoholsstronglydependsontheirspecific
+curves results (Supplementary Fig. 18). activesites.Notably,theinterceptsoftheserelationsareallcloseto
+)enelyhte(.E.F
+/ )slohocla(.E.F
+10
+8
+6
+4
+2
+0
+0 2 4 6 8 10 12
+R2=0.99 non-annealing
+a-450
+a-500
+a-650
+-1.2 V vs.RHE
+s-sq / (p-sq+cv-sq)
+)1-mc
+Am(
+J
++2C
+7
+R2=0.99 non-annealing 6
+5
+a-450
+4
+a-500 3
+2
+1
+a-650 0 -1.2 V vs.RHE
+-1
+-1 0 1 2 3 4 5 6 7 8 9
+Ratio of three active sites (%)
+)1-mc
+Am(
+J
+enelyhte
+R2=0.97 non-annealing
+a-500 a-450
+a-650
+-1.2 V vs.RHE
+Ratio of p-sq and cv-sq (%)
+3
+2
+1
+0
+0 1 2 3 4
+)1-mc
+Am(
+J
+slohocla
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-20615-0
+a
+H N 450K 500K 650K
+2 2
+403 K annealing Increasing annealing T
+Cu O OD-Cu
+2
+b c f
+d e
+R2=0.98
+non-annealing
+a-450
+a-500
+a-650 -1.2 V vs.RHE
+Ratio of s-sq (%)
+Fig.4Verificationofactivesitesviathermalannealingprocess.aSchematicillustrationofOD-Cupreparationandannealingprocessinexperiment.The
+upperlayer,TEMimageofCu O,SEMimagesofOD-Cu,a-450,a-500,anda-650fromlefttoright.Thewhitedottedlinesindicatetheroughparticle
+2
+surface.ThecorrelationbetweenthecurrentdensityofbC 2+productsandtheratiosofallthreeactivesitescethyleneandtheratiosofplanar-squareand
+convex-squaresitesdalcoholsandtheratiosofstep-squaresites.eAlcohols/ethyleneratiosasthefunctionoftheratiosofstep-squaresitestothesumof
+planar-squareandconvex-squaresitesat−1.2Vvs.RHE.fProposedstructure–activityrelationshipdiagramonOD-CuinCO R.a-450,a-500,anda-650
+2
+representannealingat450,500,and650K,respectively.Theerrorbarsrepresentthestandarddeviationfromthreeindependentmeasurements.
+NATURECOMMUNICATIONS| (2021) 12:395 |https://doi.org/10.1038/s41467-020-20615-0|www.nature.com/naturecommunications 5
+
+
+===== PAGE 6 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-20615-0
+0, meaning that almost all the catalytic activity for these products processofheatingprocess,andthensimulatedat420,360,and300Kfor0.2ns,
+arises from their specific active sites. Based on this quantitative respectivelyinorder,tosimulatetheprocessofcooling.Theprocessofannealingat
+structure–activity relationship, we can demonstrate that p-sq and 650K:OD-Cuissimulatedat400,500,600,and650Kinorderof0.2,0.2,0.2,and
+0.6nstosimulatetheprocessofheating,andthenat600,500,450,and300Kin
+cv-sq sites are responsible for ethylene production while s-sq sites
+order,tosimulatetheprocessofcoolingat0.2ns.
+promotegeneratingalcoholsonOD-Cusurface(Fig.4f).Therefore, Inourarticle,weperformed0.2nsNN-MDineachheatingandcoolingstage.
+thekeytoboostingthehighlyvaluableC 2+alcoholsproductionis Wethenchangedtheresidencetime(0.1nsand0.3ns)atdifferentannealing
+to synthesize Cu-based catalysts with more step-square sites by temperatures.Asaresult,wefoundthatthepercentagesofeachstructuralmotifs
+remainbasicallyunchangedatdifferentannealingtemperature(Supplementary
+adjusting the precursors or thesynthesis conditions.
+Table10),whichmeans,atleastforNN-MD,theannealingtimedoesnotchange
+Althoughtheactivitiesofethyleneandalcoholsbothshoweda thetrendoftheratioofactivesites.Inall,0.2nsisenoughforobtainingtheratioof
+downward trend with the increase of annealing temperature, it eachstructuralmotifsconsideringthecomputationalcost.
+canbeclearlyseenthattheactivitytoproducealcoholsdecreases Densityfunctionaltheorycalculationswereperformedusingtheplane-wave-
+basedViennaAbInitioSimulationpackage(VASP)37.Theelectronexchangeand
+faster,resultinginthedecreasedselectivityofalcoholstoethylene
+correlationeffectsweredescribedbythegeneralizedgradientapproximation
+withtheincreasingannealingtemperature(Fig.4e).Thereasonis (GGA)intheformofthePerdew-Burke-Ernzerhof(PBE)functional38.TheD3
+that in the annealing process, the steps are easily erased, leading correctionmethodwasemployedtoillustratethelong-rangedispersion
+to the fast decrease of the s-sq coverage. However, the grain interactionsbetweentheadsorbates,waterandCusurface39.Theinteraction
+betweenatomiccoresandelectronswasdescribedbytheprojectoraugmented
+boundarylikep-sqsitesarestuckintwo(111)planes,whichare
+wave(PAW)method38.Acutoffenergyof400eVfortheplane-wavebasissetand
+relatively robust, leading to the activity of ethylene decreases
+anatomicforceconvergenceof0.02eV/Åwereemployed.Thetransitionstate
+more slowly. searchwasconductedwithclimbingimagenudgedelasticband(CI-NEB)
+Thisworkrevealstheatomic-levelproduct-specificactivesites method40,followedbythedimermethodtoconvergethesaddlepointwithin
+of CO R over OD-Cu catalysts by combining theoretical and 0.05eV/Å.
+2 Whentheoreticallyinvestigatingelectrochemicalbarriers,itisessentialto
+experimental methods, where planar-square and convex-square
+modelsuitableelectrochemicalinterface.Previousstudyhasfoundthatonelayerof
+sites are identified to be the active sites for ethylene production watercanaccuratelydescribetheadsorptionbehaviorcomparedtomorewater
+a w l h co il h e o s l t s e . p T - h sq e u se ar n e e s w ite i s ns a i r g e ht r s es r p e o so n l s v i e b d le t f h o e r l t o h n e g g -t e e n r e m ra d ti e o b n at o e f o C v 2 e + r l d a o y e e s r 4 s 1– a 4 n 3 d .T a h s u im s, p w l e e e h s y ta d b ro li n sh iu e m do i n o e n la ca y n er i o n f d w uc a e te t r h w e i s th am an ee a l d e d c e tr d ic h fi yd el r d on a i s u c m at i i o o n n to
+the active sites on OD-Cu catalysts and identified how each site simulatetheelectrochemicalinterface.
+(111),(100),and(221)facetsweremodeledusing(3×3),(3×3),and(1×3)
+works,whicharetheprerequisitesforthedevelopmentofhighly supercellswith(3×3×1)k-pointgrid.(1×3)supercellswereusedtomodelstep-
+selective,i.e.,C 2+oxygenates,Cu-basedcatalystsforCO
+2
+Rinthe squaresites(n(111)×(100)):(211),(533),(322),(755)and(433)facets,(3×3×1),
+future. Furthermore, this work also provides a versatile tool for (3×3×1),(3×3×1),(2×3×1)and(2×3×1)k-pointgridwereused.(2×1)
+supercellwasusedtomodel(751)facetand(2×3×1)k-pointgridwereused.Four
+the analysis of the complicated heterogeneous catalytic system.
+layerswereusedforabovemodels,wherethetwobottomlayerswerekeptfixedin
+optimization.Planar-squareisthegrainboundarycreatedbytwoflat(111)planes
+Methods withdifferentlatticeorientations.(1×3×1)k-pointgridwasused.Concave-
+Computationaldetails.Allsimulationswithneuralnetworkpotentialwerecarried squareandconvex-squareareobtainedbyrotationandthensplicingoftwo(111)
+outbyLASPsoftware(www.lasphub.com)20,21.Moleculardynamicsimulation planes.(3×3×1)k-pointgridwasusedforboth.
+withneuralnetworkpotential(NN-MD)wasperformedataconstanttemperature
+(T=300K)withintheNVTensemble.Detailsinneuralnetworkpotentialareseen
+Materials.KHCO,NaOH,ethanol,andisopropanolwereallpurchasedfrom
+3
+inSupplementaryMethods. TianjinKemiouChemicalReagentCo.,Ltd.Polyvinylpyrrolidone(PVP,Mw=
+Cu 2 S O im ( u 11 la 1 t ) io . n Pr o ev f i t o h u e s o s x tu id d e ie -d s e s r h i o ve w d ed pr t o h c a e t s s s u : r W fac e e s O tar a t r e e d u t n h s is ta p b r l o e c o e n ss C w u i 2 t O hp at ri − sti 0 n .1 e 1 ac 5 i 0 d 00 w , a K s 1 p 5 u ) rc w h a a s se p d u f r r c o h m ase S d in f o r p o h m ar T m ok C y h o em Ch ic e a m lR ic e a a l g I e n n d t u C st o r . y ,L C t o d . . , A L l t l d r . e L a - g a e s n co ts rb w ic ere
+V(vs.RHE)36.Therefore,allthesurfaceOatomsinourslabmodel,whichshare usedwithoutanypurificationprocess.Ultrapuritywater(18.25MΩcm)supplied
+thesameenvironment,wereremovedwithoutdistinction.Then,wecarriedout1 byaUPWaterPurificationSystemwasusedinthewholeexperimentalprocesses.
+nsNN-MDat300Ktoobtainthefirst-stageinthereductionprocess.After1ns CO,Ar,H,N allweresuppliedbyAirLiquid(≥99.999%).
+2 2 2
+simulation,thesurfacereconstructionwassevereandthemorphologybecame
+chaotic.Somenear-surfacebulkOmigratedtothesurface.Atthistime,the
+chemicalenvironmentsofsurfaceOwerediverse.Itisunreasonabletoremoveall PreparationofCu 2 Ooctahedron.ThesynthesisofCu 2 Ooctahedronnanoparticle
+thesurfaceOatthistimesimultaneously.Thus,weconsidertheE asthecriterion byafacilemethodhasbeendescribedpreviously44.Inatypicalsynthesis,1.5gPVP
+toremovesurfaceO.TheE ov ofallthesurfaceoxygenhasbeenc o a v lculatedbyNN wasdissolvedintoanaqueoussolutionof0.01MCuCl 2 ∙2H 2 O(100mL)under
+potential(TheNNpotentialcalculatedE areshowninSupplementaryTable3, constantstirringandheatedin55°Cwaterbath.Then2.0MNaOHaqueous
+ov
+leadingtoRMSE(therootmeansquarederror)=0.12eV).Ingeneral,wefound solution(10mL)wasaddeddropwiseintotheabovetransparentlightgreen
+that3-coordinated(3-coor)oxygencorrespondtotheloweroxygenvacancy solution.Afterstirringfor0.5h,0.6Mascorbicacidsolution(10mL)wasadded
+formationenergy,whichisconsistentwiththeinstabilityof3-coorOontheperfect dropwise.Thecolorofthesolutiongraduallychangedtoturbidred.Themixed
+CuOsurface23.Therefore,whenremovingsurfaceO,coordinationnumberisused solutionwaskeptunderconstantstirringandin55°Cwaterbathfor3h.Thenthe
+2
+asthefirstcriterionandtheE asthesecond.Theonekindisthatall3-coor resultingprecipitatewascollectedbycentrifugationandwashedwithdistilledwater
+ov
+surfaceOareremoved.Theanotheristhat4-coorOwhoseE locatesintherange andethanoloverthreetimestoremovetheresidualinorganicionsandpolymer.
+ov
+ofE of3-coordinatedOareremovedtogetherwith3-coorO.Throughthis Finally,thepowderwasdriedinvacuumat55°Cfor5h.
+ov
+standard,twotypesofsecond-stagestructureswereobtained.Subsequently,1ns
+NN-MDsimulationwasperformedonthesetwostructurestoapproach PreparationofOD-Cu.ThepreparedCuOoctahedronwasplacedinatube
+equilibrium.NextstepforremovingOwasthesameasaboveuntilnooxygencan furnace(HefeiKeJingMaterialsTechnolog 2 yCo.,LTD)withflowingH at
+movetothesurface.AllsurfacestructuresareshowninSupplementaryFig.13, 2
+200sccmandheatedat130°Cfor2h.Thereducedsamplewascooledslowlyto
+whicharemarkedwithOD-Cu-M(M=1–6).Itwasworthnotingthatinthe
+roomtemperatureinH.
+processofNN-MDsimulation,somestructureshavecollapsedandcannot 2
+maintainthestructureofslabowingtotheperiodicityofslabmodels,whichwere
+notconsideredinourwork. Preparationofa-450,a-500,anda-650.TheOD-Cupowderwasplacedina
+Thecalculationofadsorptionenergyof*COand*COCOonOD-Cusurface tubefurnacein200sccmflowingN
+2
+andheatedat450,500,and650Kfor2h,
+areconductedbyneuralnetworkpotentialaswell.Inordertoverifytheaccuracy respectively.Theannealedelectrodeswerecooledslowlytoroomtemperature
+ofthisNNpotential,werandomlyselected50and15surfacesitesonOD-Cu-1for inN 2 .
+costlyDFTsinglepointcalculationforE(*CO)andE(*COCO).Therootmean
+squareerror(RMSE)of*COand*COCOadsorptionenergybetweentheNN
+Characterization.Field-emissionscanningelectronmicroscopy(FESEM)(Hitachi
+predictionandDFTcalculationisaslowas0.08eVand0.13eV,respectively.
+S-4800,3kV)wasusedtocharacterizethemorphologyandmicrostructureofthe
+(SupplementaryTables4and5)
+samples.TransmissionElectronMicroscopy(TEM),High-resolutionTEM
+Theprocessofannealingat400K:OD-Cuissimulatedat330,360,400,and
+(HRTEM)imageswereobtainedat200kV(JEOLJEM-2100F).
+450Kfor0.2,0.2,0.2,and0.6nsinorder,tosimulatetheprocessofheating
+process,andthensimulatedat400,360,330,and300Kfor0.2ns,respectively,in
+order,tosimulatetheprocessofcooling.Theprocessofannealingat500K:OD-Cu Workingelectrodepreparation.Inall,10mgofthecatalystwasdispersedin1mL
+issimulatedat360,420,and500Kfor0.2,0.2,and0.6nsinorder,tosimulatethe ofisopropanol,including20μLofNafionsolution(5wt%)bysonicatingfor1h.
+6 NATURECOMMUNICATIONS| (2021) 12:395 |https://doi.org/10.1038/s41467-020-20615-0|www.nature.com/naturecommunications
+
+
+===== PAGE 7 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-20615-0
+Twentymicrolitersoftheobtainedsolutionwasthenloadedonaglassycarbon 11. Lum,Y.etal.Couplingonoxide-derivedcoppercatalystsforelectrochemical
+electrode(Gaossunion).Thegeometricsurfaceareawas0.5027cm2.Theelectrode CO reduction.J.Phys.Chem.C.121,14191–14203(2017).
+2
+wasdriedinambientairforthesubsequentCO 2 electroreductiontest. 12. Eilert,A.etal.Subsurfaceoxygeninoxide-derivedcopperelectrocatalystsfor
+carbondioxidereduction.J.Phys.Chem.Lett.8,285–290(2017).
+Electrochemicalmeasurement.Electrochemicaltestswereperformedinatwo- 13. Feng,X.,Jiang,K.,Fan,S.&Kanan,M.W.Adirectgrain-boundary-activity
+compartmentH-cell(SupplementaryFig.27).Ananionexchangemembrane
+correlationforCOelectroreductiononCunanoparticles.ACSCent.Sci.2,
+(FAA-3-PK-130,Fumatech)wasused.Theelectrolytewas30mLof0.1MKHCO
+169–174(2016).
+solutionsaturatedwithCO gasinthecathodepartforatleast30minpriortothe 3 14. Jiang,K.etal.MetalioncyclingofCufoilforselectiveC–Ccouplingin
+CO 2 reductiontest.During 2 electrolysis,CO 2 wasconstantlybubbledthroughthe electrochemicalCO 2 reduction.Nat.Catal.1,111–119(2018).
+electrolyteataflowrateof10sccmtopreventdepletionofCO intheelectrolyte 15. Ma,M.,Djanashvili,K.&Smith,W.A.Controllablehydrocarbonformation
+2
+andtoallowcontinuousanalysisofgaseousproductsviaagaschromatograph.The fromtheelectrochemicalreductionofCO 2 overCunanowirearrays.Angew.
+flowrateofCO wascontrolledwithamassflowcontroller(AlicatScientific). Chem.Int.Ed.55,6680–6684(2016).
+Titaniummeshc 2 oatedwithiridiumwasusedasthecounterelectrodeandAg/AgCl 16. Lum,Y.&Ager,J.W.Evidenceforproductspecificsitesonoxide-derivedCu
+asthereferenceelectrode(saturatedKCl,Gaossunion).Theglassycarbonelectrode catalystsforelectrochemicalCO 2 reduction.Nat.Catal.2,86–93(2019).
+loadedwiththecatalystservedastheworkingelectrode.Anelectrochemical 17. Cheng,T.,Xiao,H.&Goddard,W.A.NatureoftheactivesitesforCO
+workstation(IVIUMCompactStat.e20250)wasusedtoprovidetheexternalbias. reductiononcoppernanoparticles;suggestionsforoptimizingperformance.J.
+Thegasproductsweredetectedusinganin-linemultiple-gasanalysergaschro- Am.Chem.Soc.139,11642–11645(2017).
+matographysystem(GC2060,ShanghaiRuiminInstrumentCo.,Ltd.).Theliquid 18. Sun,G.&Sautet,P.Metastablestructuresinclustercatalysisfromfirst-
+productswerecollectedfromthecathodeandanodechambersafterelectrolysis principles:structuralensembleinreactionconditionsandmetastability
+andanalyzedbyheadspace-gaschromatography(HS-GC).Appliedcathode triggeredreactivity.J.Am.Chem.Soc.140,2812–2820(2018).
+potentialsafteriR cell compensation(iistheappliedcurrentandR cell isthecell 19. Huang,Y.,Chen,Y.,Cheng,T.,Wang,L.-W.&Goddard,W.A.Identification
+resistance)wereconvertedtotheRHEreferencescaleusingE
+RHE
+=E
+Ag/AgCl
++ oftheselectivesitesforelectrochemicalreductionofCOtoC2+productson
+0.197V+0.059×pH;R
+cell
+isdeterminedbyperforminganelectrochemical coppernanoparticlesbycombiningreactiveforcefields,densityfunctional
+impedancespectroscopymeasurement. theory,andmachinelearning.ACSEnergyLett.3,2983–2988(2018).
+20. Huang,S.D.,Shang,C.,Kang,P.L.,Zhang,X.J.&Liu,Z.P.LASP:Fastglobal
+OHadsorption.Inordertoclarifythechangeinsurfacestructures,wehave potentialenergysurfaceexploration.WileyInterdiscip.Rev.:Comput.Mol.Sci.
+9,e1415(2019).
+investigatedtheelectrosorptionofoxygenatedspecies(e.g.,Oand/orOH)onthe
+resultingOD-Cuparticlessurfacestoidentifytheexposedfacets.Thecyclicvol- 21. Huang,S.-D.,Shang,C.,Zhang,X.-J.&Liu,Z.-P.Materialdiscoveryby
+tammogramswererecordedusingacustomizedH-typeelectrochemicalcellanda combiningstochasticsurfacewalkingglobaloptimizationwithaneural
+potentiostat(AutolabPGSTAT204,Metrohm).AHg/HgOelectrode(withsatu-
+network.Chem.Sci.8,6327–6337(2017).
+ratedKClsolutionasthefillingsolution,GaossUnion)andagraphiterod 22. Li,C.W.&Kanan,M.W.CO
+2
+reductionatlowoverpotentialonCu
+(GaossUnion)wereusedasthereferenceandcounterelectrode,respectively.A electrodesresultingfromthereductionofthickCu 2 Ofilms.J.Am.Chem.Soc.
+solutionof1MKOHwasusedastheelectrolyte.Arwasdeliveredtothecathode
+134,7231–7234(2012).
+compartmentataconstantrateof20sccm.Thecathodeandanodecompartments 23. Yang,P.etal.Thefunctionalityofsurfacehydroxygroupsontheselectivity
+wereseparatedwithananionexchangemembrane(Fumasep,FAA-3-PK-130).The andactivityofcarbondioxidereductionovercuprousoxideinaqueous
+low-indexfacetsforfccCucrystalswerelabeledbycomparingtheCVstothoseof solutions.Angew.Chem.Int.Ed.57,7724–7728(2018).
+singlecrystalsshowninpreviousworks45,46. 24. Fields,M.,Hong,X.,Nørskov,J.K.&Chan,K.Roleofsubsurfaceoxygenon
+CusurfacesforCO electrochemicalreduction.J.Phys.Chem.C.122,
+2
+16209–16215(2018).
+Data availability
+25. Lum,Y.&Ager,J.W.Stabilityofresidualoxidesinoxide-derivedcopper
+Thedatasupportingthefindingsofthestudyareavailablewithinthepaperand
+catalystsforelectrochemicalCO reductioninvestigatedwith(18)Olabeling.
+itsSupplementaryInformation. Angew.Chem.Int.Ed.57,551–5 2 54(2018).
+26. Perez-Gallent,E.,Figueiredo,M.C.,Calle-Vallejo,F.&Koper,M.T.
+Code availability SpectroscopicobservationofahydrogenatedCOdimerintermediateduringCO
+ThesoftwarecodeforLASPandtheNNpotentialsusedwithinthearticleareavailable
+reductiononCu(100)electrodes.Angew.Chem.Int.Ed.56,3621–3624(2017).
+fromthewebsitehttp://www.lasphub.com. 27. Calle-Vallejo,F.&Koper,M.T.Theoreticalconsiderationsonthe
+electroreductionofCOtoC2speciesonCu(100)electrodes.Angew.Chem.
+Int.Ed.52,7282–7285(2013).
+Received: 5August 2020; Accepted: 14December 2020;
+28. Zheng,Y.etal.Understandingtheroadmapforelectrochemicalreductionof
+CO tomulti-carbonoxygenatesandhydrocarbonsoncopper-basedcatalysts.
+2
+J.Am.Chem.Soc.141,7646–7659(2019).
+29. Wang,L.etal.Electrochemicalcarbonmonoxidereductiononpolycrystalline
+copper:effectsofpotential,pressure,andpHonselectivitytoward
+multicarbonandoxygenatedproducts.ACSCatal.8,7445–7454(2018).
+References 30. Wuttig,A.etal.Trackingacommonsurface-boundintermediateduringCO2-
+1. DeLuna,P.etal.Whatwouldittakeforrenewablypoweredelectrosynthesis to-fuelscatalysis.ACSCent.Sci.2,522–528(2016).
+todisplacepetrochemicalprocesses?Science364,eaav3506(2019). 31. Gunathunge,C.M.,Ovalle,V.J.,Li,Y.,Janik,M.J.&Waegele,M.M.
+2. Gao,D.,Arán-Ais,R.M.,Jeon,H.S.&RoldanCuenya,B.Rationalcatalyst ExistenceofanelectrochemicallyInertCOpopulationonCuelectrodesin
+andelectrolytedesignforCO electroreductiontowardsmulticarbonproducts. alkalinepH.ACSCatal.8,7507–7516(2018).
+2
+Nat.Catal.2,198–210(2019). 32. Liu,X.etal.Understandingtrendsinelectrochemicalcarbondioxide
+3. Birdja,Y.Y.etal.Advancesandchallengesinunderstandingtheelectrocatalytic reductionrates.Nat.Commun.8,15438(2017).
+conversionofcarbondioxidetofuels.Nat.Energy4,732–745(2019). 33. Goodpaster,J.D.,Bell,A.T.&Head-Gordon,M.Identificationofpossible
+4. Nitopi,S.etal.ProgressandperspectivesofelectrochemicalCO 2 reductionon pathwaysforC-CbondformationduringelectrochemicalreductionofCO 2 :
+copperinaqueouselectrolyte.Chem.Rev.119,7610–7672(2019). newtheoreticalinsightsfromanimprovedelectrochemicalmodel.J.Phys.
+5. Pang,Y.etal.Efficientelectrocatalyticconversionofcarbonmonoxideto Chem.Lett.7,1471–1477(2016).
+propanolusingfragmentedcopper.Nat.Catal.2,251–258(2019). 34. Schouten,K.J.,Qin,Z.,PerezGallent,E.&Koper,M.T.Twopathwaysforthe
+6. Li,J.etal.Copperadparticleenabledselectiveelectrosynthesisofn-propanol. formationofethyleneinCOreductiononsingle-crystalcopperelectrodes.J.
+Nat.Commun.9,4614(2018). Am.Chem.Soc.134,9864–9867(2012).
+7. Hahn,C.etal.EngineeringCusurfacesfortheelectrocatalyticconversionof 35. Pique,O.,Vines,F.,Illas,F.&Calle-Vallejo,F.Elucidatingthestructureof
+CO:Controllingselectivitytowardoxygenatesandhydrocarbons.Proc.Natl ethanol-producingactivesitesatoxide-derivedCuelectrocatalysts.ACSCatal.
+Aca 2 d.Sci.USA114,5918–5923(2017). 10,10488–10494(2020).
+8. T m h e a d n ia g te D d in co h p , p C e . r e c t a a ta l. ly C si O s 2 at el a e n ct a r b o r r u ed p u t c in ti t o e n rfa to ce e . t S h c y ie le n n c e e v 3 i 6 a 0 h ,7 yd 83 ro – x 7 i 8 d 7 e- (2018). 36. u N n ie d , e X r . C ,G O r 2 if e fi l n ec , t G ro . c L h ., e J m an ic i a k l ,M red . u J. c & tio A n st c h o a n g d ir it i i , o A n . s. Su C r a fa ta c l e . p C h o a m se m s u o n f . C 5 u 2 2 , O 8 ( 8 1 – 1 9 1 1 )
+9. Li,C.W.,Ciston,J.&Kanan,M.W.Electroreductionofcarbonmonoxideto (2014).
+liquidfuelonoxide-derivednanocrystallinecopper.Nature508,504–507(2014). 37. Perdew,J.P.,BurkeK.&Ernzerhof,M.Generalizedgradientapproximation
+10. Verdaguer-Casadevall,A.etal.ProbingtheactivesurfacesitesforCO madesimple.Phys.Rev.Lett.77,3865–3868(1996).
+reductiononoxide-derivedcopperelectrocatalysts.J.Am.Chem.Soc.137, 38. Kresse,G.&Joubert,D.Fromultrasoftpseudopotentialstotheprojector
+9808–9811(2015). augmented-wavemethod.Phys.Rev.B59,1758–1775(1999).
+NATURECOMMUNICATIONS| (2021) 12:395 |https://doi.org/10.1038/s41467-020-20615-0|www.nature.com/naturecommunications 7
+
+
+===== PAGE 8 =====
+
+ARTICLE
+NATURECOMMUNICATIONS|https://doi.org/10.1038/s41467-020-20615-0
+39. Grimme,S.,Antony,J.,Ehrlich,S.&Krieg,H.Aconsistentandaccurateab andJ.G.participatedinwritingthemanuscript.Alltheauthorsparticipatedindiscus-
+initioparametrizationofdensityfunctionaldispersioncorrection(DFT-D)for sionsoftheresearch.
+the94elementsH-Pu.J.Chem.Phys.132,154104(2010).
+40. Henkelman,G.,Uberuaga,B.P.&Jónsson,H.Aclimbingimagenudged Competing interests
+elasticbandmethodforfindingsaddlepointsandminimumenergypaths.J.
+Chem.Phys.113,9901–9904(2000). Theauthorsdeclarenocompetinginterests.
+41. Gauthier,J.A.,Dickens,C.F.,Chen,L.D.,Doyle,A.D.&Nørskov,J.K.
+SolvationeffectsforoxygenevolutionreactioncatalysisonIrO(110).J.Phys.
+2 Additional information
+Chem.C.121,11455–11463(2017).
+Supplementaryinformationisavailableforthispaperathttps://doi.org/10.1038/s41467-
+42. Montoya,J.H.,Shi,C.,Chan,K.&Norskov,J.K.Theoreticalinsightsintoa
+COdimerizationmechanisminCO electroreduction.J.Phys.Chem.Lett.6, 020-20615-0.
+2
+2032–2037(2015).
+CorrespondenceandrequestsformaterialsshouldbeaddressedtoJ.G.
+43. Resasco,J.etal.Promotereffectsofalkalimetalcationsontheelectrochemical
+reductionofcarbondioxide.J.Am.Chem.Soc.139,11277–11287(2017).
+PeerreviewinformationNatureCommunicationsthanksJoelAgerIII,andtheother,
+44. Zhang,D.-F.etal.Delicatecontrolofcrystallographicfacet-orientedCuO
+nanocrystalsandthecorrelatedadsorptionability.J.Mater.Chem.19, 2 anonymous,reviewer(s)fortheircontributiontothepeerreviewofthiswork.
+5220–5225(2009).
+Reprintsandpermissioninformationisavailableathttp://www.nature.com/reprints
+45. Cao,L.etal.Mechanisticinsightsforlow-overpotentialelectroreductionof
+CO toCOoncoppernanowires.ACSCatal.7,8578–8587(2017).
+2 Publisher’snoteSpringerNatureremainsneutralwithregardtojurisdictionalclaimsin
+46. Luc,W.etal.Two-dimensionalcoppernanosheetsforelectrochemical
+reductionofcarbonmonoxidetoacetate.Nat.Catal.2,423–430(2019).
+publishedmapsandinstitutionalaffiliations.
+Acknowledgements Open Access This article is licensed under a Creative Commons
+WethankProf.Dr.FelixStudtforfruitfuldiscussions.WeacknowledgetheNational Attribution 4.0 International License, which permits use, sharing,
+KeyResearchandDevelopmentProgramofChina(2016YFB0600901),theNational adaptation,distributionandreproductioninanymediumorformat,aslongasyougive
+ScienceFoundationofChina(21525626,21761132023)andtheProgramofIntroducing appropriatecredittotheoriginalauthor(s)andthesource,providealinktotheCreative
+TalentsofDisciplinetoUniversities(BP0618007)forfinancialsupport.Wealso Commonslicense,andindicateifchangesweremade.Theimagesorotherthirdparty
+acknowledgeTianjinUniversityHigh-PerformanceComputingCenterforcalculation materialinthisarticleareincludedinthearticle’sCreativeCommonslicense,unless
+support. indicatedotherwiseinacreditlinetothematerial.Ifmaterialisnotincludedinthe
+article’sCreativeCommonslicenseandyourintendeduseisnotpermittedbystatutory
+regulationorexceedsthepermitteduse,youwillneedtoobtainpermissiondirectlyfrom
+Author contributions
+thecopyrightholder.Toviewacopyofthislicense,visithttp://creativecommons.org/
+J.G.conceivedandcoordinatedtheresearch.D.C.,Z.Z.,andP.Y.conductedmolecule licenses/by/4.0/.
+dynamicssimulationandDFTcalculations.Z.L.fittedtheNNpotential.G.Z.andH.G.
+contributedtocatalystsynthesisandcatalyticexperiments.J.G.,D.C.,Z.Z.,G.Z.,L.L.,
+S.L.,X.C.,S.C.,T.W.,andG.O.contributedanalysisofdataanddiscussion.D.C.,Z.Z., ©TheAuthor(s)2021
+8 NATURECOMMUNICATIONS| (2021) 12:395 |https://doi.org/10.1038/s41467-020-20615-0|www.nature.com/naturecommunications

@@ -1,0 +1,888 @@
+
+
+===== PAGE 1 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+Manipulating C-C coupling pathway in
+electrochemical CO reduction for selective
+2
+ethylene and ethanol production over
+single-atom alloy catalyst
+Received:28February2024 ShifuWang1,2,9,FuhuaLi3,4,9,JianZhao2,YaqiongZeng2,YifanLi 5,Zih-YiLin6,
+Tsung-JuLee6,ShuhuiLiu7,XinyiRen2,WeijueWang2,YusenChen2,
+Accepted:14November2024
+Sung-FuHung 6,Ying-RuiLu 8,YiCui 5,XiaofengYang 2,XuningLi 2 ,
+YanqiangHuang 1,2 &BinLiu 3,4
+Checkforupdates
+ManipulationC-CcouplingpathwayisofgreatimportanceforselectiveCO
+2
+electroreductionbutremainchallenging.Herein,twomodelCu-basedcata-
+lysts,bymodifyingCunanowireswithAgnanoparticles(AgCuNW)andAg
+singleatoms(AgCuNW),respectively,arerationallydesignedforexploring
+1
+theC-CcouplingmechanismsinelectrochemicalCO reductionreaction
+2
+(CO RR).ComparedtoAgCuNW,theAgCuNWexhibitsamorethan10-fold
+2 1
+increaseofC selectivityinCO reductiontoethanol,withethanol-to-ethylene
+2 2
+ratioincreasedfrom0.41overAgCuNWto4.26overAgCuNW.Viaavarietyof
+1
+operando/in-situtechniquesandtheoreticalcalculation,theenhancedethanol
+selectivityoverAgCuNWisattributedtothepromotedH Odissociationover
+1 2
+theatomicallydispersedAgsites,whicheffectivelyaccelerated*COhydro-
+genationtoform*CHOintermediateandfacilitatedasymmetric*CO-*CHO
+couplingoverpairedCuatomsadjacenttosingleAgatoms.Resultsofthis
+workprovidedeepinsightintotheC-CcouplingpathwaystowardstargetC
+2+
+productandshedlightontherationaldesignofefficientCO RRcatalystswith
+2
+pairedactivesites.
+ElectrochemicalCO reduction reaction (CO RR) offersa promising attractive6–10. Unfortunately, the catalytic performance of electro-
+2 2
+strategy to achieve carbon neutrality by converting CO into value- chemicalCO reductiontoC productsisstillfarfromsatisfactory
+2 2 2+
+added carbon-containing fuels or chemicals using renewable withlowselectivityandsluggishreactionkinetics11,12.
+electricity1–5.ComparedtoC products,directconversionofCO to The slow carbon-carbon (C-C) coupling reaction is the fun-
+1 2
+multi-carbon (C ) products (e.g., ethylene, ethanol, etc.) is more damental issue for poor conversion of CO to C products13,14.
+2+ 2 2+
+1DepartmentofChemicalPhysics,UniversityofScienceandTechnologyofChina,Hefei230026,P.R.China.2StateKeyLaboratoryofCatalysis,Dalian
+InstituteofChemicalPhysics,ChineseAcademyofSciences,Dalian116023,P.R.China.3DepartmentofMaterialsScienceandEngineering,CityUniversityof
+HongKong,Kowloon,HongKongSAR999077,China.4DepartmentofChemistry,HongKongInstituteofCleanEnergy(HKICE)&CenterofSuper-Diamond
+andAdvancedFilms(COSDAF),CityUniversityofHongKong,Kowloon,HongKongSAR999077,China.5VacuumInterconnectedNanotechWorkstation,
+SuzhouInstituteofNanoTechandNanoBionics,ChineseAcademyofSciences,Suzhou215123,P.R.China.6DepartmentofAppliedChemistryandCenterfor
+EmergentFunctionalMatterScience,NationalYangMingChiaoTungUniversity,Hsinchu300,Taiwan.7SchoolofComputerandCommunicationEngi-
+neering,DalianJiaotongUniversity,Dalian116028,P.R.China.8NationalSynchrotronRadiationResearchCenter,Hsinchu300,Taiwan.9Theseauthors
+contributedequally:ShifuWang,FuhuaLi. e-mail:lixn@dicp.ac.cn;yqhuang@dicp.ac.cn;bliu48@cityu.edu.hk
+NatureCommunications|( 2024)1 5:10247 1
+;,:)(0987654321 ;,:)(0987654321
+
+
+===== PAGE 2 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+Mechanistically,theCO -to-C pathway(eg.,ethylene,ethanol)is summarized in the Supplementary Methods. One-dimensional Cu
+2 2+
+conventionallyconsideredtoproceedviaacomplexC-Ccoupling nanowires with an average diameter of 45±3nm were imaged by
+mechanism involving various intermediates such as *COCO, scanningelectronmicroscopy(SEM)andtransmissionelectronmicro-
+*COCHO, *COCOH, *CH CO, and *OCHCH , etc1,15–25. Therefore, scopy(TEM)(Fig.1bandSupplementaryFigs.1,2).AsshowninFig.1c,
+2 2
+regulating the key intermediates involved in the CO RR over theAgCuNWexhibitstypicalcharacteristicsofsupportedcatalyst,with
+2
+catalytic sites and optimizing their binding energies become cri- Ag nanoparticles distributed as islands on the surface of the Cu NW
+tical to adjust the C-C coupling pathways towards targeted C (SupplementaryFigs.3,4),andobviousgrainboundariesbetweenAg
+2+
+products.Nevertheless,manipulationofC-Ccouplingpathwaysis nanoparticles and Cu NW can be clearly observed (Supplementary
+still highly challenging due to the complexity of the catalytic Fig.4b).Incontrast,AgCuNWdisplayssimilarmicrostructuralfeatures
+1
+system, the unclear reaction intermediates and the limited to Cu NW (Fig. 1d and Supplementary Figs. 5, 6). High-angle annular
+mechanisticunderstanding. dark-field scanning transmission electron microscopy(HAADF-STEM),
+Cu-based materials have been well established as promising energy-dispersive X-ray spectroscopy (EDX) elemental mapping and
+electrocatalystscapabletoreduceCO tomultipleC products11,26–28. electronmicroscopy-basedatomrecognitionstatistics(EMARS)analysis
+2 2+
+Till now, a large number of Cu-based tandem catalysts have been on HAADF images of AgCu NW indicate that isolated Ag atoms are
+1
+developed to realize high selectivity in CO RR to produce C pro- uniformly distributed on the surface of Cu NW matrix in AgCu NW
+2 2+ 1
+ducts,primarilyresultingfromtheimprovedmasstransportof*CO (Fig. 1e and Supplementary Figs. 6c, d and 7)44. The X-raydiffraction
+intermediatefromCO-formationcatalystandthepromotedC-Ccou- (XRD) patterns ofCu NW and AgCu NW exhibitidenticaldiffraction
+1
+pling over Cu surface29–32. For instance, Cu-Ag catalyst often shows peaks,which can be assigned to fcc Cu (SupplementaryFig. 8), indi-
+high activity for the formation of C hydrocarbons and catingatomicdispersionofAgatomsinAgCuNW45.WhileforAgCu
+2+ 1
+oxygenates33,34. However, the tandem approach usually leads to NW,diffractionpeaksofbothmetallicCuandAgareclearlyobservable.
+uncontrolledC-Ccoupling,producingavarietyofC productssuchas The contents of Ag in AgCu NW and AgCu NW were measured by
+2+ 1
+ethylene,ethanol,andacetatethroughcascadecatalysis.Grätzeletal.35 inductivelycoupledplasmaemissionspectrometer(ICP)andtheresults
+andYangetal.34suggestedthattheefficient*COspilloverfromAgto aresummarizedinSupplementaryTable2.
+Cucouldimprovesethyleneperformance.Qiaoetal.23claimedthat Thesurfacevalencestatesofthe as-synthesizedCu NW,AgCu
+1
+significantly boosted ethanol production could be achieved by the NWandAgCuNWwereanalyzedbyX-rayphotoelectronspectroscopy
+tailoredintroductionofAgtooptimizethecoordinatednumberand (XPS).ThesurveyXPSspectrashowagradualincreaseoftheAgpeak
+oxidationstateofsurfaceCusites.However,duetothecomplexityand withincreasingAgcontent(SupplementaryFig.9andSupplementary
+diversity of the catalyst’s structure, the underlying mechanism of Table3).Thehigh-resolutionO1sXPSspectrumofCuNW,AgCuNW
+1
+CO RRtoethylene/ethanolintheCu-Agsystemremainsunclear34,36,37. andAgCuNWexhibitsimilarcharacteristicpeaksat530.5and532.4eV,
+2
+Recently,therapiddevelopmentofsingle-atomcatalysishasopened whicharerelatedtoadsorbedsurfacehydroxide(OH )andadsorbed
+ads
+upnewpossibilitiesforconstructingmodelcatalystswithasymmetric water (H O ), respectively (Supplementary Fig. 10)46. As shown in
+2 ads
+catalyticsites38,39.Inparticular,modificationofcopper-basedcatalysts Fig.1fandSupplementaryFig.11,thebindingenergyofAg3ddisplays
+withsinglemetalatoms,andrationaldesignofcatalystswithdual-or a positive shift from 368.2eV (Ag NW) to 368.4 (AgCu NW) and
+1
+multi-catalyticsiteshavebeenshownpromisingtoinduceasymmetric 368.3eV(AgCuNW),implyingagraduallydecreasedchargedensityon
+C-CcouplinginCO RR40–42.However,littleunderstandingaboutthe AgduetoelectrontransferfromAgtoCu47.
+2
+exactasymmetricC-Ccouplingmechanismisknown. Tofurtherdeterminethechemicalstatesandlocalcoordination
+Inthiswork,viaamodifiedgalvanicreplacementapproach,two environments of Cu and Ag in AgCu NW and AgCu NW, X-ray
+1
+modelCu-basedcatalystsdecoratedwithAgnanoparticles(AgCuNW) absorptionnear-edgestructure(XANES)andextendedX-rayabsorp-
+and single Ag atoms (AgCu NW) were rationallydesigned and pre- tion fine structure (EXAFS) measurements were conducted. The Cu
+1
+pared for CO RR, which exhibited distinct selectivity in electro- K-edgeXANESspectrashowthattheedgefeaturesofAgCuNWand
+2 1
+chemical CO reduction to ethylene (Faradaic efficiency: ca. 54.9%, AgCuNW(designatedas1s→4ptransition)areclosetothoseofthe
+2
+currentdensity:ca.156.0mAcm−2)andethanol(Faradaicefficiency:ca. referencecommercialCufoil(Fig.1g),indicatingthatCuinAgCuNW
+1
+56.3%,currentdensity:ca.172.8mAcm−2).Basedonisotopiclabelling andAgCuNWexistmainlyintheformofCu(0)48.Thecorresponding
+experimentstogetherwithvariousoperando/in-situcharacterizations EXAFSspectraofAgCuNWandAgCuNWalsoshowthedominantCu-
+1
+includingoperandoX-rayabsorptionspectroscopy(XAS),quasiin-situ Cucoordinationatca.2.21Å(SupplementaryFigs.12,13andSupple-
+X-ray photoelectron spectroscopy (XPS), operando Raman spectro- mentaryTable4)49.AsdisplayedinFig.1h,theabsorptionedgesofthe
+scopy and operando attenuated total reflectance surface enhanced AgK-edgeXANESforAgCuNWandAgCuNWareobservedshifted
+1
+infrared absorption spectroscopy (ATR-SEIRAS), the dynamicoxida- towards higher energies compared to that for Ag foil, indicating a
+tionstateevolutionofCuandAgwerediscerned,andthekeyreaction higher average valence state of Ag in AgCu NW and AgCu NW,
+1
+intermediatesinvolvedinC-CcouplingduringCO RR,suchas*COCO matchingwellwiththeXPSresults.
+2
+and*COCHO,werecapturedoverAgCuNWandAgCuNW.Further
+1
+coupledwithdensityfunctionaltheory(DFT)calculations,theatom- CO RRperformance
+2
+icallydispersedAgwasidentifiedtoboostH Odissociationtorelease TheelectrochemicalCO RRperformanceofCuNW,AgCuNWand
+2 2 1
+H+andreducetheenergybarrierfortheformationof*CHOoverits AgCuNWwerefirstevaluatedinanH-typecellfilledwithCO -satu-
+2
+neighboringCusite,leadingtoboostedasymmetric*CO-*CHOcou- rated0.1MKHCO electrolyte(pH =6.8),andthegasandliquidpro-
+3
+plingoverpairedCuatomsadjacenttothesingleAgatom. ducts were quantified by gas chromatography (GC) and nuclear
+magneticresonance(NMR),respectively(SupplementaryFigs.14,15).
+Results Linearsweepvoltammetry(LSV)curvesshowninFig.2arevealthatthe
+Catalystsynthesisandcharacterization currentdensitiesofbothAgCuNWandAgCuNWoutperformCuNW
+1
+The model Cu-based catalysts of Cu nanowires decorated with Ag in the potential range from −0.6 to −1.4V vs. RHE. Meanwhile, the
+nanoparticles and single Ag atoms were synthesized via a galvanic currentdensitiesofCuNW,AgCuNWandAgCuNWinCO -saturated
+1 2
+replacementstrategy43.Indetail,thestandardelectrodepotentialdif- electrolyteareobviouslyhigherthanthoseinN -saturatedelectrolyte
+2
+ferencedrivesthegalvanicreplacementreactionof2Ag+ðaqÞ+CuðsÞ! at the same applied potential, indicating that CO RR could occur
+2
+2AgðsÞ+Cu2+ðaqÞ (Supplementary Table 1). Figure 1a illustrates the readily compared to HER, consistent with the CV results (Supple-
+synthesisofAgCuNWandAgCuNWandtheexperimentaldetailsare mentary Fig. 16). Figure 2b summarizes the potential-dependent
+1
+NatureCommunications|( 2024)1 5:10247 2
+
+
+===== PAGE 3 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+100nm 100nm
+100nm 2.5nm
+Fig.1|Synthesisandstructuralcharacterization.aSchematicillustration yellowcircles.fHigh-resolutionCu2pandAg3dXPSspectraofCuNW,AgNW,
+showingsynthesisofAg1CuNWandAgCuNW(Ag(gray)andCu(yellow)).TEM Ag1CuNWandAgCuNW.Normalized(g)Cuand(h)AgK-edgeXANESspectraof
+imagesof(b)CuNW,(c)AgCuNWand(d)AgCuNW.eHAADF-STEMimageof AgCuNW,AgCuNWandreferencesamples(insetshowstheenlargedCuandAg
+1 1
+Ag1CuNW.Notes:Agatomsarenotrestrictedtothepositionsindicatedbythe K-edgeXANESspectra).
+Faradaicefficiencies(FEs)ofdifferentCO RRproductsoverAgCuNW valencestates,andAgspeciesdistributionsaftercontinuouselectro-
+2 1
+(I),AgCuNW(II)andCuNW(III).PureCuNWelectroreducedCO toa lysisasobservedinthefreshcatalyst(SupplementaryFigs.25–27and
+2
+widevarietyofproductsincludingCO,HCOOH,C H ,andethanol50,51. SupplementaryTable6).
+2 4
+TheAgCuNWandAgCuNWexhibitedgreatlyimprovedCO RRper-
+1 2
+formance with distinctive selectivity towards ethylene and ethanol, DynamicevolutionofthecatalyticsitesunderCO RR
+2
+with CO -to-ethylene and CO -to-ethanol Faradaic efficiency of ca. To understand the vastly different CO reduction to C selectivity
+2 2 2 2
+42.4%andca.42.8%,respectively(Fig.2b).TheFaradaicefficiencyof overAgCuNWandAgCuNW,quasiin-situXPSwasperformedto
+1
+totalC productsoverAgCuNWcouldreachupto65.1%at−1.22Vvs. investigate the surface properties of the AgCu NW and AgCu NW
+2 1 1
+RHE (Supplementary Figs. 17–19). Furthermore, the AgCu NW (Supplementary Fig. 28 and Supplementary Table 7). The quasi
+1
+achievedtheoptimalethanolFaradaicefficiencyof56.3%withacur- in-situ XPS spectra were collected at the open-circuit condition
+rentdensityof172.8mAcm−2at−1.0Vvs.RHEinaflowcell(Fig.2c, (OCV, immersed in KHCO electrolyte), −0.7 and −1.2V vs. RHE,
+3
+SupplementaryFigs.20,21a),whileethyleneFaradaicefficiencyreach respectively. As shown in Fig. 3a and Supplementary Fig. 29a, the
+amaximumvalueof54.9%overtheAgCuNWwithacurrentdensityof high-resolutionCu2pXPSspectrumofAgCuNWrevealstheexis-
+1
+156.0mAcm−2at−1.1Vvs.RHEinaflowcell(SupplementaryFigs.21b, tence of partially oxidized Cu species under OCV condition. Only
+22, 23 and Supplementary Table 5). Both AgCu NW and AgCu NW metallicCucouldbeobservedat−1.2Vvs.RHE,suggestingthatthe
+1
+catalysts displayed outstanding catalytic stability, evidenced by the oxidized Cuspeciesin AgCuNW could becompletelyreduced to
+1
+tinydecayincurrentdensityandethanol/ethyleneFaradaicefficiency metallicCuduringCO RR,whichisalsoevidencedintheCuAuger
+2
+during continuous electrolysis (Fig. 2d and Supplementary Fig. 24). spectracollectedbeforeandafterCO RR(SupplementaryFig.30).
+2
+The AgCu NW and AgCu NW exhibited similar surface structures, Meanwhile,theoxidationstateofAgat−0.7and−1.2Vvs.RHEwas
+1
+NatureCommunications|( 2024)1 5:10247 3
+
+
+===== PAGE 4 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+Fig.2|ElectrochemicalCO2RR.aLSVcurvesacquiredinCO2-andN2-saturated (right)in1MKOHelectrolyte(flowcell).Errorbarsrepresentthestandarddevia-
+0.1MKHCO3solutiononarotatingdiscelectrodeatarotationspeedof1600rpm tionofthreeindependentmeasurements.AllvoltagewasrecordedwithoutiR
+andascanrateof5mVs−1.bPotentialdependentFaradaicefficienciesforCORRon correction.dThestabilitytestofAgCuNWacquiredinaflowcellusing1MKOHas
+2 1
+I:AgCuNW(left),II:AgCuNW(middle)andIII:CuNW(right)(H-typecell). theelectrolyteat−1.0Vvs.RHE.TheresultsofeachpotentialinFig.2b,cwere
+1
+cFaradaicefficienciesforCO2-to-C2productsonI:Ag1CuNW(left)andII:AgCuNW collectedafteronehourofcontinuouselectrolysis.
+observedtobehigherthanthatunderOCVcondition(Fig.3band TheslightincreaseinCuvalencestateofAgCuNWatAFTmayresult
+1
+SupplementaryFig.29b),whichispossiblyduetotheadsorptionof from desorption of CO RR intermediates from the Cu sites after
+2
+intermediatespeciesonsingleAgatomsduringCO RR.Asarefer- removalofcathodicpotential.TheFT-EXAFSfittingprofilesoftheR
+2
+ence,quasiin-situXPSspectraforAgCuNWwerealsocollectedinAr spacerecordedat−0.7Vand−1.2Vvs.RHEindicatedthattheCu-Cu
+1
+atmosphereunderidenticalconditions(SupplementaryFig.31).The coordinationnumberofAgCuNWremainedstableduringtheCORR
+1 2
+similarvariationtrendofAgoxidationstateasafunctionofapplied process, suggesting that AgCu NW maintained good stability
+1
+potentialsuggeststhattheintermediatespeciesboundtothesingle throughoutthereaction(SupplementaryFigs.34,35andSupplemen-
+AgatomsofAgCuNWmayoriginatefromwaterratherthanCO .For taryTable8).Onthecontrary,thewhite-lineenergyofAginAgCuNW
+1 2 1
+AgCuNW,morenegativeshiftinbindingenergiesofbothCuandAg wasobservedgraduallyshiftedtohigherenergieswithincreasingthe
+wereobservedattheappliedpotentialof−0.7and−1.2Vvs.RHEas appliedcathodicpotentialfromOCVto−1.2Vvs.RHE(Fig.3d),further
+comparedtoOCVcondition,verifyingthatmetallicCuandAgpar- confirmingtheincreaseofvalencestateofAgduringCO RR,matching
+2
+ticipatedintheCO RR(SupplementaryFigs.32,33). wellwiththequasiin-situXPSresults.Toextractthedetailedstructural
+2
+Tofurtherinvestigatethedynamicevolutionofcatalyticsitesover information from EXAFS, we analyzed the Cu–Cu path at −0.7 and
+AgCu NW during CORR, operando XAS measurements were con- −1.2V vs. RHE. The Cu–Cu coordination number (CN) of AgCu NW
+1 2 1
+ducted. As shown in Fig. 3c, operando XANES spectra of Cu K-edge during the CORR was quantified using the ARTEMIS program of
+2
+were recorded at OCV, −0.7V, -1.2V vs. RHE, and AFT (after the IFEFFIT.TheresultsindicatedthattheCu–Cucoordinationnumberof
+CORR),respectively.AllspectrashowcharacteristicsofmetallicCu, AgCuNWremainedstableduringtheCORRprocess,suggestingthat
+2 1 2
+displayingthesimilarpre-edgeandwhite-linefeatures(marked(1),(2), theAgCuNWmaintainedgoodstabilitythroughoutthereaction.
+1
+(3)intheXANESspectraofFig.3c)asthoseofCufoil(Fig.1g),revealing
+that the valence state of Cu in AgCu NW remained at Cu (0) In-situcaptureofreactionintermediates
+1
+throughoutCO RR41,47.At−0.7Vand−1.2Vvs.RHE,theCuK-edgeof Operando Raman spectroscopy measurements were carried out to
+2
+AgCuNWmovedtowardslowerenergiesascomparedwiththatunder studytheintermediatespeciesoverAgCuNWandAgCuNWinvolved
+1 1
+OCV,whichisduetothereductionofpartiallyoxidizedcopperspecies. inCO RR(SupplementaryFig.36).SupplementaryTable9sumarizes
+2
+NatureCommunications|( 2024)1 5:10247 4
+
+
+===== PAGE 5 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+Fig.3|DynamicevolutionofAgCuNWduringCORR.a,bQuasiin-situXPS operandoCuandAgK-edgeXANESspectraofAgCuNWrecordedatOCV,−0.7V,
+1 2 1
+spectraofhigh-resolutionCu2p 3/2andAg3d 5/2forAg1CuNWrecordedat −1.2Vvs.RHEandAFTinCO2-saturated0.1MKHCO3solution.
+OCV,−0.7Vand−1.2Vvs.RHEinCO2-saturated0.1MKHCO3.c,dNormalized
+allRamancharacteristicpeaksobservedoverCuNW,AgCuNWand theappliedcathodicpotential(Fig.4bandSupplementaryFig.40)56.
+AgCuNW.Nosignalscorrespondingtoanyintermediatescouldbe Thepeakintensityof*OHspecieswasfoundpositivelycorrelatedwith
+1
+captured in Ar-saturated 0.1M KHCO electrolyte (Supplementary theFaradaicefficiencyofethanol,suggestingthatthein-situgenerated
+3
+Fig.37).AsshownintheoperandoRamanspectrarecordedinCO - *OH species is crucial for the greatly promoted CO reduction to
+2 2
+saturated electrolyte (Fig. 4a, b and Supplementary Figs. 38, 39), ethanoloverAgCuNW.
+1
+Raman peaks in the wavenumber range from 525 to 630cm−1 were OperandoATR-SEIRASmeasurementswerefurtherconductedto
+observedoverbothAgCuNWandAgCuNWunderOCVcondition, probethereactiveintermediatesandprovidemechanisticinsightsin
+1
+whichcanbeassignedtotheCu Ospecies52–54.Withincreaseinapplied CO reductiontoethyleneandethanoloverAgCuNWandAgCuNW
+x 2 1
+cathodicpotential,theRamanpeaksofCu Odisappearedinallcata- (SupplementaryFig.41).Figures4d,eandSupplementaryFigs.42,43
+x
+lysts,attributedtoreductionofCu OtometallicCuduringCO RR. showtheoperandoATR-SEIRASspectrarecordedonAgCuNW,AgCu
+x 2 1
+Over AgCu NW, three characteristic peaks associated with surface- NW and Cu NW in CO -saturated 0.1M KHCO . A distinct H O
+2 3 2
+adsorbed*COwereidentifiedat282,362and1950–2150cm−1,corre- absorptionpeakataround1620cm−1wasobservedoverallcatalysts57.
+sponding to Cu-CO frustrated rotation (denoted as P1), Cu-CO AsshowninFig.4d,twopeaksappearedataround2050and1865cm−1
+stretching (denoted as P2) and C-O stretching, respectively54. over AgCu NW, which are associated with the atop-adsorbed *CO
+Figure4cdisplaysthepotential-dependentintensityratiosbetweenP2 (*CO ) and bridge-adsorbed *CO (*CO ) on Cu surface,
+atop bridge
+andP1overAgCuNWandAgCuNW.ComparedtoAgCuNW,the respectively23,58,59. The red-shift of the *CO peaks with increase in
+1 1
+higherP2/P1ratiosobservedoverAgCuNWsuggesthigher*COcov- appliedcathodicpotentialisduetotheStarkeffectarisingfromthe
+erages on the AgCu NW surface, which shall benefit formation of decreasedresonancefrequenciesinnegativeelectricfields38.Inparti-
+*COCOintermediatesforethyleneproduction35,55.Besides,theRaman cular, the absorption peak of the *COCO intermediate at 1561cm−1
+peaksat704,1072and1556cm−1observedacrossthepotentialrange appeared at −0.4V vs. RHE and reached the maximum intensity at
+from−0.6to−1.4Vvs.RHEcanbeassignedtoin-planeνCO -,adsorbed −1.2Vvs.RHE,whichispositivelycorrelatedwiththeethyleneFaradaic
+2
+carbonatespecies(νCO 2-)andν CO −,respectively53.OverAgCuNW, efficiency, suggesting that*COCO iscrucial for ethylene generation
+3 as 2 1
+acharacteristicpeakat537cm−1thatcanbeassignedto*OHspecies, overAgCuNW(Fig.4d,f)12.Additionally,aclearabsorptionpeakcould
+wasobservedat−0.6Vvs.RHE,whichgraduallygrewwithincreasing beidentifiedat1400cm−1thatcanbeassignedtotheadsorbed*COOH
+NatureCommunications|( 2024)1 5:10247 5
+
+
+===== PAGE 6 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+Fig.4|In-situcaptureofreactionintermediates.OperandoRamanspectra TheinsetinFig.4c,dandeshowstheDFT-optimizedstructures.(Cu:yellow,Ag:
+recordedinCO-saturated0.1MKHCO solutionatE=-0.6V~-1.4Vvs.RHEover gray,O:red,H:white,C:blackgray)fPotential-dependentATR-SEIRASpeak
+2 3
+(a)AgCuNWand(b)AgCuNW,respectively.cPotential-dependentRamanpeak intensityfor*COCHOintermediateoverAgCuNW(bluebar)and*COCOinter-
+1 1
+intensityratioofCu-COstretching(P2)toCu-COfrustratedrotation(P1)overAgCu mediateoverAgCuNW(blacksolidline).h13CNMRandiMSspectraofCO2RR
+NWandAg1CuNW,andpeakintensityof*OHspeciesversuspotentialoverAg1Cu productsoverAg1CuNW,using12CO+H12CHO(top),13CO+H12CHO(middle),or
+NW.d,eOperandoATR-SEIRASspectracollectedinCO-saturated0.1MKHCO 12CO+H13CHO(bottom)asthereactants,obtainedat−1.2Vvs.RHE.gSchematic
+2 3
+solutionatE=-0.4V~−1.6Vvs.RHEoverAgCuNWandAgCuNW,respectively. diagramshowingtheCORRpathwayoverAgCuNW.
+1 2 1
+intermediate,whoseintensityincreasedwithcathodicpotentialrising 17.47 and 58.05, respectively, attributing to -CH and -CH OH from
+3 2
+from −0.4 to −1.6V vs. RHE. The assignments for additional peaks ethanol. Meanwhile, mass spectrometry (MS) spectra of liquid pro-
+observed in the ATR-SEIRAS spectra at ~2332, ~1265, ~1183 and ducts from CO RR exhibit signals at m/z=45.03 and m/z=46.03,
+2
+~1034cm−1aresummarizedinSupplementaryTable10.Comparedto which can be attributed to 12CH 12CH O+ and 13CH 12CH O+ or
+3 2 3 2
+AgCuNW,ablue-shiftin*CO peakonAgCuNWwasnoticedat 12CH 13CH O+,respectively(Fig.4i)61.Basedonalltheseresults,Fig.4g
+bridge 1 3 2
+variousappliedpotentials,suggestingenhancedbindingstrengthof schematicallyproposesthepathwayofCO RRtoethanoloverAgCu
+2 1
+*CO on AgCu NW. Additional new peaks at around 1244cm−1 and NW, where methyl C (-CH ) and methylene C (-CH OH) in ethanol
+1 3 2
+1083cm−1 were observed on AgCu NW, which can be assigned to originatefrom*COand*HCHOintermediates,respectively.
+1
+adsorbed*CHOand*COCHOintermediates,respectively(Fig.4e)60.As
+showninFig.4f,thepeakintensityof*COCHOintermediatewasfound Theoreticalinsightsintothecatalyticmechanism
+tograduallyincreasewithincreasingappliedcathodicpotentialfrom Densityfunctionaltheory(DFT)calculationswereperformedtogain
+−0.4to−1.2VvsRHE,whilethepeakintensityof*CHOintermediate insightsintotheunderlyingreactionmechanismsforthedistinctive
+was correspondingly decreased, suggesting production of *COCHO selectivityofCO electroreductiontoethyleneandethanoloverAgCu
+2
+intermediatefromasymmetric*CO-*CHOcoupling. NW and AgCu NW, respectively (Supplementary Figs 44, 45). Sup-
+1
+ToprobethereactionpathwayofCO reductiontoethanolover plementaryFigs.46,47presentstheoptimizedconfigurationsofthe
+2
+AgCu NW, isotopic labelling experiments using 12CO+H12CHO, reactionintermediatesinvolvedinCO RRoverAgCuNW.Asshownin
+1 2 1
+12CO+H13CHOor13CO+H12CHOasthereactantswerecarriedout.As Supplementary Figs. 48, 49, both the Bader- and Hirshfeld-based
+showninFig.4h,13CNMRsignalsweredetectedatchemicalshiftsof chargedistributionresultsindicatethattheatomicallydispersedAgin
+NatureCommunications|( 2024)1 5:10247 6
+
+
+===== PAGE 7 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+Fig.5|Theoreticalinsightsintothecatalyticmechanisms.a,bTheadsorption ethyleneoverAgCuNW.eProposedreactionpathwayforCO reductionto
+1 2
+anddissociationenergiesofH2OonCuNW,AgCuNWandAg1CuNW.cGibbsfree ethanoloverAg1CuNW.TheinsetinFig.5a,candeshowstheDFT-optimized
+energydiagramsfor*COhydrogenationto*CHOoverCuNW,Ag1CuNWandHO- structures.(Cu:yellow,Ag:gray,O:red,H:white,C:blackgray).
+AgCuNW.dCalculatedGibbsfreeenergydiagramsforCORRtoethanoland
+1 2
+AgCuNWcandonateelectronstoitsneighboringCuatoms,moving to0.63eV,revealingpreferredproductionof*COviathe*COOHroute
+1
+the d-band center of Cu from −2.142 to −2.132eV. Meanwhile, the overAgCuNW.Theincreased*COcoverageshallincreasetheprob-
+atomicallydispersedAgatombecomespositivelycharged,matching ability of *CO-*CO coupling to form *COCO intermediate, directing
+wellwiththeXPSandXASresults. CO reduction to produce ethylene over AgCu NW (Supplementary
+2
+Operando Ramanmeasurements observed in-situ generation of Figs.61,62).
+*OHoverAgCuNWduringCO RR.Todeterminethe*OHadsorption Basedontheaboveresults,thereactionmechanismsofCO RRfor
+1 2 2
+site,theadsorptionanddissociationenergiesofH OonCuNW,AgCu thedistinctiveselectivitytowardsethyleneandethanoloverAgCuNW
+2
+NWandAgCuNWwerecalculated17.AsshowninFig.5a,comparedto andAgCuNWcanbeclearlyevidenced.Theethylenepathwayfollows
+1 1
+AgCuNWandCuNW,theH OadsorptionenergyoverAgCuNWis the symmetric C-C coupling, arising from the high *CO coverage
+2 1
+more negative with more electrons directly transferred from H O generatedoverAgnanoparticlesandthereducedenergybarrierfor
+2
+molecule to AgCu NW (Supplementary Fig. 50). Furthermore, H O *COCOformationoverAgCuNW.Whiletheethanolpathwayfollows
+1 2
+tendstomorepreferablydissociateonthesingleAgatomicsiteover theasymmetricC-Ccoupling,triggeredbythein-situgeneratedHO-
+AgCuNWwiththelowestH Odissociationtransitionstate(TS)energy Ag-Cu-Cu sites (Fig. 5e), which reduces the energy barrier for the
+1 2 1
+barrier(Fig.5bandSupplementaryFigs.51–53).Thein-situformation formationof*CHOspeciesandthuspromotesasymmetric*CO-*CHO
+ofHO-AgCuNWduringCO RRnotonlypromotedthereleaseofH+ coupling,boostingCO reductiontoethanoloverAgCuNW.
+1 2 2 1
+forthesubsequenthydrogenationreaction,butalsolargelyreduced
+theGibbsfreeenergyfor*COhydrogenationto*CHO(Fig.5c),which Discussion
+facilitated the asymmetric *CO-*CHO coupling over the adjacent Insummary,twowell-definedmodelCu-basedcatalystsweredevel-
+pairedCuatoms(HO-Ag-Cu-Cu)topreferablyreduceCO toethanol opedbymodifyingCunanowireswithAgnanoparticles(AgCuNW)
+1 2
+(Fig. 5d, e,and SupplementaryFigs. 54–57).On the other hand, for andsingleAgatoms(AgCuNW),respectively,andtheirunderlying
+1
+AgCuNW,asshowninSupplementaryFigs.58–60,theenergybarrier C-C coupling mechanisms of CO RR to ethylene and ethanol were
+2
+forhydrogenationof*CO to*COOHcanbegreatlyreducedfrom0.83 successfullyelucidated.OperandoXASandquasiin-situXPSrevealed
+2
+NatureCommunications|( 2024)1 5:10247 7
+
+
+===== PAGE 8 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+dynamicoxidationstateevolutionofCuandAgoverAgCuNWand Characterization
+AgCuNWduringCO RR.FollowingacombinationofoperandoRaman ThecrystalstructureofCuNW,AgCuNWandAgCuNWwerechar-
+1 2 1
+spectroscopyandoperandoATR-SEIRASmeasurements,ahigher*CO acterizedbyX-raydiffraction(XRD,BrukerAXSD8Advance)withCu
+coverage was observed over AgCu NW surface, which would favor Kα radiation (λ=1.5406Å). The morphology of the catalysts was
+symmetric*CO-*COcouplinginCO RRtoproduceethylene.Onthe examined by transmission electron microscopy (HRTEM, JEOL JEM-
+2
+contrary, the in-situ formed *OH species via H O dissociation was 2100F operated at 200kV) and field-emission scanning electron
+2
+dominantly found over AgCu NW. Isotopic labelling experiments microscopy(FESEM,JSM-6700F)equippedwithanenergydispersive
+1
+indicated that the methyl C (*CH ) and methylene C (*CH OH) in X-rayspectroscopy(EDX,AztecX-Max80T).High-angleannulardark-
+3 2
+ethanol product were originated from the *CO and *HCHO inter- field scanning transmission electron microscopy (HAADF-STEM)
+mediates,respectively.Theoreticalcalculationsfurtherdemonstrated characterizationwasconductedonaJEOLJEMARM200FSTEM/TEM
+thattheatomicallydispersedAgcouldnotonlypromotedissociation withaguaranteedresolutionof0.08nm.Detailedchemicalcomposi-
+ofH OtoreleaseH+,butalsoreducetheenergybarrierforthefor- tionswereanalyzedbyX-rayphotoelectronspectroscopy(XPS)onan
+2
+mation of *CHO over its neighboring Cu site, resulting in the sig- ESCALAB250photoelectronspectrometer(ThermoFisherScientific)
+nificantly promoted asymmetric *CO-*CHO coupling over paired Cu using a monochromatic Al Kα X-ray beam (1,486.6eV). All binding
+atoms adjacent to the single Ag atom, greatly boosting electro- energieswerereferencedtotheC1speak(284.8eV).Theconcentra-
+chemicalCO reductiontoethanol. tionofAginAgCuNWandAgCuNWwerequantifiedbyinductively
+2 1
+coupledplasmaopticalemissionspectroscopy(ICP-OES).Forex-situ
+Methods XASmeasurements,acertainamountofpowdersampleswereplaced
+Chemicalsandmaterials intoahollowcircularmold(madeofpolytetrafluoroethylene)witha
+Copper(II)chloridedihydrate(CuCl ·2H O,99.99%,CAS:10125-13-0), diameterof1cm.Thefilledsamplewasthenfixedandvacuumedto
+2 2
+glucose(C H O ,99.5%,CAS:50-99-7),hexadecylamine(HAD,98%, prevent oxidation during the transfer and measurement processes.
+6 12 6
+CAS:143-27-1),hexane(98%,CAS:110-94-3)andsilvernitrate(AgNO , And the sample was secured on an XAS sample stage, which was
+3
+99.99%, CAS: 7761-88-8) were purchased from Aladdin. Isopropyl positioned at a 45° angle to the X-ray during the measurement,
+alcohol(C H O,99.9%,CAS:67-63-0),potassiumbicarbonate(KHCO , allowingforcollectionoffluorescencesignals.
+3 8 3
+99.95%,CAS:298-14-6),potassiumhydroxide(KOH,99.99%,CAS:1310-
+58-3),ethanol(CH CH OH,å99.9%,CAS:64-17-5),andformaldehyde Quasiin-situXPSmeasurements
+3 2
+(HCHO,20wt.%inH O,99atom%13C,CAS:3228-27-1)werepurchased Quasi in-situ X-ray photoelectron spectroscopy characterizations
+2
+from Sigma-Aldrich. Nafion solution (D521-1100ew, 5wt.%, Dupont) (XPS) were conducted at the Vacuum Interconnected Nanotech
+waspurchasedfromAlfaAesar.Carbonpaper(AVCarbP75,Product Workstation(Nano-X),SuzhouInstituteofNano-Tech,andNano-Bio-
+Code: 18070009; AVCarb P75T, 29.8–31.2% Wet Proofed, Product nics,ChineseAcademyofSciences(CAS).Quasiin-situXPSmeasure-
+Code: 18070011) was purchased from FuelCell Store. All chemical ments were carried out in a SPECS PHOIBOS 100 analyzer using
+reagents were used as received without any further purification. monochromaticX-raysourceofAlKαradiation(1486.6eV),andthe
+Deionizedwater(18.2MΩ)wasusedinallexperimentalprocesses. overall spectrum resolution is Ag 3d , <0.5eV FWHM at
+5/2
+20kcps@UHV.Theworkingelectrode(1×1cm2),consistingofcarbon
+PreparationofCunanowires(CuNW) paperwithdrop-castedcatalyst,wasimmersedinCO -saturated0.1M
+2
+Uniform Cu NW were synthesized following a previously reported KHCO solution.Toavoidsurfaceoxidationofthecatalyst,theH-type
+3
+methodwithslightimprovements62.Inatypicalsynthesis,firstly,glu- cellwasplacedinagloveboxfortheCO RR.AfterCO RR,thesample
+2 2
+cose (250mg, 1.4mmol), CuCl ·2H O (117mg, 0.7mmol), and hex- wasrapidlytransferredthroughachamberwithultrahighvacuumfor
+2 2
+adecylamine(900mg,3.8mmol)weredissolvedin50mLofdeionized XPStesting.Quasiin-situXPSspectrawerecollectedatopen-circuit
+water under vigorous stirring at 50oC for 12h. Subsequently, the condition(OCV,immersedinKHCO electrolyte),−0.7and−1.2Vvs.
+3
+homogeneoussolutionwaskeptinawaterbathat75oCandstirredfor RHE,respectively.
+24huntilthesolutionturnedbrown.Afterwards,theabovesolution
+wastransferredintoa150mLpressurebottleandheatedat120°Cfor OperandoXASmeasurements
+24h.Aftercoolingtoroomtemperature,theproductswerecollected X-ray Absorption Spectroscopy (XAS) and operando XAS measure-
+by centrifugation at 16099.2 (×g) for 5min. The obtained reddish- mentswereperformedinthetotal-fluorescenceyield(TFY)modeat
+brownCuNWwaswashedwithhotdeionizedwater(60°C),ethanol, room temperature. These measurements utilized the TPS 32A and
+andhexaneseveraltimestoremoveexcesshexadecylamineandglu- TLS01C1 beamlines at the National Synchrotron Radiation Research
+cose,anddriedat60°Cundervacuumfor12h. Center(NSRRC)inTaiwan.EnergycalibrationwasperformedwithaCu
+andAgfoilstandardbyshiftingallspectratoaglitchintheincident
+SynthesisofAgCuNWandAgCuNW intensity. Fluorescence spectra were recorded using a silicon drift
+1
+AgCu NW and AgCu NW were synthesized via a modified galvanic detector. The measurement in a typical three-electrode setup, the
+1
+replacement approach63. Firstly, Cu NW (32mg, 0.5mmol) was dis- same condition as that in electrochemicalcharacterization was per-
+persed in 50mL of isopropyl alcohol in a three-necked flask under formedinaspeciallydesignedTefloncontainerwithawindowsealed
+sonicationfor30mintoformareddish-brownsuspension.Immedi- byKaptontape64–66.CO RRwasconductedonaBio-logicVSPpoten-
+2
+atelyafterwards,acertainamountofAgNO isopropylalcoholsolution tiostatinastandardthree-electrodesetup.Thespectraltimerecording
+3
+wasslowlyinjectedintotheaboveCuNWsuspensionviaaperistaltic was40minforasinglespectrum(2sforthepre-edgeregion,2sfor
+pump at a rate of 0.5mLmin−1 to trigger the galvanic replacement therising-edgeregion,and8sfortheEXAFSregion)duringCORR.
+2
+reaction.TheaddedAgNO are0.1and0.016mmoltoprepareAgCu Carbonpaper(1×1cm2)supportedcatalystastheworkingelectrode
+3
+NW and AgCu NW. Then, the mixed suspension was kept at room wasusedforoperandoXASmeasurements.Topreparethecatalystink,
+1
+temperature for 30min with continuous magnetic stirring. The catalyst(5mg)and5wt.%Nafionsolution(40μL)wereintroducedinto
+resulting red-grey product was collected by centrifugation at water and isopropyl alcohol solution (960μL, 1:1v/v) and ultra-
+8000rpmfor5minandwashedthreetimeswithdeionizedwaterand sonicatedfor3h.Next,thecatalystink(400μL)wasappliedontoa
+ethanol,anddriedat60°Cundervacuumfor12h.Itshouldbenoted carbonpaperandallowedtodryinair,affordingacatalystloadingof
+thattheentirereactionprocessrequiredArastheprotectivegasto 2mgcm−2.Thepre-edgebaselinewassubtracted,andthespectrum
+avoidoxidation. wasnormalizedtothepost-edge.EXAFSanalysiswasconductedusing
+NatureCommunications|( 2024)1 5:10247 8
+
+
+===== PAGE 9 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+aFouriertransformonk2-weightedEXAFSoscillationstoevaluatethe intothesolutionataflowrateof20SCCMbyamassflowcontroller
+contributionofeachbondpairtotheFouriertransformpeak. (CS200A,BeijingSevenstarFlowCo.,LTD).Cyclicvoltammetry(CV)
+andlinearsweepvoltammetry(LSV)acquiredinCO -saturated0.1M
+2
+OperandoRamanmeasurements KHCO solutiononaRDEatarotatingspeedof1600rpmwithascan
+3
+OperandoRamanspectrawererecordedatcontrolledelectrochemical rate of 5mVs−1. All potentials were calculated with respect to the
+potentials in CO -saturated 0.1M KHCO electrolyte in a three- reversiblehydrogen electrode (RHE)scaleaccording totheNernst
+2 3
+electrode polytetrafluoroethylene cell with Pt wire as the counter equation: Eðvs:RHEÞ=Eðvs:SCEÞ+0:2415+0:0591×pH. The voltage
+electrode and Ag/AgCl asthe reference electrode. Operando raman wasrecordedwithoutiRcorrection.ThepHwasdeterminedbyapH
+spectrawerecollectedonaRamanspectrometer(BrukerNanoWizard meter(S220SevenCompact™pH/Ion).SupplementaryFig.63shows
+UltraSpeed&inViaRaman)witha532nm/785nmexcitationlaser(5%), the ohmic drop during CO RR. To prepare the working electrode,
+2
+having a power of 2.1mW measured at the objective. A 50x long catalyst(5mg)and 5wt.%Nafionsolution (40μL)were introduced
+workingdistanceobjective(Olympus,0.5NA)wasused,focusingon intowaterand isopropyl alcoholsolution(960μL,volume ratioof
+thesamplesurfaceandavoidingcontacttotheelectrolyte.Acquisition 1:1) and ultrasonicated for 3h. Next, the catalyst ink (20μL) was
+timewassetas120sforthespectralRamanshiftrangingfrom200to appliedontoaglassycarbonRDE(diameter:5mm)andallowedto
+3000cm−1.OperandoRamanexperimentswereperformedonacar- dry in air, affording a catalyst loading of 0.5mgcm−2. For stability
+bon paper as the working electrode with a catalyst loading of test,catalystink(100μL)wasbrushedontocarbonpaper(AVCarb
+0.5mgcm−2.CO -saturatedelectrolytewaspreparedbypurgingCO P75T,29.8–31.2%WetProofed,ProductCode:18070011,Purchased
+2 2
+(99.99%)into0.1MKHCO aqueoussolutionfor30min,andaflowof fromFuelCellStore,1×1cm2)at60°C,affordingacatalystloadingof
+3
+CO wasmaintainedovertheelectrolytethroughoutelectrochemical 0.5mgcm−2.
+2
+measurements.
+Flow cell. The electrochemical measurements were performed in a
+OperandoATR-SEIRASmeasurements flowcell(manufacturedbyDioxideMaterialsCompany)separatedby
+Theoperandoattenuatedtotalreflectancesurfaceenhancedinfrared an anion exchange membrane (FAA-3-PK-130, Fumasep, Soak the
+absorption spectroscopy (ATR-SEIRAS) measurements were per- membranein1MKOHfor24hbeforeuse.)usingaCHI660Eelectro-
+formed on a Nicolet iS20 FTIR spectrometer equipped with a MCT chemicalworkstationatroomtemperature.Theflowcellwasequipped
+detector cooled using liquidnitrogen and PIKE VeeMAX III variable withthreeelectrodes,inwhichtheAg/AgClelectrodeasthereference
+angleATRsamplingaccessory.Thecatalystwasaddeddropwiselyto electrode,Ni-foam(200–250μm,Youveim)asthecounterelectrode
+thesurfaceofAu-platedsiliconastheworkingelectrode.Agraphite and the obtained GDE asthe working electrode. CVand LSVcurves
+rodandanAg/AgClelectrodewereusedasthecounterandreference were recorded on a CHI660E electrochemical workstation at a scan
+electrodeinalltests,respectively.ThebackgroundwastakenatOCVin rateof5mVs−1from−1.0Vto−2.5Vvs.SCE.1MKOHelectrolytewas
+CO -saturated 0.1M KHCO electrolyte. Afterwards, potential- usedastheanolyteandwascirculatedusingaperistalticpump(F01A-
+2 3
+dependentspectrawerecollectedduringsteppingtheworkingelec- STP,Kameor)at2.5mLmin−1.TheflowrateoftheCO gasflowinginto
+2
+trode potential from −0.4 V to −1.6V vs. RHE. The step width and thecathodeflowfieldwaskeptat20SCCMbyamassflowcontroller
+durationare0.1Vand120s,respectively. (CS200A, Beijing Sevenstar Flow Co., LTD). All potentials were con-
+verted to the reversible hydrogen electrode (RHE) scale by the fol-
+Electrochemicalmeasurements lowing equation: Eðvs:RHEÞ=Eðvs:Ag=AgClÞ+0:197V+0:0591pH. The
+H-typecell.Electrochemicalmeasurementswereperformedatroom voltagewasrecordedwithoutiRcorrection.
+temperatureandambientpressureonaglassycarbonelectrodeina
+two-compartment H-cell filled with CO saturated 0.1M potassium Preparationofgasdiffusionlayer(GDL).Carbonpaper(AVCarbP75,
+2
+bicarbonate (KHCO ) electrolyte using a CHI660e electrochemical ProductCode:18070009,PurchasedfromFuelCellStore)wasrepeat-
+3
+workstation.Athree-electrodecellconfigurationwasemployed,with edly soaked in a polytetrafluoroethylene (PTFE, DISP 40LX, CAS:
+aglassycarbonrotatingdiscelectrode(RDE)(EE300a1RotatingDisk 25667-42-9) solution until the weight of PTFE reached 25wt.%. The
+Electrode,diameter:5mm)astheworkingelectrode,aplatinumfoil carbonpaperwasheatedinairat350°Cfor2h.Acarbonblack(Vulcan
+(1.5×1.5cm2) as the counter electrode, and a saturated calomel XC-72R,Sigma)inkcontaining40wt.%PTFEwasdrop-castedonone
+electrodeasthereferenceelectrode(SCE,Hg/Hg Cl ).Toensurethe sideoftheabovecarbonpaper.Afterfurtherheatinginairat350°Cfor
+2 2
+accuracyofthe RHE,weperiodicallycalibratedthe referenceelec- 2h,theGDLwasprepared.
+trodeinH -saturated0.1MHClO and0.1MKOHelectrolytesbefore
+2 4
+conducting experiments. A reversible HOR/HER reaction was per- Preparationofgasdiffusionelectrode(GDE).Thecatalyst(4mg)and
+formedusingtwo Pt plates as both theworking and counter elec- Nafionsolution(DuPont,~5wt.%inamixtureofisopropylalcoholand
+trodes, with H bubbling over the working electrode during the deionized water) were firstly mixed and dispersed into isopropyl
+2
+process.Forcalibration,thecleanPtelectrodewascycledataslow alcohol (1mL) under ultrasonication for 30min to form a uniform
+sweep rate of 10mVs−1 around the expected RHE value in each catalystink.Then,thecatalystink(1mL)wasspray-castedontoaGDL
+electrolyteuntiltheCVcurvestabilized.TheRHEpotentialsinthe (2×2cm2),affordingacatalystloadingof1mgcm-2,anddriedat60°C
+two electrolytes were then determined from the corresponding toformtheGDE.
+open-circuit potentials. H-cell separated by a proton exchange
+membrane(Nafion117,183μm,Dupont).AndtheNafionmembrane Faradaicefficiencyevaluation
+needs to be pretreated. The steps are as follows: (1) Place the cut The products of electrochemical CO reduction reaction (CO RR)
+2 2
+Nafion 117 membrane in a beaker, add an excess of 5wt% H O weremeasuredusingchronoamperometryateachfixedpotentialin
+2 2
+solution, and boil it in a water bath at 80°C for 0.5h to remove a CO RR electrolysiscell. Theelectrolyte in the cathodiccompart-
+2
+organicandinorganicimpuritiesfromthemembraneandrinseit2-3 mentwasstirredatarateof500rpmduringelectrolysis.CO gaswas
+2
+times with deionized water. (2) Add 0.5molL-1 HNO solution and introducedintothecathodiccompartmentatarateof20SCCMand
+3
+boilitinawaterbathat80°Cfor0.5handrinseit2-3timeswith was routed into a gas chromatograph (GC, Agilent 7890). The gas
+deionizedwater.Thesamethree-electrodesystem,butwithcarbon chromatograph was equipped with a Molecular Sieve 5A capillary
+paper(1×1cm2)astheworkingelectrode,wasusedforstabilitytest. columnandapackedCarboxen-1000column.Thegaseousproducts
+Forallthemeasurements,CO (with1%Ar)wascontinuouslypurged (H , CO, CH , and C H ) were quantified by gas chromatograph
+2 2 4 2 4
+NatureCommunications|( 2024)1 5:10247 9
+
+
+===== PAGE 10 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+equipped with a flame ionization detector (FID) for CO, CH and vibrational entropy was considered, which was calculated from the
+4
+C H , and a thermal conductivity detector(TCD)forH . Ultrapure DFTcalculatedvibrationalfrequencies.Theactivationbarrierofeach
+2 4 2
+nitrogen(N ,99.9999%)wasusedasthecarriergas.Theliquidpro- reactionwasobtainedfromclimbing-imagenudgedelasticband(CI-
+2
+ducts(HCOOHandCH CH OH)wereexaminedbynuclearmagnetic NEB)calculations73.
+3 2
+resonancespectroscopy(NMR).1HNMRand13CNMRspectrawere
+collectedonaBrukerAvanceIIIHD400NMRspectroscopein10% Dataavailability
+D O using water suppression mode, with DMSO as an internal Theex-situXPSdata,ex-situXASdata,productquantification,quasiin-
+2
+standard. situ XPS data, operando XAS data, operando Raman data, operando
+The Faradaic efficiency (FE) was calculated using the following ATR-SEIRASdata,isotopiclabellingexperimentdataandtheoretical
+equation: calculationsdatageneratedinthisstudyhavebeendepositedinthe
+Figsharedatabaseunderaccessioncode(https://doi.org/10.6084/m9.
+FE i=
+Q
+Q
+tot
+i
+al
+= z i×
+I
+F
+×
+×
+t
+N i =
+I
+z
+×
+i×
+R
+v
+×
+i
+T
+×
+o
+G
+×
+×
+6
+F
+0
+×
+00
+P o
+0
+figshare.27199515)74. Sourcedataareprovidedwiththispaper.
+References
+whereQ iisthequantityofelectricchargeneededtoproducepro- 1. Birdja,Y.Y.etal.Advancesandchallengesinunderstandingthe
+ductiatacertaintimeinterval(Q i=z i×F×N i);Q totalisthequantity electrocatalyticconversionofcarbondioxidetofuels.Nat.Energy
+ofelectricchargeneededtoproduceallproductsatacertaintime 4,732–745(2019).
+interval(Q total=I×t);z iisthenumberofelectronsrequiredtopro- 2. Jordaan,S.M.&Wang,C.Electrocatalyticconversionofcarbon
+duce onei molecule, which is2, 2, 8, and 12forCO,H , CH , and dioxidefortheParisgoals.Nat.Catal.4,915–920(2021).
+2 4
+C
+2
+H
+4
+,respectively;FistheFaradaicconstant(96485.3Cmol−1);N iis 3. Sullivan,I.etal.CouplingelectrochemicalCO
+2
+conversionwith
+the number of moles of product i in the GC sampling loop CO capture.Nat.Catal.4,952–958(2021).
+2
+(N i=N total×V i); N total: moles of all gases in the GC sampling loop 4. Amirbeigiarab,R.etal.Atomic-scalesurfacerestructuringofcop-
+t (N he tot m al e = a P s R o u × × r T V e o o d ); c V u o r : r v e o n l t u ; m t e is o t f h t e he tim G e C n sa e m ed p e l d ing fo l r oo g p as (V to o= fi G ll × th t) e ; G Ii C s 6 pe , r 83 e 7 le – c 8 t 4 ro 6 d ( e 2 s 0 u 23 n ) d . erCO 2 electroreductionconditions.Nat.Catal.
+samplingloop;v iisthevolumeratioofproductiobtainedfromGC; 5. Yang,H.B.etal.AtomicallydispersedNi(i)astheactivesitefor
+G is the volumetric flow rate; P o is atmospheric pressure electrochemicalCO 2 reduction.Nat.Energy3,140–147(2018).
+(1.01×105Pa);T 0isthesamplelooptemperature(298K);andRisthe 6. Pang,Y.etal.Efficientelectrocatalyticconversionofcarbonmon-
+idealgasconstant(8.314JmolK−1). oxidetopropanolusingfragmentedcopper.Nat.Catal.2,
+AllFaradaicefficienciesanderrorbarsreportedinthisworkwere 251–258(2019).
+determined from the average of at least three replicates for each 7. Zhu,P.&Wang,H.High-purityandhigh-concentrationliquidfuels
+potentialstudied. throughCO electroreduction.Nat.Catal.4,943–951(2021).
+2
+8. Lin,Y.etal.TunableCO electroreductiontoethanolandethylene
+2
+Computationalmethods withcontrollableinterfacialwettability.Nat.Commun.14,3575
+Allspin-polarizedDFTcalculationswereimplementedintheViennaab (2023).
+initio Simulation Package (VASP 6.3.0)67. The exchange-correlation 9. Wang,X.etal.Efficientelectrosynthesisofn-propanolfromcarbon
+interactions weremodeled by the functionalof Perdew,Burke, and monoxideusingaAg–Ru–Cucatalyst.Nat.Energy7,170–176(2022).
+Ernzerhof(PBE)withinthegeneralizedgradientapproximation(GGA), 10. Zhong,M.etal.AccelerateddiscoveryofCO electrocatalysts
+2
+and the projector augmented-wave method was carried out to usingactivemachinelearning.Nature581,178–183(2020).
+describetheion-electroninteractions68,69.ACu(111)(4×4)supercell 11. Yang,Y.etal.OperandostudiesrevealactiveCunanograinsfor
+withalatticeconstantof10.22Å(α=β=90°,γ=120°)wasemployed CO electroreduction.Nature614,262–269(2023).
+2
+toanchortheAgatomsorsupporttheAg nanoclusters.TheBrillouin 12. Kim,Y.etal.Time-resolvedobservationofC–Ccouplinginter-
+13
+zonewassampledby3×3×1k-pointsbymeansofMonkhorst-Pack mediatesonCuelectrodesforselectiveelectrochemicalCO
+2
+scheme with the cutoff of 400eV during the structural relaxation, reduction.Energ.Environ.Sci.13,4301–4311(2020).
+while 5×5×1 k-points for electronic structure calculation such as 13. Zhang,J.etal.AcceleratingelectrochemicalCO reductionto
+2
+projecteddensityofstates(PDOS)andchargedensitydifference.The multi-carbonproductsviaasymmetricintermediatebindingat
+convergence criteria for energy and force were set as 10−5eV and confinednanointerfaces.Nat.Commun.14,1298(2023).
+0.01eVÅ−1,respectively.Alongtheperpendiculardirection,avacuum 14. Hu,J.etal.Edge-richmolybdenumdisulfidetailorscarbon-chain
+space at least 18Å was added to eliminate the effects of periodic growthforselectivehydrogenationofcarbonmonoxidetohigher
+structure, and the dispersion corrected density functional theory alcohols.Nat.Commun.14,6860(2023).
+(DFT-D3) was utilized to include van der Waals (vdWs) interaction 15. Wu,Z.-Z.etal.IdentificationofCu(100)/Cu(111)Interfacesas
+betweenadsorbateandinterface70. SuperiorActiveSitesforCODimerizationDuringCO Electro-
+2
+Theadsorptionenergiesofintermediatessuchas*CO ,*COOH reduction.J.Am.Chem.Soc.144,259–269(2021).
+2
+and*COwerecalculatedbasedonthefollowingequation: 16. Xiao,H.etal.Cumetalembeddedinoxidizedmatrixcatalystto
+promoteCO activationandCOdimerizationforelectrochemical
+2
+E =E (cid:2)ðE*+E Þ reductionofCO.Proc.Nat.Acad.Sci.114,6685–6688(2017).
+adsorption total adsorbate 2
+17. Ma,W.etal.ElectrocatalyticreductionofCO toethyleneand
+2
+whereE ,E,andE representtheDFTenergyofadsorption ethanolthroughhydrogen-assistedC–Ccouplingoverfluorine-
+total * adsorbate
+system,substrate,andadsorbate,respectively. modifiedcopper.Nat.Catal.3,478–487(2020).
+BasedonthetheoryproposedbyNørskovetal.71,thechangeof 18. Zhang,J.etal.SteeringCO electroreductionpathwaytoward
+2
+GibbsfreeenergyforeachCO RRelementaryreactionwascalculated ethanolviasurface-boundedhydroxylspecies-inducednon-
+2
+basedoncomputationalhydrogenelectrode(CHE)model72,referred covalentinteraction.Proc.Nat.Acad.Sci.120,e2218987120(2023).
+as ΔG=ΔE+ΔZPE(cid:2)TΔS, where ΔE is the adsorption electronic 19. Ding,J.etal.Atin-basedtandemelectrocatalystforCO reduction
+2
+energy, whileΔZPE and TΔS represent zero-point energy correction toethanolwith80%selectivity.Nat.Energy8,1386–1394(2023).
+andentropycontributionat298K.Forthegasmolecules,theentropy 20. Li,F.etal.MoleculartuningofCO-to-ethyleneconversion.Nature
+2
+wastakenfromNISTdatabase.Fortheadsorbedintermediates,only 577,509–513(2019).
+NatureCommunications|( 2024)1 5:10247 10
+
+
+===== PAGE 11 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+21. Zhang,B.etal.HighlyElectrocatalyticEthyleneProductionfrom 44. Liu,S.etal.IdentifytheActivityOriginofPtSingle-AtomCatalystvia
+CO onNanodefectiveCuNanosheets.J.Am.Chem.Soc.142, Atom-by-AtomCounting.J.Am.Chem.Soc.143,15243–15249
+2
+13606–13613(2020). (2021).
+22. Feng,S.etal.InsituspectroelectrochemicalprobingofCOredox 45. Li,J.etal.WeakCObindingsitesinducedbyCu-Aginterfaces
+landscapeoncoppersingle-crystalsurfaces.Proc.Nat.Acad.Sci. promoteCOelectroreductiontomulti-carbonliquidproducts.Nat.
+119,e2118166119(2022). Commun.14,698(2023).
+23. Wang,P.etal.BoostingelectrocatalyticCO–to–ethanolproduc- 46. Yan,Y.etal.ElectrocatalyticUpcyclingofBiomassandPlastic
+2
+tionviaasymmetricC–Ccoupling.Nat.Commun.13,3754(2022). WastestoBiodegradablePolymerMonomersandHydrogenFuelat
+24. Kortlever,R.etal.CatalystsandReactionPathwaysfortheElec- HighCurrentDensities.J.Am.Chem.Soc.145,6144–6155(2023).
+trochemicalReductionofCarbonDioxide.J.Phys.Chem.Lett6, 47. Greiner,M.T.etal.Free-atom-likedstatesinsingle-atomalloy
+4073–4082(2015). catalysts.Nat.Chem.10,1008–1015(2018).
+25. Schouten,K.etal.AnewmechanismfortheselectivitytoC andC 48. Sun,H.etal.Promotingethyleneproductionoverawidepotential
+1 2
+speciesintheelectrochemicalreductionofcarbondioxideon windowonCucrystallitesinducedandstabilizedviacurrentshock
+copperelectrodes.Chem.Sci2,1902–1909(2011). andchargedelocalization.Nat.Commun.12,6823(2021).
+26. Wang,X.etal.Morphologyandmechanismofhighlyselective 49. Jennifer,L.D.etal.ASystematicK-edgeX-rayAbsorptionSpec-
+Cu(II)oxidenanosheetcatalystsforcarbondioxideelectroreduc- troscopicStudyofCu(III)Sites.J.Am.Chem.Soc.122,
+tion.Nat.Commun.12,794(2021). 5775–5787(2000).
+27. Luo,Y.etal.Selectiveelectrochemicalsynthesisofureafrom 50. Ma,W.etal.ElectrocatalyticreductionofCO andCOtomulti-
+2
+nitrateandCO viarelaycatalysisonhybridcatalysts.Nat.Catal.6, carboncompoundsoverCu-basedcatalysts.Chem.Soc.Rev.50,
+2
+939–948(2023). 12897–12914(2021).
+28. Xu,A.etal.Copper/alkalineearthmetaloxideinterfacesforelec- 51. Zhao,J.etal.Modulationof*CHOAdsorptiontoFacilitateElec-
+x
+trochemicalCO -to-alcoholconversionbyselectivehydrogena- trocatalyticReductionofCO toCH overCu-BasedCatalysts.J.
+2 2 4
+tion.Nat.Catal.5,1081–1088(2022). Am.Chem.Soc.145,6622–6627(2023).
+29. Wang,X.etal.Mechanisticreactionpathwaysofenhancedethy- 52. Lim,C.Y.J.etal.Surfacechargeasactivitydescriptorsforelec-
+leneyieldsduringelectroreductionofCO–COco-feedsonCuand trochemicalCO reductiontomulti-carbonproductsonorganic-
+2 2
+Cu-tandemelectrocatalysts.Nat.Nanotechnol.14,1063–1070 functionalisedCu.Nat.Commun.14,335(2023).
+(2019). 53. deRuiter,J.etal.ProbingtheDynamicsofLow-OverpotentialCO-
+2
+30. Chen,X.etal.ElectrochemicalCO-to-ethyleneconversionon to-COActivationonCopperElectrodeswithTime-ResolvedRaman
+2
+polyamine-incorporatedCuelectrodes.Nat.Catal.4,20–27(2020). Spectroscopy.J.Am.Chem.Soc.144,15047–15058(2022).
+31. Xie,Y.etal.HighcarbonutilizationinCO reductiontomulti-carbon 54. Zhao,Y.etal.ElucidatingelectrochemicalCO reductionreaction
+2 2
+productsinacidicmedia.Nat.Catal.5,564–570(2022). processesonCu(hkl)single-crystalsurfacesbyinsituRaman
+32. Wang,X.etal.EfficientelectricallypoweredCO -to-ethanolvia spectroscopy.Energ.Environ.Sci.15,3968–3977(2022).
+2
+suppressionofdeoxygenation.Nat.Energy5,478–486(2020). 55. Zhan,C.etal.RevealingtheCOCoverage-DrivenC-CCoupling
+33. Choi,C.etal.HighlyactiveandstablesteppedCusurfacefor MechanismforElectrochemicalCO ReductiononCu ONano-
+2 2
+enhancedelectrochemicalCO reductiontoCH .Nat.Catal.3, cubesviaOperandoRamanSpectroscopy.ACSCatal11,
+2 2 4
+804–812(2020). 7694–7701(2021).
+34. Chen,C.etal.Cu-AgTandemCatalystsforHigh-RateCO Elec- 56. Herzog,A.etal.OperandoRamanspectroscopyuncovershydro-
+2
+trolysistowardMulticarbons.Joule4,1688–1699(2020). xideandCOspeciesenhanceethanolselectivityduringpulsedCO
+2
+35. Gao,J.etal.SelectiveC-CCouplinginCarbonDioxideElectro- electroreduction.Nat.Commun.15,3986(2024).
+reductionviaEfficientSpilloverofIntermediatesAsSupportedby 57. Wang,Q.etal.Attenuatingmetal-substrateconjugationinatom-
+OperandoRamanSpectroscopy.J.Am.Chem.Soc.141, icallydispersednickelcatalystsforelectroreductionofCO toCO.
+2
+18704–18714(2019). Nat.Commun.13,6082(2022).
+36. Duan,G.Y.etal.HighlyEfficientElectrocatalyticCO Reductionto 58. Sun,W.etal.V-DopedCu SeHierarchicalNanotubesEnabling
+2 2
+C ProductsonaPoly(ionicliquid)‐BasedCu0–CuITandemCata- Flow-CellCO ElectroreductiontoEthanolwithHighEfficiencyand
+2+ 2
+lyst.Angew.Chem.Int.Ed.61,e2021106(2022). Selectivity.Adv.Mater.34,e2207691(2022).
+37. Li,F.etal.CooperativeCO -to-ethanolconversionviaenriched 59. Ding,L.etal.Over70%FaradaicEfficiencyforCO Electroreduc-
+2 2
+intermediatesatmolecule–metalcatalystinterfaces.Nat.Catal.3, tiontoEthanolEnabledbyPotassiumDopant‐TunedInteraction
+75–82(2019). betweenCopperSitesandIntermediates.Angew.Chem.Int.Ed.61,
+38. Zhang,J.etal.MoleculartuningforelectrochemicalCO reduction. e202209268(2022).
+2
+Joule7,1700–1744(2023). 60. Zheng,M.etal.ElectrocatalyticCO -to-C withAmpere-Level
+2 2+
+39. Wang,Q.etal.Atomicmetal–non-metalcatalyticpairdriveseffi- CurrentonHeteroatom-EngineeredCopperviaTuning*COInter-
+cienthydrogenoxidationcatalysisinfuelcells.Nat.Catal.6, mediateCoverage.J.Am.Chem.Soc.144,14936–14944(2022).
+916–926(2023). 61. Shi,H.etal.AtomicallyDispersedIndium‐CopperDual‐MetalActive
+40. Jiao,J.etal.Constructingasymmetricdouble-atomicsitesfor SitesPromotingC−CCouplingforCO PhotoreductiontoEthanol.
+2
+synergisticcatalysisofelectrochemicalCO reduction.Nat.Com- Angew.Chem.Int.Ed.61,e202208904(2022).
+2
+mun.14,6164(2023). 62. Kim,M.J.etal.IsotropicIodideAdsorptionCausesAnisotropic
+41. Lin,S.C.etal.Operandotime-resolvedX-rayabsorptionspectro- GrowthofCopperMicroplates.Chem.Mater.33,881–891(2020).
+scopyrevealsthechemicalnatureenablinghighlyselectiveCO 63. Lyu,Z.etal.ControllingtheSurfaceOxidationofCuNanowires
+2
+reduction.Nat.Commun.11,3525(2020). ImprovesTheirCatalyticSelectivityandStabilitytowardC Pro-
+2+
+42. Jiao,J.etal.Copperatom-paircatalystanchoredonalloynanowires ductsinCO Reduction.Angew.Chem.Int.Ed.60,
+2
+forselectiveandefficientelectrochemicalreductionofCO2.Nat. 1909–1915(2020).
+Chem.11,222–228(2019). 64. Hung,S.F.etal.IdentificationofStabilizingHigh-ValentActive
+43. Li,J.etal.Enhancedmulti-carbonalcoholelectroproductionfrom SitesbyOperandoHigh-EnergyResolutionFluorescence-Detected
+COviamodulatedhydrogenadsorption.Nat.Commun.11,3685 X-rayAbsorptionSpectroscopyforHigh-EfficiencyWaterOxida-
+(2020). tion.J.Am.Chem.Soc.140,17263–17270(2018).
+NatureCommunications|( 2024)1 5:10247 11
+
+
+===== PAGE 12 =====
+
+Article https://doi.org/10.1038/s41467-024-54636-w
+65. Hung,S.-F.etal.InSituSpatiallyCoherentIdentificationof SEIRASmeasurementsandanalyses.Z.L.,T.L.,S.H.,andY.Lu.con-
+Phosphide-BasedCatalysts:CrystallographicLatchingforHighly tributedtotheoperandoXASspectroscopymeasurementsandana-
+EfficientOverallWaterElectrolysis.ACSEnergyLett.4,2813–2820 lyses.S.W.,Y.Z.,andX.R.performedtheoperandoRamanspectroscopy
+(2019). measurementsandanalyses.S.W.,Y.Li.,andY.C.,performedthequasi
+66. Wang,N.etal.Boride-derivedoxygen-evolutioncatalysts.Nat. in-situXPSmeasurementsandanalyses.F.L.,Y.C.,J.Z.andX.Y.carried
+Commun.12,6089(2021). outDFTdataanalysis.W.W.performedtheHAADF-STEMmeasurements
+67. Kresse,G.etal.EfficientIterativeSchemesforabinitioTotal-energy andanalyses.S.L.performedEMARSmethodbasedonfrequencyfil-
+CalculationsUsingaPlane-waveBasisSet.Phys.Rev.B54, teringoverHAADF-STEMimages.S.W.,X.L.,andB.L.wroteandrevised
+11169(1996). themanuscriptwithinputsfromallauthors.Theprojectwassupervised
+68. Perdew,J.P.etal.GeneralizedGradientApproximationMade byX.L.,Y.H.,andB.L.
+Simple.Phys.Rev.Lett.77,3865(1996).
+69. Hammer,B.etal.ImprovedAdsorptionEnergeticswithinDensity- Competinginterests
+functionalTheoryUsingRevisedPerdew-Burke-ErnzerhofFunc- Theauthorsdeclarenocompetinginterests.
+tionals.Phys.Rev.B59,7413(1999).
+70. Grimme,S.SemiempiricalGGA-typeDensityFunctionalCon- Additionalinformation
+structedwithaLong-rangeDispersionCorrection.J.Comput. SupplementaryinformationTheonlineversioncontains
+Chem.27,1787–1799(2006). supplementarymaterialavailableat
+71. Chan,K.etal.MolybdenumSulfidesandSelenidesasPossible https://doi.org/10.1038/s41467-024-54636-w.
+ElectrocatalystsforCO Reduction.ChemCatChem6,
+2
+1899–1905(2014). Correspondenceandrequestsformaterialsshouldbeaddressedto
+72. Norskov,J.K.etal.OriginoftheOverpotentialforOxygenReduc- XuningLi,YanqiangHuangorBinLiu.
+tionataFuel-CellCathode.J.Phys.Chem.B108,17886–17892
+(2004). PeerreviewinformationNatureCommunicationsthanksAntoniaHer-
+73. Henkelman,G.etal.AClimbingImageNudgedElasticBand zog,andtheother,anonymous,reviewersfortheircontributiontothe
+MethodforFindingSaddlePointsandMinimumEnergyPaths.J. peerreviewofthiswork.Apeerreviewfileisavailable.
+Chem.Phys.113,9901–9904(2000).
+74. Wang,S.etal.AsymmetricC-CCouplingforHighlySelective Reprintsandpermissionsinformationisavailableat
+ElectrochemicalCO ReductiontoEthanoloverPairedCuAtoms http://www.nature.com/reprints
+2
+AdjacenttoSingleAgAtom.figshare.Dataset.https://doi.org/10.
+6084/m9.figshare.27199515(2024). Publisher’snoteSpringerNatureremainsneutralwithregardtojur-
+isdictionalclaimsinpublishedmapsandinstitutionalaffiliations.
+Acknowledgements
+ThisworkwasfinanciallysupportedbytheStrategicPriorityResearch OpenAccessThisarticleislicensedunderaCreativeCommons
+ProgramoftheChineseAcademyofSciences(XDB0600200(X.L.)),the Attribution-NonCommercial-NoDerivatives4.0InternationalLicense,
+NationalKeyResearchandDevelopmentProgramofChina(No. whichpermitsanynon-commercialuse,sharing,distributionand
+2021YFA1500502(X.L.)),theNSFCCenterforSingle-AtomCatalysis reproductioninanymediumorformat,aslongasyougiveappropriate
+(grantNo.22388102(X.L.)),theNationalNaturalScienceFoundationof credittotheoriginalauthor(s)andthesource,providealinktothe
+China(22102176(X.L.))and21925803(Y.H.)),CASProjectforYoung CreativeCommonslicence,andindicateifyoumodifiedthelicensed
+ScientistsinBasicResearch(YSBR-051(X.L.)),theDICP.CAS-CardiffJoint material.Youdonothavepermissionunderthislicencetoshareadapted
+ResearchUnits(121421ZYLH20230008(X.L.)),theCityUniversityof materialderivedfromthisarticleorpartsofit.Theimagesorotherthird
+HongKongStartupfund(B.L.),andtheNationalScienceandTechnology partymaterialinthisarticleareincludedinthearticle’sCreative
+Council(NSTC)(110-2112-M-213-019-MY3(Y.Lu.)).Theauthorsgratefully Commonslicence,unlessindicatedotherwiseinacreditlinetothe
+acknowledgethesupportofPhotonScienceCenterforCarbon material.Ifmaterialisnotincludedinthearticle’sCreativeCommons
+Neutrality. licenceandyourintendeduseisnotpermittedbystatutoryregulationor
+exceedsthepermitteduse,youwillneedtoobtainpermissiondirectly
+Authorcontributions fromthecopyrightholder.Toviewacopyofthislicence,visithttp://
+S.W.,X.L.,Y.H.,andB.L.designedandconceivedtheexperiment.S.W. creativecommons.org/licenses/by-nc-nd/4.0/.
+performedthecatalystsynthesis,structuralcharacterization,and
+CO RRelectrocatalyticmeasurements.F.L.conductedthetheoretical ©TheAuthor(s)2024
+2
+calculations.S.W.performedtheoperandoelectrochemicalATR-
+NatureCommunications|( 2024)1 5:10247 12

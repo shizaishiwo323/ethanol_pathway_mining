@@ -1,0 +1,861 @@
+
+
+===== PAGE 1 =====
+
+pubs.acs.org/JACS Article
+Selectivity Control of Cu Nanocrystals in a Gas-Fed Flow Cell
+through CO Pulsed Electroreduction
+2
+Hyo Sang Jeon, Janis Timoshenko, Clara Rettenmaier, Antonia Herzog, Aram Yoon, See Wee Chee,
+*
+Sebastian Oener, Uta Hejral, Felix T. Haase, and Beatriz Roldan Cuenya
+CiteThis:J.Am.Chem.Soc.2021,143,7578−7587 ReadOnline
+ACCESS *
+Metrics&More ArticleRecommendations sı SupportingInformation
+ABSTRACT: In this study, we have taken advantage of a pulsed CO electro-
+2
+reductionreaction(CO RR)approachtotunetheproductdistributionatindustrially 2
+relevantcurrentdensitiesinagas-fedflowcell.WecomparedtheCO RRselectivityof
+2
+Cu catalysts subjected to either potentiostatic conditions (fixed applied potential of
+−0.7V )orpulsedelectrolysisconditions(1spulsesatoxidativepotentialsranging RHE
+from E = 0.6 to 1.5 V , followed by 1 s pulses at −0.7 V ) and identified the
+an RHE RHE
+main parameters responsible for the enhanced product selectivity observed in the
+latter case. Herein, two distinct regimes were observed: (i) for E = 0.9 V we
+an RHE
+obtained 10% enhanced C product selectivity (FE = 43.6% and FE =
+2 C2H4 C2H5OH
+19.8%)incomparisontothepotentiostaticCO RRat−0.7V (FE =40.9%and 2 RHE C2H4
+FE =11%),(ii)whileforE =1.2V ,highCH selectivity(FE =48.3%vs
+C2H5OH an RHE 4 CH4
+0.1%atconstant−0.7V )wasobserved.Operandospectroscopy(XAS,SERS)and
+RHE
+exsitumicroscopy(SEMandTEM)measurementsrevealedthatthesedifferencesincatalystselectivitycanbeascribedtostructural
+modificationsandlocalpHeffects.ThemorphologicalreconstructionofthecatalystobservedafterpulsedelectrolysiswithE =0.9
+an
+V ,includingthepresenceofhighlydefectiveinterfacesandgrainboundaries,wasfoundtoplayakeyroleintheenhancementof
+RHE
+−
+theC productformation.Inturn,pulsedelectrolysiswithE =1.2V causedtheconsumptionofOH speciesnearthecatalyst
+2 an RHE
+surface, leading to an OH-poor environment favorable for CH production.
+4
+1. INTRODUCTION attributed to a modification of the Cu surface morphology by
+successive oxidation and reduction.20 In another study
+The electrochemical CO reduction (CO RR) driven by
+2 2
+employing a Cu(100) single crystal, pulsed electrolysis was
+electrical energy from renewable sources has attracted
+attention as an environmentally friendly path to convert the applied to periodically regenerate Cu(I) species, resulting in a
+undesiredgreenhousegasintofeedstockchemicalsandfuels.1,2 significantly enhanced selectivity for ethanol when highly
+Among the metal catalysts used for the CO RR, copper-based defective Cu(I)/Cu(0) interfaces were available.21 Several
+2
+catalystsareofparticularinterestduetotheiruniquecapability other studies have also reported the generation of unusual
+totransformCO intovarioushydrocarbonsandalcoholswith products such as methanol during the pulsed CO RR, with a
+2 2
+high energy density such as CH , C H , and C H OH.3,4 concomitant increase in the C selectivity (e.g. C H , C H ,
+4 2 4 2 5 2+ 2 4 2 6
+However, controlling the selectivity toward a specific product and propanol), in comparison to that achieved under
+remains the main challenge in this field. Different approaches potentiostatic electrolysis conditions.22−25 In the former
+to address this issue have been explored, such as controlling
+examples, the selectivity trends observed in H-type cells at
+the morphology of the catalyst and exposed
+facets,5−9
+tuning low current densities were assigned to the modification of the
+t m h e e ta e l l s e .1 c 2 tr − o 1 l 7 yte composition,10,11 and incorporating secondary local chemical environment and concentrations of *OH and
+*CO adsorbates on the Cu surface. These results are
+Apart from these strategies, applying periodic oxidative
+potentialsduringtheCO RRwasalsoshowntobeanefficient supported by theoretical studies showing that pulsed
+2
+way to steer the selectivity of Cu catalysts toward certain
+desired products.18−26 By choosing the proper values of Received: April 1,2021
+cathodic and anodic potentials and pulse lengths, the Published: May6, 2021
+production of CO, CH , C H , and C H OH could be
+4 2 4 2 4 5
+enhanced. For example, experiments with millisecond pulses
+have shown that the selectivity of a polycrystalline Cu foil
+toward syngas (H and CO) can be improved, which was
+2
+©2021TheAuthors.Publishedby
+AmericanChemicalSociety https://doi.org/10.1021/jacs.1c03443
+7578 J.Am.Chem.Soc.2021,143,7578−7587
+.)CTU(
+91:33:02
+ta 6202
+,32
+yaM
+no
+202.6.21.13
+aiv
+dedaolnwoD
+.selcitra
+dehsilbup
+erahs
+yletamitigel
+ot
+woh
+no
+snoitpo
+rof
+senilediuggnirahs/gro.sca.sbup//:sptth
+eeS
+
+
+===== PAGE 2 =====
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+electrolysis causes changes in the local pH and CO Theinkwasthenultrasonicatedfor30min.Theas-preparedinkwas
+concentration.26 2 spray-coated on the microporous layer (MPL) of a gas diffusion
+Although pulsed electrolysis has shown remarkable results electrode (GDE, Sigracet 39bb) using an airbrush. The loading was
+determinedby weighingtheGDE beforeandafter thespraycoating
+for controlling the catalyst selectivity, the majority of data
+and was foundtobe roughly 0.25mg/cm2.
+available originate from experiments conducted in an H-type
+2.2. Electrochemical Measurements for CO Reduction
+cell configuration. However, the current density of CO 2 RR in Reaction. Electrochemical CO reduction exper 2 iments were
+anH-typecellcanonlyreachafewtensofmA/cm2duetothe performed in a gas-fed flow cell c 2 onfiguration (Figure S1).34 The
+lowsolubility of CO inthe electrolyte and theresulting mass flowcellconsistedofthreecompartmentsforCO gas,catholyte,and
+2 2
+transfer limitations.27,28 In addition, single crystals that were anolyte. A catalyst deposited on the GDE working electrode was
+previously discussed are less attractive for commercial positionedbetweentheCO gasandthecatholytechamber,withthe
+2
+applications due to the limited possibilities to scale up the catalyst side of the GDE facing the electrolyte. The catholyte and
+processandthehighcatalystcost.Inthisregard,agas-fedflow anolyte chamberswere equippedwith aleak-free Ag/AgCl reference
+cell configuration with a gas diffusion electrode (GDE) in an electrode (Innovative Instruments) and a platinum-mesh counter-
+electrode(MaTecK).Ananionexchangemembrane(FumasepFAA-
+alkaline electrolyte provides an attractive alternative for
+PK-130) was mounted between the catholyte and the anolyte
+industrial utilization. It features the three-phase boundary of chamber.GaseousCO waspassedbehindthegasdiffusionlayerata
+a den C s O ity 2 g ( a o s v / e l r iqu 2 i 0 d 0 /so m li A d /c in m te 2) rf ,2 a 7 c − e 3 , 1 ca a n nd ac a h ll i o ev w e s h u i s g i h ng cu n r a r n en o t - ( c B on ro st n a k n h t or fl s o t) w .N o o f te 1 t 0 ha 2 s t, cc si m nce b a y fr m ac e t a io n n s o o f f C a O m g a a s s s is fl c o o w nve c r o t n e t d ro in ll t e o r
+2
+particulatecatalysts.32However,thepracticalfeasibilityofsuch products, the flow rate at the outlet of the CO gas chamber was
+2
+asystemdependsonthegas-fedflowcellcharacteristics.Harsh remeasuredbyavolumetricdigitalflowmeter(AgilinetADM1000)
+experimental conditions associated with high current densities
+andusedfortheFaradaicefficiencycalculations.Anaqueoussolution
+are expected to affect the chemical and physical properties of of1MKOH(pH13.7,Acros-Organics)wasusedasanelectrolyte,as
+thecatalysts.27 Consequently, operandostudiesintheflowcell well as a phosphate buffer (pH 7.4 and pH 6.4, Sigma-Aldrich) and
+configuration are required to shed light on the correlation citric acid (pH 5, Sigma-Aldrich) for auxiliary experiments. The
+electrolytes werecirculated inboth compartments by adual-channel
+between the pulsed CO 2 RR parameters and the observed peristaltic pump (FAUST PLP380) at a constant flow controlled by
+selectivity trends. the pump’s rotation speed, which was set to 10 rpm. The
+Previous studies of the pulsed CO 2 RR in H-type cells have electrochemical experiments were performed using a potentiostat
+reported that oxidative potentials are beneficial for hydro- (AutolabPGSTAT302N).TheOhmicresistancewasdeterminedby
+carbon and alcohol production.21,23 Here we extend such electrochemical impedance spectroscopy (EIS). The potential values
+studies to a flow cell configuration and high current densities, after iR compensation were converted to the reversible hydrogen
+using highly active shape-selected Cu O nanocube (Cu NC) electrode(RHE)referencescaleusingE(vsRHE)=E(vsAg/AgCl)+
+catalysts. Herein we demonstrate that 2 pulsed electrolysis in a 0.242 V +0.059 V ×pH −iR.
+gas-fedflowcellconfigurationenablesefficientcontroloverthe The gas products were quantified by a gas chromatograph (GC,
+Agilent 7890B) equipped with a thermal conductivity detector
+product selectivity, allowing us to switch from C 2 (C 2 H 4 and (TCD)andaflameionizationdetector(FID).TheGCwasdirectly
+C 2 H 5 OH)toC 1 (CH 4 )productformationbytuningthevalue connectedtotheCO gaschamberoftheflowcellforonlineanalysis.
+of the applied anodic potential (E ). To this end, in our 2
+an Theformicacidandacetateconcentrationswereanalyzedbyahigh-
+pulsed protocol we use higher oxidative potential values than performance liquid chromatograph (HPLC, Shimadzu Prominence)
+thoseinpreviousstudies.Suchhighoxidativepulsedpotentials equipped with a NUCLEOGEL SUGAR 810 column and refractive
+can potentially lead to the transient oxidation of CO RR indexdetector(RID).Thealcoholandaldehydeconcentrationswere
+2
+products, which might have discouraged researchers from quantified with a liquid GC (L-GC, Shimadzu 2010 plus) equipped
+exploring wider potential ranges. However, here we show that withafusedsilicacapillarycolumnandFIDdetector.The detailsof
+FaradaicefficiencycalculationsaregiveninSupplementaryNote1in
+oxidationofC CO RRproductsduringthepulsesisnegligible
+for the chosen 2 pot 2 ential range (up to ≤1.2 V vs RHE) and the Supporting Information.
+2.3. Ex Situ Characterization. The surface morphology and
+pulse duration (1 s) and that the changes in FE observed are
+structure of the catalysts were investigated using SEM (Thermo
+likely related to interfacial pH and structural catalyst changes. Fisher Scientific, Apreo SEM) and TEM (JEOL Ltd., ARM200F).
+Cyclic voltammetry, operando X-ray absorption spectroscopy SamplesforTEMwerepreparedbycoatinganickelgrid(400mesh
+(XAS), operando surface-enhanced Raman spectroscopy withalacey-carbonfilm,PLANOGmbH)withthecatalystdispersed
+(SERS), ex situ scanning electron microscopy (SEM), and ex inhexanebeforeand after the CORR.
+2
+situ transmission electron microscopy (TEM) measurements 2.4. Operando Characterization. The high surface to volume
+allowed us to extract correlations between the catalytic ratio in these (initially cubic) nanostructured catalysts enhances the
+propertiesandthestructureandchemicalstateofthecatalyst. contributionoftheactivesurfacesitestothesignalyieldedbysample-
+averagingspectroscopictechniques.Thisisinstrumentalforoperando
+tracking the changes in the morphology and chemical state of the
+2. EXPERIMENTAL SECTION
+catalystsduring the CORR usingmethodssuch asXAS.
+2
+2.1. Preparation of Cu NCs and Electrodes. Cu NCs were OperandoXASmeasurementswereperformedattheP64beamline
+prepared by modifying a previously reported procedure.32,33 In a of thePETRA-IIIsynchrotron(Hamburg,Germany).Time-resolved
+typical synthesis, a dilute alkaline solution containing Cu ions was quickX-rayabsorptionfinestructure(QXAFS)spectrawerecollected
+prepared by adding 8 mL of a CuSO·6HO solution (0.1 M) and influorescencemode.Ahomemadeflowcellwasusedtoacquirethe
+4 2
+28 mL of a NaOH solution (1 M) to 732 mL of ultrapure water at XASspectraunderthereactionconditions.Intheoperandoflowcell,a
+roomtemperature.Afterthemixturewasstirredfor10s,32mLofan KaptonwindowwasinstalledtoallowX-raystoilluminatethecatalyst
+L-ascorbicacidsolution (0.25M)was added.The solutionwas then on the GDE from the back and collect the emitted fluorescence
+stirredforafurther13min.Thesolutionwascentrifugedandwashed (Figure S2). All samples were measured in air and under operando
+severaltimeswith waterand ethanol. conditions corresponding to potentiostatic and pulsed electrolysis.
+To prepare the electrodes on a GDE, a catalyst ink was made by The details of the XAS data acquisition and processing, as well as
+dispersing 0.5 mg of the catalyst powder with ∼22 wt % of Nafion schematics of the flow cell employed, are given in Supplementary
+(relative to the total loading, Sigma-Aldrich) in 1 mL of methanol. Note 2 inthe SupportingInformation.
+7579 https://doi.org/10.1021/jacs.1c03443
+J.Am.Chem.Soc.2021,143,7578−7587
+
+
+===== PAGE 3 =====
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+Operando surface-enhanced Raman spectroscopy (SERS) was trackedthechemicalstateofthecatalystbymeansofXAS(see
+carried out with a Raman spectrometer (Renishaw, InVia Reflex) Supplementary Note 3 and Figures S3 and S4). XAS data
+coupled with an optical microscope (Leica Microsystems, revealedthattheseCVpeakscanbeassignedtotheformation
+DM2500M) together with a motorized stage for sample tracking
+of Cu O and CuO, respectively, which is in good agreement
+( p R er e f n o i r s m ha e w d , u M sin S g 30 a 0 Si e ( n 1 c 0 o 0 d ) e w d a s fe ta r g ( e 5 ) 2 . 0 C .5 al c ib m ra − t 1 i ) o . n A o n f e t a h r e -in s f y ra st r e e m dla w s a e s r withth 2 eliterature.35Wenote,however,thataccordingtoXAS
+(Renishaw, RL785, λ = 785 nm, P = 500 mW) served as the the formation of Cu(I) species starts at potentials as low as
+excitation source. The backscattered m li a g x ht was Rayleigh-filtered, and 0.6 V but is significantly faster at higher potentials.
+the Raman scattering was collected in the range of 100−1200 cm−1 Furthermore, oxidation of Cu to Cu(II) state starts at ca. 1.0
+with a grating of 1200 lines mm−1 and directed to a CCD detector V, but even at these high potentials, the formation of new
+(Renishaw,Centrus).Fortheoperandomeasurements,theexcitation Cu(I) species is still significant and surpasses that of Cu(II)
+sourcewasfocusedonthesurfaceofthesampleandRamanscattering species. We attribute that, in part, to the instability of Cu(II)
+signals were collected with a water immersion objective (Leica
+under the given reaction conditions, which results in leaching
+microsystems, 63×, numerical aperture 0.9) protected from the
+of Cu(II), and to the partial re-reduction of Cu(II) back to
+electrolyte by a Teflon film (DuPont, film thickness of 0.013 mm)
+Cu(I) (see Supplementary Note 3).
+wrapped around the objective. The collection of each spectrum was
+On the basis of the CV data we selected the pulsed
+performedwith5sofexposuretime.TheRamandatawereprocessed
+using the Renishaw WiRE 5.2 software. The spectra were baseline- electrolysis conditions. Specifically, a 1 s pulse at an anodic
+subtracted using the polynomial feature of eighth order, and cosmic potential (E ) was followed by a 1 s pulse at a cathodic
+an
+rays wereremoved. potential(E ),andthesequencewasrepeatedfor30min.The
+ca
+E wasvariedfrom0.6to1.5VvsRHE,whiletheE valuefor
+an ca
+3. RESULTS AND DISCUSSION the CO RR was held at −0.7 V vs RHE. All potentials
+2
+mentionedinthetextarereferencedvstheRHE,unlessstated
+We first measured the cyclic voltammograms of Cu NCs in
+otherwise. Next, as a control experiment, the selectivity of the
+KOH electrolyte to establish the relevant potential values for Cu NCs under potentiostatic conditions (at −0.7 V for 30
+the pulsed CO RR conditions. As shown in Figure 1a, we
+2 min) was examined (Figure 1b).
+observedtwodistinctanodicpeaksat0.9and1.2VvsRHEin
+It was observed that the current density under these
+the CV curves. To identify these two oxidation peaks, we conditionswas−254mA/cm2andthemainproductswereC
+2
+products,inparticular,C H (FEof40.9%)andC H OH(FE
+2 4 2 5
+of 11%), which is consistent with previous studies.32 This
+control experiment serves as a standard for comparing and
+analyzing the upcoming results of the pulsed electrolysis.
+The current densities and FE data for the potentiostatic
+(reference) and pulsed electrolysis with different values of the
+anodic potential (E ) are shown in Figure 2. All catalytic
+an
+activity data were collected after 30 min of the CO RR under
+2
+the given conditions. High current densities similar to those
+observed under potentiostatic conditions were also obtained
+under the pulsed CO RR with an E value of less than 1.0 V.
+2 an
+Nevertheless, a further increase in the E value (≥1.0 V vs
+an
+RHE) results in a remarkable reduction of the current density
+by ca. 30% in comparison to that under potentiostatic
+conditions. The FE of the pulsed electrolysis also showed
+differentselectivitytrendsdependingontheE value.TheFE
+an
+atE =0.6 VshowedaselectivitytowardC products similar
+an 2
+tothatobservedunderpotentiostaticconditions.Nonetheless,
+upon an increase in the E value to 0.9 V, the C product
+an 2
+selectivityincreasedandachievedatotalC FEof63.6%(with
+2
+aFEforC H of44%andaFEforC H OHof20%),whichis
+2 4 2 5
+about 10% higher than that of the potentiostatic CO RR for
+2
+the same cathodic potential of −0.7 V. Interestingly, a further
+increaseintheanodicpotentialdoesnotresultinanimproved
+selectivity to C products. Instead, at E = 1.0 V, the C
+2 an 2
+productselectivitydecreasesandtheCH productselectivityis
+4
+enhanced.AtE valuesover1.0V,CH wasthemainreaction
+an 4
+productandachievedamaximumof53.9%FEatE =1.5V.
+an
+The formation of Cu oxide species between ∼0.8 and
+∼1.5 V as observed during the CV scan in Figure 1 and the
+changesintheFEinFigure2arecloselycorrelated.However,
+toaccuratelycharacterizetheoxidationstateofCuunderthese
+reactive conditions, operando spectroscopic methods are
+needed, as shown below.
+Figure1.(a)CyclicvoltammogramoftheCuNCsobtainedatascan We investigated whether the differences in catalyst activity
+rateof1mV/sinthe1MKOHelectrolyte.(b)FEofCuNCsunder and selectivity could be attributed to dynamic changes in the
+potentiostaticconditionsat −0.7 V vsRHEinthe flow cell. catalyst structure and composition under pulsed CO RR
+2
+7580 https://doi.org/10.1021/jacs.1c03443
+J.Am.Chem.Soc.2021,143,7578−7587
+
+
+===== PAGE 4 =====
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+Figure 3. Current density (top) and FE (bottom bar graph) of the
+Figure 2. Current density (top) and FE (bottom bar graph) at a
+pulsedelectrolysiswithE =0.9and1.2VandthecathodicpulseE
+potentiostatic −0.7 V vs RHE and under pulsed electrolysis =−0.7V.Thearrowsind a i n catethatthesamesamplespretreatedusin c g a
+conditions with the different E values indicated and the same E
+an ca pulsedelectrolysisweresubsequentlymeasuredataconstantpotential
+= −0.7 V vs RHE cathodic potential in all cases. The activity and of −0.7 V vs RHE. The activity and selectivity data reported are an
+selectivity data reported are an average of at least three different average of at least three different measurements on analogously
+measurements on analogously prepared fresh independent samples,
+preparedfreshindependentsamples,andtheerrorisestimatedasthe
+andthe erroris estimatedasthe standard deviation.
+standard deviation.
+pulsedelectrolysis(Figure4),aswellastime-resolvedoperando
+conditions or whether they are associated with irreversible XAS(Figure5)andoperandoSERSmeasurements(Figure6).
+changes in the catalyst morphology. To this end, we first ran Regardlessoftheelectrolysismode,theSEMimagesshowed
+thepulsedelectrolysiswitheitherE =0.9or1.2Vfor30min thatthewell-definedcubicshape(31±4nminsize)oftheas-
+an
+andthenexposedthesesamplestopotentiostaticconditionsat prepared samples changed after the reaction. In particular, the
+−0.7 V. Interestingly, as shown in Figure 3, the results samples exposed to the pulsed electrolysis evolved into
+obtained in these two cases showed a completely different irregularly shaped agglomerates larger than those found in
+behavior.Inthecaseof thetreatmentwithE =0.9 Vpulses, the samples treated under potentiostatic CO RR. The TEM
+an 2
+the enhanced C selectivity was maintained even after the images illustrate more clearly the morphological differences
+2
+pulseswereinterruptedandthesamecatalyticpropertieswere among the three sample types after the reaction. The sample
+measuredunderpotentiostaticconditions.Thisresultindicates exposed to potentiostatic CO RR conditions transformed into
+2
+thattheenhancementinC productioninducedbythepulsed agglomerates that have Cu NCs stacked on top of each other.
+2
+pretreatment can be assigned to irreversible changes in the The agglomerated Cu NCs also partially preserved their cubic
+catalyst morphology. Nevertheless, in the case of the shapes. This shape stability is consistent with observations by
+pretreatment with E = 1.2 V pulses, the CH selectivity Buonsanti et al.,36 who reasoned that maintaining the particle
+an 4
+observedunderthepulsedelectrolysiswassuppressedafterthe shape after CO RR is a consequence of the lower potentials
+2
+pulseswerestopped,andC chemicalsreappearedasthemain required in the gas-fed flow cell (ca. −0.7 V vs RHE) in
+2
+CO RR products. In addition, we observed that the current comparison to the H-type cell configuration, where typically
+2
+density, partially suppressed under the E = 1.2 V pulsed −1.0 to −1.1 V vs RHE is used.
+an
+conditions, recovered the level attained under potentiostatic Ontheotherhand,thesampleafterpulsedelectrolysiswith
+electrolysis with a fresh catalyst. This allows us to conclude E =0.9Vdidnotshowastructureconsistingofagglomerated
+an
+that the suppression of C product formation, the decrease in cubes. Instead, the NCs transformed into larger particles. At
+2
+currentdensity,andtheenhancementinCH selectivityunder E =1.2V,wealsoobservedCu Oparticlesonthesurfaceof
+4 an 2
+pulsedCO RRwithE valuesabove1.0Varealltheresultsof theCucatalystsinsomecases(FigureS5),butthiscannotbe
+2 an
+dynamicandreversiblechangesinducedbythepulsedreaction unambiguously attributed to the effect of pulsed electrolysis
+conditions. because the samples were transferred in air. Nevertheless, it is
+We further elucidated the respective role of irreversible clear that the Cu reconstruction under pulsed conditions was
+changes in the Cu NC morphology and that of dynamic (and more significantincomparison tothepotentiostatictreatment
+reversible) changes in the Cu NC structure on the catalytic and led to the creation of catalyst particles with a rougher
+properties under pulsed CO RR conditions. For this purpose, surface. Figure S6 compares scanning TEM and energy
+2
+weperformedexsituSEMandTEMmeasurementsofsamples dispersive X-ray spectroscopy (EDX) maps of the samples
+in their as-prepared state and after the potentiostatic and after treatment with potentiostatic and pulsed electrolysis
+7581 https://doi.org/10.1021/jacs.1c03443
+J.Am.Chem.Soc.2021,143,7578−7587
+
+
+===== PAGE 5 =====
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+Figure 4. (a−d) SEM and (e−h) TEM images of Cu NCs samples (a, e) before and (b,f) after potentiostatic electrolysis and pulsed CORR
+2
+conditionswith(c, g) E = 0.9 Vand (d,h) 1.2 V.Scale bars:(a−d)100 nm;(e−h) 20nm.
+an
+Figure 6. Periodic oxidation and reduction of pre-reduced Cu NCs
+under60spulseswithE =−0.7VandE =0.9and1.2V.(a)Time
+ca an
+dependence of the Cu(0), Cu(I), and Cu(II) concentrations, as
+obtained from LCA-XANES. XANES spectra corresponding to
+Figure 5. Time-dependent Cu K-edge (a) XANES and (b) Fourier-
+metallic Cu, CuO, CuO, and Cu(OH) were used as references.
+transformed(FT)EXAFSspectrashowingthereductionofCuNCs 2 2
+Weights corresponding to CuO and Cu(OH) are shown separately
+underthepulsedCORRwith1spulsesandE =0.9V.(c)Results 2
+ofa linearcombinatio 2 nfitting of XANES spect a r n aforCuNCsunder (green and purple circles, respectively). The sequence of applied
+potential pulses is also shown in (a). (b, c) Enlarged regions of (a),
+the potentiostatic CORR and pulsed reaction conditions with 1 s
+2 correspondingtothefirstthreepulseswith(b)E =0.9Vand(c)E
+pulsesandE =0.9and1.2V.SpectraformetallicCu,CuO,CuO, an an
+andCu(OH) an wereusedasreferencesfortheLCAfitting.Th 2 eCu(II) = 1.2V.
+2
+concentration reported is the sum of CuO and Cu(OH)
+2
+contributions.WeightsoftheothercomponentsareshowninFigure conditions with E an = 0.9 and 1.2 V, respectively. The maps
+S11. suggestahigheroxygencontentinthepulsedsamples,butwe
+werenotabletocollecthighersignal-to-noisemapsduetothe
+presence of the Nafion binder.
+7582 https://doi.org/10.1021/jacs.1c03443
+J.Am.Chem.Soc.2021,143,7578−7587
+
+
+===== PAGE 6 =====
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+OperandoXASprovidesfurtherdetailsaboutthechangesin Thelatterisassignedtotheirreversiblechangesinthecatalyst
+thecatalyststructureunderdifferentCO RRregimes.Changes morphology taking place during the pulsed protocols. In
+2
+in the Cu K-edge X-ray absorption near-edge structure particular,ourTEMdata(Figure4)revealedanincreaseinthe
+(XANES) and Fourier-transformed (FT) extended X-ray NCsizeduringthepulsetreatments,whichwasalsoassociated
+absorption fine structures (EXAFS) spectra for fresh Cu NCs with a decrease in the current density due to the smaller
+exposed to pulsed reaction conditions with E = 0.9 V are surface area available (Figure S17). This reconstructed NC
+an
+showninFigure5a,b.RawEXAFSdataandthecorresponding morphologyisalsoexpectedtoaffecttheoxidationstate.Prior
+plots for the potentiostatic CO RR and pulsed reaction literaturereportsrevealedthatdifferentlyorientedCusurfaces
+2
+conditions with E = 1.2 V are shown in Figure S7 in the display different oxidation kinetics.38,39 Our {100} nanocubes
+an
+SupportingInformation.InallcasesweobservethatCu,which are transformed during the pulse electrolysis into rougher
+in the fresh samples is predominantly in the Cu(I) state, is morphologies with likely distinct oxidation dynamics. While
+gradually reduced, as indicated by a characteristic shift of the extrapolation of the results collected with 60 s pulses to the
+absorptionedgetohigherenergiesandachangeintheXANES casewith1spulsesshouldbedonewithcaution,inbothcases
+features (Figure 5a), as well as a decrease in the peaks in the weobserveverysimilartrendsinthesensethattheroleofthe
+FT-EXAFSspectraatca.1.5and3Å(phaseuncorrected)that periodicallyregeneratedoxidespeciesdiminisheswithtime,in
+correspond to the Cu O-like phase. At the same time, a new line with the irreversible changes previously revealed.
+2
+peak in the FT-EXAFS develops at ca. 2 Å (phase The situation is remarkably different when pulses with a
+uncorrected), corresponding to Cu−Cu bonds in metallic higherE valueareapplied.First,under1spulsesatE =1.2
+an an
+Cu.Inordertoextractquantitativeinformation,weperformed V the reduction of the Cu O phase initially present is much
+2
+linear combination analysis (LCA) of the XANES spectra faster than that under 1 s pulses with E = 0.9 V. Moreover,
+an
+(Figure5c),aswellasfittingoftheEXAFSdata(FiguresS8− unlike the potentiostatic and pulsed CO RR cases with lower
+2
+S10). E values,forE =1.2Vthepulsedreactionconditionsresult
+an an
+As shown in Figure S11, both approaches provide good in the formation of a small fraction of Cu(II) species (Figure
+agreementwithrespecttothechangesintheconcentrationsof 5c). The Cu(II) species, however, are not stable under these
+metallic and oxidized Cu species. The small discrepancies conditions and are either dissolved (see Supplementary Note
+observedinsomecasesintheCu(0)contentareattributedto 3) or converted back to Cu(I) species. Indeed, after ca. 200 s
+disorder effects in the EXAFS data. under pulsed CO RR with E = 1.2 V, the contribution of
+2 an
+We observe that the transformations in the catalyst’s Cu(II) decreases to practically zero, while a significant
+oxidation state under potentiostatic CO RR conditions and enhancement in the population of Cu(I) species is present.
+2
+inthepulsedregimewithE =0.9Vproceedinaqualitatively TheconcentrationofCu(I)speciesisca.20%,whichindicates
+an
+similarway,althoughthereductionisslowerinthelattercase. the formation of a thick oxide layer. The conversion of Cu(I)
+NoteherethatthetimeresolutionofourXASexperiment(ca. firsttoCu(II)andthenbacktoCu(I)speciesisalsosupported
+5 s per spectrum in this case) is not sufficient to track the bytheEXAFSfittingresults,whichdemonstrateanincreasein
+changesinthecatalystoxidationstateduringtheindividual1s the Cu−O bond length during the first 100 s under pulsed
+potential pulses. Nevertheless, the average oxidation states of CO RR conditions and then its decrease back to the original
+2
+the Cu NCs after ca. 1500 s of potentiostatic CO RR value(FigureS12),inagreementwiththedifferenceinCu−O
+2
+conditions at −0.7 V and under pulsed CO RR (with E = bond length in CuO and Cu O oxides (1.937 and 1.836 Å,
+2 an 2
+0.9 V and E = −0.7 V) are practically the same. respectively). The QXAFS results collected under 60 s pulses
+ca
+This finding is different from that reported in a recent (Figure6)confirmthetrendsinthedatasetwith1spulses.In
+operando XAS study on another oxide-derived catalyst under particular,theperiodicapplicationofananodicpotentialdrives
+pulsed reaction conditions, where an increase in the average oscillations intheCu(I)concentration,whilethecontribution
+catalyst oxidation state was reported under pulsed conditions of Cu(II) species is detectable only during the first few
+with E = 0.5 V.37 We attribute this difference to the much potentialcycles(Figure6c).Moreover,unlikewhatisobserved
+an
+shorteroxidativepulselengthsemployedinourstudy(1shere inthecaseofE =0.9V,underE =1.2Vpulses,theaverage
+an an
+vs 10 s in ref 37) and to the much higher current densities concentration of Cu(I) does not decrease with time.
+achieved in our flow cell setup during the cathodic pulse, Instead, in this regime a prolonged exposure to pulsed
+resulting in a faster catalyst reduction. Moreover, irreversible conditions suppresses the catalyst reduction under a cathodic
+changes in the catalyst morphology seem to diminish the potential and minimizes the difference between the catalyst
+reoxidation efficiency of our catalyst. To demonstrate this, in reduction and oxidation rates. Indeed, as shown in Figure 6a,
+Figure 6 we show the results of a XANES analysis for an the changes in the Cu(0) concentration profile during
+additional experiment, where longer pulses (60 s) with the reductive/oxidative pulses with E = 1.2 V are more
+an
+same E and E values were applied. The increased pulse symmetrical after 10 cycles in comparison to those during
+an ca
+length allowed us in this case to directly track the time- the first few cycles and are also more symmetrical than those
+dependent changes in the catalyst composition and structure observed under pulses with E = 0.9 V.
+an
+using operando QXAFS. The results obtained support that the Complementing bulk-sensitive XAS data, operando SERS
+periodic application of the E = 0.9 V potential results in a measurements provide an important insight into the surface
+an
+significantreoxidationofthecatalyst(Figure6a).Thecationic speciation under the CO RR at high current densities and
+2
+Cu species generated, however, are removed as soon as the different pulse protocols. Figure 7 shows Raman spectra
+cathodic potential pulse is applied, and more importantly, the acquired under an open circuit potential (OCP) and during
+reduction of the Cu NCs is clearly much faster than the the potentiostatic and pulsed CO RR. Under the OCP, the
+2
+oxidation (Figure 6b). characteristic bands of Cu O were observed at 624, 523, and
+Moreover,theamountofoxidegeneratedduringeachpulse 144 cm −1.40−44 Under po 2 tentiostatic conditions at −0.7 V,
+of the anodic potential decreases for each subsequent pulse. these bands vanished. Meanwhile, new bands appeared at 530
+7583 https://doi.org/10.1021/jacs.1c03443
+J.Am.Chem.Soc.2021,143,7578−7587
+
+
+===== PAGE 7 =====
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+Previous studies in H-type cells have demonstrated that the
+presenceofdefects,specificfacets,andgrainboundariesonthe
+Cu surface promotes the C−C coupling required for C
+product
+generation.5−8,45−47
+It should be noted not only tha
+2
+t
+the pulse electrolysis treatment employed here affects the
+catalyst morphology, chemical state, and local pH around the
+activemotifsbutalsothattheoxidativepotentialsmightresult
+intheoxidationofalcohols,aldehyde,andformatetogenerate
+more carbonaceousintermediates(including *CO), which are
+keyintermediatestoC products,particularlyC H .However,
+2+ 2 4
+thelattereffectwasdiscardedasasignificantcontributortothe
+selectivity trends obtained, since the enhanced C selectivity
+2+
+was preserved after the pulse treatment was interrupted and
+the same sample was subsequently measured under potentio-
+static conditions (constant negative applied potential). This
+indicates that irreversible changes in the sample morphology
+Figure7.(a)Operandosurface-enhancedRamanspectraunderOCP,
+takingplaceduringthepulsetreatmentaremainlyresponsible
+potentiostatic operation at −0.7 V, and pulsed conditions with
+differentE values.DashedlinesrepresenttheRamanbandsofCuO for the improved C 2+ selectivity detected.
+(black),Cu an −OH(red), andCu−CO(blue). 2 In the case of pulses with E an = 1.2 V, where CH 4 is
+produced as the main product, XAS and SERS point to the
+formationofaCu Olayerthatcannotbefullyremovedduring
+2
+and368cm −1.Thesebandsareassociatedwiththepresenceof the cathodic pulse. The low conductivity of the Cu 2 O shell
+*OH and *CO on the Cu surface, and this finding is thus in formed on the surface of the metallic Cu NCs is likely
+linewithpreviousRamanstudiescarriedoutforoxide-derived responsible for the decrease in the current density48 observed
+Cu nanostructures in an alkaline electrolyte.41−43 Under the in Figure 2. Strikingly, this Cu 2 O layer suppresses the
+pulsed electrolysis conditions, the adsorbed *CO band was formationofC 2 productsyetappearstoenhancetheformation
+detected, regardless of the E an value, suggesting that *CO of CH 4 . Thisresult is intriguing,since normally metallicCu is
+could serve as an intermediate for the production of considered to be the active site for methane formation. Given
+hydrocarbons. Note here that the time resolution of the thatouroperandoSERSdatastilldisplaythepresenceofbonds
+SERS measurements (5 s per spectrum) does not allow us to between metallic Cu and *CO adsorbates under pulsed
+track the changes in the adsorbate coverage during each conditions, this result implies that metallic Cu and Cu 2 O
+individual pulse, and therefore it only provides information coexist on the catalyst surface during pulsed electrolysis.
+about the average state of the catalyst surface. In contrast to Therefore, we postulate that the active sites for CH 4
+theresultsfor*CO,theadsorbed*OHbandshowedastrong production are still metallic Cu species and that the
+dependenceontheE value.Thepulsedelectrolysistreatment enhancement in CH selectivity obtained for E = 1.2 V can
+with an E value bel a o n w 0.8 V had no significant influence on be attributed to a p 4 H effect. It is well-known an that the CH
+the intens a i n ty of this band. However, increasing the anodic production in the CO RR is greatly affected by the loca 4 l
+2
+potential to E = 0.9 V and higher resulted in a noticeable pH.9,49 In fact, our operando SERS data revealed the
+an
+decrease in this band’s intensity, paralleled by the appearance consumption of OH species due to the regeneration of
+of bands related to the Cu O phase. These Cu O bands were Cu O species during the anodic pulse. This condition would
+2 2 2
+morepronouncedatE valuesover1.0V.Therefore,ingood leadtolocalOHconsumption,resultinginarapiddecreasein
+an
+agreement with the operando XAS data, SERS data also the local pH near the surface of the catalyst. The locally
+indicatedthatthepulsedelectrolysisathighE valuesresulted reduced pH may make the reaction pathway favorable toward
+an
+in the accumulation of Cu O species. An important finding CH production. To test this, we used different buffer
+2 4
+from SERS is that the band of absorbed *OH was reduced electrolytes as controls and found that a weakly acidic
+significantly in intensity when Cu O was accumulated, environment indeed produced CH as the main product
+2 4
+suggesting that the formation of Cu O consumed the *OH instead of C products (Figure S13). Interestingly, we also
+2 2
+species on the Cu surface. This is a reasonable assumption, observedthattheuseofaweakacidasanelectrolyteincreased
+considering that in the alkaline electrolyte Cu O is produced the H selectivity. This observation is different from that for
+2 2
+undertheanodicpotentialbythereactionofmetallicCuwith the pulsed electrolysis, where the effective suppression of H
+2
+OH ions (2Cu + 2OH − → Cu O + H O). From this production takes place, which is likely due to the low proton
+observation, we infer that the local p
+2
+H near th
+2
+e surface of the concentration(ca.10
+−13.7mol/L)inthebulkKOHelectrolyte.
+Cu NCs must transiently decrease during the pulsed Given that H production is regarded as a competing reaction
+2
+electrolysis. with CO reduction, these results highlight that the pulsed
+2
+On the basis of the XAS, SERS, and microscopy results, we electrolysis is an effective way to produce CH , while it
+4
+conclude that the effect of the pulsed electrolysis in the flow suppresses H production. Furthermore, the complex inter-
+2
+cell configuration on the selectivity for either C products or actions taking place at the electrolyte−catalyst interface are
+2
+CH depends strongly on the E value. For E values below likely strongly influenced by the presence of the binder/
+4 an an
+0.9 V, the enhanced C selectivity can be attributed to Nafion, which is currently largely overlooked in the literature
+2
+irreversible changes in catalyst morphology: namely, to the and requires further study.
+creation of a defective surface with large defective interfaces Theapplicationofhighoxidativepotentialsduringthepulse
+and grain boundaries under harsh pulsed conditions. These protocol deserves special attention. In general, applying high
+defect sites appear to facilitate the C product formation. oxidative potentials can lead to the oxidation of CO RR
+2 2
+7584 https://doi.org/10.1021/jacs.1c03443
+J.Am.Chem.Soc.2021,143,7578−7587
+
+
+===== PAGE 8 =====
+
+Journal of the American Chemical Society ■ pubs.acs.org/JACS Article
+products, which would strongly affect our aforementioned ASSOCIATED CONTENT
+interpretationbasedonchangesinthelocalpH.Inparticular,a *
+sı Supporting Information
+decreasing FE for C products at the expense of an increasing
+2 The Supporting Information is available free of charge at
+CH FEcouldindicateC−Cfissionduringtheoxidativepulse.
+4 https://pubs.acs.org/doi/10.1021/jacs.1c03443.
+To test this possibility, we studied the oxidation behavior of
+ethylene and ethanol by recording gas chromatograms during
+Detailsofoperandogas-fedflowcellconfigurations,XAS
+pulsed electrolysis with oxidative pulses ≤1.2 V with our flow data, TEM-EDX data, and electrochemical data (PDF)
+■
+cell (Figures S14−S16). For the whole pulse potential range,
+we did not detect any ethylene or ethanol oxidation products AUTHOR INFORMATION
+(CO, CH , or CO ) above the impurity level in the gaseous
+4 2 Corresponding Author
+stream.Togetherwiththenear100%FEobservedinFigure2
+Beatriz Roldan Cuenya − Department of Interface Science,
+(calculatedbyonlyaccountingforthecathodiccurrents),these
+resultsstronglysuggestthatC−Cfissiondoesnotoccurunder Fritz-Haber Institute of the Max-Planck Society, 14195
+Berlin, Germany; orcid.org/0000-0002-8025-307X;
+the conditions tested here, likely because of a high activation
+Email: roldan@fhi-berlin.mpg.de
+energy (for a detailed discussion see Supplementary Note 4).
+Finally,stabilitytestsofpotentiostaticandpulsedelectrolysis Authors
+werecarriedoutfor10h(FiguresS17andS18).Weobserved HyoSangJeon−DepartmentofInterfaceScience,Fritz-Haber
+thattheselectivityobtainedunderthegivenpulsedconditions
+Institute of the Max-Planck Society, 14195 Berlin,Germany
+was maintained during the reaction. However, it should be Janis Timoshenko − Department of Interface Science, Fritz-
+noted that the system stability was guaranteed when the
+Haber Institute of the Max-Planck Society, 14195 Berlin,
+electrolyte was periodically refreshed; otherwise, a continuous
+Germany
+decrease in the current density was observed during the Clara Rettenmaier − Department of Interface Science, Fritz-
+reaction (Figure S19). The latter is explained by the gradual Haber Institute of the Max-Planck Society, 14195 Berlin,
+transformationofKOHtocarbonate,resultinginthereduction Germany
+of the electrolyte conductivity.50 Indeed, the change in the Antonia Herzog − Department of Interface Science, Fritz-
+selectivitycausedbythistransformationwasmorepronounced Haber Institute of the Max-Planck Society, 14195 Berlin,
+under the pulsed conditions of CH 4 production, which is Germany
+sensitive to the change in the local pH (Figure S17c). For Aram Yoon − Department of Interface Science, Fritz-Haber
+practical commercial applications of the pulsed electrolysis, Institute of the Max-Planck Society, 14195 Berlin,Germany
+furtherworkisstillrequiredtoaddressthisissue,thusensuring SeeWeeChee−DepartmentofInterfaceScience,Fritz-Haber
+long-term productivity and technoeconomic feasibility. None- Institute of the Max-Planck Society, 14195 Berlin,Germany
+theless, the pulsed electrolysis appears to be a promising Sebastian Oener − Department of Interface Science, Fritz-
+strategy to achieve tunability in the CO 2 RR selectivity at high Haber Institute of the Max-Planck Society, 14195 Berlin,
+current densities. Germany; orcid.org/0000-0003-0770-4089
+Uta Hejral − Department of Interface Science, Fritz-Haber
+4. CONCLUSION Institute of the Max-Planck Society, 14195 Berlin,Germany
+FelixT.Haase−DepartmentofInterfaceScience,Fritz-Haber
+In summary, we have explored the effect of a pulsed CO
+2 Institute of the Max-Planck Society, 14195 Berlin,Germany
+electroreduction procedure on the selectivity of a Cu NC
+catalyst in a gas-fed flow cell configuration. Our results Complete contact information is available at:
+demonstratethatthehydrocarbonselectivitycanbeeffectively https://pubs.acs.org/10.1021/jacs.1c03443
+controlledandthatonecanswitchbetweenC andC product
+1 2
+formation by properly choosing the pulsing conditions. Notes
+Operando spectroscopy and ex situ microscopy measurements T■he authors declare no competing financial interest.
+revealedthatsuchselectivitytrendscanbeassignedtodifferent
+factors. The irreversible changes in the morphology of the Cu ACKNOWLEDGMENTS
+NCs observed after pulsed electrolysis with E an = 0.9 V were This work was funded by the Deutsche Forschungsgemein-
+foundtoplayakeyroleintheenhancementoftheC 2 product schaft (DFG, German Research Foundation), project no.
+formation. Meanwhile, the OH-poor environment achieved at 406944504-SPP 2080, project no. 388390466-TRR 247,
+E = 1.2 V was found to be responsible for the higher subproject A4, and Germany’s Excellence Strategy EXC
+an
+selectivity toward CH . 2008-390540038-UniSysCat. Additional financial support
+4
+We believe that our findings provide new strategies for from the European Research Council under grant ERC-
+controlling the selectivity of Cu catalysts for the electro- OPERANDOCAT (ERC-725915) is also greatly appreciated.
+chemical CO conversion at high current density and new C.R., A.H., and F.T.H. acknowledge support by the IMPRS
+2
+insight into the fundamental processes governing the catalyst FunctionalInterfacesinPhysicsandChemistry.Wealsothank
+properties in the flow cell configuration. While our study was PetrikBischoffforhishelpindesigningandmanufacturingthe
+focused on the effect of the anodic potential (E ) under the flowcellreactors.WethankDr.ArnoBergmannandDr.Chao
+an
+pulsed conditions, we expect that further flexibility in steering Zhan (FHI) for helpful discussions. We acknowledge DESY
+the CO reduction product distribution can be achieved by (Hamburg,Germany),amemberoftheHelmholtzAssociation
+2
+tuningotherparametersofthepulsedprotocolemployed,such HGF, for the provision of experimental facilities. Parts of this
+asthecathodicpotential(E )andtherespectivepulselengths, research were carried out at PETRA III, and we thank Dr.
+ca
+offering new opportunities for the selective generation of the Vadim Murzin and Dr. Wolfgang Caliebe for assistance in
+desired products according to the industrial demand. using the P64 beamline.
+7585 https://doi.org/10.1021/jacs.1c03443
+J.Am.Chem.Soc.2021,143,7578−7587
+
+
+===== PAGE 9 =====
+
+■Journal of the American Chemical Society pubs.acs.org/JACS Article
+REFERENCES electrochemical CO reduction on copper in aqueous electrolyte.
+2
+Chem. Rev.2019,119,7610−7672.
+(1)Whipple, D. T.; Kenis, P. J.A.Prospectsof CO utilization via
+2 (19) Strain, J. M.; Gulati, S.; Pishgar, S.; Spurgeon, J. M. Pulsed
+direct heterogeneous electrochemical reduction. J. Phys. Chem. Lett.
+electrochemicalcarbonmonoxidereductiononoxide-derivedcopper
+2010, 1,3451−3458. catalyst. ChemSusChem 2020,13,3028−3033.
+(2) Kondratenko, E. V.; Mul, G.; Baltrusaitis, J.; Larrazabal, G. O.;
+(20) Kumar, B.; Brian, J. P.; Atla, V.; Kumari, S.; Bertram, K. A.;
+Perez-Ramirez,J.StatusandperspectivesofCO conversionintofuels
+2 White,R.T.;Spurgeon,J.M.ControllingtheproductsyngasH:CO
+and chemicals by catalytic, photocatalytic and electrocatalytic 2
+processes.Energy Environ. Sci. 2013,6,3112−3135. r c a o t p io per t . h A ro C u S gh Ca p ta u l l . se 2 d 0 - 1 b 6 ia , s 6, e 4 le 7 c 3 t 9 ro − c 4 h 7 e 4 m 5 i . cal reduction of CO 2 on
+(3) Kuhl, K. P.; Cave, E. R.; Abram, D. N.; Jaramillo, T. F. New
+(21) Aran-Ais, R. M.; Scholten, F.; Kunze, S.; Rizo, R.; Roldan
+insights into the electrochemical reduction of carbon dioxide on
+metalliccoppersurfaces. Energy Environ. Sci.2012,5,7050−7059. Cuenya, B. The role of in situ generated morphological motifs and
+Cu(i) species in C product selectivity during CO2 pulsed
+(4)Hori,Y.,ElectrochemicalCO 2 reductiononmetalelectrodes.In electroreduction. Natu 2 r + eEnergy 2020, 5, 317−325.
+Modern Aspects of Electrochemistry; Vayenas, C., White, R., Gamboa-
+Aldeco,M.,Eds.;Springer: NewYork, 2008;Vol. 42,pp89−189. (22)Kimura,K.W.;Casebolt,R.;CimadaDaSilva,J.;Kauffman,E.;
+Kim, J.; Dunbar, T. A.; Pollock, C. J.; Suntivich, J.; Hanrath, T.
+(5)Li,Y.;Cui,F.;Ross,M.B.;Kim,D.;Sun,Y.;Yang,P.Structure-
+Selective electrochemical CO reduction during pulsed potential
+sensitive CO electroreduction to hydrocarbons on ultrathin 5-fold 2
+twinnedcopp 2 ernanowires. NanoLett.2017,17,1312−1317. stems fromdynamic interface.ACS Catal.2020,10,8632−8639.
+(23) Le Duff, C. S.; Lawrence, M. J.; Rodriguez, P. Role of the
+(6)Mistry,H.;Varela,A.S.;Bonifacio,C.S.;Zegkinoglou,I.;Sinev,
+adsorbedoxygenspeciesintheselectiveelectrochemicalreductionof
+I.; Choi, Y.-W.; Kisslinger, K.; Stach, E. A.; Yang, J. C.; Strasser, P.;
+CO to alcohols and carbonyls on copper electrodes. Angew. Chem.,
+RoldanCuenya,B.Highlyselectiveplasma-activatedcoppercatalysts 2
+Int. Ed. 2017, 56,12919−12924.
+for carbon dioxide reduction to ethylene. Nat. Commun. 2016, 7,
+(24)Yano,J.;Yamasaki,S.Pulse-modeelectrochemicalreductionof
+12123.
+carbondioxideusingcopperandcopperoxideelectrodesforselective
+(7)Loiudice,A.;Lobaccaro,P.;Kamali,E.A.;Thao,T.;Huang,B.
+ethylene formation.J. Appl. Electrochem. 2008,38,1721.
+H.;Ager,J.W.;Buonsanti,R.Tailoringcoppernanocrystalstowards
+(25) Kimura, K. W.; Fritz, K. E.; Kim, J.; Suntivich, J.; Abruna, H.
+C productsinelectrochemicalCO Reduction.Angew.Chem.,Int.Ed.
+20 2 16, 55,5789−5792. 2 D.;Hanrath,T.ControlledselectivityofCO 2 reductiononcopperby
+pulsingtheelectrochemicalpotential.ChemSusChem2018,11,1781−
+(8) Jeon, H. S.; Kunze, S.; Scholten, F.; Roldan Cuenya, B. Prism-
+1786.
+shaped Cu nanocatalysts for electrochemical CO reduction to
+ethylene.ACSCatal. 2018, 8,531−535. 2 (26) Gupta, N.; Gattrell, M.; MacDougall, B. Calculation for the
+cathode surface concentrations in the electrochemical reduction of
+(9) Singh, M. R.; Kwon, Y.; Lum, Y.; Ager, J. W.; Bell, A. T.
+CO inKHCO solutions. J. Appl.Electrochem. 2006,36, 161−172.
+Hydrolysis of electrolyte cations enhances the electrochemical 2 3
+(27) Burdyny, T.; Smith, W. A. CO reduction on gas-diffusion
+reduction of CO over Ag and Cu. J. Am. Chem. Soc. 2016, 138, 2
+13006−13012. 2 electrodes and why catalytic performance must be assessed at
+commercially-relevant conditions. Energy Environ. Sci. 2019, 12,
+(10) Gao, D.; Scholten, F.; Roldan Cuenya, B. Improved CO
+electroreduction performance on plasma-activated Cu catalysts via
+2 1442−1453.
+electrolyte design:Halideeffect. ACS Catal.2017,7,5112−5120. (28) Weekes, D. M.; Salvatore, D. A.; Reyes, A.; Huang, A.;
+(11)Varela,A.S.;Ju,W.;Reier,T.;Strasser,P.Tuningthecatalytic Berlinguette, C. P. Electrolytic CO 2 Reduction in a Flow Cell. Acc.
+activityandselectivityofCuforCO electroreductioninthepresence Chem. Res. 2018,51,910−918.
+2
+ofhalides.ACS Catal.2016,6,2136−2144. (29)Hoang,T.T.H.;Verma,S.;Ma,S.;Fister,T.T.;Timoshenko,
+(12)Rasul,S.;Anjum,D.H.;Jedidi,A.;Minenkov,Y.;Cavallo,L.; J.;Frenkel,A.I.;Kenis,P.J.A.;Gewirth,A.A.Nanoporouscopper-
+Takanabe, K. A highly selective copper-indium bimetallic electro- silver alloys by additive-controlled electrodeposition for the selective
+c A a n t g a e ly w s . t C fo h r em t . h , e In e t. le E c d tr . o 2 c 0 h 1 em 5, ic 5 a 4 l , r 2 e 1 d 4 u 6 c − tio 2 n 15 o 0 f . aqueous CO 2 to CO. 2 el 0 e 1 ct 8 r , o 1 re 4 d 0 u , c 5 t 7 io 9 n 1− o 5 f 7 C 9 O 7. 2 to ethylene and ethanol. J. Am. Chem. Soc.
+(13)Morales-Guio,C.G.;Cave,E.R.;Nitopi,S.A.;Feaster,J.T.; (30)Zhang,J.;Luo,W.;Zuttel,A.Self-supportedcopper-basedgas
+Wang, L.; Kuhl, K. P.; Jackson, A.; Johnson, N. C.; Abram, D. N.; diffusion electrodes for CO 2 electrochemical reduction. J. Mater.
+Hatsukade, T.; Hahn, C.; Jaramillo, T. F. Improved CO reduction Chem. A2019,7,26285−26292.
+2
+activity towards C alcohols on a tandem gold on copper (31) Dinh, C.-T.; Burdyny, T.; Kibria, M. G.; Seifitokaldani, A.;
+2+
+electrocatalyst.NatureCatal.2018,1,764−771. Gabardo,C.M.;GarciadeArquer,F.P.;Kiani,A.;Edwards,J.P.;De
+(14) Yin, G.; Sako, H.; Gubbala, R. V.; Ueda, S.; Yamaguchi, A.; Luna,P.;Bushuyev,O.S.;Zou,C.;Quintero-Bermudez,R.;Pang,Y.;
+Abe, H.; Miyauchi, M. A Cu-Zn nanoparticle promoter for selective Sinton, D.; Sargent, E. H. CO 2 electroreduction to ethylene via
+carbondioxide reduction and its application invisible-light-active Z- hydroxide-mediated copper catalysis at an abrupt interface. Science
+scheme systems using water as an electron donor. Chem. Commun.
+2018,360,783−787.
+2018, 54,3947−3950. (32)Moller,T.;Scholten,F.;Thanh,T.N.;Sinev,I.;Timoshenko,
+(15)Hu,H.;Tang,Y.;Hu,Q.;Wan,P.;Dai,L.;Yang,X.J.In-situ J.; Wang, X.; Jovanov, Z.; Gliech, M.;Roldan Cuenya, B.; Varela, A.
+grown nanoporous Zn-Cu catalysts on brass foils for enhanced S.; Strasser, P. Electrocatalytic CO 2 reduction on CuO x nanocubes:
+electrochemical reduction of carbon dioxide. Appl. Surf. Sci. 2018, Tracking the evolution of chemical state, geometric structure, and
+445, 281−286. catalytic selectivity using operando spectroscopy. Angew. Chem., Int.
+(16) Feng, Y.; Li, Z.; Liu, H.; Dong, C.; Wang, J.; Kulinich, S. A.; Ed. 2020,59, 17974−17983.
+Du, X. Laser-prepared CuZn alloy catalyst for selective electro- (33)Ke,W.-H.;Hsia,C.-F.;Chen,Y.-J.;Huang,M.H.Synthesisof
+chemicalreductionofCO toEthylene.Langmuir2018,34,13544− ultrasmallCuOnanocubesandoctahedrawithtunablesizesforfacet-
+2 2
+13549.
+dependentopticalpropertyexamination.Small2016,12,3530−3534.
+(17)Jeon,H.S.;Timoshenko,J.;Scholten,F.;Sinev,I.;Herzog,A.; (34) Liu, K.; Smith, W. A.; Burdyny, T. Introductory guide to
+Haase,F.T.;RoldanCuenya,B.Operandoinsightintothecorrelation assemblingandoperatingGasdiffusionelectrodesforelectrochemical
+between the structure and composition of CuZn nanoparticles and CO reduction. ACS Energy Lett.2019,4,639−643.
+2
+theirselectivity forthe electrochemical CO reduction. J. Am. Chem. (35) Giri, S. D.; Sarkar, A. Electrochemical study of bulk and
+2
+Soc.2019,141,19879−19887. monolayercopperinalkalinesolution.J.Electrochem.Soc.2016,163,
+(18)Nitopi,S.;Bertheussen,E.;Scott,S.B.;Liu,X.;Engstfeld,A.K.; H252−H259.
+Horch,S.;Seger,B.;Stephens,I.E.L.;Chan,K.;Hahn,C.;Norskov, (36) De Gregorio, G. L.; Burdyny, T.; Loiudice, A.; Iyengar, P.;
+J. K.; Jaramillo, T. F.; Chorkendorff, I. Progress and perspectives of Smith, W. A.; Buonsanti, R. Facet-dependent selectivity of Cu
+7586 https://doi.org/10.1021/jacs.1c03443
+J.Am.Chem.Soc.2021,143,7578−7587
+
+
+===== PAGE 10 =====
+
+Journal of the American Chemical Society pubs.acs.org/JACS Article
+catalysts in electrochemical CO reduction at commercially viable
+2
+currentdensities.ACS Catal.2020,10, 4854−4862.
+(37) Lin, S.-C.; Chang, C.-C.; Chiu, S.-Y.; Pai, H.-T.; Liao, T.-Y.;
+Hsu,C.-S.;Chiang,W.-H.;Tsai,M.-K.;Chen,H.M.Operandotime-
+resolved X-ray absorption spectroscopy reveals the chemical nature
+enabling highly selective CO reduction. Nat. Commun. 2020, 11,
+2
+3525.
+(38) Lian, X.; Xiao, P.; Yang, S.-C.; Liu, R.; Henkelman, G.
+Calculations of oxide formation on low-index Cu surfaces. J. Chem.
+Phys.2016, 145, 044711.
+(39) Bagger, A.; Arán-Ais, R. M.; Halldin Stenlid, J.; Campos dos
+Santos, E.; Arnarson, L.; Degn Jensen, K.; Escudero-Escribano, M.;
+Roldan Cuenya, B.; Rossmeisl, J. Ab initio cyclic voltammetry on
+Cu(111), Cu(100) and Cu(110) in acidic, neutral and alkaline
+Solutions.ChemPhysChem 2019, 20,3096.
+(40) Deng, Y.; Handoko, A. D.; Du, Y.; Xi, S.; Yeo, B. S. In situ
+Raman spectroscopy of copper and copper oxide surfaces during
+electrochemical oxygen evolution reaction: Identification of CuIII
+oxidesascatalyticallyactivespecies.ACSCatal.2016,6,2473−2481.
+(41) Mandal, L.; Yang, K. R.; Motapothula, M. R.; Ren, D.;
+Lobaccaro, P.; Patra, A.; Sherburne, M.; Batista, V. S.; Yeo, B. S.;
+Ager,J.W.;Martin,J.;Venkatesan,T.Investigatingtheroleofcopper
+oxideinelectrochemicalCO reductioninrealtime.ACSAppl.Mater.
+2
+Interfaces2018, 10,8574−8584.
+(42) Zhao, Y.; Chang, X.; Malkani, A. S.; Yang, X.; Thompson, L.;
+Jiao, F.; Xu, B. Speciation of Cu surfaces during the electrochemical
+COreductionreaction.J. Am. Chem. Soc. 2020,142,9735−9743.
+(43) Jiang, S.; Klingan, K.; Pasquini, C.; Dau, H. New aspects of
+operando Raman spectroscopy applied to electrochemical CO
+2
+reductionon Cufoams.J. Chem. Phys.2019,150,041718.
+(44)Chen,X.;Henckel,D.A.;Nwabara,U.O.;Li,Y.;Frenkel,A.I.;
+Fister, T. T.; Kenis, P. J. A.; Gewirth, A. A. Controlling speciation
+during CO reduction on Cu-alloy electrodes. ACS Catal. 2020, 10,
+2
+672−682.
+(45) Aran-Ais, R. M.; Gao, D.; Roldan Cuenya, B. Structure- and
+electrolyte-sensitivity inCO electroreduction. Acc.Chem. Res. 2018,
+2
+51,2906−2917.
+(46) Reske, R.; Mistry, H.; Behafarid, F.; Roldan Cuenya, B.;
+Strasser, P. Particle size effects in the catalytic electroreduction of
+CO onCunanoparticles.J.Am.Chem.Soc.2014,136,6978−6986.
+2
+(47)Verdaguer-Casadevall,A.;Li,C.W.;Johansson,T.P.;Scott,S.
+B.; McKeown, J. T.; Kumar, M.; Stephens, I. E. L.; Kanan, M. W.;
+Chorkendorff,I.ProbingtheactivesurfacesitesforCOreductionon
+oxide-derived copper electrocatalysts. J. Am. Chem. Soc. 2015, 137,
+9808−9811.
+(48)Hajimammadov,R.;Bykov,A.;Popov,A.;Juhasz,K.L.;Lorite,
+G.S.;Mohl,M.;Kukovecz,A.;Huuhtanen, M.;Kordas,K.Random
+networks of core-shell-like Cu-Cu2O/CuO nanowires as surface
+plasmonresonance-enhanced sensors.Sci. Rep.2018,8,4708.
+(49) Varela, A. S.; Kroschel, M.; Reier, T.; Strasser, P. Controlling
+the selectivity of CO electroreduction on copper: The effect of the
+2
+electrolyte concentration and the importance of the local pH. Catal.
+Today2016,260,8−13.
+(50)Dinh,C.-T.;GarciadeArquer,F.P.;Sinton,D.;Sargent,E.H.
+High Rate, Selective, and stable electroreduction of CO to CO in
+2
+basic andneutral media.ACS Energy Lett.2018,3,2835−2840.
+7587 https://doi.org/10.1021/jacs.1c03443
+J.Am.Chem.Soc.2021,143,7578−7587

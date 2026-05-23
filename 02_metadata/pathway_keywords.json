@@ -1,0 +1,59 @@
+{
+  "P1": [
+    "*CO dimerization",
+    "CO dimerization",
+    "*OCCO",
+    "OCCO",
+    "*COCO",
+    "COCO",
+    "CO-CO coupling",
+    "CO–CO coupling",
+    "C-C coupling between two CO",
+    "C–C coupling between two CO"
+  ],
+  "P2": [
+    "CO-CHO",
+    "CO–CHO",
+    "*CO-*CHO",
+    "*CO–*CHO",
+    "*CHO",
+    "CHO intermediate",
+    "CO and CHO coupling"
+  ],
+  "P3": [
+    "CO-COH",
+    "CO–COH",
+    "*CO-*COH",
+    "*CO–*COH",
+    "*COH",
+    "COH intermediate",
+    "CO and COH coupling"
+  ],
+  "P4": [
+    "CO-CHx",
+    "CO–CHx",
+    "*CHx",
+    "*CH2",
+    "*CH₂",
+    "*CH3",
+    "*CH₃",
+    "CHx intermediate",
+    "hydrogenated carbon intermediate"
+  ],
+  "P5": [
+    "*OCHO",
+    "OCHO",
+    "HCOO*",
+    "HCOO",
+    "formate pathway",
+    "formate intermediate"
+  ],
+  "P6": [
+    "multiple pathways",
+    "mixed pathway",
+    "unclear mechanism",
+    "complex mechanism",
+    "parallel pathway",
+    "bifurcated pathway"
+  ]
+}
