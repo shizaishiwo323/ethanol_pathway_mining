@@ -4,7 +4,7 @@ This project organizes literature mining and visualization for ethanol formation
 
 ## Goal
 
-The goal is to extract pathway-related statements from local PDF papers, classify them into P1-P6 ethanol formation pathways, manually verify pathway roles, and visualize pathway frequency distributions.
+The goal of the current stage is to convert public PDF papers into text, extract mechanism-related candidate sentences, and use AI-assisted semantic filtering to identify sentences that are truly relevant to ethanol formation mechanisms.
 
 ## Project Structure
 
@@ -13,22 +13,20 @@ The goal is to extract pathway-related statements from local PDF papers, classif
 - `02_metadata/`: literature metadata and pathway coding tables.
 - `03_text/`: extracted text from PDFs.
 - `04_extract_results/`: automatic pathway sentence extraction outputs.
-- `05_manual_check/`: manual review tables.
+- `05_manual_check/`: downstream review tables retained for later pathway-level checking.
 - `06_figures/`: generated figures.
 - `07_report/`: final reports and narrative summaries.
 - `scripts/`: reusable Python scripts for extraction, cleaning, statistics, and plotting.
 
 ## Notes
 
-- Keep original PDFs local unless redistribution is permitted.
 - Do not overwrite raw data; save cleaned or derived data as separate files.
-- Track pathway evidence sentences and distinguish `mentioned_pathways` from `main_pathway`.
+- Track pathway evidence sentences, page numbers, and sentence context.
 
 ## Current Workflow
 
-1. Put local PDFs in `01_pdfs/`, or use the existing fallback folder `paper_pdf_folder/`.
-2. Run `python scripts/01_pdf_to_text.py`.
-3. Run `python scripts/02_extract_mechanism_sentences.py`.
-4. Run `python scripts/03_match_pathways.py`.
-5. Review `05_manual_check/manual_check.xlsx` manually.
-6. After review, run scripts `04_summarize_by_paper.py` through `07_plot_sankey.py`.
+1. Store public PDF papers in `01_pdfs/`, or use the existing fallback folder `paper_pdf_folder/`.
+2. Run `python scripts/01_pdf_to_text.py` to convert PDFs into text files stored in `03_text/`.
+3. Run `python scripts/02_extract_mechanism_sentences.py` to extract keyword-triggered candidate sentences with previous/next sentence context.
+4. Run `python scripts/02b_ai_filter_mechanism_sentences.py` to apply AI-oriented semantic relevance filtering.
+5. Check `04_extract_results/ai_mechanism_sentence_candidates.xlsx` and `04_extract_results/extraction_quality_report.xlsx`.

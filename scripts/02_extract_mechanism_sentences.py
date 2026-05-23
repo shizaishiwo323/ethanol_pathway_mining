@@ -1,3 +1,4 @@
+import json
 import re
 from pathlib import Path
 
@@ -7,25 +8,9 @@ from tqdm import tqdm
 
 ROOT = Path(__file__).resolve().parents[1]
 TXT_DIR = ROOT / "03_text"
+TRIGGERS_PATH = ROOT / "02_metadata" / "extraction_triggers.json"
+RAW_OUTPUT_PATH = ROOT / "04_extract_results" / "extracted_mechanism_sentences_raw.xlsx"
 OUTPUT_PATH = ROOT / "04_extract_results" / "extracted_mechanism_sentences.xlsx"
-
-TRIGGERS = [
-    "ethanol",
-    "C2H5OH",
-    "mechanism",
-    "pathway",
-    "intermediate",
-    "C-C coupling",
-    "C–C coupling",
-    "dimerization",
-    "OCCO",
-    "COCO",
-    "CHO",
-    "COH",
-    "OCHO",
-    "formate",
-    "oxygenate",
-]
 
 PAGE_RE = re.compile(r"===== PAGE (\d+) =====")
 SENTENCE_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z(*])")
@@ -48,13 +33,26 @@ def normalize_sentence(sentence: str) -> str:
     return sentence.strip()
 
 
-def trigger_hits(sentence: str) -> list[str]:
+def load_triggers() -> dict[str, list[str]]:
+    with TRIGGERS_PATH.open(encoding="utf-8") as f:
+        return json.load(f)
+
+
+def trigger_hits(sentence: str, triggers: dict[str, list[str]]) -> tuple[list[str], list[str], int]:
     lower = sentence.lower()
     hits = []
-    for trigger in TRIGGERS:
-        if trigger.lower() in lower:
-            hits.append(trigger)
-    return hits
+    categories = []
+    for category, terms in triggers.items():
+        category_hits = [term for term in terms if term.lower() in lower]
+        if category_hits:
+            hits.extend(category_hits)
+            categories.append(category)
+    score = len(hits) + len(categories)
+    if "product_terms" in categories and ("mechanism_terms" in categories or "coupling_terms" in categories):
+        score += 2
+    if "pathway_terms" in categories and "coupling_terms" in categories:
+        score += 2
+    return hits, categories, score
 
 
 def paper_id_from_stem(stem: str) -> str:
@@ -64,6 +62,8 @@ def paper_id_from_stem(stem: str) -> str:
 
 def main() -> None:
     rows = []
+    raw_rows = []
+    triggers = load_triggers()
     txt_paths = sorted(TXT_DIR.glob("*.txt"))
     OUTPUT_PATH.parent.mkdir(exist_ok=True)
 
@@ -72,26 +72,49 @@ def main() -> None:
         paper_id = paper_id_from_stem(txt_path.stem)
         for page, body in split_page_blocks(text):
             body = re.sub(r"(\w)-\s+(\w)", r"\1\2", body)
-            for raw_sentence in SENTENCE_RE.split(body):
-                sentence = normalize_sentence(raw_sentence)
+            sentences = [normalize_sentence(item) for item in SENTENCE_RE.split(body)]
+            sentences = [item for item in sentences if item]
+            for index, sentence in enumerate(sentences):
                 if len(sentence) < 40:
                     continue
-                hits = trigger_hits(sentence)
+                hits, categories, score = trigger_hits(sentence, triggers)
                 if not hits:
                     continue
-                rows.append(
+                row = (
                     {
                         "paper_id": paper_id,
                         "txt_name": txt_path.name,
                         "page": page,
+                        "previous_sentence": sentences[index - 1] if index > 0 else "",
                         "sentence": sentence,
+                        "next_sentence": sentences[index + 1] if index + 1 < len(sentences) else "",
                         "trigger_terms": "; ".join(hits),
+                        "trigger_categories": "; ".join(categories),
+                        "keyword_score": score,
                     }
                 )
+                raw_rows.append(row)
+                rows.append(row)
 
-    df = pd.DataFrame(rows, columns=["paper_id", "txt_name", "page", "sentence", "trigger_terms"])
+    columns = [
+        "paper_id",
+        "txt_name",
+        "page",
+        "previous_sentence",
+        "sentence",
+        "next_sentence",
+        "trigger_terms",
+        "trigger_categories",
+        "keyword_score",
+    ]
+    raw_df = pd.DataFrame(raw_rows, columns=columns)
+    raw_df.to_excel(RAW_OUTPUT_PATH, index=False)
+
+    df = pd.DataFrame(rows, columns=columns)
     df.drop_duplicates(subset=["paper_id", "sentence"], inplace=True)
+    df.sort_values(["paper_id", "page", "keyword_score"], ascending=[True, True, False], inplace=True)
     df.to_excel(OUTPUT_PATH, index=False)
+    print(f"Raw extracted rows: {len(raw_df)} -> {RAW_OUTPUT_PATH.relative_to(ROOT)}")
     print(f"Extracted {len(df)} candidate sentences -> {OUTPUT_PATH.relative_to(ROOT)}")
 
 

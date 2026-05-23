@@ -1,0 +1,37 @@
+{
+  "product_terms": [
+    "ethanol",
+    "C2H5OH",
+    "C2+ oxygenate",
+    "C2+ oxygenates",
+    "oxygenate"
+  ],
+  "mechanism_terms": [
+    "mechanism",
+    "pathway",
+    "route",
+    "intermediate",
+    "transition state",
+    "rate-determining",
+    "rate determining"
+  ],
+  "coupling_terms": [
+    "C-C coupling",
+    "C–C coupling",
+    "dimerization",
+    "CO dimerization",
+    "coupling"
+  ],
+  "pathway_terms": [
+    "OCCO",
+    "COCO",
+    "CHO",
+    "COH",
+    "OCHO",
+    "formate",
+    "HCOO",
+    "CHx",
+    "CH2",
+    "CH3"
+  ]
+}

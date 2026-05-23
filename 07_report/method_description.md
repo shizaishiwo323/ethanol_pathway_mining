@@ -25,12 +25,12 @@ The detailed rules are stored in `02_metadata/pathway_annotation_rules.md`, and 
 
 ## 4. Mechanism Sentence Extraction
 
-`scripts/02_extract_mechanism_sentences.py` searches extracted text for mechanism-related trigger terms, keeps the page number, and writes candidate evidence sentences to `04_extract_results/extracted_mechanism_sentences.xlsx`.
+`scripts/02_extract_mechanism_sentences.py` searches extracted text for mechanism-related trigger terms, keeps the page number, previous sentence, candidate sentence, next sentence, trigger categories, and keyword score. It writes raw and deduplicated outputs to `04_extract_results/`.
 
-## 5. Automatic Pathway Matching
+## 5. AI-Assisted Semantic Filtering
 
-`scripts/03_match_pathways.py` applies the P1-P6 keyword dictionary to candidate sentences and writes `04_extract_results/auto_pathway_matches.xlsx`. These labels are candidates only and require manual review.
+`scripts/02b_ai_filter_mechanism_sentences.py` applies the AI sentence-filtering rubric in `02_metadata/ai_sentence_filter_prompt.md` to separate likely mechanism-relevant sentences from product-performance, background, or parsing-noise sentences.
 
-## 6. Manual Review And Statistics
+## 6. Pathway Matching And Statistics
 
-Manual review is performed in `05_manual_check/manual_check.xlsx`. After review, `scripts/04_summarize_by_paper.py`, `scripts/05_statistics.py`, `scripts/06_plot_bar.py`, and `scripts/07_plot_sankey.py` produce paper-level summaries, frequency tables, and figures.
+Downstream P1-P6 matching and statistics can be run after the semantic filtering stage. Automatic labels remain candidate labels unless they are verified by a stronger review process.
