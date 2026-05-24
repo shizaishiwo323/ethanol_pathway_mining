@@ -73,6 +73,21 @@ def main() -> None:
     client = get_client(config)
     system_prompt = PROMPT_PATH.read_text(encoding="utf-8")
     conflicts = pd.read_excel(CONFLICT_PATH)
+    if conflicts.empty:
+        columns = [
+            "paper_id",
+            "conflict_type",
+            "original_sentence_level_result",
+            "original_paper_level_result",
+            "ai_resolved_main_pathway",
+            "ai_resolved_mentioned_pathways",
+            "ai_resolution_reason",
+            "final_decision",
+        ]
+        pd.DataFrame(columns=columns).to_excel(OUTPUT_PATH, index=False)
+        pd.DataFrame().to_excel(FAILED_PATH, index=False)
+        print("No conflicts to resolve.")
+        return
     sentence_df = pd.read_excel(SENTENCE_PATH)
     paper_df = pd.read_excel(PAPER_PATH)
     sentence_by_paper = {paper_id: group for paper_id, group in sentence_df.groupby("paper_id")}

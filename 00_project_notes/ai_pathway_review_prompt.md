@@ -36,6 +36,7 @@
 - If `*CHO` or `*COH` appears alone without explicit CO-CHO or CO-COH coupling, treat it as weak evidence and use `unclear` or `mention` unless the context proves coupling.
 - If the sentence discusses general C2+ products but not ethanol or C2+ oxygenates, set `ai_ethanol_specific = unclear` or `no`.
 - If multiple pathways are mentioned as alternatives without a clear preference, use `compare`, not `main`.
+- If the sentence and its immediate context do not explicitly connect the pathway to ethanol formation or C2+ oxygenate formation, do not infer ethanol specificity from the paper topic alone.
 - Output only valid json. Do not include markdown, explanations, or extra text outside json.
 
 输出字段必须包含：
