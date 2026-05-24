@@ -53,11 +53,13 @@ The DeepSeek config template is `config/deepseek_config.example.json`. Copy it t
 
 For runtime control, `04b_deepseek_pathway_review.py` sends rows to DeepSeek when they have a rule-matched pathway or are high-relevance mechanism sentences. Rows without pathway cues are retained in `04_ai_pathway_review_results.xlsx` as `fallback_not_sent`, marked `unclear`, and excluded from frequency statistics. This keeps the audit trail complete while avoiding API review of mechanism candidates that do not contain usable P1-P6 pathway evidence.
 
-By default, `run_stage_4_6_deepseek.py` stops if any DeepSeek failed-row table is non-empty. Retry sentence-level failures with:
+By default, `run_stage_4_6_deepseek.py` stops if any DeepSeek failed-row table is non-empty. Retry failed rows with:
 
 ```bash
-python scripts/retry_deepseek_failures.py
+python scripts/retry_deepseek_failures.py --stage sentence
 ```
+
+The retry tool also supports `--stage paper`, `--stage conflict`, and `--stage all`.
 
 Set `ALLOW_FAILED_DEEPSEEK_ROWS=1` only when you intentionally want to continue despite failed DeepSeek rows.
 

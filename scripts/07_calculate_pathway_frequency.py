@@ -1,6 +1,9 @@
+from datetime import datetime, timezone
 from pathlib import Path
 
 import pandas as pd
+
+from utils.deepseek_client import load_config
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -114,6 +117,7 @@ def count_review_source(source: str) -> int:
 
 
 def write_audit(source_priority: str, total_valid: int) -> None:
+    config = load_config()
     paper_failed = ROOT / "05_statistics" / "deepseek_paper_summary_failed.xlsx"
     conflict_failed = ROOT / "05_statistics" / "deepseek_conflict_resolution_failed.xlsx"
     conflict_report = ROOT / "05_statistics" / "pathway_conflict_report.xlsx"
@@ -122,6 +126,10 @@ def write_audit(source_priority: str, total_valid: int) -> None:
     audit = pd.DataFrame(
         [
             {
+                "run_timestamp_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                "model_name": config.get("model", ""),
+                "config_batch_size": config.get("batch_size", ""),
+                "config_temperature": config.get("temperature", ""),
                 "source_priority": source_priority,
                 "n_total_papers": count_rows(PAPER_AI_PATH) or count_rows(PAPER_RULE_PATH),
                 "n_final_include_yes": int(total_valid),
