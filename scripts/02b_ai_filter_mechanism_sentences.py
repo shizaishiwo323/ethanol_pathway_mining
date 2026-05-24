@@ -22,6 +22,11 @@ PATHWAY_RE = re.compile(
     r"(\*?OCCO|\*?COCO|\*?CHO|\*?COH|\*?OCHO|HCOO|formate|\*?CHx|\*?CH2|\*?CH3)",
     flags=re.IGNORECASE,
 )
+EVIDENCE_RE = re.compile(
+    r"\b(DFT|density functional theory|free energy|energy barrier|barrier|"
+    r"in situ|operando|Raman|FTIR|isotope|calculation|calculations|spectroscopy|adsorption energy)\b",
+    flags=re.IGNORECASE,
+)
 PERFORMANCE_RE = re.compile(r"\b(Faradaic|FE|selectivity|current density|partial current|yield|production rate)\b", re.I)
 NOISE_RE = re.compile(r"^(references|acknowledg|author contributions|competing interests)\b", re.I)
 
@@ -42,6 +47,7 @@ def classify_row(row: pd.Series) -> dict[str, str | int]:
     has_oxygenate = bool(OXYGENATE_RE.search(context))
     has_mechanism = bool(MECHANISM_RE.search(context))
     has_pathway = bool(PATHWAY_RE.search(context))
+    has_evidence = bool(EVIDENCE_RE.search(context))
     is_performance = bool(PERFORMANCE_RE.search(sentence)) and not has_mechanism
     is_noise = len(sentence) < 45 or bool(NOISE_RE.search(sentence))
 
@@ -54,6 +60,8 @@ def classify_row(row: pd.Series) -> dict[str, str | int]:
         semantic_score += 3
     if has_pathway:
         semantic_score += 3
+    if has_evidence:
+        semantic_score += 2
     if is_performance:
         semantic_score -= 3
     if is_noise:
@@ -69,6 +77,11 @@ def classify_row(row: pd.Series) -> dict[str, str | int]:
         relevance_level = "high"
         sentence_type = "mechanism"
         rationale = "Context links ethanol, mechanism terms, and pathway/intermediate terms."
+    elif has_evidence and (has_ethanol or has_oxygenate or has_pathway or has_mechanism):
+        ai_relevant = "yes"
+        relevance_level = "medium"
+        sentence_type = "evidence"
+        rationale = "Context contains mechanism evidence terms such as DFT, spectroscopy, isotope, or energy barriers."
     elif has_mechanism and (has_ethanol or has_oxygenate or has_pathway):
         ai_relevant = "yes"
         relevance_level = "medium"
@@ -118,6 +131,7 @@ def write_quality_report(labeled_all: pd.DataFrame, candidates: pd.DataFrame) ->
                 "filtered_candidate_sentences": len(candidates),
                 "high_relevance_sentences": int((labeled_all["relevance_level"] == "high").sum()),
                 "medium_relevance_sentences": int((labeled_all["relevance_level"] == "medium").sum()),
+                "evidence_sentences": int((labeled_all["sentence_type"] == "evidence").sum()),
                 "noise_sentences": int((labeled_all["relevance_level"] == "noise").sum()),
                 "avg_sentences_per_paper": round(len(labeled_all) / max(labeled_all["paper_id"].nunique(), 1), 2),
             }

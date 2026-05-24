@@ -33,5 +33,21 @@
     "CHx",
     "CH2",
     "CH3"
+  ],
+  "evidence_terms": [
+    "DFT",
+    "density functional theory",
+    "free energy",
+    "energy barrier",
+    "barrier",
+    "in situ",
+    "operando",
+    "Raman",
+    "FTIR",
+    "isotope",
+    "calculation",
+    "calculations",
+    "spectroscopy",
+    "adsorption energy"
   ]
 }

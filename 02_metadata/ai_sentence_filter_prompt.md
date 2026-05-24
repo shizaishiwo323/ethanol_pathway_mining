@@ -12,13 +12,15 @@ Return structured labels:
 | --- | --- |
 | ai_relevant | yes / no / uncertain |
 | relevance_level | high / medium / low / noise |
-| sentence_type | mechanism / pathway / intermediate / product_performance / background / parsing_noise |
+| sentence_type | mechanism / pathway / intermediate / evidence / product_performance / background / parsing_noise |
 | ethanol_specific | yes / no / uncertain |
 | oxygenate_related | yes / no |
 | needs_context | yes / no |
 | rationale | short reason |
 
 High relevance means the sentence or its immediate context links ethanol formation to a mechanism, pathway, C-C coupling step, intermediate, or pathway comparison.
+
+Evidence means the sentence provides mechanistic support, such as DFT, free energy barriers, in situ/operando spectroscopy, Raman/FTIR, isotope labeling, calculations, or adsorption-energy analysis.
 
 Medium relevance means the sentence is probably useful but needs nearby context.
 

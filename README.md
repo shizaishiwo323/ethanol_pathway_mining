@@ -22,6 +22,7 @@ The goal of the current stage is to convert public PDF papers into text, extract
 
 - Do not overwrite raw data; save cleaned or derived data as separate files.
 - Track pathway evidence sentences, page numbers, and sentence context.
+- `scripts/02b_ai_filter_mechanism_sentences.py` does not call an external LLM API; it prepares prioritized, rule-based candidate tables for downstream Codex-based semantic analysis.
 
 ## Current Workflow
 
