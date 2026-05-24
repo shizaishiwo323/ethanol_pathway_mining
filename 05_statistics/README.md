@@ -16,7 +16,15 @@ Key columns:
 
 ## `paper_level_ai_summary.xlsx`
 
-Condensed paper-level AI summary used by `scripts/07_calculate_pathway_frequency.py`.
+Condensed paper-level AI summary used by `scripts/07_calculate_pathway_frequency.py`. Preferred generation script: `scripts/05b_deepseek_paper_level_summary.py`; fallback generation occurs in `scripts/05_summarize_pathways_by_paper.py`.
+
+## `deepseek_paper_summary_raw_jsonl.jsonl`
+
+Raw DeepSeek API responses for paper-level summary. This file is created only when `scripts/05b_deepseek_paper_level_summary.py` is run.
+
+## `deepseek_paper_summary_failed.xlsx`
+
+Papers that failed API calls, JSON parsing, or required-field validation during DeepSeek paper-level summary.
 
 ## `pathway_conflict_report.xlsx`
 
@@ -28,8 +36,22 @@ Flags cases requiring second-pass review, including:
 
 ## `pathway_conflict_ai_resolved.xlsx`
 
-Resolution template for second-pass AI review. If `final_decision` is filled, `scripts/07_calculate_pathway_frequency.py` uses the non-empty resolved pathway fields to update the final counts.
+Resolution table for second-pass AI review. Preferred generation script: `scripts/06b_deepseek_resolve_conflicts.py`. If `final_decision` is filled, `scripts/07_calculate_pathway_frequency.py` uses the non-empty resolved pathway fields to update the final counts. `exclude_from_final_statistics` removes that paper from final counts.
+
+## `deepseek_conflict_resolution_raw_jsonl.jsonl`
+
+Raw DeepSeek API responses for conflict resolution. This file is created only when `scripts/06b_deepseek_resolve_conflicts.py` is run.
+
+## `deepseek_conflict_resolution_failed.xlsx`
+
+Conflict rows that failed API calls, JSON parsing, or required-field validation during DeepSeek conflict resolution.
 
 ## `pathway_frequency_summary.xlsx`
 
 Final coarse/fine distribution table by paper count. `mentioned_paper_count` is the coarse distribution, and `main_paper_count` is the fine main-mechanism distribution.
+
+The frequency script applies this precedence:
+
+1. non-empty `pathway_conflict_ai_resolved.xlsx` decisions;
+2. `paper_level_ai_summary.xlsx`;
+3. fallback paper-level pathway summary only when the AI summary is absent.

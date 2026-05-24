@@ -4,3 +4,4 @@ pdfplumber
 tqdm
 plotly
 matplotlib
+openai

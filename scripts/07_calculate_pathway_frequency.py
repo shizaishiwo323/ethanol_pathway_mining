@@ -29,12 +29,20 @@ def main() -> None:
                 mask = df["paper_id"].eq(paper_id)
                 if not mask.any():
                     continue
+                decision = str(row.get("final_decision", "")).strip().lower()
+                if decision == "exclude_from_final_statistics":
+                    df.loc[mask, "final_include"] = "no"
+                    continue
+                if decision == "keep_paper_summary":
+                    continue
                 main = row.get("ai_resolved_main_pathway", "")
                 mentioned = row.get("ai_resolved_mentioned_pathways", "")
                 if str(main).strip() and str(main).lower() != "nan":
                     df.loc[mask, "final_main_pathways"] = main
                 if str(mentioned).strip() and str(mentioned).lower() != "nan":
                     df.loc[mask, "final_mentioned_pathways"] = mentioned
+                if decision == "use_resolved_result":
+                    df.loc[mask, "final_include"] = "yes"
         mentioned_col = "final_mentioned_pathways"
         main_col = "final_main_pathways"
         rejected_col = "final_rejected_pathways"

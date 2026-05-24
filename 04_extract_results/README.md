@@ -36,11 +36,21 @@ Stage 4 rule-based P1-P6 pathway matches for every row in `ai_mechanism_sentence
 
 ## `04_ai_pathway_review_input.xlsx`
 
-Compact table for semantic pathway review. It keeps only the fields needed for AI judgment: paper ID, source text name, sentence ID, sentence, rule-matched pathways, matched keywords, and ethanol/oxygenate flags.
+Compact table for semantic pathway review. It keeps paper ID, source text name, sentence ID, page, previous sentence, sentence, next sentence, rule-matched pathways, matched keywords, and ethanol/oxygenate flags.
 
 ## `04_ai_pathway_review_results.xlsx`
 
-Sentence-level semantic pathway review output. It distinguishes `mention`, `main`, `compare`, `reject`, and `unclear`, and records `ai_final_pathway`, `ai_ethanol_specific`, `ai_evidence_type`, `ai_evidence_reason`, `ai_confidence`, and `ai_include_in_statistics`.
+Sentence-level semantic pathway review output. Preferred generation script: `scripts/04b_deepseek_pathway_review.py`. Offline fallback: `scripts/04_rule_based_semantic_pathway_review.py`. It distinguishes `mention`, `main`, `compare`, `reject`, and `unclear`, and records `ai_final_pathway`, `ai_ethanol_specific`, `ai_evidence_type`, `ai_evidence_reason`, `ai_confidence`, and `ai_include_in_statistics`.
+
+When the DeepSeek script is used, `review_source` records whether a row was returned by DeepSeek or retained as `fallback_not_sent`. The fallback rows remain in the audit table but are excluded from final statistics.
+
+## `deepseek_review_raw_jsonl.jsonl`
+
+Raw DeepSeek API responses for sentence-level review. This file is created only when `scripts/04b_deepseek_pathway_review.py` is run.
+
+## `deepseek_review_failed_rows.xlsx`
+
+Rows that failed API calls, JSON parsing, or required-field validation during DeepSeek sentence-level review.
 
 ## `ai_review_batches/`
 

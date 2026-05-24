@@ -32,6 +32,11 @@
 - `DFT results indicate`、`we propose`、`we demonstrate`、`operando results confirm`、`dominant pathway`、`preferred pathway` 等表达更可能是 `main`。
 - 如果只是讨论 C2+ products，而没有明确 ethanol formation，`ai_ethanol_specific` 标为 `unclear` 或 `no`。
 - 如果路径与 ethanol/oxygenate 无关，不进入最终统计。
+- Only assign `main` if the evidence supports a reaction pathway, intermediate sequence, or mechanism, not merely catalyst performance.
+- If `*CHO` or `*COH` appears alone without explicit CO-CHO or CO-COH coupling, treat it as weak evidence and use `unclear` or `mention` unless the context proves coupling.
+- If the sentence discusses general C2+ products but not ethanol or C2+ oxygenates, set `ai_ethanol_specific = unclear` or `no`.
+- If multiple pathways are mentioned as alternatives without a clear preference, use `compare`, not `main`.
+- Output only valid json. Do not include markdown, explanations, or extra text outside json.
 
 输出字段必须包含：
 
@@ -48,3 +53,19 @@
 | `ai_evidence_reason` | 简短判断理由 |
 | `ai_confidence` | `high` / `medium` / `low` |
 | `ai_include_in_statistics` | `yes` / `no` |
+
+Example json output:
+
+```json
+{
+  "paper_id": "E001",
+  "sentence_id": "S0001",
+  "ai_final_pathway": ["P1"],
+  "ai_role": "main",
+  "ai_ethanol_specific": "yes",
+  "ai_evidence_type": "DFT",
+  "ai_evidence_reason": "The sentence explicitly states that DFT supports an *OCCO-mediated ethanol formation pathway.",
+  "ai_confidence": "high",
+  "ai_include_in_statistics": "yes"
+}
+```
